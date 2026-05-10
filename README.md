@@ -106,6 +106,12 @@ Programs externalize internal logic into verifiable computation, allowing interp
 | [Chain of code: Reasoning with a language model-augmented code emulator](https://arxiv.org/abs/2312.04474) | ICML 2023 |
 | [Method-based reasoning for large language models: Extraction, reuse, and continuous improvement](https://arxiv.org/abs/2508.04289) | 2025 |
 | [Code-enabled language models can outperform reasoning models on diverse tasks](https://arxiv.org/abs/2510.20909) | 2025 |
+| [When Do Program-of-Thought Works for Reasoning?](https://ojs.aaai.org/index.php/AAAI/article/view/29721) | AAAI 2024 |
+| [PAL: Program-Aided Language Models](https://proceedings.mlr.press/v202/gao23f.html) | ICML 2023 |
+| [Show Your Work: Scratchpads for Intermediate Computation with Language Models](https://arxiv.org/abs/2112.00114) | 2021 |
+| [Reasoning Like Program Executors](https://aclanthology.org/2022.emnlp-main.48/) | EMNLP 2022 |
+| [Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments](https://aclanthology.org/2025.findings-acl.817/) | ACL 2025 Findings |
+| [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://openreview.net/forum?id=_VjQlMeSB_J) | NeurIPS 2022 |
 
 #### Hybrid Symbolic–Neural Execution
 
@@ -114,6 +120,8 @@ Programs externalize internal logic into verifiable computation, allowing interp
 | [Self-Verifying Reflection Helps Transformers with CoT Reasoning](https://arxiv.org/abs/2510.12157) | 2025 |
 | [SSR: Socratic Self-Refine for Large Language Model Reasoning](https://arxiv.org/abs/2511.10621) | 2025 |
 | [CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance](https://arxiv.org/abs/2502.04350) | ICML 2025 |
+| [Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/29720) | AAAI 2024 |
+| [Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation](https://arxiv.org/abs/2503.01700) | IROS 2025 |
 
 #### Iterative Code-Grounded Reasoning
 
@@ -126,6 +134,13 @@ Programs externalize internal logic into verifiable computation, allowing interp
 | [Rltf: Reinforcement learning from unit test feedback](https://arxiv.org/abs/2307.04349) | TMLR 2023 |
 | [Rlef: Grounding code llms in execution feedback with reinforcement learning](https://arxiv.org/abs/2410.02089) | ICML 2024 |
 | [Execution guided line-by-line code generation](https://arxiv.org/abs/2506.10948) | 2025 |
+| [R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-Stage Reinforcement Learning](https://arxiv.org/abs/2505.21668) | 2025 |
+| [CYCLE: Learning to Self-Refine the Code Generation](https://dl.acm.org/doi/full/10.1145/3649825) | OOPSLA 2024 |
+| [StepCoder: Improving Code Generation with Reinforcement Learning from Compiler Feedback](https://aclanthology.org/2024.acl-long.251/) | ACL 2024 |
+| [CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning](https://openreview.net/forum?id=WaGvb7OzySA) | NeurIPS 2022 |
+| [CodePRM: Execution Feedback-Enhanced Process Reward Model for Code Generation](https://aclanthology.org/2025.findings-acl.428/) | ACL 2025 Findings |
+| [SatLM: Satisfiability-Aided Language Models Using Declarative Prompting](https://openreview.net/forum?id=8tt9KxyV2s) | NeurIPS 2023 |
+| [Self-Edit: Fault-Aware Code Editor for Code Generation](https://aclanthology.org/2023.acl-long.45/) | ACL 2023 |
 
 ### 🤖 Code for Acting
 
@@ -139,6 +154,8 @@ Generated programs serve as policies, tool calls, behavior trees, or reusable sk
 | [Robots that ask for help: Uncertainty alignment for large language model planners](https://arxiv.org/abs/2307.01928) | CoRL 2023 |
 | [Bootstrap your own skills: Learning to solve new tasks with large language model guidance](https://arxiv.org/abs/2310.10021) | CoRL 2023 |
 | [SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse](https://arxiv.org/abs/2603.03836) | 2026 |
+| [Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition](https://proceedings.mlr.press/v229/ha23a.html) | CoRL 2023 |
+| [Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models](https://ieeexplore.ieee.org/document/10611448/) | ICRA 2024 |
 
 #### Programmatic Policy Generation
 
@@ -151,6 +168,10 @@ Generated programs serve as policies, tool calls, behavior trees, or reusable sk
 | [ALRM: Agentic LLM for Robotic Manipulation](https://arxiv.org/abs/2601.19510) | 2026 |
 | [RACAS: Controlling Diverse Robots With a Single Agentic System](https://arxiv.org/abs/2603.05621) | 2026 |
 | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | 2023 ❓ |
+| [GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models](https://www.nature.com/articles/s44182-025-00065-w) | npj Robotics 2026 |
+| [Code as Policies: Language Model Programs for Embodied Control](https://ieeexplore.ieee.org/document/10160591/) | ICRA 2023 |
+| [Robotic Programmer: Video Instructed Policy Code Generation for Robotic Manipulation](https://arxiv.org/abs/2501.04268) | 2025 |
+| [Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models](https://www.ijcai.org/proceedings/2025/980) | IJCAI 2025 |
 
 #### Lifelong Code-Based Agents
 
@@ -159,6 +180,8 @@ Generated programs serve as policies, tool calls, behavior trees, or reusable sk
 | [Growing with your embodied agent: A human-in-the-loop lifelong code generation framework for long-horizon manipulation skills](https://arxiv.org/abs/2509.18597) | 2025 |
 | [Vireskill: Vision-grounded replanning with skill memory for llm-based planning in lifelong robot learning](https://arxiv.org/abs/2509.24219) | 2025 |
 | [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533) | 2026 |
+| [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://openreview.net/forum?id=ehfRiF0R3a) | TMLR 2023 |
+| [Lifelong Language-Conditioned Robotic Manipulation Learning](https://arxiv.org/abs/2603.05160) | 2026 |
 
 ### 🌍 Code for Environment Modeling
 
@@ -172,6 +195,7 @@ Program states, repositories, traces, simulators, and tests represent state, dyn
 | [Poe-world: Compositional world modeling with products of programmatic experts](https://arxiv.org/abs/2505.10819) | 2025 |
 | [Code2world: A gui world model via renderable code generation](https://arxiv.org/abs/2602.09856) | 2026 |
 | [Code2Worlds: Empowering Coding LLMs for 4D World Generation](https://arxiv.org/abs/2602.11757) | 2026 |
+| [ViStruct: Visual Structural Knowledge Extraction via Curriculum Guided Code-Vision Representation](https://aclanthology.org/2023.emnlp-main.824/) | EMNLP 2023 |
 
 #### Execution-Trace World Modeling
 
@@ -182,6 +206,7 @@ Program states, repositories, traces, simulators, and tests represent state, dyn
 | [Reinforcement World Model Learning for LLM-based Agents](https://arxiv.org/abs/2602.05842) | 2026 |
 | [Agent world model: Infinity synthetic environments for agentic reinforcement learning](https://arxiv.org/abs/2602.10090) | 2026 |
 | [Aligning Agentic World Models via Knowledgeable Experience Learning](https://arxiv.org/abs/2601.13247) | 2026 |
+| [WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment](https://proceedings.neurips.cc/paper_files/paper/2024/file/820c61a0cd419163ccbd2c33b268816e-Paper-Conference.pdf) | NeurIPS 2024 |
 
 #### Code-Grounded Evaluation Environments
 
@@ -195,6 +220,9 @@ Program states, repositories, traces, simulators, and tests represent state, dyn
 | [Geogrambench: Benchmarking the geometric program reasoning in modern llms](https://arxiv.org/abs/2505.17653) | 2025 |
 | [CodeGlance: Understanding Code Reasoning Challenges in LLMs through Multi-Dimensional Feature Analysis](https://arxiv.org/abs/2602.13962) | 2026 |
 | [Endless Terminals: Scaling RL Environments for Terminal Agents](https://arxiv.org/abs/2601.16443) | 2026 |
+| [Reflexion: Language Agents with Verbal Reinforcement Learning](https://openreview.net/forum?id=vAElhFcKW6) | NeurIPS 2023 |
+| [CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution](https://aclanthology.org/2025.acl-long.1158/) | ACL 2025 |
+| [InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback](https://proceedings.neurips.cc/paper_files/paper/2023/hash/4b175d846fb008d540d233c188379ff9-Abstract-Datasets_and_Benchmarks.html) | NeurIPS 2023 |
 
 ## 🛠️ Harness Mechanisms
 
@@ -210,6 +238,10 @@ Planning is harness control: it structures how the agent externalizes intent int
 | --- | --- |
 | [A real-world webagent with planning, long context understanding, and program synthesis](https://arxiv.org/abs/2307.12856) | ICLR 2023 |
 | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | 2023 ❓ |
+| [Self-Planning Code Generation with Large Language Models](https://dl.acm.org/doi/10.1145/3672456) | TOSEM 2024 |
+| [Knowledge-Aware Code Generation with Large Language Models](https://arxiv.org/abs/2401.15940) | 2024 |
+| [PaT: Planning-After-Trial for Efficient Code Generation](https://openreview.net/forum?id=767aZTpsIl) | 2025 |
+| [A Little Help Goes a Long Way: Tutoring LLMs in Solving Competitive Programming through Hints](https://ieeexplore.ieee.org/document/11181219/) | TSE 2025 |
 
 #### Structure-Grounded Planning
 
@@ -218,6 +250,9 @@ Planning is harness control: it structures how the agent externalizes intent int
 | [RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation](https://arxiv.org/abs/2509.16198) | 2025 |
 | [Code graph model (cgm): A graph-integrated large language model for repository-level software engineering tasks](https://arxiv.org/abs/2505.16901) | 2025 |
 | [DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation](https://arxiv.org/abs/2603.21430) | 2026 |
+| [CodePlan: Repository-Level Coding Using LLMs and Planning](https://dl.acm.org/doi/10.1145/3643757) | FSE 2024 |
+| [LocAgent: Graph-Guided LLM Agents for Code Localization](https://aclanthology.org/2025.acl-long.426/) | ACL 2025 |
+| [VerilogCoder: Autonomous Verilog Coding Agents with Graph-Based Planning and AST-Based Waveform Tracing Tool](https://ojs.aaai.org/index.php/AAAI/article/view/32007) | AAAI 2025 |
 
 #### Search-Based Planning
 
@@ -227,6 +262,11 @@ Planning is harness control: it structures how the agent externalizes intent int
 | [Tree-of-code: A tree-structured exploring framework for end-to-end code generation and execution in complex task handling](https://arxiv.org/abs/2412.15305) | ACL 2025 Findings |
 | [Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs](https://arxiv.org/abs/2508.07434) | 2025 |
 | [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) | 2026 |
+| [DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal](https://aclanthology.org/2025.acl-long.973/) | ACL 2025 |
+| [Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html) | NeurIPS 2024 |
+| [CodeTree: Agent-Guided Tree Search for Code Generation with Large Language Models](https://aclanthology.org/2025.naacl-long.189/) | NAACL 2025 |
+| [RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation](https://aclanthology.org/2025.emnlp-main.410/) | EMNLP 2025 |
+| [SFS: Smarter Code Space Search Improves LLM Inference Scaling](https://openreview.net/forum?id=MCHuGOkExF) | ICLR 2025 |
 
 #### Orchestration-Based Planning
 
@@ -238,6 +278,10 @@ Planning is harness control: it structures how the agent externalizes intent int
 | [Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code](https://arxiv.org/abs/2510.03902) | 2025 |
 | [SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair](https://arxiv.org/abs/2602.23647) | 2026 |
 | [Requirements Development and Formalization for Reliable Code Generation: A Multi-Agent Vision](https://arxiv.org/abs/2508.18675) | ASE 2025 |
+| [AlgoForge: Specializing Code Generation Agents through Collaborative Reinforcement Learning](https://openreview.net/forum?id=KwqbtKeaRl) | 2025 |
+| [MapCoder: Multi-Agent Code Generation for Competitive Problem Solving](https://aclanthology.org/2024.acl-long.269/) | ACL 2024 |
+| [Blueprint2Code: A Multi-Agent Pipeline for Reliable Code Generation via Blueprint Planning and Repair](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1660912/full) | 2025 |
+| [AdaCoder: Adaptive Prompt Compression for Programmatic Visual Question Answering](https://dl.acm.org/doi/10.1145/3664647.3681010) | 2024 |
 
 ### 🧠 Memory and Context Engineering
 
@@ -250,6 +294,9 @@ Memory in code-as-agent-harness systems is a state-management layer: which infor
 | [Language Models Do Not Have Human-Like Working Memory](https://arxiv.org/abs/2505.10571) | 2025 |
 | [Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?](https://arxiv.org/abs/2511.13646) | 2025 |
 | [CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory](https://arxiv.org/abs/2512.15813) | 2025 |
+| [RepairAgent: An Autonomous, LLM-Based Agent for Program Repair](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00157) | ICSE 2025 |
+| [Agentless: Demystifying LLM-Based Software Engineering Agents](https://dl.acm.org/doi/abs/10.1145/3715754) | FSE 2025 |
+| [SWE-Agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://openreview.net/forum?id=mXpq6ut8J3) | NeurIPS 2024 |
 
 #### Semantic Memory
 
@@ -258,6 +305,11 @@ Memory in code-as-agent-harness systems is a state-management layer: which infor
 | [From human memory to ai memory: A survey on memory mechanisms in the era of llms](https://arxiv.org/abs/2504.15965) | 2025 |
 | [Rethinking Memory Mechanisms of Foundation Agents in the Second Half](https://arxiv.org/abs/2602.06052) | 2026 |
 | [AgentSM: Semantic Memory for Agentic Text-to-SQL](https://arxiv.org/abs/2601.15709) | 2026 |
+| [A Survey on Large Language Models for Code Generation](https://dl.acm.org/doi/10.1145/3747588) | TOSEM 2026 |
+| [RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation](https://aclanthology.org/2023.emnlp-main.151/) | EMNLP 2023 |
+| [AutoCodeRover: Autonomous Program Improvement](https://dl.acm.org/doi/10.1145/3650212.3680384) | ISSTA 2024 |
+| [CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-Level Coding Challenges](https://aclanthology.org/2024.acl-long.737/) | ACL 2024 |
+| [A Survey on the Memory Mechanism of Large Language Model-Based Agents](https://dl.acm.org/doi/10.1145/3748302) | 2025 |
 
 #### Experiential Memory
 
@@ -266,6 +318,9 @@ Memory in code-as-agent-harness systems is a state-management layer: which infor
 | [Evo-memory: Benchmarking llm agent test-time learning with self-evolving memory](https://arxiv.org/abs/2511.20857) | 2025 |
 | [MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences](https://arxiv.org/abs/2601.06789) | 2026 |
 | [Leveraging prior experience: An expandable auxiliary knowledge base for text-to-sql](https://arxiv.org/abs/2411.13244) | 2024 |
+| [Towards Large Language Models with Human-Like Episodic Memory](https://www.sciencedirect.com/science/article/abs/pii/S1364661325001792) | 2025 |
+| [Episodic Memories Generation and Evaluation Benchmark for Large Language Models](https://openreview.net/forum?id=6ycX677p2l) | ICLR 2025 |
+| [ExpeL: LLM Agents Are Experiential Learners](https://ojs.aaai.org/index.php/AAAI/article/view/29936) | AAAI 2024 |
 
 #### Long-Term Memory
 
@@ -276,6 +331,8 @@ Memory in code-as-agent-harness systems is a state-management layer: which infor
 | [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) | 2023 |
 | [Your Code Agent Can Grow Alongside You with Structured Memory](https://arxiv.org/abs/2603.13258) | 2026 |
 | [TALM: Dynamic Tree-Structured Multi-Agent Framework with Long-Term Memory for Scalable Code Generation](https://arxiv.org/abs/2510.23010) | 2025 |
+| [Memory OS of AI Agent](https://aclanthology.org/2025.emnlp-main.1318/) | EMNLP 2025 |
+| [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://aclanthology.org/2024.acl-long.747/) | ACL 2024 |
 
 #### Multi-Agent Memory
 
@@ -289,6 +346,8 @@ Memory in code-as-agent-harness systems is a state-management layer: which infor
 | [Compressing Code Context for LLM-based Issue Resolution](https://arxiv.org/abs/2603.28119) | 2026 |
 | [Scaling long-horizon llm agent via context-folding](https://arxiv.org/abs/2510.11967) | 2025 |
 | [LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces](https://arxiv.org/abs/2602.14337) | 2026 |
+| [SWE-Bench: Can Language Models Resolve Real-World GitHub Issues?](https://openreview.net/forum?id=VTF8yNQM66) | ICLR 2024 |
+| [G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems](https://openreview.net/forum?id=mmIAp3cVS0) | NeurIPS 2025 |
 
 ### 🔧 Tool Usage for Code Agents
 
@@ -299,12 +358,16 @@ Tool usage is the action and observation layer of the code-agent harness: agents
 | Paper | Venue |
 | --- | --- |
 | [Toolcoder: Teach code generation models to use api search tools](https://arxiv.org/abs/2305.04032) | 2023 |
+| [CodeQA: Advanced Programming Question-Answering Using LLM Agent and RAG](https://ieeexplore.ieee.org/document/10753267) | 2024 |
+| [RAG-Based AI Agents for Enterprise Software Development: Implementation Patterns and Production Deployment](https://www.researchgate.net/publication/399509219_RAG-Based_AI_Agents_for_Enterprise_Software_Development_Implementation_Patterns_and_Production_Deployment) | 2025 |
+| [The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models](https://ieeexplore.ieee.org/document/10298393/) | ASE 2023 |
 
 #### Environment-Interaction Tool Use
 
 | Paper | Venue |
 | --- | --- |
 | [Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents](https://arxiv.org/abs/2602.09944) | 2026 |
+| [Grounded Test-Time Adaptation for LLM Agents](https://openreview.net/forum?id=OH4PE0TDo0) | ICLR 2026 |
 
 #### Verification-Driven Tool Use
 
@@ -312,12 +375,18 @@ Tool usage is the action and observation layer of the code-agent harness: agents
 | --- | --- |
 | [Veriguard: Enhancing llm agent safety via verified code generation](https://arxiv.org/abs/2510.05156) | 2025 |
 | [Agentcoder: Multi-agent-based code generation with iterative testing and optimisation](https://arxiv.org/abs/2312.13010) | 2023 |
+| [Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems Using LLM-Based Agents](https://arxiv.org/abs/2410.14209) | 2025 |
 
 #### Workflow-Orchestration Tool Use
 
 | Paper | Venue |
 | --- | --- |
 | [Toolnet: Connecting large language models with massive tools via tool graph](https://arxiv.org/abs/2403.00839) | 2024 |
+| [ControlLLM: Augment Language Models with Tools by Searching on Graphs](https://link.springer.com/chapter/10.1007/978-3-031-73254-6_6) | ECCV 2024 |
+| [Agent Harness for Large Language Model Agents: A Survey](https://www.preprints.org/manuscript/202604.0428/v1) | 2026 |
+| [Executable Code Actions Elicit Better LLM Agents](https://openreview.net/forum?id=8oJyuXfrPv) | ICML 2024 |
+| [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](https://openreview.net/forum?id=OJd3ayDDoF) | ICLR 2025 |
+| [On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub](https://dl.acm.org/doi/10.1145/3798166) | TOSEM 2025 |
 
 ### 🧪 Feedback-Guided Iterative Debugging
 
@@ -336,6 +405,7 @@ Iterative debugging closes the harness loop: development environments expose fee
 | [Knowledge Graph Based Repository-Level Code Generation](http://dx.doi.org/10.1109/LLM4Code66737.2025.00026) | Workshop 2025 |
 | [From glue-code to protocols: A critical analysis of a2a and mcp integration for scalable agent systems](https://arxiv.org/abs/2505.03864) | 2025 |
 | [Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches](https://arxiv.org/abs/2510.04905) | 2026 |
+| [A³-CodGen: A Repository-Level Code Generation Framework for Code Reuse with Local-Aware, Global-Aware, and Third-Party-Library-Aware](https://ieeexplore.ieee.org/document/10734067/) | TSE 2024 |
 
 ##### Interactive Environments for Human–LLM Collaboration
 
@@ -345,6 +415,9 @@ Iterative debugging closes the harness loop: development environments expose fee
 | [The Design Space of LLM-Based AI Coding Assistants: An Analysis of 90 Systems in Academia and Industry](https://api.semanticscholar.org/CorpusID:282143017) | IEEE Symposium on Visual Languages / Human-Centric Computing Languages and Environments 2025 |
 | [language-server-protocol: Defines a common protocol for language servers](https://github.com/Microsoft/language-server-protocol) | Web/Blog |
 | [Deductive verification via the debug adapter protocol](https://arxiv.org/abs/2108.02968) | F-IDE@NFM 2021 |
+| [Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions](https://dl.acm.org/doi/10.1145/3796519) | TOSEM 2025 |
+| [The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development](https://doi.org/10.1145/3581641.3584037) | 2023 |
+| [Human-AI Experience in Integrated Development Environments: A Systematic Literature Review](https://link.springer.com/article/10.1007/s10664-025-10793-0) | 2026 |
 
 ##### Execution and Validation Environments
 
@@ -356,6 +429,8 @@ Iterative debugging closes the harness loop: development environments expose fee
 | [LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops](https://doi.org/10.1109/ICSME64153.2025.00109) | IEEE International Conference on Software Maintenance and Evolution 2025 |
 | [Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety](https://arxiv.org/abs/2507.06134) | 2025 |
 | [Kubeintellect: A modular llm-orchestrated agent framework for end-to-end kubernetes management](https://arxiv.org/abs/2509.02449) | 2025 |
+| [MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios](https://aclanthology.org/2025.findings-acl.305/) | ACL 2025 Findings |
+| [ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?](https://aclanthology.org/2024.emnlp-main.859/) | EMNLP 2024 |
 
 ##### Engineering Platforms for Deployment and Workflow Integration
 
@@ -367,6 +442,9 @@ Iterative debugging closes the harness loop: development environments expose fee
 | [From challenges to metrics: An LLM-driven DevOps recommendation system grounded in evidence-based mappings](https://www.sciencedirect.com/science/article/pii/S2590005625001742) | Array 2025 |
 | [AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions](http://dx.doi.org/10.1109/FLLM67465.2025.11391007) | 2025 3rd International Conference on Foundation and Large Language Models (FLLM) 2025 |
 | [A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices](https://doi.org/10.20944/preprints202512.1922.v1) | Science 2025 |
+| [Continuous QoS-Compliant Orchestration in the Cloud-Edge Continuum](https://arxiv.org/abs/2310.02985) | 2024 |
+| [From Code Generation to AI Collaboration: The Role of Multi-Agent Systems in Software Engineering](https://www.researchgate.net/publication/388835330_From_Code_Generation_to_AI_Collaboration_The_Role_of_Multi-Agent_Systems_in_Software_Engineering) | 2025 |
+| [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations](https://arxiv.org/abs/2308.08155) | 2024 |
 
 #### Feedback Mechanisms for Iterative Debugging
 
@@ -377,6 +455,8 @@ Iterative debugging closes the harness loop: development environments expose fee
 | [The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs](https://arxiv.org/abs/2506.18403) | 2025 |
 | [Helping llms improve code generation using feedback from testing and static analysis](https://arxiv.org/abs/2412.14841) | Discover Artificial Intelligence 2024 |
 | [Enhancing llm code generation: A systematic evaluation of multi-agent collaboration and runtime debugging for improved accuracy, reliability, and latency](https://arxiv.org/abs/2505.02133) | 2025 |
+| [Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://aclanthology.org/2024.findings-acl.138/) | ACL 2024 Findings |
+| [Static Analysis as a Feedback Loop: Enhancing LLM-Generated Code Beyond Correctness](https://arxiv.org/abs/2508.14419) | 2025 |
 
 ##### Runtime Error and Exception Feedback
 
@@ -384,6 +464,8 @@ Iterative debugging closes the harness loop: development environments expose fee
 | --- | --- |
 | [Llm as runtime error handler: A promising pathway to adaptive self-healing of software systems](https://arxiv.org/abs/2408.01055) | 2024 |
 | [Large language model guided self-debugging code generation](https://arxiv.org/abs/2502.02928) | 2025 |
+| [Code Repair with LLMs Gives an Exploration-Exploitation Tradeoff](https://proceedings.neurips.cc/paper_files/paper/2024/hash/d5c56ec4f69c9a473089b16000d3f8cd-Abstract-Conference.html) | NeurIPS 2024 |
+| [Debug Like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step](https://aclanthology.org/2024.findings-acl.49/) | ACL 2024 Findings |
 
 ##### Test-Based Execution Feedback
 
@@ -393,6 +475,8 @@ Iterative debugging closes the harness loop: development environments expose fee
 | [Learning to generate unit tests for automated debugging](https://arxiv.org/abs/2502.01619) | 2025 |
 | [Testart: Improving llm-based unit testing via co-evolution of automated generation and repair iteration](https://arxiv.org/abs/2408.03095) | 2024 |
 | [From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging](https://openreview.net/forum?id=dwQIVcW1du) | 2025 |
+| [Revisit Self-Debugging with Self-Generated Tests for Code Generation](https://aclanthology.org/2025.acl-long.881/) | ACL 2025 |
+| [LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation](https://dl.acm.org/doi/abs/10.1109/TSE.2024.3428972) | TSE 2024 |
 
 ##### Critique-Driven Feedback (Human or Auxiliary Agents)
 
@@ -424,6 +508,7 @@ Distinct agents own slices of the shared code harness — synthesis, understandi
 | [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://openreview.net/forum?id=VtmBAGCN7o) | ICLR 2024 |
 | [ChatDev: Communicative Agents for Software Development](https://doi.org/10.18653/v1/2024.acl-long.810) | ACL 2024 |
 | [MAGE: A multi-agent engine for automated RTL code generation](https://arxiv.org/abs/2406.03554) | DAC 2025 |
+| [Self-Collaboration Code Generation via ChatGPT](https://dl.acm.org/doi/10.1145/3672459) | TOSEM 2024 |
 
 #### Program Understanding Agents
 
@@ -432,6 +517,7 @@ Distinct agents own slices of the shared code harness — synthesis, understandi
 | [HyperAgent: Generalist software engineering agents to solve coding tasks at scale](https://arxiv.org/abs/2406.11915) | 2024 |
 | [Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement](https://doi.org/10.48550/arXiv.2411.00622) | 2024 |
 | [CleanAgent: Automating data standardization with LLM-based agents](https://arxiv.org/abs/2403.08291) | 2024 |
+| [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://openreview.net/forum?id=qevq3FZ63J) | NeurIPS 2024 |
 
 #### Verification Agents
 
@@ -450,6 +536,8 @@ Distinct agents own slices of the shared code harness — synthesis, understandi
 | Paper | Venue |
 | --- | --- |
 | [Self-organized agents: A LLM multi-agent framework toward ultra large-scale code generation and optimization](https://arxiv.org/abs/2404.02183) | 2024 |
+| [Self-Evolving Multi-Agent Collaboration Networks for Software Development](https://openreview.net/forum?id=4R71pdPBZp) | ICLR 2025 |
+| [SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00140) | ICSE 2025 |
 
 ### 💬 Interaction Modes
 
@@ -460,6 +548,7 @@ Code-centric multi-agent interaction is artifact-mediated: agents observe and mo
 | Paper | Venue |
 | --- | --- |
 | [Codepori: Large-scale system for autonomous software development using multi-agent technology](https://arxiv.org/abs/2405.10931) | 2024 |
+| [A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement](https://dl.acm.org/doi/10.1145/3691620.3695506) | ASE 2024 |
 
 #### Critique and Repair
 
@@ -595,6 +684,7 @@ Four levels of formalization for the shared substrate: implicit/file-only, repos
 | [CodeCoR: An LLM-based self-reflective multi-agent framework for code generation](https://arxiv.org/abs/2501.05678) | 2025 |
 | [SEW: Self-evolving agentic workflows for automated code generation](https://arxiv.org/abs/2502.01234) | 2025 |
 | [Codepori: Large-scale system for autonomous software development using multi-agent technology](https://arxiv.org/abs/2405.10931) | 2024 |
+| [SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering](https://openreview.net/forum?id=6TDSDdgP7Z) | ICML 2025 |
 
 #### Repository-Based Representation
 
@@ -731,6 +821,8 @@ Repositories, tests, issue threads, and development tools form a persistent prog
 | [Swe-bench pro: Can ai agents solve long-horizon software engineering tasks?](https://arxiv.org/abs/2509.16941) | 2025 |
 | [AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions](http://dx.doi.org/10.1109/FLLM67465.2025.11391007) | 2025 3rd International Conference on Foundation and Large Language Models (FLLM) 2025 |
 | [Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey](https://arxiv.org/abs/2601.11655) | 2026 |
+| [Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration](https://dl.acm.org/doi/10.1145/3696630.3728549) | FSE 2025 |
+| [CodeAgent: Autonomous Communicative Agents for Code Review](https://aclanthology.org/2024.emnlp-main.632/) | EMNLP 2024 |
 
 #### Multi-Agent Code Assistance and Shared Repositories
 
@@ -818,6 +910,10 @@ Hypotheses are encoded as differential equations or generative models; protocols
 | --- | --- |
 | [The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search](https://arxiv.org/abs/2504.08066) | 2025 |
 | [ChemCrow: Augmenting large-language models with chemistry tools](https://arxiv.org/abs/2304.05376) | Nature 2023 |
+| [Autonomous Chemical Research with Large Language Models](https://www.nature.com/articles/s41586-023-06792-0) | Nature 2023 |
+| [Biomni: A General-Purpose Biomedical AI Agent](https://www.biorxiv.org/content/10.1101/2025.05.30.656746v1) | 2025 |
+| [Olympiad-Level Formal Mathematical Reasoning with Reinforcement Learning](https://www.nature.com/articles/s41586-025-09833-y) | Nature 2025 |
+| [The Virtual Lab of AI Agents Designs New SARS-CoV-2 Nanobodies](https://www.nature.com/articles/s41586-025-09442-9) | Nature 2025 |
 
 #### Unifying Ideation, Experimentation, Analysis, and Communication
 
@@ -830,6 +926,7 @@ Hypotheses are encoded as differential equations or generative models; protocols
 | [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292) | 2024 |
 | [Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents](https://arxiv.org/abs/2503.24047) | 2026 |
 | [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/abs/2402.01030) | ICML 2024 |
+| [A Universal System for Digitization and Automatic Execution of the Chemical Synthesis Literature](https://www.science.org/doi/10.1126/science.abc2986) | Science 2020 |
 
 #### Memory as Persistent Program State
 
@@ -852,6 +949,7 @@ Hypotheses are encoded as differential equations or generative models; protocols
 | --- | --- |
 | [Self-driving laboratory for accelerated discovery of thin-film materials](https://arxiv.org/abs/1906.05398) | Science 2019 |
 | [MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration](https://arxiv.org/abs/2411.08063) | 2024 |
+| [An Autonomous Laboratory for the Accelerated Synthesis of Inorganic Materials](https://www.nature.com/articles/s41586-023-06734-w) | Nature 2023 |
 
 #### Toward Agentic and Instruction-Following Science
 
