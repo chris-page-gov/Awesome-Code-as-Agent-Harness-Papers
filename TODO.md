@@ -93,6 +93,7 @@ For reference, the following items have been completed:
 - Removed the **Agent Personalization (Recommender Systems)** section per editorial decision (TOC entry, section body, and intro mentions all cleaned up)
 - Fixed long venue names (`VL/HCC`, `ICSME`, `FLLM`)
 - Recovered a section that was truncated mid-row in a write operation (Scientific Discovery → Acknowledgements)
+- Wrong arXiv IDs resolved
 
 ---
 
