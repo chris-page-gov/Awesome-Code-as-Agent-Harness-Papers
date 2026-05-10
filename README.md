@@ -518,9 +518,9 @@ Distinct agents own slices of the shared code harness — synthesis, understandi
 
 | Paper | Venue |
 | --- | --- |
-| [QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks](https://arxiv.org/abs/2501.01234) | 2025 |
+| [QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks](https://arxiv.org/abs/2501.17167) | 2025 |
 | [AutoSafeCoder: A multi-agent framework for securing LLM code generation through static analysis and fuzz testing](https://arxiv.org/abs/2409.10737) | 2024 |
-| [Hallucination to consensus: Multi-agent LLMs for end-to-end test generation with accurate oracles](https://arxiv.org/abs/2506.02943) | 2025 |
+| [Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation](https://arxiv.org/abs/2506.02943) | 2025 |
 
 #### Execution Agents
 
@@ -546,7 +546,7 @@ Code-centric multi-agent interaction is artifact-mediated: agents observe and mo
 
 | Paper | Venue |
 | --- | --- |
-| [Codepori: Large-scale system for autonomous software development using multi-agent technology](https://arxiv.org/abs/2405.10931) | 2024 |
+| [Codepori: Large-scale system for autonomous software development using multi-agent technology](https://arxiv.org/abs/2402.01411) | 2024 |
 | [A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement](https://dl.acm.org/doi/10.1145/3691620.3695506) | ASE 2024 |
 
 #### Critique and Repair
@@ -554,7 +554,7 @@ Code-centric multi-agent interaction is artifact-mediated: agents observe and mo
 | Paper | Venue |
 | --- | --- |
 | [Agentcoder: Multi-agent-based code generation with iterative testing and optimisation](https://arxiv.org/abs/2312.13010) | 2023 |
-| [SEW: Self-evolving agentic workflows for automated code generation](https://arxiv.org/abs/2502.01234) | 2025 |
+| [SEW: Self-evolving agentic workflows for automated code generation](https://arxiv.org/abs/2505.18646) | 2025 |
 
 #### Adversarial Validation
 
@@ -568,7 +568,7 @@ Code-centric multi-agent interaction is artifact-mediated: agents observe and mo
 | Paper | Venue |
 | --- | --- |
 | [ChatDev: Communicative Agents for Software Development](https://doi.org/10.18653/v1/2024.acl-long.810) | ACL 2024 |
-| [Hallucination to consensus: Multi-agent LLMs for end-to-end test generation with accurate oracles](https://arxiv.org/abs/2506.02943) | 2025 |
+| [Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation](https://arxiv.org/abs/2506.02943) | 2025 |
 
 ### 🕸️ Workflow Topology
 
@@ -585,7 +585,7 @@ Topology of agent interaction (chain, cyclic, hierarchical, star, adaptive) is o
 | [MAGE: A multi-agent engine for automated RTL code generation](https://arxiv.org/abs/2412.07822) | DAC 2025 |
 | [HyperAgent: Generalist software engineering agents to solve coding tasks at scale](https://arxiv.org/abs/2409.16299) | 2024 |
 | [Self-organized agents: A LLM multi-agent framework toward ultra large-scale code generation and optimization](https://arxiv.org/abs/2404.02183) | 2024 |
-| [Hallucination to consensus: Multi-agent LLMs for end-to-end test generation with accurate oracles](https://arxiv.org/abs/2506.02943) | 2025 |
+| [Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation](https://arxiv.org/abs/2506.02943) | 2025 |
 
 #### Objective-Driven and Adaptive Topologies
 
@@ -593,7 +593,7 @@ Topology of agent interaction (chain, cyclic, hierarchical, star, adaptive) is o
 | --- | --- |
 | [FlowReasoner: Reinforcing Query-Level Meta-Agents](https://arxiv.org/abs/2504.15257) | 2025 |
 | [BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization](https://arxiv.org/abs/2512.23631) | 2025 |
-| [SEW: Self-evolving agentic workflows for automated code generation](https://arxiv.org/abs/2502.01234) | 2025 |
+| [SEW: Self-evolving agentic workflows for automated code generation](https://arxiv.org/abs/2505.18646) | 2025 |
 
 ### ⚡ Execution Feedback Integration
 
@@ -611,7 +611,7 @@ Code is uniquely executable, producing objective oracle signals that anchor mult
 | Paper | Venue |
 | --- | --- |
 | [Agentcoder: Multi-agent-based code generation with iterative testing and optimisation](https://arxiv.org/abs/2312.13010) | 2023 |
-| [QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks](https://arxiv.org/abs/2501.01234) | 2025 |
+| [QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks](https://arxiv.org/abs/2501.17167) | 2025 |
 
 #### Fuzzer Crash Traces
 
@@ -685,8 +685,8 @@ Four levels of formalization for the shared substrate: implicit/file-only, repos
 | [ChatDev: Communicative Agents for Software Development](https://doi.org/10.18653/v1/2024.acl-long.810) | ACL 2024 |
 | [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://openreview.net/forum?id=VtmBAGCN7o) | ICLR 2024 |
 | [CodeCoR: An LLM-based self-reflective multi-agent framework for code generation](https://arxiv.org/abs/2501.07811) | 2025 |
-| [SEW: Self-evolving agentic workflows for automated code generation](https://arxiv.org/abs/2502.01234) | 2025 |
-| [Codepori: Large-scale system for autonomous software development using multi-agent technology](https://arxiv.org/abs/2405.10931) | 2024 |
+| [SEW: Self-evolving agentic workflows for automated code generation](https://arxiv.org/abs/2505.18646) | 2025 |
+| [Codepori: Large-scale system for autonomous software development using multi-agent technology](https://arxiv.org/abs/2402.01411) | 2024 |
 | [SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering](https://openreview.net/forum?id=6TDSDdgP7Z) | ICML 2025 |
 
 #### Repository-Based Representation
@@ -701,9 +701,9 @@ Four levels of formalization for the shared substrate: implicit/file-only, repos
 | --- | --- |
 | [Agentcoder: Multi-agent-based code generation with iterative testing and optimisation](https://arxiv.org/abs/2312.13010) | 2023 |
 | [AutoSafeCoder: A multi-agent framework for securing LLM code generation through static analysis and fuzz testing](https://arxiv.org/abs/2409.10737) | 2024 |
-| [QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks](https://arxiv.org/abs/2501.01234) | 2025 |
+| [QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks](https://arxiv.org/abs/2501.17167) | 2025 |
 | [MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Computing](https://arxiv.org/abs/2505.03906) | 2025 |
-| [Hallucination to consensus: Multi-agent LLMs for end-to-end test generation with accurate oracles](https://arxiv.org/abs/2506.02943) | 2025 |
+| [Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation](https://arxiv.org/abs/2506.02943) | 2025 |
 | [MAGE: A multi-agent engine for automated RTL code generation](https://arxiv.org/abs/2412.07822) | DAC 2025 |
 
 #### Blackboard / Shared-State Representation
@@ -725,7 +725,7 @@ How a multi-agent code system decides the shared harness has reached an acceptab
 | --- | --- |
 | [Agentcoder: Multi-agent-based code generation with iterative testing and optimisation](https://arxiv.org/abs/2312.13010) | 2023 |
 | [L2MAC: Large language model automatic computer for extensive code generation](https://arxiv.org/abs/2310.02003) | ICLR 2024 |
-| [Hallucination to consensus: Multi-agent LLMs for end-to-end test generation with accurate oracles](https://arxiv.org/abs/2506.02943) | 2025 |
+| [Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation](https://arxiv.org/abs/2506.02943) | 2025 |
 
 #### Security Convergence
 
@@ -751,7 +751,7 @@ How a multi-agent code system decides the shared harness has reached an acceptab
 
 | Paper | Venue |
 | --- | --- |
-| [QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks](https://arxiv.org/abs/2501.01234) | 2025 |
+| [QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks](https://arxiv.org/abs/2501.17167) | 2025 |
 
 #### Implicit Convergence
 
