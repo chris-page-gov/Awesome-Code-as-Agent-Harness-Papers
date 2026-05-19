@@ -1,7 +1,7 @@
 # Awesome Code as Agent Harness Papers
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](#)  <!-- TODO: replace with real arXiv link once posted -->
+[![arXiv](https://img.shields.io/badge/arXiv-2605.18747-b31b1b.svg)](#)  <!-- TODO: replace with real arXiv link once posted -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](#-contributing)
 ![Last Commit](https://img.shields.io/github/last-commit/YennNing/Awesome-Code-as-Agent-Harness-Papers)
