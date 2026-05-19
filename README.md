@@ -9,8 +9,9 @@
 
 This repository organizes research that treats **code and its execution artifacts as the executable, inspectable, and stateful infrastructure** through which LLM agents reason, act, model environments, manage state, and verify progress. Papers are grouped along three connected layers — *Harness Interface*, *Harness Mechanisms*, and *Scaling the Harness* — and across applications such as coding assistants, GUI/OS automation, scientific discovery, and embodied agents.
 
-> 📄 **Based on the survey**: *Code as Agent Harness: Toward Executable, Verifiable, and Stateful Agent Systems* (arXiv link coming soon — placeholder)
+> 📄 **Based on the survey**: [*Code as Agent Harness: Toward Executable, Verifiable, and Stateful Agent Systems*](https://arxiv.org/abs/2605.18747) 
 
+<!-- (arXiv link coming soon — placeholder) -->
 ![Framework overview](figs/overview.png)
 
 ## 🔔 News
