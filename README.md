@@ -69,7 +69,7 @@ This collection is an ongoing effort. We welcome contributions from the communit
 
 - Submit a pull request to add papers or resources
 - Open an issue to suggest additional papers
-- Email us at: *(placeholder — corresponding-author email goes here)*
+- Email us at: ```xuyingn2@illinois.edu```
 
 We regularly update the repository to include new research on code-centric agentic systems.
 
@@ -77,11 +77,13 @@ We regularly update the repository to include new research on code-centric agent
 
 If you find this repository or paper useful, please consider citing the survey:
 
+<!-- TODO: replace once posted -->
+
 ```bibtex
 @article{ning2026codeasharness,
   title   = {Code as Agent Harness: Toward Executable, Verifiable, and Stateful Agent Systems},
   author  = {Ning, Xuying and Tieu, Katherine and Fu, Dongqi and Wei, Tianxin and Li, Zihao and Bei, Yuanchen and others},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},  % TODO: replace once posted
+  journal = {arXiv preprint arXiv:2605.18747},
   year    = {2026}
 }
 ```
