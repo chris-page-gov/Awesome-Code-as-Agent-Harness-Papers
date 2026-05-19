@@ -69,7 +69,7 @@ This collection is an ongoing effort. We welcome contributions from the communit
 
 - Submit a pull request to add papers or resources
 - Open an issue to suggest additional papers
-- Email us at: ```xuyingn2@illinois.edu```
+- Email us at: ```xuyingn2@illinois.edu```, ```kt42@illinois.edu```, ```twei10@illinois.edu```, ```zihaoli5@illinois.edu```, and ```bei4@illinois.edu```.
 
 We regularly update the repository to include new research on code-centric agentic systems.
 
