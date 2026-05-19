@@ -11,7 +11,7 @@ This repository accompanies the survey [**Code as Agent Harness: Toward Executab
 We study the emerging role of code in agentic AI: code is no longer only a generated artifact, but increasingly serves as an executable, inspectable, and stateful harness through which agents reason, act, model environments, receive feedback, and coordinate. The repository organizes representative papers around three connected layers: **Harness Interface**, **Harness Mechanisms**, and **Scaling the Harness**, covering directions such as coding assistants, GUI/OS automation, scientific discovery, and embodied intelligence.
 
 > [!TIP]
-> 👋 We welcome paper suggestions, pull requests, and collaborations on code-centric agent systems. Please contact us at `xuyingn2@illinois.edu`, `kt42@illinois.edu`, `twei10@illinois.edu`, `zihaoli5@illinois.edu`, and `bei4@illinois.edu`.
+> 👋 We welcome paper suggestions, pull requests, and collaborations on code as agent harness. Please contact us at `xuyingn2@illinois.edu`, `kt42@illinois.edu`, `twei10@illinois.edu`, `zihaoli5@illinois.edu`, and `bei4@illinois.edu`. We will keep updating this repository with recent work on code-centric agentic systems and harness engineering.
 
 > [!NOTE]
 > 📚 If you find this resource useful, please cite and [![Stars](https://img.shields.io/github/stars/YennNing/Awesome-Code-as-Agent-Harness-Papers?style=social)](https://github.com/YennNing/Awesome-Code-as-Agent-Harness-Papers) the repo:
@@ -36,8 +36,6 @@ We study the emerging role of code in agentic AI: code is no longer only a gener
 
 - [🔔 News](#-news)
 - [📋 Table of Contents](#-table-of-contents)
-- [🌟 Introduction](#-introduction)
-- [🤝 Contributing](#-contributing)
 - [🧩 Harness Interface](#-harness-interface)
   - [💭 Code for Reasoning](#-code-for-reasoning)
   - [🤖 Code for Acting](#-code-for-acting)
@@ -63,34 +61,11 @@ We study the emerging role of code in agentic AI: code is no longer only a gener
 
 ---
 
-## 🌟 Introduction
-
-Recent large language models (LLMs) have demonstrated strong capabilities in understanding and generating code, but their role in agentic systems is shifting from *target output* to *operational substrate*. We introduce **Code as Agent Harness**: code and its execution artifacts (programs, traces, repositories, tests, sandboxes, simulators) are the executable, inspectable, and stateful infrastructure through which LLM agents operate reliably over time.
-
-We organize the literature into three connected layers:
-
-🔹 **Harness Interface.** How code enters the agent loop — externalizing reasoning into executable procedures, translating intent into programmable actions, and modeling environment state through program artifacts, traces, and simulations.
-
-🔹 **Harness Mechanisms.** How a code-harnessed agent stays reliable over long horizons — planning organizes the trajectory, memory preserves task state, tool use connects to external systems, and iterative debugging turns execution failures into revision signals.
-
-🔹 **Scaling the Harness.** How code becomes a shared workspace for multi-agent systems — coordinating roles, exchanging artifacts, reviewing each other’s outputs, and verifying collective progress through repositories, execution states, and structured workflows.
-
-Across these layers, we synthesize methodological progress and practical applications in coding assistants, GUI/OS automation, embodied agents, scientific discovery, DevOps, and enterprise workflows.
-
-## 🤝 Contributing
-
-This collection is an ongoing effort. We welcome contributions from the community:
-
-- Submit a pull request to add papers or resources
-- Open an issue to suggest additional papers
-
-We regularly update the repository to include new research on code-centric agentic systems.
-
----
-
 ## 🧩 Harness Interface
 
 Code as the basic interface between a model and its task environment. Programs convert model outputs into executable, inspectable, and stateful structures: code makes reasoning *executable*, action *programmable*, and environment state *inspectable*.
+
+![Harness interface](figs/harness_interface.png)
 
 ### 💭 Code for Reasoning
 
@@ -226,6 +201,8 @@ Program states, repositories, traces, simulators, and tests represent state, dyn
 ## 🛠️ Harness Mechanisms
 
 Once code is placed inside the agent loop, the harness must decide *what to execute next*, *preserve useful state*, *expose the right tools*, and *convert failures into corrective actions*.
+
+![Harness mechanisms](figs/harness_mechanism.png)
 
 ### 🗺️ Planning for Code Agents
 
@@ -487,9 +464,12 @@ Iterative debugging closes the harness loop: development environments expose fee
 | --- | --- |
 | [IterPref: Focal Preference Learning for Code Generation via Iterative Debugging](https://arxiv.org/abs/2503.02783) | arXiv 2025 |
 | [ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://openreview.net/forum?id=q56ZI1Co43) | NeurIPS 2025 |
+
 ## 👥 Scaling the Harness: Multi-Agent Code-Centric Systems
 
 When multiple agents operate over code, the harness must coordinate roles, share intermediate artifacts, maintain common state, and verify collective progress through repositories, tests, traces, and structured workflows.
+
+![Scaling the harness](figs/scaling_harness.png)
 
 ### 🎭 Functional Role Specialization
 
@@ -763,6 +743,8 @@ How a multi-agent code system decides the shared harness has reached an acceptab
 ## 🚀 Applications and Emerging Fields
 
 Code-centric agentic systems become operational in tangible domains where code defines observable state, executable actions, persistent memory, and feedback signals.
+
+![Applications](figs/applications.png)
 
 ### 💻 Code Assistants
 
