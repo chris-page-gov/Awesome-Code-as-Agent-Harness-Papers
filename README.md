@@ -924,6 +924,53 @@ GUI/OS environments are program worlds in the most literal sense: every observat
 | [Project Mariner](https://deepmind.google/models/project-mariner/) \[Blog\] | 2025 |
 | [AutoWebGLM: A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648) | KDD 2024 |
 
+### 🤖 Autonomous Embodied Agents
+
+Code grounds embodied actions in physical feasibility, accumulates reusable skills as memory, and supports auditable real-world deployment.
+
+#### Agent Harness for Grounded and Verifiable Embodied Actions
+
+| Paper | Venue |
+| --- | --- |
+| [Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) | ICRA 2023 |
+| [ChatGPT for Robotics: Design Principles and Model Abilities](https://arxiv.org/abs/2306.17582) | IEEE Access 2024 |
+| [Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/abs/2207.05608) | CoRL 2022 |
+| [VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://arxiv.org/abs/2307.05973) | CoRL 2023 |
+| [The Marathon 2: A Navigation System](https://arxiv.org/abs/2003.00368) | IROS 2020 |
+| [PaLM-E: An Embodied Multimodal Language Model](https://arxiv.org/abs/2303.03378) | ICML 2023 |
+| [Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning](https://arxiv.org/abs/2510.03342) | arXiv 2025 |
+| [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691) | CoRL 2022 |
+| [Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners](https://arxiv.org/abs/2307.01928) | CoRL 2023 |
+| [SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse](https://arxiv.org/abs/2603.03836) | arXiv 2026 |
+| [Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance](https://arxiv.org/abs/2310.10021) | CoRL 2023 |
+| [RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis](https://arxiv.org/abs/2402.16117) | ICML 2024 |
+| [Robotic Programmer: Video Instructed Policy Code Generation for Robotic Manipulation](https://arxiv.org/abs/2501.04268) | IROS 2025 |
+| [Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models](https://www.ijcai.org/proceedings/2025/980) | IJCAI 2025 |
+| [LLM-Driven Corrective Robot Operation Code Generation with Static Text-Based Simulation](https://arxiv.org/abs/2512.02002) | ICRA 2026 |
+| [NormCode: A Semi-Formal Language for Auditable AI Planning](https://arxiv.org/abs/2512.10563) | arXiv 2025 |
+| [CP-Agent: Agentic Constraint Programming](https://arxiv.org/abs/2508.07468) | arXiv 2025 |
+| [VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation](https://arxiv.org/abs/2510.05156) | arXiv 2025 |
+
+#### Reusable Skills as Embodied Memory
+
+| Paper | Venue |
+| --- | --- |
+| [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | NeurIPS 2023 |
+| [Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models](https://arxiv.org/abs/2312.11600) | ICRA 2024 |
+| [Growing with Your Embodied Agent: A Human-in-the-Loop Lifelong Code Generation Framework for Long-Horizon Manipulation Skills](https://arxiv.org/abs/2509.18597) | arXiv 2025 |
+| [ViReSkill: Vision-Grounded Replanning with Skill Memory for LLM-Based Planning in Lifelong Robot Learning](https://arxiv.org/abs/2509.24219) | arXiv 2025 |
+| [Lifelong Language-Conditioned Robotic Manipulation Learning](https://arxiv.org/abs/2603.05160) | AAAI 2026 |
+| [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533) | arXiv 2026 |
+
+#### Coordinated and Auditable Real-World Deployment
+
+| Paper | Venue |
+| --- | --- |
+| [GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models](https://arxiv.org/abs/2412.01862) | npj Robotics 2026 |
+| [Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems](https://arxiv.org/abs/2410.14209) | IEEE TSE 2026 |
+| [RACAS: Controlling Diverse Robots With a Single Agentic System](https://arxiv.org/abs/2603.05621) | arXiv 2026 |
+| [ALRM: Agentic LLM for Robotic Manipulation](https://arxiv.org/abs/2601.19510) | arXiv 2026 |
+
 ### 🔬 Scientific Discovery Agents
 
 Hypotheses are encoded as differential equations or generative models; protocols as XDL or Opentrons scripts; analyses as Jupyter notebooks. Code carries scientific reasoning, scientific action, and the scientific environment itself.
