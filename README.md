@@ -266,7 +266,7 @@ Memory in code-as-agent-harness systems is a state-management layer: which infor
 
 | Paper | Venue |
 | --- | --- |
-| [Language Models Do Not Have Human-Like Working Memory](https://arxiv.org/abs/2505.10571) | 2025 |
+| [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571) | 2025 |
 | [Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?](https://arxiv.org/abs/2511.13646) | 2025 |
 | [CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory](https://arxiv.org/abs/2512.15813) | 2025 |
 | [RepairAgent: An Autonomous, LLM-Based Agent for Program Repair](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00157) | ICSE 2025 |
@@ -341,7 +341,7 @@ Tool usage is the action and observation layer of the code-agent harness: agents
 | Paper | Venue |
 | --- | --- |
 | [Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents](https://arxiv.org/abs/2602.09944) | 2026 |
-| [Grounded Test-Time Adaptation for LLM Agents](https://openreview.net/forum?id=OH4PE0TDo0) | ICLR 2026 |
+| [Test-Time Adaptation for LLM Agents via Environment Interaction](https://openreview.net/forum?id=OH4PE0TDo0) | ICLR 2026 |
 
 #### Verification-Driven Tool Use
 
@@ -435,7 +435,7 @@ Iterative debugging closes the harness loop: development environments expose fee
 
 | Paper | Venue |
 | --- | --- |
-| [Llm as runtime error handler: A promising pathway to adaptive self-healing of software systems](https://arxiv.org/abs/2408.01055) | 2024 |
+| [Towards Agentic Runtime Healing](https://arxiv.org/abs/2408.01055) | 2024 |
 | [Large language model guided self-debugging code generation](https://arxiv.org/abs/2502.02928) | 2025 |
 | [Code Repair with LLMs Gives an Exploration-Exploitation Tradeoff](https://proceedings.neurips.cc/paper_files/paper/2024/hash/d5c56ec4f69c9a473089b16000d3f8cd-Abstract-Conference.html) | NeurIPS 2024 |
 | [Debug Like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step](https://aclanthology.org/2024.findings-acl.49/) | ACL 2024 Findings |
@@ -462,7 +462,7 @@ Iterative debugging closes the harness loop: development environments expose fee
 
 | Paper | Venue |
 | --- | --- |
-| [IterPref: Focal Preference Learning for Code Generation via Iterative Debugging](https://arxiv.org/abs/2503.02783) | arXiv 2025 |
+| [Teaching Your Models to Understand Code via Focal Preference Alignment](https://arxiv.org/abs/2503.02783) | arXiv 2025 |
 | [ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://openreview.net/forum?id=q56ZI1Co43) | NeurIPS 2025 |
 
 ## 👥 Scaling the Harness: Multi-Agent Code-Centric Systems
