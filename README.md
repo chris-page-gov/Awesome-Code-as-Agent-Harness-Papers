@@ -902,6 +902,7 @@ GUI/OS environments are program worlds in the most literal sense: every observat
 | [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533) | arXiv 2026 |
 | [AutoGLM: Autonomous Foundation Agents for GUIs](https://arxiv.org/abs/2411.00820) | arXiv 2024 |
 | [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://aclanthology.org/2025.acl-long.277/) | ACL 2025 |
+| [PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents](https://arxiv.org/abs/2603.03296) | arXiv 2026 |
 #### UI Simulators and Sandboxes as Executable Dynamics
 
 | Paper | Venue |
