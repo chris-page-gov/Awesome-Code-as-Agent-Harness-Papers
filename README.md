@@ -1032,38 +1032,45 @@ Hypotheses are encoded as differential equations or generative models; protocols
 | [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/abs/2410.05080) | ICLR 2025 |
 | [DiscoveryBench: Towards Data-Driven Discovery with Large Language Models](https://arxiv.org/abs/2407.01725) | arXiv 2024 |
 
-### 🤖 Autonomous Embodied Agents
+### 🧠 Agent Personalization
 
-Code grounds embodied actions in physical feasibility, accumulates reusable skills as memory, and supports auditable real-world deployment.
+As recommendation moves from static prediction toward interactive agents, personalization systems must reason over latent and evolving user preferences through structured, editable preference states and executable feedback pipelines.
 
-#### Agent Harness for Grounded and Verifiable Embodied Actions
-
-| Paper | Venue |
-| --- | --- |
-| [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691) | CoRL 2022 |
-| [Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners](https://arxiv.org/abs/2307.01928) | CoRL 2023 |
-| [SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse](https://arxiv.org/abs/2603.03836) | arXiv 2026 |
-| [Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance](https://arxiv.org/abs/2310.10021) | CoRL 2023 |
-| [RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis](https://arxiv.org/abs/2402.16117) | ICML 2024 |
-| [LLM-Driven Corrective Robot Operation Code Generation with Static Text-Based Simulation](https://arxiv.org/abs/2512.02002) | ICRA 2026 |
-| [NormCode: A Semi-Formal Language for Auditable AI Planning](https://arxiv.org/abs/2512.10563) | arXiv 2025 |
-| [CP-Agent: Agentic Constraint Programming](https://arxiv.org/abs/2508.07468) | arXiv 2025 |
-| [VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation](https://arxiv.org/abs/2510.05156) | arXiv 2025 |
-
-#### Reusable Skills as Embodied Memory
+#### From Static Recommendation to Interactive Personalization
 
 | Paper | Venue |
 | --- | --- |
-| [Growing with Your Embodied Agent: A Human-in-the-Loop Lifelong Code Generation Framework for Long-Horizon Manipulation Skills](https://arxiv.org/abs/2509.18597) | arXiv 2025 |
-| [ViReSkill: Vision-Grounded Replanning with Skill Memory for LLM-Based Planning in Lifelong Robot Learning](https://arxiv.org/abs/2509.24219) | arXiv 2025 |
-| [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533) | arXiv 2026 |
+| [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126) | SIGIR 2020 |
+| [DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction](https://arxiv.org/abs/1703.04247) | IJCAI 2017 |
+| [Large Language Models are Zero-Shot Rankers for Recommender Systems](https://arxiv.org/abs/2305.02382) | ECIR 2024 |
+| [Uncovering ChatGPT's Capabilities in Recommender Systems](https://arxiv.org/abs/2305.06566) | RecSys 2023 |
+| [RecoWorld: Building Simulated Environments for Agentic Recommender Systems](https://arxiv.org/abs/2509.10397) | arXiv 2025 |
+| [RecMind: Large Language Model Powered Agent for Recommendation](https://arxiv.org/abs/2308.14296) | NAACL 2024 Findings |
+| [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://arxiv.org/abs/2308.16505) | ACM TOIS 2025 |
+| [On Generative Agents in Recommendation](https://arxiv.org/abs/2310.10108) | SIGIR 2024 |
+| [iAgent: LLM Agent as a Shield Between User and Recommender Systems](https://arxiv.org/abs/2403.13851) | ACL 2025 Findings |
 
-#### Coordinated and Auditable Real-World Deployment
+#### Preference State as an Editable Artifact
 
 | Paper | Venue |
 | --- | --- |
-| [RACAS: Controlling Diverse Robots With a Single Agentic System](https://arxiv.org/abs/2603.05621) | arXiv 2026 |
-| [ALRM: Agentic LLM for Robotic Manipulation](https://arxiv.org/abs/2601.19510) | arXiv 2026 |
+| [A-Mem: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.03962) | NeurIPS 2026 |
+| [Evo-Memory: Benchmarking LLM Agent Test-Time Learning with Self-Evolving Memory](https://arxiv.org/abs/2511.20857) | arXiv 2025 |
+| [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) | arXiv 2025 |
+| [MemRec: Collaborative Memory-Augmented Agentic Recommender System](https://arxiv.org/abs/2601.08816) | arXiv 2026 |
+
+#### Feedback as Policy Adaptation
+
+| Paper | Venue |
+| --- | --- |
+| [LLM-Powered User Simulator for Recommender System](https://arxiv.org/abs/2412.16984) | AAAI 2025 |
+| [User Behavior Simulation with Large Language Model-Based Agents](https://arxiv.org/abs/2306.02552) | ACM TOIS 2025 |
+
+#### Controllable and Instruction-Following Personalization
+
+| Paper | Venue |
+| --- | --- |
+| [Conversational Recommendation: Formulation, Methods, and Evaluation](https://dl.acm.org/doi/10.1145/3397271.3401322) | SIGIR 2020 |
 
 ---
 
