@@ -2,9 +2,10 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![arXiv](https://img.shields.io/badge/arXiv-2605.18747-b31b1b.svg)](https://arxiv.org/abs/2605.18747)
+[![Website](https://img.shields.io/badge/Website-code--as--harness.github.io-1f6feb?logo=googlechrome&logoColor=white)](https://code-as-harness.github.io/code-as-harness-webpage/)
+[![HF #1 Paper of the Day](https://img.shields.io/badge/%F0%9F%A4%97%20HF-%231%20Paper%20of%20the%20Day-FFD21E)](https://huggingface.co/papers/2605.18747)
+[![@_akhaliq](https://img.shields.io/badge/%40__akhaliq-6366F1?logo=x&logoColor=white&labelColor=000000)](https://x.com/_akhaliq/status/2056900568921133565?s=20)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](#-contributing)
-![Last Commit](https://img.shields.io/github/last-commit/YennNing/Awesome-Code-as-Agent-Harness-Papers)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YennNing.Awesome-Code-as-Agent-Harness-Papers)
 
 This repository accompanies the survey [**Code as Agent Harness: Toward Executable, Verifiable, and Stateful Agent Systems**](https://arxiv.org/abs/2605.18747).
