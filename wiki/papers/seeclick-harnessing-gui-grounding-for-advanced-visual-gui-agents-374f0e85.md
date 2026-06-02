@@ -1,13 +1,14 @@
 ---
 title: "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "seeclick-harnessing-gui-grounding-for-advanced-visual-gui-agents-374f0e85"
 canonical_urls:
   - "https://arxiv.org/abs/2401.10935"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2401.10935.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `seeclick-harnessing-gui-grounding-for-advanced-visual-gui-agents-374f0e85`
 - Venue labels: ACL 2024
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2401.10935](https://arxiv.org/abs/2401.10935)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2401.10935.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2401.10935.pdf`, 10795836 bytes, SHA-256 `b62bd796d8e6d45e13b41ed41a55d021a9df3329bf500d14efed129e8a1e04e2`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 11674 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (34), `environment` (8), `code` (5), `memory` (2), `execution` (1), `planning` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

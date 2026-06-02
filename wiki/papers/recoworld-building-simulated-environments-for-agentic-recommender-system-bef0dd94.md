@@ -1,13 +1,14 @@
 ---
 title: "RecoWorld: Building Simulated Environments for Agentic Recommender Systems"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "recoworld-building-simulated-environments-for-agentic-recommender-system-bef0dd94"
 canonical_urls:
   - "https://arxiv.org/abs/2509.10397"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2509.10397.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `recoworld-building-simulated-environments-for-agentic-recommender-system-bef0dd94`
 - Venue labels: arXiv 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2509.10397](https://arxiv.org/abs/2509.10397)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2509.10397.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2509.10397.pdf`, 829079 bytes, SHA-256 `937a27c3cfb9673c9416740f059a941d5e8fc28c9e74cb1ccded91a6fc33e397`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 17791 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (56), `feedback` (19), `environment` (9), `memory` (2), `tools` (2), `code` (1), `execution` (1), `multi-agent` (1), `planning` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.
