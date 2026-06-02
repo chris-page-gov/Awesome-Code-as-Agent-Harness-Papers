@@ -1,11 +1,11 @@
 {
   "updated": "2026-06-02",
   "paper_count": 354,
-  "localized_fragments": 218,
-  "integrated_fragments": 218,
-  "blocked_fragments": 16,
-  "pending_fragments": 120,
-  "unique_local_source_files": 217,
-  "unique_arxiv_paper_pdfs": 97,
+  "localized_fragments": 239,
+  "integrated_fragments": 239,
+  "blocked_fragments": 19,
+  "pending_fragments": 96,
+  "unique_local_source_files": 238,
+  "unique_arxiv_paper_pdfs": 114,
   "survey_localized": true
 }

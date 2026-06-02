@@ -7,7 +7,7 @@ paper_id: "llm-based-multi-agent-systems-for-software-engineering-literature-rev
 canonical_urls:
   - "https://doi.org/10.1145/3712003"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `llm-based-multi-agent-systems-for-software-engineering-literature-review-c0991972`
 - Venue labels: TOSEM 2024
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://doi.org/10.1145/3712003](https://doi.org/10.1145/3712003)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://doi.org/10.1145/3712003`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.

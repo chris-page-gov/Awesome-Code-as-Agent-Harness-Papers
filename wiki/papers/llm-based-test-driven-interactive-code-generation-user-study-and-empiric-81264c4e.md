@@ -7,7 +7,7 @@ paper_id: "llm-based-test-driven-interactive-code-generation-user-study-and-empi
 canonical_urls:
   - "https://dl.acm.org/doi/abs/10.1109/TSE.2024.3428972"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `llm-based-test-driven-interactive-code-generation-user-study-and-empiric-81264c4e`
 - Venue labels: TSE 2024
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://dl.acm.org/doi/abs/10.1109/TSE.2024.3428972](https://dl.acm.org/doi/abs/10.1109/TSE.2024.3428972)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://dl.acm.org/doi/abs/10.1109/TSE.2024.3428972`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.
