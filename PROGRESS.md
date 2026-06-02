@@ -20,6 +20,8 @@ Last updated: 2026-06-02
   validation, and checkpoint pushes.
 - [x] Auto-integrated 354 localized source files into wiki fragments.
 - [x] Completed source localization under `sources/raw/` for all paper fragments.
+- [x] Added the redistributable Agentic AI Governance UK MCP draft as a source.
+- [x] Added governance-review and LLM-Wiki effectiveness reports.
 
 ## Open Follow-Ups
 
@@ -27,4 +29,6 @@ Last updated: 2026-06-02
   concise human-reviewed contribution notes.
 - Keep manual source overrides current when publisher-hosted URLs block direct
   downloads.
+- Turn the LLM-Wiki evaluation implementation plan into claim-store and evidence
+  packet tasks.
 - Re-run wiki validation before each meaningful checkpoint.

@@ -20,7 +20,11 @@ last_reviewed: "2026-06-02"
   inventory.
 - Rewrote README paper-table links to local wiki fragments, with canonical
   external URLs preserved in the fragments.
-- Localized the Code as Agent Harness survey PDF and arXiv source files for the
-  all 354 paper fragments into `sources/raw/arxiv/`.
+- Localized the Code as Agent Harness survey PDF and source files for all 354
+  paper fragments under `sources/raw/`.
 - Recorded sandbox DNS failures and successful escalated downloads in
   `sources/metadata/fetch-manifest.json`.
+- Added the redistributable Agentic AI Governance UK MCP DOCX draft as a source
+  note.
+- Added reports reviewing that draft against the wiki corpus and evaluating the
+  wiki-first research workflow.

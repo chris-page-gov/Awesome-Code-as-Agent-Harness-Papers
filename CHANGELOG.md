@@ -17,9 +17,13 @@ All notable changes to this fork are recorded here.
 - Added a generator and validation checks for paper-register and README xref
   integrity.
 - Added a source-localization tool, fetch manifest, the localized Code as Agent
-  Harness survey PDF, and localized arXiv source files for the all 354 paper fragments.
+  Harness survey PDF, and localized source files for all 354 paper fragments.
 - Added a resumable source-ingest automation driver, source integration pass,
   and generated ingest status metadata.
+- Added the redistributable unofficial Agentic AI Governance UK MCP DOCX source
+  and source note.
+- Added review reports for the governance draft and for using the LLM-Wiki as
+  the primary research surface.
 
 ### Changed
 
@@ -29,6 +33,8 @@ All notable changes to this fork are recorded here.
 - Updated localized paper fragments with local source paths and source status.
 - Promoted all localized fragments into automated source-cue integration
   notes.
+- Updated topic-page gaps to reflect completed source localization and remaining
+  human-review work.
 
 ### Removed
 

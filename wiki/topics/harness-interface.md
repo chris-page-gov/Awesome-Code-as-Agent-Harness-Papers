@@ -34,5 +34,5 @@ reasoning, acting, and environment modeling.
 
 ## Gaps
 
-- Per-paper fragments need generation and source localization.
-
+- Paper fragments and local sources are available; contribution notes still need
+  human review where the fragment only contains automated extraction cues.

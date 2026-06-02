@@ -36,6 +36,12 @@ around the *Code as Agent Harness* survey and README inventory.
 - [Current README inventory](sources/SOURCE-README-ORIGINAL-2026-06-02.md)
 - [Code as Agent Harness survey](sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md)
 - [Karpathy LLM-Wiki method](sources/SOURCE-KARPATHY-LLM-WIKI-2026.md)
+- [UNOFFICIAL-DRAFT Agentic AI Governance UK MCP](sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md)
+
+## Reports
+
+- [Agentic AI Governance UK MCP review](reports/agentic-ai-governance-uk-mcp-review.md)
+- [LLM-Wiki primary-source evaluation](reports/llm-wiki-primary-source-evaluation.md)
 
 ## Paper Fragments
 

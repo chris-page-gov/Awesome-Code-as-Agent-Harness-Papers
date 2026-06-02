@@ -36,10 +36,13 @@ scientific discovery agents, and embodied agents.
   currently records 354 unique paper/reference fragments from 458 README rows.
 - README paper rows now link to local fragments under [wiki/papers/](wiki/papers/);
   each fragment preserves the canonical external source URL.
-- Source-localization batches have fetched the survey PDF plus 47 unique arXiv
-  paper PDFs, covering 121 paper fragments under the local
-  `sources/raw/arxiv/` cache. Fetch status and hashes are
+- Source-localization batches have fetched the survey PDF plus 353 unique paper
+  source files, including 216 arXiv paper PDFs, covering all 354 paper
+  fragments under the local `sources/raw/` cache. Fetch status and hashes are
   recorded in [sources/metadata/fetch-manifest.json](sources/metadata/fetch-manifest.json).
+- `sources/raw/redistributable/` now includes the unofficial Agentic AI
+  Governance UK MCP DOCX draft because other users would not have access to the
+  original local path.
 
 ## Local Pattern Adopted
 
