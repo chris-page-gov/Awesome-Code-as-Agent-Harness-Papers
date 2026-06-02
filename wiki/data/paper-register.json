@@ -70,7 +70,7 @@
           "feedback"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html",
@@ -78,7 +78,7 @@
           "sha256": "5d97a5a3bfca78027247f83898d72aebad89bd8c09ed48642920e9bac489b7ee"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -125,7 +125,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html",
@@ -133,7 +133,7 @@
           "sha256": "ee855306c93908a0103b77657d8577d43fcb3f67f0189e376f16a83c9c663958"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -190,6 +190,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:53:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.03962.pdf",
@@ -197,7 +198,6 @@
           "sha256": "38b210a202bc5518b06bdd0bb8449d7e9b44be71845a4109d3efbfcd1546343c"
         }
       ],
-      "integrated_at": "2026-06-02T08:53:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -322,6 +322,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:53:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2307.12856.pdf",
@@ -329,7 +330,6 @@
           "sha256": "23b1129aa8b95ee0555d27fb5a5711717c482451b31dd1c4df64ad8cc2267d1a"
         }
       ],
-      "integrated_at": "2026-06-02T08:53:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -376,6 +376,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2508.21148.pdf",
@@ -383,7 +384,6 @@
           "sha256": "ed2372ca354e703bb5a9732781d952bf2b5df6aad6491389c4cb1a0c6ba9b69f"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -527,7 +527,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html",
@@ -535,7 +535,7 @@
           "sha256": "83273a2ade7173194fed50e1fa3a0bb6a2442d60dc6f3d668b70b007184db594"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -582,7 +582,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html",
@@ -590,7 +590,7 @@
           "sha256": "52736e0ea3a4953ea24c819841f04a18d5179649f862e7a1093d9994994ff8c3"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -674,7 +674,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html",
@@ -682,7 +682,7 @@
           "sha256": "867c4bd503491ddad31065da11c9e2a72589cbe15dc031f465601c49f1c65c84"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -770,7 +770,7 @@
           "environment"
         ]
       },
-      "source_family": "direct-pdf",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf",
@@ -778,7 +778,7 @@
           "sha256": "0ad81e8b6fd3bd5c32868fd80312d64780cc5b08298af7fc60187bc4b1489c20"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "direct-pdf",
       "integration_status": "auto-extracted"
     },
     {
@@ -855,6 +855,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.11655.pdf",
@@ -862,7 +863,6 @@
           "sha256": "5804c97553e20444f2c15ddf7bd3069046a4d32e807714294381d9f0d3ed7547"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -963,7 +963,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-emnlp.320.pdf",
@@ -971,7 +971,7 @@
           "sha256": "28de4e931db9004d056e240a2ac7a1460305dafc3b781fe1fb0fbd0c2596cc70"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -1043,6 +1043,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.10090.pdf",
@@ -1050,7 +1051,6 @@
           "sha256": "419b30a8f19edc92cf268d194923cf5f29b755c161e6f22672b5bfa05b5f84d5"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1129,6 +1129,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2308.03688.pdf",
@@ -1136,7 +1137,6 @@
           "sha256": "9c780e35fc0b2de6c2e21e0572f6aaaadcf7ecdd56d63cfaae2b415bc0dc83c3"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1281,6 +1281,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.13010.pdf",
@@ -1288,7 +1289,6 @@
           "sha256": "ebe4476de1eebf33cc045962d03cc90d701fb4a8c2689353d34e146102acf443"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1360,6 +1360,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2604.25850.pdf",
@@ -1367,7 +1368,6 @@
           "sha256": "299f2633b4c13db7bed52434b4db7c48ea621993581014d30e7bcd036d3464df"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1453,6 +1453,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2407.01489.pdf",
@@ -1460,7 +1461,6 @@
           "sha256": "1675c2dcd5ecaef47e8a4356062f60be642cee82e1bbacb044c9d047dce4c856"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1542,6 +1542,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2507.19902.pdf",
@@ -1549,7 +1550,6 @@
           "sha256": "d5cd503676f4243be45ece2b9a7f17ba4dd254987ab8ec59d1884a3254efdf57"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1626,7 +1626,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/oWdzUpOlkX.pdf",
@@ -1634,7 +1634,7 @@
           "sha256": "0d219532fc5d826ac8a0bb470f5815cb563ee6ccc7885ba717d78ce82e45e3cf"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -1716,6 +1716,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2509.03312.pdf",
@@ -1723,7 +1724,6 @@
           "sha256": "f4461ace11c5c9d33eee81cf3a8584ff7cbeba210933de1c2990500aee5d693e"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1795,6 +1795,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.18102.pdf",
@@ -1802,7 +1803,6 @@
           "sha256": "762045781a10140f714e0f23388014286a50cce79f385d6b4a1475162cce9669"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1884,6 +1884,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.14209.pdf",
@@ -1891,7 +1892,6 @@
           "sha256": "1c76d775ef4dff03c724fc446be809b6a5db67fefd7163870f5dadd6bb9b294a"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -1973,6 +1973,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.14209.pdf",
@@ -1980,7 +1981,6 @@
           "sha256": "1c76d775ef4dff03c724fc446be809b6a5db67fefd7163870f5dadd6bb9b294a"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -2062,6 +2062,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.15709.pdf",
@@ -2069,7 +2070,6 @@
           "sha256": "5f8f262e7ad8bb7b07753d025a587f9f7401d536ba27cca04928bb53f13f7de9"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -2123,7 +2123,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T08:58:40+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html",
@@ -2131,7 +2131,7 @@
           "sha256": "854a9da7f7c8437b6c821496db7007ddcad836c0b55d5507fe53479a994ba2eb"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -2203,6 +2203,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.13138.pdf",
@@ -2210,7 +2211,6 @@
           "sha256": "5fc52573eab9c8cb568b0c5aab6ee75752d198504babf8278ad23fe3d542cb41"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -2287,7 +2287,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/KwqbtKeaRl.pdf",
@@ -2295,7 +2295,7 @@
           "sha256": "330084c8421a12b27a80738dfa8d1bf48f81d9f7cdadd1b41fc84a5ad4eb89f8"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -2391,6 +2391,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.13247.pdf",
@@ -2398,7 +2399,6 @@
           "sha256": "8dbe05fe1a0390204d49b1437ad15a0be69df87034981cc792140234b48204cd"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -2480,6 +2480,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.03463.pdf",
@@ -2487,7 +2488,6 @@
           "sha256": "d4b99bcfde3fe3b4ca808461de18dbbe7ba5d3645c327edf425418e91c85ec2e"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -2549,6 +2549,7 @@
           "feedback"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2506.13131.pdf",
@@ -2556,7 +2557,6 @@
           "sha256": "f092c8cbd65da89951ee6496374da9a54963f9035758c25ac6e4625f506df9ad"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -2640,6 +2640,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.19510.pdf",
@@ -2647,7 +2648,6 @@
           "sha256": "e45ac14a2288afb3016c7cfee3969a5e92d152de59f40f403dfdff1f8b699daf"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -2709,7 +2709,7 @@
           "feedback"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html",
@@ -2717,7 +2717,7 @@
           "sha256": "08ce058e2f6e13a99ed281db079fa480e08a50abf171290278653dc2aba847cc"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -2794,6 +2794,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.24024.pdf",
@@ -2801,7 +2802,6 @@
           "sha256": "70233eb37c74ce4e3973a6d7c86f7b3ea07dff4045b763adcc52f22e2b76df61"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -2863,7 +2863,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.iclr.cc/androidworld-a-dynamic-benchmarking-environment-for-autonomous-agents-0ba883e0.html",
@@ -2871,7 +2871,7 @@
           "sha256": "e525e5eeedcb08e61765eb0d4034c43381bd3ecc5cc4bf9cc8788cf50e7a2bca"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -2943,6 +2943,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.13771.pdf",
@@ -2950,7 +2951,6 @@
           "sha256": "ce9840204e13889f899e326def62005ed9871a0a6ab5d44f716343c4142ef045"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -3046,6 +3046,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.15223.pdf",
@@ -3053,7 +3054,6 @@
           "sha256": "b2db368d3c9632795c0c719270184b88a5602122a9e5515c51e6acc669af555f"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -3115,6 +3115,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2412.16256.pdf",
@@ -3122,7 +3123,6 @@
           "sha256": "169bc7694b456530ce8a6f0336b7efc33a32a21a731e1656caf4934e83f59334"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -3202,6 +3202,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2404.05427.pdf",
@@ -3209,7 +3210,6 @@
           "sha256": "b1f6a5942947276b4f1f9cdc2cb43ff3d383223cab7e779a498b9def9593f60a"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -3281,7 +3281,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/BAakY1hNKS.pdf",
@@ -3289,7 +3289,7 @@
           "sha256": "b1050948cf2c3aceaed607f650b02c04d1e3225bf364bcb0b3690bfe5d90bad8"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -3341,6 +3341,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2411.00820.pdf",
@@ -3348,7 +3349,6 @@
           "sha256": "93f5c46e6a401cf221af9886ce4aa6634b5f64ca1aaa192ffd367339985c50f1"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -3420,6 +3420,7 @@
           "environment"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.03329.pdf",
@@ -3427,7 +3428,6 @@
           "sha256": "8399c0a6a76a38c1a96804c88d0bac69286fe52ba3f255cba9175e3882fecf19"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -3499,7 +3499,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/autonomous-chemical-research-with-large-language-models-0c447ea7.html",
@@ -3507,7 +3507,7 @@
           "sha256": "c261f708372c0d4efd9e9c627f6ac42939e51a7b6de15137cda7268e6f2b60a3"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -3621,6 +3621,7 @@
           "multi-agent"
         ]
       },
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2409.10737.pdf",
@@ -3628,7 +3629,6 @@
           "sha256": "c5b84e48249d31f490cee33b8a0a70ffd03d511680c0c2a6ab65790e9f4c7b03"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
       "integration_status": "auto-extracted"
     },
     {
@@ -3695,7 +3695,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2404.03648.pdf",
@@ -3703,7 +3703,7 @@
           "sha256": "ee5100b55bdcc64eca63c5a0f9604a61dcaf60efdeea44838f60ba246cedfa72"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -3780,7 +3780,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/roNSXZpUDN.pdf",
@@ -3788,7 +3788,7 @@
           "sha256": "e2d45d573e1fce753ead1a44cc468ad386dd384e2668450d0a9c0e2c7920ada0"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -3860,7 +3860,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2604.11839.pdf",
@@ -3868,7 +3868,7 @@
           "sha256": "5547ceffdc5e498aa5715d3291e6e8677f42e6a1a0e991ed0b05eda85708c177"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -3964,7 +3964,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2023.emnlp-main.162.pdf",
@@ -3972,7 +3972,7 @@
           "sha256": "f360fc7aa1d8ed32f46afdedbf2bd7de38fb7696f812a063663884598a457dce"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -4054,7 +4054,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/frontiersin.org/blueprint2code-a-multi-agent-pipeline-for-reliable-code-generation-via-blueprint-ee082543.html",
@@ -4062,7 +4062,7 @@
           "sha256": "a86a333785e6dd40d0230bcd4bf6ef5eb338ba55078e48dee0ea8efd490ea533"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -4144,7 +4144,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2512.23631.pdf",
@@ -4152,7 +4152,7 @@
           "sha256": "38e6a8b882546038e899637fe6016d4ffd240cc382c078960b9f01879cd88767"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -4226,7 +4226,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.10021.pdf",
@@ -4234,7 +4234,7 @@
           "sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -4308,7 +4308,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openai.com/building-more-with-gpt-5-1-codex-max-90a3db01.html",
@@ -4316,7 +4316,7 @@
           "sha256": "53a0bfb923738f6440ab2d8134ea59657466ffbfe78b078d6e0102b72ee20a4c"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -4378,7 +4378,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.04474.pdf",
@@ -4386,7 +4386,7 @@
           "sha256": "3ea67386c3612262130b284f4f74c6c2fc6e137fa3f6b375f34182aa18a72e3b"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -4438,7 +4438,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/_VjQlMeSB_J.pdf",
@@ -4446,7 +4446,7 @@
           "sha256": "880df0b46e8b4f77248d92a639dca69b96e57cad626e6fad0b4f5d746b930bd5"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -4552,7 +4552,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html",
@@ -4560,7 +4560,7 @@
           "sha256": "3e061394a4a229d3f3ee05946807d06d21d7b91887b7f95b5e6110916cbdfd3e"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -4637,7 +4637,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2306.17582.pdf",
@@ -4645,7 +4645,7 @@
           "sha256": "032be1d08ba644cc8795f3d8db4b7abfc17710b19181f1737d83c3365a438a0a"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -4727,7 +4727,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/chemcrow-augmenting-large-language-models-with-chemistry-tools-2380157f.html",
@@ -4735,7 +4735,7 @@
           "sha256": "7f45643db9de0c38e0d4214693ba2324f2ee72f0862c2dfab6f9fc51f73484c1"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -4814,7 +4814,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/anthropic.com/claude-code-35a67dc8.html",
@@ -4822,7 +4822,7 @@
           "sha256": "04af918e3c114e91f0e26eb0a025d4dc06f6a297e4d36c7ec70ac4ca01b23098"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -4884,7 +4884,7 @@
           "tools"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2403.08291.pdf",
@@ -4892,7 +4892,7 @@
           "sha256": "47dae4dd7be2256e382c3d5e8776e2582a0f79177468ba2c53fc90a7c73a10c0"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -4977,7 +4977,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2209.07753.pdf",
@@ -4985,7 +4985,7 @@
           "sha256": "e36857fa13746da031444ec59549e61204ca92d599b1d048ac1c55aaf1f6d0a3"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -5067,7 +5067,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T08:58:41+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.01700.pdf",
@@ -5075,7 +5075,7 @@
           "sha256": "13e2175461bf088cb55a5e8c036312431978153aac60521286b176725ed5d8b7"
         }
       ],
-      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -5129,7 +5129,7 @@
           "planning"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html",
@@ -5137,7 +5137,7 @@
           "sha256": "912a7e586cfb3a1ead49d00295ed4e78a9c3da7e38efad465c0f60f9d9c8895f"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -5214,7 +5214,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.20909.pdf",
@@ -5222,7 +5222,7 @@
           "sha256": "053d5a24e2798c2c56b1f589333e1082704753bcf17cb05bacef3ee411e47b4b"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -5274,7 +5274,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2401.08500.pdf",
@@ -5282,7 +5282,7 @@
           "sha256": "b7e6422424c482e7002c19a6d7ba18220b7610a16047aeb46f1c235d836d96f0"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -5359,7 +5359,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2505.16901.pdf",
@@ -5367,7 +5367,7 @@
           "sha256": "2e9dc07a96f9b55e09b8d364cb015a27dd19c2f769ae41fb5561dda9650b96f6"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -5414,7 +5414,7 @@
           "feedback"
         ]
       },
-      "source_family": "neurips",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/code-repair-with-llms-gives-an-exploration-exploitation-tradeoff-67957ea8.html",
@@ -5422,7 +5422,7 @@
           "sha256": "185c22c77dd4ef090ba5b9941b0dcf780f9fbfc0c5a521ca9b078947cef5cca2"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "neurips",
       "integration_status": "auto-extracted"
     },
     {
@@ -5501,7 +5501,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.09856.pdf",
@@ -5509,7 +5509,7 @@
           "sha256": "28f0f800c2441022026e84384a6e432b6d318cfbe183eba6533493d5ec3cd596"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -5586,7 +5586,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.11757.pdf",
@@ -5594,7 +5594,7 @@
           "sha256": "d3b3cf9537f35167af2725a7a6c58629b98bc7596ba9069d28e6712a05eb8fa6"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -5661,7 +5661,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.emnlp-main.632.pdf",
@@ -5669,7 +5669,7 @@
           "sha256": "a48f3e74fb460e633b7fc6fe60e5deee47a1068d8653df72a0b5a69e60a86144"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -5749,7 +5749,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.737.pdf",
@@ -5757,7 +5757,7 @@
           "sha256": "793e32c036ecd5e13be6994a6db6d7890a7a3f3c3834914bbd64420a59c6c033"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -5843,7 +5843,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:05+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2501.07811.pdf",
@@ -5851,7 +5851,7 @@
           "sha256": "98ac7eb6d1833caafd94c5fcabb71c04b517a17ded6b6e2b3636a649bcdb0523"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:05+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -5918,7 +5918,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.13962.pdf",
@@ -5926,7 +5926,7 @@
           "sha256": "364b490ebbd1c86c0d898cb027493e6bbc7589ca160074e906129a6500adfa96"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -6010,7 +6010,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2512.15813.pdf",
@@ -6018,7 +6018,7 @@
           "sha256": "d353caf2376e2bc538a311d203c8996f60f0712f1a2a003eb5c59d8a71749164"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -6121,7 +6121,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2402.01411.pdf",
@@ -6129,7 +6129,7 @@
           "sha256": "25886e7bf72167707c76e1fd20ed3481031767330e15d92ac13c9ff44a357d3d"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -6191,7 +6191,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-acl.428.pdf",
@@ -6199,7 +6199,7 @@
           "sha256": "755cc3a43c23a6ee5be7c53603005655441849fff2a97222e85f71b6bcd203ac"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -6251,7 +6251,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:36:55+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-484182a0.html",
@@ -6259,7 +6259,7 @@
           "sha256": "8a425d09c5441be63fc722553dd407c87fdac6dfd90f4b205bb94bc32510a4bd"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:55+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -6326,7 +6326,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.18471.pdf",
@@ -6334,7 +6334,7 @@
           "sha256": "010eda4b6497082985613b72a82c3e4b4f6cb08d7f7419a744f1742ac27d2552"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -6396,7 +6396,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/WaGvb7OzySA.pdf",
@@ -6404,7 +6404,7 @@
           "sha256": "8dc4c6bff4ec4604b8796012071f0fe73b56d59ba87ae51b239ae6336b963231"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -6481,7 +6481,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.04350.pdf",
@@ -6489,7 +6489,7 @@
           "sha256": "3cb820b1cab499a9905fb19f3e2855bbbe972e34cff33aae940b0f0e4c46126a"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -6561,7 +6561,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:55+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.04177.pdf",
@@ -6569,7 +6569,7 @@
           "sha256": "fd2f990c3b2ccf7f35288960998786877415eb30b40239ccc370fe3239cce8a0"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:55+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -6641,7 +6641,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.naacl-long.189.pdf",
@@ -6649,7 +6649,7 @@
           "sha256": "1674919b2180b571e19bedf301b5186307a9e725ee5d371a619dc6cd58de70f7"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -6723,7 +6723,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:36:55+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openai.com/codex-security-now-in-research-preview-f67d818b.html",
@@ -6731,7 +6731,7 @@
           "sha256": "991d5ab08e1e5b1bd980273c70f4c2f96978ec759ede7fa0da4a8c12c9a8ea8e"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:55+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -6810,7 +6810,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:55+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2408.03910.pdf",
@@ -6818,7 +6818,7 @@
           "sha256": "4804a553a0eef9271ef3ba01552e60dce18e49364612bcd220552c47de515927"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:55+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -6880,7 +6880,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:55+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.08914.pdf",
@@ -6888,7 +6888,7 @@
           "sha256": "d9cb086d826eaee9f919e0cbf142193b77f476b0aef6260b34408abe142fe13b"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:55+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -6977,7 +6977,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2501.18653.pdf",
@@ -6985,7 +6985,7 @@
           "sha256": "3196f8b85979f11c396fb8db929fa4b8584d9b908dd3246e81461878d2507768"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -7054,7 +7054,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/cursor.com/composer-building-a-fast-frontier-model-with-reinforcement-learning-7cdde98f.html",
@@ -7062,7 +7062,7 @@
           "sha256": "1a763149ce127be47d70abc501a49aedabf06ea96fc3df91aefa5cce72128db7"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -7134,7 +7134,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.28119.pdf",
@@ -7142,7 +7142,7 @@
           "sha256": "9a7e628ae6a43ec57ed4d4be5845924b52b6103c7ae710fc177af983f478691d"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -7214,7 +7214,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.05892.pdf",
@@ -7222,7 +7222,7 @@
           "sha256": "517140a2504959bfb94c7c875f6e80a031e899bc362dcc73c446536b45e18a46"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -7279,7 +7279,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.02985.pdf",
@@ -7287,7 +7287,7 @@
           "sha256": "dd5b04d478d9af91d7f19e59e36961fbf0ffe82689a6e696967bf7b285673175"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -7359,7 +7359,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/link.springer.com/controlllm-augment-language-models-with-tools-by-searching-on-graphs-83f73da0.html",
@@ -7367,7 +7367,7 @@
           "sha256": "2645a4add01ac3940935a19ceab2298731f3320a5d69f2bd01d2f068c926c315"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -7424,7 +7424,7 @@
           "tools"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.16508.pdf",
@@ -7432,7 +7432,7 @@
           "sha256": "3252d48b95cc079b5ac263d680835c392697e162b84244f4960fbd76acc76ad6"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -7513,7 +7513,7 @@
           "environment"
         ]
       },
-      "source_family": "neurips",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/neurips.cc/core-benchmarking-llms-code-reasoning-capabilities-through-static-analysis-tasks-2044e091.html",
@@ -7521,7 +7521,7 @@
           "sha256": "4cef3302614fbc4581475c0dfbc11d7f0f472ff8babfde227447a432c9249b15"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "neurips",
       "integration_status": "auto-extracted"
     },
     {
@@ -7600,7 +7600,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2508.07468.pdf",
@@ -7608,7 +7608,7 @@
           "sha256": "e4e0024d12671a7d05c57d06c63e71172de083f276298b7edf5b34116f3d03a1"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -7670,7 +7670,7 @@
           "environment"
         ]
       },
-      "source_family": "pmlr",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/cradle-empowering-foundation-agents-towards-general-computer-control-ef56cc84.html",
@@ -7678,7 +7678,7 @@
           "sha256": "5cc940215797bcd9ad38a069941369f28e6433b3e7eb4baf759b8f7d45be84b3"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "pmlr",
       "integration_status": "auto-extracted"
     },
     {
@@ -7745,7 +7745,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2401.03065.pdf",
@@ -7753,7 +7753,7 @@
           "sha256": "1a356948d0d2543ab7b142029f208271a2581575cee4f5b37eb647cbbf0b435e"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -7810,7 +7810,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.1158.pdf",
@@ -7818,7 +7818,7 @@
           "sha256": "39f4fa334575d05fca6b31bd762e6f0059b4755745ab094b74306e2b9a98ed31"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -7890,7 +7890,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.02387.pdf",
@@ -7898,7 +7898,7 @@
           "sha256": "2ae224342fd03066046f82416c6d56e2041f658fdd0362f2fb01848d887ed583"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -7999,7 +7999,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.973.pdf",
@@ -8007,7 +8007,7 @@
           "sha256": "0893eb9e47c80ab21e976d0028e53cffa31bc3996836eaebb6024fcec19ab986"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -8064,7 +8064,7 @@
           "feedback"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.findings-acl.49.pdf",
@@ -8072,7 +8072,7 @@
           "sha256": "c9f9286d66a7e10f1fc0110116ffae45e46b16b0e3c48fe693a8cb4f449cc414"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -8139,7 +8139,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2108.02968.pdf",
@@ -8147,7 +8147,7 @@
           "sha256": "87adce0660e06ee8372b77c8add2e65d8cf55260b3231f6888a0fe92af64f4f8"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -8221,7 +8221,7 @@
           "feedback"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/github.com/deepagents-88a615e8.html",
@@ -8229,7 +8229,7 @@
           "sha256": "e92bb0249aeecd8d09bc37e29cd86d2d4a8d9450fa06a2281e1d2fa91666a69d"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -8276,7 +8276,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/1703.04247.pdf",
@@ -8284,7 +8284,7 @@
           "sha256": "31548d474c2c6100bbc11da68cabf0e242a3657d7277c81e61ccc1efd78e6dad"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -8351,7 +8351,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2407.01725.pdf",
@@ -8359,7 +8359,7 @@
           "sha256": "f3968dfa91b28f60e5956ce439e2bd39050148a866f3ef86850ba458fc437a3f"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -8433,7 +8433,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2204.01691.pdf",
@@ -8441,7 +8441,7 @@
           "sha256": "48c22d36a044bbbd34e640beb1db4fb4ba57e74d97fefa0fb121d55c31282312"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -8513,7 +8513,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.21430.pdf",
@@ -8521,7 +8521,7 @@
           "sha256": "bd9bf0eb8bf25ec5966928ce1d65cb17fd8d84fcaa075bde324970efa6f099af"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -8583,7 +8583,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.emnlp-main.859.pdf",
@@ -8591,7 +8591,7 @@
           "sha256": "57251d1f4967a0edc656dbd36bbc65ec23fc3fce1a6bd558aec714b38effaae8"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -8626,7 +8626,7 @@
         "term_cues": [],
         "detected_topics": []
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/dx.doi.org/el-agente-an-autonomous-agent-for-quantum-chemistry-38597c59.html",
@@ -8634,7 +8634,7 @@
           "sha256": "7c62a383dd9b311f65705fe858d7223b8e55a806c1ea9ea6bc2002d999034a9e"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -8711,7 +8711,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.16443.pdf",
@@ -8719,7 +8719,7 @@
           "sha256": "006ed492d41f42b0a0c6119d858e90820eefe85d3f1a2e5cedc7a545e18920d7"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -8801,7 +8801,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2505.02133.pdf",
@@ -8809,7 +8809,7 @@
           "sha256": "06677db2abd844165fa773ed91c351bf6fe261cd27468e83d3f7637f1c1d44fe"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -8891,7 +8891,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.09944.pdf",
@@ -8899,7 +8899,7 @@
           "sha256": "fab1bbb4fdb0cdb8e78cd35d3744a5559b54f6dd18bd31f696b9813251395b86"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -8961,7 +8961,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/6ycX677p2l.pdf",
@@ -8969,7 +8969,7 @@
           "sha256": "7422cdf816e765c73b19c7fdcba7b6965313a2e001ca49a0421f4298580a23b1"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -9031,7 +9031,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2107.03374.pdf",
@@ -9039,7 +9039,7 @@
           "sha256": "ebae72ea0e8a5eb2ecbccdb985aec6cc1254a7c4d29e6d4de7866db1e66c4855"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -9096,7 +9096,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.747.pdf",
@@ -9104,7 +9104,7 @@
           "sha256": "b258c5436f778e05686646a745f270f0b33e31eb7c8268d8c3c651b217667b3a"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -9183,7 +9183,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2511.20857.pdf",
@@ -9191,7 +9191,7 @@
           "sha256": "ab99bebbc13f18150f888c43e27cde903751b3e5519de0104fe183af3bd46618"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -9283,7 +9283,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/8oJyuXfrPv.pdf",
@@ -9291,7 +9291,7 @@
           "sha256": "c90462078140da0706fabfba9844ad80db9a7be6c5bb13b839136c50716c8d43"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -9373,7 +9373,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/ySFDPoiANu.pdf",
@@ -9381,7 +9381,7 @@
           "sha256": "2d2eb2750401d619907310fca1a5cc985feaa29b89bd232e0047e27e7617a75c"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -9467,7 +9467,7 @@
           "environment"
         ]
       },
-      "source_family": "aaai",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html",
@@ -9475,7 +9475,7 @@
           "sha256": "0b92ce91acea72fccf6023ec9daba82ce299d3f959f10e10124f2ca751c52d9e"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "aaai",
       "integration_status": "auto-extracted"
     },
     {
@@ -9547,7 +9547,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2512.12806.pdf",
@@ -9555,7 +9555,7 @@
           "sha256": "90898c44fbb760d35d3fa76c8375f08c859a890e04f292febdab300b94a0c503"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -9627,7 +9627,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2504.06939.pdf",
@@ -9635,7 +9635,7 @@
           "sha256": "92521a8599a208466aabaa4c50b42e6bd251daa0696c83db0bf40dcfe7004b9c"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -9687,7 +9687,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2404.05719.pdf",
@@ -9695,7 +9695,7 @@
           "sha256": "b203b48b05ef3bbfd4dabeed01f1658b37d3abfcbd39567a73452ccf614bac5a"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -9777,7 +9777,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2504.15257.pdf",
@@ -9785,7 +9785,7 @@
           "sha256": "aa4d3445f46e99d5848d9fc02dd19564ec72392c7f28af8fb3e83230f31248f9"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -9881,7 +9881,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/researchgate.net/from-code-generation-to-ai-collaboration-the-role-of-multi-agent-systems-in-soft-51c96791.html",
@@ -9889,7 +9889,7 @@
           "sha256": "9b3b6a5305196995891f42476078c0dd44b8f31b153a4765322c37440a54c9b8"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -9956,7 +9956,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.01215.pdf",
@@ -9964,7 +9964,7 @@
           "sha256": "fcb6cc655c163db055122d8d6f6e8b852d16f5991aac115c453bd8f1d962174b"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -10036,7 +10036,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2505.03864.pdf",
@@ -10044,7 +10044,7 @@
           "sha256": "6dfe35a8a8477be7bc3e5a422fda9efe85f4ba8873aab323d9f95c933beb8432"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -10106,7 +10106,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2504.15965.pdf",
@@ -10114,7 +10114,7 @@
           "sha256": "0b869b8a3fd1530ee4fe83174b7fe16c9288baa7b65eacfbdaa4a49e19ac82e5"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -10161,7 +10161,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openreview.net/from-programs-to-poses-factored-real-world-scene-generation-via-learned-program-b37f0ed9.html",
@@ -10169,7 +10169,7 @@
           "sha256": "5e13e1db3a2c7f16173095d2d1d4a0d48559a2d63c9fc3c82a6f002ad0b315f8"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -10246,7 +10246,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/mmIAp3cVS0.pdf",
@@ -10254,7 +10254,7 @@
           "sha256": "d630ffd7736f6e637ad64c3a827d7bd9b870c9fca8f4cc6864b825af0427f3f0"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -10338,7 +10338,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.08067.pdf",
@@ -10346,7 +10346,7 @@
           "sha256": "805e62fad8e6683dabb30588857d24519f849228b7006f75185532b4c34d3015"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -10423,7 +10423,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.03342.pdf",
@@ -10431,7 +10431,7 @@
           "sha256": "771398d4d6dd458b137ae362de1d3434a7ff259cd8d7249b54f2fd7ebefcff45"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -10493,7 +10493,7 @@
           "environment"
         ]
       },
-      "source_family": "neurips",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/generating-code-world-models-with-large-language-models-guided-by-monte-carlo-tr-ed1bed97.html",
@@ -10501,7 +10501,7 @@
           "sha256": "6558d4a2e24883aebda1415280030b3c9360b64a26338543ff6c374af1d602ce"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "neurips",
       "integration_status": "auto-extracted"
     },
     {
@@ -10586,7 +10586,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/genswarm-scalable-multi-robot-code-policy-generation-and-deployment-via-language-64c9ab88.html",
@@ -10594,7 +10594,7 @@
           "sha256": "501ef0171265b01ed41534cb47437f89e6f2ba9909eea7fbdf2dbc2b83a0547d"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -10646,7 +10646,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2505.17653.pdf",
@@ -10654,7 +10654,7 @@
           "sha256": "be5adf43dcd36ffff1524938bbf473cd1c4bf40a391bec749d7b1c5b4285f152"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -10711,7 +10711,7 @@
           "environment"
         ]
       },
-      "source_family": "pmlr",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html",
@@ -10719,7 +10719,7 @@
           "sha256": "179930ed02c8eb33958dc3c946583928005a10d2e23c051cbe669d7e857cf423"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "pmlr",
       "integration_status": "auto-extracted"
     },
     {
@@ -10766,7 +10766,7 @@
           "feedback"
         ]
       },
-      "source_family": "aaai",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ojs.aaai.org/graph-of-thoughts-solving-elaborate-problems-with-large-language-models-d802d17b.html",
@@ -10774,7 +10774,7 @@
           "sha256": "6a8c956d58c1b4da0502184b83d308860a540713ad2e7e1fcf7293966a71c3fb"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "aaai",
       "integration_status": "auto-extracted"
     },
     {
@@ -10853,7 +10853,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2509.18597.pdf",
@@ -10861,7 +10861,7 @@
           "sha256": "859627b7c27fabe20590e35efdc1bd2c2a5827bd7f41a11c5ff697bd35d1c797"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -10928,7 +10928,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.22190.pdf",
@@ -10936,7 +10936,7 @@
           "sha256": "c0fa27c68c7683642182546d3676896e87421a5e25da1c7e942e2925185f8d59"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -11046,7 +11046,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2506.02943.pdf",
@@ -11054,7 +11054,7 @@
           "sha256": "f2da902084581663340041a7e756dafd6a09555b0dd70e4d50cbe292052c2d0f"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -11116,7 +11116,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2412.14841.pdf",
@@ -11124,7 +11124,7 @@
           "sha256": "38aece4fd14456f4d3749811c0f01f8316a2ef751f7a4fcb8e82f1e696296482"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -11183,7 +11183,7 @@
           "tools"
         ]
       },
-      "source_family": "direct-pdf",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/pdf/how-anthropic-teams-use-claude-code-7fc8bc72.pdf",
@@ -11191,7 +11191,7 @@
           "sha256": "985d98409f946834b8bacd52edcf74b87960e350393e3568abf25d4551167383"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "direct-pdf",
       "integration_status": "auto-extracted"
     },
     {
@@ -11268,7 +11268,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/link.springer.com/human-ai-experience-in-integrated-development-environments-a-systematic-literatu-5c41e6b6.html",
@@ -11276,7 +11276,7 @@
           "sha256": "46e84acb1712b9ff58e8978ef2eb933ed47f3f34e645d25cf3138cf2d0b2b8ab"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -11386,7 +11386,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2409.16299.pdf",
@@ -11394,7 +11394,7 @@
           "sha256": "c2fabbd4177d6e4dd4e6e863c483295b2801a29fb18313f83fb380b27a7639fd"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -11446,7 +11446,7 @@
           "tools"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2403.13851.pdf",
@@ -11454,7 +11454,7 @@
           "sha256": "17c7a0f745fddb9e74c9007ebc7b1877cc0dc2f5fd764166e1ccf9b35ae26c01"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -11518,7 +11518,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/cursor.com/improving-composer-through-real-time-reinforcement-learning-4a7226b7.html",
@@ -11526,7 +11526,7 @@
           "sha256": "1c8379326e6d2ddef1513ce0c6ab7d03d4727b4c0755f3f9ed3baf53aaafb009"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -11593,7 +11593,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2207.05608.pdf",
@@ -11601,7 +11601,7 @@
           "sha256": "ecf30268add2af672291ad65b53c9fd87801f6490b0af195b12db1dedee0f2b9"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -11692,7 +11692,7 @@
           "environment"
         ]
       },
-      "source_family": "neurips",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/intercode-standardizing-and-benchmarking-interactive-coding-with-execution-feedb-97ec9a72.html",
@@ -11700,7 +11700,7 @@
           "sha256": "60c2a9cb02fda16ba7183269b128d4ed591057596dcea0e761d826e371d6e785"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "neurips",
       "integration_status": "auto-extracted"
     },
     {
@@ -11769,7 +11769,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openai.com/introducing-aardvark-openai-s-agentic-security-researcher-7491db27.html",
@@ -11777,7 +11777,7 @@
           "sha256": "9a05d84716aa62f339dd1fc90c2daa54504e0bdb147cc37d7508d5d4aa474498"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -11861,7 +11861,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openai.com/introducing-codex-305143ec.html",
@@ -11869,7 +11869,7 @@
           "sha256": "208da1d7e3cd3eb6cdc7a3dcfa2709483a68eefe27cfaf173ad4dd7a0721b32a"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -11948,7 +11948,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openai.com/introducing-operator-eb97a609.html",
@@ -11956,7 +11956,7 @@
           "sha256": "8669592eb2bc5be84c929742b2fa7b5e4dd2db68bfc82e3899b1d4eaed6b62e6"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -12040,7 +12040,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html",
@@ -12048,7 +12048,7 @@
           "sha256": "d8fd7eaac7bad21681bacb9d64920ad9c38e1b5c8b3d68b822d706782eabf0db"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -12115,7 +12115,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.findings-acl.138.pdf",
@@ -12123,7 +12123,7 @@
           "sha256": "7b0c683c3aed8fe3a4a7399c670256c4396fee663ba8358db74530cb308bc432"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -12195,7 +12195,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2508.05710.pdf",
@@ -12203,7 +12203,7 @@
           "sha256": "8f96afa964fbfeff4770dedba24545679f1988f3272a05e39b23927ff5d5dd92"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -12260,7 +12260,7 @@
           "feedback"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2401.15940.pdf",
@@ -12268,7 +12268,7 @@
           "sha256": "e6ca91654f387236005d48d1859acdd9fb99d6483cb5654b09b13d170a661d1b"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -12315,7 +12315,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/dx.doi.org/knowledge-graph-based-repository-level-code-generation-aaeab87d.html",
@@ -12323,7 +12323,7 @@
           "sha256": "641bec86c20bd048e99a86d75f838439b3d5ebabeb771ee4f3d5b191b0b46493"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -12400,7 +12400,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2509.02449.pdf",
@@ -12408,7 +12408,7 @@
           "sha256": "49b9782f422a3d89c5c7b8b550aeeaf9feaeb451f8fa8cf02a3ebb996978e6fe"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -12513,7 +12513,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.02003.pdf",
@@ -12521,7 +12521,7 @@
           "sha256": "68461c9539f7bfafa76653765a9801d8cfc0d1a2a3021407745acd2d304ef541"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -12580,7 +12580,7 @@
           "feedback"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/github.com/language-server-protocol-defines-a-common-protocol-for-language-servers-194fc4d6.html",
@@ -12588,7 +12588,7 @@
           "sha256": "7f3c93aba0c47ce19c8e1b0b8953fddaf404156a3eafb4497090599223e6ea31"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -12670,7 +12670,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.02928.pdf",
@@ -12678,7 +12678,7 @@
           "sha256": "0f372d8866d6e466d4078ef42a163f1236a8995ea3487dc06af147d795c6b61f"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -12720,7 +12720,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2305.02382.pdf",
@@ -12728,7 +12728,7 @@
           "sha256": "dda15abb6ab7f63d8150978a4a7d99fa48588d018bb74b223509dc9c5afb0ac1"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -12800,7 +12800,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.26664.pdf",
@@ -12808,7 +12808,7 @@
           "sha256": "1270d90cdc8664151e6e5f5955c7ac89a8377594d29e52c012a1b1d693603a5e"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -12870,7 +12870,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/yeVBHPLXxi.pdf",
@@ -12878,7 +12878,7 @@
           "sha256": "ff1c0aa12c2f304b88892be93a84c64b9143825aa9c75c274c5e623b66483576"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -12940,7 +12940,7 @@
           "feedback"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/sYk6ZMmrOz.pdf",
@@ -12948,7 +12948,7 @@
           "sha256": "c6d0c04a4ec4d920283b2a4f5b03190a47f86d2ab683aa69972f0a8c7c45ab81"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -13010,7 +13010,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2411.13244.pdf",
@@ -13018,7 +13018,7 @@
           "sha256": "1944df0a46b68d558119d71e000f9386b26e4e14258bf3e2adb25cd8308ea364"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -13088,7 +13088,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.05160.pdf",
@@ -13096,7 +13096,7 @@
           "sha256": "781e7b8838a7ca1885c24734cf0a307eea2050e7f58641b4ebfa91b9d1335448"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -13146,7 +13146,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/lifelong-robot-library-learning-bootstrapping-composable-and-generalizable-skill-6a633d7a.html",
@@ -13154,7 +13154,7 @@
           "sha256": "a90f3c0d9eccd9172a4f3267a262cee6613e84163fcac07d374228bc45d62370"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -13196,7 +13196,7 @@
           "memory"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2002.02126.pdf",
@@ -13204,7 +13204,7 @@
           "sha256": "e48e4c27e4dc9ffd50f531b69682da0a500ae9a8190c629aeff223b40b555306"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -13314,7 +13314,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2511.13646.pdf",
@@ -13322,7 +13322,7 @@
           "sha256": "7bd8e1c6345c2ff8d5a93674a8a88fcfc70ab6f657f946c82a2961f449e01535"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -13384,7 +13384,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/chfJJYC3iL.pdf",
@@ -13392,7 +13392,7 @@
           "sha256": "ae586797087e56321133f8fdf96f9ededf353c15c73fa7b623cde6a77f57ee24"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -13524,7 +13524,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:39:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2512.02002.pdf",
@@ -13532,7 +13532,7 @@
           "sha256": "fd0274e1e5514cfc904cbddd36d7546258b32799b61db01fd86999f78812ad58"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:56+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -13589,7 +13589,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2412.16984.pdf",
@@ -13597,7 +13597,7 @@
           "sha256": "6c431902350d3f7ceb33c6b0b8c49cebec09ac1b48b4581a46143729fd5853d4"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -13649,7 +13649,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/doi.org/llmloop-improving-llm-generated-code-and-tests-through-automated-iterative-feedb-0282d1d0.html",
@@ -13657,7 +13657,7 @@
           "sha256": "3e60a21c7d6d821cadf342f91ce66b419b0d0cc87649c40400901f52fd745c81"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -13729,7 +13729,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.426.pdf",
@@ -13737,7 +13737,7 @@
           "sha256": "456000a737114ef6b9aa8ace03c87d4c66333e02d387af7c2ed47c1f6af62c72"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -13819,7 +13819,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.14337.pdf",
@@ -13827,7 +13827,7 @@
           "sha256": "0bfe8e96674d099524a9aaaef0d9fde0642cf61104998f7cdb6539eb56b07fc2"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -13946,7 +13946,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2412.07822.pdf",
@@ -13954,7 +13954,7 @@
           "sha256": "2761814d5d60a34d1ca39410bb3190bd95017d3d0156ab842f353be8c13debcb"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14026,7 +14026,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/qevq3FZ63J.pdf",
@@ -14034,7 +14034,7 @@
           "sha256": "61629a6cd774c849dde1bb982610e0073966d90228236ec17e50bcc3ee45a807"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -14116,7 +14116,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.269.pdf",
@@ -14124,7 +14124,7 @@
           "sha256": "71535d9f45f850403024b316059f68b56ead0ce55a35923080bd8e5ae6ed7432"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -14215,7 +14215,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2505.03906.pdf",
@@ -14223,7 +14223,7 @@
           "sha256": "7a6e71be0782916aa094d395428f6a46bd9a1a9c584d2096d86d4b1b25b94043"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14280,7 +14280,7 @@
           "feedback"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.03731.pdf",
@@ -14288,7 +14288,7 @@
           "sha256": "1ffe85b1fd2a451ac78380863700e4f45b011fa6b1ee35699ec4e5b9bf572c63"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14350,7 +14350,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2411.08063.pdf",
@@ -14358,7 +14358,7 @@
           "sha256": "fde82409978ad76cd0a25720041c07580c6fcbfdc59b3c34711358d37b59c169"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14415,7 +14415,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.03515.pdf",
@@ -14423,7 +14423,7 @@
           "sha256": "afb731ea1d9385e158565ef76f015762fd79ef300cbdb7659359ca77ff1884db"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14480,7 +14480,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2504.19413.pdf",
@@ -14488,7 +14488,7 @@
           "sha256": "bec870b657aa73405275a6d8fe27bcd4271799e028bc62986ab9c4cd27a3712d"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14560,7 +14560,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.04257.pdf",
@@ -14568,7 +14568,7 @@
           "sha256": "7c6b1f5bab0154d5ec5d204b3ce44aaa79952f7c511fd598c626cda723262cce"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14642,7 +14642,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.06789.pdf",
@@ -14650,7 +14650,7 @@
           "sha256": "7fd6ed4220c1933beb0f10278bb4f55f87e6eed5b7ac006ed588393bc7f744e7"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14712,7 +14712,7 @@
           "feedback"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.08560.pdf",
@@ -14720,7 +14720,7 @@
           "sha256": "9f674bcff69c86f11c813dcfad613d8841f5f8ed17979e3c4df06a91df7762e0"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14782,7 +14782,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.emnlp-main.1318.pdf",
@@ -14790,7 +14790,7 @@
           "sha256": "26566df2a77a9426769a4c908b2b1f4eedcb060f3396a30f2c721d2e8abbac30"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -14852,7 +14852,7 @@
           "feedback"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.08816.pdf",
@@ -14860,7 +14860,7 @@
           "sha256": "44b923edc740a28c2774980a970bacc6f030d99da6d67d22a8d93c94208fb3c6"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -14939,7 +14939,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.28052.pdf",
@@ -14947,7 +14947,7 @@
           "sha256": "7d9b90f53a9f4801a090f1a4acb843340cde81e4f865f97d53fff2a6a570eb73"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -15064,7 +15064,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/VtmBAGCN7o.pdf",
@@ -15072,7 +15072,7 @@
           "sha256": "76d733b2c9e04ea0ade6c845c55b52bb784c894358f872e63733aaa65fb69b39"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -15124,7 +15124,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.04567.pdf",
@@ -15132,7 +15132,7 @@
           "sha256": "f2f22b0583e5c21e68d627209f954b8d8280d52325177a5cfd4ed407895e1f32"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -15204,7 +15204,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2508.04289.pdf",
@@ -15212,7 +15212,7 @@
           "sha256": "8a652786ea2d84dc411454fbe3e7e95055bac7e40e631b12a6c47573cea6d676"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -15274,7 +15274,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/kiYqbO3wqw.pdf",
@@ -15282,7 +15282,7 @@
           "sha256": "c281b1c4460c807c33cc242d2c1d0d175c3454e01abc9c2ec03aff761c0c0a57"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -15359,7 +15359,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2507.07957.pdf",
@@ -15367,7 +15367,7 @@
           "sha256": "8204e2a238a86af14b358b28a7ef1f682956f1b41f7023d08cc7e2762e45c5ea"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -15439,7 +15439,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.03302.pdf",
@@ -15447,7 +15447,7 @@
           "sha256": "09837c2813668ee6dcb00abdf22b6293a9ad6ef4c135774bc504e233db017702"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -15509,7 +15509,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-acl.305.pdf",
@@ -15517,7 +15517,7 @@
           "sha256": "7957a3a1c943cb41fd3e2486281a0ec07f68bffd139d826c7530d900925160fe"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -15589,7 +15589,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.07095.pdf",
@@ -15597,7 +15597,7 @@
           "sha256": "1dab9a33edeab25ea359c4d6857d03512ccd47ed5782631031cfe8dcbebe7988"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -15674,7 +15674,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2406.01014.pdf",
@@ -15682,7 +15682,7 @@
           "sha256": "cc3d977b738a12efbdbc4a5af5161b9881de89ebe83e488ac72e7dcd6e7eb8d1"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -15741,7 +15741,7 @@
           "tools"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/docs.anthropic.com/model-context-protocol-f0665f2b.html",
@@ -15749,7 +15749,7 @@
           "sha256": "ee9614ed16b335a90ffa8df0edea47f2b152c55b8293ed7035b584ef0992e5a7"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -15825,7 +15825,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.23278.pdf",
@@ -15833,7 +15833,7 @@
           "sha256": "3946b0277ee5ab77c8abef247a18a6bda59af1c62cc7f271eca050501813de56"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -15915,7 +15915,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.03902.pdf",
@@ -15923,7 +15923,7 @@
           "sha256": "b5bd989505052ac2b3f454cc34d6a3c2c4bd2e11ae3de6addf15e7f1b75a512a"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -16000,7 +16000,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.25723.pdf",
@@ -16008,7 +16008,7 @@
           "sha256": "8de9eb2456a52487f3db5839e2cab6ae044017260d700183c99de9c14dcbf8dc"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -16070,7 +16070,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/kxnoqaisCT.pdf",
@@ -16078,7 +16078,7 @@
           "sha256": "18d4e0e7d2a43da758f1966818f463194ba87e41c5e445112c8ee5eb39f0e282"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -16130,7 +16130,7 @@
           "feedback"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2404.14662.pdf",
@@ -16138,7 +16138,7 @@
           "sha256": "2650861138635ccbce171c6960a7cd75f5324cb39b79de24ccaec5fe6cf0876b"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -16222,7 +16222,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2512.10563.pdf",
@@ -16230,7 +16230,7 @@
           "sha256": "854fda5b079e0194f0e27efafc83bcf4465a02d59f9a482b0876a3d5adf2296a"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -16302,7 +16302,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/olympiad-level-formal-mathematical-reasoning-with-reinforcement-learning-43aa9348.html",
@@ -16310,7 +16310,7 @@
           "sha256": "02b8085f6c571e9ebd2032e671fddd0c1aacfb12aa926f8bbceabbb439b21e94"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -16372,7 +16372,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.10108.pdf",
@@ -16380,7 +16380,7 @@
           "sha256": "d837c66b0f98665c7876e2cc260e86603bf42e35442f1b7a7a394f2a9ffbc4c5"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -16432,7 +16432,7 @@
           "feedback"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2505.10571.pdf",
@@ -16440,7 +16440,7 @@
           "sha256": "39208851babcf6adcad75c657e529b827e3b4f5e8d8ad04231c9a14f86bf603e"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -16507,7 +16507,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-naacl.82.pdf",
@@ -16515,7 +16515,7 @@
           "sha256": "4124cb9a6f0d1e9da88ffbafc72682111ffec50b40a3536e0f354e6d8fdd59c4"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -16611,7 +16611,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/xggSxCFQbA.pdf",
@@ -16619,7 +16619,7 @@
           "sha256": "02f8e3baf87019dc5e6ba6abe0479f5b616fd1d4c819d64361d8486e0414d7bc"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -16696,7 +16696,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/OJd3ayDDoF.pdf",
@@ -16704,7 +16704,7 @@
           "sha256": "aa202e49650291a4b9e3cb669a9f3c2e96795dfea48d55b1bde0f9a5bef5d61d"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -16771,7 +16771,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/n9PDaFNi8t.pdf",
@@ -16779,7 +16779,7 @@
           "sha256": "7c7c4453ccf4a79f1a411ae188158f4689c6b9c8ff2ddfd0b9c8af0e3a98f50f"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -16856,7 +16856,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.277.pdf",
@@ -16864,7 +16864,7 @@
           "sha256": "1589a9ed3d8df710f68ca6e1c1f92df3ed9b81acd591c8d55e5e182f1b5db988"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -16926,7 +16926,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/tN61DTr4Ed.pdf",
@@ -16934,7 +16934,7 @@
           "sha256": "cabfb4bd4f45440946e7f1fbabe9a8c1751c9d17f62ec24101e62b8adf49f33f"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -16991,7 +16991,7 @@
           "feedback"
         ]
       },
-      "source_family": "pmlr",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/pal-program-aided-language-models-f5ec9d83.html",
@@ -16999,7 +16999,7 @@
           "sha256": "9d381c7aaf4e80e6fb43fa81ae74f94f9a47f04295e0c8bbe6f3f9d21b9d68f2"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "pmlr",
       "integration_status": "auto-extracted"
     },
     {
@@ -17071,7 +17071,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2303.03378.pdf",
@@ -17079,7 +17079,7 @@
           "sha256": "535cc3c7fe1ae7428b9ac7d6a3738a0529975aadc372b2229ea0cb2ce724576a"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -17151,7 +17151,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.07559.pdf",
@@ -17159,7 +17159,7 @@
           "sha256": "6b31783222422e0e5d1338df97dc0d833ed1dc8a998af2867eecfe009146689b"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -17231,7 +17231,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/767aZTpsIl.pdf",
@@ -17239,7 +17239,7 @@
           "sha256": "3cfbab3d63cebf57527572de8e2f4cb901076f943f1cdef443c56751b35c3eac"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -17291,7 +17291,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2409.03733.pdf",
@@ -17299,7 +17299,7 @@
           "sha256": "59c6b75f8213261e6d2ae8f7bf369e3b0a20b14474be46287673b69143cbf2ad"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -17356,7 +17356,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.03296.pdf",
@@ -17364,7 +17364,7 @@
           "sha256": "34244dce1a09abef60aea08a68a6d1dba3758b29be63b021c983d7181df4ab15"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -17426,7 +17426,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/obwRcksFZw.pdf",
@@ -17434,7 +17434,7 @@
           "sha256": "dbdcbd6898415e3fa8375832b22f41e3435ed9e30916fc54d35b1a2117c834d1"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -17491,7 +17491,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2211.12588.pdf",
@@ -17499,7 +17499,7 @@
           "sha256": "34aaf52e7e0ca5acd46e811fff318a9c99310c1921d2b759640361aa2d6165f1"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -17563,7 +17563,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:40:37+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/deepmind.google/project-mariner-1b8acc95.html",
@@ -17571,7 +17571,7 @@
           "sha256": "ce76572560245102e12af64b27eeda3dd1a3e109806e53730a8a9daaefff7ea0"
         }
       ],
-      "integrated_at": "2026-06-02T09:40:37+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -17669,7 +17669,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2501.17167.pdf",
@@ -17677,7 +17677,7 @@
           "sha256": "84d290f09e843d48e46c1a24982c7ef69176038549479f7bdc015e8788670254"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -17754,7 +17754,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2505.21668.pdf",
@@ -17762,7 +17762,7 @@
           "sha256": "dc6f0e9f1f70ea0477846cc521413b18422f34f5ab182081cdc338197e4be2d7"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -17851,7 +17851,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.05621.pdf",
@@ -17859,7 +17859,7 @@
           "sha256": "c3f695a36a9ef2c99637999f327284aa5f04b9cf7e3f7a6b81c2a2487f14eef6"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -17936,7 +17936,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/researchgate.net/rag-based-ai-agents-for-enterprise-software-development-implementation-patterns-802f9d12.html",
@@ -17944,7 +17944,7 @@
           "sha256": "a6c42b1e59b0e3daabc781dc33c810a1ea17d502d2b715d0cc51dedf6e753396"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -18028,7 +18028,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/WE_vluYUL-X.pdf",
@@ -18036,7 +18036,7 @@
           "sha256": "05676da660a2a62272a396f58e388c5caf498c4bfb939d63923e36720ecc8890"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -18093,7 +18093,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2210.14306.pdf",
@@ -18101,7 +18101,7 @@
           "sha256": "5bad486dcf83e274bbe8d97476ebaeedaad5fb3209a67092b6c4a5673b3c2c48"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -18153,7 +18153,7 @@
           "memory"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2022.emnlp-main.48.pdf",
@@ -18161,7 +18161,7 @@
           "sha256": "b7eff815bf0ea0455925771d981314d1255646acab95b2113b8b7951cd2501a0"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -18218,7 +18218,7 @@
           "feedback"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2412.15118.pdf",
@@ -18226,7 +18226,7 @@
           "sha256": "ce9f84a3e1c52eb13018bd21104288fa8a64efad766bb3544a0e5544cd685a34"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -18288,7 +18288,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2308.14296.pdf",
@@ -18296,7 +18296,7 @@
           "sha256": "40c723db9a5ebcd83b88df42dc187568458bc76eeb72eaf78ef0e6b072dc4bee"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -18368,7 +18368,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2308.16505.pdf",
@@ -18376,7 +18376,7 @@
           "sha256": "0233c2fa6971dc17c3775f4d28fef2395327dada21e775da2b5922208ecbb5aa"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -18458,7 +18458,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2509.10397.pdf",
@@ -18466,7 +18466,7 @@
           "sha256": "937a27c3cfb9673c9416740f059a941d5e8fc28c9e74cb1ccded91a6fc33e397"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -18543,7 +18543,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/vAElhFcKW6.pdf",
@@ -18551,7 +18551,7 @@
           "sha256": "efba04cd48b779131fc4c3c58ae49e8523ded534f9225a7c57c7bdad0823803d"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -18603,7 +18603,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/1802.08802.pdf",
@@ -18611,7 +18611,7 @@
           "sha256": "7a7ce9d5f8f31c7f7c01a35271c5bdfdf2697dfe17e72ff090a9465d55f7f60d"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -18683,7 +18683,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.05842.pdf",
@@ -18691,7 +18691,7 @@
           "sha256": "9f32e76513bffb32dd172a2cf0457393e5c7bdfc017af25d04c4916df9fb733f"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -18776,7 +18776,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2403.17134.pdf",
@@ -18784,7 +18784,7 @@
           "sha256": "d2a20eac11decc927aa08fd1418c19eaa6f8cc7145becd81748375c02979b536"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -18858,7 +18858,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.emnlp-demo.46.pdf",
@@ -18866,7 +18866,7 @@
           "sha256": "aadc4dfafc5e6a899f7fa946687713042a333f916d8b72d62b3592caf71f4c18"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -18930,7 +18930,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2023.emnlp-main.151.pdf",
@@ -18938,7 +18938,7 @@
           "sha256": "73468800045932b56a43eb61feead593a3b4e23fd681143f3670ec289f7fb5e2"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -19005,7 +19005,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.07358.pdf",
@@ -19013,7 +19013,7 @@
           "sha256": "18429c845ad2ecaf792611964b1805e92d13f6d06a33c67fa1f10f1a66562fe4"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -19090,7 +19090,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2508.18675.pdf",
@@ -19098,7 +19098,7 @@
           "sha256": "325db393e03f1382e47755ff676f731575874a166868b5385b545a570e21f70e"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -19175,7 +19175,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.naacl-long.342.pdf",
@@ -19183,7 +19183,7 @@
           "sha256": "f2ef097b0eb33f02002ed7a192d16d769256a2cbd477a57af39213e15a025f89"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -19255,7 +19255,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.06052.pdf",
@@ -19263,7 +19263,7 @@
           "sha256": "e54ac435051c5a4ca6dd003023b4830d3e77768712f9b42a008f97ddb59c5340"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -19325,7 +19325,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.emnlp-main.410.pdf",
@@ -19333,7 +19333,7 @@
           "sha256": "db8efdbed53e950a3211920cae90de44e6e970426d12a2af52c37090bc10b38c"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -19395,7 +19395,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.04905.pdf",
@@ -19403,7 +19403,7 @@
           "sha256": "c09bf1baa0a861c7904fa2450cf9525d4d596e1ac25287eaaf6cd28aee790c92"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -19480,7 +19480,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/q56ZI1Co43.pdf",
@@ -19488,7 +19488,7 @@
           "sha256": "c1fbd584e699060a70414415fd8ada306d0310357547ad039c052c1b066497e2"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -19550,7 +19550,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.881.pdf",
@@ -19558,7 +19558,7 @@
           "sha256": "a9068bcf89c62527d03f0116386e14372e9550b324a36e4fdb1af694775fa1b9"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -19605,7 +19605,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/doi.org/rgd-multi-llm-based-agent-debugger-via-refinement-and-generation-guidance-037ffd76.html",
@@ -19613,7 +19613,7 @@
           "sha256": "fc58b29a224ddd170cab3267fa44facf87d4e10ef73468a7e70f98753f22158d"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -19680,7 +19680,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.02089.pdf",
@@ -19688,7 +19688,7 @@
           "sha256": "d0b1575783af2da3860d8deff208e012fc2859aea30d7e319485ba7ba8c10326"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -19760,7 +19760,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2307.04349.pdf",
@@ -19768,7 +19768,7 @@
           "sha256": "14af5f76287e2e429b7c1d386fed75f220806e7b74bf27e447e0e999a8b35c97"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -19842,7 +19842,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2402.16117.pdf",
@@ -19850,7 +19850,7 @@
           "sha256": "429ffecab4d24d920d92c6fd8abd1456ac360eddee0601442ddf0eeafb3a0fcf"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -19930,7 +19930,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2501.04268.pdf",
@@ -19938,7 +19938,7 @@
           "sha256": "4b42b8f2d63973a96173b1441fc13c30b93788038f65d9288c0776c493278cb0"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -20017,7 +20017,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2307.01928.pdf",
@@ -20025,7 +20025,7 @@
           "sha256": "3a1b38dd460e03a19ce0307c135c58b7d3ae544c5fbc4aacc01f8a852a81f9c7"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -20102,7 +20102,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2509.16198.pdf",
@@ -20110,7 +20110,7 @@
           "sha256": "7b29c9036a3ace138dcff389d2d15e9061e9ec846dbf9c003fc0002480a680f2"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -20157,7 +20157,7 @@
           "planning"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openreview.net/satlm-satisfiability-aided-language-models-using-declarative-prompting-1d2280ee.html",
@@ -20165,7 +20165,7 @@
           "sha256": "aad75ed0d4d1b845320695dace0aad3336064e08b5ee6eb24a954b40d439e712"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -20227,7 +20227,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.11967.pdf",
@@ -20235,7 +20235,7 @@
           "sha256": "2f6ef742c2799b931ef92337a2e3e899d1b8940f4fb10d94fca5b8e2353601fc"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -20297,7 +20297,7 @@
           "environment"
         ]
       },
-      "source_family": "pmlr",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition-031cdb59.html",
@@ -20305,7 +20305,7 @@
           "sha256": "d0f877257dfed2a1a68b24b0b7ccd2fe5e42f82cb5b64c1cadcff006f49250eb"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "pmlr",
       "integration_status": "auto-extracted"
     },
     {
@@ -20372,7 +20372,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.05080.pdf",
@@ -20380,7 +20380,7 @@
           "sha256": "da5b44b1d7ff4992127ce32daf5343031a109b7104d743bb18f0803fc904da7b"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -20447,7 +20447,7 @@
           "environment"
         ]
       },
-      "source_family": "arxiv",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2401.10935.pdf",
@@ -20455,7 +20455,7 @@
           "sha256": "b62bd796d8e6d45e13b41ed41a55d021a9df3329bf500d14efed129e8a1e04e2"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "arxiv",
       "integration_status": "auto-extracted"
     },
     {
@@ -20477,8 +20477,10 @@
           "readme_line": 494
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "blocked",
+      "local_source_paths": [],
+      "blocked_reason": "HTTP Error 403: Forbidden",
+      "blocked_url": "https://dl.acm.org/doi/10.1145/3672459"
     },
     {
       "paper_id": "self-driving-laboratory-for-accelerated-discovery-of-thin-film-materials-a0aa7707",
@@ -20499,8 +20501,46 @@
           "readme_line": 1029
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/1906.05398.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 4723,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "execution",
+          "planning",
+          "tools"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/1906.05398.pdf",
+          "bytes": 1722424,
+          "sha256": "9536a9b4641646a3c403a22314140801f24475e2ccc55e10a26bcf5a5e702bc6"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "self-edit-fault-aware-code-editor-for-code-generation-7656c379",
@@ -20561,7 +20601,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2023.acl-long.45.pdf",
@@ -20569,7 +20609,7 @@
           "sha256": "ec8dec502928b503cc578e961f1969115b092a682381017a3edd507714a12af4"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -20646,7 +20686,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/4R71pdPBZp.pdf",
@@ -20654,7 +20694,7 @@
           "sha256": "0e046bffb87686d0b81f0e4da984f169c40ab0cbac56525a9cfccb49007ad33a"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -20697,8 +20737,71 @@
           "readme_line": 661
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2404.02183.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13419,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 99
+          },
+          {
+            "term": "code",
+            "count": 70
+          },
+          {
+            "term": "memory",
+            "count": 16
+          },
+          {
+            "term": "feedback",
+            "count": 8
+          },
+          {
+            "term": "multi-agent",
+            "count": 5
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2404.02183.pdf",
+          "bytes": 1881332,
+          "sha256": "43c31ea3b23398e57ecff850968c58e7a102140801fbbe71b8f2b8014e58922b"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "self-planning-code-generation-with-large-language-models-a101bcd0",
@@ -20719,8 +20822,10 @@
           "readme_line": 225
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "blocked",
+      "local_source_paths": [],
+      "blocked_reason": "HTTP Error 403: Forbidden",
+      "blocked_url": "https://dl.acm.org/doi/10.1145/3672456"
     },
     {
       "paper_id": "self-verifying-reflection-helps-transformers-with-cot-reasoning-00031e2b",
@@ -20771,7 +20876,7 @@
           "feedback"
         ]
       },
-      "source_family": "neurips",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/neurips.cc/self-verifying-reflection-helps-transformers-with-cot-reasoning-734593de.html",
@@ -20779,7 +20884,7 @@
           "sha256": "8ce6d425d7cba52b5f0dac6b4271cf778cf5a8ce885851d20194a31dc6f354fe"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "neurips",
       "integration_status": "auto-extracted"
     },
     {
@@ -20801,8 +20906,51 @@
           "readme_line": 186
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2406.01006.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11776,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 99
+          },
+          {
+            "term": "execution",
+            "count": 29
+          },
+          {
+            "term": "feedback",
+            "count": 5
+          },
+          {
+            "term": "memory",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "memory",
+          "feedback"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2406.01006.pdf",
+          "bytes": 2826514,
+          "sha256": "1947e7f99436cfad58cdf1c7d40d1fbdda9a3445902e2dd4ed5dac9f74228bac"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "set-of-mark-prompting-unleashes-extraordinary-visual-grounding-in-gpt-4v-b0ceb324",
@@ -20823,8 +20971,46 @@
           "readme_line": 884
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2310.11441.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 9044,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 2
+          },
+          {
+            "term": "code",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "memory",
+          "tools"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2310.11441.pdf",
+          "bytes": 39379332,
+          "sha256": "0d7b4614e7a765989c9bc4f4fa983233e0b99b1e3cb670bf90ce1853ca05c6f1"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "sew-self-evolving-agentic-workflows-for-automated-code-generation-db9d578a",
@@ -20859,8 +21045,66 @@
           "readme_line": 674
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2505.18646.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12486,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 75
+          },
+          {
+            "term": "code",
+            "count": 38
+          },
+          {
+            "term": "multi-agent",
+            "count": 11
+          },
+          {
+            "term": "execution",
+            "count": 7
+          },
+          {
+            "term": "environment",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          },
+          {
+            "term": "memory",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2505.18646.pdf",
+          "bytes": 1651851,
+          "sha256": "543315d587ea2f771d431e522f3fdac09712aefe5ce7eaf413488fd76896a5e9"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "sfs-smarter-code-space-search-improves-llm-inference-scaling-6098e9dd",
@@ -20911,7 +21155,7 @@
           "memory"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openreview.net/sfs-smarter-code-space-search-improves-llm-inference-scaling-253bea75.html",
@@ -20919,7 +21163,7 @@
           "sha256": "8d5f49b9563400d611ecabe19ae412ca906562a3c00d980659c2cf9318195972"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -20941,8 +21185,76 @@
           "readme_line": 263
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2602.23647.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13080,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 37
+          },
+          {
+            "term": "feedback",
+            "count": 37
+          },
+          {
+            "term": "agent",
+            "count": 16
+          },
+          {
+            "term": "environment",
+            "count": 9
+          },
+          {
+            "term": "multi-agent",
+            "count": 8
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "planning",
+            "count": 5
+          },
+          {
+            "term": "tools",
+            "count": 5
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2602.23647.pdf",
+          "bytes": 1338641,
+          "sha256": "91abaf0b8bdb3f80c62369079dab229e680f22886ec7c5d5b1fc94bdac085316"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "show-your-work-scratchpads-for-intermediate-computation-with-language-mo-b47afb69",
@@ -20963,8 +21275,51 @@
           "readme_line": 93
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2112.00114.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11455,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 20
+          },
+          {
+            "term": "memory",
+            "count": 16
+          },
+          {
+            "term": "execution",
+            "count": 12
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "memory",
+          "feedback"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2112.00114.pdf",
+          "bytes": 408605,
+          "sha256": "4b32d3fed294bac2e9293a5a7a0f58e49ebc572a2d418881077b4fcf63f52103"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "showui-one-vision-language-action-model-for-gui-visual-agent-ba4fe9f6",
@@ -20985,8 +21340,56 @@
           "readme_line": 897
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2411.17465.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 14678,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 13
+          },
+          {
+            "term": "environment",
+            "count": 6
+          },
+          {
+            "term": "tools",
+            "count": 3
+          },
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "execution",
+          "memory",
+          "tools",
+          "environment"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2411.17465.pdf",
+          "bytes": 20140819,
+          "sha256": "8bc023be285e71dab992fb5aeffc2bcbcefe155a67b6ce5e6e7e3a3499bb5db5"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "skillvla-tackling-combinatorial-diversity-in-dual-arm-manipulation-via-s-22c17d5e",
@@ -21014,8 +21417,56 @@
           "readme_line": 952
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2603.03836.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 16239,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "memory",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 2
+          },
+          {
+            "term": "multi-agent",
+            "count": 2
+          },
+          {
+            "term": "environment",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "execution",
+          "memory",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2603.03836.pdf",
+          "bytes": 3005926,
+          "sha256": "3001ee1d9eb5ce9c9ab939d3daf7b52360f146c3b436520e1e475d7ffc8f01d4"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "soen-101-code-generation-by-emulating-software-process-models-using-larg-7914f86c",
@@ -21036,8 +21487,10 @@
           "readme_line": 527
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "blocked",
+      "local_source_paths": [],
+      "blocked_reason": "HTTP Error 403: Forbidden",
+      "blocked_url": "https://dl.acm.org/doi/10.1109/ICSE55347.2025.00140"
     },
     {
       "paper_id": "spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-d1abb370",
@@ -21098,7 +21551,7 @@
           "environment"
         ]
       },
-      "source_family": "neurips",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-enginee-fe22bc30.html",
@@ -21106,7 +21559,7 @@
           "sha256": "872286a0210616be9737de716cc6069a1e9cbee1df3182d45c718582e185f62f"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "neurips",
       "integration_status": "auto-extracted"
     },
     {
@@ -21128,8 +21581,56 @@
           "readme_line": 103
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2511.10621.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12774,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "feedback",
+            "count": 18
+          },
+          {
+            "term": "memory",
+            "count": 4
+          },
+          {
+            "term": "planning",
+            "count": 2
+          },
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "feedback"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2511.10621.pdf",
+          "bytes": 2626203,
+          "sha256": "f9b0b9d9ece1039b8620358d3418e00251f1992a8880f565609a389abf7db090"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "static-analysis-as-a-feedback-loop-enhancing-llm-generated-code-beyond-c-dac7eeb9",
@@ -21150,8 +21651,66 @@
           "readme_line": 440
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2508.14419.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 14843,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 66
+          },
+          {
+            "term": "tools",
+            "count": 17
+          },
+          {
+            "term": "feedback",
+            "count": 13
+          },
+          {
+            "term": "environment",
+            "count": 9
+          },
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "memory",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2508.14419.pdf",
+          "bytes": 1970746,
+          "sha256": "f45d792bede409d49bf2a344ba3c28c4c2da3025ae38b8604af45a451878a8c4"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "stepcoder-improve-code-generation-with-reinforcement-learning-from-compi-19519e0d",
@@ -21207,7 +21766,7 @@
           "feedback"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.251.pdf",
@@ -21215,7 +21774,7 @@
           "sha256": "cd8b024454dab08789380359c4324a7e59bdee9f2c00a92124ca51c3372931ff"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -21287,7 +21846,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/mXpq6ut8J3.pdf",
@@ -21295,7 +21854,7 @@
           "sha256": "0116614120ddfaa37e7c944b7205b4f05523a2415e11846081c08dd0d848ea05"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -21317,8 +21876,66 @@
           "readme_line": 857
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2512.17419.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11413,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "environment",
+            "count": 14
+          },
+          {
+            "term": "feedback",
+            "count": 11
+          },
+          {
+            "term": "code",
+            "count": 9
+          },
+          {
+            "term": "memory",
+            "count": 8
+          },
+          {
+            "term": "agent",
+            "count": 6
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2512.17419.pdf",
+          "bytes": 4548064,
+          "sha256": "a6c4e33a7cfd302bf048eb2468f47f9390877094f4a8078343a9b85d2c2a4823"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "swe-bench-can-language-models-resolve-real-world-github-issues-3deec234",
@@ -21399,7 +22016,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/VTF8yNQM66.pdf",
@@ -21407,7 +22024,7 @@
           "sha256": "9ba69855bdfb8896129c697a66c18564bd996885eb19d155083ab8e387733953"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -21429,8 +22046,66 @@
           "readme_line": 807
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2410.06992.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10151,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 13
+          },
+          {
+            "term": "code",
+            "count": 10
+          },
+          {
+            "term": "feedback",
+            "count": 6
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "memory",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2410.06992.pdf",
+          "bytes": 663868,
+          "sha256": "5b845ad1617b5abb71f5ab2c11831ea0dde7a6a25f43e618056327c3e782ea2c"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-task-a35cd518",
@@ -21451,8 +22126,61 @@
           "readme_line": 824
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2509.16941.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13313,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 28
+          },
+          {
+            "term": "agent",
+            "count": 13
+          },
+          {
+            "term": "environment",
+            "count": 11
+          },
+          {
+            "term": "feedback",
+            "count": 5
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2509.16941.pdf",
+          "bytes": 1585853,
+          "sha256": "38bafe017fe2e259f27aba35ec3583b0332af001d4a8e7b3330e522076beeb0f"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution-9ca4b59e",
@@ -21473,8 +22201,71 @@
           "readme_line": 323
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2507.23348.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 17235,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 51
+          },
+          {
+            "term": "code",
+            "count": 35
+          },
+          {
+            "term": "planning",
+            "count": 11
+          },
+          {
+            "term": "multi-agent",
+            "count": 10
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2507.23348.pdf",
+          "bytes": 1862542,
+          "sha256": "141ba926efb2b113f614c1d562188a817391f866547cd5236c45b9fdb0b8fd89"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "swe-lancer-can-frontier-llms-earn-1-million-from-real-world-freelance-so-46a09e5b",
@@ -21495,8 +22286,61 @@
           "readme_line": 823
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2502.12115.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12172,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 26
+          },
+          {
+            "term": "environment",
+            "count": 17
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "agent",
+            "count": 3
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2502.12115.pdf",
+          "bytes": 3265247,
+          "sha256": "5592089e626e52af27222a144f65ef8e2748e4f8a2ab3cba29df82366a48a5c8"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "synapse-trajectory-as-exemplar-prompting-with-memory-for-computer-contro-080f386e",
@@ -21567,7 +22411,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/Pc8AU1aF5e.pdf",
@@ -21575,7 +22419,7 @@
           "sha256": "d791184392e0574e780c7d8e2ac46244f75061eb9d8f3cbefce6c549bb10887f"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -21647,7 +22491,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/6TDSDdgP7Z.pdf",
@@ -21655,7 +22499,7 @@
           "sha256": "35fdb159a1189debbf6d7e2e77eb6683121122de8dfef109b2b93eb478298266"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -21677,8 +22521,76 @@
           "readme_line": 315
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2510.23010.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 14952,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 68
+          },
+          {
+            "term": "code",
+            "count": 40
+          },
+          {
+            "term": "memory",
+            "count": 24
+          },
+          {
+            "term": "multi-agent",
+            "count": 20
+          },
+          {
+            "term": "planning",
+            "count": 8
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "feedback",
+            "count": 4
+          },
+          {
+            "term": "tools",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2510.23010.pdf",
+          "bytes": 1142786,
+          "sha256": "354c59d02fee26a6a1f9adb22e493dbd5774c9420e464b1e4cdf3614f5ba4630"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "teaching-large-language-models-to-self-debug-6597977d",
@@ -21699,8 +22611,56 @@
           "readme_line": 455
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2304.05128.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12473,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 66
+          },
+          {
+            "term": "feedback",
+            "count": 35
+          },
+          {
+            "term": "execution",
+            "count": 20
+          },
+          {
+            "term": "environment",
+            "count": 2
+          },
+          {
+            "term": "memory",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2304.05128.pdf",
+          "bytes": 1419448,
+          "sha256": "020e06b1fb9e1d4b6c33016a9471e8bd31f8ecfd7a22335d85956c14efa39f75"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "teaching-your-models-to-understand-code-via-focal-preference-alignment-6e13c3ba",
@@ -21721,8 +22681,51 @@
           "readme_line": 473
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2503.02783.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12272,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 46
+          },
+          {
+            "term": "feedback",
+            "count": 17
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "memory",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "memory",
+          "feedback"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2503.02783.pdf",
+          "bytes": 2031859,
+          "sha256": "04e57eebb46ae0e4fd3ba75b3ab7724b38d9f3310b713f46221977df2b34d3da"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "terminal-bench-benchmarking-agents-on-hard-realistic-tasks-in-command-li-f510afcd",
@@ -21743,8 +22746,66 @@
           "readme_line": 825
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2601.11868.pdf"
+      ],
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10203,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 35
+          },
+          {
+            "term": "code",
+            "count": 12
+          },
+          {
+            "term": "environment",
+            "count": 11
+          },
+          {
+            "term": "feedback",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 3
+          },
+          {
+            "term": "memory",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integrated_at": "2026-06-02T09:44:12+00:00",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2601.11868.pdf",
+          "bytes": 2773926,
+          "sha256": "4430e04a507b2442bb7b24a88899b750948fa0a6b3bbc33a8d541d6d4debcc1e"
+        }
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted"
     },
     {
       "paper_id": "test-time-adaptation-for-llm-agents-via-environment-interaction-6d7e2156",
@@ -21815,7 +22876,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/OH4PE0TDo0.pdf",
@@ -21823,7 +22884,7 @@
           "sha256": "6b64d7a076d030d0f92aaaa99e4ac8eaf173cf4066bbfd6bab16ae01d999ef65"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -21953,7 +23014,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-systems-in-ab572db7.html",
@@ -21961,7 +23022,7 @@
           "sha256": "acc241eea27e369d7a37f3bfd8a959c59cc23993f0dd21612797a2e2d016bad5"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -22008,7 +23069,7 @@
           "environment"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:41:38+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-langua-d6adfd7e.html",
@@ -22016,7 +23077,7 @@
           "sha256": "5dd5ea567df682e330e97f04fa7a8a72c0d767bc416159bd9091678790ed3661"
         }
       ],
-      "integrated_at": "2026-06-02T09:41:38+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -22104,8 +23165,10 @@
           "readme_line": 401
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "blocked",
+      "local_source_paths": [],
+      "blocked_reason": "HTTP Error 403: Forbidden",
+      "blocked_url": "https://doi.org/10.1145/3581641.3584037"
     },
     {
       "paper_id": "the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies-f9eaab2f",
@@ -22176,7 +23239,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "html",
+      "integrated_at": "2026-06-02T09:42:57+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies-2571def1.html",
@@ -22184,7 +23247,7 @@
           "sha256": "ef19bfb94b94cb4c54fc48f62e3f1e7c022486d339c5382caa94099e75b78b7f"
         }
       ],
-      "integrated_at": "2026-06-02T09:42:57+00:00",
+      "source_family": "html",
       "integration_status": "auto-extracted"
     },
     {
@@ -22261,7 +23324,7 @@
           "multi-agent"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/LZnKNApvhG.pdf",
@@ -22269,7 +23332,7 @@
           "sha256": "e408852690935a9bc3bb5e37c3e1efc46613448392ae66f3395ab0be97e34dd4"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -22414,7 +23477,7 @@
           "feedback"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-acl.817.pdf",
@@ -22422,7 +23485,7 @@
           "sha256": "2e4d6e6971a9e9cb60c28b7e997daf805caf7700a88bc285bfb8e57952af42f6"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -22735,7 +23798,7 @@
           "environment"
         ]
       },
-      "source_family": "aaai",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ojs.aaai.org/verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-and-abst-efa2a154.html",
@@ -22743,7 +23806,7 @@
           "sha256": "8655104adeb5759769ce662934279442aeb814147776c302990c3f9769af80d0"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "aaai",
       "integration_status": "auto-extracted"
     },
     {
@@ -22829,7 +23892,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:36:56+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2023.emnlp-main.824.pdf",
@@ -22837,7 +23900,7 @@
           "sha256": "421eee20b8447cf7f43b6e7dc4744c06c00c48e779d7d481373c7159e86d6835"
         }
       ],
-      "integrated_at": "2026-06-02T09:36:56+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -22909,7 +23972,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.50.pdf",
@@ -22917,7 +23980,7 @@
           "sha256": "6fc85c38c975c2af170c1d1a28f72ba557906d9019d1d9106a15215868bb491e"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -23025,7 +24088,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/ehfRiF0R3a.pdf",
@@ -23033,7 +24096,7 @@
           "sha256": "28883bd352c3f56fa5b86f5a89be8289f2788248b8a288e460f783ba3c81eaf5"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -23110,7 +24173,7 @@
           "environment"
         ]
       },
-      "source_family": "openreview",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/oKn9c6ytLx.pdf",
@@ -23118,7 +24181,7 @@
           "sha256": "2240e08a747462c59b49796e56985428f592e45d96debfa2aa88286263a4a787"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "openreview",
       "integration_status": "auto-extracted"
     },
     {
@@ -23170,7 +24233,7 @@
           "environment"
         ]
       },
-      "source_family": "neurips",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html",
@@ -23178,7 +24241,7 @@
           "sha256": "d1c662941d7f1212f931fae5d9cc74b60d752d78c470db1e2a9719b613e29e66"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "neurips",
       "integration_status": "auto-extracted"
     },
     {
@@ -23255,7 +24318,7 @@
           "environment"
         ]
       },
-      "source_family": "acl",
+      "integrated_at": "2026-06-02T09:39:11+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.371.pdf",
@@ -23263,7 +24326,7 @@
           "sha256": "69094c0247e519a50f3457a00830e818f0d1e68233248bb958d3527f7d17d99f"
         }
       ],
-      "integrated_at": "2026-06-02T09:39:11+00:00",
+      "source_family": "acl",
       "integration_status": "auto-extracted"
     },
     {
@@ -23327,7 +24390,7 @@
           "code"
         ]
       },
-      "source_family": "aaai",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html",
@@ -23335,7 +24398,7 @@
           "sha256": "93fc23a7abd25e72f7eb659a1977060ec974af98c5aec193e83a040d800f3deb"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "aaai",
       "integration_status": "auto-extracted"
     },
     {
@@ -23463,7 +24526,7 @@
           "environment"
         ]
       },
-      "source_family": "pmlr",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/windows-agent-arena-evaluating-multi-modal-os-agents-at-scale-e0f66ef6.html",
@@ -23471,7 +24534,7 @@
           "sha256": "3175eace61cc1f10712de987d00cde85f4b62ea6df44707e28f6a23c2dcbb15c"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "pmlr",
       "integration_status": "auto-extracted"
     },
     {
@@ -23523,7 +24586,7 @@
           "environment"
         ]
       },
-      "source_family": "pmlr",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-tasks-0e548353.html",
@@ -23531,7 +24594,7 @@
           "sha256": "fd8a400f16d077097aa64f9e9266d0a7a0da24883f2712e9ec11180507258241"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "pmlr",
       "integration_status": "auto-extracted"
     },
     {
@@ -23598,7 +24661,7 @@
           "environment"
         ]
       },
-      "source_family": "neurips",
+      "integrated_at": "2026-06-02T09:19:06+00:00",
       "source_file_metadata": [
         {
           "path": "sources/raw/pdf/worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-and-int-e1cb6952.pdf",
@@ -23606,7 +24669,7 @@
           "sha256": "582d9e4580cb85a9f84e17c1e8779704f5d7c66f80a1bca169ecd7b7ebdc6a7c"
         }
       ],
-      "integrated_at": "2026-06-02T09:19:06+00:00",
+      "source_family": "neurips",
       "integration_status": "auto-extracted"
     },
     {

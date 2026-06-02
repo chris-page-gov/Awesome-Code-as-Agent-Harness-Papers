@@ -1,13 +1,14 @@
 ---
 title: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "self-organized-agents-a-llm-multi-agent-framework-toward-ultra-large-sca-db30a15e"
 canonical_urls:
   - "https://arxiv.org/abs/2404.02183"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2404.02183.pdf"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -30,7 +31,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `self-organized-agents-a-llm-multi-agent-framework-toward-ultra-large-sca-db30a15e`
 - Venue labels: arXiv 2024
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2404.02183](https://arxiv.org/abs/2404.02183)
 
@@ -45,12 +46,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2404.02183.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2404.02183.pdf`, 1881332 bytes, SHA-256 `43c31ea3b23398e57ecff850968c58e7a102140801fbbe71b8f2b8014e58922b`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 13419 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (99), `code` (70), `memory` (16), `feedback` (8), `multi-agent` (5), `environment` (3), `execution` (1), `tools` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -59,5 +68,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.
