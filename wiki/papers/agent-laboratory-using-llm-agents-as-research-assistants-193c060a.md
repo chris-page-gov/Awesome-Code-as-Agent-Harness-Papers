@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/acl/2025.findings-emnlp.320.pdf](../../sources/raw/acl/2025.findings-emnlp.320.pdf)
+- `sources/raw/acl/2025.findings-emnlp.320.pdf` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

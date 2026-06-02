@@ -1,13 +1,14 @@
 ---
 title: "Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tas-e57c984e"
 canonical_urls:
   - "https://www.ijcai.org/proceedings/2025/980"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -26,7 +27,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tas-e57c984e`
 - Venue labels: IJCAI 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://www.ijcai.org/proceedings/2025/980](https://www.ijcai.org/proceedings/2025/980)
 
@@ -39,12 +40,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html`, 13197 bytes, SHA-256 `912a7e586cfb3a1ead49d00295ed4e78a9c3da7e38efad465c0f60f9d9c8895f`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 2698 characters using `html-text`.
+- Source cue: localized text contains harness-relevant terms: `code` (12), `planning` (7).
+- Source cue: automated topic tags: `code`, `planning`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -53,5 +62,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

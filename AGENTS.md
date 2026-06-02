@@ -38,8 +38,10 @@ awesome-list inventory.
   external reference once ingested.
 - [wiki/topics/](wiki/topics/) stores synthesis notes.
 - [wiki/maps/](wiki/maps/) stores guided entry points and cross-reference maps.
-- [sources/raw/](sources/raw/) stores localized source files. Treat these files
-  as read-only evidence after they are added.
+- [sources/raw/](sources/raw/) stores localized source files as a local
+  evidence cache. Treat these files as read-only after they are added, and do
+  not commit them unless they are intentionally placed in
+  `sources/raw/redistributable/`.
 - [sources/metadata/](sources/metadata/) stores fetch manifests, hashes, and
   derived metadata.
 
@@ -49,7 +51,8 @@ awesome-list inventory.
 - Every generated claim should trace to a source note, localized raw source, or
   an explicit gap.
 - Keep raw source files immutable. If a source needs transformation, write the
-  derivative outside `sources/raw/`.
+  derivative outside `sources/raw/`, or into `sources/raw/redistributable/`
+  only when it is intentionally redistributable.
 - Prefer concise paraphrases and source paths over long excerpts.
 - When a source cannot be fetched because of network slowness or publisher
   access, add a registered gap and continue with local metadata.
@@ -76,4 +79,3 @@ Run these before committing documentation or wiki structural changes:
 git diff --check
 python3 tools/check_wiki.py
 ```
-

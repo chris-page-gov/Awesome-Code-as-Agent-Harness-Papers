@@ -17,7 +17,8 @@ last_reviewed: "2026-06-02"
 - ID: `SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026`
 - Type: arXiv paper.
 - Canonical URL: `https://arxiv.org/abs/2605.18747`
-- Local source path: [sources/raw/arxiv/2605.18747.pdf](../../sources/raw/arxiv/2605.18747.pdf)
+- Local source path: `sources/raw/arxiv/2605.18747.pdf` (local evidence cache;
+  not committed by default)
 - Local SHA-256: `ad647c5d1cb1302ec2d1b70302179f3b6f602fa818a75d25a28350127096fe9f`
 - Local size: 9,899,740 bytes.
 - Date reviewed: 2026-06-02.

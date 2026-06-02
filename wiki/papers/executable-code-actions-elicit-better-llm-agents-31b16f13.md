@@ -1,7 +1,7 @@
 ---
 title: "Executable Code Actions Elicit Better LLM Agents"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "executable-code-actions-elicit-better-llm-agents-31b16f13"
 canonical_urls:
@@ -9,7 +9,7 @@ canonical_urls:
   - "https://arxiv.org/abs/2402.01030"
 local_source_paths:
   - "sources/raw/openreview/8oJyuXfrPv.pdf"
-source_status: "localized"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -30,7 +30,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `executable-code-actions-elicit-better-llm-agents-31b16f13`
 - Venue labels: ICML 2024
-- Source status: `localized`
+- Source status: `integrated`
 - Canonical URLs:
   - [https://openreview.net/forum?id=8oJyuXfrPv](https://openreview.net/forum?id=8oJyuXfrPv)
   - [https://arxiv.org/abs/2402.01030](https://arxiv.org/abs/2402.01030)
@@ -45,13 +45,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/openreview/8oJyuXfrPv.pdf](../../sources/raw/openreview/8oJyuXfrPv.pdf)
+- `sources/raw/openreview/8oJyuXfrPv.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/openreview/8oJyuXfrPv.pdf`, 4047209 bytes, SHA-256 `c90462078140da0706fabfba9844ad80db9a7be6c5bb13b839136c50716c8d43`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
 - Source fact: a localized source file is available in this repository.
-- Content claims are pending review of the localized source.
+- Source fact: automated local text extraction recorded 12709 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (36), `tools` (23), `agent` (20), `environment` (12), `feedback` (11), `execution` (9), `memory` (4), `planning` (3).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -60,5 +67,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Review the localized source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

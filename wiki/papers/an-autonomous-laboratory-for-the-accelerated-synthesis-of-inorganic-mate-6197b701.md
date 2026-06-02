@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html](../../sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html)
+- `sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

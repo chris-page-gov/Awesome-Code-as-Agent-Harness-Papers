@@ -19,7 +19,8 @@ last_reviewed: "2026-06-02"
    reference.
 4. Update README paper links to point at local fragments while keeping the
    canonical external URL inside each fragment.
-5. Fetch open raw sources into `sources/raw/` when network and access allow.
+5. Fetch open raw sources into the local `sources/raw/` cache when network and
+   access allow.
 6. Record hashes, fetch status, and canonical URL in `sources/metadata/`.
 7. Update source notes, topic notes, maps, `wiki/log.md`, `PROGRESS.md`, and
    `CHANGELOG.md`.
@@ -41,6 +42,10 @@ networks, for example:
 ```bash
 python3 tools/automate_wiki_ingest.py --cycles 1 --fetch-batch-size 5 --integrate-batch-size 10 --commit --push
 ```
+
+The driver does not add `sources/raw/` files to Git. To commit an explicitly
+redistributable source, place it under `sources/raw/redistributable/` and commit
+it intentionally.
 
 ## First-Pass Priority
 

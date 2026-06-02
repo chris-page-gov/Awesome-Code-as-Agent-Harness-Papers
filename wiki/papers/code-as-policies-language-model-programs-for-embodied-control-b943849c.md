@@ -42,7 +42,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/arxiv/2209.07753.pdf](../../sources/raw/arxiv/2209.07753.pdf)
+- `sources/raw/arxiv/2209.07753.pdf` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

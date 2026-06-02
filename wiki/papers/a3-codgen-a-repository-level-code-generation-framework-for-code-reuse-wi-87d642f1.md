@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html](../../sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html)
+- `sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

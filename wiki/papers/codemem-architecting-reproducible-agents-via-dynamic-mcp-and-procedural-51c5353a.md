@@ -1,13 +1,14 @@
 ---
 title: "CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "codemem-architecting-reproducible-agents-via-dynamic-mcp-and-procedural-51c5353a"
 canonical_urls:
   - "https://arxiv.org/abs/2512.15813"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2512.15813.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -26,7 +27,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `codemem-architecting-reproducible-agents-via-dynamic-mcp-and-procedural-51c5353a`
 - Venue labels: arXiv 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2512.15813](https://arxiv.org/abs/2512.15813)
 
@@ -39,12 +40,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2512.15813.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2512.15813.pdf`, 319457 bytes, SHA-256 `d353caf2376e2bc538a311d203c8996f60f0712f1a2a003eb5c59d8a71749164`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 8725 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `memory` (33), `tools` (28), `agent` (27), `code` (16), `execution` (6), `environment` (3), `feedback` (2), `planning` (2).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -53,5 +62,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf](../../sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf)
+- `sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

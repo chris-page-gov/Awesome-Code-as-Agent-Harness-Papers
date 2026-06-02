@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html](../../sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html)
+- `sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

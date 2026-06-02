@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html](../../sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html)
+- `sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

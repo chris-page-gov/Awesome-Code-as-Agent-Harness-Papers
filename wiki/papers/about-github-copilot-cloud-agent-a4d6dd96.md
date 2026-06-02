@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html](../../sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html)
+- `sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

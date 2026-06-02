@@ -29,14 +29,16 @@ scientific discovery agents, and embodied agents.
 - The top-level README remains the visible awesome-list surface.
 - The wiki layer starts at [LLM-WIKI.md](LLM-WIKI.md) and [wiki/index.md](wiki/index.md).
 - Raw localized source files should be placed under [sources/raw/](sources/raw/)
-  and treated as read-only evidence after ingestion.
+  and treated as a local read-only evidence cache after ingestion. They are not
+  committed by default; use `sources/raw/redistributable/` only for explicit
+  redistributable exceptions.
 - The generated paper register at [wiki/data/paper-register.json](wiki/data/paper-register.json)
   currently records 354 unique paper/reference fragments from 458 README rows.
 - README paper rows now link to local fragments under [wiki/papers/](wiki/papers/);
   each fragment preserves the canonical external source URL.
-- Source-localization batches have fetched the survey PDF plus 37 unique arXiv
-  paper PDFs, covering 84 paper fragments under
-  [sources/raw/arxiv/](sources/raw/arxiv/). Fetch status and hashes are
+- Source-localization batches have fetched the survey PDF plus 47 unique arXiv
+  paper PDFs, covering 121 paper fragments under the local
+  `sources/raw/arxiv/` cache. Fetch status and hashes are
   recorded in [sources/metadata/fetch-manifest.json](sources/metadata/fetch-manifest.json).
 
 ## Local Pattern Adopted

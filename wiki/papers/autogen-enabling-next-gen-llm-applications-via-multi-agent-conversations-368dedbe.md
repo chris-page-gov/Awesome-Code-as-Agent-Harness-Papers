@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/openreview/BAakY1hNKS.pdf](../../sources/raw/openreview/BAakY1hNKS.pdf)
+- `sources/raw/openreview/BAakY1hNKS.pdf` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

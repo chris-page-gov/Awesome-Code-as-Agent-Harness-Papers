@@ -19,6 +19,7 @@ REGISTER = ROOT / "wiki/data/paper-register.json"
 PAPER_INDEX = PAPERS_DIR / "README.md"
 TODAY = date.today().isoformat()
 LOCALIZED_STATUSES = {"localized", "integrated"}
+REDISTRIBUTABLE_RAW_PREFIX = "sources/raw/redistributable/"
 PRESERVED_FIELDS = {
     "blocked_reason",
     "blocked_url",
@@ -171,6 +172,10 @@ def markdown_table_row(values: list[str]) -> str:
     return "| " + " | ".join(escaped) + " |"
 
 
+def is_local_only_raw_path(source_path: str) -> bool:
+    return source_path.startswith("sources/raw/") and not source_path.startswith(REDISTRIBUTABLE_RAW_PREFIX)
+
+
 def write_fragment(paper: dict) -> None:
     paper_path = PAPERS_DIR / f"{paper['paper_id']}.md"
     canonical_urls = paper["canonical_urls"]
@@ -237,7 +242,10 @@ def write_fragment(paper: dict) -> None:
     )
     if paper["local_source_paths"]:
         for source_path in paper["local_source_paths"]:
-            lines.append(f"- [{source_path}](../../{source_path})\n")
+            if is_local_only_raw_path(source_path):
+                lines.append(f"- `{source_path}` (local evidence cache; not committed by default)\n")
+            else:
+                lines.append(f"- [{source_path}](../../{source_path})\n")
         if metadata:
             lines.append("\n### Local File Metadata\n\n")
             for entry in metadata:

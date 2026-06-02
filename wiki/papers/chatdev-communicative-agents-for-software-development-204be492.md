@@ -1,13 +1,14 @@
 ---
 title: "ChatDev: Communicative Agents for Software Development"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "chatdev-communicative-agents-for-software-development-204be492"
 canonical_urls:
   - "https://doi.org/10.18653/v1/2024.acl-long.810"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -38,7 +39,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `chatdev-communicative-agents-for-software-development-204be492`
 - Venue labels: ACL 2024
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://doi.org/10.18653/v1/2024.acl-long.810](https://doi.org/10.18653/v1/2024.acl-long.810)
 
@@ -57,12 +58,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html`, 44491 bytes, SHA-256 `3e061394a4a229d3f3ee05946807d06d21d7b91887b7f95b5e6110916cbdfd3e`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 15078 characters using `html-text`.
+- Source cue: localized text contains harness-relevant terms: `agent` (26), `code` (26), `multi-agent` (8), `feedback` (1).
+- Source cue: automated topic tags: `agent`, `code`, `feedback`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -71,5 +80,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

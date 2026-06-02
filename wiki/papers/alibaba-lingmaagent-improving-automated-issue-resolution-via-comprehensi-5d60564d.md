@@ -7,7 +7,7 @@ paper_id: "alibaba-lingmaagent-improving-automated-issue-resolution-via-comprehe
 canonical_urls:
   - "https://dl.acm.org/doi/10.1145/3696630.3728549"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `alibaba-lingmaagent-improving-automated-issue-resolution-via-comprehensi-5d60564d`
 - Venue labels: FSE 2025
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://dl.acm.org/doi/10.1145/3696630.3728549](https://dl.acm.org/doi/10.1145/3696630.3728549)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://dl.acm.org/doi/10.1145/3696630.3728549`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.

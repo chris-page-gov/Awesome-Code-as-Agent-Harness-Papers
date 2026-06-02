@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html](../../sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html)
+- `sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

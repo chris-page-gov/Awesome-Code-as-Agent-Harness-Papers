@@ -23,6 +23,11 @@ REQUIRED_FILES = [
     "wiki/data/source-register.json",
     "wiki/data/paper-register.json",
 ]
+REDISTRIBUTABLE_RAW_PREFIX = "sources/raw/redistributable/"
+
+
+def is_local_only_raw_path(path: str) -> bool:
+    return path.startswith("sources/raw/") and not path.startswith(REDISTRIBUTABLE_RAW_PREFIX)
 
 
 def read(path: Path) -> str:
@@ -71,7 +76,7 @@ def check_source_register(errors: list[str]) -> None:
         if f'source_id: "{source_id}"' not in note_text and f"source_id: {source_id}" not in note_text:
             errors.append(f"{note_path} does not declare source_id {source_id}")
         local_path = entry.get("local_path")
-        if local_path and not (ROOT / local_path).is_file():
+        if local_path and not is_local_only_raw_path(local_path) and not (ROOT / local_path).is_file():
             errors.append(f"{source_id} local_path not found: {local_path}")
 
 
@@ -138,6 +143,8 @@ def check_paper_register(errors: list[str]) -> None:
         if f"paper_id: \"{paper_id}\"" not in text:
             errors.append(f"paper fragment does not declare paper_id: {paper_id}")
         for local_path in paper.get("local_source_paths", []):
+            if is_local_only_raw_path(local_path):
+                continue
             if not (ROOT / local_path).is_file():
                 errors.append(f"{paper_id} local source not found: {local_path}")
 

@@ -53,7 +53,7 @@ def validate() -> None:
 def checkpoint(args: argparse.Namespace, state: dict) -> None:
     if not args.commit or not has_worktree_changes():
         return
-    run(["git", "add", "-A"])
+    run(["git", "add", "-A", "--", ".", ":(exclude)sources/raw/**"])
     run(["git", "diff", "--cached", "--check", "--", ".", ":(exclude)sources/raw/**"])
     result = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT)
     if result.returncode == 0:

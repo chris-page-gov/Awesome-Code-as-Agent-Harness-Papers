@@ -36,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- [sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html](../../sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html)
+- `sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html` (local evidence cache; not committed by default)
 
 ### Local File Metadata
 

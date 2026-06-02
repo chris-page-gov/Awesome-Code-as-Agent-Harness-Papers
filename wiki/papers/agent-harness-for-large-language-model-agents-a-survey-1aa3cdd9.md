@@ -7,7 +7,7 @@ paper_id: "agent-harness-for-large-language-model-agents-a-survey-1aa3cdd9"
 canonical_urls:
   - "https://www.preprints.org/manuscript/202604.0428/v1"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `agent-harness-for-large-language-model-agents-a-survey-1aa3cdd9`
 - Venue labels: Preprints 2026
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://www.preprints.org/manuscript/202604.0428/v1](https://www.preprints.org/manuscript/202604.0428/v1)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://www.preprints.org/manuscript/202604.0428/v1`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.

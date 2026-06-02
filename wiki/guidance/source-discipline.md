@@ -13,6 +13,8 @@ last_reviewed: "2026-06-02"
 ## Rules
 
 - Raw sources stay immutable once localized.
+- Raw source captures are local by default and are not committed unless they
+  are intentionally placed under `sources/raw/redistributable/`.
 - Source notes describe what a source is, why it matters, and how it may be
   used.
 - Paper fragments can summarize placement in the survey before source download,
@@ -40,4 +42,3 @@ If source download is slow or unavailable:
 - Record the canonical URL and fetch status.
 - Add a gap in the fragment.
 - Continue with other wiki work.
-

@@ -7,7 +7,7 @@ paper_id: "a-pair-programming-framework-for-code-generation-via-multi-plan-explo
 canonical_urls:
   - "https://dl.acm.org/doi/10.1145/3691620.3695506"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `a-pair-programming-framework-for-code-generation-via-multi-plan-explorat-41a711e2`
 - Venue labels: ASE 2024
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://dl.acm.org/doi/10.1145/3691620.3695506](https://dl.acm.org/doi/10.1145/3691620.3695506)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://dl.acm.org/doi/10.1145/3691620.3695506`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.

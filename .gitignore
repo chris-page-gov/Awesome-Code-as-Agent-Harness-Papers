@@ -32,6 +32,13 @@ node_modules/
 build/
 dist/
 
+# Raw source captures are a local evidence cache by default.
+sources/raw/**
+!sources/raw/
+!sources/raw/.gitkeep
+!sources/raw/redistributable/
+!sources/raw/redistributable/**
+
 # LaTeX intermediates (if any drafts copied here)
 *.aux
 *.bbl

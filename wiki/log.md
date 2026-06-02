@@ -21,6 +21,6 @@ last_reviewed: "2026-06-02"
 - Rewrote README paper-table links to local wiki fragments, with canonical
   external URLs preserved in the fragments.
 - Localized the Code as Agent Harness survey PDF and arXiv source files for the
-  first 84 paper fragments into `sources/raw/arxiv/`.
+  first 121 paper fragments into `sources/raw/arxiv/`.
 - Recorded sandbox DNS failures and successful escalated downloads in
   `sources/metadata/fetch-manifest.json`.
