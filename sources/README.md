@@ -10,6 +10,11 @@ LLM-Wiki.
   cannot otherwise retrieve.
 - `metadata/` contains fetch manifests, hashes, failures, and derived metadata.
 
+Historical raw blobs that were previously committed under `raw/` were removed
+from the rewritten `main` history on 2026-06-02. Old commit or blob URLs that
+target those files should not be treated as stable references; use the wiki
+fragments and metadata records instead.
+
 When a raw source cannot be fetched, keep the URL and failure reason in metadata
 and continue updating the wiki from available inventory facts.
 

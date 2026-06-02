@@ -29,3 +29,9 @@ All notable changes to this fork are recorded here.
 - Updated localized paper fragments with local source paths and source status.
 - Promoted the first localized fragments into automated source-cue integration
   notes.
+
+### Removed
+
+- Rewrote `main` history to remove previously committed raw source blobs under
+  `sources/raw/`. Raw captures are now a local-only cache by default; commit
+  redistributable exceptions under `sources/raw/redistributable/` only.
