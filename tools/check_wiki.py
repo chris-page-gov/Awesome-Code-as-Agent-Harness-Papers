@@ -70,6 +70,9 @@ def check_source_register(errors: list[str]) -> None:
         note_text = read(note)
         if f'source_id: "{source_id}"' not in note_text and f"source_id: {source_id}" not in note_text:
             errors.append(f"{note_path} does not declare source_id {source_id}")
+        local_path = entry.get("local_path")
+        if local_path and not (ROOT / local_path).is_file():
+            errors.append(f"{source_id} local_path not found: {local_path}")
 
 
 def check_documentation_lockstep(errors: list[str]) -> None:
@@ -134,6 +137,9 @@ def check_paper_register(errors: list[str]) -> None:
         text = read(fragment)
         if f"paper_id: \"{paper_id}\"" not in text:
             errors.append(f"paper fragment does not declare paper_id: {paper_id}")
+        for local_path in paper.get("local_source_paths", []):
+            if not (ROOT / local_path).is_file():
+                errors.append(f"{paper_id} local source not found: {local_path}")
 
 
 def check_readme_paper_links(errors: list[str]) -> None:

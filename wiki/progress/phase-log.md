@@ -17,3 +17,5 @@ last_reviewed: "2026-06-02"
 - Generated `wiki/data/paper-register.json` and 354 paper/reference fragments
   from 458 README rows.
 - Updated README paper rows to point at local fragments.
+- Added `tools/localize_sources.py` and localized the survey PDF plus the first
+  8 arXiv-backed paper PDFs.

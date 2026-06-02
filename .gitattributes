@@ -1,0 +1,8 @@
+# Keep text files normalized and binary source artifacts out of textual diffs.
+* text=auto eol=lf
+
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.png binary

@@ -163,6 +163,7 @@ def write_fragment(paper: dict) -> None:
     sections = sorted({p["section"] for p in paper["placements"] if p["section"]})
     subsections = sorted({p["subsection"] for p in paper["placements"] if p["subsection"]})
     venues = paper["venues"]
+    is_localized = paper["source_status"] == "localized"
 
     lines: list[str] = [
         "---\n",
@@ -224,15 +225,26 @@ def write_fragment(paper: dict) -> None:
         [
             "\n## Source-Backed Notes\n\n",
             "- Inventory fact: this reference appears in the README paper table with the placement above.\n",
-            "- Content claims are pending source localization and review.\n",
+        ]
+    )
+    if is_localized:
+        lines.append("- Source fact: a localized source file is available in this repository.\n")
+        lines.append("- Content claims are pending review of the localized source.\n")
+    else:
+        lines.append("- Content claims are pending source localization and review.\n")
+    lines.extend(
+        [
             "\n## Cross-References\n\n",
             "- [Paper index](README.md)\n",
             "- [Taxonomy map](../maps/taxonomy-map.md)\n",
             "\n## Gaps\n\n",
-            "- Fetch and review the canonical source.\n",
-            "- Add concise source-backed contribution notes.\n",
         ]
     )
+    if is_localized:
+        lines.append("- Review the localized source.\n")
+    else:
+        lines.append("- Fetch and review the canonical source.\n")
+    lines.append("- Add concise source-backed contribution notes.\n")
     paper_path.write_text("".join(lines), encoding="utf-8")
 
 

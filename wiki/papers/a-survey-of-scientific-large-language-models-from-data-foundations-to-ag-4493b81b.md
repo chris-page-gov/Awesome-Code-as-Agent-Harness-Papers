@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b"
 canonical_urls:
   - "https://arxiv.org/abs/2508.21148"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2508.21148.pdf"
+source_status: "localized"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b`
 - Venue labels: arXiv 2025
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://arxiv.org/abs/2508.21148](https://arxiv.org/abs/2508.21148)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/arxiv/2508.21148.pdf](../../sources/raw/arxiv/2508.21148.pdf)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

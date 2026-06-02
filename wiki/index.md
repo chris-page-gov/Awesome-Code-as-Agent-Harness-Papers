@@ -45,6 +45,8 @@ placement metadata, canonical source URLs, local source status, and gaps.
 
 ## Current Gaps
 
-- Raw source localization has not yet completed.
+- Raw source localization has started but has not completed.
+- The survey PDF and first 8 arXiv paper PDFs are localized; content notes for
+  those papers still need review.
 - Some publisher-hosted or blog sources may remain URL-only if access or network
   conditions block download.

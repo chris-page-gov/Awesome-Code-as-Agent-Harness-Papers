@@ -69,8 +69,10 @@
           "readme_line": 1065
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2502.03962.pdf"
+      ]
     },
     {
       "paper_id": "a-multi-agent-coding-assistant-for-cloud-native-development-from-require-65f216a5",
@@ -135,8 +137,10 @@
           "readme_line": 223
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2307.12856.pdf"
+      ]
     },
     {
       "paper_id": "a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b",
@@ -157,8 +161,10 @@
           "readme_line": 1039
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2508.21148.pdf"
+      ]
     },
     {
       "paper_id": "a-survey-on-large-language-models-for-code-generation-28453085",
@@ -359,8 +365,10 @@
           "readme_line": 829
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2601.11655.pdf"
+      ]
     },
     {
       "paper_id": "agent-harness-for-large-language-model-agents-a-survey-1aa3cdd9",
@@ -425,8 +433,10 @@
           "readme_line": 189
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2602.10090.pdf"
+      ]
     },
     {
       "paper_id": "agentbench-evaluating-llms-as-agents-8d39628a",
@@ -454,8 +464,10 @@
           "readme_line": 923
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2308.03688.pdf"
+      ]
     },
     {
       "paper_id": "agentcoder-multi-agent-based-code-generation-with-iterative-testing-and-b39082ad",
@@ -539,8 +551,10 @@
           "readme_line": 712
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2312.13010.pdf"
+      ]
     },
     {
       "paper_id": "agentic-harness-engineering-observability-driven-automatic-evolution-of-32a741f4",
@@ -561,8 +575,10 @@
           "readme_line": 779
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2604.25850.pdf"
+      ]
     },
     {
       "paper_id": "agentless-demystifying-llm-based-software-engineering-agents-c52036c5",

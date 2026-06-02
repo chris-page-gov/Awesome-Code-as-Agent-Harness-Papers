@@ -22,9 +22,8 @@
     "title": "Code as Agent Harness Survey",
     "source_type": "arxiv-paper",
     "canonical_url": "https://arxiv.org/abs/2605.18747",
-    "local_path": null,
+    "local_path": "sources/raw/arxiv/2605.18747.pdf",
     "note_path": "wiki/sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md",
-    "status": "metadata-only"
+    "status": "localized"
   }
 ]
-

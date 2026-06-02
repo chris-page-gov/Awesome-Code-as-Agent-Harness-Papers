@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-06-02T08:19:42+00:00",
+  "attempts": [
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "survey",
+      "source_id": "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026",
+      "title": "Code as Agent Harness Survey",
+      "canonical_url": "https://arxiv.org/abs/2605.18747",
+      "fetch_url": "https://arxiv.org/pdf/2605.18747.pdf",
+      "local_path": "sources/raw/arxiv/2605.18747.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "paper",
+      "paper_id": "a-mem-agentic-memory-for-llm-agents-95975c4d",
+      "title": "A-Mem: Agentic Memory for LLM Agents",
+      "canonical_url": "https://arxiv.org/abs/2502.03962",
+      "fetch_url": "https://arxiv.org/pdf/2502.03962.pdf",
+      "local_path": "sources/raw/arxiv/2502.03962.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "paper",
+      "paper_id": "a-real-world-webagent-with-planning-long-context-understanding-and-progr-e7655cc5",
+      "title": "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",
+      "canonical_url": "https://arxiv.org/abs/2307.12856",
+      "fetch_url": "https://arxiv.org/pdf/2307.12856.pdf",
+      "local_path": "sources/raw/arxiv/2307.12856.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "paper",
+      "paper_id": "a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b",
+      "title": "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers",
+      "canonical_url": "https://arxiv.org/abs/2508.21148",
+      "fetch_url": "https://arxiv.org/pdf/2508.21148.pdf",
+      "local_path": "sources/raw/arxiv/2508.21148.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "paper",
+      "paper_id": "advances-and-frontiers-of-llm-based-issue-resolution-in-software-enginee-c74217fb",
+      "title": "Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey",
+      "canonical_url": "https://arxiv.org/abs/2601.11655",
+      "fetch_url": "https://arxiv.org/pdf/2601.11655.pdf",
+      "local_path": "sources/raw/arxiv/2601.11655.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "paper",
+      "paper_id": "agent-world-model-infinity-synthetic-environments-for-agentic-reinforcem-a9d3ddcc",
+      "title": "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning",
+      "canonical_url": "https://arxiv.org/abs/2602.10090",
+      "fetch_url": "https://arxiv.org/pdf/2602.10090.pdf",
+      "local_path": "sources/raw/arxiv/2602.10090.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "paper",
+      "paper_id": "agentbench-evaluating-llms-as-agents-8d39628a",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "canonical_url": "https://arxiv.org/abs/2308.03688",
+      "fetch_url": "https://arxiv.org/pdf/2308.03688.pdf",
+      "local_path": "sources/raw/arxiv/2308.03688.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "paper",
+      "paper_id": "agentcoder-multi-agent-based-code-generation-with-iterative-testing-and-b39082ad",
+      "title": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+      "canonical_url": "https://arxiv.org/abs/2312.13010",
+      "fetch_url": "https://arxiv.org/pdf/2312.13010.pdf",
+      "local_path": "sources/raw/arxiv/2312.13010.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:23+00:00",
+      "kind": "paper",
+      "paper_id": "agentic-harness-engineering-observability-driven-automatic-evolution-of-32a741f4",
+      "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+      "canonical_url": "https://arxiv.org/abs/2604.25850",
+      "fetch_url": "https://arxiv.org/pdf/2604.25850.pdf",
+      "local_path": "sources/raw/arxiv/2604.25850.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:42+00:00",
+      "kind": "survey",
+      "source_id": "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026",
+      "title": "Code as Agent Harness Survey",
+      "canonical_url": "https://arxiv.org/abs/2605.18747",
+      "fetch_url": "https://arxiv.org/pdf/2605.18747.pdf",
+      "local_path": "sources/raw/arxiv/2605.18747.pdf",
+      "status": "localized",
+      "bytes": 9899740,
+      "sha256": "ad647c5d1cb1302ec2d1b70302179f3b6f602fa818a75d25a28350127096fe9f"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:49+00:00",
+      "kind": "paper",
+      "paper_id": "a-mem-agentic-memory-for-llm-agents-95975c4d",
+      "title": "A-Mem: Agentic Memory for LLM Agents",
+      "canonical_url": "https://arxiv.org/abs/2502.03962",
+      "fetch_url": "https://arxiv.org/pdf/2502.03962.pdf",
+      "local_path": "sources/raw/arxiv/2502.03962.pdf",
+      "status": "localized",
+      "bytes": 2180916,
+      "sha256": "38b210a202bc5518b06bdd0bb8449d7e9b44be71845a4109d3efbfcd1546343c"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:51+00:00",
+      "kind": "paper",
+      "paper_id": "a-real-world-webagent-with-planning-long-context-understanding-and-progr-e7655cc5",
+      "title": "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",
+      "canonical_url": "https://arxiv.org/abs/2307.12856",
+      "fetch_url": "https://arxiv.org/pdf/2307.12856.pdf",
+      "local_path": "sources/raw/arxiv/2307.12856.pdf",
+      "status": "localized",
+      "bytes": 2014240,
+      "sha256": "23b1129aa8b95ee0555d27fb5a5711717c482451b31dd1c4df64ad8cc2267d1a"
+    },
+    {
+      "attempted_at": "2026-06-02T08:18:52+00:00",
+      "kind": "paper",
+      "paper_id": "a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b",
+      "title": "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers",
+      "canonical_url": "https://arxiv.org/abs/2508.21148",
+      "fetch_url": "https://arxiv.org/pdf/2508.21148.pdf",
+      "local_path": "sources/raw/arxiv/2508.21148.pdf",
+      "status": "localized",
+      "bytes": 34967666,
+      "sha256": "ed2372ca354e703bb5a9732781d952bf2b5df6aad6491389c4cb1a0c6ba9b69f"
+    },
+    {
+      "attempted_at": "2026-06-02T08:19:14+00:00",
+      "kind": "paper",
+      "paper_id": "advances-and-frontiers-of-llm-based-issue-resolution-in-software-enginee-c74217fb",
+      "title": "Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey",
+      "canonical_url": "https://arxiv.org/abs/2601.11655",
+      "fetch_url": "https://arxiv.org/pdf/2601.11655.pdf",
+      "local_path": "sources/raw/arxiv/2601.11655.pdf",
+      "status": "localized",
+      "bytes": 3509933,
+      "sha256": "5804c97553e20444f2c15ddf7bd3069046a4d32e807714294381d9f0d3ed7547"
+    },
+    {
+      "attempted_at": "2026-06-02T08:19:17+00:00",
+      "kind": "paper",
+      "paper_id": "agent-world-model-infinity-synthetic-environments-for-agentic-reinforcem-a9d3ddcc",
+      "title": "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning",
+      "canonical_url": "https://arxiv.org/abs/2602.10090",
+      "fetch_url": "https://arxiv.org/pdf/2602.10090.pdf",
+      "local_path": "sources/raw/arxiv/2602.10090.pdf",
+      "status": "localized",
+      "bytes": 9601950,
+      "sha256": "419b30a8f19edc92cf268d194923cf5f29b755c161e6f22672b5bfa05b5f84d5"
+    },
+    {
+      "attempted_at": "2026-06-02T08:19:23+00:00",
+      "kind": "paper",
+      "paper_id": "agentbench-evaluating-llms-as-agents-8d39628a",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "canonical_url": "https://arxiv.org/abs/2308.03688",
+      "fetch_url": "https://arxiv.org/pdf/2308.03688.pdf",
+      "local_path": "sources/raw/arxiv/2308.03688.pdf",
+      "status": "localized",
+      "bytes": 23017024,
+      "sha256": "9c780e35fc0b2de6c2e21e0572f6aaaadcf7ecdd56d63cfaae2b415bc0dc83c3"
+    },
+    {
+      "attempted_at": "2026-06-02T08:19:40+00:00",
+      "kind": "paper",
+      "paper_id": "agentcoder-multi-agent-based-code-generation-with-iterative-testing-and-b39082ad",
+      "title": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+      "canonical_url": "https://arxiv.org/abs/2312.13010",
+      "fetch_url": "https://arxiv.org/pdf/2312.13010.pdf",
+      "local_path": "sources/raw/arxiv/2312.13010.pdf",
+      "status": "localized",
+      "bytes": 678536,
+      "sha256": "ebe4476de1eebf33cc045962d03cc90d701fb4a8c2689353d34e146102acf443"
+    },
+    {
+      "attempted_at": "2026-06-02T08:19:41+00:00",
+      "kind": "paper",
+      "paper_id": "agentic-harness-engineering-observability-driven-automatic-evolution-of-32a741f4",
+      "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+      "canonical_url": "https://arxiv.org/abs/2604.25850",
+      "fetch_url": "https://arxiv.org/pdf/2604.25850.pdf",
+      "local_path": "sources/raw/arxiv/2604.25850.pdf",
+      "status": "localized",
+      "bytes": 1432986,
+      "sha256": "299f2633b4c13db7bed52434b4db7c48ea621993581014d30e7bcd036d3464df"
+    }
+  ]
+}

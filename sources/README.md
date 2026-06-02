@@ -9,3 +9,4 @@ This directory stores local source material for the LLM-Wiki.
 When a raw source cannot be fetched, keep the URL and failure reason in metadata
 and continue updating the wiki from available inventory facts.
 
+The current fetch manifest is [metadata/fetch-manifest.json](metadata/fetch-manifest.json).

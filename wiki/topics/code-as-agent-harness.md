@@ -35,8 +35,21 @@ For a coding agent, this wiki should answer three questions quickly:
 - Which papers are the canonical starting points?
 - Which local source files and fragments support the answer?
 
+## PDF-Backed Structure
+
+The localized survey PDF frames code as the operational substrate for reasoning,
+acting, environment modeling, and execution-based verification. It presents the
+three-layer taxonomy as a progression: code first enters the agent loop as an
+interface, then supports mechanisms for long-horizon reliability, then becomes a
+shared artifact for multi-agent coordination and verification.
+
+The survey's stated open challenges are a useful future-work checklist for this
+wiki: evaluate beyond final task success, verify under incomplete feedback,
+improve harnesses without regressions, maintain consistent shared state, keep
+human oversight for safety-critical actions, and extend the harness frame to
+multimodal environments.
+
 ## Gaps
 
-- Detailed survey claims need review against the localized arXiv PDF.
 - Paper-specific contribution notes should be added only after source review.
-
+- Section-level survey notes still need to be split out for each taxonomy layer.

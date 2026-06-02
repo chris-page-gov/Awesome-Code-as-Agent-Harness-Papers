@@ -34,6 +34,9 @@ scientific discovery agents, and embodied agents.
   currently records 354 unique paper/reference fragments from 458 README rows.
 - README paper rows now link to local fragments under [wiki/papers/](wiki/papers/);
   each fragment preserves the canonical external source URL.
+- The first source-localization batch fetched the survey PDF plus 8 arXiv paper
+  PDFs under [sources/raw/arxiv/](sources/raw/arxiv/). Fetch status and hashes
+  are recorded in [sources/metadata/fetch-manifest.json](sources/metadata/fetch-manifest.json).
 
 ## Local Pattern Adopted
 
@@ -54,3 +57,5 @@ This repo follows the recent local LLM-Wiki pattern found in:
   corresponding source has been localized or separately verified.
 - Use `tools/generate_paper_fragments.py` for README-to-fragment regeneration
   rather than hand-editing hundreds of paper rows.
+- Use `tools/localize_sources.py` for bounded source-localization batches and
+  commit after each successful batch.

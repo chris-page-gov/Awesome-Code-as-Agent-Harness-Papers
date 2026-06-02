@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "a-mem-agentic-memory-for-llm-agents-95975c4d"
 canonical_urls:
   - "https://arxiv.org/abs/2502.03962"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2502.03962.pdf"
+source_status: "localized"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `a-mem-agentic-memory-for-llm-agents-95975c4d`
 - Venue labels: NeurIPS 2026
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://arxiv.org/abs/2502.03962](https://arxiv.org/abs/2502.03962)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/arxiv/2502.03962.pdf](../../sources/raw/arxiv/2502.03962.pdf)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

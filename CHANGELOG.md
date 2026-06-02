@@ -16,9 +16,12 @@ All notable changes to this fork are recorded here.
   under `wiki/papers/`.
 - Added a generator and validation checks for paper-register and README xref
   integrity.
+- Added a source-localization tool, fetch manifest, the localized Code as Agent
+  Harness survey PDF, and the first 8 localized arXiv paper PDFs.
 
 ### Changed
 
 - Added README entry points for the local fork wiki.
 - Repointed README paper-table links to local wiki fragments while preserving
   canonical external links inside the fragments.
+- Updated localized paper fragments with local source paths and source status.

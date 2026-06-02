@@ -13,10 +13,14 @@ Last updated: 2026-06-02
 - [x] Generated 354 per-paper/per-reference wiki fragments from 458 README rows.
 - [x] Updated README paper links to point at local wiki fragments while
   preserving canonical external links inside each fragment.
+- [x] Localized the Code as Agent Harness survey PDF.
+- [x] Localized the first 8 arXiv paper PDFs and updated their fragments.
 - [ ] Localize source files under `sources/raw/` as network availability allows.
 
 ## Open Follow-Ups
 
-- Fetch arXiv PDFs first because they are the highest-yield open source family.
+- Continue arXiv PDFs first because they are the highest-yield open source
+  family.
+- Review localized PDFs and add concise source-backed contribution notes.
 - Record fetch failures in source metadata rather than blocking progress.
 - Re-run wiki validation and push after each meaningful checkpoint.
