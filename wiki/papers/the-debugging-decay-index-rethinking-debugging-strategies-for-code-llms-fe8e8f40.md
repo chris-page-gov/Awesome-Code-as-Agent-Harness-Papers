@@ -1,13 +1,14 @@
 ---
 title: "The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "the-debugging-decay-index-rethinking-debugging-strategies-for-code-llms-fe8e8f40"
 canonical_urls:
   - "https://arxiv.org/abs/2506.18403"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2506.18403.pdf"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `the-debugging-decay-index-rethinking-debugging-strategies-for-code-llms-fe8e8f40`
 - Venue labels: arXiv 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2506.18403](https://arxiv.org/abs/2506.18403)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2506.18403.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2506.18403.pdf`, 1310169 bytes, SHA-256 `a2d66c3f224c4340156610fb95fa117ccf5cf09002f3d4ed856b85e7c4fa9ab7`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 15465 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (40), `feedback` (7), `memory` (5), `environment` (4), `execution` (4), `planning` (1).
+- Source cue: automated topic tags: `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

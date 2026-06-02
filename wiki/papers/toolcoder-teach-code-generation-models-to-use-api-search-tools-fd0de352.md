@@ -1,13 +1,14 @@
 ---
 title: "ToolCoder: Teach Code Generation Models to use API search tools"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "toolcoder-teach-code-generation-models-to-use-api-search-tools-fd0de352"
 canonical_urls:
   - "https://arxiv.org/abs/2305.04032"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2305.04032.pdf"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `toolcoder-teach-code-generation-models-to-use-api-search-tools-fd0de352`
 - Venue labels: arXiv 2023
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2305.04032](https://arxiv.org/abs/2305.04032)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2305.04032.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2305.04032.pdf`, 1205674 bytes, SHA-256 `203d8233aaaadca49f7a02e4f19f2371c0ca8fa4d7c44a8f0379c0f83b94cd3a`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 15890 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `tools` (107), `code` (64), `memory` (4), `feedback` (1).
+- Source cue: automated topic tags: `code`, `memory`, `tools`, `feedback`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

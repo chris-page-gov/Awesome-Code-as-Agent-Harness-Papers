@@ -7,7 +7,7 @@ paper_id: "towards-large-language-models-with-human-like-episodic-memory-d405770
 canonical_urls:
   - "https://www.sciencedirect.com/science/article/abs/pii/S1364661325001792"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `towards-large-language-models-with-human-like-episodic-memory-d4057701`
 - Venue labels: Trends in Cognitive Sciences 2025
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://www.sciencedirect.com/science/article/abs/pii/S1364661325001792](https://www.sciencedirect.com/science/article/abs/pii/S1364661325001792)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://www.sciencedirect.com/science/article/abs/pii/S1364661325001792`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.
