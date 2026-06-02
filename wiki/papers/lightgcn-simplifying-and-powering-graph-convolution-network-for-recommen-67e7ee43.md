@@ -1,13 +1,14 @@
 ---
 title: "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "lightgcn-simplifying-and-powering-graph-convolution-network-for-recommen-67e7ee43"
 canonical_urls:
   - "https://arxiv.org/abs/2002.02126"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2002.02126.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `lightgcn-simplifying-and-powering-graph-convolution-network-for-recommen-67e7ee43`
 - Venue labels: SIGIR 2020
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2002.02126](https://arxiv.org/abs/2002.02126)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2002.02126.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2002.02126.pdf`, 1294898 bytes, SHA-256 `e48e4c27e4dc9ffd50f531b69682da0a500ae9a8190c629aeff223b40b555306`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 17155 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `memory` (5).
+- Source cue: automated topic tags: `memory`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

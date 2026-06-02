@@ -7,7 +7,7 @@ paper_id: "interactive-debugging-and-steering-of-multi-agent-ai-systems-7e120797
 canonical_urls:
   - "https://doi.org/10.1145/3706598.3713581"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `interactive-debugging-and-steering-of-multi-agent-ai-systems-7e120797`
 - Venue labels: CHI 2025
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://doi.org/10.1145/3706598.3713581](https://doi.org/10.1145/3706598.3713581)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://doi.org/10.1145/3706598.3713581`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.

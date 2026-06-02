@@ -1,13 +1,14 @@
 ---
 title: "L2MAC: Large language model automatic computer for extensive code generation"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "l2mac-large-language-model-automatic-computer-for-extensive-code-generat-4f91c91d"
 canonical_urls:
   - "https://arxiv.org/abs/2310.02003"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2310.02003.pdf"
+source_status: "integrated"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -31,7 +32,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `l2mac-large-language-model-automatic-computer-for-extensive-code-generat-4f91c91d`
 - Venue labels: ICLR 2024
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2310.02003](https://arxiv.org/abs/2310.02003)
 
@@ -47,12 +48,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2310.02003.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2310.02003.pdf`, 2824638 bytes, SHA-256 `68461c9539f7bfafa76653765a9801d8cfc0d1a2a3021407745acd2d304ef541`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 20970 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `memory` (45), `code` (36), `agent` (22), `feedback` (13), `execution` (5), `multi-agent` (4), `tools` (4), `environment` (2).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -61,5 +70,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

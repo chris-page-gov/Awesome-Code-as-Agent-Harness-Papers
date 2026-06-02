@@ -7,7 +7,7 @@ paper_id: "expectation-vs-experience-evaluating-the-usability-of-code-generation
 canonical_urls:
   - "https://doi.org/10.1145/3491101.3519665"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `expectation-vs-experience-evaluating-the-usability-of-code-generation-to-ba30097e`
 - Venue labels: CHI Extended Abstracts 2022
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://doi.org/10.1145/3491101.3519665](https://doi.org/10.1145/3491101.3519665)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://doi.org/10.1145/3491101.3519665`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.

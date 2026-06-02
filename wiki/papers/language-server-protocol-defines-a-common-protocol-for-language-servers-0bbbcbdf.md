@@ -1,13 +1,14 @@
 ---
 title: "Language Server Protocol: Defines a Common Protocol for Language Servers"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "language-server-protocol-defines-a-common-protocol-for-language-servers-0bbbcbdf"
 canonical_urls:
   - "https://github.com/Microsoft/language-server-protocol"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/github.com/language-server-protocol-defines-a-common-protocol-for-language-servers-194fc4d6.html"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `language-server-protocol-defines-a-common-protocol-for-language-servers-0bbbcbdf`
 - Venue labels: —
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://github.com/Microsoft/language-server-protocol](https://github.com/Microsoft/language-server-protocol)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/html/github.com/language-server-protocol-defines-a-common-protocol-for-language-servers-194fc4d6.html` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/html/github.com/language-server-protocol-defines-a-common-protocol-for-language-servers-194fc4d6.html`, 310314 bytes, SHA-256 `7f3c93aba0c47ce19c8e1b0b8953fddaf404156a3eafb4497090599223e6ea31`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 4846 characters using `html-text`.
+- Source cue: localized text contains harness-relevant terms: `code` (22), `feedback` (3), `planning` (1), `tools` (1).
+- Source cue: automated topic tags: `code`, `planning`, `tools`, `feedback`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

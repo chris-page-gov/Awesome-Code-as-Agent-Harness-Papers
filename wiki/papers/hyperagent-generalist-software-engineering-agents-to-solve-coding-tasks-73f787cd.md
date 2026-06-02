@@ -1,13 +1,14 @@
 ---
 title: "HyperAgent: Generalist software engineering agents to solve coding tasks at scale"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "hyperagent-generalist-software-engineering-agents-to-solve-coding-tasks-73f787cd"
 canonical_urls:
   - "https://arxiv.org/abs/2409.16299"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2409.16299.pdf"
+source_status: "integrated"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -30,7 +31,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `hyperagent-generalist-software-engineering-agents-to-solve-coding-tasks-73f787cd`
 - Venue labels: arXiv 2024
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2409.16299](https://arxiv.org/abs/2409.16299)
 
@@ -46,12 +47,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2409.16299.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2409.16299.pdf`, 838728 bytes, SHA-256 `c2fabbd4177d6e4dd4e6e863c483295b2801a29fb18313f83fb380b27a7639fd`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 12259 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (48), `agent` (28), `planning` (12), `environment` (6), `tools` (6), `execution` (5), `feedback` (5), `multi-agent` (3), `memory` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -60,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.
