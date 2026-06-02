@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "autoglm-autonomous-foundation-agents-for-guis-37e341b3"
 canonical_urls:
   - "https://arxiv.org/abs/2411.00820"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2411.00820.pdf"
+source_status: "localized"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `autoglm-autonomous-foundation-agents-for-guis-37e341b3`
 - Venue labels: arXiv 2024
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://arxiv.org/abs/2411.00820](https://arxiv.org/abs/2411.00820)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/arxiv/2411.00820.pdf](../../sources/raw/arxiv/2411.00820.pdf)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

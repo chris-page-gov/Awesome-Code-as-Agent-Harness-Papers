@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T08:37:11+00:00",
+  "generated_at": "2026-06-02T08:39:07+00:00",
   "attempts": [
     {
       "attempted_at": "2026-06-02T08:18:23+00:00",
@@ -387,6 +387,66 @@
       "status": "localized",
       "bytes": 1045458,
       "sha256": "b2db368d3c9632795c0c719270184b88a5602122a9e5515c51e6acc669af555f"
+    },
+    {
+      "attempted_at": "2026-06-02T08:39:01+00:00",
+      "kind": "paper",
+      "paper_id": "aria-ui-visual-grounding-for-gui-instructions-b6366c01",
+      "title": "Aria-UI: Visual Grounding for GUI Instructions",
+      "canonical_url": "https://arxiv.org/abs/2412.16256",
+      "fetch_url": "https://arxiv.org/pdf/2412.16256.pdf",
+      "local_path": "sources/raw/arxiv/2412.16256.pdf",
+      "status": "localized",
+      "bytes": 3843901,
+      "sha256": "169bc7694b456530ce8a6f0336b7efc33a32a21a731e1656caf4934e83f59334"
+    },
+    {
+      "attempted_at": "2026-06-02T08:39:02+00:00",
+      "kind": "paper",
+      "paper_id": "autocoderover-autonomous-program-improvement-ae9813ae",
+      "title": "AutoCodeRover: Autonomous Program Improvement",
+      "canonical_url": "https://arxiv.org/abs/2404.05427",
+      "fetch_url": "https://arxiv.org/pdf/2404.05427.pdf",
+      "local_path": "sources/raw/arxiv/2404.05427.pdf",
+      "status": "localized",
+      "bytes": 1580568,
+      "sha256": "b1f6a5942947276b4f1f9cdc2cb43ff3d383223cab7e779a498b9def9593f60a"
+    },
+    {
+      "attempted_at": "2026-06-02T08:39:02+00:00",
+      "kind": "paper",
+      "paper_id": "autoglm-autonomous-foundation-agents-for-guis-37e341b3",
+      "title": "AutoGLM: Autonomous Foundation Agents for GUIs",
+      "canonical_url": "https://arxiv.org/abs/2411.00820",
+      "fetch_url": "https://arxiv.org/pdf/2411.00820.pdf",
+      "local_path": "sources/raw/arxiv/2411.00820.pdf",
+      "status": "localized",
+      "bytes": 12773405,
+      "sha256": "93f5c46e6a401cf221af9886ce4aa6634b5f64ca1aaa192ffd367339985c50f1"
+    },
+    {
+      "attempted_at": "2026-06-02T08:39:05+00:00",
+      "kind": "paper",
+      "paper_id": "autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-ha-b5805024",
+      "title": "AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness",
+      "canonical_url": "https://arxiv.org/abs/2603.03329",
+      "fetch_url": "https://arxiv.org/pdf/2603.03329.pdf",
+      "local_path": "sources/raw/arxiv/2603.03329.pdf",
+      "status": "localized",
+      "bytes": 917772,
+      "sha256": "8399c0a6a76a38c1a96804c88d0bac69286fe52ba3f255cba9175e3882fecf19"
+    },
+    {
+      "attempted_at": "2026-06-02T08:39:06+00:00",
+      "kind": "paper",
+      "paper_id": "autosafecoder-a-multi-agent-framework-for-securing-llm-code-generation-t-7f525db3",
+      "title": "AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing",
+      "canonical_url": "https://arxiv.org/abs/2409.10737",
+      "fetch_url": "https://arxiv.org/pdf/2409.10737.pdf",
+      "local_path": "sources/raw/arxiv/2409.10737.pdf",
+      "status": "localized",
+      "bytes": 1352559,
+      "sha256": "c5b84e48249d31f490cee33b8a0a70ffd03d511680c0c2a6ab65790e9f4c7b03"
     }
   ]
 }

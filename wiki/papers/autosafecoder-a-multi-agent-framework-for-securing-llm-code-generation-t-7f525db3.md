@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "autosafecoder-a-multi-agent-framework-for-securing-llm-code-generation-t-7f525db3"
 canonical_urls:
   - "https://arxiv.org/abs/2409.10737"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2409.10737.pdf"
+source_status: "localized"
 survey_layers:
   - "Harness Mechanisms"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -35,7 +36,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `autosafecoder-a-multi-agent-framework-for-securing-llm-code-generation-t-7f525db3`
 - Venue labels: arXiv 2024
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://arxiv.org/abs/2409.10737](https://arxiv.org/abs/2409.10737)
 
@@ -53,12 +54,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/arxiv/2409.10737.pdf](../../sources/raw/arxiv/2409.10737.pdf)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -67,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

@@ -17,7 +17,7 @@ All notable changes to this fork are recorded here.
 - Added a generator and validation checks for paper-register and README xref
   integrity.
 - Added a source-localization tool, fetch manifest, the localized Code as Agent
-  Harness survey PDF, and localized arXiv source files for the first 23 paper
+  Harness survey PDF, and localized arXiv source files for the first 28 paper
   fragments.
 
 ### Changed

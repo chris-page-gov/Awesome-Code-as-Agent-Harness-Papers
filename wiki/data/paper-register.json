@@ -1136,8 +1136,10 @@
           "readme_line": 898
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2412.16256.pdf"
+      ]
     },
     {
       "paper_id": "autocoderover-autonomous-program-improvement-ae9813ae",
@@ -1166,8 +1168,10 @@
           "readme_line": 765
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2404.05427.pdf"
+      ]
     },
     {
       "paper_id": "autogen-enabling-next-gen-llm-applications-via-multi-agent-conversations-368dedbe",
@@ -1210,8 +1214,10 @@
           "readme_line": 911
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2411.00820.pdf"
+      ]
     },
     {
       "paper_id": "autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-ha-b5805024",
@@ -1232,8 +1238,10 @@
           "readme_line": 778
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2603.03329.pdf"
+      ]
     },
     {
       "paper_id": "autonomous-chemical-research-with-large-language-models-8eae7fc9",
@@ -1318,8 +1326,10 @@
           "readme_line": 720
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2409.10737.pdf"
+      ]
     },
     {
       "paper_id": "autowebglm-a-large-language-model-based-web-navigating-agent-a0c48b83",
