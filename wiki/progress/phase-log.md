@@ -14,4 +14,6 @@ last_reviewed: "2026-06-02"
 - Inspected adjacent repos for the local LLM-Wiki/control-file pattern.
 - Added initial control files and documentation lockstep rule.
 - Added initial wiki scaffold, source notes, topics, maps, and progress notes.
-
+- Generated `wiki/data/paper-register.json` and 354 paper/reference fragments
+  from 458 README rows.
+- Updated README paper rows to point at local fragments.

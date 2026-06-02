@@ -31,9 +31,8 @@ as a usable public index.
 
 ## Status
 
-- [x] Phase 1 started.
-- [ ] Phase 2 not started.
-- [ ] Phase 3 not started.
+- [x] Phase 1 complete.
+- [x] Phase 2 complete: 354 fragments generated from 458 README rows.
+- [x] Phase 3 complete: README paper rows now point at wiki fragments.
 - [ ] Phase 4 not started.
 - [ ] Phase 5 not started.
-

@@ -1,0 +1,53 @@
+---
+title: "ViStruct: Visual Structural Knowledge Extraction via Curriculum Guided Code-Vision Representation"
+note_type: "paper"
+status: "metadata-only"
+tags: ["paper", "code-as-agent-harness"]
+paper_id: "vistruct-visual-structural-knowledge-extraction-via-curriculum-guided-co-63a9674d"
+canonical_urls:
+  - "https://aclanthology.org/2023.emnlp-main.824/"
+local_source_paths: []
+source_status: "pending"
+survey_layers:
+  - "Harness Interface"
+survey_sections:
+  - "Code for Environment Modeling"
+survey_subsections:
+  - "Structured World Representations"
+last_reviewed: "2026-06-02"
+---
+
+# ViStruct: Visual Structural Knowledge Extraction via Curriculum Guided Code-Vision Representation
+
+## Inventory Metadata
+
+- Paper ID: `vistruct-visual-structural-knowledge-extraction-via-curriculum-guided-co-63a9674d`
+- Venue labels: EMNLP 2023
+- Source status: `pending`
+- Canonical URL:
+  - [https://aclanthology.org/2023.emnlp-main.824/](https://aclanthology.org/2023.emnlp-main.824/)
+
+## Survey Placement
+
+| Layer | Section | Subsection | Venue |
+| --- | --- | --- | --- |
+| Harness Interface | Code for Environment Modeling | Structured World Representations | EMNLP 2023 |
+
+## Localized Sources
+
+- No localized source file registered yet.
+
+## Source-Backed Notes
+
+- Inventory fact: this reference appears in the README paper table with the placement above.
+- Content claims are pending source localization and review.
+
+## Cross-References
+
+- [Paper index](README.md)
+- [Taxonomy map](../maps/taxonomy-map.md)
+
+## Gaps
+
+- Fetch and review the canonical source.
+- Add concise source-backed contribution notes.

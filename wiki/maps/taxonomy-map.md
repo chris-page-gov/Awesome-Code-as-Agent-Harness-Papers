@@ -23,5 +23,5 @@ last_reviewed: "2026-06-02"
 
 - Taxonomy source: [Current README Inventory](../sources/SOURCE-README-ORIGINAL-2026-06-02.md).
 - Survey source: [Code as Agent Harness Survey](../sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md).
+- Paper index: [Paper fragments](../papers/README.md), generated from 458 README rows.
 - Paper-level source localization: pending.
-

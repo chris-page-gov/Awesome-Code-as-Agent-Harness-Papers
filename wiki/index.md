@@ -16,6 +16,7 @@ around the *Code as Agent Harness* survey and README inventory.
 - [Source discipline](guidance/source-discipline.md)
 - [Ingest workflow](guidance/ingest-workflow.md)
 - [Source notes](sources/README.md)
+- [Paper fragment index](papers/README.md)
 - [Taxonomy map](maps/taxonomy-map.md)
 - [Reading routes](maps/reading-routes.md)
 - [Progress dashboard](progress/completion-dashboard.md)
@@ -38,13 +39,12 @@ around the *Code as Agent Harness* survey and README inventory.
 
 ## Paper Fragments
 
-Per-paper fragments live in [papers/](papers/). The initial catalog will be
-generated from README table rows, then enriched as each source is localized.
+Per-paper fragments live in [papers/](papers/). The current generated catalog
+contains 354 fragments from 458 README rows. Each fragment stores README
+placement metadata, canonical source URLs, local source status, and gaps.
 
 ## Current Gaps
 
-- Paper fragments have not yet been generated for every README row.
 - Raw source localization has not yet completed.
 - Some publisher-hosted or blog sources may remain URL-only if access or network
   conditions block download.
-

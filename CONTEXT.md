@@ -30,6 +30,10 @@ scientific discovery agents, and embodied agents.
 - The wiki layer starts at [LLM-WIKI.md](LLM-WIKI.md) and [wiki/index.md](wiki/index.md).
 - Raw localized source files should be placed under [sources/raw/](sources/raw/)
   and treated as read-only evidence after ingestion.
+- The generated paper register at [wiki/data/paper-register.json](wiki/data/paper-register.json)
+  currently records 354 unique paper/reference fragments from 458 README rows.
+- README paper rows now link to local fragments under [wiki/papers/](wiki/papers/);
+  each fragment preserves the canonical external source URL.
 
 ## Local Pattern Adopted
 
@@ -48,4 +52,5 @@ This repo follows the recent local LLM-Wiki pattern found in:
 - Keep the fork isolated from upstream writes.
 - Treat bibliographic rows in the README as inventory metadata until the
   corresponding source has been localized or separately verified.
-
+- Use `tools/generate_paper_fragments.py` for README-to-fragment regeneration
+  rather than hand-editing hundreds of paper rows.

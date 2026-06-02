@@ -16,4 +16,7 @@ last_reviewed: "2026-06-02"
   Harness survey as initial sources.
 - Added initial topic and map pages so the wiki is immediately navigable before
   bulk source localization completes.
-
+- Generated the paper register and 354 paper/reference fragments from the README
+  inventory.
+- Rewrote README paper-table links to local wiki fragments, with canonical
+  external URLs preserved in the fragments.
