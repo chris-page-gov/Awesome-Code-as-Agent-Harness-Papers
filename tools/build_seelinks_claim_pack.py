@@ -158,9 +158,10 @@ PROPERTY_DEFS = [
     {"id": "extraction_method", "name": "Extraction method", "kind": "multi", "section": "Source", "order": 19},
     {"id": "claim_card_path", "name": "Claim Card path", "kind": "text", "section": "Source", "order": 20},
     {"id": "paper_fragment_path", "name": "Paper fragment path", "kind": "text", "section": "Source", "order": 21},
-    {"id": "source_year", "name": "Source year", "kind": "number", "section": "Source", "order": 22},
-    {"id": "source_order", "name": "Source order", "kind": "number", "section": "Source", "order": 23},
-    {"id": "source_url", "name": "Source URL", "kind": "text", "section": "Source", "order": 24},
+    {"id": "publication_date", "name": "Publication date", "kind": "text", "section": "Source", "order": 22},
+    {"id": "source_year", "name": "Source year", "kind": "number", "section": "Source", "order": 23},
+    {"id": "source_order", "name": "Source order", "kind": "number", "section": "Source", "order": 24},
+    {"id": "source_url", "name": "Source URL", "kind": "text", "section": "Source", "order": 25},
 ]
 
 
@@ -259,6 +260,33 @@ def paper_year(paper: dict[str, Any] | None) -> int | None:
     return None
 
 
+def arxiv_publication_date(value: str) -> str | None:
+    match = re.search(r"(?:arxiv\.org/(?:abs|pdf)/|arxiv/)(\d{2})(\d{2})\.\d+", value, flags=re.IGNORECASE)
+    if not match:
+        match = re.search(r"\b(\d{2})(\d{2})\.\d{4,5}\b", value)
+    if not match:
+        return None
+    year = 2000 + int(match.group(1))
+    month = int(match.group(2))
+    if not 1 <= month <= 12:
+        return None
+    return f"{year:04d}-{month:02d}"
+
+
+def paper_publication_date(paper: dict[str, Any] | None, source_refs: list[str]) -> str | None:
+    candidates: list[str] = []
+    if paper:
+        candidates.extend(str(url) for url in paper.get("canonical_urls", []))
+        candidates.extend(str(path) for path in paper.get("local_source_paths", []))
+    candidates.extend(source_refs)
+    for candidate in candidates:
+        inferred = arxiv_publication_date(candidate)
+        if inferred:
+            return inferred
+    year = paper_year(paper)
+    return str(year) if year else None
+
+
 def paper_url(paper: dict[str, Any] | None) -> str:
     if not paper:
         return ""
@@ -327,6 +355,11 @@ def claim_item(
     source_refs = claim.get("source_refs", [])
     paper = paper_for(claim, paper_by_id)
     year = paper_year(paper)
+    publication_date = paper_publication_date(paper, source_refs)
+    if year is None and publication_date:
+        year_match = re.search(r"\b(19|20)\d{2}\b", publication_date)
+        if year_match:
+            year = int(year_match.group(0))
     url = paper_url(paper)
     title = source_title(claim, paper_by_id)
     assertion_type = CLAIM_TYPE_TO_ASSERTION_TYPE.get(claim.get("claim_type"), "claim")
@@ -368,6 +401,7 @@ def claim_item(
             "extraction_method": claim.get("extraction_method", "unknown"),
             "claim_card_path": claim.get("card_path", ""),
             "paper_fragment_path": paper_fragment_path(claim),
+            "publication_date": publication_date,
             "source_year": year,
             "source_order": source_order,
             "source_url": url,
