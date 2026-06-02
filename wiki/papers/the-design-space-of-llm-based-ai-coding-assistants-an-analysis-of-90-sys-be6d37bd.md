@@ -1,13 +1,14 @@
 ---
 title: "The Design Space of LLM-Based AI Coding Assistants: An Analysis of 90 Systems in Academia and Industry"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-sys-be6d37bd"
 canonical_urls:
   - "https://ieeexplore.ieee.org/document/11303497/"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/ieeexplore.ieee.org/the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-systems-in-ab572db7.html"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-sys-be6d37bd`
 - Venue labels: VL/HCC 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://ieeexplore.ieee.org/document/11303497/](https://ieeexplore.ieee.org/document/11303497/)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/html/ieeexplore.ieee.org/the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-systems-in-ab572db7.html` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/html/ieeexplore.ieee.org/the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-systems-in-ab572db7.html`, 50072 bytes, SHA-256 `acc241eea27e369d7a37f3bfd8a959c59cc23993f0dd21612797a2e2d016bad5`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 860 characters using `html-text`.
+- Source cue: localized text contains harness-relevant terms: `environment` (1).
+- Source cue: automated topic tags: `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

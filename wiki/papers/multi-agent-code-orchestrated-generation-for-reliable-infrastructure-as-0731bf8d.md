@@ -1,13 +1,14 @@
 ---
 title: "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "multi-agent-code-orchestrated-generation-for-reliable-infrastructure-as-0731bf8d"
 canonical_urls:
   - "https://arxiv.org/abs/2510.03902"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2510.03902.pdf"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `multi-agent-code-orchestrated-generation-for-reliable-infrastructure-as-0731bf8d`
 - Venue labels: arXiv 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2510.03902](https://arxiv.org/abs/2510.03902)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2510.03902.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2510.03902.pdf`, 1097321 bytes, SHA-256 `b5bd989505052ac2b3f454cc34d6a3c2c4bd2e11ae3de6addf15e7f1b75a512a`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 12234 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (40), `agent` (14), `planning` (8), `multi-agent` (7), `environment` (5), `execution` (5), `feedback` (4), `memory` (4), `tools` (2).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.
