@@ -9,7 +9,7 @@ raw sources are localized and reviewed.
 - Generated at: 2026-06-02
 - README table rows parsed: 458
 - Unique paper/reference fragments: 354
-- Fragments with localized source files: 18
+- Fragments with localized source files: 23
 
 ## Counts By Top-Level Layer
 

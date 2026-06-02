@@ -943,8 +943,10 @@
           "readme_line": 1023
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2506.13131.pdf"
+      ]
     },
     {
       "paper_id": "alrm-agentic-llm-for-robotic-manipulation-10f7a82b",
@@ -972,8 +974,10 @@
           "readme_line": 980
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2601.19510.pdf"
+      ]
     },
     {
       "paper_id": "an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-mate-6197b701",
@@ -1016,8 +1020,10 @@
           "readme_line": 922
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2410.24024.pdf"
+      ]
     },
     {
       "paper_id": "androidworld-a-dynamic-benchmarking-environment-for-autonomous-agents-30cc7f92",
@@ -1060,8 +1066,10 @@
           "readme_line": 908
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2312.13771.pdf"
+      ]
     },
     {
       "paper_id": "appworld-a-controllable-world-of-apps-and-people-for-benchmarking-intera-112f7b43",
@@ -1104,8 +1112,10 @@
           "readme_line": 856
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2503.15223.pdf"
+      ]
     },
     {
       "paper_id": "aria-ui-visual-grounding-for-gui-instructions-b6366c01",

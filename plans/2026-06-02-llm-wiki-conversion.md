@@ -35,5 +35,5 @@ as a usable public index.
 - [x] Phase 2 complete: 354 fragments generated from 458 README rows.
 - [x] Phase 3 complete: README paper rows now point at wiki fragments.
 - [ ] Phase 4 in progress: survey PDF plus localized arXiv source files for the
-  first 18 paper fragments.
+  first 23 paper fragments.
 - [ ] Phase 5 not started.

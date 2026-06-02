@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T08:34:59+00:00",
+  "generated_at": "2026-06-02T08:37:11+00:00",
   "attempts": [
     {
       "attempted_at": "2026-06-02T08:18:23+00:00",
@@ -327,6 +327,66 @@
       "status": "localized",
       "bytes": 529202,
       "sha256": "d4b99bcfde3fe3b4ca808461de18dbbe7ba5d3645c327edf425418e91c85ec2e"
+    },
+    {
+      "attempted_at": "2026-06-02T08:37:05+00:00",
+      "kind": "paper",
+      "paper_id": "alphaevolve-a-coding-agent-for-scientific-and-algorithmic-discovery-9d1c64f5",
+      "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+      "canonical_url": "https://arxiv.org/abs/2506.13131",
+      "fetch_url": "https://arxiv.org/pdf/2506.13131.pdf",
+      "local_path": "sources/raw/arxiv/2506.13131.pdf",
+      "status": "localized",
+      "bytes": 3525764,
+      "sha256": "f092c8cbd65da89951ee6496374da9a54963f9035758c25ac6e4625f506df9ad"
+    },
+    {
+      "attempted_at": "2026-06-02T08:37:06+00:00",
+      "kind": "paper",
+      "paper_id": "alrm-agentic-llm-for-robotic-manipulation-10f7a82b",
+      "title": "ALRM: Agentic LLM for Robotic Manipulation",
+      "canonical_url": "https://arxiv.org/abs/2601.19510",
+      "fetch_url": "https://arxiv.org/pdf/2601.19510.pdf",
+      "local_path": "sources/raw/arxiv/2601.19510.pdf",
+      "status": "localized",
+      "bytes": 840815,
+      "sha256": "e45ac14a2288afb3016c7cfee3969a5e92d152de59f40f403dfdff1f8b699daf"
+    },
+    {
+      "attempted_at": "2026-06-02T08:37:06+00:00",
+      "kind": "paper",
+      "paper_id": "androidlab-training-and-systematic-benchmarking-of-android-autonomous-ag-18425c00",
+      "title": "AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents",
+      "canonical_url": "https://arxiv.org/abs/2410.24024",
+      "fetch_url": "https://arxiv.org/pdf/2410.24024.pdf",
+      "local_path": "sources/raw/arxiv/2410.24024.pdf",
+      "status": "localized",
+      "bytes": 6932033,
+      "sha256": "70233eb37c74ce4e3973a6d7c86f7b3ea07dff4045b763adcc52f22e2b76df61"
+    },
+    {
+      "attempted_at": "2026-06-02T08:37:09+00:00",
+      "kind": "paper",
+      "paper_id": "appagent-multimodal-agents-as-smartphone-users-9abb5e3a",
+      "title": "AppAgent: Multimodal Agents as Smartphone Users",
+      "canonical_url": "https://arxiv.org/abs/2312.13771",
+      "fetch_url": "https://arxiv.org/pdf/2312.13771.pdf",
+      "local_path": "sources/raw/arxiv/2312.13771.pdf",
+      "status": "localized",
+      "bytes": 3797687,
+      "sha256": "ce9840204e13889f899e326def62005ed9871a0a6ab5d44f716343c4142ef045"
+    },
+    {
+      "attempted_at": "2026-06-02T08:37:10+00:00",
+      "kind": "paper",
+      "paper_id": "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-stud-1b439190",
+      "title": "Are \"Solved Issues\" in SWE-bench Really Solved Correctly? An Empirical Study",
+      "canonical_url": "https://arxiv.org/abs/2503.15223",
+      "fetch_url": "https://arxiv.org/pdf/2503.15223.pdf",
+      "local_path": "sources/raw/arxiv/2503.15223.pdf",
+      "status": "localized",
+      "bytes": 1045458,
+      "sha256": "b2db368d3c9632795c0c719270184b88a5602122a9e5515c51e6acc669af555f"
     }
   ]
 }
