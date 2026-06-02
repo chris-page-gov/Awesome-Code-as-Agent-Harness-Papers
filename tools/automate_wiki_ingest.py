@@ -66,7 +66,7 @@ def checkpoint(args: argparse.Namespace, state: dict) -> None:
     )
     run(["git", "commit", "-m", message])
     if args.push:
-        run(["git", "push", "origin", args.branch])
+        run(["git", "push", "origin", f"HEAD:{args.branch}"])
 
 
 def run_cycle(args: argparse.Namespace, cycle: int) -> dict:
