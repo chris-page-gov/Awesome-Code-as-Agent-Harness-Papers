@@ -18,7 +18,7 @@ Last updated: 2026-06-02
   those fragments.
 - [x] Added resumable ingest automation for localization, integration,
   validation, and checkpoint pushes.
-- [x] Auto-integrated 322 localized source files into wiki fragments.
+- [x] Auto-integrated 328 localized source files into wiki fragments.
 - [ ] Localize source files under `sources/raw/` as network availability allows.
 
 ## Open Follow-Ups

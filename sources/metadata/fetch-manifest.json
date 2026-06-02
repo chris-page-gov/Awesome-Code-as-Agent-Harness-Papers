@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T09:45:19+00:00",
+  "generated_at": "2026-06-02T09:45:34+00:00",
   "attempts": [
     {
       "attempted_at": "2026-06-02T08:18:23+00:00",
@@ -5433,6 +5433,84 @@
       "status": "localized",
       "bytes": 3105524,
       "sha256": "5b978b3283960e2a8c83b6ca826edcdba096b01286c8a2b437079fd70453f1a4"
+    },
+    {
+      "attempted_at": "2026-06-02T09:45:21+00:00",
+      "kind": "paper",
+      "paper_id": "voxposer-composable-3d-value-maps-for-robotic-manipulation-with-language-35b6001a",
+      "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+      "canonical_url": "https://arxiv.org/abs/2307.05973",
+      "fetch_url": "https://arxiv.org/pdf/2307.05973.pdf",
+      "local_path": "sources/raw/arxiv/2307.05973.pdf",
+      "source_family": "arxiv",
+      "status": "localized",
+      "bytes": 9374922,
+      "sha256": "cf1cadcf7a1ee44979908c07698f87755c9b5340a79420db509a92d6d2533d42"
+    },
+    {
+      "attempted_at": "2026-06-02T09:45:29+00:00",
+      "kind": "paper",
+      "paper_id": "what-i-cannot-execute-i-do-not-understand-training-and-evaluating-llms-o-f2d43ec2",
+      "title": "What I cannot execute, I do not understand: Training and Evaluating LLMs on Program Execution Traces",
+      "canonical_url": "https://arxiv.org/abs/2503.05703",
+      "fetch_url": "https://arxiv.org/pdf/2503.05703.pdf",
+      "local_path": "sources/raw/arxiv/2503.05703.pdf",
+      "source_family": "arxiv",
+      "status": "localized",
+      "bytes": 529189,
+      "sha256": "20b13854f8f2934bacacb8eb521be30612377687f05ffab973a4d1979f19bb10"
+    },
+    {
+      "attempted_at": "2026-06-02T09:45:29+00:00",
+      "kind": "paper",
+      "paper_id": "where-llm-agents-fail-and-how-they-can-learn-from-failures-d05296df",
+      "title": "Where LLM Agents Fail and How They Can Learn from Failures",
+      "canonical_url": "https://arxiv.org/abs/2509.25370",
+      "fetch_url": "https://arxiv.org/pdf/2509.25370.pdf",
+      "local_path": "sources/raw/arxiv/2509.25370.pdf",
+      "source_family": "arxiv",
+      "status": "localized",
+      "bytes": 2355661,
+      "sha256": "5dea81aa176cf3993123c46f2cef3e70c49a4fe5f2a5c6794c4b9fbc8f532a6b"
+    },
+    {
+      "attempted_at": "2026-06-02T09:45:31+00:00",
+      "kind": "paper",
+      "paper_id": "which-agent-causes-task-failures-and-when-on-automated-failure-attributi-48b6ec4f",
+      "title": "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems",
+      "canonical_url": "https://arxiv.org/abs/2505.00212",
+      "fetch_url": "https://arxiv.org/pdf/2505.00212.pdf",
+      "local_path": "sources/raw/arxiv/2505.00212.pdf",
+      "source_family": "arxiv",
+      "status": "localized",
+      "bytes": 1463076,
+      "sha256": "1d8b788987d06a6337fd923995e3e8c0514cc0a3cb5e758cf9510f4d7cc9032c"
+    },
+    {
+      "attempted_at": "2026-06-02T09:45:32+00:00",
+      "kind": "paper",
+      "paper_id": "why-do-multi-agent-llm-systems-fail-84a2c129",
+      "title": "Why Do Multi-Agent LLM Systems Fail?",
+      "canonical_url": "https://arxiv.org/abs/2503.13657",
+      "fetch_url": "https://arxiv.org/pdf/2503.13657.pdf",
+      "local_path": "sources/raw/arxiv/2503.13657.pdf",
+      "source_family": "arxiv",
+      "status": "localized",
+      "bytes": 1188307,
+      "sha256": "1b9e317a2a421e60ca2b2eda4a30844557a01e63286a790890c0ecef32d25460"
+    },
+    {
+      "attempted_at": "2026-06-02T09:45:33+00:00",
+      "kind": "paper",
+      "paper_id": "your-code-agent-can-grow-alongside-you-with-structured-memory-641509f7",
+      "title": "Your Code Agent Can Grow Alongside You with Structured Memory",
+      "canonical_url": "https://arxiv.org/abs/2603.13258",
+      "fetch_url": "https://arxiv.org/pdf/2603.13258.pdf",
+      "local_path": "sources/raw/arxiv/2603.13258.pdf",
+      "source_family": "arxiv",
+      "status": "localized",
+      "bytes": 2957897,
+      "sha256": "35e36c597de5a74f6ae534bca39fa5ddf0015ce50aecfdc44d3797433861c5a0"
     }
   ]
 }
