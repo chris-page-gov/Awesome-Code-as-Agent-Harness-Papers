@@ -68,6 +68,7 @@ def download(url: str, path: Path, timeout: int, max_bytes: int) -> dict:
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.is_file() and path.stat().st_size > 0:
         data = path.read_bytes()
+        path.chmod(path.stat().st_mode & ~0o222)
         return {
             "status": "already-local",
             "bytes": len(data),
@@ -90,6 +91,7 @@ def download(url: str, path: Path, timeout: int, max_bytes: int) -> dict:
                 hasher.update(chunk)
                 fh.write(chunk)
     tmp.replace(path)
+    path.chmod(path.stat().st_mode & ~0o222)
     return {"status": "localized", "bytes": total, "sha256": hasher.hexdigest()}
 
 

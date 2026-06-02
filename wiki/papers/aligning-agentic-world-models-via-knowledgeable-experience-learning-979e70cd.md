@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "aligning-agentic-world-models-via-knowledgeable-experience-learning-979e70cd"
 canonical_urls:
   - "https://arxiv.org/abs/2601.13247"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2601.13247.pdf"
+source_status: "localized"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `aligning-agentic-world-models-via-knowledgeable-experience-learning-979e70cd`
 - Venue labels: arXiv 2026
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://arxiv.org/abs/2601.13247](https://arxiv.org/abs/2601.13247)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/arxiv/2601.13247.pdf](../../sources/raw/arxiv/2601.13247.pdf)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

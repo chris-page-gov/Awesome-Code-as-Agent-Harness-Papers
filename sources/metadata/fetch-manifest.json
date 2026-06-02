@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T08:31:29+00:00",
+  "generated_at": "2026-06-02T08:34:59+00:00",
   "attempts": [
     {
       "attempted_at": "2026-06-02T08:18:23+00:00",
@@ -267,6 +267,66 @@
       "status": "localized",
       "bytes": 819631,
       "sha256": "1c76d775ef4dff03c724fc446be809b6a5db67fefd7163870f5dadd6bb9b294a"
+    },
+    {
+      "attempted_at": "2026-06-02T08:34:56+00:00",
+      "kind": "paper",
+      "paper_id": "agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-7f843ef1",
+      "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+      "canonical_url": "https://arxiv.org/abs/2410.14209",
+      "fetch_url": "https://arxiv.org/pdf/2410.14209.pdf",
+      "local_path": "sources/raw/arxiv/2410.14209.pdf",
+      "status": "already-local",
+      "bytes": 819631,
+      "sha256": "1c76d775ef4dff03c724fc446be809b6a5db67fefd7163870f5dadd6bb9b294a"
+    },
+    {
+      "attempted_at": "2026-06-02T08:34:56+00:00",
+      "kind": "paper",
+      "paper_id": "agentsm-semantic-memory-for-agentic-text-to-sql-f4f1c8a4",
+      "title": "AgentSM: Semantic Memory for Agentic Text-to-SQL",
+      "canonical_url": "https://arxiv.org/abs/2601.15709",
+      "fetch_url": "https://arxiv.org/pdf/2601.15709.pdf",
+      "local_path": "sources/raw/arxiv/2601.15709.pdf",
+      "status": "localized",
+      "bytes": 1934006,
+      "sha256": "5f8f262e7ad8bb7b07753d025a587f9f7401d536ba27cca04928bb53f13f7de9"
+    },
+    {
+      "attempted_at": "2026-06-02T08:34:57+00:00",
+      "kind": "paper",
+      "paper_id": "aide-ai-driven-exploration-in-the-space-of-code-c428072e",
+      "title": "AIDE: AI-Driven Exploration in the Space of Code",
+      "canonical_url": "https://arxiv.org/abs/2502.13138",
+      "fetch_url": "https://arxiv.org/pdf/2502.13138.pdf",
+      "local_path": "sources/raw/arxiv/2502.13138.pdf",
+      "status": "localized",
+      "bytes": 648632,
+      "sha256": "5fc52573eab9c8cb568b0c5aab6ee75752d198504babf8278ad23fe3d542cb41"
+    },
+    {
+      "attempted_at": "2026-06-02T08:34:58+00:00",
+      "kind": "paper",
+      "paper_id": "aligning-agentic-world-models-via-knowledgeable-experience-learning-979e70cd",
+      "title": "Aligning Agentic World Models via Knowledgeable Experience Learning",
+      "canonical_url": "https://arxiv.org/abs/2601.13247",
+      "fetch_url": "https://arxiv.org/pdf/2601.13247.pdf",
+      "local_path": "sources/raw/arxiv/2601.13247.pdf",
+      "status": "localized",
+      "bytes": 1096240,
+      "sha256": "8dbe05fe1a0390204d49b1437ad15a0be69df87034981cc792140234b48204cd"
+    },
+    {
+      "attempted_at": "2026-06-02T08:34:58+00:00",
+      "kind": "paper",
+      "paper_id": "almas-an-autonomous-llm-based-multi-agent-software-engineering-framework-dbf12723",
+      "title": "ALMAS: an Autonomous LLM-based Multi-Agent Software Engineering Framework",
+      "canonical_url": "https://arxiv.org/abs/2510.03463",
+      "fetch_url": "https://arxiv.org/pdf/2510.03463.pdf",
+      "local_path": "sources/raw/arxiv/2510.03463.pdf",
+      "status": "localized",
+      "bytes": 529202,
+      "sha256": "d4b99bcfde3fe3b4ca808461de18dbbe7ba5d3645c327edf425418e91c85ec2e"
     }
   ]
 }

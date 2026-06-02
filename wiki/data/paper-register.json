@@ -750,8 +750,10 @@
           "readme_line": 360
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2410.14209.pdf"
+      ]
     },
     {
       "paper_id": "agentsm-semantic-memory-for-agentic-text-to-sql-f4f1c8a4",
@@ -772,8 +774,10 @@
           "readme_line": 290
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2601.15709.pdf"
+      ]
     },
     {
       "paper_id": "ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonom-2fd5abcb",
@@ -823,8 +827,10 @@
           "readme_line": 1014
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2502.13138.pdf"
+      ]
     },
     {
       "paper_id": "algoforge-specializing-code-generation-agents-through-collaborative-rein-d8199d35",
@@ -889,8 +895,10 @@
           "readme_line": 190
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2601.13247.pdf"
+      ]
     },
     {
       "paper_id": "almas-an-autonomous-llm-based-multi-agent-software-engineering-framework-dbf12723",
@@ -911,8 +919,10 @@
           "readme_line": 423
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2510.03463.pdf"
+      ]
     },
     {
       "paper_id": "alphaevolve-a-coding-agent-for-scientific-and-algorithmic-discovery-9d1c64f5",

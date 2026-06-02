@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-7f843ef1"
 canonical_urls:
   - "https://arxiv.org/abs/2410.14209"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2410.14209.pdf"
+source_status: "localized"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-7f843ef1`
 - Venue labels: arXiv 2025
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://arxiv.org/abs/2410.14209](https://arxiv.org/abs/2410.14209)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/arxiv/2410.14209.pdf](../../sources/raw/arxiv/2410.14209.pdf)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.
