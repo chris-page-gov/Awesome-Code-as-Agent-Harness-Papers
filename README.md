@@ -5,16 +5,23 @@
 [![Website](https://img.shields.io/badge/Website-code--as--harness.github.io-1f6feb?logo=googlechrome&logoColor=white)](https://code-as-harness.github.io/code-as-harness-webpage/)
 [![HF #1 Paper of the Day](https://img.shields.io/badge/%F0%9F%A4%97%20HF-%231%20Paper%20of%20the%20Day-FFD21E)](https://huggingface.co/papers/2605.18747)
 [![@_akhaliq](https://img.shields.io/badge/%40__akhaliq-6366F1?logo=x&logoColor=white&labelColor=000000)](https://x.com/_akhaliq/status/2056900568921133565?s=20)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YennNing.Awesome-Code-as-Agent-Harness-Papers)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=chris-page-gov.Awesome-Code-as-Agent-Harness-Papers)
 
 This repository accompanies the survey [**Code as Agent Harness: Toward Executable, Verifiable, and Stateful Agent Systems**](https://arxiv.org/abs/2605.18747).
 We study the emerging role of code in agentic AI: code is no longer only a generated artifact, but increasingly serves as an executable, inspectable, and stateful harness through which agents reason, act, model environments, receive feedback, and coordinate. The repository organizes representative papers around three connected layers: **Harness Interface**, **Harness Mechanisms**, and **Scaling the Harness**, covering directions such as coding assistants, GUI/OS automation, scientific discovery, and embodied intelligence.
+
+## Fork LLM-Wiki
+
+This fork adds a source-backed Karpathy-style [LLM-Wiki](LLM-WIKI.md) for the
+Code as Agent Harness paper and reference graph. Start at
+[wiki/index.md](wiki/index.md) for the taxonomy map, source notes, reading
+routes, and source-localization status.
 
 > [!TIP]
 > 👋 We welcome paper suggestions, pull requests, and collaborations on code as agent harness. Please contact us at `xuyingn2@illinois.edu`, `kt42@illinois.edu`, `twei10@illinois.edu`, `zihaoli5@illinois.edu`, and `bei4@illinois.edu`. We will keep updating this repository with recent work on code-centric agentic systems and harness engineering.
 
 > [!NOTE]
-> 📚 If you find this resource useful, please cite and [![Stars](https://img.shields.io/github/stars/YennNing/Awesome-Code-as-Agent-Harness-Papers?style=social)](https://github.com/YennNing/Awesome-Code-as-Agent-Harness-Papers) the repo:
+> 📚 If you find this resource useful, please cite and [![Stars](https://img.shields.io/github/stars/chris-page-gov/Awesome-Code-as-Agent-Harness-Papers?style=social)](https://github.com/chris-page-gov/Awesome-Code-as-Agent-Harness-Papers) the repo:
 >
 >
 > ```bibtex
@@ -35,6 +42,7 @@ We study the emerging role of code in agentic AI: code is no longer only a gener
 ## 📋 Table of Contents
 
 - [🔔 News](#-news)
+- [Fork LLM-Wiki](#fork-llm-wiki)
 - [📋 Table of Contents](#-table-of-contents)
 - [🧩 Harness Interface](#-harness-interface)
   - [💭 Code for Reasoning](#-code-for-reasoning)

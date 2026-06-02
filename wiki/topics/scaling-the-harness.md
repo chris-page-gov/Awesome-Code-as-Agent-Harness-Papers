@@ -1,0 +1,38 @@
+---
+title: "Scaling the Harness"
+note_type: "topic"
+status: "active"
+tags: ["topic", "scaling", "multi-agent", "coordination"]
+source_ids: ["SOURCE-README-ORIGINAL-2026-06-02"]
+related: ["code-as-agent-harness.md", "../maps/taxonomy-map.md"]
+last_reviewed: "2026-06-02"
+---
+
+# Scaling the Harness
+
+## Scope
+
+The README frames Scaling the Harness as multi-agent code-centric systems:
+multiple roles, interaction modes, workflow topology, feedback integration,
+shared state, shared representation, and convergence.
+
+## Subareas
+
+- Functional Role Specialization.
+- Interaction Modes.
+- Workflow Topology.
+- Execution Feedback Integration.
+- Shared-Harness Synchronization.
+- Shared Harness Representation.
+- Harness-State Convergence.
+
+## First Reading Route
+
+- Multi-agent code-generation and software-engineering agents.
+- Shared-repository and shared-memory papers.
+- Failure attribution, governance, sandboxing, and convergence papers.
+
+## Gaps
+
+- Per-paper fragments need generation and source localization.
+

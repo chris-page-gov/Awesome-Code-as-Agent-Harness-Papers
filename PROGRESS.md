@@ -1,0 +1,24 @@
+# Progress
+
+Last updated: 2026-06-02
+
+## Current Status
+
+- [x] Repointed `origin` to the user fork.
+- [x] Inspected nearby repos for the established LLM-Wiki/control-file pattern.
+- [x] Added initial root control files and documentation lockstep rule.
+- [x] Added initial Karpathy-style LLM-Wiki structure.
+- [x] Added source notes for the LLM-Wiki method, current README inventory, and
+  the Code as Agent Harness survey.
+- [ ] Generate per-paper wiki fragments from the README inventory.
+- [ ] Localize source files under `sources/raw/` as network availability allows.
+- [ ] Update README paper links to point at wiki fragments while preserving
+  canonical external links inside each fragment.
+
+## Open Follow-Ups
+
+- Complete bulk paper-fragment generation and cataloguing.
+- Fetch arXiv PDFs first because they are the highest-yield open source family.
+- Record fetch failures in source metadata rather than blocking progress.
+- Re-run wiki validation and push after each meaningful checkpoint.
+

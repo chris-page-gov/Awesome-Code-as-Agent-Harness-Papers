@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "SOURCE-KARPATHY-LLM-WIKI-2026",
+    "title": "Karpathy LLM-Wiki Pattern",
+    "source_type": "github-gist",
+    "canonical_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+    "local_path": null,
+    "note_path": "wiki/sources/SOURCE-KARPATHY-LLM-WIKI-2026.md",
+    "status": "active"
+  },
+  {
+    "source_id": "SOURCE-README-ORIGINAL-2026-06-02",
+    "title": "Current README Paper Inventory",
+    "source_type": "repository-markdown",
+    "canonical_url": "README.md",
+    "local_path": "README.md",
+    "note_path": "wiki/sources/SOURCE-README-ORIGINAL-2026-06-02.md",
+    "status": "active"
+  },
+  {
+    "source_id": "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026",
+    "title": "Code as Agent Harness Survey",
+    "source_type": "arxiv-paper",
+    "canonical_url": "https://arxiv.org/abs/2605.18747",
+    "local_path": null,
+    "note_path": "wiki/sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md",
+    "status": "metadata-only"
+  }
+]
+
