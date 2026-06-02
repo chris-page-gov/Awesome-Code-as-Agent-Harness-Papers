@@ -1,13 +1,15 @@
 ---
 title: "Expectation vs.\\ Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "expectation-vs-experience-evaluating-the-usability-of-code-generation-to-ba30097e"
 canonical_urls:
   - "https://doi.org/10.1145/3491101.3519665"
-local_source_paths: []
-source_status: "blocked"
+  - "https://glassmanlab.seas.harvard.edu/papers/copilot_lbw_chi22.pdf"
+local_source_paths:
+  - "sources/raw/pdf/expectation-vs-experience-evaluating-the-usability-of-code-generation-tools-powe-a112b7af.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,9 +25,10 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `expectation-vs-experience-evaluating-the-usability-of-code-generation-to-ba30097e`
 - Venue labels: CHI Extended Abstracts 2022
-- Source status: `blocked`
-- Canonical URL:
+- Source status: `integrated`
+- Canonical URLs:
   - [https://doi.org/10.1145/3491101.3519665](https://doi.org/10.1145/3491101.3519665)
+  - [https://glassmanlab.seas.harvard.edu/papers/copilot_lbw_chi22.pdf](https://glassmanlab.seas.harvard.edu/papers/copilot_lbw_chi22.pdf)
 
 ## Survey Placement
 
@@ -35,12 +38,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/pdf/expectation-vs-experience-evaluating-the-usability-of-code-generation-tools-powe-a112b7af.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/pdf/expectation-vs-experience-evaluating-the-usability-of-code-generation-tools-powe-a112b7af.pdf`, 472013 bytes, SHA-256 `9eb74f23b8d0f3aa05b69076099c2897eeffd42f69111f7740ea48b6f21a47ca`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Gap: source localization is currently blocked; see the registered blocker below.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 18990 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (101), `tools` (19), `feedback` (7), `environment` (6), `memory` (3).
+- Source cue: automated topic tags: `code`, `memory`, `tools`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +60,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Source localization blocked for `https://doi.org/10.1145/3491101.3519665`: HTTP Error 403: Forbidden.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

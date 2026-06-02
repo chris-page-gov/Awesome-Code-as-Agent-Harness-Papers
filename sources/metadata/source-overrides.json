@@ -1,0 +1,35 @@
+{
+  "updated": "2026-06-02",
+  "overrides": [
+    {
+      "paper_id": "a-multi-agent-coding-assistant-for-cloud-native-development-from-require-65f216a5",
+      "reason": "Exact-title public Preprints download URL found by web search after DOI access returned 403.",
+      "urls": [
+        "https://www.preprints.org/manuscript/202512.1922/v1/download",
+        "https://sciety.org/articles/activity/10.20944/preprints202512.1922.v1"
+      ]
+    },
+    {
+      "paper_id": "agent-harness-for-large-language-model-agents-a-survey-1aa3cdd9",
+      "reason": "Exact-title public Preprints/GitHub PDF URLs found by web search after manuscript page access returned 403.",
+      "urls": [
+        "https://www.preprints.org/frontend/manuscript/10d7caee2cbe97ab04400a1a2dfbe125/download_pub",
+        "https://raw.githubusercontent.com/Gloriaameng/Awesome-Agent-Harness/main/Agent_Harness_for_LLM_Agents__A_Survey__v4.pdf"
+      ]
+    },
+    {
+      "paper_id": "expectation-vs-experience-evaluating-the-usability-of-code-generation-to-ba30097e",
+      "reason": "Author-hosted exact-title CHI 2022 PDF found by web search after ACM DOI access returned 403.",
+      "urls": [
+        "https://glassmanlab.seas.harvard.edu/papers/copilot_lbw_chi22.pdf"
+      ]
+    },
+    {
+      "paper_id": "the-programmer-s-assistant-conversational-interaction-with-a-large-langu-aae4ddb1",
+      "reason": "Exact-title arXiv source found by web search after ACM DOI access returned 403.",
+      "urls": [
+        "https://arxiv.org/pdf/2302.07080"
+      ]
+    }
+  ]
+}

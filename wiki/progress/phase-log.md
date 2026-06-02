@@ -18,4 +18,4 @@ last_reviewed: "2026-06-02"
   from 458 README rows.
 - Updated README paper rows to point at local fragments.
 - Added `tools/localize_sources.py` and localized the survey PDF plus arXiv
-  source files for the first 328 paper fragments.
+  source files for the all 354 paper fragments.

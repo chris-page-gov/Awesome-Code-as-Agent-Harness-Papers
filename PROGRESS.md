@@ -14,17 +14,17 @@ Last updated: 2026-06-02
 - [x] Updated README paper links to point at local wiki fragments while
   preserving canonical external links inside each fragment.
 - [x] Localized the Code as Agent Harness survey PDF.
-- [x] Localized arXiv/source files for 28 paper fragments and updated
+- [x] Localized source files for all 354 paper fragments and updated
   those fragments.
 - [x] Added resumable ingest automation for localization, integration,
   validation, and checkpoint pushes.
-- [x] Auto-integrated 328 localized source files into wiki fragments.
-- [ ] Localize source files under `sources/raw/` as network availability allows.
+- [x] Auto-integrated 354 localized source files into wiki fragments.
+- [x] Completed source localization under `sources/raw/` for all paper fragments.
 
 ## Open Follow-Ups
 
-- Continue arXiv PDFs first because they are the highest-yield open source
-  family.
-- Review localized PDFs and add concise source-backed contribution notes.
-- Record fetch failures in source metadata rather than blocking progress.
-- Re-run wiki validation and push after each meaningful checkpoint.
+- Review localized source cues and replace automated extraction notes with
+  concise human-reviewed contribution notes.
+- Keep manual source overrides current when publisher-hosted URLs block direct
+  downloads.
+- Re-run wiki validation before each meaningful checkpoint.

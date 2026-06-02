@@ -43,10 +43,9 @@ Per-paper fragments live in [papers/](papers/). The current generated catalog
 contains 354 fragments from 458 README rows. Each fragment stores README
 placement metadata, canonical source URLs, local source status, and gaps.
 
-## Current Gaps
+## Current Review Gaps
 
-- Raw source localization has started but has not completed.
-- The survey PDF and arXiv source files for 328 paper fragments are localized;
-  content notes for those papers still need review.
-- Some publisher-hosted or blog sources may remain URL-only if access or network
-  conditions block download.
+- Raw source localization is complete for all 354 paper fragments.
+- Content notes are automated extraction cues and still need human review.
+- Publisher-hosted URLs that blocked direct download are recorded in the fetch
+  manifest; manual open-access fallbacks are recorded in source overrides.

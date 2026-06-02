@@ -76,17 +76,25 @@ def update_files(state: dict) -> None:
     blocked = state["blocked_fragments"]
     pending = state["pending_fragments"]
     arxiv = state["unique_arxiv_paper_pdfs"]
+    complete = (
+        localized == state["paper_count"]
+        and integrated == state["paper_count"]
+        and blocked == 0
+        and pending == 0
+    )
+    scope = f"all {localized}" if complete else f"first {localized}"
+    source_status_label = "Done" if complete else "In progress"
 
     path = ROOT / "CHANGELOG.md"
     text = path.read_text(encoding="utf-8")
-    text = sub(r"first \d+ paper\s+fragments", f"first {localized} paper fragments", text)
+    text = sub(r"(?:first|all) \d+ paper\s+fragments", f"{scope} paper fragments", text)
     write_text(path, text)
 
     path = ROOT / "PROGRESS.md"
     text = path.read_text(encoding="utf-8")
     text = sub(
-        r"- \[x\] Localized arXiv source files for the first \d+ paper fragments and updated\s+those fragments\.",
-        f"- [x] Localized arXiv/source files for {localized} paper fragments and updated\n  those fragments.",
+        r"- \[x\] Localized .*source files for (?:the first )?\d+ paper fragments and updated\s+those fragments\.",
+        f"- [x] Localized source files for {scope} paper fragments and updated\n  those fragments.",
         text,
     )
     text = re.sub(
@@ -95,9 +103,12 @@ def update_files(state: dict) -> None:
         text,
         flags=re.MULTILINE,
     )
-    marker = "- [ ] Localize source files under `sources/raw/` as network availability allows."
+    pending_marker = "- [ ] Localize source files under `sources/raw/` as network availability allows."
+    done_marker = "- [x] Completed source localization under `sources/raw/` for all paper fragments."
+    marker = done_marker if complete else pending_marker
+    text = text.replace(done_marker, pending_marker)
     text = text.replace(
-        marker,
+        pending_marker,
         f"- [x] Auto-integrated {integrated} localized source files into wiki fragments.\n" + marker,
     )
     write_text(path, text)
@@ -115,7 +126,7 @@ def update_files(state: dict) -> None:
 
     path = ROOT / "plans/2026-06-02-llm-wiki-conversion.md"
     text = path.read_text(encoding="utf-8")
-    text = sub(r"first \d+ paper fragments", f"first {localized} paper fragments", text)
+    text = sub(r"(?:first|all) \d+ paper fragments", f"{scope} paper fragments", text)
     write_text(path, text)
 
     path = ROOT / "wiki/index.md"
@@ -125,21 +136,21 @@ def update_files(state: dict) -> None:
 
     path = ROOT / "wiki/log.md"
     text = path.read_text(encoding="utf-8")
-    text = sub(r"first \d+ paper fragments", f"first {localized} paper fragments", text)
+    text = sub(r"(?:first|all) \d+ paper fragments", f"{scope} paper fragments", text)
     write_text(path, text)
 
     path = ROOT / "wiki/progress/completion-dashboard.md"
     text = path.read_text(encoding="utf-8")
     text = sub(
-        r"\| Bulk source fetch \| In progress \| .* \|",
-        f"| Bulk source fetch | In progress | {localized} localized, {integrated} integrated, {blocked} blocked, {pending} pending. |",
+        r"\| Bulk source fetch \| (?:In progress|Done) \| .* \|",
+        f"| Bulk source fetch | {source_status_label} | {localized} localized, {integrated} integrated, {blocked} blocked, {pending} pending. |",
         text,
     )
     write_text(path, text)
 
     path = ROOT / "wiki/progress/phase-log.md"
     text = path.read_text(encoding="utf-8")
-    text = sub(r"first \d+ paper fragments", f"first {localized} paper fragments", text)
+    text = sub(r"(?:first|all) \d+ paper fragments", f"{scope} paper fragments", text)
     write_text(path, text)
 
 

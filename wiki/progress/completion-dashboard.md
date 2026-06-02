@@ -17,4 +17,4 @@ last_reviewed: "2026-06-02"
 | Survey source localization | Done | PDF localized at `sources/raw/arxiv/2605.18747.pdf`. |
 | Paper fragments | Done | 354 fragments generated from 458 README rows. |
 | README xrefs | Done | README paper rows point at local fragments. |
-| Bulk source fetch | In progress | 328 localized, 328 integrated, 26 blocked, 0 pending. |
+| Bulk source fetch | Done | 354 localized, 354 integrated, 0 blocked, 0 pending. |

@@ -1,13 +1,15 @@
 ---
 title: "SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "soen-101-code-generation-by-emulating-software-process-models-using-larg-7914f86c"
 canonical_urls:
   - "https://dl.acm.org/doi/10.1109/ICSE55347.2025.00140"
-local_source_paths: []
-source_status: "blocked"
+  - "https://arxiv.org/pdf/2403.15852"
+local_source_paths:
+  - "sources/raw/arxiv/2403.15852.pdf"
+source_status: "integrated"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -23,9 +25,10 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `soen-101-code-generation-by-emulating-software-process-models-using-larg-7914f86c`
 - Venue labels: ICSE 2025
-- Source status: `blocked`
-- Canonical URL:
+- Source status: `integrated`
+- Canonical URLs:
   - [https://dl.acm.org/doi/10.1109/ICSE55347.2025.00140](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00140)
+  - [https://arxiv.org/pdf/2403.15852](https://arxiv.org/pdf/2403.15852)
 
 ## Survey Placement
 
@@ -35,12 +38,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2403.15852.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2403.15852.pdf`, 391990 bytes, SHA-256 `079b54f6d1a86e33f59970d5824dd71fea28da61d91e1cdf6a495cec8d8a2834`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Gap: source localization is currently blocked; see the registered blocker below.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 18050 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (112), `agent` (46), `feedback` (14), `multi-agent` (8), `tools` (6), `environment` (2), `execution` (2), `memory` (2), `planning` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +60,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Source localization blocked for `https://dl.acm.org/doi/10.1109/ICSE55347.2025.00140`: HTTP Error 403: Forbidden.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.
