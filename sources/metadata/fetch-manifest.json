@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T08:19:42+00:00",
+  "generated_at": "2026-06-02T08:31:29+00:00",
   "attempts": [
     {
       "attempted_at": "2026-06-02T08:18:23+00:00",
@@ -207,6 +207,66 @@
       "status": "localized",
       "bytes": 1432986,
       "sha256": "299f2633b4c13db7bed52434b4db7c48ea621993581014d30e7bcd036d3464df"
+    },
+    {
+      "attempted_at": "2026-06-02T08:31:18+00:00",
+      "kind": "paper",
+      "paper_id": "agentless-demystifying-llm-based-software-engineering-agents-c52036c5",
+      "title": "Agentless: Demystifying LLM-based Software Engineering Agents",
+      "canonical_url": "https://arxiv.org/abs/2407.01489",
+      "fetch_url": "https://arxiv.org/pdf/2407.01489.pdf",
+      "local_path": "sources/raw/arxiv/2407.01489.pdf",
+      "status": "localized",
+      "bytes": 1384716,
+      "sha256": "1675c2dcd5ecaef47e8a4356062f60be642cee82e1bbacb044c9d047dce4c856"
+    },
+    {
+      "attempted_at": "2026-06-02T08:31:19+00:00",
+      "kind": "paper",
+      "paper_id": "agentmesh-a-cooperative-multi-agent-generative-ai-framework-for-software-dfaf87f2",
+      "title": "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation",
+      "canonical_url": "https://arxiv.org/abs/2507.19902",
+      "fetch_url": "https://arxiv.org/pdf/2507.19902.pdf",
+      "local_path": "sources/raw/arxiv/2507.19902.pdf",
+      "status": "localized",
+      "bytes": 154926,
+      "sha256": "d5cd503676f4243be45ece2b9a7f17ba4dd254987ab8ec59d1884a3254efdf57"
+    },
+    {
+      "attempted_at": "2026-06-02T08:31:20+00:00",
+      "kind": "paper",
+      "paper_id": "agentracer-who-is-inducing-failure-in-the-llm-agentic-systems-e747c976",
+      "title": "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?",
+      "canonical_url": "https://arxiv.org/abs/2509.03312",
+      "fetch_url": "https://arxiv.org/pdf/2509.03312.pdf",
+      "local_path": "sources/raw/arxiv/2509.03312.pdf",
+      "status": "localized",
+      "bytes": 7702972,
+      "sha256": "f4461ace11c5c9d33eee81cf3a8584ff7cbeba210933de1c2990500aee5d693e"
+    },
+    {
+      "attempted_at": "2026-06-02T08:31:26+00:00",
+      "kind": "paper",
+      "paper_id": "agentrxiv-towards-collaborative-autonomous-research-d6573873",
+      "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+      "canonical_url": "https://arxiv.org/abs/2503.18102",
+      "fetch_url": "https://arxiv.org/pdf/2503.18102.pdf",
+      "local_path": "sources/raw/arxiv/2503.18102.pdf",
+      "status": "localized",
+      "bytes": 2757188,
+      "sha256": "762045781a10140f714e0f23388014286a50cce79f385d6b4a1475162cce9669"
+    },
+    {
+      "attempted_at": "2026-06-02T08:31:28+00:00",
+      "kind": "paper",
+      "paper_id": "agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-b728768f",
+      "title": "Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems",
+      "canonical_url": "https://arxiv.org/abs/2410.14209",
+      "fetch_url": "https://arxiv.org/pdf/2410.14209.pdf",
+      "local_path": "sources/raw/arxiv/2410.14209.pdf",
+      "status": "localized",
+      "bytes": 819631,
+      "sha256": "1c76d775ef4dff03c724fc446be809b6a5db67fefd7163870f5dadd6bb9b294a"
     }
   ]
 }

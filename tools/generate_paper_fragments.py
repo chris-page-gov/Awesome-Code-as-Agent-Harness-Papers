@@ -262,6 +262,7 @@ def write_register(papers: dict[str, dict], row_count: int) -> None:
 
 def write_index(papers: dict[str, dict], row_count: int) -> None:
     ordered = sorted(papers.values(), key=lambda p: normalize_title(p["title"]))
+    localized = sum(1 for paper in ordered if paper.get("source_status") == "localized")
     by_layer: Counter[str] = Counter()
     for paper in ordered:
         for layer in {p["layer"] for p in paper["placements"] if p["layer"]}:
@@ -275,7 +276,8 @@ def write_index(papers: dict[str, dict], row_count: int) -> None:
         "## Generation Summary\n\n",
         f"- Generated at: {TODAY}\n",
         f"- README table rows parsed: {row_count}\n",
-        f"- Unique paper/reference fragments: {len(ordered)}\n\n",
+        f"- Unique paper/reference fragments: {len(ordered)}\n",
+        f"- Fragments with localized source files: {localized}\n\n",
         "## Counts By Top-Level Layer\n\n",
     ]
     for layer, count in sorted(by_layer.items()):

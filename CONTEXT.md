@@ -34,7 +34,7 @@ scientific discovery agents, and embodied agents.
   currently records 354 unique paper/reference fragments from 458 README rows.
 - README paper rows now link to local fragments under [wiki/papers/](wiki/papers/);
   each fragment preserves the canonical external source URL.
-- The first source-localization batch fetched the survey PDF plus 8 arXiv paper
+- Source-localization batches have fetched the survey PDF plus 13 arXiv paper
   PDFs under [sources/raw/arxiv/](sources/raw/arxiv/). Fetch status and hashes
   are recorded in [sources/metadata/fetch-manifest.json](sources/metadata/fetch-manifest.json).
 

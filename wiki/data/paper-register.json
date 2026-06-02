@@ -608,8 +608,10 @@
           "readme_line": 787
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2407.01489.pdf"
+      ]
     },
     {
       "paper_id": "agentmesh-a-cooperative-multi-agent-generative-ai-framework-for-software-dfaf87f2",
@@ -630,8 +632,10 @@
           "readme_line": 422
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2507.19902.pdf"
+      ]
     },
     {
       "paper_id": "agentoccam-a-simple-yet-strong-baseline-for-llm-based-web-agents-488c7db3",
@@ -674,8 +678,10 @@
           "readme_line": 862
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2509.03312.pdf"
+      ]
     },
     {
       "paper_id": "agentrxiv-towards-collaborative-autonomous-research-d6573873",
@@ -696,8 +702,10 @@
           "readme_line": 1004
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2503.18102.pdf"
+      ]
     },
     {
       "paper_id": "agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-b728768f",
@@ -718,8 +726,10 @@
           "readme_line": 978
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2410.14209.pdf"
+      ]
     },
     {
       "paper_id": "agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-7f843ef1",
