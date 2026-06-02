@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -156,6 +157,10 @@ PROPERTY_DEFS = [
     {"id": "source_locality", "name": "Source locality", "kind": "multi", "section": "Source", "order": 18},
     {"id": "extraction_method", "name": "Extraction method", "kind": "multi", "section": "Source", "order": 19},
     {"id": "claim_card_path", "name": "Claim Card path", "kind": "text", "section": "Source", "order": 20},
+    {"id": "paper_fragment_path", "name": "Paper fragment path", "kind": "text", "section": "Source", "order": 21},
+    {"id": "source_year", "name": "Source year", "kind": "number", "section": "Source", "order": 22},
+    {"id": "source_order", "name": "Source order", "kind": "number", "section": "Source", "order": 23},
+    {"id": "source_url", "name": "Source URL", "kind": "text", "section": "Source", "order": 24},
 ]
 
 
@@ -237,6 +242,48 @@ def paper_fragment_path(claim: dict[str, Any]) -> str:
     return f"wiki/papers/{paper_ids[0]}.md"
 
 
+def paper_for(claim: dict[str, Any], paper_by_id: dict[str, dict[str, Any]]) -> dict[str, Any] | None:
+    paper_ids = claim.get("paper_ids") or []
+    if paper_ids and paper_ids[0] in paper_by_id:
+        return paper_by_id[paper_ids[0]]
+    return None
+
+
+def paper_year(paper: dict[str, Any] | None) -> int | None:
+    if not paper:
+        return None
+    for venue in paper.get("venues", []):
+        match = re.search(r"\b(19|20)\d{2}\b", str(venue))
+        if match:
+            return int(match.group(0))
+    return None
+
+
+def paper_url(paper: dict[str, Any] | None) -> str:
+    if not paper:
+        return ""
+    urls = paper.get("canonical_urls") or []
+    return str(urls[0]) if urls else ""
+
+
+def source_key(claim: dict[str, Any], paper_by_id: dict[str, dict[str, Any]]) -> str:
+    paper = paper_for(claim, paper_by_id)
+    if paper:
+        return str(paper.get("paper_id") or paper.get("title") or claim.get("claim_id"))
+    source_refs = claim.get("source_refs") or []
+    return str(source_refs[0]) if source_refs else str(claim.get("claim_id"))
+
+
+def source_order_by_claim(selected: list[dict[str, Any]], paper_by_id: dict[str, dict[str, Any]]) -> dict[str, int]:
+    counters: defaultdict[str, int] = defaultdict(int)
+    order: dict[str, int] = {}
+    for claim in selected:
+        key = source_key(claim, paper_by_id)
+        counters[key] += 1
+        order[claim["claim_id"]] = counters[key]
+    return order
+
+
 def select_claims(claims: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
     selected: dict[str, dict[str, Any]] = {}
 
@@ -269,11 +316,18 @@ def select_claims(claims: list[dict[str, Any]], limit: int) -> list[dict[str, An
     return ordered[:limit]
 
 
-def claim_item(claim: dict[str, Any], paper_by_id: dict[str, dict[str, Any]]) -> dict[str, Any]:
+def claim_item(
+    claim: dict[str, Any],
+    paper_by_id: dict[str, dict[str, Any]],
+    source_order: int,
+) -> dict[str, Any]:
     claim_id = claim["claim_id"]
     topics = claim.get("related_topics", [])
     topic_id = claim.get("topic_id") or ""
     source_refs = claim.get("source_refs", [])
+    paper = paper_for(claim, paper_by_id)
+    year = paper_year(paper)
+    url = paper_url(paper)
     title = source_title(claim, paper_by_id)
     assertion_type = CLAIM_TYPE_TO_ASSERTION_TYPE.get(claim.get("claim_type"), "claim")
     review_state = "proposed"
@@ -314,6 +368,9 @@ def claim_item(claim: dict[str, Any], paper_by_id: dict[str, dict[str, Any]]) ->
             "extraction_method": claim.get("extraction_method", "unknown"),
             "claim_card_path": claim.get("card_path", ""),
             "paper_fragment_path": paper_fragment_path(claim),
+            "source_year": year,
+            "source_order": source_order,
+            "source_url": url,
             "source_excerpt": source_excerpt,
             "fragment_ids": [f"fragment:{claim_id}"],
             "reviewer": claim.get("reviewer", ""),
@@ -585,6 +642,7 @@ def build_pack(limit: int) -> dict[str, Any]:
     claims = claim_data.get("claims", [])
     paper_by_id = {paper["paper_id"]: paper for paper in paper_data.get("papers", [])}
     selected = select_claims(claims, limit)
+    source_order = source_order_by_claim(selected, paper_by_id)
     type_counts = Counter(claim.get("claim_type") for claim in selected)
     status_counts = Counter(claim.get("review_status") for claim in selected)
     return {
@@ -609,7 +667,7 @@ def build_pack(limit: int) -> dict[str, Any]:
             "fields": [entry["id"] for entry in PROPERTY_DEFS],
         },
         "properties": PROPERTY_DEFS,
-        "items": [claim_item(claim, paper_by_id) for claim in selected],
+        "items": [claim_item(claim, paper_by_id, source_order.get(claim["claim_id"], 0)) for claim in selected],
         "collections": collections_for(selected),
         "graph": build_graph(selected, paper_by_id),
     }
