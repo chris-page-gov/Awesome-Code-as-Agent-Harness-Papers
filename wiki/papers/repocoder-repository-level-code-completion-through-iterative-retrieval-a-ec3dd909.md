@@ -1,13 +1,14 @@
 ---
 title: "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "repocoder-repository-level-code-completion-through-iterative-retrieval-a-ec3dd909"
 canonical_urls:
   - "https://aclanthology.org/2023.emnlp-main.151/"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/acl/2023.emnlp-main.151.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -26,7 +27,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `repocoder-repository-level-code-completion-through-iterative-retrieval-a-ec3dd909`
 - Venue labels: EMNLP 2023
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://aclanthology.org/2023.emnlp-main.151/](https://aclanthology.org/2023.emnlp-main.151/)
 
@@ -39,12 +40,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/acl/2023.emnlp-main.151.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/acl/2023.emnlp-main.151.pdf`, 3252400 bytes, SHA-256 `73468800045932b56a43eb61feead593a3b4e23fd681143f3670ec289f7fb5e2`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 11924 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (64), `memory` (9), `tools` (9), `environment` (7).
+- Source cue: automated topic tags: `code`, `memory`, `tools`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -53,5 +62,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

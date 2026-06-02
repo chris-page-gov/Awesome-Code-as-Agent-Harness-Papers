@@ -1,13 +1,14 @@
 ---
 title: "OS-ATLAS: Foundation Action Model for Generalist GUI Agents"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "os-atlas-foundation-action-model-for-generalist-gui-agents-ad69f88c"
 canonical_urls:
   - "https://openreview.net/forum?id=n9PDaFNi8t"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/openreview/n9PDaFNi8t.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `os-atlas-foundation-action-model-for-generalist-gui-agents-ad69f88c`
 - Venue labels: ICLR 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://openreview.net/forum?id=n9PDaFNi8t](https://openreview.net/forum?id=n9PDaFNi8t)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/openreview/n9PDaFNi8t.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/openreview/n9PDaFNi8t.pdf`, 2635592 bytes, SHA-256 `7c7c4453ccf4a79f1a411ae188158f4689c6b9c8ff2ddfd0b9c8af0e3a98f50f`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 12078 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (36), `environment` (3), `memory` (2), `planning` (2), `code` (1), `tools` (1).
+- Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

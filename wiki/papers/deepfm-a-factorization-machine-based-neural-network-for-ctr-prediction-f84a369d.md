@@ -1,13 +1,14 @@
 ---
 title: "DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "deepfm-a-factorization-machine-based-neural-network-for-ctr-prediction-f84a369d"
 canonical_urls:
   - "https://arxiv.org/abs/1703.04247"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/1703.04247.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `deepfm-a-factorization-machine-based-neural-network-for-ctr-prediction-f84a369d`
 - Venue labels: IJCAI 2017
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/1703.04247](https://arxiv.org/abs/1703.04247)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/1703.04247.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/1703.04247.pdf`, 1191837 bytes, SHA-256 `31548d474c2c6100bbc11da68cabf0e242a3657d7277c81e61ccc1efd78e6dad`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 15040 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `environment` (2), `memory` (1).
+- Source cue: automated topic tags: `memory`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.
