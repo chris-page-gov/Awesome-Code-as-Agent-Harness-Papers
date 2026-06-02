@@ -60,3 +60,5 @@ This repo follows the recent local LLM-Wiki pattern found in:
   rather than hand-editing hundreds of paper rows.
 - Use `tools/localize_sources.py` for bounded source-localization batches and
   commit after each successful batch.
+- Use `tools/automate_wiki_ingest.py` for resumable unattended localization,
+  integration, validation, and optional commit/push checkpoints.

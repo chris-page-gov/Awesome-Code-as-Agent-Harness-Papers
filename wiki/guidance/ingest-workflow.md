@@ -25,10 +25,26 @@ last_reviewed: "2026-06-02"
    `CHANGELOG.md`.
 8. Run `python3 tools/check_wiki.py`.
 
+## Automation
+
+Use the resumable driver for unattended source localization and integration:
+
+```bash
+python3 tools/automate_wiki_ingest.py --until-complete --commit --push
+```
+
+The driver fetches bounded source batches by family, integrates localized files
+into automated source cues, updates status documents, validates the wiki, and
+commits/pushes checkpoints when changes exist. Use smaller batches on slow
+networks, for example:
+
+```bash
+python3 tools/automate_wiki_ingest.py --cycles 1 --fetch-batch-size 5 --integrate-batch-size 10 --commit --push
+```
+
 ## First-Pass Priority
 
 1. Code as Agent Harness survey source.
 2. arXiv-hosted papers.
 3. OpenReview, ACL Anthology, PMLR, NeurIPS, AAAI, IJCAI and DOI landing pages.
 4. Publisher pages and product/blog reports.
-

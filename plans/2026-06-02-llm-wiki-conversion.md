@@ -36,4 +36,4 @@ as a usable public index.
 - [x] Phase 3 complete: README paper rows now point at wiki fragments.
 - [ ] Phase 4 in progress: survey PDF plus localized arXiv source files for the
   first 28 paper fragments.
-- [ ] Phase 5 not started.
+- [ ] Phase 5 in progress: automated source-cue integration has started.

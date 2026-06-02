@@ -69,10 +69,50 @@
           "readme_line": 1065
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2502.03962.pdf"
-      ]
+      ],
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10162,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 2
+          },
+          {
+            "term": "environment",
+            "count": 2
+          },
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "memory",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "memory",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2502.03962.pdf",
+          "bytes": 2180916,
+          "sha256": "38b210a202bc5518b06bdd0bb8449d7e9b44be71845a4109d3efbfcd1546343c"
+        }
+      ],
+      "integrated_at": "2026-06-02T08:53:40+00:00"
     },
     {
       "paper_id": "a-multi-agent-coding-assistant-for-cloud-native-development-from-require-65f216a5",
@@ -137,10 +177,70 @@
           "readme_line": 223
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2307.12856.pdf"
-      ]
+      ],
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12990,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 14
+          },
+          {
+            "term": "environment",
+            "count": 13
+          },
+          {
+            "term": "planning",
+            "count": 13
+          },
+          {
+            "term": "code",
+            "count": 12
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2307.12856.pdf",
+          "bytes": 2014240,
+          "sha256": "23b1129aa8b95ee0555d27fb5a5711717c482451b31dd1c4df64ad8cc2267d1a"
+        }
+      ],
+      "integrated_at": "2026-06-02T08:53:40+00:00"
     },
     {
       "paper_id": "a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b",

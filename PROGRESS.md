@@ -14,8 +14,11 @@ Last updated: 2026-06-02
 - [x] Updated README paper links to point at local wiki fragments while
   preserving canonical external links inside each fragment.
 - [x] Localized the Code as Agent Harness survey PDF.
-- [x] Localized arXiv source files for the first 28 paper fragments and updated
+- [x] Localized arXiv/source files for 28 paper fragments and updated
   those fragments.
+- [x] Added resumable ingest automation for localization, integration,
+  validation, and checkpoint pushes.
+- [x] Auto-integrated 2 localized source files into wiki fragments.
 - [ ] Localize source files under `sources/raw/` as network availability allows.
 
 ## Open Follow-Ups

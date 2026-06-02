@@ -18,6 +18,18 @@ PAPERS_DIR = ROOT / "wiki/papers"
 REGISTER = ROOT / "wiki/data/paper-register.json"
 PAPER_INDEX = PAPERS_DIR / "README.md"
 TODAY = date.today().isoformat()
+LOCALIZED_STATUSES = {"localized", "integrated"}
+PRESERVED_FIELDS = {
+    "blocked_reason",
+    "blocked_url",
+    "integrated_at",
+    "integration_status",
+    "local_source_paths",
+    "source_family",
+    "source_file_metadata",
+    "source_signal",
+    "source_status",
+}
 
 PAPER_ROW_RE = re.compile(r"^(\|\s*)\[([^\]]+)\]\(([^)]+)\)([^|]*)(\|\s*)([^|]+?)(\s*\|.*)$")
 LOCAL_PAPER_RE = re.compile(r"^wiki/papers/([^/]+\.md)$")
@@ -119,6 +131,9 @@ def parse_readme(existing: dict[str, dict]) -> tuple[list[str], dict[str, dict],
         )
 
         prior = existing.get(paper_id, {})
+        for field in PRESERVED_FIELDS:
+            if field in prior:
+                paper[field] = prior[field]
         for canonical_url in prior.get("canonical_urls", []):
             if canonical_url not in paper["canonical_urls"]:
                 paper["canonical_urls"].append(canonical_url)
@@ -163,18 +178,23 @@ def write_fragment(paper: dict) -> None:
     sections = sorted({p["section"] for p in paper["placements"] if p["section"]})
     subsections = sorted({p["subsection"] for p in paper["placements"] if p["subsection"]})
     venues = paper["venues"]
-    is_localized = paper["source_status"] == "localized"
+    source_status = paper.get("source_status", "pending")
+    is_localized = source_status in LOCALIZED_STATUSES or bool(paper.get("local_source_paths"))
+    is_integrated = source_status == "integrated"
+    fragment_status = "source-integrated" if is_integrated else "metadata-only"
+    signal = paper.get("source_signal") or {}
+    metadata = paper.get("source_file_metadata") or []
 
     lines: list[str] = [
         "---\n",
         f"title: {q(paper['title'])}\n",
         'note_type: "paper"\n',
-        'status: "metadata-only"\n',
+        f"status: {q(fragment_status)}\n",
         'tags: ["paper", "code-as-agent-harness"]\n',
         f"paper_id: {q(paper['paper_id'])}\n",
         yaml_field("canonical_urls", canonical_urls),
         yaml_field("local_source_paths", paper["local_source_paths"]),
-        f"source_status: {q(paper['source_status'])}\n",
+        f"source_status: {q(source_status)}\n",
         yaml_field("survey_layers", layers),
         yaml_field("survey_sections", sections),
         yaml_field("survey_subsections", subsections),
@@ -184,7 +204,7 @@ def write_fragment(paper: dict) -> None:
         "## Inventory Metadata\n\n",
         f"- Paper ID: `{paper['paper_id']}`\n",
         f"- Venue labels: {', '.join(venues) if venues else 'not recorded'}\n",
-        f"- Source status: `{paper['source_status']}`\n",
+        f"- Source status: `{source_status}`\n",
         "- Canonical URL",
         "s:\n" if len(canonical_urls) != 1 else ":\n",
     ]
@@ -218,6 +238,15 @@ def write_fragment(paper: dict) -> None:
     if paper["local_source_paths"]:
         for source_path in paper["local_source_paths"]:
             lines.append(f"- [{source_path}](../../{source_path})\n")
+        if metadata:
+            lines.append("\n### Local File Metadata\n\n")
+            for entry in metadata:
+                bits = [f"path `{entry.get('path', 'unknown')}`"]
+                if entry.get("bytes") is not None:
+                    bits.append(f"{entry['bytes']} bytes")
+                if entry.get("sha256"):
+                    bits.append(f"SHA-256 `{entry['sha256']}`")
+                lines.append(f"- {', '.join(bits)}\n")
     else:
         lines.append("- No localized source file registered yet.\n")
 
@@ -227,9 +256,27 @@ def write_fragment(paper: dict) -> None:
             "- Inventory fact: this reference appears in the README paper table with the placement above.\n",
         ]
     )
-    if is_localized:
+    if is_integrated and signal:
+        extraction = signal.get("extraction") or {}
+        lines.append("- Source fact: a localized source file is available in this repository.\n")
+        if extraction:
+            lines.append(
+                "- Source fact: automated local text extraction recorded "
+                f"{extraction.get('characters', 0)} characters using `{extraction.get('method', 'unknown')}`.\n"
+            )
+        term_cues = signal.get("term_cues") or []
+        if term_cues:
+            rendered = ", ".join(f"`{cue['term']}` ({cue['count']})" for cue in term_cues[:10])
+            lines.append(f"- Source cue: localized text contains harness-relevant terms: {rendered}.\n")
+        detected = signal.get("detected_topics") or []
+        if detected:
+            lines.append(f"- Source cue: automated topic tags: {', '.join(f'`{topic}`' for topic in detected)}.\n")
+        lines.append("- Integration note: these notes are automated extraction cues, not a human literature review.\n")
+    elif is_localized:
         lines.append("- Source fact: a localized source file is available in this repository.\n")
         lines.append("- Content claims are pending review of the localized source.\n")
+    elif source_status == "blocked":
+        lines.append("- Gap: source localization is currently blocked; see the registered blocker below.\n")
     else:
         lines.append("- Content claims are pending source localization and review.\n")
     lines.extend(
@@ -240,8 +287,14 @@ def write_fragment(paper: dict) -> None:
             "\n## Gaps\n\n",
         ]
     )
-    if is_localized:
+    if is_integrated:
+        lines.append("- Replace automated extraction cues with human-reviewed contribution notes.\n")
+    elif is_localized:
         lines.append("- Review the localized source.\n")
+    elif source_status == "blocked":
+        reason = paper.get("blocked_reason") or "source could not be localized by automation"
+        blocked_url = paper.get("blocked_url") or (canonical_urls[0] if canonical_urls else "")
+        lines.append(f"- Source localization blocked for `{blocked_url}`: {reason}.\n")
     else:
         lines.append("- Fetch and review the canonical source.\n")
     lines.append("- Add concise source-backed contribution notes.\n")
