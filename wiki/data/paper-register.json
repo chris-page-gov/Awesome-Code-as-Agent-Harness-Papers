@@ -29,6 +29,8 @@
       "local_source_paths": [
         "sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -70,8 +72,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html",
@@ -104,6 +104,8 @@
       "local_source_paths": [
         "sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -125,8 +127,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html",
@@ -159,6 +159,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2502.03962.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -190,7 +191,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.03962.pdf",
@@ -271,6 +271,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2307.12856.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -322,7 +323,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2307.12856.pdf",
@@ -355,6 +355,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2508.21148.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -376,7 +377,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2508.21148.pdf",
@@ -481,6 +481,8 @@
       "local_source_paths": [
         "sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -527,8 +529,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html",
@@ -561,6 +561,8 @@
       "local_source_paths": [
         "sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -582,8 +584,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html",
@@ -618,6 +618,8 @@
       "local_source_paths": [
         "sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -674,8 +676,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html",
@@ -734,6 +734,8 @@
       "local_source_paths": [
         "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf"
       ],
+      "source_family": "direct-pdf",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -770,8 +772,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "direct-pdf",
       "source_file_metadata": [
         {
           "path": "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf",
@@ -804,6 +804,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2601.11655.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -855,7 +856,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.11655.pdf",
@@ -912,6 +912,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.findings-emnlp.320.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -963,8 +965,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-emnlp.320.pdf",
@@ -997,6 +997,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2602.10090.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1043,7 +1044,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.10090.pdf",
@@ -1083,6 +1083,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2308.03688.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1129,7 +1130,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2308.03688.pdf",
@@ -1225,6 +1225,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2312.13010.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1281,7 +1282,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.13010.pdf",
@@ -1314,6 +1314,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2604.25850.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1360,7 +1361,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2604.25850.pdf",
@@ -1402,6 +1402,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2407.01489.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1453,7 +1454,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2407.01489.pdf",
@@ -1486,6 +1486,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2507.19902.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1542,7 +1543,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2507.19902.pdf",
@@ -1575,6 +1575,8 @@
       "local_source_paths": [
         "sources/raw/openreview/oWdzUpOlkX.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1626,8 +1628,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/oWdzUpOlkX.pdf",
@@ -1660,6 +1660,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2509.03312.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1716,7 +1717,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2509.03312.pdf",
@@ -1749,6 +1749,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2503.18102.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1795,7 +1796,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.18102.pdf",
@@ -1828,6 +1828,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2410.14209.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1884,7 +1885,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.14209.pdf",
@@ -1917,6 +1917,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2410.14209.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -1973,7 +1974,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.14209.pdf",
@@ -2006,6 +2006,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2601.15709.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2062,7 +2063,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.15709.pdf",
@@ -2102,6 +2102,8 @@
       "local_source_paths": [
         "sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -2123,8 +2125,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html",
@@ -2157,6 +2157,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2502.13138.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2203,7 +2204,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.13138.pdf",
@@ -2236,6 +2236,8 @@
       "local_source_paths": [
         "sources/raw/openreview/KwqbtKeaRl.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2287,8 +2289,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/KwqbtKeaRl.pdf",
@@ -2345,6 +2345,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2601.13247.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2391,7 +2392,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.13247.pdf",
@@ -2424,6 +2424,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2510.03463.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2480,7 +2481,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.03463.pdf",
@@ -2513,6 +2513,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2506.13131.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2549,7 +2550,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2506.13131.pdf",
@@ -2589,6 +2589,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2601.19510.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2640,7 +2641,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2601.19510.pdf",
@@ -2673,6 +2673,8 @@
       "local_source_paths": [
         "sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -2709,8 +2711,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html",
@@ -2743,6 +2743,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2410.24024.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2794,7 +2795,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2410.24024.pdf",
@@ -2827,6 +2827,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.iclr.cc/androidworld-a-dynamic-benchmarking-environment-for-autonomous-agents-0ba883e0.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -2863,8 +2865,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.iclr.cc/androidworld-a-dynamic-benchmarking-environment-for-autonomous-agents-0ba883e0.html",
@@ -2897,6 +2897,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2312.13771.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -2943,7 +2944,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.13771.pdf",
@@ -3000,6 +3000,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2503.15223.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3046,7 +3047,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.15223.pdf",
@@ -3079,6 +3079,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2412.16256.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3115,7 +3116,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2412.16256.pdf",
@@ -3156,6 +3156,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2404.05427.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3202,7 +3203,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2404.05427.pdf",
@@ -3235,6 +3235,8 @@
       "local_source_paths": [
         "sources/raw/openreview/BAakY1hNKS.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3281,8 +3283,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/BAakY1hNKS.pdf",
@@ -3315,6 +3315,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2411.00820.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3341,7 +3342,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2411.00820.pdf",
@@ -3374,6 +3374,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2603.03329.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3420,7 +3421,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.03329.pdf",
@@ -3453,6 +3453,8 @@
       "local_source_paths": [
         "sources/raw/html/nature.com/autonomous-chemical-research-with-large-language-models-0c447ea7.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -3499,8 +3501,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/autonomous-chemical-research-with-large-language-models-0c447ea7.html",
@@ -3575,6 +3575,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2409.10737.pdf"
       ],
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3621,7 +3622,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2409.10737.pdf",
@@ -3654,6 +3654,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2404.03648.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3695,8 +3697,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2404.03648.pdf",
@@ -3729,6 +3729,8 @@
       "local_source_paths": [
         "sources/raw/openreview/roNSXZpUDN.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3780,8 +3782,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/roNSXZpUDN.pdf",
@@ -3814,6 +3814,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2604.11839.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3860,8 +3862,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2604.11839.pdf",
@@ -3918,6 +3918,8 @@
       "local_source_paths": [
         "sources/raw/acl/2023.emnlp-main.162.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -3964,8 +3966,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2023.emnlp-main.162.pdf",
@@ -3998,6 +3998,8 @@
       "local_source_paths": [
         "sources/raw/html/frontiersin.org/blueprint2code-a-multi-agent-pipeline-for-reliable-code-generation-via-blueprint-ee082543.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -4054,8 +4056,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/frontiersin.org/blueprint2code-a-multi-agent-pipeline-for-reliable-code-generation-via-blueprint-ee082543.html",
@@ -4088,6 +4088,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2512.23631.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -4144,8 +4146,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2512.23631.pdf",
@@ -4185,6 +4185,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2310.10021.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -4226,8 +4228,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.10021.pdf",
@@ -4262,6 +4262,8 @@
       "local_source_paths": [
         "sources/raw/html/openai.com/building-more-with-gpt-5-1-codex-max-90a3db01.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -4308,8 +4310,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openai.com/building-more-with-gpt-5-1-codex-max-90a3db01.html",
@@ -4342,6 +4342,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2312.04474.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -4378,8 +4380,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.04474.pdf",
@@ -4412,6 +4412,8 @@
       "local_source_paths": [
         "sources/raw/openreview/_VjQlMeSB_J.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -4438,8 +4440,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/_VjQlMeSB_J.pdf",
@@ -4521,6 +4521,8 @@
       "local_source_paths": [
         "sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -4552,8 +4554,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html",
@@ -4586,6 +4586,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2306.17582.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -4637,8 +4639,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2306.17582.pdf",
@@ -4671,6 +4671,8 @@
       "local_source_paths": [
         "sources/raw/html/nature.com/chemcrow-augmenting-large-language-models-with-chemistry-tools-2380157f.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -4727,8 +4729,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/nature.com/chemcrow-augmenting-large-language-models-with-chemistry-tools-2380157f.html",
@@ -4763,6 +4763,8 @@
       "local_source_paths": [
         "sources/raw/html/anthropic.com/claude-code-35a67dc8.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -4814,8 +4816,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/anthropic.com/claude-code-35a67dc8.html",
@@ -4848,6 +4848,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2403.08291.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -4884,8 +4886,6 @@
           "tools"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2403.08291.pdf",
@@ -4926,6 +4926,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2209.07753.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -4977,8 +4979,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2209.07753.pdf",
@@ -5011,6 +5011,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2503.01700.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5067,8 +5069,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.01700.pdf",
@@ -5108,6 +5108,8 @@
       "local_source_paths": [
         "sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -5129,8 +5131,6 @@
           "planning"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html",
@@ -5163,6 +5163,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2510.20909.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5214,8 +5216,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.20909.pdf",
@@ -5248,6 +5248,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2401.08500.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5274,8 +5276,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2401.08500.pdf",
@@ -5308,6 +5308,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2505.16901.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5359,8 +5361,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2505.16901.pdf",
@@ -5393,6 +5393,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.neurips.cc/code-repair-with-llms-gives-an-exploration-exploitation-tradeoff-67957ea8.html"
       ],
+      "source_family": "neurips",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -5414,8 +5416,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "neurips",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/code-repair-with-llms-gives-an-exploration-exploitation-tradeoff-67957ea8.html",
@@ -5455,6 +5455,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2602.09856.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5501,8 +5503,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.09856.pdf",
@@ -5535,6 +5535,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2602.11757.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5586,8 +5588,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.11757.pdf",
@@ -5620,6 +5620,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.emnlp-main.632.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5661,8 +5663,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.emnlp-main.632.pdf",
@@ -5703,6 +5703,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.acl-long.737.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5749,8 +5751,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.737.pdf",
@@ -5797,6 +5797,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2501.07811.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5843,8 +5845,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2501.07811.pdf",
@@ -5877,6 +5877,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2602.13962.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -5918,8 +5920,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.13962.pdf",
@@ -5959,6 +5959,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2512.15813.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6010,8 +6012,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2512.15813.pdf",
@@ -6040,8 +6040,10 @@
           "readme_line": 237
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "blocked",
+      "local_source_paths": [],
+      "blocked_url": "https://dl.acm.org/doi/10.1145/3643757",
+      "blocked_reason": "HTTP Error 403: Forbidden"
     },
     {
       "paper_id": "codepori-large-scale-system-for-autonomous-software-development-using-mu-4604dadc",
@@ -6073,6 +6075,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2402.01411.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6119,8 +6123,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2402.01411.pdf",
@@ -6153,6 +6155,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.findings-acl.428.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6189,8 +6193,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-acl.428.pdf",
@@ -6223,6 +6225,8 @@
       "local_source_paths": [
         "sources/raw/html/ieeexplore.ieee.org/codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-484182a0.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -6249,8 +6253,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ieeexplore.ieee.org/codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-484182a0.html",
@@ -6283,6 +6285,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2510.18471.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6324,8 +6328,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.18471.pdf",
@@ -6358,6 +6360,8 @@
       "local_source_paths": [
         "sources/raw/openreview/WaGvb7OzySA.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6394,8 +6398,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/WaGvb7OzySA.pdf",
@@ -6428,6 +6430,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2502.04350.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6479,8 +6483,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.04350.pdf",
@@ -6513,6 +6515,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2603.04177.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6559,8 +6563,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.04177.pdf",
@@ -6593,6 +6595,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.naacl-long.189.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6639,8 +6643,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.naacl-long.189.pdf",
@@ -6675,6 +6677,8 @@
       "local_source_paths": [
         "sources/raw/html/openai.com/codex-security-now-in-research-preview-f67d818b.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -6721,8 +6725,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openai.com/codex-security-now-in-research-preview-f67d818b.html",
@@ -6762,6 +6764,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2408.03910.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6808,8 +6812,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2408.03910.pdf",
@@ -6842,6 +6844,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2312.08914.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6878,8 +6882,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2312.08914.pdf",
@@ -6919,6 +6921,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2501.18653.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -6975,8 +6979,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2501.18653.pdf",
@@ -7011,6 +7013,8 @@
       "local_source_paths": [
         "sources/raw/html/cursor.com/composer-building-a-fast-frontier-model-with-reinforcement-learning-7cdde98f.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -7052,8 +7056,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/cursor.com/composer-building-a-fast-frontier-model-with-reinforcement-learning-7cdde98f.html",
@@ -7086,6 +7088,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2603.28119.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7132,8 +7136,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.28119.pdf",
@@ -7166,6 +7168,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2602.05892.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7212,8 +7216,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2602.05892.pdf",
@@ -7246,6 +7248,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2310.02985.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7277,8 +7281,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2310.02985.pdf",
@@ -7311,6 +7313,8 @@
       "local_source_paths": [
         "sources/raw/html/link.springer.com/controlllm-augment-language-models-with-tools-by-searching-on-graphs-83f73da0.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -7357,8 +7361,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/link.springer.com/controlllm-augment-language-models-with-tools-by-searching-on-graphs-83f73da0.html",
@@ -7391,6 +7393,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2503.16508.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7422,8 +7426,6 @@
           "tools"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2503.16508.pdf",
@@ -7452,8 +7454,10 @@
           "readme_line": 1081
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "blocked",
+      "local_source_paths": [],
+      "blocked_url": "https://dl.acm.org/doi/10.1145/3397271.3401322",
+      "blocked_reason": "HTTP Error 403: Forbidden"
     },
     {
       "paper_id": "core-benchmarking-llms-code-reasoning-capabilities-through-static-analys-f15ad316",
@@ -7478,6 +7482,8 @@
       "local_source_paths": [
         "sources/raw/html/neurips.cc/core-benchmarking-llms-code-reasoning-capabilities-through-static-analysis-tasks-2044e091.html"
       ],
+      "source_family": "neurips",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -7509,8 +7515,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "neurips",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/neurips.cc/core-benchmarking-llms-code-reasoning-capabilities-through-static-analysis-tasks-2044e091.html",
@@ -7550,6 +7554,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2508.07468.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7596,8 +7602,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2508.07468.pdf",
@@ -7630,6 +7634,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.mlr.press/cradle-empowering-foundation-agents-towards-general-computer-control-ef56cc84.html"
       ],
+      "source_family": "pmlr",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -7666,8 +7672,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "pmlr",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/cradle-empowering-foundation-agents-towards-general-computer-control-ef56cc84.html",
@@ -7700,6 +7704,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2401.03065.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7741,8 +7747,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2401.03065.pdf",
@@ -7775,6 +7779,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.acl-long.1158.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7806,8 +7812,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.1158.pdf",
@@ -7840,6 +7844,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2510.02387.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7886,8 +7892,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2510.02387.pdf",
@@ -7916,8 +7920,10 @@
           "readme_line": 120
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "blocked",
+      "local_source_paths": [],
+      "blocked_url": "https://dl.acm.org/doi/full/10.1145/3649825",
+      "blocked_reason": "HTTP Error 403: Forbidden"
     },
     {
       "paper_id": "dars-dynamic-action-re-sampling-to-enhance-coding-agent-performance-by-a-a3cc9f74",
@@ -7942,6 +7948,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.acl-long.973.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -7993,8 +8001,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.973.pdf",
@@ -8027,6 +8033,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.findings-acl.49.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8058,8 +8066,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.findings-acl.49.pdf",
@@ -8092,6 +8098,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2108.02968.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8133,8 +8141,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2108.02968.pdf",
@@ -8169,6 +8175,8 @@
       "local_source_paths": [
         "sources/raw/html/github.com/deepagents-88a615e8.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -8215,8 +8223,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/github.com/deepagents-88a615e8.html",
@@ -8249,6 +8255,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/1703.04247.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8270,8 +8278,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/1703.04247.pdf",
@@ -8304,6 +8310,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2407.01725.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8345,8 +8353,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2407.01725.pdf",
@@ -8386,6 +8392,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2204.01691.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8427,8 +8435,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2204.01691.pdf",
@@ -8461,6 +8467,8 @@
       "local_source_paths": [
         "sources/raw/arxiv/2603.21430.pdf"
       ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8507,8 +8515,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "arxiv",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2603.21430.pdf",
@@ -8541,6 +8547,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.emnlp-main.859.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8577,8 +8585,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.emnlp-main.859.pdf",
@@ -8611,6 +8617,8 @@
       "local_source_paths": [
         "sources/raw/html/dx.doi.org/el-agente-an-autonomous-agent-for-quantum-chemistry-38597c59.html"
       ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -8620,8 +8628,6 @@
         "term_cues": [],
         "detected_topics": []
       },
-      "integration_status": "auto-extracted",
-      "source_family": "html",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/dx.doi.org/el-agente-an-autonomous-agent-for-quantum-chemistry-38597c59.html",
@@ -8650,8 +8656,71 @@
           "readme_line": 204
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2601.16443.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11312,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 28
+          },
+          {
+            "term": "memory",
+            "count": 9
+          },
+          {
+            "term": "feedback",
+            "count": 8
+          },
+          {
+            "term": "environment",
+            "count": 7
+          },
+          {
+            "term": "tools",
+            "count": 5
+          },
+          {
+            "term": "code",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "multi-agent",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2601.16443.pdf",
+          "bytes": 1369608,
+          "sha256": "006ed492d41f42b0a0c6119d858e90820eefe85d3f1a2e5cedc7a545e18920d7"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "enhancing-llm-code-generation-a-systematic-evaluation-of-multi-agent-col-e340c491",
@@ -8672,8 +8741,76 @@
           "readme_line": 438
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2505.02133.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 16201,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 74
+          },
+          {
+            "term": "agent",
+            "count": 49
+          },
+          {
+            "term": "multi-agent",
+            "count": 30
+          },
+          {
+            "term": "execution",
+            "count": 27
+          },
+          {
+            "term": "feedback",
+            "count": 20
+          },
+          {
+            "term": "environment",
+            "count": 5
+          },
+          {
+            "term": "planning",
+            "count": 5
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2505.02133.pdf",
+          "bytes": 5275167,
+          "sha256": "06677db2abd844165fa773ed91c351bf6fe261cd27468e83d3f7637f1c1d44fe"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "environment-in-the-loop-rethinking-code-migration-with-llm-based-agents-8cf718b7",
@@ -8694,8 +8831,76 @@
           "readme_line": 351
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2602.09944.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 14447,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 54
+          },
+          {
+            "term": "environment",
+            "count": 49
+          },
+          {
+            "term": "agent",
+            "count": 36
+          },
+          {
+            "term": "execution",
+            "count": 18
+          },
+          {
+            "term": "feedback",
+            "count": 17
+          },
+          {
+            "term": "tools",
+            "count": 5
+          },
+          {
+            "term": "multi-agent",
+            "count": 3
+          },
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "planning",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2602.09944.pdf",
+          "bytes": 746107,
+          "sha256": "fab1bbb4fdb0cdb8e78cd35d3744a5559b54f6dd18bd31f696b9813251395b86"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "episodic-memories-generation-and-evaluation-benchmark-for-large-language-0f9be0d5",
@@ -8720,6 +8925,8 @@
       "local_source_paths": [
         "sources/raw/openreview/6ycX677p2l.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8756,8 +8963,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/6ycX677p2l.pdf",
@@ -8786,8 +8991,56 @@
           "readme_line": 813
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2107.03374.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11132,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 31
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "feedback",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2107.03374.pdf",
+          "bytes": 1885177,
+          "sha256": "ebae72ea0e8a5eb2ecbccdb985aec6cc1254a7c4d29e6d4de7866db1e66c4855"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "evaluating-very-long-term-conversational-memory-of-llm-agents-016e4f9e",
@@ -8812,6 +9065,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.acl-long.747.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8843,8 +9098,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.747.pdf",
@@ -8880,8 +9133,66 @@
           "readme_line": 1066
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2511.20857.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11069,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "memory",
+            "count": 59
+          },
+          {
+            "term": "agent",
+            "count": 21
+          },
+          {
+            "term": "feedback",
+            "count": 15
+          },
+          {
+            "term": "environment",
+            "count": 9
+          },
+          {
+            "term": "planning",
+            "count": 3
+          },
+          {
+            "term": "code",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2511.20857.pdf",
+          "bytes": 3817139,
+          "sha256": "ab99bebbc13f18150f888c43e27cde903751b3e5519de0104fe183af3bd46618"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "executable-code-actions-elicit-better-llm-agents-31b16f13",
@@ -8921,6 +9232,8 @@
       "local_source_paths": [
         "sources/raw/openreview/8oJyuXfrPv.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -8972,8 +9285,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/8oJyuXfrPv.pdf",
@@ -9006,6 +9317,8 @@
       "local_source_paths": [
         "sources/raw/openreview/ySFDPoiANu.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -9062,8 +9375,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/ySFDPoiANu.pdf",
@@ -9118,6 +9429,8 @@
       "local_source_paths": [
         "sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html"
       ],
+      "source_family": "aaai",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -9154,8 +9467,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "aaai",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html",
@@ -9184,8 +9495,66 @@
           "readme_line": 865
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2512.12806.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12354,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 25
+          },
+          {
+            "term": "execution",
+            "count": 13
+          },
+          {
+            "term": "memory",
+            "count": 13
+          },
+          {
+            "term": "tools",
+            "count": 10
+          },
+          {
+            "term": "code",
+            "count": 5
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "planning",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2512.12806.pdf",
+          "bytes": 187601,
+          "sha256": "90898c44fbb760d35d3fa76c8375f08c859a890e04f292febdab300b94a0c503"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "feedbackeval-a-benchmark-for-evaluating-large-language-models-in-feedbac-b0a563d7",
@@ -9206,8 +9575,66 @@
           "readme_line": 410
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2504.06939.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11638,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "feedback",
+            "count": 91
+          },
+          {
+            "term": "code",
+            "count": 39
+          },
+          {
+            "term": "environment",
+            "count": 10
+          },
+          {
+            "term": "memory",
+            "count": 4
+          },
+          {
+            "term": "agent",
+            "count": 3
+          },
+          {
+            "term": "multi-agent",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2504.06939.pdf",
+          "bytes": 1271754,
+          "sha256": "92521a8599a208466aabaa4c50b42e6bd251daa0696c83db0bf40dcfe7004b9c"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "ferret-ui-grounded-mobile-ui-understanding-with-multimodal-llms-6b11bec1",
@@ -9228,8 +9655,46 @@
           "readme_line": 895
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2404.05719.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 7447,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "execution",
+          "tools",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2404.05719.pdf",
+          "bytes": 23832886,
+          "sha256": "b203b48b05ef3bbfd4dabeed01f1658b37d3abfcbd39567a73452ccf614bac5a"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "flowreasoner-reinforcing-query-level-meta-agents-53cd98dd",
@@ -9250,8 +9715,76 @@
           "readme_line": 582
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2504.15257.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11511,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 75
+          },
+          {
+            "term": "multi-agent",
+            "count": 39
+          },
+          {
+            "term": "code",
+            "count": 10
+          },
+          {
+            "term": "feedback",
+            "count": 6
+          },
+          {
+            "term": "execution",
+            "count": 5
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "planning",
+            "count": 3
+          },
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2504.15257.pdf",
+          "bytes": 3060778,
+          "sha256": "aa4d3445f46e99d5848d9fc02dd19564ec72392c7f28af8fb3e83230f31248f9"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "from-challenges-to-metrics-an-llm-driven-devops-recommendation-system-gr-ca321407",
@@ -9294,8 +9827,66 @@
           "readme_line": 428
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/researchgate.net/from-code-generation-to-ai-collaboration-the-role-of-multi-agent-systems-in-soft-51c96791.html"
+      ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 30000,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 116
+          },
+          {
+            "term": "agent",
+            "count": 52
+          },
+          {
+            "term": "multi-agent",
+            "count": 47
+          },
+          {
+            "term": "tools",
+            "count": 8
+          },
+          {
+            "term": "feedback",
+            "count": 6
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "planning",
+            "count": 4
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "planning",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/researchgate.net/from-code-generation-to-ai-collaboration-the-role-of-multi-agent-systems-in-soft-51c96791.html",
+          "bytes": 491298,
+          "sha256": "9b3b6a5305196995891f42476078c0dd44b8f31b153a4765322c37440a54c9b8"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "from-code-to-correctness-closing-the-last-mile-of-code-generation-with-h-fefea8fa",
@@ -9316,8 +9907,61 @@
           "readme_line": 458
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2410.01215.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 16705,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 67
+          },
+          {
+            "term": "feedback",
+            "count": 54
+          },
+          {
+            "term": "execution",
+            "count": 10
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2410.01215.pdf",
+          "bytes": 2020210,
+          "sha256": "fcb6cc655c163db055122d8d6f6e8b852d16f5991aac115c453bd8f1d962174b"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "from-glue-code-to-protocols-a-critical-analysis-of-a2a-and-mcp-integrati-6c83ea89",
@@ -9338,8 +9982,66 @@
           "readme_line": 388
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2505.03864.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 6750,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 43
+          },
+          {
+            "term": "tools",
+            "count": 13
+          },
+          {
+            "term": "memory",
+            "count": 7
+          },
+          {
+            "term": "multi-agent",
+            "count": 6
+          },
+          {
+            "term": "code",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2505.03864.pdf",
+          "bytes": 4033944,
+          "sha256": "6dfe35a8a8477be7bc3e5a422fda9efe85f4ba8873aab323d9f95c933beb8432"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "from-human-memory-to-ai-memory-a-survey-on-memory-mechanisms-in-the-era-e6282751",
@@ -9360,8 +10062,56 @@
           "readme_line": 288
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2504.15965.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12650,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "memory",
+            "count": 130
+          },
+          {
+            "term": "environment",
+            "count": 6
+          },
+          {
+            "term": "agent",
+            "count": 4
+          },
+          {
+            "term": "planning",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "planning",
+          "memory",
+          "tools",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2504.15965.pdf",
+          "bytes": 1240733,
+          "sha256": "0b869b8a3fd1530ee4fe83174b7fe16c9288baa7b65eacfbdaa4a49e19ac82e5"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "from-programs-to-poses-factored-real-world-scene-generation-via-learned-348b0a74",
@@ -9386,6 +10136,8 @@
       "local_source_paths": [
         "sources/raw/html/openreview.net/from-programs-to-poses-factored-real-world-scene-generation-via-learned-program-b37f0ed9.html"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -9407,8 +10159,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openreview.net/from-programs-to-poses-factored-real-world-scene-generation-via-learned-program-b37f0ed9.html",
@@ -9441,6 +10191,8 @@
       "local_source_paths": [
         "sources/raw/openreview/mmIAp3cVS0.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -9492,8 +10244,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/mmIAp3cVS0.pdf",
@@ -9529,8 +10279,71 @@
           "readme_line": 700
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2310.08067.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 7061,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 16
+          },
+          {
+            "term": "code",
+            "count": 12
+          },
+          {
+            "term": "multi-agent",
+            "count": 12
+          },
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "planning",
+            "count": 2
+          },
+          {
+            "term": "environment",
+            "count": 1
+          },
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2310.08067.pdf",
+          "bytes": 5247809,
+          "sha256": "805e62fad8e6683dabb30588857d24519f849228b7006f75185532b4c34d3015"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "gemini-robotics-1-5-pushing-the-frontier-of-generalist-robots-with-advan-3de8b222",
@@ -9551,8 +10364,71 @@
           "readme_line": 949
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2510.03342.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10403,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 11
+          },
+          {
+            "term": "tools",
+            "count": 9
+          },
+          {
+            "term": "memory",
+            "count": 8
+          },
+          {
+            "term": "environment",
+            "count": 7
+          },
+          {
+            "term": "planning",
+            "count": 6
+          },
+          {
+            "term": "execution",
+            "count": 4
+          },
+          {
+            "term": "code",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2510.03342.pdf",
+          "bytes": 18561206,
+          "sha256": "771398d4d6dd458b137ae362de1d3434a7ff259cd8d7249b54f2fd7ebefcff45"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "generating-code-world-models-with-large-language-models-guided-by-monte-cd46fb8a",
@@ -9577,6 +10453,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.neurips.cc/generating-code-world-models-with-large-language-models-guided-by-monte-carlo-tr-ed1bed97.html"
       ],
+      "source_family": "neurips",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -9613,8 +10491,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "neurips",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/generating-code-world-models-with-large-language-models-guided-by-monte-carlo-tr-ed1bed97.html",
@@ -9651,8 +10527,71 @@
           "readme_line": 977
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/nature.com/genswarm-scalable-multi-robot-code-policy-generation-and-deployment-via-language-64c9ab88.html"
+      ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 30000,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 80
+          },
+          {
+            "term": "environment",
+            "count": 28
+          },
+          {
+            "term": "execution",
+            "count": 26
+          },
+          {
+            "term": "agent",
+            "count": 18
+          },
+          {
+            "term": "feedback",
+            "count": 15
+          },
+          {
+            "term": "memory",
+            "count": 5
+          },
+          {
+            "term": "tools",
+            "count": 3
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/nature.com/genswarm-scalable-multi-robot-code-policy-generation-and-deployment-via-language-64c9ab88.html",
+          "bytes": 359801,
+          "sha256": "501ef0171265b01ed41534cb47437f89e6f2ba9909eea7fbdf2dbc2b83a0547d"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "geogrambench-benchmarking-the-geometric-program-reasoning-in-modern-llms-71655d37",
@@ -9673,8 +10612,46 @@
           "readme_line": 202
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2505.17653.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12136,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 36
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2505.17653.pdf",
+          "bytes": 793611,
+          "sha256": "be5adf43dcd36ffff1524938bbf473cd1c4bf40a391bec749d7b1c5b4285f152"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "gpt-4v-ision-is-a-generalist-web-agent-if-grounded-9798695d",
@@ -9699,6 +10676,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html"
       ],
+      "source_family": "pmlr",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -9730,8 +10709,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "pmlr",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html",
@@ -9764,6 +10741,8 @@
       "local_source_paths": [
         "sources/raw/html/ojs.aaai.org/graph-of-thoughts-solving-elaborate-problems-with-large-language-models-d802d17b.html"
       ],
+      "source_family": "aaai",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -9785,8 +10764,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "aaai",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ojs.aaai.org/graph-of-thoughts-solving-elaborate-problems-with-large-language-models-d802d17b.html",
@@ -9822,8 +10799,66 @@
           "readme_line": 968
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2509.18597.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11550,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 20
+          },
+          {
+            "term": "memory",
+            "count": 14
+          },
+          {
+            "term": "feedback",
+            "count": 13
+          },
+          {
+            "term": "agent",
+            "count": 9
+          },
+          {
+            "term": "planning",
+            "count": 6
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2509.18597.pdf",
+          "bytes": 13210973,
+          "sha256": "859627b7c27fabe20590e35efdc1bd2c2a5827bd7f41a11c5ff697bd35d1c797"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "gui-libra-training-native-gui-agents-to-reason-and-act-with-action-aware-03f1c459",
@@ -9844,8 +10879,61 @@
           "readme_line": 901
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2602.22190.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12027,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 20
+          },
+          {
+            "term": "execution",
+            "count": 4
+          },
+          {
+            "term": "code",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 2
+          },
+          {
+            "term": "environment",
+            "count": 1
+          },
+          {
+            "term": "memory",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2602.22190.pdf",
+          "bytes": 14566992,
+          "sha256": "c0fa27c68c7683642182546d3676896e87421a5e25da1c7e942e2925185f8d59"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "hallucination-to-consensus-multi-agent-llms-for-end-to-end-junit-test-ge-4f02da22",
@@ -9894,8 +10982,76 @@
           "readme_line": 714
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2506.02943.pdf"
+      ],
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12944,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "feedback",
+            "count": 43
+          },
+          {
+            "term": "code",
+            "count": 33
+          },
+          {
+            "term": "agent",
+            "count": 12
+          },
+          {
+            "term": "memory",
+            "count": 4
+          },
+          {
+            "term": "multi-agent",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2506.02943.pdf",
+          "bytes": 3024762,
+          "sha256": "f2da902084581663340041a7e756dafd6a09555b0dd70e4d50cbe292052c2d0f"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "helping-llms-improve-code-generation-using-feedback-from-testing-and-sta-d854c7bb",
@@ -9944,6 +11100,8 @@
       "local_source_paths": [
         "sources/raw/pdf/how-anthropic-teams-use-claude-code-7fc8bc72.pdf"
       ],
+      "source_family": "direct-pdf",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -9975,8 +11133,6 @@
           "tools"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "direct-pdf",
       "source_file_metadata": [
         {
           "path": "sources/raw/pdf/how-anthropic-teams-use-claude-code-7fc8bc72.pdf",
@@ -10005,8 +11161,71 @@
           "readme_line": 402
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/link.springer.com/human-ai-experience-in-integrated-development-environments-a-systematic-literatu-5c41e6b6.html"
+      ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 30000,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 124
+          },
+          {
+            "term": "tools",
+            "count": 11
+          },
+          {
+            "term": "feedback",
+            "count": 5
+          },
+          {
+            "term": "agent",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "multi-agent",
+            "count": 3
+          },
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/link.springer.com/human-ai-experience-in-integrated-development-environments-a-systematic-literatu-5c41e6b6.html",
+          "bytes": 373328,
+          "sha256": "46e84acb1712b9ff58e8978ef2eb933ed47f3f34e645d25cf3138cf2d0b2b8ab"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "hyperagent-generalist-software-engineering-agents-to-solve-coding-tasks-73f787cd",
@@ -10101,8 +11320,56 @@
           "readme_line": 847
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/cursor.com/improving-composer-through-real-time-reinforcement-learning-4a7226b7.html"
+      ],
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 16576,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "feedback",
+            "count": 14
+          },
+          {
+            "term": "agent",
+            "count": 12
+          },
+          {
+            "term": "environment",
+            "count": 12
+          },
+          {
+            "term": "tools",
+            "count": 8
+          },
+          {
+            "term": "code",
+            "count": 6
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/cursor.com/improving-composer-through-real-time-reinforcement-learning-4a7226b7.html",
+          "bytes": 196934,
+          "sha256": "1c8379326e6d2ddef1513ce0c6ab7d03d4727b4c0755f3f9ed3baf53aaafb009"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "inner-monologue-embodied-reasoning-through-planning-with-language-models-16fafae3",
@@ -10171,6 +11438,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.neurips.cc/intercode-standardizing-and-benchmarking-interactive-coding-with-execution-feedb-97ec9a72.html"
       ],
+      "source_family": "neurips",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -10212,8 +11481,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "neurips",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/intercode-standardizing-and-benchmarking-interactive-coding-with-execution-feedb-97ec9a72.html",
@@ -10342,6 +11609,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.findings-acl.138.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -10383,8 +11652,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.findings-acl.138.pdf",
@@ -10645,6 +11912,8 @@
       "local_source_paths": [
         "sources/raw/openreview/yeVBHPLXxi.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -10681,8 +11950,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/yeVBHPLXxi.pdf",
@@ -10715,6 +11982,8 @@
       "local_source_paths": [
         "sources/raw/openreview/sYk6ZMmrOz.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -10751,8 +12020,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/sYk6ZMmrOz.pdf",
@@ -10947,6 +12214,8 @@
       "local_source_paths": [
         "sources/raw/openreview/chfJJYC3iL.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -10983,8 +12252,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/chfJJYC3iL.pdf",
@@ -11134,6 +12401,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.acl-long.426.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -11180,8 +12449,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.426.pdf",
@@ -11300,6 +12567,8 @@
       "local_source_paths": [
         "sources/raw/openreview/qevq3FZ63J.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -11346,8 +12615,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/qevq3FZ63J.pdf",
@@ -11380,6 +12647,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.acl-long.269.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -11436,8 +12705,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.269.pdf",
@@ -11667,6 +12934,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.emnlp-main.1318.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -11703,8 +12972,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.emnlp-main.1318.pdf",
@@ -11823,6 +13090,8 @@
       "local_source_paths": [
         "sources/raw/openreview/VtmBAGCN7o.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -11879,8 +13148,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/VtmBAGCN7o.pdf",
@@ -11957,6 +13224,8 @@
       "local_source_paths": [
         "sources/raw/openreview/kiYqbO3wqw.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -11993,8 +13262,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/kiYqbO3wqw.pdf",
@@ -12071,6 +13338,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.findings-acl.305.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -12107,8 +13376,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-acl.305.pdf",
@@ -12284,6 +13551,8 @@
       "local_source_paths": [
         "sources/raw/openreview/kxnoqaisCT.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -12320,8 +13589,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/kxnoqaisCT.pdf",
@@ -12471,6 +13738,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.findings-naacl.82.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -12512,8 +13781,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-naacl.82.pdf",
@@ -12568,6 +13835,8 @@
       "local_source_paths": [
         "sources/raw/openreview/xggSxCFQbA.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -12614,8 +13883,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/xggSxCFQbA.pdf",
@@ -12648,6 +13915,8 @@
       "local_source_paths": [
         "sources/raw/openreview/OJd3ayDDoF.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -12699,8 +13968,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/OJd3ayDDoF.pdf",
@@ -12733,6 +14000,8 @@
       "local_source_paths": [
         "sources/raw/openreview/n9PDaFNi8t.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -12774,8 +14043,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/n9PDaFNi8t.pdf",
@@ -12808,6 +14075,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.acl-long.277.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -12859,8 +14128,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.277.pdf",
@@ -12893,6 +14160,8 @@
       "local_source_paths": [
         "sources/raw/openreview/tN61DTr4Ed.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -12929,8 +14198,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/tN61DTr4Ed.pdf",
@@ -12963,6 +14230,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.mlr.press/pal-program-aided-language-models-f5ec9d83.html"
       ],
+      "source_family": "pmlr",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -12994,8 +14263,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "pmlr",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/pal-program-aided-language-models-f5ec9d83.html",
@@ -13072,6 +14339,8 @@
       "local_source_paths": [
         "sources/raw/openreview/767aZTpsIl.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -13118,8 +14387,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/767aZTpsIl.pdf",
@@ -13196,6 +14463,8 @@
       "local_source_paths": [
         "sources/raw/openreview/obwRcksFZw.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -13232,8 +14501,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/obwRcksFZw.pdf",
@@ -13435,6 +14702,8 @@
       "local_source_paths": [
         "sources/raw/openreview/WE_vluYUL-X.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -13486,8 +14755,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/WE_vluYUL-X.pdf",
@@ -13542,6 +14809,8 @@
       "local_source_paths": [
         "sources/raw/acl/2022.emnlp-main.48.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -13568,8 +14837,6 @@
           "memory"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2022.emnlp-main.48.pdf",
@@ -13690,6 +14957,8 @@
       "local_source_paths": [
         "sources/raw/openreview/vAElhFcKW6.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -13741,8 +15010,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/vAElhFcKW6.pdf",
@@ -13856,6 +15123,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.emnlp-demo.46.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -13897,8 +15166,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.emnlp-demo.46.pdf",
@@ -13938,6 +15205,8 @@
       "local_source_paths": [
         "sources/raw/acl/2023.emnlp-main.151.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -13969,8 +15238,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2023.emnlp-main.151.pdf",
@@ -14047,6 +15314,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.naacl-long.342.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -14098,8 +15367,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.naacl-long.342.pdf",
@@ -14154,6 +15421,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.emnlp-main.410.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -14190,8 +15459,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.emnlp-main.410.pdf",
@@ -14246,6 +15513,8 @@
       "local_source_paths": [
         "sources/raw/openreview/q56ZI1Co43.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -14297,8 +15566,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/q56ZI1Co43.pdf",
@@ -14331,6 +15598,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.acl-long.881.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -14367,8 +15636,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.acl-long.881.pdf",
@@ -14577,6 +15844,8 @@
       "local_source_paths": [
         "sources/raw/html/openreview.net/satlm-satisfiability-aided-language-models-using-declarative-prompting-1d2280ee.html"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -14598,8 +15867,6 @@
           "planning"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openreview.net/satlm-satisfiability-aided-language-models-using-declarative-prompting-1d2280ee.html",
@@ -14654,6 +15921,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.mlr.press/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition-031cdb59.html"
       ],
+      "source_family": "pmlr",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -14690,8 +15959,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "pmlr",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition-031cdb59.html",
@@ -14812,6 +16079,8 @@
       "local_source_paths": [
         "sources/raw/acl/2023.acl-long.45.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -14848,8 +16117,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2023.acl-long.45.pdf",
@@ -14882,6 +16149,8 @@
       "local_source_paths": [
         "sources/raw/openreview/4R71pdPBZp.pdf"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -14933,8 +16202,6 @@
           "multi-agent"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/openreview/4R71pdPBZp.pdf",
@@ -15032,6 +16299,8 @@
       "local_source_paths": [
         "sources/raw/html/neurips.cc/self-verifying-reflection-helps-transformers-with-cot-reasoning-734593de.html"
       ],
+      "source_family": "neurips",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -15058,8 +16327,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "neurips",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/neurips.cc/self-verifying-reflection-helps-transformers-with-cot-reasoning-734593de.html",
@@ -15172,6 +16439,8 @@
       "local_source_paths": [
         "sources/raw/html/openreview.net/sfs-smarter-code-space-search-improves-llm-inference-scaling-253bea75.html"
       ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -15198,8 +16467,6 @@
           "memory"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "openreview",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/openreview.net/sfs-smarter-code-space-search-improves-llm-inference-scaling-253bea75.html",
@@ -15349,6 +16616,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.neurips.cc/spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-enginee-fe22bc30.html"
       ],
+      "source_family": "neurips",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -15385,8 +16654,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "neurips",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-enginee-fe22bc30.html",
@@ -15463,6 +16730,8 @@
       "local_source_paths": [
         "sources/raw/acl/2024.acl-long.251.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -15494,8 +16763,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2024.acl-long.251.pdf",
@@ -15524,8 +16791,66 @@
           "readme_line": 282
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/mXpq6ut8J3.pdf"
+      ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12048,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 65
+          },
+          {
+            "term": "code",
+            "count": 27
+          },
+          {
+            "term": "environment",
+            "count": 13
+          },
+          {
+            "term": "feedback",
+            "count": 13
+          },
+          {
+            "term": "memory",
+            "count": 9
+          },
+          {
+            "term": "execution",
+            "count": 6
+          },
+          {
+            "term": "tools",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/mXpq6ut8J3.pdf",
+          "bytes": 4411168,
+          "sha256": "0116614120ddfaa37e7c944b7205b4f05523a2415e11846081c08dd0d848ea05"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "swe-bench-a-framework-for-the-scalable-generation-of-software-engineerin-d96de304",
@@ -15583,8 +16908,61 @@
           "readme_line": 822
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/VTF8yNQM66.pdf"
+      ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11698,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 20
+          },
+          {
+            "term": "environment",
+            "count": 13
+          },
+          {
+            "term": "feedback",
+            "count": 8
+          },
+          {
+            "term": "execution",
+            "count": 6
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "agent",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/VTF8yNQM66.pdf",
+          "bytes": 2680380,
+          "sha256": "9ba69855bdfb8896129c697a66c18564bd996885eb19d155083ab8e387733953"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "swe-bench-enhanced-coding-benchmark-for-llms-f411037c",
@@ -15693,8 +17071,66 @@
           "readme_line": 907
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/Pc8AU1aF5e.pdf"
+      ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13635,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "memory",
+            "count": 29
+          },
+          {
+            "term": "agent",
+            "count": 26
+          },
+          {
+            "term": "environment",
+            "count": 11
+          },
+          {
+            "term": "planning",
+            "count": 5
+          },
+          {
+            "term": "code",
+            "count": 4
+          },
+          {
+            "term": "feedback",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/Pc8AU1aF5e.pdf",
+          "bytes": 1275695,
+          "sha256": "d791184392e0574e780c7d8e2ac46244f75061eb9d8f3cbefce6c549bb10887f"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "syncmind-measuring-agent-out-of-sync-recovery-in-collaborative-software-add1b25e",
@@ -15715,8 +17151,66 @@
           "readme_line": 676
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/6TDSDdgP7Z.pdf"
+      ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11651,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 59
+          },
+          {
+            "term": "environment",
+            "count": 21
+          },
+          {
+            "term": "memory",
+            "count": 18
+          },
+          {
+            "term": "code",
+            "count": 10
+          },
+          {
+            "term": "multi-agent",
+            "count": 7
+          },
+          {
+            "term": "feedback",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/6TDSDdgP7Z.pdf",
+          "bytes": 5812533,
+          "sha256": "35fdb159a1189debbf6d7e2e77eb6683121122de8dfef109b2b93eb478298266"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "talm-dynamic-tree-structured-multi-agent-framework-with-long-term-memory-803e8032",
@@ -15825,8 +17319,66 @@
           "readme_line": 352
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/OH4PE0TDo0.pdf"
+      ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12733,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 35
+          },
+          {
+            "term": "environment",
+            "count": 26
+          },
+          {
+            "term": "feedback",
+            "count": 13
+          },
+          {
+            "term": "memory",
+            "count": 12
+          },
+          {
+            "term": "planning",
+            "count": 5
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/OH4PE0TDo0.pdf",
+          "bytes": 7334355,
+          "sha256": "6b64d7a076d030d0f92aaaa99e4ac8eaf173cf4066bbfd6bab16ae01d999ef65"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "testart-improving-llm-based-unit-testing-via-co-evolution-of-automated-g-f71d7f91",
@@ -16089,8 +17641,71 @@
           "readme_line": 893
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/LZnKNApvhG.pdf"
+      ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12222,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "environment",
+            "count": 41
+          },
+          {
+            "term": "agent",
+            "count": 28
+          },
+          {
+            "term": "code",
+            "count": 26
+          },
+          {
+            "term": "tools",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          },
+          {
+            "term": "multi-agent",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/LZnKNApvhG.pdf",
+          "bytes": 2070691,
+          "sha256": "e408852690935a9bc3bb5e37c3e1efc46613448392ae66f3395ab0be97e34dd4"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "toolcoder-teach-code-generation-models-to-use-api-search-tools-fd0de352",
@@ -16203,6 +17818,8 @@
       "local_source_paths": [
         "sources/raw/acl/2025.findings-acl.817.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -16234,8 +17851,6 @@
           "feedback"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2025.findings-acl.817.pdf",
@@ -16509,6 +18124,8 @@
       "local_source_paths": [
         "sources/raw/html/ojs.aaai.org/verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-and-abst-efa2a154.html"
       ],
+      "source_family": "aaai",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -16555,8 +18172,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "aaai",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ojs.aaai.org/verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-and-abst-efa2a154.html",
@@ -16618,6 +18233,8 @@
       "local_source_paths": [
         "sources/raw/acl/2023.emnlp-main.824.pdf"
       ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -16649,8 +18266,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "acl",
       "source_file_metadata": [
         {
           "path": "sources/raw/acl/2023.emnlp-main.824.pdf",
@@ -16679,8 +18294,66 @@
           "readme_line": 920
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/acl/2024.acl-long.50.pdf"
+      ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12612,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 38
+          },
+          {
+            "term": "environment",
+            "count": 12
+          },
+          {
+            "term": "memory",
+            "count": 9
+          },
+          {
+            "term": "execution",
+            "count": 5
+          },
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/acl/2024.acl-long.50.pdf",
+          "bytes": 4438762,
+          "sha256": "6fc85c38c975c2af170c1d1a28f72ba557906d9019d1d9106a15215868bb491e"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "voxposer-composable-3d-value-maps-for-robotic-manipulation-with-language-35b6001a",
@@ -16732,8 +18405,71 @@
           "readme_line": 966
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/ehfRiF0R3a.pdf"
+      ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10542,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 14
+          },
+          {
+            "term": "code",
+            "count": 14
+          },
+          {
+            "term": "environment",
+            "count": 8
+          },
+          {
+            "term": "memory",
+            "count": 8
+          },
+          {
+            "term": "feedback",
+            "count": 7
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 2
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/ehfRiF0R3a.pdf",
+          "bytes": 13902990,
+          "sha256": "28883bd352c3f56fa5b86f5a89be8289f2788248b8a288e460f783ba3c81eaf5"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "webarena-a-realistic-web-environment-for-building-autonomous-agents-4b11676f",
@@ -16754,8 +18490,71 @@
           "readme_line": 876
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/oKn9c6ytLx.pdf"
+      ],
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12180,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "environment",
+            "count": 29
+          },
+          {
+            "term": "agent",
+            "count": 26
+          },
+          {
+            "term": "tools",
+            "count": 6
+          },
+          {
+            "term": "memory",
+            "count": 5
+          },
+          {
+            "term": "code",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/oKn9c6ytLx.pdf",
+          "bytes": 9007218,
+          "sha256": "2240e08a747462c59b49796e56985428f592e45d96debfa2aa88286263a4a787"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "webshop-towards-scalable-real-world-web-interaction-with-grounded-langua-43799165",
@@ -16780,6 +18579,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html"
       ],
+      "source_family": "neurips",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -16806,8 +18607,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "neurips",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html",
@@ -16836,8 +18635,71 @@
           "readme_line": 882
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/acl/2024.acl-long.371.pdf"
+      ],
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12700,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 37
+          },
+          {
+            "term": "environment",
+            "count": 20
+          },
+          {
+            "term": "tools",
+            "count": 6
+          },
+          {
+            "term": "code",
+            "count": 4
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/acl/2024.acl-long.371.pdf",
+          "bytes": 18384116,
+          "sha256": "69094c0247e519a50f3457a00830e818f0d1e68233248bb958d3527f7d17d99f"
+        }
+      ],
+      "integrated_at": "2026-06-02T09:39:11+00:00"
     },
     {
       "paper_id": "what-i-cannot-execute-i-do-not-understand-training-and-evaluating-llms-o-f2d43ec2",
@@ -16884,6 +18746,8 @@
       "local_source_paths": [
         "sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html"
       ],
+      "source_family": "aaai",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -16900,8 +18764,6 @@
           "code"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "aaai",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html",
@@ -17000,6 +18862,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.mlr.press/windows-agent-arena-evaluating-multi-modal-os-agents-at-scale-e0f66ef6.html"
       ],
+      "source_family": "pmlr",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -17036,8 +18900,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "pmlr",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/windows-agent-arena-evaluating-multi-modal-os-agents-at-scale-e0f66ef6.html",
@@ -17070,6 +18932,8 @@
       "local_source_paths": [
         "sources/raw/html/proceedings.mlr.press/workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-tasks-0e548353.html"
       ],
+      "source_family": "pmlr",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "html-text",
@@ -17096,8 +18960,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "pmlr",
       "source_file_metadata": [
         {
           "path": "sources/raw/html/proceedings.mlr.press/workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-tasks-0e548353.html",
@@ -17130,6 +18992,8 @@
       "local_source_paths": [
         "sources/raw/pdf/worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-and-int-e1cb6952.pdf"
       ],
+      "source_family": "neurips",
+      "integration_status": "auto-extracted",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -17171,8 +19035,6 @@
           "environment"
         ]
       },
-      "integration_status": "auto-extracted",
-      "source_family": "neurips",
       "source_file_metadata": [
         {
           "path": "sources/raw/pdf/worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-and-int-e1cb6952.pdf",

@@ -1,13 +1,14 @@
 ---
 title: "Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "hallucination-to-consensus-multi-agent-llms-for-end-to-end-junit-test-ge-4f02da22"
 canonical_urls:
   - "https://arxiv.org/abs/2506.02943"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2506.02943.pdf"
+source_status: "integrated"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -31,7 +32,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `hallucination-to-consensus-multi-agent-llms-for-end-to-end-junit-test-ge-4f02da22`
 - Venue labels: arXiv 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2506.02943](https://arxiv.org/abs/2506.02943)
 
@@ -47,12 +48,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2506.02943.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2506.02943.pdf`, 3024762 bytes, SHA-256 `f2da902084581663340041a7e756dafd6a09555b0dd70e4d50cbe292052c2d0f`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 12944 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `feedback` (43), `code` (33), `agent` (12), `memory` (4), `multi-agent` (4), `execution` (3), `environment` (1), `planning` (1), `tools` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -61,5 +70,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

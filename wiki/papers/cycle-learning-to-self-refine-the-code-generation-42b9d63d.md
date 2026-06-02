@@ -7,7 +7,7 @@ paper_id: "cycle-learning-to-self-refine-the-code-generation-42b9d63d"
 canonical_urls:
   - "https://dl.acm.org/doi/full/10.1145/3649825"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `cycle-learning-to-self-refine-the-code-generation-42b9d63d`
 - Venue labels: OOPSLA 2024
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://dl.acm.org/doi/full/10.1145/3649825](https://dl.acm.org/doi/full/10.1145/3649825)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://dl.acm.org/doi/full/10.1145/3649825`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.

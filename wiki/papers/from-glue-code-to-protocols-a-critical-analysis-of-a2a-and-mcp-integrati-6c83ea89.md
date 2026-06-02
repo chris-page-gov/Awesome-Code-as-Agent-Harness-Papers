@@ -1,13 +1,14 @@
 ---
 title: "From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "from-glue-code-to-protocols-a-critical-analysis-of-a2a-and-mcp-integrati-6c83ea89"
 canonical_urls:
   - "https://arxiv.org/abs/2505.03864"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/arxiv/2505.03864.pdf"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `from-glue-code-to-protocols-a-critical-analysis-of-a2a-and-mcp-integrati-6c83ea89`
 - Venue labels: arXiv 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2505.03864](https://arxiv.org/abs/2505.03864)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/arxiv/2505.03864.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2505.03864.pdf`, 4033944 bytes, SHA-256 `6dfe35a8a8477be7bc3e5a422fda9efe85f4ba8873aab323d9f95c933beb8432`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 6750 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (43), `tools` (13), `memory` (7), `multi-agent` (6), `code` (4), `execution` (3), `environment` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

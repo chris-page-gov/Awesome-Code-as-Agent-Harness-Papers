@@ -1,13 +1,14 @@
 ---
 title: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "webarena-a-realistic-web-environment-for-building-autonomous-agents-4b11676f"
 canonical_urls:
   - "https://openreview.net/forum?id=oKn9c6ytLx"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/openreview/oKn9c6ytLx.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `webarena-a-realistic-web-environment-for-building-autonomous-agents-4b11676f`
 - Venue labels: ICLR 2024
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://openreview.net/forum?id=oKn9c6ytLx](https://openreview.net/forum?id=oKn9c6ytLx)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/openreview/oKn9c6ytLx.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/openreview/oKn9c6ytLx.pdf`, 9007218 bytes, SHA-256 `2240e08a747462c59b49796e56985428f592e45d96debfa2aa88286263a4a787`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 12180 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `environment` (29), `agent` (26), `tools` (6), `memory` (5), `code` (3), `execution` (3), `feedback` (1), `planning` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

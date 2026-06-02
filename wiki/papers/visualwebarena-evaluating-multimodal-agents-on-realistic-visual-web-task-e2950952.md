@@ -1,13 +1,14 @@
 ---
 title: "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "visualwebarena-evaluating-multimodal-agents-on-realistic-visual-web-task-e2950952"
 canonical_urls:
   - "https://aclanthology.org/2024.acl-long.50/"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/acl/2024.acl-long.50.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `visualwebarena-evaluating-multimodal-agents-on-realistic-visual-web-task-e2950952`
 - Venue labels: ACL 2024
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://aclanthology.org/2024.acl-long.50/](https://aclanthology.org/2024.acl-long.50/)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/acl/2024.acl-long.50.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/acl/2024.acl-long.50.pdf`, 4438762 bytes, SHA-256 `6fc85c38c975c2af170c1d1a28f72ba557906d9019d1d9106a15215868bb491e`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 12612 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (38), `environment` (12), `memory` (9), `execution` (5), `code` (1), `planning` (1), `tools` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

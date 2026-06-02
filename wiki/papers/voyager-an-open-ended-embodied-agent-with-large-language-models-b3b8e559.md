@@ -1,14 +1,15 @@
 ---
 title: "Voyager: An Open-Ended Embodied Agent with Large Language Models"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "voyager-an-open-ended-embodied-agent-with-large-language-models-b3b8e559"
 canonical_urls:
   - "https://openreview.net/forum?id=ehfRiF0R3a"
   - "https://arxiv.org/abs/2305.16291"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/openreview/ehfRiF0R3a.pdf"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -27,7 +28,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `voyager-an-open-ended-embodied-agent-with-large-language-models-b3b8e559`
 - Venue labels: TMLR 2023, NeurIPS 2023
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URLs:
   - [https://openreview.net/forum?id=ehfRiF0R3a](https://openreview.net/forum?id=ehfRiF0R3a)
   - [https://arxiv.org/abs/2305.16291](https://arxiv.org/abs/2305.16291)
@@ -41,12 +42,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- `sources/raw/openreview/ehfRiF0R3a.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/openreview/ehfRiF0R3a.pdf`, 13902990 bytes, SHA-256 `28883bd352c3f56fa5b86f5a89be8289f2788248b8a288e460f783ba3c81eaf5`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 10542 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (14), `code` (14), `environment` (8), `memory` (8), `feedback` (7), `execution` (3), `tools` (2), `planning` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -55,5 +64,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

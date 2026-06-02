@@ -7,7 +7,7 @@ paper_id: "conversational-recommendation-formulation-methods-and-evaluation-5a90
 canonical_urls:
   - "https://dl.acm.org/doi/10.1145/3397271.3401322"
 local_source_paths: []
-source_status: "pending"
+source_status: "blocked"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +23,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `conversational-recommendation-formulation-methods-and-evaluation-5a9037f4`
 - Venue labels: SIGIR 2020
-- Source status: `pending`
+- Source status: `blocked`
 - Canonical URL:
   - [https://dl.acm.org/doi/10.1145/3397271.3401322](https://dl.acm.org/doi/10.1145/3397271.3401322)
 
@@ -40,7 +40,7 @@ last_reviewed: "2026-06-02"
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Gap: source localization is currently blocked; see the registered blocker below.
 
 ## Cross-References
 
@@ -49,5 +49,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Source localization blocked for `https://dl.acm.org/doi/10.1145/3397271.3401322`: HTTP Error 403: Forbidden.
 - Add concise source-backed contribution notes.

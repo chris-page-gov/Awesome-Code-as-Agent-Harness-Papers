@@ -17,7 +17,7 @@ All notable changes to this fork are recorded here.
 - Added a generator and validation checks for paper-register and README xref
   integrity.
 - Added a source-localization tool, fetch manifest, the localized Code as Agent
-  Harness survey PDF, and localized arXiv source files for the first 163 paper fragments.
+  Harness survey PDF, and localized arXiv source files for the first 195 paper fragments.
 - Added a resumable source-ingest automation driver, source integration pass,
   and generated ingest status metadata.
 
