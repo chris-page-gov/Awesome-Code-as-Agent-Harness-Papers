@@ -1,13 +1,14 @@
 ---
 title: "AlgoForge: Specializing Code Generation Agents through Collaborative Reinforcement Learning"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "algoforge-specializing-code-generation-agents-through-collaborative-rein-d8199d35"
 canonical_urls:
   - "https://openreview.net/forum?id=KwqbtKeaRl"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/openreview/KwqbtKeaRl.pdf"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `algoforge-specializing-code-generation-agents-through-collaborative-rein-d8199d35`
 - Venue labels: 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [https://openreview.net/forum?id=KwqbtKeaRl](https://openreview.net/forum?id=KwqbtKeaRl)
 
@@ -35,12 +36,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/openreview/KwqbtKeaRl.pdf](../../sources/raw/openreview/KwqbtKeaRl.pdf)
+
+### Local File Metadata
+
+- path `sources/raw/openreview/KwqbtKeaRl.pdf`, 2722615 bytes, SHA-256 `330084c8421a12b27a80738dfa8d1bf48f81d9f7cdadd1b41fc84a5ad4eb89f8`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 14051 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (39), `planning` (33), `agent` (24), `multi-agent` (6), `execution` (3), `feedback` (3), `environment` (2), `memory` (2).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -49,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

@@ -1,14 +1,14 @@
 ---
 title: "AgentBench: Evaluating LLMs as Agents"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "agentbench-evaluating-llms-as-agents-8d39628a"
 canonical_urls:
   - "https://arxiv.org/abs/2308.03688"
 local_source_paths:
   - "sources/raw/arxiv/2308.03688.pdf"
-source_status: "localized"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -27,7 +27,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `agentbench-evaluating-llms-as-agents-8d39628a`
 - Venue labels: ICLR 2024
-- Source status: `localized`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2308.03688](https://arxiv.org/abs/2308.03688)
 
@@ -42,11 +42,18 @@ last_reviewed: "2026-06-02"
 
 - [sources/raw/arxiv/2308.03688.pdf](../../sources/raw/arxiv/2308.03688.pdf)
 
+### Local File Metadata
+
+- path `sources/raw/arxiv/2308.03688.pdf`, 23017024 bytes, SHA-256 `9c780e35fc0b2de6c2e21e0572f6aaaadcf7ecdd56d63cfaae2b415bc0dc83c3`
+
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
 - Source fact: a localized source file is available in this repository.
-- Content claims are pending review of the localized source.
+- Source fact: automated local text extraction recorded 13682 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (59), `tools` (15), `environment` (10), `code` (4), `memory` (3), `execution` (2), `feedback` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -55,5 +62,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Review the localized source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

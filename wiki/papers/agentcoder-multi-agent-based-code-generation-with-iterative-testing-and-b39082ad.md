@@ -1,14 +1,14 @@
 ---
 title: "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "agentcoder-multi-agent-based-code-generation-with-iterative-testing-and-b39082ad"
 canonical_urls:
   - "https://arxiv.org/abs/2312.13010"
 local_source_paths:
   - "sources/raw/arxiv/2312.13010.pdf"
-source_status: "localized"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -42,7 +42,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `agentcoder-multi-agent-based-code-generation-with-iterative-testing-and-b39082ad`
 - Venue labels: arXiv 2023
-- Source status: `localized`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2312.13010](https://arxiv.org/abs/2312.13010)
 
@@ -65,11 +65,18 @@ last_reviewed: "2026-06-02"
 
 - [sources/raw/arxiv/2312.13010.pdf](../../sources/raw/arxiv/2312.13010.pdf)
 
+### Local File Metadata
+
+- path `sources/raw/arxiv/2312.13010.pdf`, 678536 bytes, SHA-256 `ebe4476de1eebf33cc045962d03cc90d701fb4a8c2689353d34e146102acf443`
+
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
 - Source fact: a localized source file is available in this repository.
-- Content claims are pending review of the localized source.
+- Source fact: automated local text extraction recorded 12736 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (66), `agent` (57), `feedback` (48), `multi-agent` (14), `memory` (7), `environment` (3), `execution` (2), `planning` (2), `tools` (2).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -78,5 +85,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Review the localized source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

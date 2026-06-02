@@ -6,3 +6,7 @@
 *.jpeg binary
 *.pdf binary
 *.png binary
+
+# Localized raw sources are evidence captures, not linted project text.
+sources/raw/**/*.html -diff -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+sources/raw/**/*.htm -diff -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab

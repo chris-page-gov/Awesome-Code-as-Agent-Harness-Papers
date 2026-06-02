@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "webshop-towards-scalable-real-world-web-interaction-with-grounded-langua-43799165"
 canonical_urls:
   - "https://proceedings.neurips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html"
+source_status: "localized"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `webshop-towards-scalable-real-world-web-interaction-with-grounded-langua-43799165`
 - Venue labels: NeurIPS 2022
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://proceedings.neurips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html](https://proceedings.neurips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html](../../sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

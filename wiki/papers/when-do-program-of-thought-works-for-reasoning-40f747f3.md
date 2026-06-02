@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "when-do-program-of-thought-works-for-reasoning-40f747f3"
 canonical_urls:
   - "https://ojs.aaai.org/index.php/AAAI/article/view/29721"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html"
+source_status: "localized"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `when-do-program-of-thought-works-for-reasoning-40f747f3`
 - Venue labels: AAAI 2024
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://ojs.aaai.org/index.php/AAAI/article/view/29721](https://ojs.aaai.org/index.php/AAAI/article/view/29721)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html](../../sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

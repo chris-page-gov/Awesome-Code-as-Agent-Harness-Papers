@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "dars-dynamic-action-re-sampling-to-enhance-coding-agent-performance-by-a-a3cc9f74"
 canonical_urls:
   - "https://aclanthology.org/2025.acl-long.973/"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/acl/2025.acl-long.973.pdf"
+source_status: "localized"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `dars-dynamic-action-re-sampling-to-enhance-coding-agent-performance-by-a-a3cc9f74`
 - Venue labels: ACL 2025
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://aclanthology.org/2025.acl-long.973/](https://aclanthology.org/2025.acl-long.973/)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/acl/2025.acl-long.973.pdf](../../sources/raw/acl/2025.acl-long.973.pdf)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

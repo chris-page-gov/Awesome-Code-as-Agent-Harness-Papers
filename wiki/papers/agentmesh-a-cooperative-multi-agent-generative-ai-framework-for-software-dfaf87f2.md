@@ -1,14 +1,14 @@
 ---
 title: "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "agentmesh-a-cooperative-multi-agent-generative-ai-framework-for-software-dfaf87f2"
 canonical_urls:
   - "https://arxiv.org/abs/2507.19902"
 local_source_paths:
   - "sources/raw/arxiv/2507.19902.pdf"
-source_status: "localized"
+source_status: "integrated"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -24,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `agentmesh-a-cooperative-multi-agent-generative-ai-framework-for-software-dfaf87f2`
 - Venue labels: arXiv 2025
-- Source status: `localized`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2507.19902](https://arxiv.org/abs/2507.19902)
 
@@ -38,11 +38,18 @@ last_reviewed: "2026-06-02"
 
 - [sources/raw/arxiv/2507.19902.pdf](../../sources/raw/arxiv/2507.19902.pdf)
 
+### Local File Metadata
+
+- path `sources/raw/arxiv/2507.19902.pdf`, 154926 bytes, SHA-256 `d5cd503676f4243be45ece2b9a7f17ba4dd254987ab8ec59d1884a3254efdf57`
+
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
 - Source fact: a localized source file is available in this repository.
-- Content claims are pending review of the localized source.
+- Source fact: automated local text extraction recorded 12092 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (60), `code` (54), `planning` (18), `multi-agent` (9), `memory` (7), `feedback` (3), `tools` (3), `environment` (2), `execution` (2).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -51,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Review the localized source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

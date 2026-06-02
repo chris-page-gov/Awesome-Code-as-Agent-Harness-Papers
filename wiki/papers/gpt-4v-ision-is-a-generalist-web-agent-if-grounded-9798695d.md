@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "gpt-4v-ision-is-a-generalist-web-agent-if-grounded-9798695d"
 canonical_urls:
   - "https://proceedings.mlr.press/v235/zheng24e.html"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html"
+source_status: "localized"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `gpt-4v-ision-is-a-generalist-web-agent-if-grounded-9798695d`
 - Venue labels: ICML 2024
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://proceedings.mlr.press/v235/zheng24e.html](https://proceedings.mlr.press/v235/zheng24e.html)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html](../../sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

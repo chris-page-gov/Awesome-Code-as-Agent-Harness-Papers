@@ -1,14 +1,14 @@
 ---
 title: "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "agentracer-who-is-inducing-failure-in-the-llm-agentic-systems-e747c976"
 canonical_urls:
   - "https://arxiv.org/abs/2509.03312"
 local_source_paths:
   - "sources/raw/arxiv/2509.03312.pdf"
-source_status: "localized"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -24,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `agentracer-who-is-inducing-failure-in-the-llm-agentic-systems-e747c976`
 - Venue labels: arXiv 2025
-- Source status: `localized`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2509.03312](https://arxiv.org/abs/2509.03312)
 
@@ -38,11 +38,18 @@ last_reviewed: "2026-06-02"
 
 - [sources/raw/arxiv/2509.03312.pdf](../../sources/raw/arxiv/2509.03312.pdf)
 
+### Local File Metadata
+
+- path `sources/raw/arxiv/2509.03312.pdf`, 7702972 bytes, SHA-256 `f4461ace11c5c9d33eee81cf3a8584ff7cbeba210933de1c2990500aee5d693e`
+
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
 - Source fact: a localized source file is available in this repository.
-- Content claims are pending review of the localized source.
+- Source fact: automated local text extraction recorded 12589 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (60), `multi-agent` (22), `memory` (8), `environment` (5), `tools` (4), `code` (2), `feedback` (2), `execution` (1), `planning` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -51,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Review the localized source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

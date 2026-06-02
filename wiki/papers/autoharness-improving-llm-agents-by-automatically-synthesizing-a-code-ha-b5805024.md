@@ -1,14 +1,14 @@
 ---
 title: "AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-ha-b5805024"
 canonical_urls:
   - "https://arxiv.org/abs/2603.03329"
 local_source_paths:
   - "sources/raw/arxiv/2603.03329.pdf"
-source_status: "localized"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -24,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-ha-b5805024`
 - Venue labels: arXiv 2026
-- Source status: `localized`
+- Source status: `integrated`
 - Canonical URL:
   - [https://arxiv.org/abs/2603.03329](https://arxiv.org/abs/2603.03329)
 
@@ -38,11 +38,18 @@ last_reviewed: "2026-06-02"
 
 - [sources/raw/arxiv/2603.03329.pdf](../../sources/raw/arxiv/2603.03329.pdf)
 
+### Local File Metadata
+
+- path `sources/raw/arxiv/2603.03329.pdf`, 917772 bytes, SHA-256 `8399c0a6a76a38c1a96804c88d0bac69286fe52ba3f255cba9175e3882fecf19`
+
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
 - Source fact: a localized source file is available in this repository.
-- Content claims are pending review of the localized source.
+- Source fact: automated local text extraction recorded 11307 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `code` (37), `environment` (8), `agent` (7), `feedback` (6), `memory` (5), `planning` (4), `execution` (3).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -51,5 +58,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Review the localized source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

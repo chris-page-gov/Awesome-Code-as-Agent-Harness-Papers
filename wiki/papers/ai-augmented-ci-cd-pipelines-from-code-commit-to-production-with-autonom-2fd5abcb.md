@@ -1,13 +1,14 @@
 ---
 title: "AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions"
 note_type: "paper"
-status: "metadata-only"
+status: "source-integrated"
 tags: ["paper", "code-as-agent-harness"]
 paper_id: "ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonom-2fd5abcb"
 canonical_urls:
   - "http://dx.doi.org/10.1109/FLLM67465.2025.11391007"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html"
+source_status: "integrated"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -26,7 +27,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonom-2fd5abcb`
 - Venue labels: IEEE FLLM 2025
-- Source status: `pending`
+- Source status: `integrated`
 - Canonical URL:
   - [http://dx.doi.org/10.1109/FLLM67465.2025.11391007](http://dx.doi.org/10.1109/FLLM67465.2025.11391007)
 
@@ -39,12 +40,20 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html](../../sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html)
+
+### Local File Metadata
+
+- path `sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html`, 50006 bytes, SHA-256 `854a9da7f7c8437b6c821496db7007ddcad836c0b55d5507fe53479a994ba2eb`
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 844 characters using `html-text`.
+- Source cue: localized text contains harness-relevant terms: `code` (1), `environment` (1).
+- Source cue: automated topic tags: `code`, `environment`.
+- Integration note: these notes are automated extraction cues, not a human literature review.
 
 ## Cross-References
 
@@ -53,5 +62,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Replace automated extraction cues with human-reviewed contribution notes.
 - Add concise source-backed contribution notes.

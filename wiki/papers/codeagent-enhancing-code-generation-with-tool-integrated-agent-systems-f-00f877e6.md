@@ -7,8 +7,9 @@ paper_id: "codeagent-enhancing-code-generation-with-tool-integrated-agent-system
 canonical_urls:
   - "https://aclanthology.org/2024.acl-long.737/"
   - "https://aclanthology.org/2024.acl-long.757/"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/acl/2024.acl-long.737.pdf"
+source_status: "localized"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -27,7 +28,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `codeagent-enhancing-code-generation-with-tool-integrated-agent-systems-f-00f877e6`
 - Venue labels: ACL 2024
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URLs:
   - [https://aclanthology.org/2024.acl-long.737/](https://aclanthology.org/2024.acl-long.737/)
   - [https://aclanthology.org/2024.acl-long.757/](https://aclanthology.org/2024.acl-long.757/)
@@ -41,12 +42,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/acl/2024.acl-long.737.pdf](../../sources/raw/acl/2024.acl-long.737.pdf)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -55,5 +57,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

@@ -33,7 +33,7 @@ def has_worktree_changes() -> bool:
 
 
 def validate() -> None:
-    run(["git", "diff", "--check"])
+    run(["git", "diff", "--check", "--", ".", ":(exclude)sources/raw/**"])
     run(
         [
             sys.executable,
@@ -54,7 +54,7 @@ def checkpoint(args: argparse.Namespace, state: dict) -> None:
     if not args.commit or not has_worktree_changes():
         return
     run(["git", "add", "-A"])
-    run(["git", "diff", "--cached", "--check"])
+    run(["git", "diff", "--cached", "--check", "--", ".", ":(exclude)sources/raw/**"])
     result = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT)
     if result.returncode == 0:
         return

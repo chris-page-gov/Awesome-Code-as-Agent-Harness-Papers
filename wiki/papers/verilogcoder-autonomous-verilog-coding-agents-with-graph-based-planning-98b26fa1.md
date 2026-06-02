@@ -6,8 +6,9 @@ tags: ["paper", "code-as-agent-harness"]
 paper_id: "verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-98b26fa1"
 canonical_urls:
   - "https://ojs.aaai.org/index.php/AAAI/article/view/32007"
-local_source_paths: []
-source_status: "pending"
+local_source_paths:
+  - "sources/raw/html/ojs.aaai.org/verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-and-abst-efa2a154.html"
+source_status: "localized"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -23,7 +24,7 @@ last_reviewed: "2026-06-02"
 
 - Paper ID: `verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-98b26fa1`
 - Venue labels: AAAI 2025
-- Source status: `pending`
+- Source status: `localized`
 - Canonical URL:
   - [https://ojs.aaai.org/index.php/AAAI/article/view/32007](https://ojs.aaai.org/index.php/AAAI/article/view/32007)
 
@@ -35,12 +36,13 @@ last_reviewed: "2026-06-02"
 
 ## Localized Sources
 
-- No localized source file registered yet.
+- [sources/raw/html/ojs.aaai.org/verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-and-abst-efa2a154.html](../../sources/raw/html/ojs.aaai.org/verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-and-abst-efa2a154.html)
 
 ## Source-Backed Notes
 
 - Inventory fact: this reference appears in the README paper table with the placement above.
-- Content claims are pending source localization and review.
+- Source fact: a localized source file is available in this repository.
+- Content claims are pending review of the localized source.
 
 ## Cross-References
 
@@ -49,5 +51,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Fetch and review the canonical source.
+- Review the localized source.
 - Add concise source-backed contribution notes.

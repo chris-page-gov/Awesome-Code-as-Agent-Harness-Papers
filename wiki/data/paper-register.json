@@ -25,8 +25,61 @@
           "readme_line": 930
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 9214,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "tools",
+            "count": 10
+          },
+          {
+            "term": "code",
+            "count": 9
+          },
+          {
+            "term": "agent",
+            "count": 8
+          },
+          {
+            "term": "feedback",
+            "count": 4
+          },
+          {
+            "term": "planning",
+            "count": 4
+          },
+          {
+            "term": "memory",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "planning",
+          "memory",
+          "tools",
+          "feedback"
+        ]
+      },
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html",
+          "bytes": 132871,
+          "sha256": "5d97a5a3bfca78027247f83898d72aebad89bd8c09ed48642920e9bac489b7ee"
+        }
+      ]
     },
     {
       "paper_id": "a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-progr-485292a2",
@@ -47,8 +100,41 @@
           "readme_line": 228
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 848,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "environment",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "environment"
+        ]
+      },
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html",
+          "bytes": 57526,
+          "sha256": "ee855306c93908a0103b77657d8577d43fcb3f67f0189e376f16a83c9c663958"
+        }
+      ]
     },
     {
       "paper_id": "a-mem-agentic-memory-for-llm-agents-95975c4d",
@@ -73,7 +159,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2502.03962.pdf"
       ],
-      "integration_status": "auto-extracted",
+      "integrated_at": "2026-06-02T08:53:40+00:00",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -105,14 +191,14 @@
           "environment"
         ]
       },
+      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2502.03962.pdf",
           "bytes": 2180916,
           "sha256": "38b210a202bc5518b06bdd0bb8449d7e9b44be71845a4109d3efbfcd1546343c"
         }
-      ],
-      "integrated_at": "2026-06-02T08:53:40+00:00"
+      ]
     },
     {
       "paper_id": "a-multi-agent-coding-assistant-for-cloud-native-development-from-require-65f216a5",
@@ -181,7 +267,7 @@
       "local_source_paths": [
         "sources/raw/arxiv/2307.12856.pdf"
       ],
-      "integration_status": "auto-extracted",
+      "integrated_at": "2026-06-02T08:53:40+00:00",
       "source_signal": {
         "extraction": {
           "method": "pdftotext",
@@ -233,14 +319,14 @@
           "environment"
         ]
       },
+      "integration_status": "auto-extracted",
       "source_file_metadata": [
         {
           "path": "sources/raw/arxiv/2307.12856.pdf",
           "bytes": 2014240,
           "sha256": "23b1129aa8b95ee0555d27fb5a5711717c482451b31dd1c4df64ad8cc2267d1a"
         }
-      ],
-      "integrated_at": "2026-06-02T08:53:40+00:00"
+      ]
     },
     {
       "paper_id": "a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b",
@@ -261,9 +347,39 @@
           "readme_line": 1039
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2508.21148.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10846,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 2
+          },
+          {
+            "term": "environment",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2508.21148.pdf",
+          "bytes": 34967666,
+          "sha256": "ed2372ca354e703bb5a9732781d952bf2b5df6aad6491389c4cb1a0c6ba9b69f"
+        }
       ]
     },
     {
@@ -351,8 +467,66 @@
           "readme_line": 1008
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 30000,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 34
+          },
+          {
+            "term": "execution",
+            "count": 24
+          },
+          {
+            "term": "environment",
+            "count": 9
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "agent",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html",
+          "bytes": 353058,
+          "sha256": "83273a2ade7173194fed50e1fa3a0bb6a2442d60dc6f3d668b70b007184db594"
+        }
+      ]
     },
     {
       "paper_id": "a3-codgen-a-repository-level-code-generation-framework-for-code-reuse-wi-87d642f1",
@@ -373,8 +547,41 @@
           "readme_line": 390
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 886,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 2
+          },
+          {
+            "term": "environment",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "environment"
+        ]
+      },
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html",
+          "bytes": 55779,
+          "sha256": "52736e0ea3a4953ea24c819841f04a18d5179649f862e7a1093d9994994ff8c3"
+        }
+      ]
     },
     {
       "paper_id": "about-github-copilot-cloud-agent-a4d6dd96",
@@ -397,8 +604,76 @@
           "readme_line": 773
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 24476,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 169
+          },
+          {
+            "term": "code",
+            "count": 49
+          },
+          {
+            "term": "planning",
+            "count": 20
+          },
+          {
+            "term": "tools",
+            "count": 18
+          },
+          {
+            "term": "memory",
+            "count": 13
+          },
+          {
+            "term": "feedback",
+            "count": 8
+          },
+          {
+            "term": "environment",
+            "count": 5
+          },
+          {
+            "term": "execution",
+            "count": 5
+          },
+          {
+            "term": "multi-agent",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html",
+          "bytes": 549227,
+          "sha256": "867c4bd503491ddad31065da11c9e2a72589cbe15dc031f465601c49f1c65c84"
+        }
+      ]
     },
     {
       "paper_id": "adacoder-adaptive-prompt-compression-for-programmatic-visual-question-an-f92d8a3f",
@@ -443,8 +718,56 @@
           "readme_line": 848
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 4972,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "environment",
+            "count": 7
+          },
+          {
+            "term": "code",
+            "count": 4
+          },
+          {
+            "term": "agent",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "direct-pdf",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf",
+          "bytes": 293503,
+          "sha256": "0ad81e8b6fd3bd5c32868fd80312d64780cc5b08298af7fc60187bc4b1489c20"
+        }
+      ]
     },
     {
       "paper_id": "advances-and-frontiers-of-llm-based-issue-resolution-in-software-enginee-c74217fb",
@@ -465,9 +788,69 @@
           "readme_line": 829
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2601.11655.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 18403,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 27
+          },
+          {
+            "term": "code",
+            "count": 21
+          },
+          {
+            "term": "environment",
+            "count": 16
+          },
+          {
+            "term": "feedback",
+            "count": 6
+          },
+          {
+            "term": "execution",
+            "count": 5
+          },
+          {
+            "term": "tools",
+            "count": 4
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "multi-agent",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2601.11655.pdf",
+          "bytes": 3509933,
+          "sha256": "5804c97553e20444f2c15ddf7bd3069046a4d32e807714294381d9f0d3ed7547"
+        }
       ]
     },
     {
@@ -511,8 +894,71 @@
           "readme_line": 1003
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/acl/2025.findings-emnlp.320.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11631,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 39
+          },
+          {
+            "term": "code",
+            "count": 13
+          },
+          {
+            "term": "planning",
+            "count": 9
+          },
+          {
+            "term": "feedback",
+            "count": 5
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 2
+          },
+          {
+            "term": "environment",
+            "count": 1
+          },
+          {
+            "term": "memory",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/acl/2025.findings-emnlp.320.pdf",
+          "bytes": 3359800,
+          "sha256": "28de4e931db9004d056e240a2ac7a1460305dafc3b781fe1fb0fbd0c2596cc70"
+        }
+      ]
     },
     {
       "paper_id": "agent-world-model-infinity-synthetic-environments-for-agentic-reinforcem-a9d3ddcc",
@@ -533,9 +979,64 @@
           "readme_line": 189
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2602.10090.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 14931,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 44
+          },
+          {
+            "term": "environment",
+            "count": 38
+          },
+          {
+            "term": "tools",
+            "count": 28
+          },
+          {
+            "term": "code",
+            "count": 23
+          },
+          {
+            "term": "memory",
+            "count": 18
+          },
+          {
+            "term": "feedback",
+            "count": 8
+          },
+          {
+            "term": "execution",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2602.10090.pdf",
+          "bytes": 9601950,
+          "sha256": "419b30a8f19edc92cf268d194923cf5f29b755c161e6f22672b5bfa05b5f84d5"
+        }
       ]
     },
     {
@@ -564,9 +1065,64 @@
           "readme_line": 923
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2308.03688.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13682,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 59
+          },
+          {
+            "term": "tools",
+            "count": 15
+          },
+          {
+            "term": "environment",
+            "count": 10
+          },
+          {
+            "term": "code",
+            "count": 4
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2308.03688.pdf",
+          "bytes": 23017024,
+          "sha256": "9c780e35fc0b2de6c2e21e0572f6aaaadcf7ecdd56d63cfaae2b415bc0dc83c3"
+        }
       ]
     },
     {
@@ -651,9 +1207,74 @@
           "readme_line": 712
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2312.13010.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12736,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 66
+          },
+          {
+            "term": "agent",
+            "count": 57
+          },
+          {
+            "term": "feedback",
+            "count": 48
+          },
+          {
+            "term": "multi-agent",
+            "count": 14
+          },
+          {
+            "term": "memory",
+            "count": 7
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "planning",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2312.13010.pdf",
+          "bytes": 678536,
+          "sha256": "ebe4476de1eebf33cc045962d03cc90d701fb4a8c2689353d34e146102acf443"
+        }
       ]
     },
     {
@@ -675,9 +1296,64 @@
           "readme_line": 779
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2604.25850.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11311,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 31
+          },
+          {
+            "term": "tools",
+            "count": 10
+          },
+          {
+            "term": "memory",
+            "count": 8
+          },
+          {
+            "term": "execution",
+            "count": 7
+          },
+          {
+            "term": "code",
+            "count": 4
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2604.25850.pdf",
+          "bytes": 1432986,
+          "sha256": "299f2633b4c13db7bed52434b4db7c48ea621993581014d30e7bcd036d3464df"
+        }
       ]
     },
     {
@@ -708,9 +1384,69 @@
           "readme_line": 787
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2407.01489.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12279,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 37
+          },
+          {
+            "term": "code",
+            "count": 31
+          },
+          {
+            "term": "environment",
+            "count": 17
+          },
+          {
+            "term": "tools",
+            "count": 17
+          },
+          {
+            "term": "feedback",
+            "count": 16
+          },
+          {
+            "term": "planning",
+            "count": 5
+          },
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2407.01489.pdf",
+          "bytes": 1384716,
+          "sha256": "1675c2dcd5ecaef47e8a4356062f60be642cee82e1bbacb044c9d047dce4c856"
+        }
       ]
     },
     {
@@ -732,9 +1468,74 @@
           "readme_line": 422
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2507.19902.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12092,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 60
+          },
+          {
+            "term": "code",
+            "count": 54
+          },
+          {
+            "term": "planning",
+            "count": 18
+          },
+          {
+            "term": "multi-agent",
+            "count": 9
+          },
+          {
+            "term": "memory",
+            "count": 7
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2507.19902.pdf",
+          "bytes": 154926,
+          "sha256": "d5cd503676f4243be45ece2b9a7f17ba4dd254987ab8ec59d1884a3254efdf57"
+        }
       ]
     },
     {
@@ -756,8 +1557,71 @@
           "readme_line": 880
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/oWdzUpOlkX.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13367,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 64
+          },
+          {
+            "term": "environment",
+            "count": 13
+          },
+          {
+            "term": "memory",
+            "count": 7
+          },
+          {
+            "term": "planning",
+            "count": 5
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "multi-agent",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/oWdzUpOlkX.pdf",
+          "bytes": 2449463,
+          "sha256": "0d219532fc5d826ac8a0bb470f5815cb563ee6ccc7885ba717d78ce82e45e3cf"
+        }
+      ]
     },
     {
       "paper_id": "agentracer-who-is-inducing-failure-in-the-llm-agentic-systems-e747c976",
@@ -778,9 +1642,74 @@
           "readme_line": 862
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2509.03312.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12589,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 60
+          },
+          {
+            "term": "multi-agent",
+            "count": 22
+          },
+          {
+            "term": "memory",
+            "count": 8
+          },
+          {
+            "term": "environment",
+            "count": 5
+          },
+          {
+            "term": "tools",
+            "count": 4
+          },
+          {
+            "term": "code",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2509.03312.pdf",
+          "bytes": 7702972,
+          "sha256": "f4461ace11c5c9d33eee81cf3a8584ff7cbeba210933de1c2990500aee5d693e"
+        }
       ]
     },
     {
@@ -802,9 +1731,64 @@
           "readme_line": 1004
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2503.18102.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10596,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 31
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "code",
+            "count": 3
+          },
+          {
+            "term": "multi-agent",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2503.18102.pdf",
+          "bytes": 2757188,
+          "sha256": "762045781a10140f714e0f23388014286a50cce79f385d6b4a1475162cce9669"
+        }
       ]
     },
     {
@@ -826,9 +1810,74 @@
           "readme_line": 978
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2410.14209.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 16397,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 93
+          },
+          {
+            "term": "agent",
+            "count": 52
+          },
+          {
+            "term": "feedback",
+            "count": 14
+          },
+          {
+            "term": "multi-agent",
+            "count": 11
+          },
+          {
+            "term": "environment",
+            "count": 8
+          },
+          {
+            "term": "tools",
+            "count": 8
+          },
+          {
+            "term": "memory",
+            "count": 4
+          },
+          {
+            "term": "planning",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2410.14209.pdf",
+          "bytes": 819631,
+          "sha256": "1c76d775ef4dff03c724fc446be809b6a5db67fefd7163870f5dadd6bb9b294a"
+        }
       ]
     },
     {
@@ -850,9 +1899,74 @@
           "readme_line": 360
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2410.14209.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 16397,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 93
+          },
+          {
+            "term": "agent",
+            "count": 52
+          },
+          {
+            "term": "feedback",
+            "count": 14
+          },
+          {
+            "term": "multi-agent",
+            "count": 11
+          },
+          {
+            "term": "environment",
+            "count": 8
+          },
+          {
+            "term": "tools",
+            "count": 8
+          },
+          {
+            "term": "memory",
+            "count": 4
+          },
+          {
+            "term": "planning",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2410.14209.pdf",
+          "bytes": 819631,
+          "sha256": "1c76d775ef4dff03c724fc446be809b6a5db67fefd7163870f5dadd6bb9b294a"
+        }
       ]
     },
     {
@@ -874,9 +1988,74 @@
           "readme_line": 290
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2601.15709.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 17790,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 77
+          },
+          {
+            "term": "tools",
+            "count": 30
+          },
+          {
+            "term": "memory",
+            "count": 23
+          },
+          {
+            "term": "planning",
+            "count": 15
+          },
+          {
+            "term": "execution",
+            "count": 14
+          },
+          {
+            "term": "environment",
+            "count": 6
+          },
+          {
+            "term": "code",
+            "count": 5
+          },
+          {
+            "term": "multi-agent",
+            "count": 2
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2601.15709.pdf",
+          "bytes": 1934006,
+          "sha256": "5f8f262e7ad8bb7b07753d025a587f9f7401d536ba27cca04928bb53f13f7de9"
+        }
       ]
     },
     {
@@ -905,8 +2084,41 @@
           "readme_line": 828
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html"
+      ],
+      "integrated_at": "2026-06-02T08:58:40+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 844,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "environment",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "environment"
+        ]
+      },
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html",
+          "bytes": 50006,
+          "sha256": "854a9da7f7c8437b6c821496db7007ddcad836c0b55d5507fe53479a994ba2eb"
+        }
+      ]
     },
     {
       "paper_id": "aide-ai-driven-exploration-in-the-space-of-code-c428072e",
@@ -927,9 +2139,64 @@
           "readme_line": 1014
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2502.13138.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10753,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 10
+          },
+          {
+            "term": "agent",
+            "count": 8
+          },
+          {
+            "term": "memory",
+            "count": 7
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 2
+          },
+          {
+            "term": "planning",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2502.13138.pdf",
+          "bytes": 648632,
+          "sha256": "5fc52573eab9c8cb568b0c5aab6ee75752d198504babf8278ad23fe3d542cb41"
+        }
       ]
     },
     {
@@ -951,8 +2218,71 @@
           "readme_line": 265
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/KwqbtKeaRl.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 14051,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 39
+          },
+          {
+            "term": "planning",
+            "count": 33
+          },
+          {
+            "term": "agent",
+            "count": 24
+          },
+          {
+            "term": "multi-agent",
+            "count": 6
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 2
+          },
+          {
+            "term": "memory",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/KwqbtKeaRl.pdf",
+          "bytes": 2722615,
+          "sha256": "330084c8421a12b27a80738dfa8d1bf48f81d9f7cdadd1b41fc84a5ad4eb89f8"
+        }
+      ]
     },
     {
       "paper_id": "alibaba-lingmaagent-improving-automated-issue-resolution-via-comprehensi-5d60564d",
@@ -995,9 +2325,64 @@
           "readme_line": 190
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2601.13247.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11185,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "environment",
+            "count": 34
+          },
+          {
+            "term": "agent",
+            "count": 32
+          },
+          {
+            "term": "memory",
+            "count": 16
+          },
+          {
+            "term": "planning",
+            "count": 4
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "code",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2601.13247.pdf",
+          "bytes": 1096240,
+          "sha256": "8dbe05fe1a0390204d49b1437ad15a0be69df87034981cc792140234b48204cd"
+        }
       ]
     },
     {
@@ -1019,9 +2404,74 @@
           "readme_line": 423
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2510.03463.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 14219,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 78
+          },
+          {
+            "term": "agent",
+            "count": 77
+          },
+          {
+            "term": "memory",
+            "count": 12
+          },
+          {
+            "term": "multi-agent",
+            "count": 10
+          },
+          {
+            "term": "feedback",
+            "count": 8
+          },
+          {
+            "term": "tools",
+            "count": 8
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "planning",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2510.03463.pdf",
+          "bytes": 529202,
+          "sha256": "d4b99bcfde3fe3b4ca808461de18dbbe7ba5d3645c327edf425418e91c85ec2e"
+        }
       ]
     },
     {
@@ -1043,9 +2493,54 @@
           "readme_line": 1023
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2506.13131.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10141,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 10
+          },
+          {
+            "term": "agent",
+            "count": 9
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "feedback",
+            "count": 5
+          },
+          {
+            "term": "execution",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "feedback"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2506.13131.pdf",
+          "bytes": 3525764,
+          "sha256": "f092c8cbd65da89951ee6496374da9a54963f9035758c25ac6e4625f506df9ad"
+        }
       ]
     },
     {
@@ -1074,9 +2569,69 @@
           "readme_line": 980
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2601.19510.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 16481,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 37
+          },
+          {
+            "term": "planning",
+            "count": 23
+          },
+          {
+            "term": "environment",
+            "count": 20
+          },
+          {
+            "term": "execution",
+            "count": 18
+          },
+          {
+            "term": "code",
+            "count": 17
+          },
+          {
+            "term": "tools",
+            "count": 14
+          },
+          {
+            "term": "feedback",
+            "count": 4
+          },
+          {
+            "term": "memory",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2601.19510.pdf",
+          "bytes": 840815,
+          "sha256": "e45ac14a2288afb3016c7cfee3969a5e92d152de59f40f403dfdff1f8b699daf"
+        }
       ]
     },
     {
@@ -1098,8 +2653,56 @@
           "readme_line": 1031
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "html-text",
+          "characters": 30000,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "memory",
+            "count": 9
+          },
+          {
+            "term": "agent",
+            "count": 3
+          },
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "planning",
+          "memory",
+          "feedback"
+        ]
+      },
+      "source_family": "html",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html",
+          "bytes": 462159,
+          "sha256": "08ce058e2f6e13a99ed281db079fa480e08a50abf171290278653dc2aba847cc"
+        }
+      ]
     },
     {
       "paper_id": "androidlab-training-and-systematic-benchmarking-of-android-autonomous-ag-18425c00",
@@ -1120,9 +2723,69 @@
           "readme_line": 922
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2410.24024.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12517,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "environment",
+            "count": 29
+          },
+          {
+            "term": "agent",
+            "count": 24
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2410.24024.pdf",
+          "bytes": 6932033,
+          "sha256": "70233eb37c74ce4e3973a6d7c86f7b3ea07dff4045b763adcc52f22e2b76df61"
+        }
       ]
     },
     {
@@ -1166,9 +2829,64 @@
           "readme_line": 908
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2312.13771.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12557,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 40
+          },
+          {
+            "term": "environment",
+            "count": 6
+          },
+          {
+            "term": "tools",
+            "count": 6
+          },
+          {
+            "term": "memory",
+            "count": 5
+          },
+          {
+            "term": "code",
+            "count": 1
+          },
+          {
+            "term": "multi-agent",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "planning",
+          "memory",
+          "tools",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2312.13771.pdf",
+          "bytes": 3797687,
+          "sha256": "ce9840204e13889f899e326def62005ed9871a0a6ab5d44f716343c4142ef045"
+        }
       ]
     },
     {
@@ -1212,9 +2930,64 @@
           "readme_line": 856
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2503.15223.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 19075,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "feedback",
+            "count": 31
+          },
+          {
+            "term": "tools",
+            "count": 18
+          },
+          {
+            "term": "code",
+            "count": 10
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "environment",
+            "count": 5
+          },
+          {
+            "term": "agent",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2503.15223.pdf",
+          "bytes": 1045458,
+          "sha256": "b2db368d3c9632795c0c719270184b88a5602122a9e5515c51e6acc669af555f"
+        }
       ]
     },
     {
@@ -1236,9 +3009,54 @@
           "readme_line": 898
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2412.16256.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13816,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 14
+          },
+          {
+            "term": "memory",
+            "count": 7
+          },
+          {
+            "term": "planning",
+            "count": 6
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "execution",
+          "planning",
+          "memory",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2412.16256.pdf",
+          "bytes": 3843901,
+          "sha256": "169bc7694b456530ce8a6f0336b7efc33a32a21a731e1656caf4934e83f59334"
+        }
       ]
     },
     {
@@ -1268,9 +3086,64 @@
           "readme_line": 765
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2404.05427.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 19467,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 111
+          },
+          {
+            "term": "feedback",
+            "count": 26
+          },
+          {
+            "term": "memory",
+            "count": 21
+          },
+          {
+            "term": "agent",
+            "count": 13
+          },
+          {
+            "term": "tools",
+            "count": 5
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2404.05427.pdf",
+          "bytes": 1580568,
+          "sha256": "b1f6a5942947276b4f1f9cdc2cb43ff3d383223cab7e779a498b9def9593f60a"
+        }
       ]
     },
     {
@@ -1292,8 +3165,66 @@
           "readme_line": 429
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/BAakY1hNKS.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11001,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 66
+          },
+          {
+            "term": "multi-agent",
+            "count": 17
+          },
+          {
+            "term": "code",
+            "count": 14
+          },
+          {
+            "term": "tools",
+            "count": 9
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "execution",
+            "count": 4
+          },
+          {
+            "term": "feedback",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "multi-agent"
+        ]
+      },
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/BAakY1hNKS.pdf",
+          "bytes": 3366211,
+          "sha256": "b1050948cf2c3aceaed607f650b02c04d1e3225bf364bcb0b3690bfe5d90bad8"
+        }
+      ]
     },
     {
       "paper_id": "autoglm-autonomous-foundation-agents-for-guis-37e341b3",
@@ -1314,9 +3245,44 @@
           "readme_line": 911
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2411.00820.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 8664,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 23
+          },
+          {
+            "term": "environment",
+            "count": 6
+          },
+          {
+            "term": "planning",
+            "count": 4
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "planning",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2411.00820.pdf",
+          "bytes": 12773405,
+          "sha256": "93f5c46e6a401cf221af9886ce4aa6634b5f64ca1aaa192ffd367339985c50f1"
+        }
       ]
     },
     {
@@ -1338,9 +3304,64 @@
           "readme_line": 778
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2603.03329.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 11307,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 37
+          },
+          {
+            "term": "environment",
+            "count": 8
+          },
+          {
+            "term": "agent",
+            "count": 7
+          },
+          {
+            "term": "feedback",
+            "count": 6
+          },
+          {
+            "term": "memory",
+            "count": 5
+          },
+          {
+            "term": "planning",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2603.03329.pdf",
+          "bytes": 917772,
+          "sha256": "8399c0a6a76a38c1a96804c88d0bac69286fe52ba3f255cba9175e3882fecf19"
+        }
       ]
     },
     {
@@ -1426,9 +3447,64 @@
           "readme_line": 720
         }
       ],
-      "source_status": "localized",
+      "source_status": "integrated",
       "local_source_paths": [
         "sources/raw/arxiv/2409.10737.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 9213,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 50
+          },
+          {
+            "term": "agent",
+            "count": 47
+          },
+          {
+            "term": "multi-agent",
+            "count": 12
+          },
+          {
+            "term": "execution",
+            "count": 11
+          },
+          {
+            "term": "feedback",
+            "count": 7
+          },
+          {
+            "term": "memory",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "multi-agent"
+        ]
+      },
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2409.10737.pdf",
+          "bytes": 1352559,
+          "sha256": "c5b84e48249d31f490cee33b8a0a70ffd03d511680c0c2a6ab65790e9f4c7b03"
+        }
       ]
     },
     {
@@ -1450,8 +3526,61 @@
           "readme_line": 933
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2404.03648.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13692,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 27
+          },
+          {
+            "term": "memory",
+            "count": 9
+          },
+          {
+            "term": "environment",
+            "count": 8
+          },
+          {
+            "term": "code",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "environment"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2404.03648.pdf",
+          "bytes": 8809918,
+          "sha256": "ee5100b55bdcc64eca63c5a0f9604a61dcaf60efdeea44838f60ba246cedfa72"
+        }
+      ]
     },
     {
       "paper_id": "bench-a-benchmark-for-tool-agent-user-interaction-in-real-world-domains-9a9389db",
@@ -1472,8 +3601,71 @@
           "readme_line": 827
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/roNSXZpUDN.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13040,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 51
+          },
+          {
+            "term": "tools",
+            "count": 20
+          },
+          {
+            "term": "environment",
+            "count": 13
+          },
+          {
+            "term": "memory",
+            "count": 13
+          },
+          {
+            "term": "feedback",
+            "count": 5
+          },
+          {
+            "term": "code",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/roNSXZpUDN.pdf",
+          "bytes": 519645,
+          "sha256": "e2d45d573e1fce753ead1a44cc468ad386dd384e2668450d0a9c0e2c7920ada0"
+        }
+      ]
     },
     {
       "paper_id": "beyond-static-sandboxing-learned-capability-governance-for-autonomous-ai-a8b8b443",
@@ -1494,8 +3686,66 @@
           "readme_line": 864
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2604.11839.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10337,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 39
+          },
+          {
+            "term": "tools",
+            "count": 28
+          },
+          {
+            "term": "execution",
+            "count": 11
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "code",
+            "count": 2
+          },
+          {
+            "term": "environment",
+            "count": 1
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2604.11839.pdf",
+          "bytes": 281978,
+          "sha256": "5547ceffdc5e498aa5715d3291e6e8677f42e6a1a0e991ed0b05eda85708c177"
+        }
+      ]
     },
     {
       "paper_id": "biomni-a-general-purpose-biomedical-ai-agent-d7e73904",
@@ -1538,8 +3788,66 @@
           "readme_line": 1002
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/acl/2023.emnlp-main.162.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13519,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "planning",
+            "count": 18
+          },
+          {
+            "term": "code",
+            "count": 3
+          },
+          {
+            "term": "environment",
+            "count": 3
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          },
+          {
+            "term": "agent",
+            "count": 2
+          },
+          {
+            "term": "execution",
+            "count": 2
+          },
+          {
+            "term": "tools",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "acl",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/acl/2023.emnlp-main.162.pdf",
+          "bytes": 2927169,
+          "sha256": "f360fc7aa1d8ed32f46afdedbf2bd7de38fb7696f812a063663884598a457dce"
+        }
+      ]
     },
     {
       "paper_id": "blueprint2code-a-multi-agent-pipeline-for-reliable-code-generation-via-b-dcaf0320",
@@ -1582,8 +3890,76 @@
           "readme_line": 583
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2512.23631.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 13427,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 86
+          },
+          {
+            "term": "multi-agent",
+            "count": 18
+          },
+          {
+            "term": "code",
+            "count": 14
+          },
+          {
+            "term": "environment",
+            "count": 6
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "execution",
+            "count": 5
+          },
+          {
+            "term": "tools",
+            "count": 4
+          },
+          {
+            "term": "feedback",
+            "count": 1
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2512.23631.pdf",
+          "bytes": 444677,
+          "sha256": "38e6a8b882546038e899637fe6016d4ffd240cc382c078960b9f01879cd88767"
+        }
+      ]
     },
     {
       "paper_id": "bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-languag-6e0dd321",
@@ -1611,8 +3987,61 @@
           "readme_line": 953
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2310.10021.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 12530,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "agent",
+            "count": 17
+          },
+          {
+            "term": "environment",
+            "count": 11
+          },
+          {
+            "term": "execution",
+            "count": 10
+          },
+          {
+            "term": "memory",
+            "count": 6
+          },
+          {
+            "term": "planning",
+            "count": 4
+          },
+          {
+            "term": "feedback",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "execution",
+          "planning",
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2310.10021.pdf",
+          "bytes": 7265220,
+          "sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171"
+        }
+      ]
     },
     {
       "paper_id": "building-more-with-gpt-5-1-codex-max-4ff7e209",
@@ -1657,8 +4086,56 @@
           "readme_line": 88
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2312.04474.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 14975,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 106
+          },
+          {
+            "term": "execution",
+            "count": 35
+          },
+          {
+            "term": "memory",
+            "count": 24
+          },
+          {
+            "term": "environment",
+            "count": 1
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "code",
+          "execution",
+          "memory",
+          "tools",
+          "environment"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2312.04474.pdf",
+          "bytes": 1794437,
+          "sha256": "3ea67386c3612262130b284f4f74c6c2fc6e137fa3f6b375f34182aa18a72e3b"
+        }
+      ]
     },
     {
       "paper_id": "chain-of-thought-prompting-elicits-reasoning-in-large-language-models-f78bfa67",
@@ -1679,8 +4156,46 @@
           "readme_line": 96
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/openreview/_VjQlMeSB_J.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 10896,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "environment",
+            "count": 6
+          },
+          {
+            "term": "memory",
+            "count": 5
+          },
+          {
+            "term": "feedback",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "memory",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "openreview",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/openreview/_VjQlMeSB_J.pdf",
+          "bytes": 394192,
+          "sha256": "880df0b46e8b4f77248d92a639dca69b96e57cad626e6fad0b4f5d746b930bd5"
+        }
+      ]
     },
     {
       "paper_id": "chatdev-communicative-agents-for-software-development-204be492",
@@ -1772,8 +4287,71 @@
           "readme_line": 944
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2306.17582.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 9735,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 13
+          },
+          {
+            "term": "environment",
+            "count": 5
+          },
+          {
+            "term": "feedback",
+            "count": 4
+          },
+          {
+            "term": "tools",
+            "count": 4
+          },
+          {
+            "term": "agent",
+            "count": 3
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "memory",
+            "count": 3
+          },
+          {
+            "term": "planning",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2306.17582.pdf",
+          "bytes": 2557420,
+          "sha256": "032be1d08ba644cc8795f3d8db4b7abfc17710b19181f1737d83c3365a438a0a"
+        }
+      ]
     },
     {
       "paper_id": "chemcrow-augmenting-large-language-models-with-chemistry-tools-df0e3895",
@@ -1840,8 +4418,56 @@
           "readme_line": 502
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2403.08291.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 18002,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 32
+          },
+          {
+            "term": "agent",
+            "count": 19
+          },
+          {
+            "term": "tools",
+            "count": 16
+          },
+          {
+            "term": "memory",
+            "count": 12
+          },
+          {
+            "term": "execution",
+            "count": 3
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "memory",
+          "tools"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2403.08291.pdf",
+          "bytes": 2356463,
+          "sha256": "47dae4dd7be2256e382c3d5e8776e2582a0f79177468ba2c53fc90a7c73a10c0"
+        }
+      ]
     },
     {
       "paper_id": "code-as-policies-language-model-programs-for-embodied-control-b943849c",
@@ -1870,8 +4496,71 @@
           "readme_line": 943
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2209.07753.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 18745,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 61
+          },
+          {
+            "term": "planning",
+            "count": 10
+          },
+          {
+            "term": "feedback",
+            "count": 7
+          },
+          {
+            "term": "memory",
+            "count": 5
+          },
+          {
+            "term": "environment",
+            "count": 4
+          },
+          {
+            "term": "execution",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 3
+          },
+          {
+            "term": "agent",
+            "count": 2
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2209.07753.pdf",
+          "bytes": 3200561,
+          "sha256": "e36857fa13746da031444ec59549e61204ca92d599b1d048ac1c55aaf1f6d0a3"
+        }
+      ]
     },
     {
       "paper_id": "code-as-symbolic-planner-foundation-model-based-robot-planning-via-symbo-0ef8c8e2",
@@ -1892,8 +4581,76 @@
           "readme_line": 106
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "integrated",
+      "local_source_paths": [
+        "sources/raw/arxiv/2503.01700.pdf"
+      ],
+      "integrated_at": "2026-06-02T08:58:41+00:00",
+      "source_signal": {
+        "extraction": {
+          "method": "pdftotext",
+          "characters": 18112,
+          "max_pages_per_pdf": 3
+        },
+        "term_cues": [
+          {
+            "term": "code",
+            "count": 80
+          },
+          {
+            "term": "planning",
+            "count": 48
+          },
+          {
+            "term": "memory",
+            "count": 12
+          },
+          {
+            "term": "environment",
+            "count": 7
+          },
+          {
+            "term": "execution",
+            "count": 7
+          },
+          {
+            "term": "agent",
+            "count": 6
+          },
+          {
+            "term": "feedback",
+            "count": 6
+          },
+          {
+            "term": "multi-agent",
+            "count": 3
+          },
+          {
+            "term": "tools",
+            "count": 1
+          }
+        ],
+        "detected_topics": [
+          "agent",
+          "code",
+          "execution",
+          "planning",
+          "memory",
+          "tools",
+          "feedback",
+          "environment",
+          "multi-agent"
+        ]
+      },
+      "source_family": "arxiv",
+      "integration_status": "auto-extracted",
+      "source_file_metadata": [
+        {
+          "path": "sources/raw/arxiv/2503.01700.pdf",
+          "bytes": 4734875,
+          "sha256": "13e2175461bf088cb55a5e8c036312431978153aac60521286b176725ed5d8b7"
+        }
+      ]
     },
     {
       "paper_id": "code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tas-e57c984e",
@@ -1943,8 +4700,11 @@
           "readme_line": 90
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/arxiv/2510.20909.pdf"
+      ],
+      "source_family": "arxiv"
     },
     {
       "paper_id": "code-generation-with-alphacodium-from-prompt-engineering-to-flow-enginee-15b7c04f",
@@ -2009,8 +4769,11 @@
           "readme_line": 448
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.neurips.cc/code-repair-with-llms-gives-an-exploration-exploitation-tradeoff-67957ea8.html"
+      ],
+      "source_family": "neurips"
     },
     {
       "paper_id": "code2world-a-gui-world-model-via-renderable-code-generation-7301fde3",
@@ -2082,8 +4845,11 @@
           "readme_line": 831
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/acl/2024.emnlp-main.632.pdf"
+      ],
+      "source_family": "acl"
     },
     {
       "paper_id": "codeagent-enhancing-code-generation-with-tool-integrated-agent-systems-f-00f877e6",
@@ -2112,8 +4878,11 @@
           "readme_line": 839
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/acl/2024.acl-long.737.pdf"
+      ],
+      "source_family": "acl"
     },
     {
       "paper_id": "codecor-an-llm-based-self-reflective-multi-agent-framework-for-code-gene-6534041a",
@@ -2272,8 +5041,11 @@
           "readme_line": 123
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/acl/2025.findings-acl.428.pdf"
+      ],
+      "source_family": "acl"
     },
     {
       "paper_id": "codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-1d7fa345",
@@ -2338,8 +5110,11 @@
           "readme_line": 122
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/openreview/WaGvb7OzySA.pdf"
+      ],
+      "source_family": "openreview"
     },
     {
       "paper_id": "codesteer-symbolic-augmented-language-models-via-code-text-guidance-691bb2b4",
@@ -2404,8 +5179,11 @@
           "readme_line": 251
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/acl/2025.naacl-long.189.pdf"
+      ],
+      "source_family": "acl"
     },
     {
       "paper_id": "codex-security-now-in-research-preview-45e5887e",
@@ -2686,8 +5464,11 @@
           "readme_line": 201
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/neurips.cc/core-benchmarking-llms-code-reasoning-capabilities-through-static-analysis-tasks-2044e091.html"
+      ],
+      "source_family": "neurips"
     },
     {
       "paper_id": "cp-agent-agentic-constraint-programming-f117f2ca",
@@ -2737,8 +5518,11 @@
           "readme_line": 892
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.mlr.press/cradle-empowering-foundation-agents-towards-general-computer-control-ef56cc84.html"
+      ],
+      "source_family": "pmlr"
     },
     {
       "paper_id": "cruxeval-a-benchmark-for-code-reasoning-understanding-and-execution-f67bd9bf",
@@ -2781,8 +5565,11 @@
           "readme_line": 206
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/acl/2025.acl-long.1158.pdf"
+      ],
+      "source_family": "acl"
     },
     {
       "paper_id": "cwm-an-open-weights-llm-for-research-on-code-generation-with-world-model-f3c77c94",
@@ -2847,8 +5634,11 @@
           "readme_line": 249
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/acl/2025.acl-long.973.pdf"
+      ],
+      "source_family": "acl"
     },
     {
       "paper_id": "debug-like-a-human-a-large-language-model-debugger-via-verifying-runtime-6a2d11cf",
@@ -2869,8 +5659,11 @@
           "readme_line": 449
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/acl/2024.findings-acl.49.pdf"
+      ],
+      "source_family": "acl"
     },
     {
       "paper_id": "deductive-verification-via-the-debug-adapter-protocol-ff625d05",
@@ -3142,8 +5935,11 @@
           "readme_line": 304
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/openreview/6ycX677p2l.pdf"
+      ],
+      "source_family": "openreview"
     },
     {
       "paper_id": "evaluating-large-language-models-trained-on-code-eaa16e87",
@@ -3252,8 +6048,11 @@
           "readme_line": 1007
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/openreview/8oJyuXfrPv.pdf"
+      ],
+      "source_family": "openreview"
     },
     {
       "paper_id": "execution-guided-line-by-line-code-generation-81a6e31d",
@@ -3274,8 +6073,11 @@
           "readme_line": 118
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/openreview/ySFDPoiANu.pdf"
+      ],
+      "source_family": "openreview"
     },
     {
       "paper_id": "expectation-vs-experience-evaluating-the-usability-of-code-generation-to-ba30097e",
@@ -3318,8 +6120,11 @@
           "readme_line": 305
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html"
+      ],
+      "source_family": "aaai"
     },
     {
       "paper_id": "fault-tolerant-sandboxing-for-ai-coding-agents-a-transactional-approach-260e82ac",
@@ -3538,8 +6343,11 @@
           "readme_line": 176
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/openreview.net/from-programs-to-poses-factored-real-world-scene-generation-via-learned-program-b37f0ed9.html"
+      ],
+      "source_family": "openreview"
     },
     {
       "paper_id": "g-memory-tracing-hierarchical-memory-for-multi-agent-systems-cebec3f0",
@@ -3633,8 +6441,11 @@
           "readme_line": 250
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.neurips.cc/generating-code-world-models-with-large-language-models-guided-by-monte-carlo-tr-ed1bed97.html"
+      ],
+      "source_family": "neurips"
     },
     {
       "paper_id": "genswarm-scalable-multi-robot-code-policy-generation-and-deployment-via-b4a3a391",
@@ -3707,8 +6518,11 @@
           "readme_line": 881
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html"
+      ],
+      "source_family": "pmlr"
     },
     {
       "paper_id": "graph-of-thoughts-solving-elaborate-problems-with-large-language-models-1c841461",
@@ -3729,8 +6543,11 @@
           "readme_line": 105
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/ojs.aaai.org/graph-of-thoughts-solving-elaborate-problems-with-large-language-models-d802d17b.html"
+      ],
+      "source_family": "aaai"
     },
     {
       "paper_id": "growing-with-your-embodied-agent-a-human-in-the-loop-lifelong-code-gener-7092156e",
@@ -3876,8 +6693,11 @@
           "readme_line": 850
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/pdf/how-anthropic-teams-use-claude-code-7fc8bc72.pdf"
+      ],
+      "source_family": "direct-pdf"
     },
     {
       "paper_id": "human-ai-experience-in-integrated-development-environments-a-systematic-5a126d05",
@@ -4060,8 +6880,11 @@
           "readme_line": 207
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.neurips.cc/intercode-standardizing-and-benchmarking-interactive-coding-with-execution-feedb-97ec9a72.html"
+      ],
+      "source_family": "neurips"
     },
     {
       "paper_id": "introducing-aardvark-openai-s-agentic-security-researcher-4f6b5d20",
@@ -5820,8 +8643,11 @@
           "readme_line": 92
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.mlr.press/pal-program-aided-language-models-f5ec9d83.html"
+      ],
+      "source_family": "pmlr"
     },
     {
       "paper_id": "palm-e-an-embodied-multimodal-language-model-691c0be0",
@@ -6847,8 +9673,11 @@
           "readme_line": 139
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.mlr.press/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition-031cdb59.html"
+      ],
+      "source_family": "pmlr"
     },
     {
       "paper_id": "scienceagentbench-toward-rigorous-assessment-of-language-agents-for-data-80d4c78e",
@@ -7066,8 +9895,11 @@
           "readme_line": 102
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/neurips.cc/self-verifying-reflection-helps-transformers-with-cot-reasoning-734593de.html"
+      ],
+      "source_family": "neurips"
     },
     {
       "paper_id": "semcoder-training-code-language-models-with-comprehensive-semantics-reas-4b1a7d41",
@@ -7307,8 +10139,11 @@
           "readme_line": 902
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.neurips.cc/spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-enginee-fe22bc30.html"
+      ],
+      "source_family": "neurips"
     },
     {
       "paper_id": "ssr-socratic-self-refine-for-large-language-model-reasoning-833e8f4e",
@@ -8333,8 +11168,11 @@
           "readme_line": 239
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/ojs.aaai.org/verilogcoder-autonomous-verilog-coding-agents-with-graph-based-planning-and-abst-efa2a154.html"
+      ],
+      "source_family": "aaai"
     },
     {
       "paper_id": "vireskill-vision-grounded-replanning-with-skill-memory-for-llm-based-pla-5e0ae7fb",
@@ -8503,8 +11341,11 @@
           "readme_line": 919
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html"
+      ],
+      "source_family": "neurips"
     },
     {
       "paper_id": "webvoyager-building-an-end-to-end-web-agent-with-large-multimodal-models-3808815b",
@@ -8569,8 +11410,11 @@
           "readme_line": 91
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html"
+      ],
+      "source_family": "aaai"
     },
     {
       "paper_id": "where-llm-agents-fail-and-how-they-can-learn-from-failures-d05296df",
@@ -8657,8 +11501,11 @@
           "readme_line": 879
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.mlr.press/windows-agent-arena-evaluating-multi-modal-os-agents-at-scale-e0f66ef6.html"
+      ],
+      "source_family": "pmlr"
     },
     {
       "paper_id": "workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-ta-a32eabd8",
@@ -8679,8 +11526,11 @@
           "readme_line": 885
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/html/proceedings.mlr.press/workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-tasks-0e548353.html"
+      ],
+      "source_family": "pmlr"
     },
     {
       "paper_id": "worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-f1f4d068",
@@ -8701,8 +11551,11 @@
           "readme_line": 191
         }
       ],
-      "source_status": "pending",
-      "local_source_paths": []
+      "source_status": "localized",
+      "local_source_paths": [
+        "sources/raw/pdf/worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-and-int-e1cb6952.pdf"
+      ],
+      "source_family": "neurips"
     },
     {
       "paper_id": "your-code-agent-can-grow-alongside-you-with-structured-memory-641509f7",
