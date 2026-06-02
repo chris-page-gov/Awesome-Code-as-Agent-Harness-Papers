@@ -3,7 +3,7 @@ title: "Wiki Plan"
 note_type: "progress"
 status: "active"
 tags: ["progress", "plan"]
-related: ["completion-dashboard.md", "phase-log.md", "../../plans/2026-06-02-llm-wiki-conversion.md", "../../plans/2026-06-02-claim-cards-and-evaluation-suite.md"]
+related: ["completion-dashboard.md", "phase-log.md", "../../plans/2026-06-02-llm-wiki-conversion.md", "../../plans/2026-06-02-claim-cards-and-evaluation-suite.md", "../../plans/2026-06-02-seelinks-claim-review-package.md"]
 last_reviewed: "2026-06-02"
 ---
 
@@ -29,3 +29,4 @@ evaluation scenarios.
 - Claim Card generation and review.
 - Evidence packet and bibliography export.
 - Reusable LLM-Wiki evaluation scenarios.
+- SeeLinks assertion-pack export for human review of Claim Cards and gaps.

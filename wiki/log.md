@@ -28,3 +28,6 @@ last_reviewed: "2026-06-02"
   note.
 - Added reports reviewing that draft against the wiki corpus and evaluating the
   wiki-first research workflow.
+- Added Claim Cards, evidence packets, evaluation tooling, and a SeeLinks
+  assertion-pack export that turns curated Claim Cards into a human-review
+  surface.

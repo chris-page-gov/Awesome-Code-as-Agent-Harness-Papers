@@ -37,6 +37,11 @@ scientific discovery agents, and embodied agents.
 - The generated claim register at [wiki/data/claim-register.json](wiki/data/claim-register.json)
   records atomic source-bounded Claim Cards linked from paper fragments and
   synthesis topics.
+- The generated SeeLinks assertion demo pack at
+  [exports/seelinks/code-agent-harness-claim-review-demo/pack.json](exports/seelinks/code-agent-harness-claim-review-demo/pack.json)
+  maps curated Claim Cards, evidence locators, gap cards, volatile-source
+  warnings, evidence packets, and graph edges into the live SeeLinks
+  `seelinks-assertions` pack format for human review.
 - README paper rows now link to local fragments under [wiki/papers/](wiki/papers/);
   each fragment preserves the canonical external source URL.
 - Source-localization batches have fetched the survey PDF plus 353 unique paper
@@ -77,3 +82,6 @@ This repo follows the recent local LLM-Wiki pattern found in:
 - Use `tools/generate_claim_cards.py`, `tools/review_claim_cards.py`,
   `tools/build_evidence_packet.py`, `tools/export_bibliography.py`, and
   `tools/evaluate_llm_wiki.py` for the claim-card evidence layer.
+- Use `tools/build_seelinks_claim_pack.py` to regenerate the curated SeeLinks
+  Claim Card review package. Keep SeeLinks `review_state` separate from wiki
+  `evidence_tier`; generated agent review must not be treated as human review.

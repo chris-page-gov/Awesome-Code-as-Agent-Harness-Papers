@@ -48,6 +48,7 @@ around the *Code as Agent Harness* survey and README inventory.
 - [Agentic AI Governance UK MCP review](reports/agentic-ai-governance-uk-mcp-review.md)
 - [LLM-Wiki primary-source evaluation](reports/llm-wiki-primary-source-evaluation.md)
 - [LLM-Wiki post-Claim-Card evaluation](reports/llm-wiki-primary-source-evaluation-post-claim-cards.md)
+- [SeeLinks assertion package synergy evaluation](reports/seelinks-assertion-package-synergy-evaluation.md)
 
 ## Paper Fragments
 

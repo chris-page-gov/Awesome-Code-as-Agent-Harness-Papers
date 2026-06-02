@@ -9,6 +9,7 @@ source review was required.
 - [Agentic AI Governance UK MCP review](agentic-ai-governance-uk-mcp-review.md)
 - [LLM-Wiki primary-source evaluation](llm-wiki-primary-source-evaluation.md)
 - [LLM-Wiki post-Claim-Card evaluation](llm-wiki-primary-source-evaluation-post-claim-cards.md)
+- [SeeLinks assertion package synergy evaluation](seelinks-assertion-package-synergy-evaluation.md)
 - [Bibliography export](bibliography.md)
 
 ## Evidence Packets

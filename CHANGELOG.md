@@ -32,6 +32,9 @@ All notable changes to this fork are recorded here.
 - Added claim-backed topic pages for MCP governance, agent safety and
   sandboxing, evidence/observability/redress, and procurement/conformance.
 - Added reusable evaluation fixtures under `tests/wiki_eval/`.
+- Added a SeeLinks Claim Card pack exporter, a curated
+  `seelinks-assertions` demo pack, and a synergy evaluation/specification for
+  Assertion SeeLinks human review.
 
 ### Changed
 

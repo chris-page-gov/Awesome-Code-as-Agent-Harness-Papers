@@ -20,3 +20,4 @@ last_reviewed: "2026-06-02"
 | Bulk source fetch | Done | 354 localized, 354 integrated, 0 blocked, 0 pending. |
 | Claim Cards | Done | 1,148 generated Claim Cards, agent-reviewed and linked from fragments/topics. |
 | Evaluation suite | Done | Golden scenarios and post-Claim-Card evaluation tooling added. |
+| SeeLinks assertion demo pack | Done | 160 curated Claim Cards exported as a `seelinks-assertions` review pack. |

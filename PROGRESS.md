@@ -25,6 +25,8 @@ Last updated: 2026-06-02
 - [x] Added Claim Cards, claim register validation, explicit agent review
   tiers, thematic claim-backed topic pages, evidence-packet tooling,
   bibliography export, and a reusable wiki evaluation suite.
+- [x] Evaluated Claim Card/evidence-packet synergy with Assertion SeeLinks and
+  generated a SeeLinks `seelinks-assertions` demo pack for human review.
 
 ## Open Follow-Ups
 
@@ -35,4 +37,8 @@ Last updated: 2026-06-02
   downloads.
 - Promote repeatedly used, current, source-specific cards to `decision-grade`
   only after the relevant review criteria are met.
+- Copy `exports/seelinks/code-agent-harness-claim-review-demo/` into the
+  SeeLinks static data directory and exercise the workbench UI review flow.
+- Add a round-trip SeeLinks review manifest importer before applying any
+  human-review decisions back to Claim Cards.
 - Re-run wiki validation before each meaningful checkpoint.
