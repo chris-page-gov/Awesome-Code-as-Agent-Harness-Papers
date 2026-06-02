@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-13FFDBE2AF51"
+  - "CLAIM-2D0172341A0C"
+  - "CLAIM-4050D1E7D7CB"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 844 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (1), `environment` (1).
 - Source cue: automated topic tags: `code`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-13FFDBE2AF51](../claims/claim-13ffdbe2af51.md) - The localized source for AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions is too thin for decision-grade synthesis on traceability and audit without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-2D0172341A0C](../claims/claim-2d0172341a0c.md) - AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4050D1E7D7CB](../claims/claim-4050d1e7d7cb.md) - AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

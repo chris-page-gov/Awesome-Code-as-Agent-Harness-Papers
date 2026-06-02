@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2410.14209.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-244CF34441B4"
+  - "CLAIM-265E043A88EF"
+  - "CLAIM-BCC2524C2BAC"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16397 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (93), `agent` (52), `feedback` (14), `multi-agent` (11), `environment` (8), `tools` (8), `memory` (4), `planning` (3), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-244CF34441B4](../claims/claim-244cf34441b4.md) - Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-265E043A88EF](../claims/claim-265e043a88ef.md) - Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BCC2524C2BAC](../claims/claim-bcc2524c2bac.md) - Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

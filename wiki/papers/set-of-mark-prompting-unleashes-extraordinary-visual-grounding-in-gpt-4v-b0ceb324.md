@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2310.11441.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-21A7C514766C"
+  - "CLAIM-577AEA701091"
+  - "CLAIM-92912103B3AF"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9044 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (2), `tools` (2), `code` (1).
 - Source cue: automated topic tags: `code`, `memory`, `tools`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-21A7C514766C](../claims/claim-21a7c514766c.md) - Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-577AEA701091](../claims/claim-577aea701091.md) - Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-92912103B3AF](../claims/claim-92912103b3af.md) - The localized source for Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

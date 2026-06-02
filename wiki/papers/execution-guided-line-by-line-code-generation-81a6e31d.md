@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/ySFDPoiANu.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-347345453291"
+  - "CLAIM-404E21B59495"
+  - "CLAIM-E91D9272ABAF"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9911 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (29), `execution` (23), `feedback` (15), `memory` (13), `environment` (5), `agent` (3), `tools` (3), `planning` (2), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-347345453291](../claims/claim-347345453291.md) - Execution guided line-by-line code generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-404E21B59495](../claims/claim-404e21b59495.md) - Execution guided line-by-line code generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E91D9272ABAF](../claims/claim-e91d9272abaf.md) - Execution guided line-by-line code generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

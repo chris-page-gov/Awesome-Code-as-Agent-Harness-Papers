@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2601.15709.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-09CBFE536A48"
+  - "CLAIM-88811D25B055"
+  - "CLAIM-9EC7F12D3439"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 17790 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (77), `tools` (30), `memory` (23), `planning` (15), `execution` (14), `environment` (6), `code` (5), `multi-agent` (2), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-09CBFE536A48](../claims/claim-09cbfe536a48.md) - AgentSM: Semantic Memory for Agentic Text-to-SQL provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-88811D25B055](../claims/claim-88811d25b055.md) - AgentSM: Semantic Memory for Agentic Text-to-SQL provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9EC7F12D3439](../claims/claim-9ec7f12d3439.md) - AgentSM: Semantic Memory for Agentic Text-to-SQL provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

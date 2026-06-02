@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/8oJyuXfrPv.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-95FAA61BC74F"
+  - "CLAIM-96A094309B35"
+  - "CLAIM-DFAE7647B7C3"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -58,7 +63,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12709 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (36), `tools` (23), `agent` (20), `environment` (12), `feedback` (11), `execution` (9), `memory` (4), `planning` (3).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-95FAA61BC74F](../claims/claim-95faa61bc74f.md) - Executable Code Actions Elicit Better LLM Agents provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-96A094309B35](../claims/claim-96a094309b35.md) - Executable Code Actions Elicit Better LLM Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DFAE7647B7C3](../claims/claim-dfae7647b7c3.md) - Executable Code Actions Elicit Better LLM Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -67,5 +78,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/nature.com/autonomous-chemical-research-with-large-language-models-0c447ea7.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-018328A566D5"
+  - "CLAIM-26203CD38DA7"
+  - "CLAIM-321C44E2FF21"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (22), `planning` (22), `tools` (12), `execution` (7), `feedback` (5), `agent` (4), `environment` (3).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-018328A566D5](../claims/claim-018328a566d5.md) - Autonomous chemical research with large language models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-26203CD38DA7](../claims/claim-26203cd38da7.md) - Autonomous chemical research with large language models provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-321C44E2FF21](../claims/claim-321c44e2ff21.md) - Autonomous chemical research with large language models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

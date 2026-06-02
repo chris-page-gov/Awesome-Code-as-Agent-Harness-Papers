@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2510.11967.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-361D0F90DA82"
+  - "CLAIM-93670E1B219F"
+  - "CLAIM-B6085A6B7C42"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9074 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (46), `agent` (41), `tools` (9), `environment` (1), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-361D0F90DA82](../claims/claim-361d0f90da82.md) - Scaling Long-Horizon LLM Agent via Context-Folding provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-93670E1B219F](../claims/claim-93670e1b219f.md) - Scaling Long-Horizon LLM Agent via Context-Folding provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B6085A6B7C42](../claims/claim-b6085a6b7c42.md) - Scaling Long-Horizon LLM Agent via Context-Folding provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

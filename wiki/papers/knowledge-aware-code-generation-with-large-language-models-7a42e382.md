@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2401.15940.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0CCC5D7199F9"
+  - "CLAIM-AE04CA9FA432"
+  - "CLAIM-BE93FA6841F9"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16384 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (63), `feedback` (5), `planning` (5), `memory` (1).
 - Source cue: automated topic tags: `code`, `planning`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0CCC5D7199F9](../claims/claim-0ccc5d7199f9.md) - Knowledge-Aware Code Generation with Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AE04CA9FA432](../claims/claim-ae04ca9fa432.md) - Knowledge-Aware Code Generation with Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BE93FA6841F9](../claims/claim-be93fa6841f9.md) - Knowledge-Aware Code Generation with Large Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

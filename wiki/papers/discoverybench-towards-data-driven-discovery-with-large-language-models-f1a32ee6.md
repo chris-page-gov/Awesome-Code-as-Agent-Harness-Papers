@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2407.01725.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0D1A5354CC38"
+  - "CLAIM-4C522F8F2DF1"
+  - "CLAIM-5822C467013A"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14660 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (16), `memory` (8), `feedback` (6), `tools` (4), `agent` (3), `code` (3).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0D1A5354CC38](../claims/claim-0d1a5354cc38.md) - DiscoveryBench: Towards Data-Driven Discovery with Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4C522F8F2DF1](../claims/claim-4c522f8f2df1.md) - DiscoveryBench: Towards Data-Driven Discovery with Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5822C467013A](../claims/claim-5822c467013a.md) - DiscoveryBench: Towards Data-Driven Discovery with Large Language Models provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

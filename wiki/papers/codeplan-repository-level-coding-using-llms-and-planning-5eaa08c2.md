@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2309.12499.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-245BAA05C021"
+  - "CLAIM-3E033AD57627"
+  - "CLAIM-F8D4459ADA25"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10887 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (41), `planning` (18), `tools` (10), `memory` (7), `execution` (1), `feedback` (1).
 - Source cue: automated topic tags: `code`, `execution`, `planning`, `memory`, `tools`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-245BAA05C021](../claims/claim-245baa05c021.md) - CodePlan: Repository-Level Coding Using LLMs and Planning provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3E033AD57627](../claims/claim-3e033ad57627.md) - CodePlan: Repository-Level Coding Using LLMs and Planning provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F8D4459ADA25](../claims/claim-f8d4459ada25.md) - CodePlan: Repository-Level Coding Using LLMs and Planning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

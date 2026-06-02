@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2307.12856.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-22F17A595C01"
+  - "CLAIM-BDD4470E4C1F"
+  - "CLAIM-C74AAFEEFBA8"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12990 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (14), `environment` (13), `planning` (13), `code` (12), `memory` (3), `tools` (2), `execution` (1), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-22F17A595C01](../claims/claim-22f17a595c01.md) - A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BDD4470E4C1F](../claims/claim-bdd4470e4c1f.md) - A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C74AAFEEFBA8](../claims/claim-c74aafeefba8.md) - A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

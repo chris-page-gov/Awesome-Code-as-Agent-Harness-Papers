@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/doi.org/llmloop-improving-llm-generated-code-and-tests-through-automated-iterative-feedb-0282d1d0.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-80BA6225FB50"
+  - "CLAIM-87310330B846"
+  - "CLAIM-9FC75AF9FE83"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 848 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (1), `environment` (1), `feedback` (1).
 - Source cue: automated topic tags: `code`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-80BA6225FB50](../claims/claim-80ba6225fb50.md) - LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-87310330B846](../claims/claim-87310330b846.md) - The localized source for LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops is too thin for decision-grade synthesis on approval and human oversight without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-9FC75AF9FE83](../claims/claim-9fc75af9fe83.md) - LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

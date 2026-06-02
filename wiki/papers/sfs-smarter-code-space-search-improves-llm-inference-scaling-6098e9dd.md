@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/openreview.net/sfs-smarter-code-space-search-improves-llm-inference-scaling-253bea75.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-02F0C3962A20"
+  - "CLAIM-8FD86AAF018D"
+  - "CLAIM-FECB706DC148"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 3124 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (9), `memory` (2), `agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-02F0C3962A20](../claims/claim-02f0c3962a20.md) - SFS: Smarter Code Space Search Improves LLM Inference Scaling provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8FD86AAF018D](../claims/claim-8fd86aaf018d.md) - SFS: Smarter Code Space Search Improves LLM Inference Scaling provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FECB706DC148](../claims/claim-fecb706dc148.md) - SFS: Smarter Code Space Search Improves LLM Inference Scaling provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

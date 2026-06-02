@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2022.emnlp-main.48.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3EE0C9C52453"
+  - "CLAIM-A43D49A3187C"
+  - "CLAIM-F786DB6BBE1C"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13078 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (35), `execution` (10), `memory` (10).
 - Source cue: automated topic tags: `code`, `execution`, `memory`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3EE0C9C52453](../claims/claim-3ee0c9c52453.md) - Reasoning Like Program Executors provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A43D49A3187C](../claims/claim-a43d49a3187c.md) - Reasoning Like Program Executors provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F786DB6BBE1C](../claims/claim-f786db6bbe1c.md) - Reasoning Like Program Executors provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

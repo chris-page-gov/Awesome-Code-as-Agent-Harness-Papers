@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2510.03902.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-42C2BFA6102B"
+  - "CLAIM-7F44D6F62E82"
+  - "CLAIM-EF580666CC19"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12234 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (40), `agent` (14), `planning` (8), `multi-agent` (7), `environment` (5), `execution` (5), `feedback` (4), `memory` (4), `tools` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-42C2BFA6102B](../claims/claim-42c2bfa6102b.md) - Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7F44D6F62E82](../claims/claim-7f44d6f62e82.md) - Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EF580666CC19](../claims/claim-ef580666cc19.md) - Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

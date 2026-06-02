@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2406.01014.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-65D003FB42CF"
+  - "CLAIM-87AE423D4C46"
+  - "CLAIM-F7430913BC18"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11064 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (71), `multi-agent` (19), `memory` (6), `planning` (6), `tools` (5), `environment` (3), `code` (2), `execution` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-65D003FB42CF](../claims/claim-65d003fb42cf.md) - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-87AE423D4C46](../claims/claim-87ae423d4c46.md) - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F7430913BC18](../claims/claim-f7430913bc18.md) - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

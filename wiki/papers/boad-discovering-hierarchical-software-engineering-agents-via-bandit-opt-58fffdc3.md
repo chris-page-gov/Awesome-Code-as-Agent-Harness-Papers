@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2512.23631.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-482035ADDE53"
+  - "CLAIM-915B7AE3C6C6"
+  - "CLAIM-CDB82ECE4772"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13427 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (86), `multi-agent` (18), `code` (14), `environment` (6), `memory` (6), `execution` (5), `tools` (4), `feedback` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-482035ADDE53](../claims/claim-482035adde53.md) - BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-915B7AE3C6C6](../claims/claim-915b7ae3c6c6.md) - BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CDB82ECE4772](../claims/claim-cdb82ece4772.md) - BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/6ycX677p2l.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4E792F98FB4A"
+  - "CLAIM-6EC377CCC198"
+  - "CLAIM-F35FE44684C5"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14025 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (62), `environment` (9), `code` (3), `planning` (2), `feedback` (1).
 - Source cue: automated topic tags: `code`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4E792F98FB4A](../claims/claim-4e792f98fb4a.md) - Episodic Memories Generation and Evaluation Benchmark for Large Language Models provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6EC377CCC198](../claims/claim-6ec377ccc198.md) - Episodic Memories Generation and Evaluation Benchmark for Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F35FE44684C5](../claims/claim-f35fe44684c5.md) - Episodic Memories Generation and Evaluation Benchmark for Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

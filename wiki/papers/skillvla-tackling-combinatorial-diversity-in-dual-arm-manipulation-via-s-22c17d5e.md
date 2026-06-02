@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2603.03836.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-09D923E1F432"
+  - "CLAIM-698824EEDB9B"
+  - "CLAIM-CA19A727D454"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16239 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (4), `execution` (2), `feedback` (2), `multi-agent` (2), `environment` (1).
 - Source cue: automated topic tags: `execution`, `memory`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-09D923E1F432](../claims/claim-09d923e1f432.md) - SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-698824EEDB9B](../claims/claim-698824eedb9b.md) - SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CA19A727D454](../claims/claim-ca19a727d454.md) - SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

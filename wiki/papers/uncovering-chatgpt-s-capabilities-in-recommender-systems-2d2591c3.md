@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2305.06566.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-6945AEF56DB3"
+  - "CLAIM-AD306DFFA3C5"
+  - "CLAIM-B6B5E3E3A05C"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14697 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (2), `code` (1), `tools` (1).
 - Source cue: automated topic tags: `code`, `memory`, `tools`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-6945AEF56DB3](../claims/claim-6945aef56db3.md) - Uncovering ChatGPT's Capabilities in Recommender Systems provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AD306DFFA3C5](../claims/claim-ad306dffa3c5.md) - Uncovering ChatGPT's Capabilities in Recommender Systems provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B6B5E3E3A05C](../claims/claim-b6b5e3e3a05c.md) - Uncovering ChatGPT's Capabilities in Recommender Systems provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

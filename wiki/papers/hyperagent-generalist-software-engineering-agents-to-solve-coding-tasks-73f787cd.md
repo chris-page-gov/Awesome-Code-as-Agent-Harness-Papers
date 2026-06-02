@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2409.16299.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-8B17F234A1F7"
+  - "CLAIM-CC31442DB489"
+  - "CLAIM-F0A37F16C0EF"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -60,7 +65,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12259 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (48), `agent` (28), `planning` (12), `environment` (6), `tools` (6), `execution` (5), `feedback` (5), `multi-agent` (3), `memory` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-8B17F234A1F7](../claims/claim-8b17f234a1f7.md) - HyperAgent: Generalist software engineering agents to solve coding tasks at scale provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CC31442DB489](../claims/claim-cc31442db489.md) - HyperAgent: Generalist software engineering agents to solve coding tasks at scale provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F0A37F16C0EF](../claims/claim-f0a37f16c0ef.md) - HyperAgent: Generalist software engineering agents to solve coding tasks at scale provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -69,5 +80,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

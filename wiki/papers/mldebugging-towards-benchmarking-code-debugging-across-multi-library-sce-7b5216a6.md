@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.findings-acl.305.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0F719D390936"
+  - "CLAIM-2E1368BA4930"
+  - "CLAIM-FEAF89E4EF99"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12809 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (65), `environment` (13), `feedback` (12), `execution` (4), `memory` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0F719D390936](../claims/claim-0f719d390936.md) - MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-2E1368BA4930](../claims/claim-2e1368ba4930.md) - MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FEAF89E4EF99](../claims/claim-feaf89e4ef99.md) - MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

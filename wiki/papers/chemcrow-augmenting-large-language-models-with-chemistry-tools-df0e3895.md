@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/nature.com/chemcrow-augmenting-large-language-models-with-chemistry-tools-2380157f.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-73E7FC4B93DA"
+  - "CLAIM-FA805B452A80"
+  - "CLAIM-FF2B820ECFEE"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `tools` (68), `execution` (14), `agent` (9), `planning` (9), `code` (5), `feedback` (5), `environment` (4), `multi-agent` (4), `memory` (3).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-73E7FC4B93DA](../claims/claim-73e7fc4b93da.md) - ChemCrow: Augmenting large-language models with chemistry tools provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FA805B452A80](../claims/claim-fa805b452a80.md) - ChemCrow: Augmenting large-language models with chemistry tools provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FF2B820ECFEE](../claims/claim-ff2b820ecfee.md) - ChemCrow: Augmenting large-language models with chemistry tools provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

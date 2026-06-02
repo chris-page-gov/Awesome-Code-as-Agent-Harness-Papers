@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/cursor.com/composer-building-a-fast-frontier-model-with-reinforcement-learning-7cdde98f.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-290EDD5AC98B"
+  - "CLAIM-5763873FAFB3"
+  - "CLAIM-8EA9862D9BE8"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12167 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (24), `code` (22), `tools` (20), `environment` (6), `memory` (2), `planning` (2).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-290EDD5AC98B](../claims/claim-290edd5ac98b.md) - Composer: Building a fast frontier model with reinforcement learning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5763873FAFB3](../claims/claim-5763873fafb3.md) - Composer: Building a fast frontier model with reinforcement learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8EA9862D9BE8](../claims/claim-8ea9862d9be8.md) - Composer: Building a fast frontier model with reinforcement learning provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

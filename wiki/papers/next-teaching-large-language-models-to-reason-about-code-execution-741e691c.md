@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2404.14662.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-00396569083D"
+  - "CLAIM-EF969BC343B3"
+  - "CLAIM-FCF307CB844A"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12637 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (68), `execution` (44), `feedback` (24).
 - Source cue: automated topic tags: `code`, `execution`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-00396569083D](../claims/claim-00396569083d.md) - NExT: Teaching Large Language Models to Reason about Code Execution provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EF969BC343B3](../claims/claim-ef969bc343b3.md) - NExT: Teaching Large Language Models to Reason about Code Execution provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FCF307CB844A](../claims/claim-fcf307cb844a.md) - NExT: Teaching Large Language Models to Reason about Code Execution provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

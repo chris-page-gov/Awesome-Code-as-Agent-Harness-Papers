@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2503.02068.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5B1B5A5F04BA"
+  - "CLAIM-DFB80C77F9F7"
+  - "CLAIM-F9DE743AF4DF"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14865 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (97), `tools` (29), `multi-agent` (24), `memory` (10), `feedback` (8), `planning` (6), `code` (5), `environment` (5), `execution` (4).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5B1B5A5F04BA](../claims/claim-5b1b5a5f04ba.md) - Interactive Debugging and Steering of Multi-Agent AI Systems provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DFB80C77F9F7](../claims/claim-dfb80c77f9f7.md) - Interactive Debugging and Steering of Multi-Agent AI Systems provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F9DE743AF4DF](../claims/claim-f9de743af4df.md) - Interactive Debugging and Steering of Multi-Agent AI Systems provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

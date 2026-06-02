@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3489BD35A1AA"
+  - "CLAIM-541E91310694"
+  - "CLAIM-A8B856DA232C"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 24476 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (169), `code` (49), `planning` (20), `tools` (18), `memory` (13), `feedback` (8), `environment` (5), `execution` (5), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3489BD35A1AA](../claims/claim-3489bd35a1aa.md) - About GitHub Copilot Cloud Agent provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-541E91310694](../claims/claim-541e91310694.md) - About GitHub Copilot Cloud Agent provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A8B856DA232C](../claims/claim-a8b856da232c.md) - About GitHub Copilot Cloud Agent provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

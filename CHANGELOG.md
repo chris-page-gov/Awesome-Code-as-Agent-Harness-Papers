@@ -24,6 +24,14 @@ All notable changes to this fork are recorded here.
   and source note.
 - Added review reports for the governance draft and for using the LLM-Wiki as
   the primary research surface.
+- Added a Claim Card evidence layer with `wiki/claims/`,
+  `wiki/data/claim-register.json`, explicit review tiers, and claim-card
+  templates.
+- Added claim generation, review, evidence-packet, bibliography export, and
+  LLM-Wiki evaluation tooling.
+- Added claim-backed topic pages for MCP governance, agent safety and
+  sandboxing, evidence/observability/redress, and procurement/conformance.
+- Added reusable evaluation fixtures under `tests/wiki_eval/`.
 
 ### Changed
 
@@ -33,8 +41,10 @@ All notable changes to this fork are recorded here.
 - Updated localized paper fragments with local source paths and source status.
 - Promoted all localized fragments into automated source-cue integration
   notes.
-- Updated topic-page gaps to reflect completed source localization and remaining
-  human-review work.
+- Updated topic-page gaps to reflect completed source localization, generated
+  Claim Cards, and explicit agent/cross-agent/human review tiers.
+- Updated paper fragments to link to generated Claim Cards and expose
+  `evidence_quality`.
 
 ### Removed
 

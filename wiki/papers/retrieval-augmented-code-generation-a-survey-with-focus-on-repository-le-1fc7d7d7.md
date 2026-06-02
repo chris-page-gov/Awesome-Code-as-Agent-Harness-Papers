@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2510.04905.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3992F8EAC082"
+  - "CLAIM-4F60D1E4807D"
+  - "CLAIM-9160DC9AD538"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 5968 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (11), `agent` (5), `memory` (4), `environment` (2), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3992F8EAC082](../claims/claim-3992f8eac082.md) - Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4F60D1E4807D](../claims/claim-4f60d1e4807d.md) - Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9160DC9AD538](../claims/claim-9160dc9ad538.md) - Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

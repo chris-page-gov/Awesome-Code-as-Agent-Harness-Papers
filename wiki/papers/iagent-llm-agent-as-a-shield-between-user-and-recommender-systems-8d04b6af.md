@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2403.13851.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-33AAFA9F9531"
+  - "CLAIM-696196439AB5"
+  - "CLAIM-70CDD5343D65"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15471 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (9), `agent` (5), `tools` (3).
 - Source cue: automated topic tags: `agent`, `memory`, `tools`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-33AAFA9F9531](../claims/claim-33aafa9f9531.md) - iAgent: LLM Agent as a Shield Between User and Recommender Systems provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-696196439AB5](../claims/claim-696196439ab5.md) - iAgent: LLM Agent as a Shield Between User and Recommender Systems provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-70CDD5343D65](../claims/claim-70cdd5343d65.md) - iAgent: LLM Agent as a Shield Between User and Recommender Systems provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

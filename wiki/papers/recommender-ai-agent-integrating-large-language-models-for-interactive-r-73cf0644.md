@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2308.16505.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-12D3499CE040"
+  - "CLAIM-912364AD5161"
+  - "CLAIM-B41C99DADA9D"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 17827 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `tools` (40), `planning` (14), `execution` (11), `agent` (9), `memory` (8), `environment` (3), `code` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-12D3499CE040](../claims/claim-12d3499ce040.md) - Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-912364AD5161](../claims/claim-912364ad5161.md) - Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B41C99DADA9D](../claims/claim-b41c99dada9d.md) - Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

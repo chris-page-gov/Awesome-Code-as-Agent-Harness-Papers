@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.findings-acl.138.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1F03BB38A53E"
+  - "CLAIM-91B7854C84F0"
+  - "CLAIM-EABAD0265E88"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13272 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (82), `memory` (28), `tools` (8), `feedback` (7), `execution` (3), `environment` (2).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1F03BB38A53E](../claims/claim-1f03bb38a53e.md) - Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-91B7854C84F0](../claims/claim-91b7854c84f0.md) - Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EABAD0265E88](../claims/claim-eabad0265e88.md) - Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.acl-long.426.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-620B864D2D93"
+  - "CLAIM-B0990E123D29"
+  - "CLAIM-FC945B33DBF1"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13460 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (53), `agent` (32), `tools` (8), `memory` (5), `environment` (1), `execution` (1), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-620B864D2D93](../claims/claim-620b864d2d93.md) - LocAgent: Graph-Guided LLM Agents for Code Localization provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B0990E123D29](../claims/claim-b0990e123d29.md) - LocAgent: Graph-Guided LLM Agents for Code Localization provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FC945B33DBF1](../claims/claim-fc945b33dbf1.md) - LocAgent: Graph-Guided LLM Agents for Code Localization provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

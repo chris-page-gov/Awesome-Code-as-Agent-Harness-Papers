@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-8A8C1E04CE14"
+  - "CLAIM-AB5A5FF08158"
+  - "CLAIM-B170A5A4EEAE"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 4972 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (7), `code` (4), `agent` (2), `feedback` (2), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-8A8C1E04CE14](../claims/claim-8a8c1e04ce14.md) - Addendum to GPT-5 system card: GPT-5-Codex provides localized evidence about threat and attack surface for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AB5A5FF08158](../claims/claim-ab5a5ff08158.md) - Addendum to GPT-5 system card: GPT-5-Codex provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B170A5A4EEAE](../claims/claim-b170a5a4eeae.md) - Addendum to GPT-5 system card: GPT-5-Codex provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2406.01006.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-6330A7C04B9B"
+  - "CLAIM-69F4545BE24C"
+  - "CLAIM-E440A92DC3A1"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11776 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (99), `execution` (29), `feedback` (5), `memory` (3).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-6330A7C04B9B](../claims/claim-6330a7c04b9b.md) - SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-69F4545BE24C](../claims/claim-69f4545be24c.md) - SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E440A92DC3A1](../claims/claim-e440a92dc3a1.md) - SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

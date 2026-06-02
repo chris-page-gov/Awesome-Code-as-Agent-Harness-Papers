@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2509.25370.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4743B9B42819"
+  - "CLAIM-9F340FFF5DCB"
+  - "CLAIM-A21190E1D7A3"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11087 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (30), `feedback` (9), `memory` (7), `tools` (7), `environment` (6), `planning` (6), `code` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4743B9B42819](../claims/claim-4743b9b42819.md) - Where LLM Agents Fail and How They Can Learn from Failures provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9F340FFF5DCB](../claims/claim-9f340fff5dcb.md) - Where LLM Agents Fail and How They Can Learn from Failures provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A21190E1D7A3](../claims/claim-a21190e1d7a3.md) - Where LLM Agents Fail and How They Can Learn from Failures provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

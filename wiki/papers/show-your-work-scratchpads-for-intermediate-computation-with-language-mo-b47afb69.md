@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2112.00114.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-57D339FA8765"
+  - "CLAIM-896182039CAF"
+  - "CLAIM-FD7B0417BFFD"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11455 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (20), `memory` (16), `execution` (12), `feedback` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-57D339FA8765](../claims/claim-57d339fa8765.md) - Show Your Work: Scratchpads for Intermediate Computation with Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-896182039CAF](../claims/claim-896182039caf.md) - Show Your Work: Scratchpads for Intermediate Computation with Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FD7B0417BFFD](../claims/claim-fd7b0417bffd.md) - Show Your Work: Scratchpads for Intermediate Computation with Language Models provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

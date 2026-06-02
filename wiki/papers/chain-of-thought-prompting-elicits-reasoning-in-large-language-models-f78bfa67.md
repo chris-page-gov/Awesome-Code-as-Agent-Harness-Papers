@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/_VjQlMeSB_J.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4893A1F92CB7"
+  - "CLAIM-B8DF3C690A9D"
+  - "CLAIM-BB7138C7C7E4"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10896 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (6), `memory` (5), `feedback` (2).
 - Source cue: automated topic tags: `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4893A1F92CB7](../claims/claim-4893a1f92cb7.md) - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B8DF3C690A9D](../claims/claim-b8df3c690a9d.md) - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BB7138C7C7E4](../claims/claim-bb7138c7c7e4.md) - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

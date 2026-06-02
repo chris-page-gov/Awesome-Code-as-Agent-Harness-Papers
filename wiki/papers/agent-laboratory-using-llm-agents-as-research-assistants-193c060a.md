@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.findings-emnlp.320.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-454FB9DC5B9A"
+  - "CLAIM-ABEFFD77AB3C"
+  - "CLAIM-F0E52D45ADD3"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11631 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (39), `code` (13), `planning` (9), `feedback` (5), `execution` (2), `tools` (2), `environment` (1), `memory` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-454FB9DC5B9A](../claims/claim-454fb9dc5b9a.md) - Agent Laboratory: Using LLM Agents as Research Assistants provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-ABEFFD77AB3C](../claims/claim-abeffd77ab3c.md) - Agent Laboratory: Using LLM Agents as Research Assistants provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F0E52D45ADD3](../claims/claim-f0e52d45add3.md) - Agent Laboratory: Using LLM Agents as Research Assistants provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

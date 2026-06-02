@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-32F1E0F37703"
+  - "CLAIM-AC60296B7174"
+  - "CLAIM-BEDC81020246"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 3192 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (10), `environment` (1), `memory` (1), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `planning`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-32F1E0F37703](../claims/claim-32f1e0f37703.md) - ExpeL: LLM Agents Are Experiential Learners provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AC60296B7174](../claims/claim-ac60296b7174.md) - The localized source for ExpeL: LLM Agents Are Experiential Learners is too thin for decision-grade synthesis on evaluation and benchmark evidence without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-BEDC81020246](../claims/claim-bedc81020246.md) - ExpeL: LLM Agents Are Experiential Learners provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

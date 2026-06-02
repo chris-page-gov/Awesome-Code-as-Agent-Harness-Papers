@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2412.07822.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3BFA713989D2"
+  - "CLAIM-7223088AB188"
+  - "CLAIM-82FA6F544FE6"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -66,7 +71,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16460 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (57), `agent` (47), `feedback` (29), `memory` (14), `multi-agent` (14), `tools` (7), `environment` (3), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3BFA713989D2](../claims/claim-3bfa713989d2.md) - MAGE: A multi-agent engine for automated RTL code generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7223088AB188](../claims/claim-7223088ab188.md) - MAGE: A multi-agent engine for automated RTL code generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-82FA6F544FE6](../claims/claim-82fa6f544fe6.md) - MAGE: A multi-agent engine for automated RTL code generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -75,5 +86,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

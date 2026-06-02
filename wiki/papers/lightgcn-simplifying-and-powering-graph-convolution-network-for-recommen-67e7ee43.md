@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2002.02126.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-11B11AF9C954"
+  - "CLAIM-5DF411CFBC60"
+  - "CLAIM-CB81E6F93051"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 17155 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (5).
 - Source cue: automated topic tags: `memory`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-11B11AF9C954](../claims/claim-11b11af9c954.md) - LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5DF411CFBC60](../claims/claim-5df411cfbc60.md) - LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation provides localized evidence about authorization and identity for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CB81E6F93051](../claims/claim-cb81e6f93051.md) - The localized source for LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/cursor.com/improving-composer-through-real-time-reinforcement-learning-4a7226b7.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-10E365E22551"
+  - "CLAIM-3ACC86869F01"
+  - "CLAIM-4EF4BA37DF13"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16576 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (14), `agent` (12), `environment` (12), `tools` (8), `code` (6).
 - Source cue: automated topic tags: `agent`, `code`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-10E365E22551](../claims/claim-10e365e22551.md) - Improving Composer through real-time reinforcement learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3ACC86869F01](../claims/claim-3acc86869f01.md) - Improving Composer through real-time reinforcement learning provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4EF4BA37DF13](../claims/claim-4ef4ba37df13.md) - Improving Composer through real-time reinforcement learning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

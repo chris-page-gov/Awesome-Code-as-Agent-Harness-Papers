@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.acl-long.881.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-01FAEECBE21B"
+  - "CLAIM-DC7A64107D09"
+  - "CLAIM-F9441305CB9E"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13500 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `execution` (63), `code` (48), `feedback` (36), `memory` (2), `environment` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-01FAEECBE21B](../claims/claim-01faeecbe21b.md) - Revisit Self-Debugging with Self-Generated Tests for Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DC7A64107D09](../claims/claim-dc7a64107d09.md) - Revisit Self-Debugging with Self-Generated Tests for Code Generation provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F9441305CB9E](../claims/claim-f9441305cb9e.md) - Revisit Self-Debugging with Self-Generated Tests for Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

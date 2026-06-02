@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1C9BDC30E42D"
+  - "CLAIM-9A4F5565112D"
+  - "CLAIM-A0664E70809A"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2698 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (12), `planning` (7).
 - Source cue: automated topic tags: `code`, `planning`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1C9BDC30E42D](../claims/claim-1c9bdc30e42d.md) - Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9A4F5565112D](../claims/claim-9a4f5565112d.md) - Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A0664E70809A](../claims/claim-a0664e70809a.md) - The localized source for Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

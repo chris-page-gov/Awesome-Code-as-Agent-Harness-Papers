@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.acl-long.371.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-36C57327D111"
+  - "CLAIM-4D84D3371D09"
+  - "CLAIM-DA18347AC748"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12700 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (37), `environment` (20), `tools` (6), `code` (4), `memory` (3), `execution` (2), `feedback` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-36C57327D111](../claims/claim-36c57327d111.md) - WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4D84D3371D09](../claims/claim-4d84d3371d09.md) - WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DA18347AC748](../claims/claim-da18347ac748.md) - WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

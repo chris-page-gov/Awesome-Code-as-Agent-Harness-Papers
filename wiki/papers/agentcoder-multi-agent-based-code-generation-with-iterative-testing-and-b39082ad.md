@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2312.13010.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-56BCD8DBAB83"
+  - "CLAIM-59BEDE77D873"
+  - "CLAIM-E780EDA39209"
 survey_layers:
   - "Harness Mechanisms"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -76,7 +81,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12736 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (66), `agent` (57), `feedback` (48), `multi-agent` (14), `memory` (7), `environment` (3), `execution` (2), `planning` (2), `tools` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-56BCD8DBAB83](../claims/claim-56bcd8dbab83.md) - AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-59BEDE77D873](../claims/claim-59bede77d873.md) - AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E780EDA39209](../claims/claim-e780eda39209.md) - AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -85,5 +96,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

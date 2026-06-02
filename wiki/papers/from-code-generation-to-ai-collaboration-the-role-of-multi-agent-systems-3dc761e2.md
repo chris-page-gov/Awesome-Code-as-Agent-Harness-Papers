@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/researchgate.net/from-code-generation-to-ai-collaboration-the-role-of-multi-agent-systems-in-soft-51c96791.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-00FCDE53E45C"
+  - "CLAIM-113A1610ED57"
+  - "CLAIM-E2F5100BA8A7"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (116), `agent` (52), `multi-agent` (47), `tools` (8), `feedback` (6), `environment` (4), `planning` (4).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-00FCDE53E45C](../claims/claim-00fcde53e45c.md) - From Code Generation to AI Collaboration: The Role of Multi-Agent Systems in Software Engineering provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-113A1610ED57](../claims/claim-113a1610ed57.md) - From Code Generation to AI Collaboration: The Role of Multi-Agent Systems in Software Engineering provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E2F5100BA8A7](../claims/claim-e2f5100ba8a7.md) - From Code Generation to AI Collaboration: The Role of Multi-Agent Systems in Software Engineering provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

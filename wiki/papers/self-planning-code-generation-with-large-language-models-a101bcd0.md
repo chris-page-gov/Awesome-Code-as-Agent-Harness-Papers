@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2303.06689.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2129C93992DC"
+  - "CLAIM-36DA9A301B74"
+  - "CLAIM-DA325616C13C"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11675 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (73), `planning` (56), `execution` (2), `environment` (1), `memory` (1), `tools` (1).
 - Source cue: automated topic tags: `code`, `execution`, `planning`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2129C93992DC](../claims/claim-2129c93992dc.md) - Self-planning Code Generation with Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-36DA9A301B74](../claims/claim-36da9a301b74.md) - Self-planning Code Generation with Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DA325616C13C](../claims/claim-da325616c13c.md) - Self-planning Code Generation with Large Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

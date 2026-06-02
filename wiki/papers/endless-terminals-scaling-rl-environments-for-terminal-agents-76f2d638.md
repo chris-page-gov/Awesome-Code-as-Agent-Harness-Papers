@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2601.16443.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3566DFD65BC7"
+  - "CLAIM-CB1F13496CB5"
+  - "CLAIM-E87487BEEB59"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11312 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (28), `memory` (9), `feedback` (8), `environment` (7), `tools` (5), `code` (3), `execution` (3), `multi-agent` (3).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3566DFD65BC7](../claims/claim-3566dfd65bc7.md) - Endless Terminals: Scaling RL Environments for Terminal Agents provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CB1F13496CB5](../claims/claim-cb1f13496cb5.md) - Endless Terminals: Scaling RL Environments for Terminal Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E87487BEEB59](../claims/claim-e87487beeb59.md) - Endless Terminals: Scaling RL Environments for Terminal Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

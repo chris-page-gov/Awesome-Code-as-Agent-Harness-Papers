@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2504.19413.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-11DE6661DE3B"
+  - "CLAIM-4AAC2F62D88F"
+  - "CLAIM-CA12667F0418"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11138 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (54), `agent` (14), `environment` (3), `code` (2).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-11DE6661DE3B](../claims/claim-11de6661de3b.md) - Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4AAC2F62D88F](../claims/claim-4aac2f62d88f.md) - Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CA12667F0418](../claims/claim-ca12667f0418.md) - The localized source for Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

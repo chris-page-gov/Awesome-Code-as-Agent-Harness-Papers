@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2502.04567.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-890006ECCE23"
+  - "CLAIM-A97C33959D76"
+  - "CLAIM-E9DB10575084"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13669 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (2), `code` (1), `feedback` (1).
 - Source cue: automated topic tags: `code`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-890006ECCE23](../claims/claim-890006ecce23.md) - METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A97C33959D76](../claims/claim-a97c33959d76.md) - The localized source for METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling is too thin for decision-grade synthesis on multi-agent coordination without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-E9DB10575084](../claims/claim-e9db10575084.md) - METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

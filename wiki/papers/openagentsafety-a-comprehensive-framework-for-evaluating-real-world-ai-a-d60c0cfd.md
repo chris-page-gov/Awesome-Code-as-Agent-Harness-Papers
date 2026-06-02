@@ -9,6 +9,18 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/xggSxCFQbA.pdf"
 source_status: "integrated"
+evidence_quality: "cross-agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0F844CCFE1D4"
+  - "CLAIM-176636FD365A"
+  - "CLAIM-2A4D56E5F8DA"
+  - "CLAIM-39D0BC5F8A41"
+  - "CLAIM-3F365A6FEDA2"
+  - "CLAIM-4E9B65C4CFEA"
+  - "CLAIM-7CB33E86472F"
+  - "CLAIM-87FB6F1DAD82"
+  - "CLAIM-C6C559AF310A"
+  - "CLAIM-FD353FE49B5C"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +61,20 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10309 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (36), `tools` (17), `environment` (14), `code` (6), `execution` (3), `memory` (2), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0F844CCFE1D4](../claims/claim-0f844ccfe1d4.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about threat and attack surface for the Code as Agent Harness wiki. (`cross-agent-reviewed`)
+- [CLAIM-176636FD365A](../claims/claim-176636fd365a.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about safe execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-2A4D56E5F8DA](../claims/claim-2a4d56e5f8da.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-39D0BC5F8A41](../claims/claim-39d0bc5f8a41.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3F365A6FEDA2](../claims/claim-3f365a6feda2.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4E9B65C4CFEA](../claims/claim-4e9b65c4cfea.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7CB33E86472F](../claims/claim-7cb33e86472f.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-87FB6F1DAD82](../claims/claim-87fb6f1dad82.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C6C559AF310A](../claims/claim-c6c559af310a.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FD353FE49B5C](../claims/claim-fd353fe49b5c.md) - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +83,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

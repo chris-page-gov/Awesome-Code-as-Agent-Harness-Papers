@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2407.19410.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-493FA97CDCDB"
+  - "CLAIM-532719A8E1C1"
+  - "CLAIM-EDF99E592742"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15040 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (42), `tools` (9), `execution` (4), `environment` (1), `memory` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-493FA97CDCDB](../claims/claim-493fa97cdcdb.md) - AdaCoder: Adaptive Prompt Compression for Programmatic Visual Question Answering provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-532719A8E1C1](../claims/claim-532719a8e1c1.md) - AdaCoder: Adaptive Prompt Compression for Programmatic Visual Question Answering provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EDF99E592742](../claims/claim-edf99e592742.md) - AdaCoder: Adaptive Prompt Compression for Programmatic Visual Question Answering provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

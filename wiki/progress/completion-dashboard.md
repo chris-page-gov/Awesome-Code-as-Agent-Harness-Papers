@@ -18,3 +18,5 @@ last_reviewed: "2026-06-02"
 | Paper fragments | Done | 354 fragments generated from 458 README rows. |
 | README xrefs | Done | README paper rows point at local fragments. |
 | Bulk source fetch | Done | 354 localized, 354 integrated, 0 blocked, 0 pending. |
+| Claim Cards | Done | 1,148 generated Claim Cards, agent-reviewed and linked from fragments/topics. |
+| Evaluation suite | Done | Golden scenarios and post-Claim-Card evaluation tooling added. |

@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.acl-long.737.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-91B5782851A9"
+  - "CLAIM-984F6D4D265A"
+  - "CLAIM-F21EF8421454"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13555 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (98), `agent` (43), `tools` (20), `environment` (19), `execution` (5), `feedback` (4), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-91B5782851A9](../claims/claim-91b5782851a9.md) - CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-984F6D4D265A](../claims/claim-984f6d4d265a.md) - CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F21EF8421454](../claims/claim-f21ef8421454.md) - CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

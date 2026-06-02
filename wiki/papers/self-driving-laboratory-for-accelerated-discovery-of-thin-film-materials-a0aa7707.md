@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/1906.05398.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-27240C605D63"
+  - "CLAIM-4DEC5FB4D8D4"
+  - "CLAIM-65D59989004E"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 4723 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `execution` (1), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `execution`, `planning`, `tools`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-27240C605D63](../claims/claim-27240c605d63.md) - Self-driving laboratory for accelerated discovery of thin-film materials provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4DEC5FB4D8D4](../claims/claim-4dec5fb4d8d4.md) - Self-driving laboratory for accelerated discovery of thin-film materials provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-65D59989004E](../claims/claim-65d59989004e.md) - Self-driving laboratory for accelerated discovery of thin-film materials provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

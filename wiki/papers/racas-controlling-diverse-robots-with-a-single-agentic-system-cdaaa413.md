@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2603.05621.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-100EAE55D3FF"
+  - "CLAIM-141067A49C97"
+  - "CLAIM-541C93753BDE"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15066 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (16), `planning` (11), `code` (10), `memory` (10), `tools` (5), `environment` (4), `feedback` (4), `execution` (3), `multi-agent` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-100EAE55D3FF](../claims/claim-100eae55d3ff.md) - RACAS: Controlling Diverse Robots With a Single Agentic System provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-141067A49C97](../claims/claim-141067a49c97.md) - RACAS: Controlling Diverse Robots With a Single Agentic System provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-541C93753BDE](../claims/claim-541c93753bde.md) - RACAS: Controlling Diverse Robots With a Single Agentic System provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

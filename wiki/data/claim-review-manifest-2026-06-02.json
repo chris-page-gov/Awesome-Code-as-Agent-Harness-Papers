@@ -1,0 +1,151 @@
+{
+  "reviewer": "Codex separate reviewer agent",
+  "reviewed_at": "2026-06-02T17:31:24Z",
+  "sample_mtime_ns": 1780421394836553008,
+  "entries": [
+    {
+      "claim_id": "CLAIM-00C5D3533135",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "Threat/attack-surface claim is directly supported by the sandboxing source; locator terms find relevant evidence."
+    },
+    {
+      "claim_id": "CLAIM-025F57283381",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "DOCX supports trace/audit/evidence-store wording; volatile draft flag remains appropriate."
+    },
+    {
+      "claim_id": "CLAIM-0F69030A6BAD",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "Source supports curation of human experiences, but not registry/procurement conformance as stated."
+    },
+    {
+      "claim_id": "CLAIM-0F844CCFE1D4",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "OpenAgentSafety source supports security-policy and unsafe-behavior threat framing."
+    },
+    {
+      "claim_id": "CLAIM-13E4FA2E88F2",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "Survey explicitly supports human oversight for safety-critical actions."
+    },
+    {
+      "claim_id": "CLAIM-25D4B090B675",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "NormCode source supports auditable planning and traceability."
+    },
+    {
+      "claim_id": "CLAIM-32C649CD3E58",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "MCP landscape paper directly supports threat/security taxonomy claim."
+    },
+    {
+      "claim_id": "CLAIM-3ACCD6628F96",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "Governance DOCX supports registry/gateway/curation governance framing."
+    },
+    {
+      "claim_id": "CLAIM-453F87746D24",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "Source supports gateway, routing, safety-router, and capability-governance evidence."
+    },
+    {
+      "claim_id": "CLAIM-454C4D1D3C86",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "Source supports sandboxing and some oversight/handoff language, but approval is not evidenced."
+    },
+    {
+      "claim_id": "CLAIM-4766C00D5DE0",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "Anthropic docs support MCP registry, but not curation; statement should be narrowed."
+    },
+    {
+      "claim_id": "CLAIM-4EE1DFC515EA",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "NormCode supports human oversight/auditability, but not approval; amend statement."
+    },
+    {
+      "claim_id": "CLAIM-510A05EFF4C7",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "Matched human term is incidental human-designed harness evidence, not oversight/approval."
+    },
+    {
+      "claim_id": "CLAIM-522E3AAEBD2B",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "DOCX directly supports redress, accountability, explanation, review, and appeal."
+    },
+    {
+      "claim_id": "CLAIM-55428A79E3E2",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "MemGovern supports experience cards/retrieval, but traceability/audit claim is not established."
+    },
+    {
+      "claim_id": "CLAIM-5C139B680033",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "MCP source supports transport/gateway architecture, but claim type should be protocol-capability, not governance-control."
+    },
+    {
+      "claim_id": "CLAIM-65129C31A85B",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "A2A/MCP source supports authentication/authorization and identity-related protocol claims."
+    },
+    {
+      "claim_id": "CLAIM-6CA8DCB84CC3",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "Source supports discovery/agent cards, but not curation; claim type is too broad."
+    },
+    {
+      "claim_id": "CLAIM-73B13828BE76",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "Agent Governance Toolkit source supports runtime security and threat-surface framing."
+    },
+    {
+      "claim_id": "CLAIM-7D3269A875DC",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "MCP paper supports discovery, official registry, verified listings, and curation practices."
+    },
+    {
+      "claim_id": "CLAIM-872C4B234B81",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "Microsoft AGT source supports policy, capability gating, identity, and governance."
+    },
+    {
+      "claim_id": "CLAIM-8736D2BDD7FD",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "Human match comes from human experiences, not approval or human oversight."
+    },
+    {
+      "claim_id": "CLAIM-89DD08AD5A98",
+      "confirmed": true,
+      "review_status": "cross-agent-reviewed",
+      "notes": "Governance DOCX supports human review/approval/accountability controls."
+    },
+    {
+      "claim_id": "CLAIM-8E0783FFF650",
+      "confirmed": false,
+      "review_status": "needs-revision",
+      "notes": "Source supports identity, but authorization is not evidenced by the local locator."
+    }
+  ]
+}

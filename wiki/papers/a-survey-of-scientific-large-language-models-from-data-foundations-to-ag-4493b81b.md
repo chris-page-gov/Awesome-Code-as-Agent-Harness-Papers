@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2508.21148.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0F69637A9BE7"
+  - "CLAIM-47D2B8228CCC"
+  - "CLAIM-82D9C46963FF"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10846 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (2), `environment` (2).
 - Source cue: automated topic tags: `agent`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0F69637A9BE7](../claims/claim-0f69637a9be7.md) - A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-47D2B8228CCC](../claims/claim-47d2b8228ccc.md) - A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-82D9C46963FF](../claims/claim-82d9c46963ff.md) - A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

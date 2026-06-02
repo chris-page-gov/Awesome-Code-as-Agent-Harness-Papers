@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2403.15852.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5B071A95FE1C"
+  - "CLAIM-8F0C5C3F3058"
+  - "CLAIM-C0A8CF1DA286"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 18050 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (112), `agent` (46), `feedback` (14), `multi-agent` (8), `tools` (6), `environment` (2), `execution` (2), `memory` (2), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5B071A95FE1C](../claims/claim-5b071a95fe1c.md) - SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8F0C5C3F3058](../claims/claim-8f0c5c3f3058.md) - SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C0A8CF1DA286](../claims/claim-c0a8cf1da286.md) - SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2505.10571.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2EFAF93BC94D"
+  - "CLAIM-93E26200C702"
+  - "CLAIM-970EAD930AD6"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14388 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (38), `agent` (10), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2EFAF93BC94D](../claims/claim-2efaf93bc94d.md) - On the Failure of Latent State Persistence in Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-93E26200C702](../claims/claim-93e26200c702.md) - On the Failure of Latent State Persistence in Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-970EAD930AD6](../claims/claim-970ead930ad6.md) - On the Failure of Latent State Persistence in Large Language Models provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

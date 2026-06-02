@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2310.02003.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-98D5323716D4"
+  - "CLAIM-AAFD22DB0289"
+  - "CLAIM-C94273684644"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -61,7 +66,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 20970 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (45), `code` (36), `agent` (22), `feedback` (13), `execution` (5), `multi-agent` (4), `tools` (4), `environment` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-98D5323716D4](../claims/claim-98d5323716d4.md) - L2MAC: Large language model automatic computer for extensive code generation provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AAFD22DB0289](../claims/claim-aafd22db0289.md) - L2MAC: Large language model automatic computer for extensive code generation provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C94273684644](../claims/claim-c94273684644.md) - L2MAC: Large language model automatic computer for extensive code generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -70,5 +81,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

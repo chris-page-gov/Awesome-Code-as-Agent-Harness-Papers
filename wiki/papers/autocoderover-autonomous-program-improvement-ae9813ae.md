@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2404.05427.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5C1DC7F4A33A"
+  - "CLAIM-7883C3DE73B7"
+  - "CLAIM-E9DA13D2FEA1"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 19467 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (111), `feedback` (26), `memory` (21), `agent` (13), `tools` (5), `environment` (4), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5C1DC7F4A33A](../claims/claim-5c1dc7f4a33a.md) - AutoCodeRover: Autonomous Program Improvement provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7883C3DE73B7](../claims/claim-7883c3de73b7.md) - AutoCodeRover: Autonomous Program Improvement provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E9DA13D2FEA1](../claims/claim-e9da13d2fea1.md) - AutoCodeRover: Autonomous Program Improvement provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

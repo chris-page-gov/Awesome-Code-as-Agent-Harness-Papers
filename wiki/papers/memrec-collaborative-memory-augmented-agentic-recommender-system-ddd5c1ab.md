@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2601.08816.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-03DBFC0CFABA"
+  - "CLAIM-5E5BB3FF1A4D"
+  - "CLAIM-F7CA6C721C67"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12886 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (67), `agent` (25), `code` (1), `feedback` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `tools`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-03DBFC0CFABA](../claims/claim-03dbfc0cfaba.md) - MemRec: Collaborative Memory-Augmented Agentic Recommender System provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5E5BB3FF1A4D](../claims/claim-5e5bb3ff1a4d.md) - MemRec: Collaborative Memory-Augmented Agentic Recommender System provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F7CA6C721C67](../claims/claim-f7ca6c721c67.md) - MemRec: Collaborative Memory-Augmented Agentic Recommender System provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

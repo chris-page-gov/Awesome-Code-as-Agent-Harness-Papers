@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/WaGvb7OzySA.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-71B78B2B1C3E"
+  - "CLAIM-771711F7B992"
+  - "CLAIM-997D164F6E0B"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12699 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (48), `feedback` (9), `environment` (6), `memory` (2), `execution` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-71B78B2B1C3E](../claims/claim-71b78b2b1c3e.md) - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-771711F7B992](../claims/claim-771711f7b992.md) - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-997D164F6E0B](../claims/claim-997d164f6e0b.md) - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

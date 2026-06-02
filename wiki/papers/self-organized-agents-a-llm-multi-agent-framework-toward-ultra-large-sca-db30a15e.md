@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2404.02183.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-13935551EFDE"
+  - "CLAIM-2232938D6003"
+  - "CLAIM-9D34CC333B3D"
 survey_layers:
   - "Harness Mechanisms"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -59,7 +64,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13419 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (99), `code` (70), `memory` (16), `feedback` (8), `multi-agent` (5), `environment` (3), `execution` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-13935551EFDE](../claims/claim-13935551efde.md) - Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-2232938D6003](../claims/claim-2232938d6003.md) - Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9D34CC333B3D](../claims/claim-9d34cc333b3d.md) - Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -68,5 +79,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

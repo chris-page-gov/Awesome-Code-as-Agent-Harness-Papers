@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/link.springer.com/controlllm-augment-language-models-with-tools-by-searching-on-graphs-83f73da0.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-855518567645"
+  - "CLAIM-9DCF9B6F283E"
+  - "CLAIM-B7B91F164632"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15300 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `tools` (17), `environment` (4), `code` (3), `execution` (2), `memory` (2), `feedback` (1), `planning` (1).
 - Source cue: automated topic tags: `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-855518567645](../claims/claim-855518567645.md) - ControlLLM: Augment Language Models with Tools by Searching on Graphs provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9DCF9B6F283E](../claims/claim-9dcf9b6f283e.md) - ControlLLM: Augment Language Models with Tools by Searching on Graphs provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B7B91F164632](../claims/claim-b7b91f164632.md) - ControlLLM: Augment Language Models with Tools by Searching on Graphs provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

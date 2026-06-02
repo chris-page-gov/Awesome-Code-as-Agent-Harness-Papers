@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.emnlp-main.859.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-09BAD3787AF3"
+  - "CLAIM-A1C509D32CE7"
+  - "CLAIM-E7F4EB535F5E"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13653 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (72), `execution` (26), `feedback` (20), `memory` (9), `environment` (7).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-09BAD3787AF3](../claims/claim-09bad3787af3.md) - ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness? provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A1C509D32CE7](../claims/claim-a1c509d32ce7.md) - ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness? provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E7F4EB535F5E](../claims/claim-e7f4eb535f5e.md) - ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness? provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

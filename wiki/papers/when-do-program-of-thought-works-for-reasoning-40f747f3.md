@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-9E4D9F043AB6"
+  - "CLAIM-AF16EB0E1102"
+  - "CLAIM-F01E755A0C99"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 3226 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (11).
 - Source cue: automated topic tags: `code`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-9E4D9F043AB6](../claims/claim-9e4d9f043ab6.md) - When Do Program-of-Thought Works for Reasoning? provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AF16EB0E1102](../claims/claim-af16eb0e1102.md) - When Do Program-of-Thought Works for Reasoning? provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F01E755A0C99](../claims/claim-f01e755a0c99.md) - When Do Program-of-Thought Works for Reasoning? provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

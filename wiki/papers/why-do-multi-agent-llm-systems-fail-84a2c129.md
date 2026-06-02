@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2503.13657.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-23834D7C4EFE"
+  - "CLAIM-2748004DC3B2"
+  - "CLAIM-49C95A1D9989"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10594 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (22), `multi-agent` (8), `execution` (7), `feedback` (5), `memory` (4), `code` (1), `environment` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-23834D7C4EFE](../claims/claim-23834d7c4efe.md) - Why Do Multi-Agent LLM Systems Fail? provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-2748004DC3B2](../claims/claim-2748004dc3b2.md) - Why Do Multi-Agent LLM Systems Fail? provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-49C95A1D9989](../claims/claim-49c95a1d9989.md) - Why Do Multi-Agent LLM Systems Fail? provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2506.13131.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5B3E350E3901"
+  - "CLAIM-62DE7197E445"
+  - "CLAIM-6B86BF330822"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10141 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (10), `agent` (9), `memory` (6), `feedback` (5), `execution` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5B3E350E3901](../claims/claim-5b3e350e3901.md) - AlphaEvolve: A coding agent for scientific and algorithmic discovery provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-62DE7197E445](../claims/claim-62de7197e445.md) - AlphaEvolve: A coding agent for scientific and algorithmic discovery provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6B86BF330822](../claims/claim-6b86bf330822.md) - AlphaEvolve: A coding agent for scientific and algorithmic discovery provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

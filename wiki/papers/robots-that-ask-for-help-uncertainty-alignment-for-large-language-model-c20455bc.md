@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2307.01928.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-9E8B61434D54"
+  - "CLAIM-C223D722E848"
+  - "CLAIM-CF146D73D91C"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13967 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `planning` (14), `memory` (10), `environment` (5), `execution` (3), `code` (2), `feedback` (2), `agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-9E8B61434D54](../claims/claim-9e8b61434d54.md) - Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C223D722E848](../claims/claim-c223d722e848.md) - Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CF146D73D91C](../claims/claim-cf146d73d91c.md) - Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

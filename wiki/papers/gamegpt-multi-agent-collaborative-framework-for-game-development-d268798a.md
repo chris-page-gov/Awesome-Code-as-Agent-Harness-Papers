@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2310.08067.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-304904503DD6"
+  - "CLAIM-33A432009258"
+  - "CLAIM-B3266B41C8D0"
 survey_layers:
   - "Harness Mechanisms"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 7061 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (16), `code` (12), `multi-agent` (12), `memory` (2), `planning` (2), `environment` (1), `execution` (1), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-304904503DD6](../claims/claim-304904503dd6.md) - GameGPT: Multi-agent Collaborative Framework for Game Development provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-33A432009258](../claims/claim-33a432009258.md) - GameGPT: Multi-agent Collaborative Framework for Game Development provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B3266B41C8D0](../claims/claim-b3266b41c8d0.md) - GameGPT: Multi-agent Collaborative Framework for Game Development provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

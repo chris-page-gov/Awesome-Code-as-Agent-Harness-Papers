@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/neurips.cc/core-benchmarking-llms-code-reasoning-capabilities-through-static-analysis-tasks-2044e091.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-368C5959FD21"
+  - "CLAIM-8D4B0BA435AD"
+  - "CLAIM-E5E5E43F99C5"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 3025 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (12), `feedback` (2), `environment` (1), `memory` (1).
 - Source cue: automated topic tags: `code`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-368C5959FD21](../claims/claim-368c5959fd21.md) - CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8D4B0BA435AD](../claims/claim-8d4b0ba435ad.md) - CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E5E5E43F99C5](../claims/claim-e5e5e43f99c5.md) - CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/4R71pdPBZp.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4CE8806959B0"
+  - "CLAIM-803470332D48"
+  - "CLAIM-B4791941DE02"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13759 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (44), `code` (37), `multi-agent` (16), `feedback` (15), `environment` (11), `memory` (3), `execution` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4CE8806959B0](../claims/claim-4ce8806959b0.md) - Self-Evolving Multi-Agent Collaboration Networks for Software Development provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-803470332D48](../claims/claim-803470332d48.md) - Self-Evolving Multi-Agent Collaboration Networks for Software Development provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B4791941DE02](../claims/claim-b4791941de02.md) - Self-Evolving Multi-Agent Collaboration Networks for Software Development provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

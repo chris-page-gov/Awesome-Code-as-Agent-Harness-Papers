@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2603.04177.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-064453EF640C"
+  - "CLAIM-6DB89470327D"
+  - "CLAIM-B484D23C940E"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13511 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (28), `code` (23), `environment` (23), `feedback` (10), `execution` (7), `memory` (2), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-064453EF640C](../claims/claim-064453ef640c.md) - CodeTaste: Can LLMs Generate Human-Level Code Refactorings? provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6DB89470327D](../claims/claim-6db89470327d.md) - CodeTaste: Can LLMs Generate Human-Level Code Refactorings? provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B484D23C940E](../claims/claim-b484d23c940e.md) - CodeTaste: Can LLMs Generate Human-Level Code Refactorings? provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

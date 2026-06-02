@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2603.26664.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4EDB33C9AFEA"
+  - "CLAIM-6572A73F9D4F"
+  - "CLAIM-FC4A22B9B7D0"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12213 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (27), `memory` (17), `code` (16), `tools` (6), `feedback` (4), `environment` (2), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4EDB33C9AFEA](../claims/claim-4edb33c9afea.md) - Learning to Commit: Generating Organic Pull Requests via Online Repository Memory provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6572A73F9D4F](../claims/claim-6572a73f9d4f.md) - Learning to Commit: Generating Organic Pull Requests via Online Repository Memory provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FC4A22B9B7D0](../claims/claim-fc4a22b9b7d0.md) - Learning to Commit: Generating Organic Pull Requests via Online Repository Memory provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

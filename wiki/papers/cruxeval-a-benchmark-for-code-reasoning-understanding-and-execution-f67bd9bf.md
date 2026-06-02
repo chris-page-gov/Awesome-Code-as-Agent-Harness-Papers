@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2401.03065.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-02B57D92888D"
+  - "CLAIM-0DAE6146753A"
+  - "CLAIM-A0A63EB5D944"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9122 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (44), `execution` (15), `environment` (14), `feedback` (7), `memory` (3), `tools` (2).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-02B57D92888D](../claims/claim-02b57d92888d.md) - CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-0DAE6146753A](../claims/claim-0dae6146753a.md) - CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A0A63EB5D944](../claims/claim-a0a63eb5d944.md) - CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

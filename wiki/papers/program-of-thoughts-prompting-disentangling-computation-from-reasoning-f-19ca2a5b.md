@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2211.12588.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2489E4ED0F0F"
+  - "CLAIM-4145299698FA"
+  - "CLAIM-AC18394E6097"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 7586 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (11), `memory` (6), `execution` (5), `environment` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2489E4ED0F0F](../claims/claim-2489e4ed0f0f.md) - Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4145299698FA](../claims/claim-4145299698fa.md) - Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AC18394E6097](../claims/claim-ac18394e6097.md) - Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

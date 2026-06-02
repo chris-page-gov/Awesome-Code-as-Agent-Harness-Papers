@@ -22,13 +22,17 @@ Last updated: 2026-06-02
 - [x] Completed source localization under `sources/raw/` for all paper fragments.
 - [x] Added the redistributable Agentic AI Governance UK MCP draft as a source.
 - [x] Added governance-review and LLM-Wiki effectiveness reports.
+- [x] Added Claim Cards, claim register validation, explicit agent review
+  tiers, thematic claim-backed topic pages, evidence-packet tooling,
+  bibliography export, and a reusable wiki evaluation suite.
 
 ## Open Follow-Ups
 
-- Review localized source cues and replace automated extraction notes with
-  concise human-reviewed contribution notes.
+- Promote selected high-value Claim Cards from `agent-reviewed` to
+  `cross-agent-reviewed` using a separate reviewer-agent manifest where the
+  reviewer confirms traceability and absence of overclaiming.
 - Keep manual source overrides current when publisher-hosted URLs block direct
   downloads.
-- Turn the LLM-Wiki evaluation implementation plan into claim-store and evidence
-  packet tasks.
+- Promote repeatedly used, current, source-specific cards to `decision-grade`
+  only after the relevant review criteria are met.
 - Re-run wiki validation before each meaningful checkpoint.

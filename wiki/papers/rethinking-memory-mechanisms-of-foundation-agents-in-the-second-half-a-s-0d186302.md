@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2602.06052.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0C48506416BC"
+  - "CLAIM-665DFAE98B84"
+  - "CLAIM-AD852E505D04"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10521 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (42), `agent` (32), `environment` (15), `execution` (1), `multi-agent` (1), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `execution`, `planning`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0C48506416BC](../claims/claim-0c48506416bc.md) - Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-665DFAE98B84](../claims/claim-665dfae98b84.md) - Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AD852E505D04](../claims/claim-ad852e505d04.md) - Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2308.03688.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-536B2030AA74"
+  - "CLAIM-C601E0D8C83B"
+  - "CLAIM-EFBF19C447A8"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13682 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (59), `tools` (15), `environment` (10), `code` (4), `memory` (3), `execution` (2), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-536B2030AA74](../claims/claim-536b2030aa74.md) - AgentBench: Evaluating LLMs as Agents provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C601E0D8C83B](../claims/claim-c601e0d8c83b.md) - AgentBench: Evaluating LLMs as Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EFBF19C447A8](../claims/claim-efbf19c447a8.md) - AgentBench: Evaluating LLMs as Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

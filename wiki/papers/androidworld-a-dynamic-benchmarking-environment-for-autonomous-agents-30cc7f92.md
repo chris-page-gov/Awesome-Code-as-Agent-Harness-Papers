@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.iclr.cc/androidworld-a-dynamic-benchmarking-environment-for-autonomous-agents-0ba883e0.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-26ACB506C73A"
+  - "CLAIM-6C5AD8020F32"
+  - "CLAIM-B1AAE1481885"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2555 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (9), `environment` (5), `feedback` (2), `execution` (1), `memory` (1).
 - Source cue: automated topic tags: `agent`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-26ACB506C73A](../claims/claim-26acb506c73a.md) - AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6C5AD8020F32](../claims/claim-6c5ad8020f32.md) - The localized source for AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-B1AAE1481885](../claims/claim-b1aae1481885.md) - AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

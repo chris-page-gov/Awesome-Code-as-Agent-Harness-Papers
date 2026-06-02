@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2412.14841.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-28340378B437"
+  - "CLAIM-D8B65EAEBA6C"
+  - "CLAIM-E3B86FCA2787"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16662 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (70), `feedback` (18), `tools` (10), `memory` (7), `environment` (5).
 - Source cue: automated topic tags: `code`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-28340378B437](../claims/claim-28340378b437.md) - Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis provides localized evidence about procurement and conformance for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D8B65EAEBA6C](../claims/claim-d8b65eaeba6c.md) - Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E3B86FCA2787](../claims/claim-e3b86fca2787.md) - Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -7,3 +7,7 @@ and reference graph. It separates localized raw sources, source notes, paper
 fragments, and synthesis topics so future work can update evidence without
 losing the survey structure.
 
+The current evidence layer includes [wiki/claims/](wiki/claims/) and
+[wiki/data/claim-register.json](wiki/data/claim-register.json). Claim Cards are
+atomic source-bounded records with explicit agent, cross-agent, human, or
+decision-grade review status.

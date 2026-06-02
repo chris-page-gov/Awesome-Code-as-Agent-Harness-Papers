@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5453D6344B98"
+  - "CLAIM-7E65844DC5F0"
+  - "CLAIM-9ED3193B63FA"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9214 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `tools` (10), `code` (9), `agent` (8), `feedback` (4), `planning` (4), `memory` (2).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5453D6344B98](../claims/claim-5453d6344b98.md) - 3.5 Models and Computer Use provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7E65844DC5F0](../claims/claim-7e65844dc5f0.md) - 3.5 Models and Computer Use provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9ED3193B63FA](../claims/claim-9ed3193b63fa.md) - The localized source for 3.5 Models and Computer Use is too thin for decision-grade synthesis on evaluation and benchmark evidence without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

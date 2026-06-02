@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2603.05160.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-19083DED8BDD"
+  - "CLAIM-399218992866"
+  - "CLAIM-9D711ED7A7BD"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16010 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (14), `environment` (5), `memory` (2), `code` (1), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-19083DED8BDD](../claims/claim-19083ded8bdd.md) - Lifelong Language-Conditioned Robotic Manipulation Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-399218992866](../claims/claim-399218992866.md) - Lifelong Language-Conditioned Robotic Manipulation Learning provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9D711ED7A7BD](../claims/claim-9d711ed7a7bd.md) - Lifelong Language-Conditioned Robotic Manipulation Learning provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

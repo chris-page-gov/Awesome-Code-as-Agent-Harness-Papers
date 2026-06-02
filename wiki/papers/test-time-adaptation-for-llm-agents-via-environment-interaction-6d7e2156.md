@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/OH4PE0TDo0.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-9D6FFDBD7A98"
+  - "CLAIM-9E661CA488B2"
+  - "CLAIM-EEFC94CFCD16"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12733 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (35), `environment` (26), `feedback` (13), `memory` (12), `planning` (5), `execution` (2), `tools` (1).
 - Source cue: automated topic tags: `agent`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-9D6FFDBD7A98](../claims/claim-9d6ffdbd7a98.md) - Test-Time Adaptation for LLM Agents via Environment Interaction provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9E661CA488B2](../claims/claim-9e661ca488b2.md) - Test-Time Adaptation for LLM Agents via Environment Interaction provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EEFC94CFCD16](../claims/claim-eefc94cfcd16.md) - Test-Time Adaptation for LLM Agents via Environment Interaction provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

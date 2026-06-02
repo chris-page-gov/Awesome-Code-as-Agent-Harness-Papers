@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/neurips.cc/self-verifying-reflection-helps-transformers-with-cot-reasoning-734593de.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-01991E0633A7"
+  - "CLAIM-58E426D9B96E"
+  - "CLAIM-644839E92148"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2901 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (5), `code` (2), `execution` (1).
 - Source cue: automated topic tags: `code`, `execution`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-01991E0633A7](../claims/claim-01991e0633a7.md) - Self-Verifying Reflection Helps Transformers with CoT Reasoning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-58E426D9B96E](../claims/claim-58e426d9b96e.md) - The localized source for Self-Verifying Reflection Helps Transformers with CoT Reasoning is too thin for decision-grade synthesis on approval and human oversight without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-644839E92148](../claims/claim-644839e92148.md) - Self-Verifying Reflection Helps Transformers with CoT Reasoning provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

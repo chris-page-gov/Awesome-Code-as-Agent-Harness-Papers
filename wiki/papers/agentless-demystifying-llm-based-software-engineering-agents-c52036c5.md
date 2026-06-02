@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2407.01489.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-08A5ABD14DE7"
+  - "CLAIM-53FE04F7DEBA"
+  - "CLAIM-9948C1589C3D"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12279 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (37), `code` (31), `environment` (17), `tools` (17), `feedback` (16), `planning` (5), `memory` (2), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-08A5ABD14DE7](../claims/claim-08a5abd14de7.md) - Agentless: Demystifying LLM-based Software Engineering Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-53FE04F7DEBA](../claims/claim-53fe04f7deba.md) - The localized source for Agentless: Demystifying LLM-based Software Engineering Agents is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-9948C1589C3D](../claims/claim-9948c1589c3d.md) - Agentless: Demystifying LLM-based Software Engineering Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

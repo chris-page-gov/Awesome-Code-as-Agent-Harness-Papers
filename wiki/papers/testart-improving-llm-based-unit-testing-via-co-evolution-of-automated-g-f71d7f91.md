@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2408.03095.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1A28519D5FA1"
+  - "CLAIM-4620A9914203"
+  - "CLAIM-8362EB29CE85"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12158 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (63), `code` (26), `memory` (14), `tools` (8), `execution` (4), `environment` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1A28519D5FA1](../claims/claim-1a28519d5fa1.md) - TestART: Improving LLM-Based Unit Testing via Co-Evolution of Automated Generation and Repair Iteration provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4620A9914203](../claims/claim-4620a9914203.md) - TestART: Improving LLM-Based Unit Testing via Co-Evolution of Automated Generation and Repair Iteration provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8362EB29CE85](../claims/claim-8362eb29ce85.md) - TestART: Improving LLM-Based Unit Testing via Co-Evolution of Automated Generation and Repair Iteration provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2409.10737.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-044870247913"
+  - "CLAIM-14A13E44B554"
+  - "CLAIM-8010A88716E5"
 survey_layers:
   - "Harness Mechanisms"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -67,7 +72,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9213 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (50), `agent` (47), `multi-agent` (12), `execution` (11), `feedback` (7), `memory` (2), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-044870247913](../claims/claim-044870247913.md) - AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-14A13E44B554](../claims/claim-14a13e44b554.md) - AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8010A88716E5](../claims/claim-8010a88716e5.md) - AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -76,5 +87,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

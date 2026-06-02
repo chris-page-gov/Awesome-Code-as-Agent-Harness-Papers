@@ -23,6 +23,10 @@ REDISTRIBUTABLE_RAW_PREFIX = "sources/raw/redistributable/"
 PRESERVED_FIELDS = {
     "blocked_reason",
     "blocked_url",
+    "claim_card_count",
+    "claim_card_ids",
+    "claim_cards",
+    "evidence_quality",
     "integrated_at",
     "integration_status",
     "local_source_paths",
@@ -189,6 +193,8 @@ def write_fragment(paper: dict) -> None:
     fragment_status = "source-integrated" if is_integrated else "metadata-only"
     signal = paper.get("source_signal") or {}
     metadata = paper.get("source_file_metadata") or []
+    claim_cards = paper.get("claim_cards") or []
+    evidence_quality = paper.get("evidence_quality") or paper.get("integration_status") or fragment_status
 
     lines: list[str] = [
         "---\n",
@@ -200,6 +206,8 @@ def write_fragment(paper: dict) -> None:
         yaml_field("canonical_urls", canonical_urls),
         yaml_field("local_source_paths", paper["local_source_paths"]),
         f"source_status: {q(source_status)}\n",
+        f"evidence_quality: {q(evidence_quality)}\n",
+        yaml_field("claim_card_ids", paper.get("claim_card_ids", [])),
         yaml_field("survey_layers", layers),
         yaml_field("survey_sections", sections),
         yaml_field("survey_subsections", subsections),
@@ -279,14 +287,33 @@ def write_fragment(paper: dict) -> None:
         detected = signal.get("detected_topics") or []
         if detected:
             lines.append(f"- Source cue: automated topic tags: {', '.join(f'`{topic}`' for topic in detected)}.\n")
-        lines.append("- Integration note: these notes are automated extraction cues, not a human literature review.\n")
+        lines.append("- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.\n")
     elif is_localized:
         lines.append("- Source fact: a localized source file is available in this repository.\n")
-        lines.append("- Content claims are pending review of the localized source.\n")
+        lines.append("- Content claims are pending claim-card extraction or review of the localized source.\n")
     elif source_status == "blocked":
         lines.append("- Gap: source localization is currently blocked; see the registered blocker below.\n")
     else:
         lines.append("- Content claims are pending source localization and review.\n")
+
+    lines.extend(["\n## Claim Cards\n\n"])
+    if claim_cards:
+        for claim in claim_cards[:12]:
+            card_path = claim.get("card_path", "")
+            if card_path.startswith("wiki/claims/"):
+                card_link = f"../claims/{Path(card_path).name}"
+            else:
+                card_link = card_path or "../claims/README.md"
+            lines.append(
+                f"- [{claim.get('claim_id', 'claim')}]"
+                f"({card_link}) - {claim.get('statement', 'Claim Card')} "
+                f"(`{claim.get('review_status', 'unknown')}`)\n"
+            )
+        if len(claim_cards) > 12:
+            lines.append(f"- Additional Claim Cards are listed in [the claim register](../claims/README.md); total for this fragment: {len(claim_cards)}.\n")
+    else:
+        lines.append("- No Claim Cards are registered for this fragment yet.\n")
+
     lines.extend(
         [
             "\n## Cross-References\n\n",
@@ -296,7 +323,10 @@ def write_fragment(paper: dict) -> None:
         ]
     )
     if is_integrated:
-        lines.append("- Replace automated extraction cues with human-reviewed contribution notes.\n")
+        if claim_cards:
+            lines.append("- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.\n")
+        else:
+            lines.append("- Promote automated extraction cues into agent-reviewed Claim Cards; reserve `human-reviewed` for named human review.\n")
     elif is_localized:
         lines.append("- Review the localized source.\n")
     elif source_status == "blocked":

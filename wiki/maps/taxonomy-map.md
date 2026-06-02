@@ -24,4 +24,6 @@ last_reviewed: "2026-06-02"
 - Taxonomy source: [Current README Inventory](../sources/SOURCE-README-ORIGINAL-2026-06-02.md).
 - Survey source: [Code as Agent Harness Survey](../sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md).
 - Paper index: [Paper fragments](../papers/README.md), generated from 458 README rows.
-- Paper-level source localization: pending.
+- Paper-level source localization: complete for all 354 fragments.
+- Claim-level evidence: [Claim Cards](../claims/README.md) are generated and
+  linked from fragments and topic pages.

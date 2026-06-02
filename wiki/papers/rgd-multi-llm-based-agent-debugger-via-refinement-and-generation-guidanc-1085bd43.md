@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/doi.org/rgd-multi-llm-based-agent-debugger-via-refinement-and-generation-guidance-037ffd76.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-10B42EDC3630"
+  - "CLAIM-95D87F070233"
+  - "CLAIM-DC6274D731D4"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 832 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (1), `environment` (1).
 - Source cue: automated topic tags: `agent`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-10B42EDC3630](../claims/claim-10b42edc3630.md) - RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-95D87F070233](../claims/claim-95d87f070233.md) - RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DC6274D731D4](../claims/claim-dc6274d731d4.md) - RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

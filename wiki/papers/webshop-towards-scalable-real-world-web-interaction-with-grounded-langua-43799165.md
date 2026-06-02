@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2EB5A64B092E"
+  - "CLAIM-4DF28AD3C98F"
+  - "CLAIM-566566B58C3A"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2426 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (8), `environment` (7), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2EB5A64B092E](../claims/claim-2eb5a64b092e.md) - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4DF28AD3C98F](../claims/claim-4df28ad3c98f.md) - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-566566B58C3A](../claims/claim-566566b58c3a.md) - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

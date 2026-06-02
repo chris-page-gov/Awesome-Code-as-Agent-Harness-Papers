@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/ieeexplore.ieee.org/lifelong-robot-library-learning-bootstrapping-composable-and-generalizable-skill-6a633d7a.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-49AE76B8E2B3"
+  - "CLAIM-8D91CF4466F6"
+  - "CLAIM-FD7022A3289E"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 882 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `environment` (1).
 - Source cue: automated topic tags: `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-49AE76B8E2B3](../claims/claim-49ae76b8e2b3.md) - Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8D91CF4466F6](../claims/claim-8d91cf4466f6.md) - Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FD7022A3289E](../claims/claim-fd7022a3289e.md) - Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

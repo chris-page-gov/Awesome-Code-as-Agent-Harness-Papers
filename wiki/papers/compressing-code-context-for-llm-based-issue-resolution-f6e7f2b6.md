@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2603.28119.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-585A057534EF"
+  - "CLAIM-C81D5E7CD2E1"
+  - "CLAIM-E71BD1D1640F"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14610 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (56), `code` (33), `feedback` (7), `tools` (4), `environment` (2), `execution` (2), `agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-585A057534EF](../claims/claim-585a057534ef.md) - Compressing Code Context for LLM-based Issue Resolution provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C81D5E7CD2E1](../claims/claim-c81d5e7cd2e1.md) - Compressing Code Context for LLM-based Issue Resolution provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E71BD1D1640F](../claims/claim-e71bd1d1640f.md) - Compressing Code Context for LLM-based Issue Resolution provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

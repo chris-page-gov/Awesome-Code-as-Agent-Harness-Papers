@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2408.03910.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-185B5A331CCE"
+  - "CLAIM-3372B6801BC5"
+  - "CLAIM-ADA4D0887B30"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12256 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (84), `agent` (11), `environment` (9), `tools` (7), `memory` (4), `execution` (1), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-185B5A331CCE](../claims/claim-185b5a331cce.md) - CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3372B6801BC5](../claims/claim-3372b6801bc5.md) - CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-ADA4D0887B30](../claims/claim-ada4d0887b30.md) - CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

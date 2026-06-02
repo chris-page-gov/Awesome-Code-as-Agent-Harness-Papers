@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/yeVBHPLXxi.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2D7AC43937BC"
+  - "CLAIM-B1708E5BAEDF"
+  - "CLAIM-CD6AE93CE006"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12834 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (38), `code` (35), `memory` (2), `environment` (1), `execution` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2D7AC43937BC](../claims/claim-2d7ac43937bc.md) - Learning to generate unit tests for automated debugging provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B1708E5BAEDF](../claims/claim-b1708e5baedf.md) - Learning to generate unit tests for automated debugging provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CD6AE93CE006](../claims/claim-cd6ae93ce006.md) - The localized source for Learning to generate unit tests for automated debugging is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

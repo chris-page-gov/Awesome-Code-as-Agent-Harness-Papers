@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2601.13247.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-290899AAABE4"
+  - "CLAIM-89AF513794BD"
+  - "CLAIM-C2AFF6914909"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11185 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (34), `agent` (32), `memory` (16), `planning` (4), `feedback` (3), `execution` (2), `code` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-290899AAABE4](../claims/claim-290899aaabe4.md) - Aligning Agentic World Models via Knowledgeable Experience Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-89AF513794BD](../claims/claim-89af513794bd.md) - Aligning Agentic World Models via Knowledgeable Experience Learning provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C2AFF6914909](../claims/claim-c2aff6914909.md) - Aligning Agentic World Models via Knowledgeable Experience Learning provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

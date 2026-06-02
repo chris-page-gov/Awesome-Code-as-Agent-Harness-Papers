@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2207.05608.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-18AF1173F148"
+  - "CLAIM-7ED119985556"
+  - "CLAIM-A3263018A68E"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14088 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `planning` (34), `feedback` (32), `environment` (21), `agent` (9), `execution` (2), `memory` (1).
 - Source cue: automated topic tags: `agent`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-18AF1173F148](../claims/claim-18af1173f148.md) - Inner Monologue: Embodied Reasoning through Planning with Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7ED119985556](../claims/claim-7ed119985556.md) - Inner Monologue: Embodied Reasoning through Planning with Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A3263018A68E](../claims/claim-a3263018a68e.md) - Inner Monologue: Embodied Reasoning through Planning with Language Models provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

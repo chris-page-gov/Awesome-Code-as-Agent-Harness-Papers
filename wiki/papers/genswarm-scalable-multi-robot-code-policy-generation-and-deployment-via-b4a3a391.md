@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/nature.com/genswarm-scalable-multi-robot-code-policy-generation-and-deployment-via-language-64c9ab88.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-39DC2D7896D0"
+  - "CLAIM-AA5F761B2306"
+  - "CLAIM-DB0AD04B0104"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (80), `environment` (28), `execution` (26), `agent` (18), `feedback` (15), `memory` (5), `tools` (3), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-39DC2D7896D0](../claims/claim-39dc2d7896d0.md) - GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AA5F761B2306](../claims/claim-aa5f761b2306.md) - GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DB0AD04B0104](../claims/claim-db0ad04b0104.md) - GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

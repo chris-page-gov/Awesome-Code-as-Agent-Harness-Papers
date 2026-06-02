@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2411.00622.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-BD523AFB6F0F"
+  - "CLAIM-DDBFF360D052"
+  - "CLAIM-F7E79893C868"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -54,7 +59,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12276 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (50), `environment` (14), `agent` (5), `tools` (4), `execution` (2), `memory` (2), `feedback` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-BD523AFB6F0F](../claims/claim-bd523afb6f0f.md) - Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DDBFF360D052](../claims/claim-ddbff360d052.md) - Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F7E79893C868](../claims/claim-f7e79893c868.md) - Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -63,5 +74,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

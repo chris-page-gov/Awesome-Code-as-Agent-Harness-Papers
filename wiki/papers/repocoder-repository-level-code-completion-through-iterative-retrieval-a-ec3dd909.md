@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2023.emnlp-main.151.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4B49D2371BC0"
+  - "CLAIM-7ED4B51ACC64"
+  - "CLAIM-A741DAF2B416"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11924 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (64), `memory` (9), `tools` (9), `environment` (7).
 - Source cue: automated topic tags: `code`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4B49D2371BC0](../claims/claim-4b49d2371bc0.md) - RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7ED4B51ACC64](../claims/claim-7ed4b51acc64.md) - RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A741DAF2B416](../claims/claim-a741daf2b416.md) - RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

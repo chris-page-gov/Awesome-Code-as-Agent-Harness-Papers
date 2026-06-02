@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2305.04032.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0565F8263570"
+  - "CLAIM-3BE33DB13226"
+  - "CLAIM-E6C50C6707F0"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15890 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `tools` (107), `code` (64), `memory` (4), `feedback` (1).
 - Source cue: automated topic tags: `code`, `memory`, `tools`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0565F8263570](../claims/claim-0565f8263570.md) - ToolCoder: Teach Code Generation Models to use API search tools provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3BE33DB13226](../claims/claim-3be33db13226.md) - ToolCoder: Teach Code Generation Models to use API search tools provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E6C50C6707F0](../claims/claim-e6c50c6707f0.md) - ToolCoder: Teach Code Generation Models to use API search tools provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

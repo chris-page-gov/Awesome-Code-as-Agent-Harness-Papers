@@ -1,0 +1,53 @@
+---
+title: "A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Mic"
+note_type: "claim-card"
+status: "agent-reviewed"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+claim_id: "CLAIM-B757D752ED0A"
+claim_type: "contribution"
+paper_ids:
+  - "a-multi-agent-coding-assistant-for-cloud-native-development-from-require-65f216a5"
+source_ids: []
+source_refs:
+  - "sources/raw/html/sciety.org/a-multi-agent-coding-assistant-for-cloud-native-development-from-requirements-to-fe52f749.html"
+related_topics:
+  - "harness-mechanisms"
+  - "harness-interface"
+evidence_locator: "sources/raw/html/sciety.org/a-multi-agent-coding-assistant-for-cloud-native-development-from-requirements-to-fe52f749.html; extracted sentence match for tools"
+extraction_method: "html-text"
+review_status: "agent-reviewed"
+creator: "tools/generate_claim_cards.py"
+reviewer: "tools/review_claim_cards.py schema-traceability pass"
+confidence: 0.72
+volatility_flag: false
+last_reviewed: "2026-06-02"
+---
+
+# CLAIM-B757D752ED0A
+
+## Statement
+
+A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices provides localized evidence about tool use for the Code as Agent Harness wiki.
+
+## Evidence
+
+- Paper fragment:
+  - [a-multi-agent-coding-assistant-for-cloud-native-development-from-require-65f216a5](../papers/a-multi-agent-coding-assistant-for-cloud-native-development-from-require-65f216a5.md)
+- Source refs:
+  - `sources/raw/html/sciety.org/a-multi-agent-coding-assistant-for-cloud-native-development-from-requirements-to-fe52f749.html`
+- Locator: sources/raw/html/sciety.org/a-multi-agent-coding-assistant-for-cloud-native-development-from-requirements-to-fe52f749.html; extracted sentence match for tools
+- Matched terms: `tools`
+- Evidence summary: Source sentence contains tool use evidence with matched cue(s): tools.
+
+## Review
+
+- Review status: `agent-reviewed`
+- Creator: `tools/generate_claim_cards.py`
+- Reviewer: `tools/review_claim_cards.py schema-traceability pass`
+- Confidence: `0.72`
+- Volatile source flag: `false`
+
+## Topics
+
+- [harness-mechanisms](../topics/harness-mechanisms.md)
+- [harness-interface](../topics/harness-interface.md)

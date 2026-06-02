@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/pdf/worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-and-int-e1cb6952.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2E214B0ED083"
+  - "CLAIM-642B9F01741A"
+  - "CLAIM-F6834A3922A1"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11567 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (47), `code` (26), `agent` (19), `memory` (19), `planning` (12), `feedback` (2).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2E214B0ED083](../claims/claim-2e214b0ed083.md) - WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-642B9F01741A](../claims/claim-642b9f01741a.md) - WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F6834A3922A1](../claims/claim-f6834a3922a1.md) - WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

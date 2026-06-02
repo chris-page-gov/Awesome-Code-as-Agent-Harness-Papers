@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2504.15257.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3EBB05E1D67F"
+  - "CLAIM-BD71FE6E77F7"
+  - "CLAIM-FA256ACC2496"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11511 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (75), `multi-agent` (39), `code` (10), `feedback` (6), `execution` (5), `environment` (3), `planning` (3), `memory` (2), `tools` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3EBB05E1D67F](../claims/claim-3ebb05e1d67f.md) - FlowReasoner: Reinforcing Query-Level Meta-Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BD71FE6E77F7](../claims/claim-bd71fe6e77f7.md) - FlowReasoner: Reinforcing Query-Level Meta-Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FA256ACC2496](../claims/claim-fa256acc2496.md) - FlowReasoner: Reinforcing Query-Level Meta-Agents provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

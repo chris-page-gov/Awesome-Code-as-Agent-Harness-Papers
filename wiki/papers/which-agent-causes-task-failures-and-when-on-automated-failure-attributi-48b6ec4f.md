@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2505.00212.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-255D2CE6EE1E"
+  - "CLAIM-AA9BF988ED3C"
+  - "CLAIM-DA739FDFA807"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14707 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (65), `multi-agent` (16), `environment` (8), `memory` (5), `tools` (3), `code` (1), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-255D2CE6EE1E](../claims/claim-255d2ce6ee1e.md) - Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AA9BF988ED3C](../claims/claim-aa9bf988ed3c.md) - Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DA739FDFA807](../claims/claim-da739fdfa807.md) - Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

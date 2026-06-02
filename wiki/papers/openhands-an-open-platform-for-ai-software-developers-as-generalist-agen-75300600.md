@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/OJd3ayDDoF.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1107CE0F4A0D"
+  - "CLAIM-9BE674E4D68D"
+  - "CLAIM-CC2547660F02"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11608 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (56), `code` (26), `environment` (15), `execution` (15), `memory` (5), `feedback` (4), `tools` (4), `multi-agent` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1107CE0F4A0D](../claims/claim-1107ce0f4a0d.md) - OpenHands: An Open Platform for AI Software Developers as Generalist Agents provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9BE674E4D68D](../claims/claim-9be674e4d68d.md) - OpenHands: An Open Platform for AI Software Developers as Generalist Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CC2547660F02](../claims/claim-cc2547660f02.md) - OpenHands: An Open Platform for AI Software Developers as Generalist Agents provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

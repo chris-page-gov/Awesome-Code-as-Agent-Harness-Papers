@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2501.18653.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1857D7B5A81C"
+  - "CLAIM-7EA53B8456AE"
+  - "CLAIM-BD3888303082"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -52,7 +57,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16137 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (28), `planning` (27), `agent` (23), `memory` (20), `multi-agent` (9), `execution` (5), `feedback` (5), `environment` (3), `tools` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1857D7B5A81C](../claims/claim-1857d7b5a81c.md) - Cogito, ergo sum: A Neurobiologically-Inspired Cognition-Memory-Growth System for Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7EA53B8456AE](../claims/claim-7ea53b8456ae.md) - Cogito, ergo sum: A Neurobiologically-Inspired Cognition-Memory-Growth System for Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BD3888303082](../claims/claim-bd3888303082.md) - Cogito, ergo sum: A Neurobiologically-Inspired Cognition-Memory-Growth System for Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -61,5 +72,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

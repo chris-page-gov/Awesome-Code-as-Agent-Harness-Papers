@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.findings-naacl.82.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1AA5EC496E07"
+  - "CLAIM-7E6511CC7EBB"
+  - "CLAIM-BC278D9D4CE8"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13068 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (47), `environment` (12), `memory` (11), `feedback` (8), `execution` (5), `tools` (3).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1AA5EC496E07](../claims/claim-1aa5ec496e07.md) - On the Impacts of Contexts on Repository-Level Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7E6511CC7EBB](../claims/claim-7e6511cc7ebb.md) - On the Impacts of Contexts on Repository-Level Code Generation provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BC278D9D4CE8](../claims/claim-bc278d9d4ce8.md) - On the Impacts of Contexts on Repository-Level Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

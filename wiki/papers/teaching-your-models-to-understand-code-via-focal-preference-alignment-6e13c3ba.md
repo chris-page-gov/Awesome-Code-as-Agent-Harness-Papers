@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2503.02783.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-293E7D79CD5F"
+  - "CLAIM-5880BB79DF50"
+  - "CLAIM-59B56CEEAD3E"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12272 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (46), `feedback` (17), `execution` (2), `memory` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-293E7D79CD5F](../claims/claim-293e7d79cd5f.md) - Teaching Your Models to Understand Code via Focal Preference Alignment provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5880BB79DF50](../claims/claim-5880bb79df50.md) - The localized source for Teaching Your Models to Understand Code via Focal Preference Alignment is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-59B56CEEAD3E](../claims/claim-59b56ceead3e.md) - Teaching Your Models to Understand Code via Focal Preference Alignment provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

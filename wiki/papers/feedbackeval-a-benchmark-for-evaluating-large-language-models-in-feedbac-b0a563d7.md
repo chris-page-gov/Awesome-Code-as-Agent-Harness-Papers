@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2504.06939.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-42B496C1EEEE"
+  - "CLAIM-D58C72E7CC84"
+  - "CLAIM-E7C59DAE0B99"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11638 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (91), `code` (39), `environment` (10), `memory` (4), `agent` (3), `multi-agent` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-42B496C1EEEE](../claims/claim-42b496c1eeee.md) - FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D58C72E7CC84](../claims/claim-d58c72e7cc84.md) - FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E7C59DAE0B99](../claims/claim-e7c59dae0b99.md) - FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

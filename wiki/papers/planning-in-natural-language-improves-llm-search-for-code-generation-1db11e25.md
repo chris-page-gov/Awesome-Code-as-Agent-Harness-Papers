@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2409.03733.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0473D699ABD0"
+  - "CLAIM-4F9D1C9D2190"
+  - "CLAIM-9DF6C5D3CA76"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9390 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (16), `planning` (5), `environment` (1).
 - Source cue: automated topic tags: `code`, `planning`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0473D699ABD0](../claims/claim-0473d699abd0.md) - Planning in Natural Language Improves LLM Search for Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4F9D1C9D2190](../claims/claim-4f9d1c9d2190.md) - Planning in Natural Language Improves LLM Search for Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9DF6C5D3CA76](../claims/claim-9df6c5d3ca76.md) - Planning in Natural Language Improves LLM Search for Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

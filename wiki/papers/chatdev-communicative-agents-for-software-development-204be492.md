@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-147B9A8DF094"
+  - "CLAIM-AC57196227FA"
+  - "CLAIM-B101A35BC806"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -71,7 +76,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15078 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (26), `code` (26), `multi-agent` (8), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `feedback`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-147B9A8DF094](../claims/claim-147b9a8df094.md) - ChatDev: Communicative Agents for Software Development provides localized evidence about traceability and audit for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AC57196227FA](../claims/claim-ac57196227fa.md) - ChatDev: Communicative Agents for Software Development provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B101A35BC806](../claims/claim-b101a35bc806.md) - ChatDev: Communicative Agents for Software Development provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -80,5 +91,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

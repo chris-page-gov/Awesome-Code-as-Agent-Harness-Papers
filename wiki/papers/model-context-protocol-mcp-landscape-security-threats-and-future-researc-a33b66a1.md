@@ -10,6 +10,18 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2503.23278.pdf"
 source_status: "integrated"
+evidence_quality: "cross-agent-reviewed"
+claim_card_ids:
+  - "CLAIM-129E6D780860"
+  - "CLAIM-2B86E8620CED"
+  - "CLAIM-32C649CD3E58"
+  - "CLAIM-4226A75882FF"
+  - "CLAIM-5C139B680033"
+  - "CLAIM-6193952ADA69"
+  - "CLAIM-7B28F43F170A"
+  - "CLAIM-7D3269A875DC"
+  - "CLAIM-9DEEB029E7A2"
+  - "CLAIM-AB8980C00921"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -55,7 +67,20 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11927 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `tools` (36), `memory` (7), `agent` (4), `environment` (2), `execution` (2), `code` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-129E6D780860](../claims/claim-129e6d780860.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about trust boundary for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-2B86E8620CED](../claims/claim-2b86e8620ced.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about procurement and conformance for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-32C649CD3E58](../claims/claim-32c649cd3e58.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about threat and attack surface for the Code as Agent Harness wiki. (`cross-agent-reviewed`)
+- [CLAIM-4226A75882FF](../claims/claim-4226a75882ff.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5C139B680033](../claims/claim-5c139b680033.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6193952ADA69](../claims/claim-6193952ada69.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7B28F43F170A](../claims/claim-7b28f43f170a.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7D3269A875DC](../claims/claim-7d3269a875dc.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about registry and curation for the Code as Agent Harness wiki. (`cross-agent-reviewed`)
+- [CLAIM-9DEEB029E7A2](../claims/claim-9deeb029e7a2.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AB8980C00921](../claims/claim-ab8980c00921.md) - Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about authorization and identity for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +89,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

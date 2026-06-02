@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2602.11757.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-03218686B623"
+  - "CLAIM-641553848CC9"
+  - "CLAIM-8B85988E8742"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11044 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (16), `code` (10), `environment` (10), `execution` (4), `memory` (3), `multi-agent` (3), `feedback` (2), `planning` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-03218686B623](../claims/claim-03218686b623.md) - Code2Worlds: Empowering Coding LLMs for 4D World Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-641553848CC9](../claims/claim-641553848cc9.md) - Code2Worlds: Empowering Coding LLMs for 4D World Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8B85988E8742](../claims/claim-8b85988e8742.md) - Code2Worlds: Empowering Coding LLMs for 4D World Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2502.02928.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-78CCDB17F14D"
+  - "CLAIM-CDD2A1449EE1"
+  - "CLAIM-FEBECCD67B3F"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10456 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (41), `agent` (36), `feedback` (10), `execution` (5), `multi-agent` (3), `planning` (2), `environment` (1), `memory` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-78CCDB17F14D](../claims/claim-78ccdb17f14d.md) - Large Language Model Guided Self-Debugging Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CDD2A1449EE1](../claims/claim-cdd2a1449ee1.md) - Large Language Model Guided Self-Debugging Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FEBECCD67B3F](../claims/claim-febeccd67b3f.md) - Large Language Model Guided Self-Debugging Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

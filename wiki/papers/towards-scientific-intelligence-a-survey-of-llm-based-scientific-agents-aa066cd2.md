@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2503.24047.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-9BE2EEB628BA"
+  - "CLAIM-E07C28797CF1"
+  - "CLAIM-E1E76126DE9D"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11088 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (38), `planning` (7), `memory` (5), `tools` (5), `code` (3), `environment` (2), `feedback` (2), `multi-agent` (2), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-9BE2EEB628BA](../claims/claim-9be2eeb628ba.md) - Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E07C28797CF1](../claims/claim-e07c28797cf1.md) - Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E1E76126DE9D](../claims/claim-e1e76126de9d.md) - Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

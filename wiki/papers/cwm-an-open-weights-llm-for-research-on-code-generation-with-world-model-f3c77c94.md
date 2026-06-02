@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2510.02387.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-ADA9212CA77A"
+  - "CLAIM-D1364ABFDABD"
+  - "CLAIM-F61A325D2DB1"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11472 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (45), `environment` (23), `memory` (14), `execution` (12), `agent` (11), `feedback` (8), `planning` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-ADA9212CA77A](../claims/claim-ada9212ca77a.md) - CWM: An Open-Weights LLM for Research on Code Generation with World Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D1364ABFDABD](../claims/claim-d1364abfdabd.md) - CWM: An Open-Weights LLM for Research on Code Generation with World Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F61A325D2DB1](../claims/claim-f61a325d2db1.md) - CWM: An Open-Weights LLM for Research on Code Generation with World Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

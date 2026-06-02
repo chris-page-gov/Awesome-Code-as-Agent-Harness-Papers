@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-41207298493D"
+  - "CLAIM-B16EDFC5232A"
+  - "CLAIM-C000F44C2FB1"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 6910 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (23), `tools` (6), `code` (3), `environment` (3).
 - Source cue: automated topic tags: `agent`, `code`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-41207298493D](../claims/claim-41207298493d.md) - The localized source for GPT-4V(ision) is a Generalist Web Agent, if Grounded is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-B16EDFC5232A](../claims/claim-b16edfc5232a.md) - GPT-4V(ision) is a Generalist Web Agent, if Grounded provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C000F44C2FB1](../claims/claim-c000f44c2fb1.md) - GPT-4V(ision) is a Generalist Web Agent, if Grounded provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

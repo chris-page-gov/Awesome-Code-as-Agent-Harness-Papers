@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2504.08066.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-523253F242B0"
+  - "CLAIM-82BF4C5DAF7B"
+  - "CLAIM-B9AF288AB71D"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11044 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (13), `agent` (12), `feedback` (6), `execution` (3), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-523253F242B0](../claims/claim-523253f242b0.md) - The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-82BF4C5DAF7B](../claims/claim-82bf4c5daf7b.md) - The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B9AF288AB71D](../claims/claim-b9af288ab71d.md) - The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

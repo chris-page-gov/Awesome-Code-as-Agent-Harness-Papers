@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2505.03906.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5936A67C96DB"
+  - "CLAIM-73FD447458FD"
+  - "CLAIM-BDDFE0A044B4"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 17028 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (56), `agent` (25), `memory` (14), `feedback` (9), `execution` (8), `multi-agent` (6), `tools` (5), `environment` (3).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5936A67C96DB](../claims/claim-5936a67c96db.md) - MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Computing provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-73FD447458FD](../claims/claim-73fd447458fd.md) - MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Computing provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BDDFE0A044B4](../claims/claim-bddfe0a044b4.md) - MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Computing provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

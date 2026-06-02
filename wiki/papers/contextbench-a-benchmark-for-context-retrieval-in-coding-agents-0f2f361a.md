@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2602.05892.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5337F0ACC7C8"
+  - "CLAIM-64D30324D0BB"
+  - "CLAIM-CB50EE23D64D"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10766 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (40), `memory` (31), `code` (19), `environment` (8), `feedback` (3), `tools` (2), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5337F0ACC7C8](../claims/claim-5337f0acc7c8.md) - ContextBench: A Benchmark for Context Retrieval in Coding Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-64D30324D0BB](../claims/claim-64d30324d0bb.md) - ContextBench: A Benchmark for Context Retrieval in Coding Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CB50EE23D64D](../claims/claim-cb50ee23d64d.md) - ContextBench: A Benchmark for Context Retrieval in Coding Agents provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

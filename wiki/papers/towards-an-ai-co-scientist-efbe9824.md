@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2502.18864.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-400C84AB0D0A"
+  - "CLAIM-9E269849672D"
+  - "CLAIM-DC9A3BCA8EF8"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15173 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (16), `feedback` (11), `multi-agent` (5), `tools` (5), `execution` (1), `memory` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `execution`, `planning`, `memory`, `tools`, `feedback`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-400C84AB0D0A](../claims/claim-400c84ab0d0a.md) - Towards an AI co-scientist provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9E269849672D](../claims/claim-9e269849672d.md) - Towards an AI co-scientist provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DC9A3BCA8EF8](../claims/claim-dc9a3bca8ef8.md) - Towards an AI co-scientist provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

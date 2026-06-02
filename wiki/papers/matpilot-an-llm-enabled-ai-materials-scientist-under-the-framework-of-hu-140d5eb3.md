@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2411.08063.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5BDDDA71FD77"
+  - "CLAIM-A51ECEBECBA5"
+  - "CLAIM-FECE521FF241"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 8006 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `multi-agent` (10), `execution` (5), `agent` (3), `feedback` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `execution`, `tools`, `feedback`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5BDDDA71FD77](../claims/claim-5bddda71fd77.md) - MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A51ECEBECBA5](../claims/claim-a51ecebecba5.md) - MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FECE521FF241](../claims/claim-fece521ff241.md) - MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

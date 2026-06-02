@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2601.11868.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-660F7F70CA18"
+  - "CLAIM-8289C6CE2638"
+  - "CLAIM-B6BEA0C134C0"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10203 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (35), `code` (12), `environment` (11), `feedback` (4), `execution` (3), `tools` (3), `memory` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-660F7F70CA18](../claims/claim-660f7f70ca18.md) - Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8289C6CE2638](../claims/claim-8289c6ce2638.md) - Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B6BEA0C134C0](../claims/claim-b6bea0c134c0.md) - Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

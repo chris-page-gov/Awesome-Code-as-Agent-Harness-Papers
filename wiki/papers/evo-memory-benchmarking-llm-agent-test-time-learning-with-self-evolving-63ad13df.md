@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2511.20857.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-A3CB0E02BCC1"
+  - "CLAIM-A79ABE41F233"
+  - "CLAIM-B5231C169A00"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11069 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (59), `agent` (21), `feedback` (15), `environment` (9), `planning` (3), `code` (2), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-A3CB0E02BCC1](../claims/claim-a3cb0e02bcc1.md) - Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A79ABE41F233](../claims/claim-a79abe41f233.md) - Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B5231C169A00](../claims/claim-b5231c169a00.md) - Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

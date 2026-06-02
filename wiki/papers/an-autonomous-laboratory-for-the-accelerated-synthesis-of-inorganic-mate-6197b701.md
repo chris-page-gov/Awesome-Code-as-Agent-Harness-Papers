@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-367814FB5266"
+  - "CLAIM-5165096FB6EB"
+  - "CLAIM-CD93DA16DE44"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `memory` (9), `agent` (3), `code` (1), `feedback` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-367814FB5266](../claims/claim-367814fb5266.md) - An autonomous laboratory for the accelerated synthesis of inorganic materials provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5165096FB6EB](../claims/claim-5165096fb6eb.md) - An autonomous laboratory for the accelerated synthesis of inorganic materials provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CD93DA16DE44](../claims/claim-cd93da16de44.md) - An autonomous laboratory for the accelerated synthesis of inorganic materials provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2512.02002.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-32B740B5CD34"
+  - "CLAIM-7289DAE694B4"
+  - "CLAIM-8A32D1F84B35"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16306 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (73), `execution` (19), `memory` (17), `feedback` (11), `environment` (7), `planning` (3), `agent` (2), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-32B740B5CD34](../claims/claim-32b740b5cd34.md) - LLM-Driven Corrective Robot Operation Code Generation with Static Text-Based Simulation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7289DAE694B4](../claims/claim-7289dae694b4.md) - LLM-Driven Corrective Robot Operation Code Generation with Static Text-Based Simulation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8A32D1F84B35](../claims/claim-8a32d1f84b35.md) - LLM-Driven Corrective Robot Operation Code Generation with Static Text-Based Simulation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

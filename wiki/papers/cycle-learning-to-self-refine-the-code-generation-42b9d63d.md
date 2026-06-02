@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2403.18746.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-43FA50F508F0"
+  - "CLAIM-B9C23BF1718B"
+  - "CLAIM-E4D6B3347D19"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11078 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (82), `feedback` (22), `execution` (11), `environment` (4).
 - Source cue: automated topic tags: `code`, `execution`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-43FA50F508F0](../claims/claim-43fa50f508f0.md) - CYCLE: Learning to Self-Refine the Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B9C23BF1718B](../claims/claim-b9c23bf1718b.md) - CYCLE: Learning to Self-Refine the Code Generation provides localized evidence about threat and attack surface for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E4D6B3347D19](../claims/claim-e4d6b3347d19.md) - CYCLE: Learning to Self-Refine the Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

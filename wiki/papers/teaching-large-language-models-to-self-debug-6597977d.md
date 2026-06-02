@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2304.05128.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2758CE406B6F"
+  - "CLAIM-772B5C0A54A2"
+  - "CLAIM-BF083B0F1FD6"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12473 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (66), `feedback` (35), `execution` (20), `environment` (2), `memory` (2).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2758CE406B6F](../claims/claim-2758ce406b6f.md) - Teaching Large Language Models to Self-Debug provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-772B5C0A54A2](../claims/claim-772b5c0a54a2.md) - Teaching Large Language Models to Self-Debug provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BF083B0F1FD6](../claims/claim-bf083b0f1fd6.md) - Teaching Large Language Models to Self-Debug provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

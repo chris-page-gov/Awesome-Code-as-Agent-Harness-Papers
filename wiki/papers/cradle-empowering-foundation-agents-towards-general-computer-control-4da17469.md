@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.mlr.press/cradle-empowering-foundation-agents-towards-general-computer-control-ef56cc84.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4B670AC9B4E6"
+  - "CLAIM-BF7C7F96D420"
+  - "CLAIM-F4E9EB68D4A1"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 8179 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (17), `code` (16), `planning` (6), `environment` (3), `memory` (3).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4B670AC9B4E6](../claims/claim-4b670ac9b4e6.md) - Cradle: Empowering Foundation Agents towards General Computer Control provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BF7C7F96D420](../claims/claim-bf7c7f96d420.md) - Cradle: Empowering Foundation Agents towards General Computer Control provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F4E9EB68D4A1](../claims/claim-f4e9eb68d4a1.md) - The localized source for Cradle: Empowering Foundation Agents towards General Computer Control is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

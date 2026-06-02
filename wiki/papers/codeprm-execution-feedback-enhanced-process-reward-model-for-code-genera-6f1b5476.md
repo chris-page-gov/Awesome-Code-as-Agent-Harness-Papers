@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.findings-acl.428.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-394F72702AD4"
+  - "CLAIM-5C8F894935A6"
+  - "CLAIM-90B8520217EC"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13154 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (79), `feedback` (25), `execution` (15), `memory` (4), `environment` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-394F72702AD4](../claims/claim-394f72702ad4.md) - CodePRM: Execution Feedback-enhanced Process Reward Model for Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5C8F894935A6](../claims/claim-5c8f894935a6.md) - CodePRM: Execution Feedback-enhanced Process Reward Model for Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-90B8520217EC](../claims/claim-90b8520217ec.md) - CodePRM: Execution Feedback-enhanced Process Reward Model for Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

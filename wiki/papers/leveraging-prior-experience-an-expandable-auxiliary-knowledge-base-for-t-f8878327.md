@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2411.13244.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0AD0910F2207"
+  - "CLAIM-465C48FBD0C7"
+  - "CLAIM-61C0CE8F5531"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11106 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (5), `feedback` (3), `code` (2), `environment` (2), `tools` (1).
 - Source cue: automated topic tags: `code`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0AD0910F2207](../claims/claim-0ad0910f2207.md) - Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-465C48FBD0C7](../claims/claim-465c48fbd0c7.md) - Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-61C0CE8F5531](../claims/claim-61c0ce8f5531.md) - Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/openreview.net/from-programs-to-poses-factored-real-world-scene-generation-via-learned-program-b37f0ed9.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-B2F61CF9F3D6"
+  - "CLAIM-E3BC91946920"
+  - "CLAIM-F556DF219277"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2121 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (4), `environment` (4).
 - Source cue: automated topic tags: `code`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-B2F61CF9F3D6](../claims/claim-b2f61cf9f3d6.md) - From Programs to Poses: Factored Real-World Scene Generation via Learned Program Libraries provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E3BC91946920](../claims/claim-e3bc91946920.md) - From Programs to Poses: Factored Real-World Scene Generation via Learned Program Libraries provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F556DF219277](../claims/claim-f556df219277.md) - From Programs to Poses: Factored Real-World Scene Generation via Learned Program Libraries provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2302.06590.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-47EA49DBCB01"
+  - "CLAIM-A97A2D7C714E"
+  - "CLAIM-DAD39A7CFEF6"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 5420 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (9), `tools` (7), `environment` (1), `memory` (1).
 - Source cue: automated topic tags: `code`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-47EA49DBCB01](../claims/claim-47ea49dbcb01.md) - The Impact of AI on Developer Productivity: Evidence from GitHub Copilot provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A97A2D7C714E](../claims/claim-a97a2d7c714e.md) - The Impact of AI on Developer Productivity: Evidence from GitHub Copilot provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DAD39A7CFEF6](../claims/claim-dad39a7cfef6.md) - The Impact of AI on Developer Productivity: Evidence from GitHub Copilot provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

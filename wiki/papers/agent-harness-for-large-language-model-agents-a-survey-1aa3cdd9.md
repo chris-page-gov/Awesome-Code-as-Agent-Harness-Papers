@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/pdf/agent-harness-for-large-language-model-agents-a-survey-fc79695e.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3944026A5E75"
+  - "CLAIM-4A979C5AE12D"
+  - "CLAIM-82EC399A0AF1"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9102 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (26), `memory` (14), `execution` (10), `tools` (10), `environment` (7), `code` (5), `planning` (3), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3944026A5E75](../claims/claim-3944026a5e75.md) - Agent Harness for Large Language Model Agents: A Survey provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4A979C5AE12D](../claims/claim-4a979c5ae12d.md) - Agent Harness for Large Language Model Agents: A Survey provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-82EC399A0AF1](../claims/claim-82ec399a0af1.md) - Agent Harness for Large Language Model Agents: A Survey provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

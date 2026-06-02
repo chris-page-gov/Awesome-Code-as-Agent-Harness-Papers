@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2410.02089.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2A25019B6B23"
+  - "CLAIM-3C9800E333F6"
+  - "CLAIM-A89A6923A032"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12211 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (54), `code` (36), `execution` (23), `environment` (6), `memory` (6), `agent` (4).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2A25019B6B23](../claims/claim-2a25019b6b23.md) - RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3C9800E333F6](../claims/claim-3c9800e333f6.md) - RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A89A6923A032](../claims/claim-a89a6923a032.md) - RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2312.13771.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2B0EAC41B660"
+  - "CLAIM-603B6D1FE179"
+  - "CLAIM-A3EEE358F37C"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12557 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (40), `environment` (6), `tools` (6), `memory` (5), `code` (1), `multi-agent` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2B0EAC41B660](../claims/claim-2b0eac41b660.md) - AppAgent: Multimodal Agents as Smartphone Users provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-603B6D1FE179](../claims/claim-603b6d1fe179.md) - AppAgent: Multimodal Agents as Smartphone Users provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A3EEE358F37C](../claims/claim-a3eee358f37c.md) - AppAgent: Multimodal Agents as Smartphone Users provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

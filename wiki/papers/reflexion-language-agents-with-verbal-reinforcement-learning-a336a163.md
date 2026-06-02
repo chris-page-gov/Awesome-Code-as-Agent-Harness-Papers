@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/vAElhFcKW6.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-49FA7D1713FE"
+  - "CLAIM-895678C7EAE0"
+  - "CLAIM-98A721BC0A0F"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11973 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (23), `agent` (20), `code` (15), `memory` (11), `environment` (8), `execution` (4), `tools` (2), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-49FA7D1713FE](../claims/claim-49fa7d1713fe.md) - Reflexion: Language Agents with Verbal Reinforcement Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-895678C7EAE0](../claims/claim-895678c7eae0.md) - Reflexion: Language Agents with Verbal Reinforcement Learning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-98A721BC0A0F](../claims/claim-98a721bc0a0f.md) - Reflexion: Language Agents with Verbal Reinforcement Learning provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

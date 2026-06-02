@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2003.00368.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2B6012C22EC9"
+  - "CLAIM-4F3CAF0DCDE4"
+  - "CLAIM-6D49B7A69601"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15559 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (10), `planning` (10), `code` (6), `environment` (4), `execution` (2).
 - Source cue: automated topic tags: `code`, `execution`, `planning`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2B6012C22EC9](../claims/claim-2b6012c22ec9.md) - The Marathon 2: A Navigation System provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4F3CAF0DCDE4](../claims/claim-4f3caf0dcde4.md) - The Marathon 2: A Navigation System provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6D49B7A69601](../claims/claim-6d49b7a69601.md) - The Marathon 2: A Navigation System provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

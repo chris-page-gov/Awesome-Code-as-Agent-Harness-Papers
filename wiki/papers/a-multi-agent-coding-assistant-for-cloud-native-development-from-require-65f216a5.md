@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/sciety.org/a-multi-agent-coding-assistant-for-cloud-native-development-from-requirements-to-fe52f749.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0145EB00DF11"
+  - "CLAIM-B757D752ED0A"
+  - "CLAIM-BC233893A308"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 3281 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (19), `code` (4), `feedback` (4), `multi-agent` (3), `execution` (2), `tools` (2), `environment` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0145EB00DF11](../claims/claim-0145eb00df11.md) - A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B757D752ED0A](../claims/claim-b757d752ed0a.md) - A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BC233893A308](../claims/claim-bc233893a308.md) - A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

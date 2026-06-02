@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/frontiersin.org/blueprint2code-a-multi-agent-pipeline-for-reliable-code-generation-via-blueprint-ee082543.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-08BD08E42046"
+  - "CLAIM-1420A27F528D"
+  - "CLAIM-306FF8CD106F"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (76), `agent` (48), `feedback` (37), `planning` (29), `multi-agent` (16), `environment` (10), `memory` (6), `execution` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-08BD08E42046](../claims/claim-08bd08e42046.md) - Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-1420A27F528D](../claims/claim-1420a27f528d.md) - Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-306FF8CD106F](../claims/claim-306ff8cd106f.md) - Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

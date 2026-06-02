@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.mlr.press/pal-program-aided-language-models-f5ec9d83.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-500FFDFCB2AB"
+  - "CLAIM-8C589517034C"
+  - "CLAIM-9652EB16A5EB"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 6822 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `execution` (15), `code` (11), `feedback` (3), `memory` (3).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-500FFDFCB2AB](../claims/claim-500ffdfcb2ab.md) - PAL: Program-aided Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8C589517034C](../claims/claim-8c589517034c.md) - The localized source for PAL: Program-aided Language Models is too thin for decision-grade synthesis on approval and human oversight without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-9652EB16A5EB](../claims/claim-9652eb16a5eb.md) - PAL: Program-aided Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

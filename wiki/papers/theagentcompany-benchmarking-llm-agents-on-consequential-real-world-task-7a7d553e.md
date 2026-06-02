@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/LZnKNApvhG.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-543FC006D78F"
+  - "CLAIM-87CC37DD094D"
+  - "CLAIM-CB229F82F6C0"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12222 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (41), `agent` (28), `code` (26), `tools` (4), `execution` (3), `feedback` (3), `multi-agent` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-543FC006D78F](../claims/claim-543fc006d78f.md) - TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-87CC37DD094D](../claims/claim-87cc37dd094d.md) - TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CB229F82F6C0](../claims/claim-cb229f82f6c0.md) - TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2310.03302.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3D7D08588373"
+  - "CLAIM-87E71574DDC9"
+  - "CLAIM-E6CADEBEF74B"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12866 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (39), `environment` (17), `code` (12), `feedback` (9), `execution` (6), `planning` (4), `memory` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3D7D08588373](../claims/claim-3d7d08588373.md) - MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-87E71574DDC9](../claims/claim-87e71574ddc9.md) - MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E6CADEBEF74B](../claims/claim-e6cadebef74b.md) - MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

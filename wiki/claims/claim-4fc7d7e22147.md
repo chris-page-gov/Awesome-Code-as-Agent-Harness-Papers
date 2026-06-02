@@ -1,0 +1,53 @@
+---
+title: "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents pro"
+note_type: "claim-card"
+status: "agent-reviewed"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+claim_id: "CLAIM-4FC7D7E22147"
+claim_type: "contribution"
+paper_ids:
+  - "appworld-a-controllable-world-of-apps-and-people-for-benchmarking-intera-112f7b43"
+source_ids: []
+source_refs:
+  - "sources/raw/arxiv/2407.18901.pdf"
+related_topics:
+  - "harness-interface"
+  - "harness-mechanisms"
+evidence_locator: "sources/raw/arxiv/2407.18901.pdf; extracted sentence match for code-execution"
+extraction_method: "pdftotext"
+review_status: "agent-reviewed"
+creator: "tools/generate_claim_cards.py"
+reviewer: "tools/review_claim_cards.py schema-traceability pass"
+confidence: 0.72
+volatility_flag: false
+last_reviewed: "2026-06-02"
+---
+
+# CLAIM-4FC7D7E22147
+
+## Statement
+
+AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents provides localized evidence about code execution for the Code as Agent Harness wiki.
+
+## Evidence
+
+- Paper fragment:
+  - [appworld-a-controllable-world-of-apps-and-people-for-benchmarking-intera-112f7b43](../papers/appworld-a-controllable-world-of-apps-and-people-for-benchmarking-intera-112f7b43.md)
+- Source refs:
+  - `sources/raw/arxiv/2407.18901.pdf`
+- Locator: sources/raw/arxiv/2407.18901.pdf; extracted sentence match for code-execution
+- Matched terms: `code`, `execution`, `shell`
+- Evidence summary: Source sentence contains code execution evidence with matched cue(s): code, execution, shell.
+
+## Review
+
+- Review status: `agent-reviewed`
+- Creator: `tools/generate_claim_cards.py`
+- Reviewer: `tools/review_claim_cards.py schema-traceability pass`
+- Confidence: `0.72`
+- Volatile source flag: `false`
+
+## Topics
+
+- [harness-interface](../topics/harness-interface.md)
+- [harness-mechanisms](../topics/harness-mechanisms.md)

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2602.23647.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-8426A51AEE93"
+  - "CLAIM-AAD619FADF4E"
+  - "CLAIM-EAA2D9DBE135"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13080 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (37), `feedback` (37), `agent` (16), `environment` (9), `multi-agent` (8), `memory` (6), `planning` (5), `tools` (5), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-8426A51AEE93](../claims/claim-8426a51aee93.md) - SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AAD619FADF4E](../claims/claim-aad619fadf4e.md) - SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EAA2D9DBE135](../claims/claim-eaa2d9dbe135.md) - SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

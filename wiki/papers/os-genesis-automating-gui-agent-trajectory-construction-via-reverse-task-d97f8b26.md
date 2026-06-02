@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.acl-long.277.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-361C5A1EFB08"
+  - "CLAIM-403114CA1394"
+  - "CLAIM-DD0465B3EEAF"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12282 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (27), `environment` (6), `code` (2), `memory` (2), `execution` (1), `multi-agent` (1), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-361C5A1EFB08](../claims/claim-361c5a1efb08.md) - OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-403114CA1394](../claims/claim-403114ca1394.md) - OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DD0465B3EEAF](../claims/claim-dd0465b3eeaf.md) - OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

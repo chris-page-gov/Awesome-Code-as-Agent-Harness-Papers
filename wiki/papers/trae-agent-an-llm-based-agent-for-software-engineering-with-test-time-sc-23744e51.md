@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2507.23370.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-13BA5909B4EA"
+  - "CLAIM-B94A1C7380C7"
+  - "CLAIM-E68FFCCBA4EA"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13477 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (39), `code` (23), `environment` (11), `memory` (5), `feedback` (4), `tools` (3), `execution` (2), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-13BA5909B4EA](../claims/claim-13ba5909b4ea.md) - Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B94A1C7380C7](../claims/claim-b94a1c7380c7.md) - Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E68FFCCBA4EA](../claims/claim-e68ffccba4ea.md) - Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

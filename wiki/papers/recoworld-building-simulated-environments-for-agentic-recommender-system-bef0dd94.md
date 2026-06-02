@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2509.10397.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-B279CEA9B8DB"
+  - "CLAIM-DDB264700191"
+  - "CLAIM-F5AA4BDD17CF"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 17791 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (56), `feedback` (19), `environment` (9), `memory` (2), `tools` (2), `code` (1), `execution` (1), `multi-agent` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-B279CEA9B8DB](../claims/claim-b279cea9b8db.md) - RecoWorld: Building Simulated Environments for Agentic Recommender Systems provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DDB264700191](../claims/claim-ddb264700191.md) - RecoWorld: Building Simulated Environments for Agentic Recommender Systems provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F5AA4BDD17CF](../claims/claim-f5aa4bdd17cf.md) - RecoWorld: Building Simulated Environments for Agentic Recommender Systems provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2503.07358.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-03C18DA4E889"
+  - "CLAIM-43F49E1B2DA1"
+  - "CLAIM-7807B55A6E58"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13243 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (23), `execution` (22), `code` (17), `environment` (13), `memory` (6), `tools` (4).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-03C18DA4E889](../claims/claim-03c18da4e889.md) - RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-43F49E1B2DA1](../claims/claim-43f49e1b2da1.md) - RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7807B55A6E58](../claims/claim-7807b55a6e58.md) - RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/roNSXZpUDN.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-30E396FE1E29"
+  - "CLAIM-5E1F6C78F1B9"
+  - "CLAIM-A1327BFE3F86"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13040 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (51), `tools` (20), `environment` (13), `memory` (13), `feedback` (5), `code` (3), `execution` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-30E396FE1E29](../claims/claim-30e396fe1e29.md) - τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5E1F6C78F1B9](../claims/claim-5e1f6c78f1b9.md) - τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A1327BFE3F86](../claims/claim-a1327bfe3f86.md) - τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

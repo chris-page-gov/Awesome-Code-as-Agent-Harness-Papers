@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/kiYqbO3wqw.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-7C3A75C42D61"
+  - "CLAIM-99352A1F525B"
+  - "CLAIM-D78C5CBC6008"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11700 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (32), `environment` (12), `memory` (3), `feedback` (2), `tools` (2).
 - Source cue: automated topic tags: `agent`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-7C3A75C42D61](../claims/claim-7c3a75c42d61.md) - Mind2Web: Towards a Generalist Agent for the Web provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-99352A1F525B](../claims/claim-99352a1f525b.md) - Mind2Web: Towards a Generalist Agent for the Web provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D78C5CBC6008](../claims/claim-d78c5cbc6008.md) - Mind2Web: Towards a Generalist Agent for the Web provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

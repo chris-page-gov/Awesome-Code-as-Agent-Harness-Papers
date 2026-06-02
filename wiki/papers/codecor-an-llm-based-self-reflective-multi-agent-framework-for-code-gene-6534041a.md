@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2501.07811.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-38F178273D8C"
+  - "CLAIM-F4528C7D12FB"
+  - "CLAIM-F5BBEAF32536"
 survey_layers:
   - "Harness Mechanisms"
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
@@ -56,7 +61,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10482 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (50), `agent` (38), `feedback` (27), `multi-agent` (13), `memory` (3), `planning` (3), `environment` (2).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-38F178273D8C](../claims/claim-38f178273d8c.md) - CodeCoR: An LLM-based self-reflective multi-agent framework for code generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F4528C7D12FB](../claims/claim-f4528c7d12fb.md) - CodeCoR: An LLM-based self-reflective multi-agent framework for code generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F5BBEAF32536](../claims/claim-f5bbeaf32536.md) - CodeCoR: An LLM-based self-reflective multi-agent framework for code generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -65,5 +76,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

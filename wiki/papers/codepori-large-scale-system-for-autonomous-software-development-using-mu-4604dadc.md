@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2402.01411.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-205A02FB59F1"
+  - "CLAIM-34523DF5576B"
+  - "CLAIM-ECF49DC3E446"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -52,7 +57,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 7148 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (32), `agent` (27), `environment` (7), `multi-agent` (7), `memory` (4), `tools` (3), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-205A02FB59F1](../claims/claim-205a02fb59f1.md) - CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-34523DF5576B](../claims/claim-34523df5576b.md) - CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-ECF49DC3E446](../claims/claim-ecf49dc3e446.md) - CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -61,5 +72,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

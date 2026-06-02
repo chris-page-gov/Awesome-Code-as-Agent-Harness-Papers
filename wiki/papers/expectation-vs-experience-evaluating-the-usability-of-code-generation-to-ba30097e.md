@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/pdf/expectation-vs-experience-evaluating-the-usability-of-code-generation-tools-powe-a112b7af.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-235358D33283"
+  - "CLAIM-529156C631A7"
+  - "CLAIM-DFFA953019BD"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 18990 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (101), `tools` (19), `feedback` (7), `environment` (6), `memory` (3).
 - Source cue: automated topic tags: `code`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-235358D33283](../claims/claim-235358d33283.md) - Expectation vs.\ Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-529156C631A7](../claims/claim-529156c631a7.md) - Expectation vs.\ Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DFFA953019BD](../claims/claim-dffa953019bd.md) - Expectation vs.\ Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

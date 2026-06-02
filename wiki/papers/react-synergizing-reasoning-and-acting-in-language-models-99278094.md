@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/WE_vluYUL-X.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-6536871D364D"
+  - "CLAIM-A8572A89D48B"
+  - "CLAIM-C0F8E1F19D30"
 survey_layers:
   - "Harness Interface"
   - "Harness Mechanisms"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14671 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (14), `agent` (6), `environment` (6), `feedback` (3), `planning` (3), `tools` (2), `code` (1), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-6536871D364D](../claims/claim-6536871d364d.md) - ReAct: Synergizing Reasoning and Acting in Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A8572A89D48B](../claims/claim-a8572a89d48b.md) - ReAct: Synergizing Reasoning and Acting in Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C0F8E1F19D30](../claims/claim-c0f8e1f19d30.md) - ReAct: Synergizing Reasoning and Acting in Language Models provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

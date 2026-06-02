@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2401.08500.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2AA78A4BD2A1"
+  - "CLAIM-49662A556B27"
+  - "CLAIM-A8E6CA4731F6"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11685 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (61), `feedback` (7), `environment` (2).
 - Source cue: automated topic tags: `code`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2AA78A4BD2A1](../claims/claim-2aa78a4bd2a1.md) - Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-49662A556B27](../claims/claim-49662a556b27.md) - Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A8E6CA4731F6](../claims/claim-a8e6ca4731f6.md) - Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

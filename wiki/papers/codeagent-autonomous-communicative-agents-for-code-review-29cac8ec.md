@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.emnlp-main.632.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-48F3B2AC2395"
+  - "CLAIM-7B3E15EE2F85"
+  - "CLAIM-FA014F0020DA"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13509 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (85), `agent` (19), `multi-agent` (6), `memory` (5), `environment` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-48F3B2AC2395](../claims/claim-48f3b2ac2395.md) - CodeAgent: Autonomous Communicative Agents for Code Review provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7B3E15EE2F85](../claims/claim-7b3e15ee2f85.md) - CodeAgent: Autonomous Communicative Agents for Code Review provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FA014F0020DA](../claims/claim-fa014f0020da.md) - CodeAgent: Autonomous Communicative Agents for Code Review provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2506.18403.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-13A573DCB6DE"
+  - "CLAIM-9BA87E646CE2"
+  - "CLAIM-C419AA08BBC8"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15465 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (40), `feedback` (7), `memory` (5), `environment` (4), `execution` (4), `planning` (1).
 - Source cue: automated topic tags: `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-13A573DCB6DE](../claims/claim-13a573dcb6de.md) - The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9BA87E646CE2](../claims/claim-9ba87e646ce2.md) - The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C419AA08BBC8](../claims/claim-c419aa08bbc8.md) - The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

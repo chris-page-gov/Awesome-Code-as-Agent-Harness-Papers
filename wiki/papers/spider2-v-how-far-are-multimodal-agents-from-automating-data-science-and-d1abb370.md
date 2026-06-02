@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.neurips.cc/spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-enginee-fe22bc30.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-29A17490853E"
+  - "CLAIM-4CEEDE0663D4"
+  - "CLAIM-98F35D0839AD"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2956 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (9), `code` (6), `environment` (3), `memory` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-29A17490853E](../claims/claim-29a17490853e.md) - Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows? provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4CEEDE0663D4](../claims/claim-4ceede0663d4.md) - Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows? provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-98F35D0839AD](../claims/claim-98f35d0839ad.md) - Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows? provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/dx.doi.org/knowledge-graph-based-repository-level-code-generation-aaeab87d.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2DBA2E1BF471"
+  - "CLAIM-66184071E3CC"
+  - "CLAIM-DA129CBA4EE8"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 812 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (1), `environment` (1).
 - Source cue: automated topic tags: `code`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2DBA2E1BF471](../claims/claim-2dba2e1bf471.md) - Knowledge Graph Based Repository-Level Code Generation provides localized evidence about registry and curation for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-66184071E3CC](../claims/claim-66184071e3cc.md) - Knowledge Graph Based Repository-Level Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DA129CBA4EE8](../claims/claim-da129cba4ee8.md) - Knowledge Graph Based Repository-Level Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

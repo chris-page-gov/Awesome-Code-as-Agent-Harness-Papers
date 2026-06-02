@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/mXpq6ut8J3.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-A585A8E12D5C"
+  - "CLAIM-B02D11DF6F6C"
+  - "CLAIM-EBF7A19061B8"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12048 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (65), `code` (27), `environment` (13), `feedback` (13), `memory` (9), `execution` (6), `tools` (3).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-A585A8E12D5C](../claims/claim-a585a8e12d5c.md) - SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B02D11DF6F6C](../claims/claim-b02d11df6f6c.md) - SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EBF7A19061B8](../claims/claim-ebf7a19061b8.md) - SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/ojs.aaai.org/graph-of-thoughts-solving-elaborate-problems-with-large-language-models-d802d17b.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-869096E4A49F"
+  - "CLAIM-8B2AC69B9C46"
+  - "CLAIM-8C67ABE99799"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2902 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (1), `memory` (1).
 - Source cue: automated topic tags: `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-869096E4A49F](../claims/claim-869096e4a49f.md) - The localized source for Graph of Thoughts: Solving Elaborate Problems with Large Language Models is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-8B2AC69B9C46](../claims/claim-8b2ac69b9c46.md) - Graph of Thoughts: Solving Elaborate Problems with Large Language Models provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8C67ABE99799](../claims/claim-8c67abe99799.md) - The localized source for Graph of Thoughts: Solving Elaborate Problems with Large Language Models is too thin for decision-grade synthesis on evaluation and benchmark evidence without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

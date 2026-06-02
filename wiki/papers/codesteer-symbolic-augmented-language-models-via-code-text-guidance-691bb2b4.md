@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2502.04350.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-8ED740FDE017"
+  - "CLAIM-C86CC6F0A939"
+  - "CLAIM-FE1AA4774205"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12544 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (40), `execution` (6), `planning` (6), `environment` (3), `feedback` (3), `agent` (1), `multi-agent` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-8ED740FDE017](../claims/claim-8ed740fde017.md) - CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C86CC6F0A939](../claims/claim-c86cc6f0a939.md) - CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FE1AA4774205](../claims/claim-fe1aa4774205.md) - CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

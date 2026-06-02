@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/tN61DTr4Ed.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-6CA387062AE1"
+  - "CLAIM-E0F3124E0596"
+  - "CLAIM-F89CED933958"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11977 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (28), `environment` (28), `memory` (13), `execution` (9), `code` (6).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-6CA387062AE1](../claims/claim-6ca387062ae1.md) - OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E0F3124E0596](../claims/claim-e0f3124e0596.md) - OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F89CED933958](../claims/claim-f89ced933958.md) - OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

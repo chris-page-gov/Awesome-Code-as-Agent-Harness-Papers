@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/pubmed.ncbi.nlm.nih.gov/towards-large-language-models-with-human-like-episodic-memory-57d25740.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-8935FC0671BA"
+  - "CLAIM-B2DA06625FCD"
+  - "CLAIM-E569E0881F0F"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 7552 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `memory` (10), `environment` (2), `code` (1), `feedback` (1).
 - Source cue: automated topic tags: `code`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-8935FC0671BA](../claims/claim-8935fc0671ba.md) - Towards Large Language Models with Human-Like Episodic Memory provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B2DA06625FCD](../claims/claim-b2da06625fcd.md) - Towards Large Language Models with Human-Like Episodic Memory provides localized evidence about threat and attack surface for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E569E0881F0F](../claims/claim-e569e0881f0f.md) - Towards Large Language Models with Human-Like Episodic Memory provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

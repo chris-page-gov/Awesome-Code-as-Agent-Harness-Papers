@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2304.07590.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1CBCE4729423"
+  - "CLAIM-1F71F8E673B0"
+  - "CLAIM-E5F79ED48843"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10932 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (48), `multi-agent` (25), `agent` (8), `feedback` (6), `environment` (2).
 - Source cue: automated topic tags: `agent`, `code`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1CBCE4729423](../claims/claim-1cbce4729423.md) - Self-collaboration Code Generation via ChatGPT provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-1F71F8E673B0](../claims/claim-1f71f8e673b0.md) - Self-collaboration Code Generation via ChatGPT provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E5F79ED48843](../claims/claim-e5f79ed48843.md) - Self-collaboration Code Generation via ChatGPT provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

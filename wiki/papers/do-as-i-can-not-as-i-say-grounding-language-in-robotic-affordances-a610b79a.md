@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2204.01691.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2C53044BD826"
+  - "CLAIM-D32A3F479D18"
+  - "CLAIM-F9B880327A96"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13763 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (19), `memory` (14), `agent` (7), `execution` (6), `code` (2), `planning` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2C53044BD826](../claims/claim-2c53044bd826.md) - Do As I Can, Not As I Say: Grounding Language in Robotic Affordances provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D32A3F479D18](../claims/claim-d32a3f479d18.md) - Do As I Can, Not As I Say: Grounding Language in Robotic Affordances provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F9B880327A96](../claims/claim-f9b880327a96.md) - Do As I Can, Not As I Say: Grounding Language in Robotic Affordances provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

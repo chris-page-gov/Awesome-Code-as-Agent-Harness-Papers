@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2306.02552.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2F465E6BA6DB"
+  - "CLAIM-CF92CA76ACF4"
+  - "CLAIM-E3B4207B788A"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9141 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (20), `memory` (15), `environment` (13), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `memory`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2F465E6BA6DB](../claims/claim-2f465e6ba6db.md) - The localized source for User Behavior Simulation with Large Language Model-Based Agents is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-CF92CA76ACF4](../claims/claim-cf92ca76acf4.md) - User Behavior Simulation with Large Language Model-Based Agents provides localized evidence about capability governance for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E3B4207B788A](../claims/claim-e3b4207b788a.md) - User Behavior Simulation with Large Language Model-Based Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

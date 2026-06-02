@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2306.17582.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4E59EA93AF0C"
+  - "CLAIM-83C593FC0FE8"
+  - "CLAIM-EC83F4C82275"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9735 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (13), `environment` (5), `feedback` (4), `tools` (4), `agent` (3), `execution` (3), `memory` (3), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4E59EA93AF0C](../claims/claim-4e59ea93af0c.md) - The localized source for ChatGPT for Robotics: Design Principles and Model Abilities is too thin for decision-grade synthesis on evaluation and benchmark evidence without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-83C593FC0FE8](../claims/claim-83c593fc0fe8.md) - ChatGPT for Robotics: Design Principles and Model Abilities provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EC83F4C82275](../claims/claim-ec83f4c82275.md) - ChatGPT for Robotics: Design Principles and Model Abilities provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

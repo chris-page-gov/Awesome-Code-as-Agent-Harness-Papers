@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/link.springer.com/human-ai-experience-in-integrated-development-environments-a-systematic-literatu-5c41e6b6.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2A12927C7CEE"
+  - "CLAIM-85C134DCD034"
+  - "CLAIM-A9634521529E"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (124), `tools` (11), `feedback` (5), `agent` (3), `environment` (3), `multi-agent` (3), `memory` (2), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2A12927C7CEE](../claims/claim-2a12927c7cee.md) - Human-AI Experience in Integrated Development Environments: A Systematic Literature Review provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-85C134DCD034](../claims/claim-85c134dcd034.md) - Human-AI Experience in Integrated Development Environments: A Systematic Literature Review provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A9634521529E](../claims/claim-a9634521529e.md) - Human-AI Experience in Integrated Development Environments: A Systematic Literature Review provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

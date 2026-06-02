@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2404.05719.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-8A2921162054"
+  - "CLAIM-EA97B68C18AB"
+  - "CLAIM-EE5CC0D2C4AF"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 7447 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `execution` (3), `environment` (2), `tools` (1).
 - Source cue: automated topic tags: `execution`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-8A2921162054](../claims/claim-8a2921162054.md) - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EA97B68C18AB](../claims/claim-ea97b68c18ab.md) - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EE5CC0D2C4AF](../claims/claim-ee5cc0d2c4af.md) - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

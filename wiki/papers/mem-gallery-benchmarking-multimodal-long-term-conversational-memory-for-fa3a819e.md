@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2601.03515.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-04C1867BF0AB"
+  - "CLAIM-06E30B121C8A"
+  - "CLAIM-529E5AB37391"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14914 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (76), `agent` (22), `environment` (15), `feedback` (4).
 - Source cue: automated topic tags: `agent`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-04C1867BF0AB](../claims/claim-04c1867bf0ab.md) - Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-06E30B121C8A](../claims/claim-06e30b121c8a.md) - Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-529E5AB37391](../claims/claim-529e5ab37391.md) - Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

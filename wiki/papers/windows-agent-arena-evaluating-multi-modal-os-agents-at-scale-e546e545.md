@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.mlr.press/windows-agent-arena-evaluating-multi-modal-os-agents-at-scale-e0f66ef6.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2BDEBEB93C80"
+  - "CLAIM-96A1302873CD"
+  - "CLAIM-A2A1E3AEABEE"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 6928 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (34), `environment` (15), `tools` (6), `code` (4), `planning` (3).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2BDEBEB93C80](../claims/claim-2bdebeb93c80.md) - Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-96A1302873CD](../claims/claim-96a1302873cd.md) - Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A2A1E3AEABEE](../claims/claim-a2a1e3aeabee.md) - Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2410.07095.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-20C3BEA3D27A"
+  - "CLAIM-3C5C55342098"
+  - "CLAIM-5B4B8F1B55AE"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9227 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (26), `environment` (15), `feedback` (12), `code` (4), `tools` (3), `execution` (1), `memory` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-20C3BEA3D27A](../claims/claim-20c3bea3d27a.md) - MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3C5C55342098](../claims/claim-3c5c55342098.md) - MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5B4B8F1B55AE](../claims/claim-5b4b8f1b55ae.md) - MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

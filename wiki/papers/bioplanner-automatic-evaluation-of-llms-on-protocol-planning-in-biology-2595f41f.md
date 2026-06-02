@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2023.emnlp-main.162.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0679224EA750"
+  - "CLAIM-6B93E2BDDFBF"
+  - "CLAIM-B4E986409C7A"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13519 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `planning` (18), `code` (3), `environment` (3), `feedback` (3), `agent` (2), `execution` (2), `tools` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0679224EA750](../claims/claim-0679224ea750.md) - BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6B93E2BDDFBF](../claims/claim-6b93e2bddfbf.md) - BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B4E986409C7A](../claims/claim-b4e986409c7a.md) - BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

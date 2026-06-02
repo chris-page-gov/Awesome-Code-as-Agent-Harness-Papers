@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2603.21430.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-24DC84EDB242"
+  - "CLAIM-906A1744461F"
+  - "CLAIM-F72F0FB375CF"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 18031 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (49), `environment` (12), `agent` (9), `memory` (6), `feedback` (3), `tools` (2), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-24DC84EDB242](../claims/claim-24dc84edb242.md) - DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-906A1744461F](../claims/claim-906a1744461f.md) - DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F72F0FB375CF](../claims/claim-f72f0fb375cf.md) - DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

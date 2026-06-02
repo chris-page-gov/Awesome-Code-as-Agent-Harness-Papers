@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/nature.com/the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies-2571def1.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-07824302F979"
+  - "CLAIM-7029CB6D8CA3"
+  - "CLAIM-859C9800C16E"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 28296 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (19), `multi-agent` (7), `code` (4), `tools` (4), `environment` (3), `feedback` (2), `memory` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-07824302F979](../claims/claim-07824302f979.md) - The virtual lab of AI agents designs new SARS-CoV-2 nanobodies provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7029CB6D8CA3](../claims/claim-7029cb6d8ca3.md) - The virtual lab of AI agents designs new SARS-CoV-2 nanobodies provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-859C9800C16E](../claims/claim-859c9800c16e.md) - The virtual lab of AI agents designs new SARS-CoV-2 nanobodies provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

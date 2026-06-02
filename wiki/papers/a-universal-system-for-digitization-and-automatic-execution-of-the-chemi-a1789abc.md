@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-83B7851120B9"
+  - "CLAIM-BE39F136BEED"
+  - "CLAIM-FF078D705067"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (34), `execution` (24), `environment` (9), `memory` (3), `agent` (2), `feedback` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-83B7851120B9](../claims/claim-83b7851120b9.md) - A universal system for digitization and automatic execution of the chemical synthesis literature provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BE39F136BEED](../claims/claim-be39f136beed.md) - A universal system for digitization and automatic execution of the chemical synthesis literature provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FF078D705067](../claims/claim-ff078d705067.md) - A universal system for digitization and automatic execution of the chemical synthesis literature provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

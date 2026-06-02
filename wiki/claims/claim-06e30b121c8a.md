@@ -1,0 +1,55 @@
+---
+title: "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents provides lo"
+note_type: "claim-card"
+status: "agent-reviewed"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+claim_id: "CLAIM-06E30B121C8A"
+claim_type: "protocol-capability"
+paper_ids:
+  - "mem-gallery-benchmarking-multimodal-long-term-conversational-memory-for-fa3a819e"
+source_ids: []
+source_refs:
+  - "sources/raw/arxiv/2601.03515.pdf"
+related_topics:
+  - "mcp-governance"
+  - "harness-interface"
+  - "procurement-and-conformance"
+evidence_locator: "sources/raw/arxiv/2601.03515.pdf; extracted sentence match for mcp-protocol"
+extraction_method: "pdftotext"
+review_status: "agent-reviewed"
+creator: "tools/generate_claim_cards.py"
+reviewer: "tools/review_claim_cards.py schema-traceability pass"
+confidence: 0.72
+volatility_flag: true
+last_reviewed: "2026-06-02"
+---
+
+# CLAIM-06E30B121C8A
+
+## Statement
+
+Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents provides localized evidence about MCP protocol for the Code as Agent Harness wiki.
+
+## Evidence
+
+- Paper fragment:
+  - [mem-gallery-benchmarking-multimodal-long-term-conversational-memory-for-fa3a819e](../papers/mem-gallery-benchmarking-multimodal-long-term-conversational-memory-for-fa3a819e.md)
+- Source refs:
+  - `sources/raw/arxiv/2601.03515.pdf`
+- Locator: sources/raw/arxiv/2601.03515.pdf; extracted sentence match for mcp-protocol
+- Matched terms: `protocol`
+- Evidence summary: Source sentence contains MCP protocol evidence with matched cue(s): protocol.
+
+## Review
+
+- Review status: `agent-reviewed`
+- Creator: `tools/generate_claim_cards.py`
+- Reviewer: `tools/review_claim_cards.py schema-traceability pass`
+- Confidence: `0.72`
+- Volatile source flag: `true`
+
+## Topics
+
+- [mcp-governance](../topics/mcp-governance.md)
+- [harness-interface](../topics/harness-interface.md)
+- [procurement-and-conformance](../topics/procurement-and-conformance.md)

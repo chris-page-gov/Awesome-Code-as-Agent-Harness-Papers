@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2503.01700.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0E46513FEEE8"
+  - "CLAIM-821B49EE4B9D"
+  - "CLAIM-8B0BD64B4D9E"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 18112 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (80), `planning` (48), `memory` (12), `environment` (7), `execution` (7), `agent` (6), `feedback` (6), `multi-agent` (3), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0E46513FEEE8](../claims/claim-0e46513feee8.md) - Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-821B49EE4B9D](../claims/claim-821b49ee4b9d.md) - Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8B0BD64B4D9E](../claims/claim-8b0bd64b4d9e.md) - Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -8,3 +8,12 @@ source review was required.
 
 - [Agentic AI Governance UK MCP review](agentic-ai-governance-uk-mcp-review.md)
 - [LLM-Wiki primary-source evaluation](llm-wiki-primary-source-evaluation.md)
+- [LLM-Wiki post-Claim-Card evaluation](llm-wiki-primary-source-evaluation-post-claim-cards.md)
+- [Bibliography export](bibliography.md)
+
+## Evidence Packets
+
+- [MCP governance](evidence-packets/mcp-governance.md)
+- [Agent safety and sandboxing](evidence-packets/agent-safety-and-sandboxing.md)
+- [Evidence, observability, and redress](evidence-packets/evidence-observability-and-redress.md)
+- [Procurement and conformance](evidence-packets/procurement-and-conformance.md)

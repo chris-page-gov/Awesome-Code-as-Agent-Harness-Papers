@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/767aZTpsIl.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1EF810E19CE2"
+  - "CLAIM-7B9E94FFD6A0"
+  - "CLAIM-B75A956C0406"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11472 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `planning` (35), `code` (17), `feedback` (17), `execution` (3), `memory` (2), `tools` (2), `environment` (1).
 - Source cue: automated topic tags: `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1EF810E19CE2](../claims/claim-1ef810e19ce2.md) - PaT: Planning-after-Trial for Efficient Test-Time Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7B9E94FFD6A0](../claims/claim-7b9e94ffd6a0.md) - PaT: Planning-after-Trial for Efficient Test-Time Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B75A956C0406](../claims/claim-b75a956c0406.md) - PaT: Planning-after-Trial for Efficient Test-Time Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

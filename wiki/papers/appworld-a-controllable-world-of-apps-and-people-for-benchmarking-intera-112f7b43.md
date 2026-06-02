@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2407.18901.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4FC7D7E22147"
+  - "CLAIM-642CA5B403D6"
+  - "CLAIM-F12953982C6E"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13346 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (27), `code` (24), `tools` (15), `agent` (14), `execution` (10), `memory` (5), `planning` (4), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4FC7D7E22147](../claims/claim-4fc7d7e22147.md) - AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-642CA5B403D6](../claims/claim-642ca5b403d6.md) - AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F12953982C6E](../claims/claim-f12953982c6e.md) - AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

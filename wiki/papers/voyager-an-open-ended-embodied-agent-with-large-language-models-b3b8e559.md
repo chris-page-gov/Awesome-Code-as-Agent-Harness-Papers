@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/ehfRiF0R3a.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-7B8C756138DD"
+  - "CLAIM-C5D48BBC1697"
+  - "CLAIM-D85DB267230C"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10542 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (14), `code` (14), `environment` (8), `memory` (8), `feedback` (7), `execution` (3), `tools` (2), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-7B8C756138DD](../claims/claim-7b8c756138dd.md) - Voyager: An Open-Ended Embodied Agent with Large Language Models provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C5D48BBC1697](../claims/claim-c5d48bbc1697.md) - Voyager: An Open-Ended Embodied Agent with Large Language Models provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D85DB267230C](../claims/claim-d85db267230c.md) - Voyager: An Open-Ended Embodied Agent with Large Language Models provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

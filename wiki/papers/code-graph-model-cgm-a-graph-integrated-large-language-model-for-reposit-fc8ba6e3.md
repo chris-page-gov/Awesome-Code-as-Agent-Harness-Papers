@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2505.16901.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2FCFA3598034"
+  - "CLAIM-3C58E5271471"
+  - "CLAIM-AF7F22778158"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10990 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (34), `agent` (9), `environment` (6), `tools` (2), `execution` (1), `feedback` (1), `memory` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2FCFA3598034](../claims/claim-2fcfa3598034.md) - Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3C58E5271471](../claims/claim-3c58e5271471.md) - Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AF7F22778158](../claims/claim-af7f22778158.md) - Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

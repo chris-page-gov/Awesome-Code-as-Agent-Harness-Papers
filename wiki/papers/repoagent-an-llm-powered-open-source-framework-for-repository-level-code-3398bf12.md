@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.emnlp-demo.46.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-52E515FB6DEA"
+  - "CLAIM-B7B8CA0F0E27"
+  - "CLAIM-FA1DDB81FC13"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Mechanisms"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13537 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (58), `memory` (4), `multi-agent` (3), `tools` (2), `environment` (1), `execution` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-52E515FB6DEA](../claims/claim-52e515fb6dea.md) - RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B7B8CA0F0E27](../claims/claim-b7b8ca0f0e27.md) - RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FA1DDB81FC13](../claims/claim-fa1ddb81fc13.md) - RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

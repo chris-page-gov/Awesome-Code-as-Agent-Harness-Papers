@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/pdf/how-anthropic-teams-use-claude-code-7fc8bc72.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2814FC6F698E"
+  - "CLAIM-39EE97D1F40D"
+  - "CLAIM-BACE45305F13"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 6884 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (60), `execution` (4), `memory` (4), `tools` (4).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2814FC6F698E](../claims/claim-2814fc6f698e.md) - How Anthropic teams use Claude Code provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-39EE97D1F40D](../claims/claim-39ee97d1f40d.md) - How Anthropic teams use Claude Code provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BACE45305F13](../claims/claim-bace45305f13.md) - How Anthropic teams use Claude Code provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

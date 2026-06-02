@@ -1,0 +1,433 @@
+{
+  "instructions": "Use a separate agent to confirm traceability, claim type, source locator, and absence of overclaiming. Return a manifest with confirmed=true only for cards that pass.",
+  "review_status_to_apply": "cross-agent-reviewed",
+  "claims": [
+    {
+      "claim_id": "CLAIM-00C5D3533135",
+      "statement": "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents provides localized evidence about threat and attack surface for the Code as Agent Harness wiki.",
+      "claim_type": "threat-taxonomy",
+      "source_refs": [
+        "sources/raw/arxiv/2604.11839.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2604.11839.pdf",
+        "locator": "sources/raw/arxiv/2604.11839.pdf; extracted sentence match for threat",
+        "matched_terms": [
+          "attack",
+          "security"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-00c5d3533135.md"
+    },
+    {
+      "claim_id": "CLAIM-025F57283381",
+      "statement": "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP provides localized evidence about traceability and audit for the Code as Agent Harness wiki.",
+      "claim_type": "evidence-practice",
+      "source_refs": [
+        "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+        "wiki/sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+        "locator": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx; source-note or local-source match for traceability",
+        "matched_terms": [
+          "trace",
+          "audit"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-025f57283381.md"
+    },
+    {
+      "claim_id": "CLAIM-0F69030A6BAD",
+      "statement": "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences provides localized evidence about registry and curation for the Code as Agent Harness wiki.",
+      "claim_type": "procurement-conformance",
+      "source_refs": [
+        "sources/raw/arxiv/2601.06789.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2601.06789.pdf",
+        "locator": "sources/raw/arxiv/2601.06789.pdf; extracted sentence match for registry",
+        "matched_terms": [
+          "repository"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-0f69030a6bad.md"
+    },
+    {
+      "claim_id": "CLAIM-0F844CCFE1D4",
+      "statement": "Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety provides localized evidence about threat and attack surface for the Code as Agent Harness wiki.",
+      "claim_type": "threat-taxonomy",
+      "source_refs": [
+        "sources/raw/openreview/xggSxCFQbA.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/openreview/xggSxCFQbA.pdf",
+        "locator": "sources/raw/openreview/xggSxCFQbA.pdf; extracted sentence match for threat",
+        "matched_terms": [
+          "security"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-0f844ccfe1d4.md"
+    },
+    {
+      "claim_id": "CLAIM-13E4FA2E88F2",
+      "statement": "Code as Agent Harness Survey provides localized evidence about approval and human oversight for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/arxiv/2605.18747.pdf",
+        "wiki/sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2605.18747.pdf",
+        "locator": "sources/raw/arxiv/2605.18747.pdf; source-note or local-source match for approval",
+        "matched_terms": [
+          "human",
+          "human-in-the-loop",
+          "accountability"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-13e4fa2e88f2.md"
+    },
+    {
+      "claim_id": "CLAIM-25D4B090B675",
+      "statement": "NormCode: A Semi-Formal Language for Auditable AI Planning provides localized evidence about traceability and audit for the Code as Agent Harness wiki.",
+      "claim_type": "evidence-practice",
+      "source_refs": [
+        "sources/raw/arxiv/2512.10563.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2512.10563.pdf",
+        "locator": "sources/raw/arxiv/2512.10563.pdf; extracted sentence match for traceability",
+        "matched_terms": [
+          "auditable"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-25d4b090b675.md"
+    },
+    {
+      "claim_id": "CLAIM-32C649CD3E58",
+      "statement": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about threat and attack surface for the Code as Agent Harness wiki.",
+      "claim_type": "threat-taxonomy",
+      "source_refs": [
+        "sources/raw/arxiv/2503.23278.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2503.23278.pdf",
+        "locator": "sources/raw/arxiv/2503.23278.pdf; extracted sentence match for threat",
+        "matched_terms": [
+          "threat",
+          "malicious",
+          "security"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-32c649cd3e58.md"
+    },
+    {
+      "claim_id": "CLAIM-3ACCD6628F96",
+      "statement": "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP provides localized evidence about registry and curation for the Code as Agent Harness wiki.",
+      "claim_type": "procurement-conformance",
+      "source_refs": [
+        "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+        "wiki/sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+        "locator": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx; source-note or local-source match for registry",
+        "matched_terms": [
+          "registry",
+          "curation",
+          "discovery"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-3accd6628f96.md"
+    },
+    {
+      "claim_id": "CLAIM-453F87746D24",
+      "statement": "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents provides localized evidence about gateway and routing for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/arxiv/2604.11839.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2604.11839.pdf",
+        "locator": "sources/raw/arxiv/2604.11839.pdf; extracted sentence match for gateway",
+        "matched_terms": [
+          "routing"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-453f87746d24.md"
+    },
+    {
+      "claim_id": "CLAIM-454C4D1D3C86",
+      "statement": "Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution provides localized evidence about approval and human oversight for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/arxiv/2512.12806.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2512.12806.pdf",
+        "locator": "sources/raw/arxiv/2512.12806.pdf; extracted sentence match for approval",
+        "matched_terms": [
+          "human",
+          "human-in-the-loop"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-454c4d1d3c86.md"
+    },
+    {
+      "claim_id": "CLAIM-4766C00D5DE0",
+      "statement": "Model Context Protocol provides localized evidence about registry and curation for the Code as Agent Harness wiki.",
+      "claim_type": "procurement-conformance",
+      "source_refs": [
+        "sources/raw/html/docs.anthropic.com/model-context-protocol-f0665f2b.html"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/html/docs.anthropic.com/model-context-protocol-f0665f2b.html",
+        "locator": "sources/raw/html/docs.anthropic.com/model-context-protocol-f0665f2b.html; extracted sentence match for registry",
+        "matched_terms": [
+          "registry"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-4766c00d5de0.md"
+    },
+    {
+      "claim_id": "CLAIM-4EE1DFC515EA",
+      "statement": "NormCode: A Semi-Formal Language for Auditable AI Planning provides localized evidence about approval and human oversight for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/arxiv/2512.10563.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2512.10563.pdf",
+        "locator": "sources/raw/arxiv/2512.10563.pdf; extracted sentence match for approval",
+        "matched_terms": [
+          "human"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-4ee1dfc515ea.md"
+    },
+    {
+      "claim_id": "CLAIM-510A05EFF4C7",
+      "statement": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses provides localized evidence about approval and human oversight for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/arxiv/2604.25850.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2604.25850.pdf",
+        "locator": "sources/raw/arxiv/2604.25850.pdf; extracted sentence match for approval",
+        "matched_terms": [
+          "human"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-510a05eff4c7.md"
+    },
+    {
+      "claim_id": "CLAIM-522E3AAEBD2B",
+      "statement": "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP provides localized evidence about redress and accountability for the Code as Agent Harness wiki.",
+      "claim_type": "evidence-practice",
+      "source_refs": [
+        "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+        "wiki/sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+        "locator": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx; source-note or local-source match for redress",
+        "matched_terms": [
+          "redress",
+          "accountability",
+          "appeal"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-522e3aaebd2b.md"
+    },
+    {
+      "claim_id": "CLAIM-55428A79E3E2",
+      "statement": "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences provides localized evidence about traceability and audit for the Code as Agent Harness wiki.",
+      "claim_type": "evidence-practice",
+      "source_refs": [
+        "sources/raw/arxiv/2601.06789.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2601.06789.pdf",
+        "locator": "sources/raw/arxiv/2601.06789.pdf; extracted sentence match for traceability",
+        "matched_terms": [
+          "log"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-55428a79e3e2.md"
+    },
+    {
+      "claim_id": "CLAIM-5C139B680033",
+      "statement": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about gateway and routing for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/arxiv/2503.23278.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2503.23278.pdf",
+        "locator": "sources/raw/arxiv/2503.23278.pdf; extracted sentence match for gateway",
+        "matched_terms": [
+          "transport"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-5c139b680033.md"
+    },
+    {
+      "claim_id": "CLAIM-65129C31A85B",
+      "statement": "From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems provides localized evidence about authorization and identity for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/arxiv/2505.03864.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2505.03864.pdf",
+        "locator": "sources/raw/arxiv/2505.03864.pdf; extracted sentence match for authorization",
+        "matched_terms": [
+          "authorization",
+          "authentication"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-65129c31a85b.md"
+    },
+    {
+      "claim_id": "CLAIM-6CA8DCB84CC3",
+      "statement": "From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems provides localized evidence about registry and curation for the Code as Agent Harness wiki.",
+      "claim_type": "procurement-conformance",
+      "source_refs": [
+        "sources/raw/arxiv/2505.03864.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2505.03864.pdf",
+        "locator": "sources/raw/arxiv/2505.03864.pdf; extracted sentence match for registry",
+        "matched_terms": [
+          "discovery"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-6ca8dcb84cc3.md"
+    },
+    {
+      "claim_id": "CLAIM-73B13828BE76",
+      "statement": "Introducing the Agent Governance Toolkit: Open-Source Runtime Security for AI Agents provides localized evidence about threat and attack surface for the Code as Agent Harness wiki.",
+      "claim_type": "threat-taxonomy",
+      "source_refs": [
+        "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html",
+        "locator": "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html; extracted sentence match for threat",
+        "matched_terms": [
+          "security"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-73b13828be76.md"
+    },
+    {
+      "claim_id": "CLAIM-7D3269A875DC",
+      "statement": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions provides localized evidence about registry and curation for the Code as Agent Harness wiki.",
+      "claim_type": "procurement-conformance",
+      "source_refs": [
+        "sources/raw/arxiv/2503.23278.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2503.23278.pdf",
+        "locator": "sources/raw/arxiv/2503.23278.pdf; extracted sentence match for registry",
+        "matched_terms": [
+          "discovery"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-7d3269a875dc.md"
+    },
+    {
+      "claim_id": "CLAIM-872C4B234B81",
+      "statement": "Introducing the Agent Governance Toolkit: Open-Source Runtime Security for AI Agents provides localized evidence about capability governance for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html",
+        "locator": "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html; extracted sentence match for capability-governance",
+        "matched_terms": [
+          "governance"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-872c4b234b81.md"
+    },
+    {
+      "claim_id": "CLAIM-8736D2BDD7FD",
+      "statement": "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences provides localized evidence about approval and human oversight for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/arxiv/2601.06789.pdf"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/arxiv/2601.06789.pdf",
+        "locator": "sources/raw/arxiv/2601.06789.pdf; extracted sentence match for approval",
+        "matched_terms": [
+          "human"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-8736d2bdd7fd.md"
+    },
+    {
+      "claim_id": "CLAIM-89DD08AD5A98",
+      "statement": "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP provides localized evidence about approval and human oversight for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+        "wiki/sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+        "locator": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx; source-note or local-source match for approval",
+        "matched_terms": [
+          "human",
+          "review",
+          "accountability"
+        ]
+      },
+      "review_status": "cross-agent-reviewed",
+      "card_path": "wiki/claims/claim-89dd08ad5a98.md"
+    },
+    {
+      "claim_id": "CLAIM-8E0783FFF650",
+      "statement": "Introducing the Agent Governance Toolkit: Open-Source Runtime Security for AI Agents provides localized evidence about authorization and identity for the Code as Agent Harness wiki.",
+      "claim_type": "governance-control",
+      "source_refs": [
+        "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html"
+      ],
+      "evidence_locator": {
+        "source_path": "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html",
+        "locator": "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html; extracted sentence match for authorization",
+        "matched_terms": [
+          "identity"
+        ]
+      },
+      "review_status": "agent-reviewed",
+      "card_path": "wiki/claims/claim-8e0783fff650.md"
+    }
+  ]
+}

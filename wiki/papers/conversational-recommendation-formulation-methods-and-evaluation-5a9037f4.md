@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/pdf/conversational-recommendation-formulation-methods-and-evaluation-5d2d7f8a.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-11B6102DC2CF"
+  - "CLAIM-EACEF7651C6A"
+  - "CLAIM-EDC279AD8010"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13448 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (1), `environment` (1), `feedback` (1), `memory` (1), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-11B6102DC2CF](../claims/claim-11b6102dc2cf.md) - Conversational Recommendation: Formulation, Methods, and Evaluation provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EACEF7651C6A](../claims/claim-eacef7651c6a.md) - Conversational Recommendation: Formulation, Methods, and Evaluation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EDC279AD8010](../claims/claim-edc279ad8010.md) - Conversational Recommendation: Formulation, Methods, and Evaluation provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

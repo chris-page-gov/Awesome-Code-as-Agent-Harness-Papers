@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2507.23348.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-D8B8460F94B2"
+  - "CLAIM-E2BF245D1F9D"
+  - "CLAIM-E9A0F6C66C23"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 17235 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (51), `code` (35), `planning` (11), `multi-agent` (10), `memory` (6), `execution` (3), `tools` (3), `environment` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-D8B8460F94B2](../claims/claim-d8b8460f94b2.md) - SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E2BF245D1F9D](../claims/claim-e2bf245d1f9d.md) - SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E9A0F6C66C23](../claims/claim-e9a0f6c66c23.md) - SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

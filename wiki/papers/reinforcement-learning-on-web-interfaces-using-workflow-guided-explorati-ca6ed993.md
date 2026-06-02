@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/1802.08802.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-50C96E7BA4DE"
+  - "CLAIM-6063B206D5F0"
+  - "CLAIM-C3720161792A"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11578 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (19), `memory` (15), `environment` (11).
 - Source cue: automated topic tags: `agent`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-50C96E7BA4DE](../claims/claim-50c96e7ba4de.md) - Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6063B206D5F0](../claims/claim-6063b206d5f0.md) - Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C3720161792A](../claims/claim-c3720161792a.md) - Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

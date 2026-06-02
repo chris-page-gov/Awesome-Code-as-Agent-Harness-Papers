@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2408.06292.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-71868F6C722A"
+  - "CLAIM-7D40D15706C9"
+  - "CLAIM-83456B56A0F5"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11653 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (8), `feedback` (5), `agent` (4), `environment` (3), `planning` (3), `execution` (1), `memory` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-71868F6C722A](../claims/claim-71868f6c722a.md) - The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7D40D15706C9](../claims/claim-7d40d15706c9.md) - The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-83456B56A0F5](../claims/claim-83456b56a0f5.md) - The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

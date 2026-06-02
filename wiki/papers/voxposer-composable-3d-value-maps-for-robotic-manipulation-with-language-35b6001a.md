@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2307.05973.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-182F746B314E"
+  - "CLAIM-61BE27E92764"
+  - "CLAIM-E12695624FE3"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12014 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `planning` (13), `environment` (7), `code` (6), `agent` (3), `tools` (2), `execution` (1), `feedback` (1), `memory` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-182F746B314E](../claims/claim-182f746b314e.md) - VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-61BE27E92764](../claims/claim-61be27e92764.md) - VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E12695624FE3](../claims/claim-e12695624fe3.md) - VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/6TDSDdgP7Z.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-DFA1A007BA20"
+  - "CLAIM-E87A83C0537D"
+  - "CLAIM-F0F8035CFF47"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11651 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (59), `environment` (21), `memory` (18), `code` (10), `multi-agent` (7), `feedback` (2), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-DFA1A007BA20](../claims/claim-dfa1a007ba20.md) - SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E87A83C0537D](../claims/claim-e87a83c0537d.md) - SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F0F8035CFF47](../claims/claim-f0f8035cff47.md) - SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

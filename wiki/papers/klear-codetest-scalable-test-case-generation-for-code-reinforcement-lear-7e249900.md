@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2508.05710.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1883A57B0E93"
+  - "CLAIM-32725D3691B9"
+  - "CLAIM-88184EA5A816"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9786 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (44), `code` (24), `environment` (5), `agent` (3), `execution` (1), `memory` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1883A57B0E93](../claims/claim-1883a57b0e93.md) - Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-32725D3691B9](../claims/claim-32725d3691b9.md) - Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-88184EA5A816](../claims/claim-88184ea5a816.md) - Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

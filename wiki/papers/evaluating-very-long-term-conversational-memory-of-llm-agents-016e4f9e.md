@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.acl-long.747.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-01DC76F7A599"
+  - "CLAIM-5CD7B71727DB"
+  - "CLAIM-A25F106C4D54"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11347 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (17), `agent` (15), `environment` (7), `code` (1).
 - Source cue: automated topic tags: `agent`, `code`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-01DC76F7A599](../claims/claim-01dc76f7a599.md) - Evaluating Very Long-Term Conversational Memory of LLM Agents provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5CD7B71727DB](../claims/claim-5cd7b71727db.md) - Evaluating Very Long-Term Conversational Memory of LLM Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A25F106C4D54](../claims/claim-a25f106c4d54.md) - The localized source for Evaluating Very Long-Term Conversational Memory of LLM Agents is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

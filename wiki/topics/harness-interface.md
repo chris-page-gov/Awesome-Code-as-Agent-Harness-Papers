@@ -34,5 +34,7 @@ reasoning, acting, and environment modeling.
 
 ## Gaps
 
-- Paper fragments and local sources are available; contribution notes still need
-  human review where the fragment only contains automated extraction cues.
+- Paper fragments, local sources, and Claim Cards are available. Promote
+  repeatedly used high-value cards from `agent-reviewed` to
+  `cross-agent-reviewed` or `decision-grade` when source-specific review
+  criteria are met.

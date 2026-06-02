@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/1703.04247.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4EA185C05823"
+  - "CLAIM-87D2A292E58D"
+  - "CLAIM-F47BB19E8BF3"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 15040 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (2), `memory` (1).
 - Source cue: automated topic tags: `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4EA185C05823](../claims/claim-4ea185c05823.md) - DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-87D2A292E58D](../claims/claim-87d2a292e58d.md) - DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F47BB19E8BF3](../claims/claim-f47bb19e8bf3.md) - DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

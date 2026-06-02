@@ -1,0 +1,53 @@
+---
+title: "Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control provides localized ev"
+note_type: "claim-card"
+status: "agent-reviewed"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+claim_id: "CLAIM-3F919ECFD587"
+claim_type: "contribution"
+paper_ids:
+  - "synapse-trajectory-as-exemplar-prompting-with-memory-for-computer-contro-080f386e"
+source_ids: []
+source_refs:
+  - "sources/raw/openreview/Pc8AU1aF5e.pdf"
+related_topics:
+  - "harness-mechanisms"
+  - "evidence-observability-and-redress"
+evidence_locator: "sources/raw/openreview/Pc8AU1aF5e.pdf; extracted sentence match for memory"
+extraction_method: "pdftotext"
+review_status: "agent-reviewed"
+creator: "tools/generate_claim_cards.py"
+reviewer: "tools/review_claim_cards.py schema-traceability pass"
+confidence: 0.72
+volatility_flag: false
+last_reviewed: "2026-06-02"
+---
+
+# CLAIM-3F919ECFD587
+
+## Statement
+
+Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control provides localized evidence about memory and state for the Code as Agent Harness wiki.
+
+## Evidence
+
+- Paper fragment:
+  - [synapse-trajectory-as-exemplar-prompting-with-memory-for-computer-contro-080f386e](../papers/synapse-trajectory-as-exemplar-prompting-with-memory-for-computer-contro-080f386e.md)
+- Source refs:
+  - `sources/raw/openreview/Pc8AU1aF5e.pdf`
+- Locator: sources/raw/openreview/Pc8AU1aF5e.pdf; extracted sentence match for memory
+- Matched terms: `memory`, `state`, `context`
+- Evidence summary: Source sentence contains memory and state evidence with matched cue(s): memory, state, context.
+
+## Review
+
+- Review status: `agent-reviewed`
+- Creator: `tools/generate_claim_cards.py`
+- Reviewer: `tools/review_claim_cards.py schema-traceability pass`
+- Confidence: `0.72`
+- Volatile source flag: `false`
+
+## Topics
+
+- [harness-mechanisms](../topics/harness-mechanisms.md)
+- [evidence-observability-and-redress](../topics/evidence-observability-and-redress.md)

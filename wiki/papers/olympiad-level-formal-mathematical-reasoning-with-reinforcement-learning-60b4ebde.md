@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/nature.com/olympiad-level-formal-mathematical-reasoning-with-reinforcement-learning-43aa9348.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-5675C9262D5E"
+  - "CLAIM-68982587AF77"
+  - "CLAIM-F00BBCD52DE7"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 30000 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (23), `environment` (22), `feedback` (19), `memory` (19), `code` (2), `execution` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-5675C9262D5E](../claims/claim-5675c9262d5e.md) - Olympiad-Level Formal Mathematical Reasoning with Reinforcement Learning provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-68982587AF77](../claims/claim-68982587af77.md) - Olympiad-Level Formal Mathematical Reasoning with Reinforcement Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F00BBCD52DE7](../claims/claim-f00bbcd52de7.md) - Olympiad-Level Formal Mathematical Reasoning with Reinforcement Learning provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

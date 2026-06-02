@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-532D48FF9C8E"
+  - "CLAIM-71FDA2FE3DA1"
+  - "CLAIM-E56AF82B7504"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 848 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (1), `environment` (1).
 - Source cue: automated topic tags: `code`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-532D48FF9C8E](../claims/claim-532d48ff9c8e.md) - A Little Help Goes a Long Way: Tutoring LLMs in Solving Competitive Programming through Hints provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-71FDA2FE3DA1](../claims/claim-71fda2fe3da1.md) - A Little Help Goes a Long Way: Tutoring LLMs in Solving Competitive Programming through Hints provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E56AF82B7504](../claims/claim-e56af82b7504.md) - A Little Help Goes a Long Way: Tutoring LLMs in Solving Competitive Programming through Hints provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

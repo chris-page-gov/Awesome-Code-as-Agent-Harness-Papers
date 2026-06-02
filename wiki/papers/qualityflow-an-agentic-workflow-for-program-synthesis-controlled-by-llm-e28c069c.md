@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2501.17167.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-6964CAD6D3B9"
+  - "CLAIM-AAA30390B259"
+  - "CLAIM-FDEB91C3B916"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -58,7 +63,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13035 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (66), `agent` (24), `feedback` (20), `execution` (14), `memory` (4), `environment` (3), `multi-agent` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-6964CAD6D3B9](../claims/claim-6964cad6d3b9.md) - QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AAA30390B259](../claims/claim-aaa30390b259.md) - QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FDEB91C3B916](../claims/claim-fdeb91c3b916.md) - QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -67,5 +78,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

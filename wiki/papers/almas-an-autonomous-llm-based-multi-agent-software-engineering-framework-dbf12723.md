@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2510.03463.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-046F6A62356B"
+  - "CLAIM-70F22E031B91"
+  - "CLAIM-8DE9572E9DF4"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14219 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (78), `agent` (77), `memory` (12), `multi-agent` (10), `feedback` (8), `tools` (8), `environment` (4), `planning` (3), `execution` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-046F6A62356B](../claims/claim-046f6a62356b.md) - ALMAS: an Autonomous LLM-based Multi-Agent Software Engineering Framework provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-70F22E031B91](../claims/claim-70f22e031b91.md) - ALMAS: an Autonomous LLM-based Multi-Agent Software Engineering Framework provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8DE9572E9DF4](../claims/claim-8de9572e9df4.md) - ALMAS: an Autonomous LLM-based Multi-Agent Software Engineering Framework provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

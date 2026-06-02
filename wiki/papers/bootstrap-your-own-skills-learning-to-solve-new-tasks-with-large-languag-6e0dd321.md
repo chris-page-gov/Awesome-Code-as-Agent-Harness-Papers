@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2310.10021.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1D84C4DBB418"
+  - "CLAIM-80FE4F7A777A"
+  - "CLAIM-FDBF0DBFC04C"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12530 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (17), `environment` (11), `execution` (10), `memory` (6), `planning` (4), `feedback` (3).
 - Source cue: automated topic tags: `agent`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1D84C4DBB418](../claims/claim-1d84c4dbb418.md) - Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-80FE4F7A777A](../claims/claim-80fe4f7a777a.md) - Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FDBF0DBFC04C](../claims/claim-fdbf0dbfc04c.md) - Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

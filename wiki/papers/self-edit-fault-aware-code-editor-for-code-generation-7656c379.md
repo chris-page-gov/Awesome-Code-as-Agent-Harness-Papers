@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2023.acl-long.45.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3BCFC952E4AC"
+  - "CLAIM-7311586D56DD"
+  - "CLAIM-DEE5D2C56AA8"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13163 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (77), `feedback` (32), `execution` (17), `environment` (4), `tools` (3).
 - Source cue: automated topic tags: `code`, `execution`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3BCFC952E4AC](../claims/claim-3bcfc952e4ac.md) - Self-Edit: Fault-Aware Code Editor for Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7311586D56DD](../claims/claim-7311586d56dd.md) - Self-Edit: Fault-Aware Code Editor for Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DEE5D2C56AA8](../claims/claim-dee5d2c56aa8.md) - Self-Edit: Fault-Aware Code Editor for Code Generation provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

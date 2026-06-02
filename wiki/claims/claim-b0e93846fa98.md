@@ -1,0 +1,55 @@
+---
+title: "The localized source for SatLM: Satisfiability-Aided Language Models Using Declarative Prompting"
+note_type: "claim-card"
+status: "agent-reviewed"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+claim_id: "CLAIM-B0E93846FA98"
+claim_type: "gap"
+paper_ids:
+  - "satlm-satisfiability-aided-language-models-using-declarative-prompting-7cfd10ef"
+source_ids: []
+source_refs:
+  - "sources/raw/html/openreview.net/satlm-satisfiability-aided-language-models-using-declarative-prompting-1d2280ee.html"
+related_topics:
+  - "mcp-governance"
+  - "harness-interface"
+  - "procurement-and-conformance"
+evidence_locator: "paper register and local source metadata; source text did not expose a focused sentence"
+extraction_method: "html-text"
+review_status: "agent-reviewed"
+creator: "tools/generate_claim_cards.py"
+reviewer: "tools/review_claim_cards.py schema-traceability pass"
+confidence: 0.48
+volatility_flag: true
+last_reviewed: "2026-06-02"
+---
+
+# CLAIM-B0E93846FA98
+
+## Statement
+
+The localized source for SatLM: Satisfiability-Aided Language Models Using Declarative Prompting is too thin for decision-grade synthesis on MCP protocol without returning to the original or an alternate source.
+
+## Evidence
+
+- Paper fragment:
+  - [satlm-satisfiability-aided-language-models-using-declarative-prompting-7cfd10ef](../papers/satlm-satisfiability-aided-language-models-using-declarative-prompting-7cfd10ef.md)
+- Source refs:
+  - `sources/raw/html/openreview.net/satlm-satisfiability-aided-language-models-using-declarative-prompting-1d2280ee.html`
+- Locator: paper register and local source metadata; source text did not expose a focused sentence
+- Matched terms: `model context protocol`, `mcp`
+- Evidence summary: Source metadata or extracted text did not expose enough local detail for a full MCP protocol claim.
+
+## Review
+
+- Review status: `agent-reviewed`
+- Creator: `tools/generate_claim_cards.py`
+- Reviewer: `tools/review_claim_cards.py schema-traceability pass`
+- Confidence: `0.48`
+- Volatile source flag: `true`
+
+## Topics
+
+- [mcp-governance](../topics/mcp-governance.md)
+- [harness-interface](../topics/harness-interface.md)
+- [procurement-and-conformance](../topics/procurement-and-conformance.md)

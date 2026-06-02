@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2511.03690.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1B7DE09CB23E"
+  - "CLAIM-29BE46ADB9C9"
+  - "CLAIM-6CC1FA239626"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10855 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (63), `code` (26), `tools` (21), `execution` (12), `memory` (12), `environment` (7).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1B7DE09CB23E](../claims/claim-1b7de09cb23e.md) - The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-29BE46ADB9C9](../claims/claim-29be46adb9c9.md) - The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6CC1FA239626](../claims/claim-6cc1fa239626.md) - The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

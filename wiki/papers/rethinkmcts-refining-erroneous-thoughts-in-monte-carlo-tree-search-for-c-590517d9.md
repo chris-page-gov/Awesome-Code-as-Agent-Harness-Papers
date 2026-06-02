@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.emnlp-main.410.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2684EAF5016A"
+  - "CLAIM-AD529824B64D"
+  - "CLAIM-BA7A01C32083"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13225 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (69), `feedback` (31), `execution` (16), `memory` (6), `environment` (3).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2684EAF5016A](../claims/claim-2684eaf5016a.md) - RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AD529824B64D](../claims/claim-ad529824b64d.md) - RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BA7A01C32083](../claims/claim-ba7a01c32083.md) - RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

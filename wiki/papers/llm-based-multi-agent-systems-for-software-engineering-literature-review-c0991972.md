@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2404.04834.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-25C49A06B40A"
+  - "CLAIM-98D8BE2F6779"
+  - "CLAIM-9F93081A9B8E"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11374 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (37), `code` (27), `multi-agent` (9), `planning` (5), `environment` (4), `memory` (3), `feedback` (2), `execution` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-25C49A06B40A](../claims/claim-25c49a06b40a.md) - LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-98D8BE2F6779](../claims/claim-98d8be2f6779.md) - LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9F93081A9B8E](../claims/claim-9f93081a9b8e.md) - LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

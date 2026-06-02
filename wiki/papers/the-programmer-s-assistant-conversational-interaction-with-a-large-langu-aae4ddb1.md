@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2302.07080.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0597E551BA00"
+  - "CLAIM-146866C7F3EF"
+  - "CLAIM-B527FE0AE13D"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11743 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (80), `memory` (5), `tools` (3), `agent` (2), `multi-agent` (2), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0597E551BA00](../claims/claim-0597e551ba00.md) - The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-146866C7F3EF](../claims/claim-146866c7f3ef.md) - The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B527FE0AE13D](../claims/claim-b527fe0ae13d.md) - The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

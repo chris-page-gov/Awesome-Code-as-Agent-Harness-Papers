@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.acl-long.50.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-29BACE361BBD"
+  - "CLAIM-EFCCC037F76D"
+  - "CLAIM-FCFC76D07E45"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12612 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (38), `environment` (12), `memory` (9), `execution` (5), `code` (1), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-29BACE361BBD](../claims/claim-29bace361bbd.md) - VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EFCCC037F76D](../claims/claim-efccc037f76d.md) - VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FCFC76D07E45](../claims/claim-fcfc76d07e45.md) - VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

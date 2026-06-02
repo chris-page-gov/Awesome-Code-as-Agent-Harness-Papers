@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2507.19902.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-097034E85EF5"
+  - "CLAIM-3150ABD4CEF8"
+  - "CLAIM-9C7AEEBAD6AF"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12092 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (60), `code` (54), `planning` (18), `multi-agent` (9), `memory` (7), `feedback` (3), `tools` (3), `environment` (2), `execution` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-097034E85EF5](../claims/claim-097034e85ef5.md) - AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3150ABD4CEF8](../claims/claim-3150abd4cef8.md) - AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9C7AEEBAD6AF](../claims/claim-9c7aeebad6af.md) - AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

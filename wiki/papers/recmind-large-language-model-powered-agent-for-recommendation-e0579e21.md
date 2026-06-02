@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2308.14296.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-9A436925B07E"
+  - "CLAIM-9E3D7EF432AA"
+  - "CLAIM-EDAD56FCBEAB"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16119 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `planning` (24), `agent` (17), `tools` (16), `memory` (13), `environment` (3).
 - Source cue: automated topic tags: `agent`, `planning`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-9A436925B07E](../claims/claim-9a436925b07e.md) - RecMind: Large Language Model Powered Agent for Recommendation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9E3D7EF432AA](../claims/claim-9e3d7ef432aa.md) - RecMind: Large Language Model Powered Agent for Recommendation provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EDAD56FCBEAB](../claims/claim-edad56fcbeab.md) - RecMind: Large Language Model Powered Agent for Recommendation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

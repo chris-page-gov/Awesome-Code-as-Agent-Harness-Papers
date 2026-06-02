@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2310.08560.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-80A5FD8939C2"
+  - "CLAIM-D378FC226E81"
+  - "CLAIM-E7540C961BA2"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14359 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (116), `agent` (8), `code` (1), `execution` (1), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-80A5FD8939C2](../claims/claim-80a5fd8939c2.md) - MemGPT: Towards LLMs as Operating Systems provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D378FC226E81](../claims/claim-d378fc226e81.md) - MemGPT: Towards LLMs as Operating Systems provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E7540C961BA2](../claims/claim-e7540c961ba2.md) - MemGPT: Towards LLMs as Operating Systems provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2507.07957.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2D42619D393B"
+  - "CLAIM-8317E0DAE8EB"
+  - "CLAIM-9765CD777ABD"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12167 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (84), `agent` (28), `environment` (9), `multi-agent` (4), `tools` (2), `code` (1), `execution` (1), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2D42619D393B](../claims/claim-2d42619d393b.md) - MIRIX: Multi-Agent Memory System for LLM-Based Agents provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8317E0DAE8EB](../claims/claim-8317e0dae8eb.md) - MIRIX: Multi-Agent Memory System for LLM-Based Agents provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9765CD777ABD](../claims/claim-9765cd777abd.md) - MIRIX: Multi-Agent Memory System for LLM-Based Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

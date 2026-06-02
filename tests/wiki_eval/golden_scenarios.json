@@ -1,0 +1,31 @@
+{
+  "mcp-governance": {
+    "description": "MCP governance must surface MCP protocol, authorization, registry, gateway, and threat claims.",
+    "required_topic_ids": [
+      "mcp-protocol",
+      "authorization",
+      "registry",
+      "gateway",
+      "threat"
+    ]
+  },
+  "agent-safety-and-sandboxing": {
+    "description": "Sandboxing and containment must surface rollback, isolation, capability governance, and safe execution claims.",
+    "required_topic_ids": [
+      "rollback",
+      "sandboxing",
+      "capability-governance",
+      "safe-execution"
+    ]
+  },
+  "evidence-observability-and-redress": {
+    "description": "Human oversight and evidence must surface approval, traceability, redress, evaluation, and evidence-store claims.",
+    "required_topic_ids": [
+      "approval",
+      "traceability",
+      "redress",
+      "evaluation",
+      "evidence-store"
+    ]
+  }
+}

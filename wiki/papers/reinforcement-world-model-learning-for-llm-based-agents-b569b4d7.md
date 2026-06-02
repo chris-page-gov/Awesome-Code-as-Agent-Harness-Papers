@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2602.05842.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1CCAFB27F80A"
+  - "CLAIM-AF0B5E2E7245"
+  - "CLAIM-CA379FFB30A7"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13914 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (43), `agent` (28), `memory` (5), `tools` (5), `planning` (3), `code` (1), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1CCAFB27F80A](../claims/claim-1ccafb27f80a.md) - Reinforcement World Model Learning for LLM-based Agents provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AF0B5E2E7245](../claims/claim-af0b5e2e7245.md) - Reinforcement World Model Learning for LLM-based Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CA379FFB30A7](../claims/claim-ca379ffb30a7.md) - Reinforcement World Model Learning for LLM-based Agents provides localized evidence about capability governance for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

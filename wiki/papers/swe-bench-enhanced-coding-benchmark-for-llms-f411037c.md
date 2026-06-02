@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2410.06992.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-605A2951CF03"
+  - "CLAIM-9A16B3A00801"
+  - "CLAIM-F8954FC7715A"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10151 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (13), `code` (10), `feedback` (6), `environment` (3), `execution` (1), `memory` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-605A2951CF03](../claims/claim-605a2951cf03.md) - SWE-bench+: Enhanced Coding Benchmark for LLMs provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9A16B3A00801](../claims/claim-9a16b3a00801.md) - SWE-bench+: Enhanced Coding Benchmark for LLMs provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F8954FC7715A](../claims/claim-f8954fc7715a.md) - SWE-bench+: Enhanced Coding Benchmark for LLMs provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

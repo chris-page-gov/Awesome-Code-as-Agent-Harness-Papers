@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2505.17653.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-A4A8EC884B63"
+  - "CLAIM-CD33E9D040B7"
+  - "CLAIM-E62D134B8F2D"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12136 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (36), `environment` (3), `feedback` (1).
 - Source cue: automated topic tags: `code`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-A4A8EC884B63](../claims/claim-a4a8ec884b63.md) - Geogrambench: Benchmarking the geometric program reasoning in modern llms provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CD33E9D040B7](../claims/claim-cd33e9d040b7.md) - Geogrambench: Benchmarking the geometric program reasoning in modern llms provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E62D134B8F2D](../claims/claim-e62d134b8f2d.md) - Geogrambench: Benchmarking the geometric program reasoning in modern llms provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

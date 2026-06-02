@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.acl-long.269.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-575CB01059D0"
+  - "CLAIM-73AFCDCEE62C"
+  - "CLAIM-E95DDAC0C999"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13015 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (63), `agent` (37), `planning` (20), `feedback` (11), `memory` (4), `multi-agent` (4), `tools` (2), `environment` (1), `execution` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-575CB01059D0](../claims/claim-575cb01059d0.md) - MapCoder: Multi-Agent Code Generation for Competitive Problem Solving provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-73AFCDCEE62C](../claims/claim-73afcdcee62c.md) - MapCoder: Multi-Agent Code Generation for Competitive Problem Solving provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E95DDAC0C999](../claims/claim-e95ddac0c999.md) - MapCoder: Multi-Agent Code Generation for Competitive Problem Solving provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

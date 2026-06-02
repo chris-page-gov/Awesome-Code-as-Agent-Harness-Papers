@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2406.01422.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-63BB4AA41D73"
+  - "CLAIM-7CCF75AC1BA1"
+  - "CLAIM-EEB2A1D195C0"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 19702 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (66), `agent` (37), `environment` (13), `memory` (11), `tools` (9), `feedback` (6), `planning` (5), `execution` (4), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-63BB4AA41D73](../claims/claim-63bb4aa41d73.md) - Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7CCF75AC1BA1](../claims/claim-7ccf75ac1ba1.md) - Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EEB2A1D195C0](../claims/claim-eeb2a1d195c0.md) - Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

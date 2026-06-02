@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/openai.com/building-more-with-gpt-5-1-codex-max-90a3db01.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-6CEDCFDB1F1A"
+  - "CLAIM-9EF966A47260"
+  - "CLAIM-E6B0FA0E27DC"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 9911 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (10), `memory` (7), `tools` (7), `code` (6), `environment` (4), `feedback` (2), `planning` (2).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-6CEDCFDB1F1A](../claims/claim-6cedcfdb1f1a.md) - Building more with GPT-5.1-Codex-Max provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9EF966A47260](../claims/claim-9ef966a47260.md) - Building more with GPT-5.1-Codex-Max provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E6B0FA0E27DC](../claims/claim-e6b0fa0e27dc.md) - Building more with GPT-5.1-Codex-Max provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

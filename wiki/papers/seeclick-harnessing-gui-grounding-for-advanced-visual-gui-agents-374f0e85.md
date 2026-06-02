@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2401.10935.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4F18D7872363"
+  - "CLAIM-7C5CD05DBE53"
+  - "CLAIM-9DF150545B43"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11674 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (34), `environment` (8), `code` (5), `memory` (2), `execution` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4F18D7872363](../claims/claim-4f18d7872363.md) - SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7C5CD05DBE53](../claims/claim-7c5cd05dbe53.md) - SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9DF150545B43](../claims/claim-9df150545b43.md) - SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

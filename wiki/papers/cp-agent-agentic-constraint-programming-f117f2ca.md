@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2508.07468.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-10CAC2A311A1"
+  - "CLAIM-7FFF3DF9BCD6"
+  - "CLAIM-FA9C917B127D"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -53,7 +58,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10494 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (43), `code` (24), `tools` (17), `feedback` (13), `environment` (9), `execution` (8), `memory` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-10CAC2A311A1](../claims/claim-10cac2a311a1.md) - CP-Agent: Agentic Constraint Programming provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7FFF3DF9BCD6](../claims/claim-7fff3df9bcd6.md) - CP-Agent: Agentic Constraint Programming provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FA9C917B127D](../claims/claim-fa9c917b127d.md) - CP-Agent: Agentic Constraint Programming provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -62,5 +73,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

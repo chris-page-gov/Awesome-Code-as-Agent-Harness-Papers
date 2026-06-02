@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2412.16984.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-144B47FF0ED4"
+  - "CLAIM-473CF31885B7"
+  - "CLAIM-62C184CC457D"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 16023 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (3), `agent` (2), `feedback` (2), `code` (1).
 - Source cue: automated topic tags: `agent`, `code`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-144B47FF0ED4](../claims/claim-144b47ff0ed4.md) - The localized source for LLM-Powered User Simulator for Recommender System is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-473CF31885B7](../claims/claim-473cf31885b7.md) - LLM-Powered User Simulator for Recommender System provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-62C184CC457D](../claims/claim-62c184cc457d.md) - LLM-Powered User Simulator for Recommender System provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

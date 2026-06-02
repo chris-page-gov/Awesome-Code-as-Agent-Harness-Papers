@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2510.18471.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0424C230D95C"
+  - "CLAIM-D04F7B0C5016"
+  - "CLAIM-E373CBC5A3ED"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12223 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (62), `execution` (34), `feedback` (10), `memory` (2), `environment` (1), `tools` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0424C230D95C](../claims/claim-0424c230d95c.md) - CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D04F7B0C5016](../claims/claim-d04f7b0c5016.md) - CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E373CBC5A3ED](../claims/claim-e373cbc5a3ed.md) - CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2024.findings-acl.49.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-443E6E86CEC6"
+  - "CLAIM-59F975835935"
+  - "CLAIM-BB855F6410B8"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13319 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `execution` (60), `code` (59), `feedback` (20), `memory` (5).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-443E6E86CEC6](../claims/claim-443e6e86cec6.md) - Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-59F975835935](../claims/claim-59f975835935.md) - Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BB855F6410B8](../claims/claim-bb855f6410b8.md) - Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

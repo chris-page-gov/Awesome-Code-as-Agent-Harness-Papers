@@ -36,6 +36,8 @@ awesome-list inventory.
   family.
 - [wiki/papers/](wiki/papers/) stores one reusable wiki fragment per paper or
   external reference once ingested.
+- [wiki/claims/](wiki/claims/) stores atomic Claim Cards generated from source
+  notes, localized sources, or explicit gaps.
 - [wiki/topics/](wiki/topics/) stores synthesis notes.
 - [wiki/maps/](wiki/maps/) stores guided entry points and cross-reference maps.
 - [sources/raw/](sources/raw/) stores localized source files as a local
@@ -50,6 +52,12 @@ awesome-list inventory.
 - Do not invent paper claims.
 - Every generated claim should trace to a source note, localized raw source, or
   an explicit gap.
+- Use explicit evidence tiers: `metadata-only`, `localized`,
+  `auto-extracted`, `agent-drafted`, `agent-reviewed`,
+  `cross-agent-reviewed`, `human-reviewed`, and `decision-grade`.
+- Treat `human-reviewed` as literal. Agent-created contribution notes, threat
+  taxonomies, recommendations, and Claim Cards must use agent review tiers
+  unless a named human reviewer is recorded.
 - Keep raw source files immutable. If a source needs transformation, write the
   derivative outside `sources/raw/`, or into `sources/raw/redistributable/`
   only when it is intentionally redistributable.

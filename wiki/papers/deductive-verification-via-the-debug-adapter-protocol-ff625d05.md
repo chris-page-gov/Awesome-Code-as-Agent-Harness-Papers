@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2108.02968.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4F65727EEF53"
+  - "CLAIM-62D3310CACA2"
+  - "CLAIM-A7DD5C90C49A"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10790 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (31), `code` (21), `execution` (12), `memory` (8), `tools` (3), `environment` (2).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4F65727EEF53](../claims/claim-4f65727eef53.md) - Deductive Verification via the Debug Adapter Protocol provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-62D3310CACA2](../claims/claim-62d3310caca2.md) - Deductive Verification via the Debug Adapter Protocol provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A7DD5C90C49A](../claims/claim-a7dd5c90c49a.md) - Deductive Verification via the Debug Adapter Protocol provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

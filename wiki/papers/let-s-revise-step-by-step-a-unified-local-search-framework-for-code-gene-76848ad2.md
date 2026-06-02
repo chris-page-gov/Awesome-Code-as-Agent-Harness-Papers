@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/sYk6ZMmrOz.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-3CCF6B9C817B"
+  - "CLAIM-733D92851D9C"
+  - "CLAIM-CC0C5DAFCC6F"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12996 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (59), `feedback` (18), `memory` (5), `execution` (4), `agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-3CCF6B9C817B](../claims/claim-3ccf6b9c817b.md) - Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-733D92851D9C](../claims/claim-733d92851d9c.md) - Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CC0C5DAFCC6F](../claims/claim-cc0c5dafcc6f.md) - Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

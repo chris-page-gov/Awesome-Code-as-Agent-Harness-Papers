@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2509.02449.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0D0C00DFC6A6"
+  - "CLAIM-629A6C1BE30B"
+  - "CLAIM-D74B9436CD85"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12306 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `tools` (30), `agent` (15), `memory` (15), `execution` (11), `code` (5), `environment` (3), `planning` (2), `multi-agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0D0C00DFC6A6](../claims/claim-0d0c00dfc6a6.md) - Kubeintellect: A modular llm-orchestrated agent framework for end-to-end kubernetes management provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-629A6C1BE30B](../claims/claim-629a6c1be30b.md) - Kubeintellect: A modular llm-orchestrated agent framework for end-to-end kubernetes management provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D74B9436CD85](../claims/claim-d74b9436cd85.md) - Kubeintellect: A modular llm-orchestrated agent framework for end-to-end kubernetes management provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

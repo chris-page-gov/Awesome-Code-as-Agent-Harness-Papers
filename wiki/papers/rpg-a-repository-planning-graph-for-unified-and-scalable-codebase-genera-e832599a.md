@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2509.16198.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-19727D23AB6B"
+  - "CLAIM-B15526978191"
+  - "CLAIM-C0C87AAF1D96"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12846 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `planning` (30), `code` (29), `agent` (9), `feedback` (9), `environment` (4), `execution` (2), `multi-agent` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-19727D23AB6B](../claims/claim-19727d23ab6b.md) - RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B15526978191](../claims/claim-b15526978191.md) - RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C0C87AAF1D96](../claims/claim-c0c87aaf1d96.md) - RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

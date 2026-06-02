@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2411.00820.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-7467367F0FD4"
+  - "CLAIM-D687A5080A8E"
+  - "CLAIM-EC35C8CBE208"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 8664 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (23), `environment` (6), `planning` (4).
 - Source cue: automated topic tags: `agent`, `planning`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-7467367F0FD4](../claims/claim-7467367f0fd4.md) - AutoGLM: Autonomous Foundation Agents for GUIs provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D687A5080A8E](../claims/claim-d687a5080a8e.md) - AutoGLM: Autonomous Foundation Agents for GUIs provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EC35C8CBE208](../claims/claim-ec35c8cbe208.md) - AutoGLM: Autonomous Foundation Agents for GUIs provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

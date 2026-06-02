@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/github.com/language-server-protocol-defines-a-common-protocol-for-language-servers-194fc4d6.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2908E68A8A10"
+  - "CLAIM-5536A13827D7"
+  - "CLAIM-69F926E2A459"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 4846 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (22), `feedback` (3), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `code`, `planning`, `tools`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2908E68A8A10](../claims/claim-2908e68a8a10.md) - The localized source for Language Server Protocol: Defines a Common Protocol for Language Servers is too thin for decision-grade synthesis on security safeguards without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-5536A13827D7](../claims/claim-5536a13827d7.md) - Language Server Protocol: Defines a Common Protocol for Language Servers provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-69F926E2A459](../claims/claim-69f926e2a459.md) - Language Server Protocol: Defines a Common Protocol for Language Servers provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

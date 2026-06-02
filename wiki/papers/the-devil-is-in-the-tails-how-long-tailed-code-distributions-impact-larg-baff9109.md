@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/ieeexplore.ieee.org/the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-langua-d6adfd7e.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-148F570F1DA3"
+  - "CLAIM-C02362F064D8"
+  - "CLAIM-CB642DF3DF42"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 848 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (1), `environment` (1).
 - Source cue: automated topic tags: `code`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-148F570F1DA3](../claims/claim-148f570f1da3.md) - The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C02362F064D8](../claims/claim-c02362f064d8.md) - The localized source for The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models is too thin for decision-grade synthesis on approval and human oversight without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-CB642DF3DF42](../claims/claim-cb642df3df42.md) - The localized source for The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models is too thin for decision-grade synthesis on evaluation and benchmark evidence without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

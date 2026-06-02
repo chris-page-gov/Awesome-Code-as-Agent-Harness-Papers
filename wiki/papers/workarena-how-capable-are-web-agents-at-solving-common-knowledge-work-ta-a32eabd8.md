@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.mlr.press/workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-tasks-0e548353.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-111F66DC6A26"
+  - "CLAIM-25776988D2E3"
+  - "CLAIM-3A50A9BF54DD"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 5393 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (17), `code` (6), `environment` (6).
 - Source cue: automated topic tags: `agent`, `code`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-111F66DC6A26](../claims/claim-111f66dc6a26.md) - The localized source for WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks? is too thin for decision-grade synthesis on approval and human oversight without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-25776988D2E3](../claims/claim-25776988d2e3.md) - WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks? provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3A50A9BF54DD](../claims/claim-3a50a9bf54dd.md) - The localized source for WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks? is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

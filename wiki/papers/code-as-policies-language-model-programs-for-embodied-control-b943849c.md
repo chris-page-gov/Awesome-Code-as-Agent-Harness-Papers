@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2209.07753.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-487D031F156D"
+  - "CLAIM-9F11710ADA2A"
+  - "CLAIM-B80BA9B83E06"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 18745 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (61), `planning` (10), `feedback` (7), `memory` (5), `environment` (4), `execution` (3), `tools` (3), `agent` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-487D031F156D](../claims/claim-487d031f156d.md) - Code as Policies: Language Model Programs for Embodied Control provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9F11710ADA2A](../claims/claim-9f11710ada2a.md) - Code as Policies: Language Model Programs for Embodied Control provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B80BA9B83E06](../claims/claim-b80ba9b83e06.md) - Code as Policies: Language Model Programs for Embodied Control provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

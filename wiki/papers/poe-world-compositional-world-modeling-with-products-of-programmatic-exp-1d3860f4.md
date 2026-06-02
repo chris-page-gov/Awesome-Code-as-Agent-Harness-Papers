@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/obwRcksFZw.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-7D78B3BEFC53"
+  - "CLAIM-ED391487F2E4"
+  - "CLAIM-FD8C433351AC"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10817 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (73), `code` (16), `planning` (10), `agent` (8), `memory` (5).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-7D78B3BEFC53](../claims/claim-7d78b3befc53.md) - The localized source for PoE-World: Compositional World Modeling with Products of Programmatic Experts is too thin for decision-grade synthesis on evaluation and benchmark evidence without returning to the original or an alternate source. (`agent-reviewed`)
+- [CLAIM-ED391487F2E4](../claims/claim-ed391487f2e4.md) - PoE-World: Compositional World Modeling with Products of Programmatic Experts provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-FD8C433351AC](../claims/claim-fd8c433351ac.md) - PoE-World: Compositional World Modeling with Products of Programmatic Experts provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

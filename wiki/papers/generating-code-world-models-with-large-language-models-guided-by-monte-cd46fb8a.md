@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.neurips.cc/generating-code-world-models-with-large-language-models-guided-by-monte-carlo-tr-ed1bed97.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0C3451974016"
+  - "CLAIM-2D4DD793FB6F"
+  - "CLAIM-D89EF922C6C0"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2142 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (12), `environment` (9), `feedback` (3), `planning` (3), `agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0C3451974016](../claims/claim-0c3451974016.md) - Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-2D4DD793FB6F](../claims/claim-2d4dd793fb6f.md) - Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-D89EF922C6C0](../claims/claim-d89ef922c6c0.md) - Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

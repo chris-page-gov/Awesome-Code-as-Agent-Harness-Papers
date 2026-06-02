@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/qevq3FZ63J.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-1F740B3E60D4"
+  - "CLAIM-9A9BBF70A946"
+  - "CLAIM-CDE2ECEA81E6"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11744 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (37), `agent` (10), `multi-agent` (7), `environment` (4), `memory` (4), `planning` (3), `feedback` (1).
 - Source cue: automated topic tags: `agent`, `code`, `planning`, `memory`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-1F740B3E60D4](../claims/claim-1f740b3e60d4.md) - MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9A9BBF70A946](../claims/claim-9a9bbf70a946.md) - MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-CDE2ECEA81E6](../claims/claim-cde2ecea81e6.md) - MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

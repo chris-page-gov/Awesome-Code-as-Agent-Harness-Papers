@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2504.15965.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0C136CB7D029"
+  - "CLAIM-6153E941481C"
+  - "CLAIM-AF15958E652F"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12650 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (130), `environment` (6), `agent` (4), `planning` (2), `tools` (2).
 - Source cue: automated topic tags: `agent`, `planning`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0C136CB7D029](../claims/claim-0c136cb7d029.md) - From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6153E941481C](../claims/claim-6153e941481c.md) - From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AF15958E652F](../claims/claim-af15958e652f.md) - From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

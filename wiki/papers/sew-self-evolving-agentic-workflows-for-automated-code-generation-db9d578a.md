@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2505.18646.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4A9040BECAA0"
+  - "CLAIM-57BB560A8749"
+  - "CLAIM-EEA28B0BB4D6"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -55,7 +60,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12486 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (75), `code` (38), `multi-agent` (11), `execution` (7), `environment` (2), `feedback` (1), `memory` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4A9040BECAA0](../claims/claim-4a9040becaa0.md) - SEW: Self-evolving agentic workflows for automated code generation provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-57BB560A8749](../claims/claim-57bb560a8749.md) - SEW: Self-evolving agentic workflows for automated code generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EEA28B0BB4D6](../claims/claim-eea28b0bb4d6.md) - SEW: Self-evolving agentic workflows for automated code generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -64,5 +75,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

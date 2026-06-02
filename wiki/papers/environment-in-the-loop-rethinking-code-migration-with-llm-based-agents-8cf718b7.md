@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2602.09944.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0675DB7931FB"
+  - "CLAIM-0963549AA8C0"
+  - "CLAIM-94183615F30E"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14447 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (54), `environment` (49), `agent` (36), `execution` (18), `feedback` (17), `tools` (5), `multi-agent` (3), `memory` (2), `planning` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0675DB7931FB](../claims/claim-0675db7931fb.md) - Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-0963549AA8C0](../claims/claim-0963549aa8c0.md) - Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-94183615F30E](../claims/claim-94183615f30e.md) - Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

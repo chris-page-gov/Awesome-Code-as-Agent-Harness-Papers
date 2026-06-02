@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2505.21668.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0A0E374C1CC5"
+  - "CLAIM-4E7CFECA295E"
+  - "CLAIM-66DBD3985E10"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12485 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (52), `execution` (33), `memory` (10), `planning` (7), `agent` (4), `feedback` (3), `tools` (3), `environment` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0A0E374C1CC5](../claims/claim-0a0e374c1cc5.md) - R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-4E7CFECA295E](../claims/claim-4e7cfeca295e.md) - R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-66DBD3985E10](../claims/claim-66dbd3985e10.md) - R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/proceedings.neurips.cc/intercode-standardizing-and-benchmarking-interactive-coding-with-execution-feedb-97ec9a72.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-24DD1D485324"
+  - "CLAIM-AAAC2304E05C"
+  - "CLAIM-BD4C875C531D"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 2626 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `code` (9), `execution` (6), `feedback` (4), `environment` (3), `memory` (1), `planning` (1).
 - Source cue: automated topic tags: `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-24DD1D485324](../claims/claim-24dd1d485324.md) - InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-AAAC2304E05C](../claims/claim-aaac2304e05c.md) - InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BD4C875C531D](../claims/claim-bd4c875c531d.md) - InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

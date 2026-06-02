@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2403.08291.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4EF9AC1DF9CE"
+  - "CLAIM-7E0B6110CF68"
+  - "CLAIM-E12BD2F3A8DE"
 survey_layers:
   - "Scaling the Harness: Multi-Agent Code-Centric Systems"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 18002 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (32), `agent` (19), `tools` (16), `memory` (12), `execution` (3).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4EF9AC1DF9CE](../claims/claim-4ef9ac1df9ce.md) - CleanAgent: Automating data standardization with LLM-based agents provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-7E0B6110CF68](../claims/claim-7e0b6110cf68.md) - CleanAgent: Automating data standardization with LLM-based agents provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E12BD2F3A8DE](../claims/claim-e12bd2f3a8de.md) - CleanAgent: Automating data standardization with LLM-based agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

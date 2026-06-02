@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.findings-acl.817.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-2630F76E6EA7"
+  - "CLAIM-545F296F0FD0"
+  - "CLAIM-55DE3B5A17FF"
 survey_layers:
   - "Harness Interface"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12453 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (17), `execution` (8), `feedback` (4), `memory` (1).
 - Source cue: automated topic tags: `code`, `execution`, `memory`, `feedback`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-2630F76E6EA7](../claims/claim-2630f76e6ea7.md) - Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-545F296F0FD0](../claims/claim-545f296f0fd0.md) - Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-55DE3B5A17FF](../claims/claim-55de3b5a17ff.md) - Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

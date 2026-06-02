@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2410.24024.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4FC671516BF0"
+  - "CLAIM-8436CC2E385B"
+  - "CLAIM-C3D1B8573358"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12517 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `environment` (29), `agent` (24), `execution` (2), `memory` (2), `code` (1), `feedback` (1), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4FC671516BF0](../claims/claim-4fc671516bf0.md) - AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8436CC2E385B](../claims/claim-8436cc2e385b.md) - AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C3D1B8573358](../claims/claim-c3d1b8573358.md) - AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

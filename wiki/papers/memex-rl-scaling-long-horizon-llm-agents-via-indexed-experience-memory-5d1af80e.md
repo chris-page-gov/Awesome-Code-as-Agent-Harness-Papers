@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2603.04257.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-84FD0F98627F"
+  - "CLAIM-9D7677157E0E"
+  - "CLAIM-C7C0ADB67A85"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 12316 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `memory` (67), `agent` (25), `tools` (25), `code` (2), `execution` (2), `planning` (2), `environment` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-84FD0F98627F](../claims/claim-84fd0f98627f.md) - Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-9D7677157E0E](../claims/claim-9d7677157e0e.md) - Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C7C0ADB67A85](../claims/claim-c7c0adb67a85.md) - Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory provides localized evidence about traceability and audit for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,9 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/doi.org/a-survey-on-model-context-protocol-architecture-state-of-the-art-challenges-and-c687fc1d.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-4EADAA9A1D65"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -47,7 +50,11 @@ last_reviewed: "2026-06-02"
 - Inventory fact: this reference appears in the README paper table with the placement above.
 - Source fact: a localized source file is available in this repository.
 - Source fact: automated local text extraction recorded 281 characters using `html-text`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-4EADAA9A1D65](../claims/claim-4eadaa9a1d65.md) - The localized source for A Survey on Model Context Protocol: Architecture, State-of-the-art, Challenges and Future Directions is too thin for decision-grade synthesis on MCP protocol without returning to the original or an alternate source. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -56,5 +63,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

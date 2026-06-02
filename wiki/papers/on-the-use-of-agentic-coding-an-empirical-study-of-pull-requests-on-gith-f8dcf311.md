@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2509.14745.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-22C4A639126F"
+  - "CLAIM-BF1A46B6F721"
+  - "CLAIM-EC2F84DBD507"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -51,7 +56,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11214 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (43), `agent` (36), `tools` (9), `memory` (4), `environment` (3), `feedback` (3), `execution` (2), `planning` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-22C4A639126F](../claims/claim-22c4a639126f.md) - On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub provides localized evidence about MCP protocol for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-BF1A46B6F721](../claims/claim-bf1a46b6f721.md) - On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-EC2F84DBD507](../claims/claim-ec2f84dbd507.md) - On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -60,5 +71,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/html/deepmind.google/project-mariner-1b8acc95.html"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-7F43772ACEDB"
+  - "CLAIM-8BF1801EBED1"
+  - "CLAIM-DDC9F5671DCB"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 8886 characters using `html-text`.
 - Source cue: localized text contains harness-relevant terms: `agent` (10), `tools` (10), `environment` (8), `multi-agent` (1), `planning` (1).
 - Source cue: automated topic tags: `agent`, `planning`, `tools`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-7F43772ACEDB](../claims/claim-7f43772acedb.md) - Project Mariner provides localized evidence about security safeguards for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8BF1801EBED1](../claims/claim-8bf1801ebed1.md) - Project Mariner provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-DDC9F5671DCB](../claims/claim-ddc9f5671dcb.md) - Project Mariner provides localized evidence about tool use for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

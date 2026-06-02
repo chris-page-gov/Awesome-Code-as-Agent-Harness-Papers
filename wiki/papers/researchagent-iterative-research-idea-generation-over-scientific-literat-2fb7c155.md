@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.naacl-long.342.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-0EC7309B9001"
+  - "CLAIM-1316E396E040"
+  - "CLAIM-8193DA58AE74"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 14695 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `feedback` (8), `agent` (4), `code` (2), `environment` (2), `memory` (2), `execution` (1), `planning` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `tools`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0EC7309B9001](../claims/claim-0ec7309b9001.md) - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-1316E396E040](../claims/claim-1316e396e040.md) - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-8193DA58AE74](../claims/claim-8193da58ae74.md) - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

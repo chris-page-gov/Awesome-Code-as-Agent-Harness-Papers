@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/BAakY1hNKS.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-083DF2F298AD"
+  - "CLAIM-2E42D8F77227"
+  - "CLAIM-3645018ED398"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11001 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (66), `multi-agent` (17), `code` (14), `tools` (9), `memory` (6), `execution` (4), `feedback` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `tools`, `feedback`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-083DF2F298AD](../claims/claim-083df2f298ad.md) - AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-2E42D8F77227](../claims/claim-2e42d8f77227.md) - AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations provides localized evidence about gateway and routing for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-3645018ED398](../claims/claim-3645018ed398.md) - AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

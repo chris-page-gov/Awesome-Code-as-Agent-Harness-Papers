@@ -1,0 +1,53 @@
+---
+title: "ReVeal: Self-Evolving Code Agents via Reliable Self-Verification provides localized evidence abo"
+note_type: "claim-card"
+status: "agent-reviewed"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+claim_id: "CLAIM-8E5BDCC797E7"
+claim_type: "contribution"
+paper_ids:
+  - "reveal-self-evolving-code-agents-via-reliable-self-verification-bde03aaa"
+source_ids: []
+source_refs:
+  - "sources/raw/openreview/q56ZI1Co43.pdf"
+related_topics:
+  - "harness-interface"
+  - "harness-mechanisms"
+evidence_locator: "sources/raw/openreview/q56ZI1Co43.pdf; extracted sentence match for planning"
+extraction_method: "pdftotext"
+review_status: "agent-reviewed"
+creator: "tools/generate_claim_cards.py"
+reviewer: "tools/review_claim_cards.py schema-traceability pass"
+confidence: 0.72
+volatility_flag: false
+last_reviewed: "2026-06-02"
+---
+
+# CLAIM-8E5BDCC797E7
+
+## Statement
+
+ReVeal: Self-Evolving Code Agents via Reliable Self-Verification provides localized evidence about planning and workflow for the Code as Agent Harness wiki.
+
+## Evidence
+
+- Paper fragment:
+  - [reveal-self-evolving-code-agents-via-reliable-self-verification-bde03aaa](../papers/reveal-self-evolving-code-agents-via-reliable-self-verification-bde03aaa.md)
+- Source refs:
+  - `sources/raw/openreview/q56ZI1Co43.pdf`
+- Locator: sources/raw/openreview/q56ZI1Co43.pdf; extracted sentence match for planning
+- Matched terms: `reasoning`
+- Evidence summary: Source sentence contains planning and workflow evidence with matched cue(s): reasoning.
+
+## Review
+
+- Review status: `agent-reviewed`
+- Creator: `tools/generate_claim_cards.py`
+- Reviewer: `tools/review_claim_cards.py schema-traceability pass`
+- Confidence: `0.72`
+- Volatile source flag: `false`
+
+## Topics
+
+- [harness-interface](../topics/harness-interface.md)
+- [harness-mechanisms](../topics/harness-mechanisms.md)

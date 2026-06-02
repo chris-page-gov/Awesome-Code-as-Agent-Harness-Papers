@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2503.18102.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-7F6BD1EF60E1"
+  - "CLAIM-A2B1863CFEC0"
+  - "CLAIM-F34342232511"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 10596 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `agent` (31), `environment` (4), `code` (3), `multi-agent` (3), `execution` (2), `feedback` (1), `tools` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `tools`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-7F6BD1EF60E1](../claims/claim-7f6bd1ef60e1.md) - AgentRxiv: Towards Collaborative Autonomous Research provides localized evidence about tool discovery for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A2B1863CFEC0](../claims/claim-a2b1863cfec0.md) - AgentRxiv: Towards Collaborative Autonomous Research provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F34342232511](../claims/claim-f34342232511.md) - AgentRxiv: Towards Collaborative Autonomous Research provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

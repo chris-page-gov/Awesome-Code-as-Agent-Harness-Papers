@@ -17,6 +17,7 @@ around the *Code as Agent Harness* survey and README inventory.
 - [Ingest workflow](guidance/ingest-workflow.md)
 - [Source notes](sources/README.md)
 - [Paper fragment index](papers/README.md)
+- [Claim Cards](claims/README.md)
 - [Taxonomy map](maps/taxonomy-map.md)
 - [Reading routes](maps/reading-routes.md)
 - [Progress dashboard](progress/completion-dashboard.md)
@@ -30,6 +31,10 @@ around the *Code as Agent Harness* survey and README inventory.
 - [Harness Mechanisms](topics/harness-mechanisms.md)
 - [Scaling the Harness](topics/scaling-the-harness.md)
 - [Applications](topics/applications.md)
+- [MCP Governance](topics/mcp-governance.md)
+- [Agent Safety And Sandboxing](topics/agent-safety-and-sandboxing.md)
+- [Evidence, Observability, And Redress](topics/evidence-observability-and-redress.md)
+- [Procurement And Conformance](topics/procurement-and-conformance.md)
 
 ## Current Source Surface
 
@@ -42,16 +47,21 @@ around the *Code as Agent Harness* survey and README inventory.
 
 - [Agentic AI Governance UK MCP review](reports/agentic-ai-governance-uk-mcp-review.md)
 - [LLM-Wiki primary-source evaluation](reports/llm-wiki-primary-source-evaluation.md)
+- [LLM-Wiki post-Claim-Card evaluation](reports/llm-wiki-primary-source-evaluation-post-claim-cards.md)
 
 ## Paper Fragments
 
 Per-paper fragments live in [papers/](papers/). The current generated catalog
 contains 354 fragments from 458 README rows. Each fragment stores README
-placement metadata, canonical source URLs, local source status, and gaps.
+placement metadata, canonical source URLs, local source status, Claim Card
+links, evidence quality, and gaps.
 
 ## Current Review Gaps
 
 - Raw source localization is complete for all 354 paper fragments.
-- Content notes are automated extraction cues and still need human review.
+- Claim Cards are generated and agent-reviewed; selected high-value cards can be
+  promoted to `cross-agent-reviewed` using a separate reviewer-agent manifest.
 - Publisher-hosted URLs that blocked direct download are recorded in the fetch
   manifest; manual open-access fallbacks are recorded in source overrides.
+- Volatile official, protocol, legal, and vendor sources need recheck before
+  policy or procurement use.

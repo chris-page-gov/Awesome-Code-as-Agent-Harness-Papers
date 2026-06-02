@@ -10,6 +10,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/openreview/VTF8yNQM66.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-70A7E15F3285"
+  - "CLAIM-90E9E54015EC"
+  - "CLAIM-C600A4B6ED55"
 survey_layers:
   - "Applications and Emerging Fields"
   - "Harness Interface"
@@ -59,7 +64,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 11698 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (20), `environment` (13), `feedback` (8), `execution` (6), `memory` (6), `agent` (1).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `memory`, `feedback`, `environment`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-70A7E15F3285](../claims/claim-70a7e15f3285.md) - SWE-bench: Can Language Models Resolve Real-world Github Issues? provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-90E9E54015EC](../claims/claim-90e9e54015ec.md) - SWE-bench: Can Language Models Resolve Real-world Github Issues? provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-C600A4B6ED55](../claims/claim-c600a4b6ed55.md) - SWE-bench: Can Language Models Resolve Real-world Github Issues? provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -68,5 +79,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

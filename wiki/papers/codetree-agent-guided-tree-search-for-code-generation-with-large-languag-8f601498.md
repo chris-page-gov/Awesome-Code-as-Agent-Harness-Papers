@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/acl/2025.naacl-long.189.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-A70BD89EFAB8"
+  - "CLAIM-B2D84491FDC5"
+  - "CLAIM-F43676AF4416"
 survey_layers:
   - "Harness Mechanisms"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 13330 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (47), `feedback` (27), `agent` (23), `execution` (4), `multi-agent` (3), `environment` (2), `planning` (2).
 - Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `feedback`, `environment`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-A70BD89EFAB8](../claims/claim-a70bd89efab8.md) - CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B2D84491FDC5](../claims/claim-b2d84491fdc5.md) - CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-F43676AF4416](../claims/claim-f43676af4416.md) - CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.

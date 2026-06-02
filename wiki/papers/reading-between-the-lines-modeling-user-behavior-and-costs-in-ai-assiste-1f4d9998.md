@@ -9,6 +9,11 @@ canonical_urls:
 local_source_paths:
   - "sources/raw/arxiv/2210.14306.pdf"
 source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids:
+  - "CLAIM-28C456F14CE5"
+  - "CLAIM-B766743EA3A5"
+  - "CLAIM-E151D0C7BAC2"
 survey_layers:
   - "Applications and Emerging Fields"
 survey_sections:
@@ -49,7 +54,13 @@ last_reviewed: "2026-06-02"
 - Source fact: automated local text extraction recorded 8891 characters using `pdftotext`.
 - Source cue: localized text contains harness-relevant terms: `code` (34), `memory` (3), `tools` (2), `multi-agent` (1).
 - Source cue: automated topic tags: `code`, `memory`, `tools`, `multi-agent`.
-- Integration note: these notes are automated extraction cues, not a human literature review.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-28C456F14CE5](../claims/claim-28c456f14ce5.md) - Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B766743EA3A5](../claims/claim-b766743ea3a5.md) - Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming provides localized evidence about approval and human oversight for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-E151D0C7BAC2](../claims/claim-e151d0c7bac2.md) - Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
 
 ## Cross-References
 
@@ -58,5 +69,5 @@ last_reviewed: "2026-06-02"
 
 ## Gaps
 
-- Replace automated extraction cues with human-reviewed contribution notes.
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
 - Add concise source-backed contribution notes.
