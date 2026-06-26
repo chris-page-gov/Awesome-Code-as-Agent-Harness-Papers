@@ -35,6 +35,9 @@ All notable changes to this fork are recorded here.
 - Added a SeeLinks Claim Card pack exporter, a curated
   `seelinks-assertions` demo pack, and a synergy evaluation/specification for
   Assertion SeeLinks human review.
+- Added the OKF Reader / SeeLinks OKFR rollout plan covering OKF compliance,
+  generated OKFR data packages, static publication, SeeLinks reader reuse, and
+  JIT training/specification assets.
 
 ### Changed
 
@@ -48,6 +51,9 @@ All notable changes to this fork are recorded here.
   Claim Cards, and explicit agent/cross-agent/human review tiers.
 - Updated paper fragments to link to generated Claim Cards and expose
   `evidence_quality`.
+- Updated repository operating guidance to treat `OKF v0.1 + OKFR extensions`,
+  generated reader artifacts, and static publication output as part of the
+  documentation lockstep workflow.
 
 ### Removed
 

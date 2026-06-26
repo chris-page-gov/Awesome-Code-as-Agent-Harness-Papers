@@ -1,6 +1,6 @@
 # Context
 
-Last reviewed: 2026-06-02
+Last reviewed: 2026-06-26
 
 ## Repository Purpose
 
@@ -28,6 +28,10 @@ scientific discovery agents, and embodied agents.
 - There is no configured push URL for the original source repository.
 - The top-level README remains the visible awesome-list surface.
 - The wiki layer starts at [LLM-WIKI.md](LLM-WIKI.md) and [wiki/index.md](wiki/index.md).
+- The wiki is being normalized to the local `OKF v0.1 + OKFR extensions`
+  profile so Markdown pages can drive a generated reader, graph export,
+  SeeLinks OKFR pack, and static GitHub Pages publication without duplicating
+  source truth.
 - Raw localized source files should be placed under [sources/raw/](sources/raw/)
   and treated as a local read-only evidence cache after ingestion. They are not
   committed by default; use `sources/raw/redistributable/` only for explicit
@@ -42,6 +46,10 @@ scientific discovery agents, and embodied agents.
   maps curated Claim Cards, evidence locators, gap cards, volatile-source
   warnings, evidence packets, and graph edges into the live SeeLinks
   `seelinks-assertions` pack format for human review.
+- The OKFR publication/export work is tracked in
+  [plans/2026-06-26-okfr-reader-and-okf-compliance.md](plans/2026-06-26-okfr-reader-and-okf-compliance.md).
+  Generated OKFR packages will live under [exports/okfr/](exports/okfr/), and
+  generated static publication output will live under [_site/](_site/).
 - README paper rows now link to local fragments under [wiki/papers/](wiki/papers/);
   each fragment preserves the canonical external source URL.
 - Source-localization batches have fetched the survey PDF plus 353 unique paper
@@ -85,3 +93,10 @@ This repo follows the recent local LLM-Wiki pattern found in:
 - Use `tools/build_seelinks_claim_pack.py` to regenerate the curated SeeLinks
   Claim Card review package. Keep SeeLinks `review_state` separate from wiki
   `evidence_tier`; generated agent review must not be treated as human review.
+- Use the OKF/OKFR toolchain for reader/publication artifacts:
+  `tools/check_okf.py`, `tools/build_okf_graph.py`,
+  `tools/normalize_okf_frontmatter.py`,
+  `tools/build_okfr_seelinks_pack.py`, and `tools/build_okfr_site.py`.
+- Treat `api-mcp-wiki/viewer.html` as the reference interaction pattern for
+  OKFR: Markdown remains the source of truth, the viewer is generated, and
+  generated-reader drift belongs in validation.

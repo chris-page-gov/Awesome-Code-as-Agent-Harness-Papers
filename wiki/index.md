@@ -1,8 +1,14 @@
 ---
+type: "index"
 title: "Code as Agent Harness LLM-Wiki"
+description: "Navigation entry point for the Code as Agent Harness source-backed LLM-Wiki."
+timestamp: "2026-06-26T00:00:00Z"
+okf_version: "0.1"
+okfr_role: "home"
+okfr_summary: "Entry point for source notes, paper fragments, Claim Cards, topic syntheses, reports, OKF guidance, and generated reader exports."
 note_type: "index"
 tags: ["index", "code-as-agent-harness", "llm-wiki"]
-updated: "2026-06-02"
+updated: "2026-06-26"
 ---
 
 # Code as Agent Harness LLM-Wiki
@@ -15,6 +21,9 @@ around the *Code as Agent Harness* survey and README inventory.
 - [Architecture](architecture/llm-wiki-architecture.md)
 - [Source discipline](guidance/source-discipline.md)
 - [Ingest workflow](guidance/ingest-workflow.md)
+- [OKF profile](guidance/okf-profile.md)
+- [OKFR JIT training](guidance/okfr-jit-training.md)
+- [OKFR UI specification](guidance/okfr-ui-specification.md)
 - [Source notes](sources/README.md)
 - [Paper fragment index](papers/README.md)
 - [Claim Cards](claims/README.md)
@@ -49,6 +58,14 @@ around the *Code as Agent Harness* survey and README inventory.
 - [LLM-Wiki primary-source evaluation](reports/llm-wiki-primary-source-evaluation.md)
 - [LLM-Wiki post-Claim-Card evaluation](reports/llm-wiki-primary-source-evaluation-post-claim-cards.md)
 - [SeeLinks assertion package synergy evaluation](reports/seelinks-assertion-package-synergy-evaluation.md)
+
+## Reader And Publication Outputs
+
+- [OKF Reader / SeeLinks OKFR rollout plan](../plans/2026-06-26-okfr-reader-and-okf-compliance.md)
+- Generated OKFR SeeLinks pack: `exports/okfr/code-agent-harness-okfr/`
+- Generated static publication: `_site/`
+- Target GitHub Pages URL:
+  `https://chris-page-gov.github.io/Awesome-Code-as-Agent-Harness-Papers/`
 
 ## Paper Fragments
 

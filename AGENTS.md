@@ -40,6 +40,12 @@ awesome-list inventory.
   notes, localized sources, or explicit gaps.
 - [wiki/topics/](wiki/topics/) stores synthesis notes.
 - [wiki/maps/](wiki/maps/) stores guided entry points and cross-reference maps.
+- [wiki/guidance/okf-profile.md](wiki/guidance/okf-profile.md) defines the
+  local `OKF v0.1 + OKFR extensions` profile used for generated reader and
+  SeeLinks exports.
+- [exports/okfr/](exports/okfr/) stores generated OKFR SeeLinks data packages.
+- [_site/](_site/) is generated static publication output and must be rebuilt
+  from wiki/source metadata rather than hand-edited.
 - [sources/raw/](sources/raw/) stores localized source files as a local
   evidence cache. Treat these files as read-only after they are added, and do
   not commit them unless they are intentionally placed in
@@ -65,6 +71,14 @@ awesome-list inventory.
 - When a source cannot be fetched because of network slowness or publisher
   access, add a registered gap and continue with local metadata.
 - Use normal Markdown links for repo files and external sources.
+- Keep OKF/OKFR reader metadata factual and derived from wiki, register, or
+  source material. Do not treat generated summaries or inferred graph
+  relationships as human review.
+- Use `tools/normalize_okf_frontmatter.py` for deterministic OKF frontmatter
+  fill-ins rather than hand-editing large batches of generated fragments.
+- Use `tools/build_okf_graph.py`, `tools/build_okfr_seelinks_pack.py`, and
+  `tools/build_okfr_site.py` to regenerate reader artifacts. Markdown and JSON
+  registers remain the source of truth.
 
 ## Documentation Lockstep
 
@@ -78,6 +92,8 @@ Keep documentation in lockstep with structural, source, or taxonomy changes:
   [wiki/index.md](wiki/index.md) when entry points change.
 - Update source registers and wiki fragments in the same commit as source
   localization or xref changes.
+- Update OKF guidance, generated OKFR exports, and `_site/` in the same
+  checkpoint when reader/publication behavior changes.
 
 ## Validation
 
@@ -86,4 +102,13 @@ Run these before committing documentation or wiki structural changes:
 ```bash
 git diff --check
 python3 tools/check_wiki.py
+python3 tools/check_okf.py
+```
+
+When OKFR exports or publication output change, also run:
+
+```bash
+python3 tools/build_okf_graph.py --check
+python3 tools/build_okfr_seelinks_pack.py --check
+python3 tools/build_okfr_site.py --check
 ```
