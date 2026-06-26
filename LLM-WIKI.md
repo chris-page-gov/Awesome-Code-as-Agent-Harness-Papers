@@ -31,3 +31,8 @@ Reader/publication artifacts are generated rather than hand-maintained:
 - OKFR SeeLinks pack: `tools/build_okfr_seelinks_pack.py`
 - Static site: `tools/build_okfr_site.py`
 - OKF validation: `tools/check_okf.py`
+
+Generated outputs:
+
+- `exports/okf/code-agent-harness-okf-graph.json`
+- `exports/okfr/code-agent-harness-okfr/pack.json`

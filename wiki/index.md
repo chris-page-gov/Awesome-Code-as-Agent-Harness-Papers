@@ -62,6 +62,7 @@ around the *Code as Agent Harness* survey and README inventory.
 ## Reader And Publication Outputs
 
 - [OKF Reader / SeeLinks OKFR rollout plan](../plans/2026-06-26-okfr-reader-and-okf-compliance.md)
+- Generated OKF graph: `exports/okf/code-agent-harness-okf-graph.json`
 - Generated OKFR SeeLinks pack: `exports/okfr/code-agent-harness-okfr/`
 - Generated static publication: `_site/`
 - Target GitHub Pages URL:

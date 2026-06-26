@@ -416,7 +416,7 @@ def extract_links(page: WikiPage) -> list[LinkRecord]:
 
 def section_for(rel_path: str) -> str:
     parts = Path(rel_path).parts
-    if len(parts) < 2:
+    if len(parts) <= 2:
         return "root"
     if parts[1] == "index.md":
         return "root"

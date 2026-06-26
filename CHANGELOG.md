@@ -40,6 +40,10 @@ All notable changes to this fork are recorded here.
   JIT training/specification assets.
 - Added OKF validation, graph-building, and deterministic frontmatter
   normalization tools for the `OKF v0.1 + OKFR extensions` profile.
+- Added a generated OKF graph at
+  `exports/okf/code-agent-harness-okf-graph.json`.
+- Added an OKFR SeeLinks pack exporter and generated
+  `exports/okfr/code-agent-harness-okfr/` pack, intro, and README.
 
 ### Changed
 
@@ -59,6 +63,9 @@ All notable changes to this fork are recorded here.
 - Normalized wiki Markdown frontmatter across the corpus so pages expose
   `type`, `title`, `description`, `timestamp`, and OKFR reader metadata.
 - Extended normal wiki validation to include OKF profile checks.
+- Extended the reader/export surface from the curated Claim Card review pack to
+  a full-wiki OKFR graph package with path-derived IDs and Claim Card
+  traceability.
 
 ### Removed
 

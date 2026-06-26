@@ -48,8 +48,11 @@ scientific discovery agents, and embodied agents.
   `seelinks-assertions` pack format for human review.
 - The OKFR publication/export work is tracked in
   [plans/2026-06-26-okfr-reader-and-okf-compliance.md](plans/2026-06-26-okfr-reader-and-okf-compliance.md).
-  Generated OKFR packages will live under [exports/okfr/](exports/okfr/), and
-  generated static publication output will live under [_site/](_site/).
+  The generated OKF graph lives at
+  [exports/okf/code-agent-harness-okf-graph.json](exports/okf/code-agent-harness-okf-graph.json).
+  The generated OKFR SeeLinks package lives under
+  [exports/okfr/code-agent-harness-okfr/](exports/okfr/code-agent-harness-okfr/).
+  Generated static publication output will live under [_site/](_site/).
 - README paper rows now link to local fragments under [wiki/papers/](wiki/papers/);
   each fragment preserves the canonical external source URL.
 - Source-localization batches have fetched the survey PDF plus 353 unique paper
@@ -97,6 +100,10 @@ This repo follows the recent local LLM-Wiki pattern found in:
   `tools/check_okf.py`, `tools/build_okf_graph.py`,
   `tools/normalize_okf_frontmatter.py`,
   `tools/build_okfr_seelinks_pack.py`, and `tools/build_okfr_site.py`.
+- The current OKFR pack contains the full OKF wiki surface: 1,545 items, 1,545
+  graph nodes, 10,672 graph edges, 357 source metadata records, and 1,148 Claim
+  Card records. It exports metadata and paths only; it does not embed
+  local-only raw source blobs.
 - Treat `api-mcp-wiki/viewer.html` as the reference interaction pattern for
   OKFR: Markdown remains the source of truth, the viewer is generated, and
   generated-reader drift belongs in validation.
