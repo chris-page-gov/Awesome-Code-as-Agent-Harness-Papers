@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Graph of Thoughts: Solving Elaborate Problems with Large Language Models"
+description: "Paper fragment for Graph of Thoughts: Solving Elaborate Problems with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Graph of Thoughts: Solving Elaborate Problems with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "graph-of-thoughts-solving-elaborate-problems-with-large-language-models-1c841461"
-canonical_urls:
-  - "https://ojs.aaai.org/index.php/AAAI/article/view/29720"
-local_source_paths:
-  - "sources/raw/html/ojs.aaai.org/graph-of-thoughts-solving-elaborate-problems-with-large-language-models-d802d17b.html"
+canonical_urls: ["https://ojs.aaai.org/index.php/AAAI/article/view/29720"]
+local_source_paths: ["sources/raw/html/ojs.aaai.org/graph-of-thoughts-solving-elaborate-problems-with-large-language-models-d802d17b.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-869096E4A49F"
-  - "CLAIM-8B2AC69B9C46"
-  - "CLAIM-8C67ABE99799"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Hybrid Symbolic–Neural Execution"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-869096E4A49F", "CLAIM-8B2AC69B9C46", "CLAIM-8C67ABE99799"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Hybrid Symbolic–Neural Execution"]
 ---
 
 # Graph of Thoughts: Solving Elaborate Problems with Large Language Models

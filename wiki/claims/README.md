@@ -1,3 +1,13 @@
+---
+type: "index"
+title: "Claim Cards"
+description: "Claim Cards are atomic, source-bounded wiki evidence records. They are generated from localized source files and reviewed using explicit agent/human review tiers."
+timestamp: "2026-06-26T00:00:00Z"
+okf_version: "0.1"
+okfr_role: "index"
+okfr_summary: "Claim Cards are atomic, source-bounded wiki evidence records. They are generated from localized source files and reviewed using explicit agent/human review tiers."
+---
+
 # Claim Cards
 
 Claim Cards are atomic, source-bounded wiki evidence records. They are generated from localized source files and reviewed using explicit agent/human review tiers.

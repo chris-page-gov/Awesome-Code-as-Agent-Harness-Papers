@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation"
+description: "Paper fragment for RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "rpg-a-repository-planning-graph-for-unified-and-scalable-codebase-genera-e832599a"
-canonical_urls:
-  - "https://arxiv.org/abs/2509.16198"
-local_source_paths:
-  - "sources/raw/arxiv/2509.16198.pdf"
+canonical_urls: ["https://arxiv.org/abs/2509.16198"]
+local_source_paths: ["sources/raw/arxiv/2509.16198.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-19727D23AB6B"
-  - "CLAIM-B15526978191"
-  - "CLAIM-C0C87AAF1D96"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Structure-Grounded Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-19727D23AB6B", "CLAIM-B15526978191", "CLAIM-C0C87AAF1D96"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Structure-Grounded Planning"]
 ---
 
 # RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation

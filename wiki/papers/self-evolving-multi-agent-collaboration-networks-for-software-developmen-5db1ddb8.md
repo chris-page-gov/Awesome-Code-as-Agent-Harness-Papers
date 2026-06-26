@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Self-Evolving Multi-Agent Collaboration Networks for Software Development"
+description: "Paper fragment for Self-Evolving Multi-Agent Collaboration Networks for Software Development, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Self-Evolving Multi-Agent Collaboration Networks for Software Development, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "self-evolving-multi-agent-collaboration-networks-for-software-developmen-5db1ddb8"
-canonical_urls:
-  - "https://openreview.net/forum?id=4R71pdPBZp"
-local_source_paths:
-  - "sources/raw/openreview/4R71pdPBZp.pdf"
+canonical_urls: ["https://openreview.net/forum?id=4R71pdPBZp"]
+local_source_paths: ["sources/raw/openreview/4R71pdPBZp.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4CE8806959B0"
-  - "CLAIM-803470332D48"
-  - "CLAIM-B4791941DE02"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Functional Role Specialization"
-survey_subsections:
-  - "Planning Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4CE8806959B0", "CLAIM-803470332D48", "CLAIM-B4791941DE02"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Functional Role Specialization"]
+survey_subsections: ["Planning Agents"]
 ---
 
 # Self-Evolving Multi-Agent Collaboration Networks for Software Development

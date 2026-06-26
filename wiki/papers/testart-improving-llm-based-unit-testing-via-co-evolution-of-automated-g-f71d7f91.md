@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "TestART: Improving LLM-Based Unit Testing via Co-Evolution of Automated Generation and Repair Iteration"
+description: "Paper fragment for TestART: Improving LLM-Based Unit Testing via Co-Evolution of Automated Generation and Repair Iteration, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for TestART: Improving LLM-Based Unit Testing via Co-Evolution of Automated Generation and Repair Iteration, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "testart-improving-llm-based-unit-testing-via-co-evolution-of-automated-g-f71d7f91"
-canonical_urls:
-  - "https://arxiv.org/abs/2408.03095"
-local_source_paths:
-  - "sources/raw/arxiv/2408.03095.pdf"
+canonical_urls: ["https://arxiv.org/abs/2408.03095"]
+local_source_paths: ["sources/raw/arxiv/2408.03095.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1A28519D5FA1"
-  - "CLAIM-4620A9914203"
-  - "CLAIM-8362EB29CE85"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1A28519D5FA1", "CLAIM-4620A9914203", "CLAIM-8362EB29CE85"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # TestART: Improving LLM-Based Unit Testing via Co-Evolution of Automated Generation and Repair Iteration

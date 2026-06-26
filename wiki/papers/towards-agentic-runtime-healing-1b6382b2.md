@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Towards Agentic Runtime Healing"
+description: "Paper fragment for Towards Agentic Runtime Healing, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Towards Agentic Runtime Healing, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "towards-agentic-runtime-healing-1b6382b2"
-canonical_urls:
-  - "https://arxiv.org/abs/2408.01055"
-local_source_paths:
-  - "sources/raw/arxiv/2408.01055.pdf"
+canonical_urls: ["https://arxiv.org/abs/2408.01055"]
+local_source_paths: ["sources/raw/arxiv/2408.01055.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0E9659C1C6C4"
-  - "CLAIM-9108E89D66A1"
-  - "CLAIM-F0E80F90623E"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0E9659C1C6C4", "CLAIM-9108E89D66A1", "CLAIM-F0E80F90623E"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Towards Agentic Runtime Healing

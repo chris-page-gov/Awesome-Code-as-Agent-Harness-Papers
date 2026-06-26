@@ -1,8 +1,14 @@
 ---
+type: "bibliography"
 title: "LLM-Wiki Bibliography Export"
+description: "LLM-Wiki Bibliography Export OKF bibliography page."
+timestamp: "2026-06-26T00:00:00Z"
+tags: ["bibliography", "llm-wiki"]
+okf_version: "0.1"
+okfr_role: "page"
+okfr_summary: "LLM-Wiki Bibliography Export OKF bibliography page."
 note_type: "bibliography"
 status: "agent-reviewed"
-tags: ["bibliography", "llm-wiki"]
 generated: "2026-06-02"
 ---
 

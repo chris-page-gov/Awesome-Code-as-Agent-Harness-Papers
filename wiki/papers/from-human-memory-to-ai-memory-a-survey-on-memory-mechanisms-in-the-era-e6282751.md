@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs"
+description: "Paper fragment for From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "from-human-memory-to-ai-memory-a-survey-on-memory-mechanisms-in-the-era-e6282751"
-canonical_urls:
-  - "https://arxiv.org/abs/2504.15965"
-local_source_paths:
-  - "sources/raw/arxiv/2504.15965.pdf"
+canonical_urls: ["https://arxiv.org/abs/2504.15965"]
+local_source_paths: ["sources/raw/arxiv/2504.15965.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0C136CB7D029"
-  - "CLAIM-6153E941481C"
-  - "CLAIM-AF15958E652F"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Semantic Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0C136CB7D029", "CLAIM-6153E941481C", "CLAIM-AF15958E652F"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Semantic Memory"]
 ---
 
 # From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs

@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+description: "Paper fragment for ReAct: Synergizing Reasoning and Acting in Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ReAct: Synergizing Reasoning and Acting in Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "react-synergizing-reasoning-and-acting-in-language-models-99278094"
-canonical_urls:
-  - "https://openreview.net/forum?id=WE_vluYUL-X"
-local_source_paths:
-  - "sources/raw/openreview/WE_vluYUL-X.pdf"
+canonical_urls: ["https://openreview.net/forum?id=WE_vluYUL-X"]
+local_source_paths: ["sources/raw/openreview/WE_vluYUL-X.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-6536871D364D"
-  - "CLAIM-A8572A89D48B"
-  - "CLAIM-C0F8E1F19D30"
-survey_layers:
-  - "Harness Interface"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code for Acting"
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Linear Decomposition Planning"
-  - "Programmatic Policy Generation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-6536871D364D", "CLAIM-A8572A89D48B", "CLAIM-C0F8E1F19D30"]
+survey_layers: ["Harness Interface", "Harness Mechanisms"]
+survey_sections: ["Code for Acting", "Planning for Code Agents"]
+survey_subsections: ["Linear Decomposition Planning", "Programmatic Policy Generation"]
 ---
 
 # ReAct: Synergizing Reasoning and Acting in Language Models

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot"
+description: "Paper fragment for The Impact of AI on Developer Productivity: Evidence from GitHub Copilot, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for The Impact of AI on Developer Productivity: Evidence from GitHub Copilot, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot-752fb49d"
-canonical_urls:
-  - "https://arxiv.org/abs/2302.06590"
-local_source_paths:
-  - "sources/raw/arxiv/2302.06590.pdf"
+canonical_urls: ["https://arxiv.org/abs/2302.06590"]
+local_source_paths: ["sources/raw/arxiv/2302.06590.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-47EA49DBCB01"
-  - "CLAIM-A97A2D7C714E"
-  - "CLAIM-DAD39A7CFEF6"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Inline Completion to Autonomous SWE Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-47EA49DBCB01", "CLAIM-A97A2D7C714E", "CLAIM-DAD39A7CFEF6"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Inline Completion to Autonomous SWE Agents"]
 ---
 
 # The Impact of AI on Developer Productivity: Evidence from GitHub Copilot

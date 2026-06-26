@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Conversational AI as a Coding Assistant: Understanding Programmers' Interactions with and Expectations from Large Language Models for Coding"
+description: "Paper fragment for Conversational AI as a Coding Assistant: Understanding Programmers' Interactions with and Expectations from Large Language Models for Coding, including inventory metadata, local source status, evidence quality, and Cla..."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Conversational AI as a Coding Assistant: Understanding Programmers' Interactions with and Expectations from Large Language Models for Coding, including inventory metadata, local source status, evidence quality, and Cla..."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "conversational-ai-as-a-coding-assistant-understanding-programmers-intera-3f99131f"
-canonical_urls:
-  - "https://arxiv.org/abs/2503.16508"
-local_source_paths:
-  - "sources/raw/arxiv/2503.16508.pdf"
+canonical_urls: ["https://arxiv.org/abs/2503.16508"]
+local_source_paths: ["sources/raw/arxiv/2503.16508.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-04D363DB46F4"
-  - "CLAIM-8EEC022A1B89"
-  - "CLAIM-FE54079E4026"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-04D363DB46F4", "CLAIM-8EEC022A1B89", "CLAIM-FE54079E4026"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Conversational AI as a Coding Assistant: Understanding Programmers' Interactions with and Expectations from Large Language Models for Coding

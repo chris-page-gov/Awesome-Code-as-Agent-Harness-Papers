@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Self-driving laboratory for accelerated discovery of thin-film materials"
+description: "Paper fragment for Self-driving laboratory for accelerated discovery of thin-film materials, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Self-driving laboratory for accelerated discovery of thin-film materials, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "self-driving-laboratory-for-accelerated-discovery-of-thin-film-materials-a0aa7707"
-canonical_urls:
-  - "https://arxiv.org/abs/1906.05398"
-local_source_paths:
-  - "sources/raw/arxiv/1906.05398.pdf"
+canonical_urls: ["https://arxiv.org/abs/1906.05398"]
+local_source_paths: ["sources/raw/arxiv/1906.05398.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-27240C605D63"
-  - "CLAIM-4DEC5FB4D8D4"
-  - "CLAIM-65D59989004E"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Self-Driving Labs as Executable Feedback Loops"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-27240C605D63", "CLAIM-4DEC5FB4D8D4", "CLAIM-65D59989004E"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Self-Driving Labs as Executable Feedback Loops"]
 ---
 
 # Self-driving laboratory for accelerated discovery of thin-film materials

@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences provides local"
+description: "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences provides localized evidence about memory and state for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences provides localized evidence about memory and state for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-4EC7DDF9E157"
 claim_type: "contribution"
-paper_ids:
-  - "memgovern-enhancing-code-agents-through-learning-from-governed-human-exp-acb2227b"
+paper_ids: ["memgovern-enhancing-code-agents-through-learning-from-governed-human-exp-acb2227b"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2601.06789.pdf"
-related_topics:
-  - "harness-mechanisms"
-  - "evidence-observability-and-redress"
+source_refs: ["sources/raw/arxiv/2601.06789.pdf"]
+related_topics: ["harness-mechanisms", "evidence-observability-and-redress"]
 evidence_locator: "sources/raw/arxiv/2601.06789.pdf; extracted sentence match for memory"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.82
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-4EC7DDF9E157

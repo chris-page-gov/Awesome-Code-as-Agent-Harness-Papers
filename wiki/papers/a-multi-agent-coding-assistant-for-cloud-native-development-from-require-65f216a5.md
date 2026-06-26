@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices"
+description: "Paper fragment for A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a-multi-agent-coding-assistant-for-cloud-native-development-from-require-65f216a5"
-canonical_urls:
-  - "https://doi.org/10.20944/preprints202512.1922.v1"
-  - "https://sciety.org/articles/activity/10.20944/preprints202512.1922.v1"
-local_source_paths:
-  - "sources/raw/html/sciety.org/a-multi-agent-coding-assistant-for-cloud-native-development-from-requirements-to-fe52f749.html"
+canonical_urls: ["https://doi.org/10.20944/preprints202512.1922.v1", "https://sciety.org/articles/activity/10.20944/preprints202512.1922.v1"]
+local_source_paths: ["sources/raw/html/sciety.org/a-multi-agent-coding-assistant-for-cloud-native-development-from-requirements-to-fe52f749.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0145EB00DF11"
-  - "CLAIM-B757D752ED0A"
-  - "CLAIM-BC233893A308"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0145EB00DF11", "CLAIM-B757D752ED0A", "CLAIM-BC233893A308"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # A Multi-Agent Coding Assistant for Cloud-Native Development: From Requirements to Deployable Microservices

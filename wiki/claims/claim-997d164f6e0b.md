@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning prov"
+description: "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning provides localized evidence about security safeguards for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning provides localized evidence about security safeguards for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-997D164F6E0B"
 claim_type: "safety-control"
-paper_ids:
-  - "coderl-mastering-code-generation-through-pretrained-models-and-deep-rein-cdda5aba"
+paper_ids: ["coderl-mastering-code-generation-through-pretrained-models-and-deep-rein-cdda5aba"]
 source_ids: []
-source_refs:
-  - "sources/raw/openreview/WaGvb7OzySA.pdf"
-related_topics:
-  - "mcp-governance"
-  - "agent-safety-and-sandboxing"
+source_refs: ["sources/raw/openreview/WaGvb7OzySA.pdf"]
+related_topics: ["mcp-governance", "agent-safety-and-sandboxing"]
 evidence_locator: "sources/raw/openreview/WaGvb7OzySA.pdf; extracted sentence match for safeguards"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-997D164F6E0B

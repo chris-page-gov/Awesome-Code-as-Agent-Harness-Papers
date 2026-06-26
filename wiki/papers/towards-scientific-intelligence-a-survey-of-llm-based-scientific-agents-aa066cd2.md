@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents"
+description: "Paper fragment for Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "towards-scientific-intelligence-a-survey-of-llm-based-scientific-agents-aa066cd2"
-canonical_urls:
-  - "https://arxiv.org/abs/2503.24047"
-local_source_paths:
-  - "sources/raw/arxiv/2503.24047.pdf"
+canonical_urls: ["https://arxiv.org/abs/2503.24047"]
+local_source_paths: ["sources/raw/arxiv/2503.24047.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-9BE2EEB628BA"
-  - "CLAIM-E07C28797CF1"
-  - "CLAIM-E1E76126DE9D"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Unifying Ideation, Experimentation, Analysis, and Communication"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-9BE2EEB628BA", "CLAIM-E07C28797CF1", "CLAIM-E1E76126DE9D"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Unifying Ideation, Experimentation, Analysis, and Communication"]
 ---
 
 # Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents

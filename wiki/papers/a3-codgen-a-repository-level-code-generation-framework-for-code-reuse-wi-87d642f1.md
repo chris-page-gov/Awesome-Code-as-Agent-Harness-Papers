@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "A³-CodGen: A Repository-Level Code Generation Framework for Code Reuse with Local-Aware, Global-Aware, and Third-Party-Library-Aware"
+description: "Paper fragment for A³-CodGen: A Repository-Level Code Generation Framework for Code Reuse with Local-Aware, Global-Aware, and Third-Party-Library-Aware, including inventory metadata, local source status, evidence quality, and Claim Card..."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A³-CodGen: A Repository-Level Code Generation Framework for Code Reuse with Local-Aware, Global-Aware, and Third-Party-Library-Aware, including inventory metadata, local source status, evidence quality, and Claim Card..."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a3-codgen-a-repository-level-code-generation-framework-for-code-reuse-wi-87d642f1"
-canonical_urls:
-  - "https://ieeexplore.ieee.org/document/10734067/"
-local_source_paths:
-  - "sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html"
+canonical_urls: ["https://ieeexplore.ieee.org/document/10734067/"]
+local_source_paths: ["sources/raw/html/ieeexplore.ieee.org/a-codgen-a-repository-level-code-generation-framework-for-code-reuse-with-local-96ad2811.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-874454F16461"
-  - "CLAIM-D17A7B0DBC6B"
-  - "CLAIM-DA6BFFB26487"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-874454F16461", "CLAIM-D17A7B0DBC6B", "CLAIM-DA6BFFB26487"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # A³-CodGen: A Repository-Level Code Generation Framework for Code Reuse with Local-Aware, Global-Aware, and Third-Party-Library-Aware

@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Self-collaboration Code Generation via ChatGPT"
+description: "Paper fragment for Self-collaboration Code Generation via ChatGPT, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Self-collaboration Code Generation via ChatGPT, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "self-collaboration-code-generation-via-chatgpt-65908e00"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3672459"
-  - "https://arxiv.org/pdf/2304.07590"
-local_source_paths:
-  - "sources/raw/arxiv/2304.07590.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3672459", "https://arxiv.org/pdf/2304.07590"]
+local_source_paths: ["sources/raw/arxiv/2304.07590.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1CBCE4729423"
-  - "CLAIM-1F71F8E673B0"
-  - "CLAIM-E5F79ED48843"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Functional Role Specialization"
-survey_subsections:
-  - "Program Synthesis Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1CBCE4729423", "CLAIM-1F71F8E673B0", "CLAIM-E5F79ED48843"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Functional Role Specialization"]
+survey_subsections: ["Program Synthesis Agents"]
 ---
 
 # Self-collaboration Code Generation via ChatGPT

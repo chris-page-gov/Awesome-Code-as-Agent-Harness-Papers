@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents provides lo"
+description: "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents provides localized evidence about memory and state for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents provides localized evidence about memory and state for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-B176B1AB7404"
 claim_type: "contribution"
-paper_ids:
-  - "navigating-the-digital-world-as-humans-do-universal-visual-grounding-for-2b299bb2"
+paper_ids: ["navigating-the-digital-world-as-humans-do-universal-visual-grounding-for-2b299bb2"]
 source_ids: []
-source_refs:
-  - "sources/raw/openreview/kxnoqaisCT.pdf"
-related_topics:
-  - "harness-mechanisms"
-  - "evidence-observability-and-redress"
+source_refs: ["sources/raw/openreview/kxnoqaisCT.pdf"]
+related_topics: ["harness-mechanisms", "evidence-observability-and-redress"]
 evidence_locator: "sources/raw/openreview/kxnoqaisCT.pdf; extracted sentence match for memory"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-B176B1AB7404

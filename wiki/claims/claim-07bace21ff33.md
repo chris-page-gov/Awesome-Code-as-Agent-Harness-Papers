@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents provides locali"
+description: "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents provides localized evidence about tool use for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents provides localized evidence about tool use for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-07BACE21FF33"
 claim_type: "contribution"
-paper_ids:
-  - "beyond-static-sandboxing-learned-capability-governance-for-autonomous-ai-a8b8b443"
+paper_ids: ["beyond-static-sandboxing-learned-capability-governance-for-autonomous-ai-a8b8b443"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2604.11839.pdf"
-related_topics:
-  - "harness-mechanisms"
-  - "harness-interface"
+source_refs: ["sources/raw/arxiv/2604.11839.pdf"]
+related_topics: ["harness-mechanisms", "harness-interface"]
 evidence_locator: "sources/raw/arxiv/2604.11839.pdf; extracted sentence match for tools"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.82
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-07BACE21FF33

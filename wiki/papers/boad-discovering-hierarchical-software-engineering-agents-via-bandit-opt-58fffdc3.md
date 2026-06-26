@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization"
+description: "Paper fragment for BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "boad-discovering-hierarchical-software-engineering-agents-via-bandit-opt-58fffdc3"
-canonical_urls:
-  - "https://arxiv.org/abs/2512.23631"
-local_source_paths:
-  - "sources/raw/arxiv/2512.23631.pdf"
+canonical_urls: ["https://arxiv.org/abs/2512.23631"]
+local_source_paths: ["sources/raw/arxiv/2512.23631.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-482035ADDE53"
-  - "CLAIM-915B7AE3C6C6"
-  - "CLAIM-CDB82ECE4772"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Workflow Topology"
-survey_subsections:
-  - "Objective-Driven and Adaptive Topologies"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-482035ADDE53", "CLAIM-915B7AE3C6C6", "CLAIM-CDB82ECE4772"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Workflow Topology"]
+survey_subsections: ["Objective-Driven and Adaptive Topologies"]
 ---
 
 # BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization

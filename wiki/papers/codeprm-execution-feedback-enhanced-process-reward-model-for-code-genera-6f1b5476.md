@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodePRM: Execution Feedback-enhanced Process Reward Model for Code Generation"
+description: "Paper fragment for CodePRM: Execution Feedback-enhanced Process Reward Model for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodePRM: Execution Feedback-enhanced Process Reward Model for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codeprm-execution-feedback-enhanced-process-reward-model-for-code-genera-6f1b5476"
-canonical_urls:
-  - "https://aclanthology.org/2025.findings-acl.428/"
-local_source_paths:
-  - "sources/raw/acl/2025.findings-acl.428.pdf"
+canonical_urls: ["https://aclanthology.org/2025.findings-acl.428/"]
+local_source_paths: ["sources/raw/acl/2025.findings-acl.428.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-394F72702AD4"
-  - "CLAIM-5C8F894935A6"
-  - "CLAIM-90B8520217EC"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-394F72702AD4", "CLAIM-5C8F894935A6", "CLAIM-90B8520217EC"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # CodePRM: Execution Feedback-enhanced Process Reward Model for Code Generation

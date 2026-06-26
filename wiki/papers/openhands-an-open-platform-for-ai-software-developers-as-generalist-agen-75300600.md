@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "OpenHands: An Open Platform for AI Software Developers as Generalist Agents"
+description: "Paper fragment for OpenHands: An Open Platform for AI Software Developers as Generalist Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for OpenHands: An Open Platform for AI Software Developers as Generalist Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "openhands-an-open-platform-for-ai-software-developers-as-generalist-agen-75300600"
-canonical_urls:
-  - "https://openreview.net/forum?id=OJd3ayDDoF"
-local_source_paths:
-  - "sources/raw/openreview/OJd3ayDDoF.pdf"
+canonical_urls: ["https://openreview.net/forum?id=OJd3ayDDoF"]
+local_source_paths: ["sources/raw/openreview/OJd3ayDDoF.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1107CE0F4A0D"
-  - "CLAIM-9BE674E4D68D"
-  - "CLAIM-CC2547660F02"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Workflow-Orchestration Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1107CE0F4A0D", "CLAIM-9BE674E4D68D", "CLAIM-CC2547660F02"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Workflow-Orchestration Tool Use"]
 ---
 
 # OpenHands: An Open Platform for AI Software Developers as Generalist Agents

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback"
+description: "Paper fragment for InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "intercode-standardizing-and-benchmarking-interactive-coding-with-executi-dd16472a"
-canonical_urls:
-  - "https://proceedings.neurips.cc/paper_files/paper/2023/hash/4b175d846fb008d540d233c188379ff9-Abstract-Datasets_and_Benchmarks.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.neurips.cc/intercode-standardizing-and-benchmarking-interactive-coding-with-execution-feedb-97ec9a72.html"
+canonical_urls: ["https://proceedings.neurips.cc/paper_files/paper/2023/hash/4b175d846fb008d540d233c188379ff9-Abstract-Datasets_and_Benchmarks.html"]
+local_source_paths: ["sources/raw/html/proceedings.neurips.cc/intercode-standardizing-and-benchmarking-interactive-coding-with-execution-feedb-97ec9a72.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-24DD1D485324"
-  - "CLAIM-AAAC2304E05C"
-  - "CLAIM-BD4C875C531D"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-24DD1D485324", "CLAIM-AAAC2304E05C", "CLAIM-BD4C875C531D"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback

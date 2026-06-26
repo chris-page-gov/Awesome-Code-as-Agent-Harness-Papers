@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs"
+description: "Paper fragment for Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "ferret-ui-grounded-mobile-ui-understanding-with-multimodal-llms-6b11bec1"
-canonical_urls:
-  - "https://arxiv.org/abs/2404.05719"
-local_source_paths:
-  - "sources/raw/arxiv/2404.05719.pdf"
+canonical_urls: ["https://arxiv.org/abs/2404.05719"]
+local_source_paths: ["sources/raw/arxiv/2404.05719.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-8A2921162054"
-  - "CLAIM-EA97B68C18AB"
-  - "CLAIM-EE5CC0D2C4AF"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-8A2921162054", "CLAIM-EA97B68C18AB", "CLAIM-EE5CC0D2C4AF"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs

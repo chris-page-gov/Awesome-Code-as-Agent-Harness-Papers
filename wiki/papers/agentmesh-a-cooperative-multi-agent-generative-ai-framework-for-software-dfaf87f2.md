@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation"
+description: "Paper fragment for AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agentmesh-a-cooperative-multi-agent-generative-ai-framework-for-software-dfaf87f2"
-canonical_urls:
-  - "https://arxiv.org/abs/2507.19902"
-local_source_paths:
-  - "sources/raw/arxiv/2507.19902.pdf"
+canonical_urls: ["https://arxiv.org/abs/2507.19902"]
+local_source_paths: ["sources/raw/arxiv/2507.19902.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-097034E85EF5"
-  - "CLAIM-3150ABD4CEF8"
-  - "CLAIM-9C7AEEBAD6AF"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-097034E85EF5", "CLAIM-3150ABD4CEF8", "CLAIM-9C7AEEBAD6AF"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation

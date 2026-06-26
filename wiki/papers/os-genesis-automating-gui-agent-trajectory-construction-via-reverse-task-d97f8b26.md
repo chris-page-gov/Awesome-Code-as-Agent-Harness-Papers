@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis"
+description: "Paper fragment for OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "os-genesis-automating-gui-agent-trajectory-construction-via-reverse-task-d97f8b26"
-canonical_urls:
-  - "https://aclanthology.org/2025.acl-long.277/"
-local_source_paths:
-  - "sources/raw/acl/2025.acl-long.277.pdf"
+canonical_urls: ["https://aclanthology.org/2025.acl-long.277/"]
+local_source_paths: ["sources/raw/acl/2025.acl-long.277.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-361C5A1EFB08"
-  - "CLAIM-403114CA1394"
-  - "CLAIM-DD0465B3EEAF"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Memory as Persistent Program State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-361C5A1EFB08", "CLAIM-403114CA1394", "CLAIM-DD0465B3EEAF"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Memory as Persistent Program State"]
 ---
 
 # OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis

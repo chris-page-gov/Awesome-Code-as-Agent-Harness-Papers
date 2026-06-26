@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases"
+description: "Paper fragment for CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codexgraph-bridging-large-language-models-and-code-repositories-via-code-997803fa"
-canonical_urls:
-  - "https://arxiv.org/abs/2408.03910"
-local_source_paths:
-  - "sources/raw/arxiv/2408.03910.pdf"
+canonical_urls: ["https://arxiv.org/abs/2408.03910"]
+local_source_paths: ["sources/raw/arxiv/2408.03910.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-185B5A331CCE"
-  - "CLAIM-3372B6801BC5"
-  - "CLAIM-ADA4D0887B30"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-  - "The Repository as a Persistent Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-185B5A331CCE", "CLAIM-3372B6801BC5", "CLAIM-ADA4D0887B30"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding", "The Repository as a Persistent Program World"]
 ---
 
 # CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases

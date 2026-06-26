@@ -3,10 +3,10 @@ type: "guidance"
 title: "OKF Profile"
 description: "Local OKF v0.1 plus OKFR extension profile for the Code as Agent Harness LLM-Wiki."
 timestamp: "2026-06-26T00:00:00Z"
+tags: ["okf", "okfr", "profile", "guidance"]
 okf_version: "0.1"
 okfr_role: "profile"
 okfr_summary: "Defines required frontmatter, portable Markdown link rules, and generated reader/export expectations."
-tags: ["okf", "okfr", "profile", "guidance"]
 ---
 
 # OKF Profile

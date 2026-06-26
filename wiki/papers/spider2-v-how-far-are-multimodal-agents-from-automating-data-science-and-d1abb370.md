@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?"
+description: "Paper fragment for Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-d1abb370"
-canonical_urls:
-  - "https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.neurips.cc/spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-enginee-fe22bc30.html"
+canonical_urls: ["https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html"]
+local_source_paths: ["sources/raw/html/proceedings.neurips.cc/spider2-v-how-far-are-multimodal-agents-from-automating-data-science-and-enginee-fe22bc30.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-29A17490853E"
-  - "CLAIM-4CEEDE0663D4"
-  - "CLAIM-98F35D0839AD"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-29A17490853E", "CLAIM-4CEEDE0663D4", "CLAIM-98F35D0839AD"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?

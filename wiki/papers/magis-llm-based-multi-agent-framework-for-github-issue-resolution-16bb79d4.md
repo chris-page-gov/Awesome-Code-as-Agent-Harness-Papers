@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution"
+description: "Paper fragment for MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "magis-llm-based-multi-agent-framework-for-github-issue-resolution-16bb79d4"
-canonical_urls:
-  - "https://openreview.net/forum?id=qevq3FZ63J"
-local_source_paths:
-  - "sources/raw/openreview/qevq3FZ63J.pdf"
+canonical_urls: ["https://openreview.net/forum?id=qevq3FZ63J"]
+local_source_paths: ["sources/raw/openreview/qevq3FZ63J.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1F740B3E60D4"
-  - "CLAIM-9A9BBF70A946"
-  - "CLAIM-CDE2ECEA81E6"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Functional Role Specialization"
-survey_subsections:
-  - "Program Understanding Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1F740B3E60D4", "CLAIM-9A9BBF70A946", "CLAIM-CDE2ECEA81E6"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Functional Role Specialization"]
+survey_subsections: ["Program Understanding Agents"]
 ---
 
 # MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution

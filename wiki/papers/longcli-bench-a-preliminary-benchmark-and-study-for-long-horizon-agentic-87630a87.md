@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces"
+description: "Paper fragment for LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "longcli-bench-a-preliminary-benchmark-and-study-for-long-horizon-agentic-87630a87"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.14337"
-local_source_paths:
-  - "sources/raw/arxiv/2602.14337.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.14337"]
+local_source_paths: ["sources/raw/arxiv/2602.14337.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-18C3BD273954"
-  - "CLAIM-CE7E7E4A3F7C"
-  - "CLAIM-E031D4B60D1D"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Multi-Agent Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-18C3BD273954", "CLAIM-CE7E7E4A3F7C", "CLAIM-E031D4B60D1D"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Multi-Agent Memory"]
 ---
 
 # LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces

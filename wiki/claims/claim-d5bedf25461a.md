@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "OS-ATLAS: Foundation Action Model for Generalist GUI Agents provides localized evidence about ev"
+description: "OS-ATLAS: Foundation Action Model for Generalist GUI Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "OS-ATLAS: Foundation Action Model for Generalist GUI Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-D5BEDF25461A"
 claim_type: "evaluation-result"
-paper_ids:
-  - "os-atlas-foundation-action-model-for-generalist-gui-agents-ad69f88c"
+paper_ids: ["os-atlas-foundation-action-model-for-generalist-gui-agents-ad69f88c"]
 source_ids: []
-source_refs:
-  - "sources/raw/openreview/n9PDaFNi8t.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/openreview/n9PDaFNi8t.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/openreview/n9PDaFNi8t.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-D5BEDF25461A

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "From Code Generation to AI Collaboration: The Role of Multi-Agent Systems in Software Engineering"
+description: "Paper fragment for From Code Generation to AI Collaboration: The Role of Multi-Agent Systems in Software Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for From Code Generation to AI Collaboration: The Role of Multi-Agent Systems in Software Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "from-code-generation-to-ai-collaboration-the-role-of-multi-agent-systems-3dc761e2"
-canonical_urls:
-  - "https://www.researchgate.net/publication/388835330_From_Code_Generation_to_AI_Collaboration_The_Role_of_Multi-Agent_Systems_in_Software_Engineering"
-local_source_paths:
-  - "sources/raw/html/researchgate.net/from-code-generation-to-ai-collaboration-the-role-of-multi-agent-systems-in-soft-51c96791.html"
+canonical_urls: ["https://www.researchgate.net/publication/388835330_From_Code_Generation_to_AI_Collaboration_The_Role_of_Multi-Agent_Systems_in_Software_Engineering"]
+local_source_paths: ["sources/raw/html/researchgate.net/from-code-generation-to-ai-collaboration-the-role-of-multi-agent-systems-in-soft-51c96791.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-00FCDE53E45C"
-  - "CLAIM-113A1610ED57"
-  - "CLAIM-E2F5100BA8A7"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-00FCDE53E45C", "CLAIM-113A1610ED57", "CLAIM-E2F5100BA8A7"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # From Code Generation to AI Collaboration: The Role of Multi-Agent Systems in Software Engineering

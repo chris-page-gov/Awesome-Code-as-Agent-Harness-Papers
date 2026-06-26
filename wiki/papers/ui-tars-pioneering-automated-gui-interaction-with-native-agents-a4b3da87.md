@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "UI-TARS: Pioneering Automated GUI Interaction with Native Agents"
+description: "Paper fragment for UI-TARS: Pioneering Automated GUI Interaction with Native Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for UI-TARS: Pioneering Automated GUI Interaction with Native Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "ui-tars-pioneering-automated-gui-interaction-with-native-agents-a4b3da87"
-canonical_urls:
-  - "https://arxiv.org/abs/2501.12326"
-local_source_paths:
-  - "sources/raw/arxiv/2501.12326.pdf"
+canonical_urls: ["https://arxiv.org/abs/2501.12326"]
+local_source_paths: ["sources/raw/arxiv/2501.12326.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3CABF750B1DE"
-  - "CLAIM-AEEE879727A6"
-  - "CLAIM-D6088A8E7811"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3CABF750B1DE", "CLAIM-AEEE879727A6", "CLAIM-D6088A8E7811"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # UI-TARS: Pioneering Automated GUI Interaction with Native Agents

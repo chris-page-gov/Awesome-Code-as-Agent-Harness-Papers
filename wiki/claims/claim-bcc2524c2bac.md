@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Sy"
+description: "Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems provides localized evidence about memory and state for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems provides localized evidence about memory and state for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-BCC2524C2BAC"
 claim_type: "contribution"
-paper_ids:
-  - "agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-b728768f"
+paper_ids: ["agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-b728768f"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2410.14209.pdf"
-related_topics:
-  - "harness-mechanisms"
-  - "evidence-observability-and-redress"
+source_refs: ["sources/raw/arxiv/2410.14209.pdf"]
+related_topics: ["harness-mechanisms", "evidence-observability-and-redress"]
 evidence_locator: "sources/raw/arxiv/2410.14209.pdf; extracted sentence match for memory"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-BCC2524C2BAC

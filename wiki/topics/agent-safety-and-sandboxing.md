@@ -1,8 +1,14 @@
 ---
+type: "topic"
 title: "Agent Safety And Sandboxing"
+description: "This synthesis page uses Claim Cards to track rollback, isolation, capability governance, safe execution, threat, and safeguard evidence for agent harnesses."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["topic", "claim-backed", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "topic"
+okfr_summary: "This synthesis page uses Claim Cards to track rollback, isolation, capability governance, safe execution, threat, and safeguard evidence for agent harnesses."
 note_type: "topic"
 status: "agent-reviewed"
-tags: ["topic", "claim-backed", "code-as-agent-harness"]
 updated: "2026-06-02"
 ---
 

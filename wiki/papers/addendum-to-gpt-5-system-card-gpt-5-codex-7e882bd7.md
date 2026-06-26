@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Addendum to GPT-5 system card: GPT-5-Codex"
+description: "Paper fragment for Addendum to GPT-5 system card: GPT-5-Codex, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Addendum to GPT-5 system card: GPT-5-Codex, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "addendum-to-gpt-5-system-card-gpt-5-codex-7e882bd7"
-canonical_urls:
-  - "https://cdn.openai.com/pdf/97cc5669-7a25-4e63-b15f-5fd5bdc4d149/gpt-5-codex-system-card.pdf"
-local_source_paths:
-  - "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf"
+canonical_urls: ["https://cdn.openai.com/pdf/97cc5669-7a25-4e63-b15f-5fd5bdc4d149/gpt-5-codex-system-card.pdf"]
+local_source_paths: ["sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-8A8C1E04CE14"
-  - "CLAIM-AB5A5FF08158"
-  - "CLAIM-B170A5A4EEAE"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "The Harness as a Distillation Surface"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-8A8C1E04CE14", "CLAIM-AB5A5FF08158", "CLAIM-B170A5A4EEAE"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["The Harness as a Distillation Surface"]
 ---
 
 # Addendum to GPT-5 system card: GPT-5-Codex

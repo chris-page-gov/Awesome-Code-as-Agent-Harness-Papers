@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Method-Based Reasoning for Large Language Models: Extraction, Reuse, and Continuous Improvement"
+description: "Paper fragment for Method-Based Reasoning for Large Language Models: Extraction, Reuse, and Continuous Improvement, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Method-Based Reasoning for Large Language Models: Extraction, Reuse, and Continuous Improvement, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "method-based-reasoning-for-large-language-models-extraction-reuse-and-co-1e23178f"
-canonical_urls:
-  - "https://arxiv.org/abs/2508.04289"
-local_source_paths:
-  - "sources/raw/arxiv/2508.04289.pdf"
+canonical_urls: ["https://arxiv.org/abs/2508.04289"]
+local_source_paths: ["sources/raw/arxiv/2508.04289.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0367D032D8FC"
-  - "CLAIM-6B786295DFB1"
-  - "CLAIM-AE8F60897F3C"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0367D032D8FC", "CLAIM-6B786295DFB1", "CLAIM-AE8F60897F3C"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # Method-Based Reasoning for Large Language Models: Extraction, Reuse, and Continuous Improvement

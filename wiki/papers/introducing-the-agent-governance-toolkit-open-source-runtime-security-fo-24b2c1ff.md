@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "Introducing the Agent Governance Toolkit: Open-Source Runtime Security for AI Agents"
+description: "Paper fragment for Introducing the Agent Governance Toolkit: Open-Source Runtime Security for AI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Introducing the Agent Governance Toolkit: Open-Source Runtime Security for AI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "introducing-the-agent-governance-toolkit-open-source-runtime-security-fo-24b2c1ff"
-canonical_urls:
-  - "https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/"
-local_source_paths:
-  - "sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html"
+canonical_urls: ["https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/"]
+local_source_paths: ["sources/raw/html/opensource.microsoft.com/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-age-a99b8dcb.html"]
 source_status: "integrated"
 evidence_quality: "cross-agent-reviewed"
 claim_card_ids:
@@ -21,13 +26,9 @@ claim_card_ids:
   - "CLAIM-E39C31C9DBB9"
   - "CLAIM-E6C25CCB8338"
   - "CLAIM-F75DF3E0E229"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # Introducing the Agent Governance Toolkit: Open-Source Runtime Security for AI Agents

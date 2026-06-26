@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Deductive Verification via the Debug Adapter Protocol"
+description: "Paper fragment for Deductive Verification via the Debug Adapter Protocol, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Deductive Verification via the Debug Adapter Protocol, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "deductive-verification-via-the-debug-adapter-protocol-ff625d05"
-canonical_urls:
-  - "https://arxiv.org/abs/2108.02968"
-local_source_paths:
-  - "sources/raw/arxiv/2108.02968.pdf"
+canonical_urls: ["https://arxiv.org/abs/2108.02968"]
+local_source_paths: ["sources/raw/arxiv/2108.02968.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4F65727EEF53"
-  - "CLAIM-62D3310CACA2"
-  - "CLAIM-A7DD5C90C49A"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4F65727EEF53", "CLAIM-62D3310CACA2", "CLAIM-A7DD5C90C49A"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Deductive Verification via the Debug Adapter Protocol

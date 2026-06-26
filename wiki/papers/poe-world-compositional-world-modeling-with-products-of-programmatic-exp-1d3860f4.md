@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "PoE-World: Compositional World Modeling with Products of Programmatic Experts"
+description: "Paper fragment for PoE-World: Compositional World Modeling with Products of Programmatic Experts, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for PoE-World: Compositional World Modeling with Products of Programmatic Experts, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "poe-world-compositional-world-modeling-with-products-of-programmatic-exp-1d3860f4"
-canonical_urls:
-  - "https://openreview.net/forum?id=obwRcksFZw"
-local_source_paths:
-  - "sources/raw/openreview/obwRcksFZw.pdf"
+canonical_urls: ["https://openreview.net/forum?id=obwRcksFZw"]
+local_source_paths: ["sources/raw/openreview/obwRcksFZw.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7D78B3BEFC53"
-  - "CLAIM-ED391487F2E4"
-  - "CLAIM-FD8C433351AC"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Structured World Representations"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-7D78B3BEFC53", "CLAIM-ED391487F2E4", "CLAIM-FD8C433351AC"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Structured World Representations"]
 ---
 
 # PoE-World: Compositional World Modeling with Products of Programmatic Experts

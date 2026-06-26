@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SWE-bench+: Enhanced Coding Benchmark for LLMs"
+description: "Paper fragment for SWE-bench+: Enhanced Coding Benchmark for LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SWE-bench+: Enhanced Coding Benchmark for LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "swe-bench-enhanced-coding-benchmark-for-llms-f411037c"
-canonical_urls:
-  - "https://arxiv.org/abs/2410.06992"
-local_source_paths:
-  - "sources/raw/arxiv/2410.06992.pdf"
+canonical_urls: ["https://arxiv.org/abs/2410.06992"]
+local_source_paths: ["sources/raw/arxiv/2410.06992.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-605A2951CF03"
-  - "CLAIM-9A16B3A00801"
-  - "CLAIM-F8954FC7715A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Developer Intent and Project Conventions as Latent State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-605A2951CF03", "CLAIM-9A16B3A00801", "CLAIM-F8954FC7715A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Developer Intent and Project Conventions as Latent State"]
 ---
 
 # SWE-bench+: Enhanced Coding Benchmark for LLMs

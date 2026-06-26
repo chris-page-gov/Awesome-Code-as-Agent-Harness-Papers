@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming"
+description: "Paper fragment for Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "reading-between-the-lines-modeling-user-behavior-and-costs-in-ai-assiste-1f4d9998"
-canonical_urls:
-  - "https://arxiv.org/abs/2210.14306"
-local_source_paths:
-  - "sources/raw/arxiv/2210.14306.pdf"
+canonical_urls: ["https://arxiv.org/abs/2210.14306"]
+local_source_paths: ["sources/raw/arxiv/2210.14306.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-28C456F14CE5"
-  - "CLAIM-B766743EA3A5"
-  - "CLAIM-E151D0C7BAC2"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Inline Completion to Autonomous SWE Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-28C456F14CE5", "CLAIM-B766743EA3A5", "CLAIM-E151D0C7BAC2"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Inline Completion to Autonomous SWE Agents"]
 ---
 
 # Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming

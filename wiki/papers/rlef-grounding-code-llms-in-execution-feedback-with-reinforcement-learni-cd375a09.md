@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning"
+description: "Paper fragment for RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "rlef-grounding-code-llms-in-execution-feedback-with-reinforcement-learni-cd375a09"
-canonical_urls:
-  - "https://arxiv.org/abs/2410.02089"
-local_source_paths:
-  - "sources/raw/arxiv/2410.02089.pdf"
+canonical_urls: ["https://arxiv.org/abs/2410.02089"]
+local_source_paths: ["sources/raw/arxiv/2410.02089.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2A25019B6B23"
-  - "CLAIM-3C9800E333F6"
-  - "CLAIM-A89A6923A032"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2A25019B6B23", "CLAIM-3C9800E333F6", "CLAIM-A89A6923A032"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning

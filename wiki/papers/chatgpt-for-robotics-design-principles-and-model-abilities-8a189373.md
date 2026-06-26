@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ChatGPT for Robotics: Design Principles and Model Abilities"
+description: "Paper fragment for ChatGPT for Robotics: Design Principles and Model Abilities, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ChatGPT for Robotics: Design Principles and Model Abilities, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "chatgpt-for-robotics-design-principles-and-model-abilities-8a189373"
-canonical_urls:
-  - "https://arxiv.org/abs/2306.17582"
-local_source_paths:
-  - "sources/raw/arxiv/2306.17582.pdf"
+canonical_urls: ["https://arxiv.org/abs/2306.17582"]
+local_source_paths: ["sources/raw/arxiv/2306.17582.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4E59EA93AF0C"
-  - "CLAIM-83C593FC0FE8"
-  - "CLAIM-EC83F4C82275"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Autonomous Embodied Agents"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4E59EA93AF0C", "CLAIM-83C593FC0FE8", "CLAIM-EC83F4C82275"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Autonomous Embodied Agents"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions"]
 ---
 
 # ChatGPT for Robotics: Design Principles and Model Abilities

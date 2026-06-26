@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering provides lo"
+description: "SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-F0F8035CFF47"
 claim_type: "evaluation-result"
-paper_ids:
-  - "syncmind-measuring-agent-out-of-sync-recovery-in-collaborative-software-add1b25e"
+paper_ids: ["syncmind-measuring-agent-out-of-sync-recovery-in-collaborative-software-add1b25e"]
 source_ids: []
-source_refs:
-  - "sources/raw/openreview/6TDSDdgP7Z.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/openreview/6TDSDdgP7Z.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/openreview/6TDSDdgP7Z.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-F0F8035CFF47

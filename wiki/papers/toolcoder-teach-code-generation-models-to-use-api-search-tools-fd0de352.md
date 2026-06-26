@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ToolCoder: Teach Code Generation Models to use API search tools"
+description: "Paper fragment for ToolCoder: Teach Code Generation Models to use API search tools, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ToolCoder: Teach Code Generation Models to use API search tools, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "toolcoder-teach-code-generation-models-to-use-api-search-tools-fd0de352"
-canonical_urls:
-  - "https://arxiv.org/abs/2305.04032"
-local_source_paths:
-  - "sources/raw/arxiv/2305.04032.pdf"
+canonical_urls: ["https://arxiv.org/abs/2305.04032"]
+local_source_paths: ["sources/raw/arxiv/2305.04032.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0565F8263570"
-  - "CLAIM-3BE33DB13226"
-  - "CLAIM-E6C50C6707F0"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Function-Oriented Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0565F8263570", "CLAIM-3BE33DB13226", "CLAIM-E6C50C6707F0"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Function-Oriented Tool Use"]
 ---
 
 # ToolCoder: Teach Code Generation Models to use API search tools

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ContextBench: A Benchmark for Context Retrieval in Coding Agents"
+description: "Paper fragment for ContextBench: A Benchmark for Context Retrieval in Coding Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ContextBench: A Benchmark for Context Retrieval in Coding Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "contextbench-a-benchmark-for-context-retrieval-in-coding-agents-0f2f361a"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.05892"
-local_source_paths:
-  - "sources/raw/arxiv/2602.05892.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.05892"]
+local_source_paths: ["sources/raw/arxiv/2602.05892.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5337F0ACC7C8"
-  - "CLAIM-64D30324D0BB"
-  - "CLAIM-CB50EE23D64D"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Memory and Context Management at Repository Scale"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5337F0ACC7C8", "CLAIM-64D30324D0BB", "CLAIM-CB50EE23D64D"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Memory and Context Management at Repository Scale"]
 ---
 
 # ContextBench: A Benchmark for Context Retrieval in Coding Agents

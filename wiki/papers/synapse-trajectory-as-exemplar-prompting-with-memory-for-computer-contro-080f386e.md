@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control"
+description: "Paper fragment for Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "synapse-trajectory-as-exemplar-prompting-with-memory-for-computer-contro-080f386e"
-canonical_urls:
-  - "https://openreview.net/forum?id=Pc8AU1aF5e"
-local_source_paths:
-  - "sources/raw/openreview/Pc8AU1aF5e.pdf"
+canonical_urls: ["https://openreview.net/forum?id=Pc8AU1aF5e"]
+local_source_paths: ["sources/raw/openreview/Pc8AU1aF5e.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3F919ECFD587"
-  - "CLAIM-4B192569C8F4"
-  - "CLAIM-B7D45C04F9C3"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Memory as Persistent Program State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3F919ECFD587", "CLAIM-4B192569C8F4", "CLAIM-B7D45C04F9C3"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Memory as Persistent Program State"]
 ---
 
 # Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control

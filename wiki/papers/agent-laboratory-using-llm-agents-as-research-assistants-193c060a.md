@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Agent Laboratory: Using LLM Agents as Research Assistants"
+description: "Paper fragment for Agent Laboratory: Using LLM Agents as Research Assistants, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Agent Laboratory: Using LLM Agents as Research Assistants, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agent-laboratory-using-llm-agents-as-research-assistants-193c060a"
-canonical_urls:
-  - "https://aclanthology.org/2025.findings-emnlp.320/"
-local_source_paths:
-  - "sources/raw/acl/2025.findings-emnlp.320.pdf"
+canonical_urls: ["https://aclanthology.org/2025.findings-emnlp.320/"]
+local_source_paths: ["sources/raw/acl/2025.findings-emnlp.320.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-454FB9DC5B9A"
-  - "CLAIM-ABEFFD77AB3C"
-  - "CLAIM-F0E52D45ADD3"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Unifying Ideation, Experimentation, Analysis, and Communication"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-454FB9DC5B9A", "CLAIM-ABEFFD77AB3C", "CLAIM-F0E52D45ADD3"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Unifying Ideation, Experimentation, Analysis, and Communication"]
 ---
 
 # Agent Laboratory: Using LLM Agents as Research Assistants

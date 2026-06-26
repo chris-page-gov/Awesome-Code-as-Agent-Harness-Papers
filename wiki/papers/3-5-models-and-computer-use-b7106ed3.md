@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "3.5 Models and Computer Use"
+description: "Paper fragment for 3.5 Models and Computer Use, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for 3.5 Models and Computer Use, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "3-5-models-and-computer-use-b7106ed3"
-canonical_urls:
-  - "https://www.anthropic.com/news/3-5-models-and-computer-use"
-local_source_paths:
-  - "sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html"
+canonical_urls: ["https://www.anthropic.com/news/3-5-models-and-computer-use"]
+local_source_paths: ["sources/raw/html/anthropic.com/3-5-models-and-computer-use-03af6638.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5453D6344B98"
-  - "CLAIM-7E65844DC5F0"
-  - "CLAIM-9ED3193B63FA"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "From Simulation to Production: Executable Feedback Loops"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5453D6344B98", "CLAIM-7E65844DC5F0", "CLAIM-9ED3193B63FA"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["From Simulation to Production: Executable Feedback Loops"]
 ---
 
 # 3.5 Models and Computer Use

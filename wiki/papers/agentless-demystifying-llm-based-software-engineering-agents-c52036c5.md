@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "Agentless: Demystifying LLM-based Software Engineering Agents"
+description: "Paper fragment for Agentless: Demystifying LLM-based Software Engineering Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Agentless: Demystifying LLM-based Software Engineering Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agentless-demystifying-llm-based-software-engineering-agents-c52036c5"
-canonical_urls:
-  - "https://dl.acm.org/doi/abs/10.1145/3715754"
-  - "https://arxiv.org/abs/2407.01489"
-local_source_paths:
-  - "sources/raw/arxiv/2407.01489.pdf"
+canonical_urls: ["https://dl.acm.org/doi/abs/10.1145/3715754", "https://arxiv.org/abs/2407.01489"]
+local_source_paths: ["sources/raw/arxiv/2407.01489.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-08A5ABD14DE7"
-  - "CLAIM-53FE04F7DEBA"
-  - "CLAIM-9948C1589C3D"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Execution Feedback as Grounded Verification"
-  - "Working Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-08A5ABD14DE7", "CLAIM-53FE04F7DEBA", "CLAIM-9948C1589C3D"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Memory and Context Engineering"]
+survey_subsections: ["Execution Feedback as Grounded Verification", "Working Memory"]
 ---
 
 # Agentless: Demystifying LLM-based Software Engineering Agents

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ReVeal: Self-Evolving Code Agents via Reliable Self-Verification"
+description: "Paper fragment for ReVeal: Self-Evolving Code Agents via Reliable Self-Verification, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ReVeal: Self-Evolving Code Agents via Reliable Self-Verification, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "reveal-self-evolving-code-agents-via-reliable-self-verification-bde03aaa"
-canonical_urls:
-  - "https://openreview.net/forum?id=q56ZI1Co43"
-local_source_paths:
-  - "sources/raw/openreview/q56ZI1Co43.pdf"
+canonical_urls: ["https://openreview.net/forum?id=q56ZI1Co43"]
+local_source_paths: ["sources/raw/openreview/q56ZI1Co43.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-28EB6BBA1829"
-  - "CLAIM-622969DAA130"
-  - "CLAIM-8E5BDCC797E7"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-28EB6BBA1829", "CLAIM-622969DAA130", "CLAIM-8E5BDCC797E7"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # ReVeal: Self-Evolving Code Agents via Reliable Self-Verification

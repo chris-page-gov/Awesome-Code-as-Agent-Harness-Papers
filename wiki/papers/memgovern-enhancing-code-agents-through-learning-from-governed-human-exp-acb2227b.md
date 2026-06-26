@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences"
+description: "Paper fragment for MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "memgovern-enhancing-code-agents-through-learning-from-governed-human-exp-acb2227b"
-canonical_urls:
-  - "https://arxiv.org/abs/2601.06789"
-local_source_paths:
-  - "sources/raw/arxiv/2601.06789.pdf"
+canonical_urls: ["https://arxiv.org/abs/2601.06789"]
+local_source_paths: ["sources/raw/arxiv/2601.06789.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
 claim_card_ids:
@@ -21,16 +26,9 @@ claim_card_ids:
   - "CLAIM-76D57F161350"
   - "CLAIM-79589EBDD5A1"
   - "CLAIM-8736D2BDD7FD"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Experiential Memory"
-  - "Memory and Context Management at Repository Scale"
-last_reviewed: "2026-06-02"
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Memory and Context Engineering"]
+survey_subsections: ["Experiential Memory", "Memory and Context Management at Repository Scale"]
 ---
 
 # MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences

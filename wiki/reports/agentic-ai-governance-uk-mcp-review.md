@@ -1,15 +1,17 @@
 ---
+type: "report"
 title: "Agentic AI Governance UK MCP Review"
+description: "This report reviews the redistributable DOCX draft sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx against the current Code as Agent Harness wiki and paper corpus. The review is wiki-first: paper fragments,..."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["report", "governance", "mcp", "uk-government", "bibliography"]
+okf_version: "0.1"
+okfr_role: "report"
+okfr_summary: "This report reviews the redistributable DOCX draft sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx against the current Code as Agent Harness wiki and paper corpus. The review is wiki-first: paper fragments,..."
 note_type: "report"
 status: "draft"
-tags: ["report", "governance", "mcp", "uk-government", "bibliography"]
-source_ids:
-  - "SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026"
-  - "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026"
-related:
-  - "../sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md"
-  - "../reports/llm-wiki-primary-source-evaluation.md"
 last_reviewed: "2026-06-02"
+source_ids: ["SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026", "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026"]
+related: ["../sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md", "../reports/llm-wiki-primary-source-evaluation.md"]
 ---
 
 # Agentic AI Governance UK MCP Review

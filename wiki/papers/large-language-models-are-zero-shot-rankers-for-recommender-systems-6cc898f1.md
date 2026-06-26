@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Large Language Models are Zero-Shot Rankers for Recommender Systems"
+description: "Paper fragment for Large Language Models are Zero-Shot Rankers for Recommender Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Large Language Models are Zero-Shot Rankers for Recommender Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "large-language-models-are-zero-shot-rankers-for-recommender-systems-6cc898f1"
-canonical_urls:
-  - "https://arxiv.org/abs/2305.02382"
-local_source_paths:
-  - "sources/raw/arxiv/2305.02382.pdf"
+canonical_urls: ["https://arxiv.org/abs/2305.02382"]
+local_source_paths: ["sources/raw/arxiv/2305.02382.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-766C23657D70"
-  - "CLAIM-9342F6C62A5F"
-  - "CLAIM-FCFA128F1092"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "From Static Recommendation to Interactive Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-766C23657D70", "CLAIM-9342F6C62A5F", "CLAIM-FCFA128F1092"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["From Static Recommendation to Interactive Personalization"]
 ---
 
 # Large Language Models are Zero-Shot Rankers for Recommender Systems

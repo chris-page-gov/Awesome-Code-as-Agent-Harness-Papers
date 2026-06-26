@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "PaT: Planning-after-Trial for Efficient Test-Time Code Generation"
+description: "Paper fragment for PaT: Planning-after-Trial for Efficient Test-Time Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for PaT: Planning-after-Trial for Efficient Test-Time Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "pat-planning-after-trial-for-efficient-test-time-code-generation-c7001067"
-canonical_urls:
-  - "https://openreview.net/forum?id=767aZTpsIl"
-local_source_paths:
-  - "sources/raw/openreview/767aZTpsIl.pdf"
+canonical_urls: ["https://openreview.net/forum?id=767aZTpsIl"]
+local_source_paths: ["sources/raw/openreview/767aZTpsIl.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1EF810E19CE2"
-  - "CLAIM-7B9E94FFD6A0"
-  - "CLAIM-B75A956C0406"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Linear Decomposition Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1EF810E19CE2", "CLAIM-7B9E94FFD6A0", "CLAIM-B75A956C0406"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Linear Decomposition Planning"]
 ---
 
 # PaT: Planning-after-Trial for Efficient Test-Time Code Generation

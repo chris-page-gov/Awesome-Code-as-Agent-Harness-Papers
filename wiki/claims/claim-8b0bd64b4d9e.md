@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation pro"
+description: "Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation provides localized evidence about planning and workflow for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-8B0BD64B4D9E"
 claim_type: "contribution"
-paper_ids:
-  - "code-as-symbolic-planner-foundation-model-based-robot-planning-via-symbo-0ef8c8e2"
+paper_ids: ["code-as-symbolic-planner-foundation-model-based-robot-planning-via-symbo-0ef8c8e2"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2503.01700.pdf"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/arxiv/2503.01700.pdf"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/arxiv/2503.01700.pdf; extracted sentence match for planning"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-8B0BD64B4D9E

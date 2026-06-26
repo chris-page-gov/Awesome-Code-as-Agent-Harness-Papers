@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair"
+description: "Paper fragment for SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "sgagent-suggestion-guided-llm-based-multi-agent-framework-for-repository-afa4565f"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.23647"
-local_source_paths:
-  - "sources/raw/arxiv/2602.23647.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.23647"]
+local_source_paths: ["sources/raw/arxiv/2602.23647.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-8426A51AEE93"
-  - "CLAIM-AAD619FADF4E"
-  - "CLAIM-EAA2D9DBE135"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Orchestration-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-8426A51AEE93", "CLAIM-AAD619FADF4E", "CLAIM-EAA2D9DBE135"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Orchestration-Based Planning"]
 ---
 
 # SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair

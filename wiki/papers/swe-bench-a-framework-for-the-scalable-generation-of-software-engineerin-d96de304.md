@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks"
+description: "Paper fragment for SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "swe-bench-a-framework-for-the-scalable-generation-of-software-engineerin-d96de304"
-canonical_urls:
-  - "https://arxiv.org/abs/2512.17419"
-local_source_paths:
-  - "sources/raw/arxiv/2512.17419.pdf"
+canonical_urls: ["https://arxiv.org/abs/2512.17419"]
+local_source_paths: ["sources/raw/arxiv/2512.17419.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-46BC31F52E6A"
-  - "CLAIM-746BC50CEC67"
-  - "CLAIM-A7049D561B44"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-46BC31F52E6A", "CLAIM-746BC50CEC67", "CLAIM-A7049D561B44"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks

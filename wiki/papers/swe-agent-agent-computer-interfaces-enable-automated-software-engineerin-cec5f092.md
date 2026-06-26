@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering"
+description: "Paper fragment for SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "swe-agent-agent-computer-interfaces-enable-automated-software-engineerin-cec5f092"
-canonical_urls:
-  - "https://openreview.net/forum?id=mXpq6ut8J3"
-local_source_paths:
-  - "sources/raw/openreview/mXpq6ut8J3.pdf"
+canonical_urls: ["https://openreview.net/forum?id=mXpq6ut8J3"]
+local_source_paths: ["sources/raw/openreview/mXpq6ut8J3.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-A585A8E12D5C"
-  - "CLAIM-B02D11DF6F6C"
-  - "CLAIM-EBF7A19061B8"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Working Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-A585A8E12D5C", "CLAIM-B02D11DF6F6C", "CLAIM-EBF7A19061B8"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Working Memory"]
 ---
 
 # SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering

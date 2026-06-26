@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Building more with GPT-5.1-Codex-Max"
+description: "Paper fragment for Building more with GPT-5.1-Codex-Max, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Building more with GPT-5.1-Codex-Max, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "building-more-with-gpt-5-1-codex-max-4ff7e209"
-canonical_urls:
-  - "https://openai.com/index/gpt-5-1-codex-max/"
-local_source_paths:
-  - "sources/raw/html/openai.com/building-more-with-gpt-5-1-codex-max-90a3db01.html"
+canonical_urls: ["https://openai.com/index/gpt-5-1-codex-max/"]
+local_source_paths: ["sources/raw/html/openai.com/building-more-with-gpt-5-1-codex-max-90a3db01.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-6CEDCFDB1F1A"
-  - "CLAIM-9EF966A47260"
-  - "CLAIM-E6B0FA0E27DC"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "The Harness as a Distillation Surface"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-6CEDCFDB1F1A", "CLAIM-9EF966A47260", "CLAIM-E6B0FA0E27DC"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["The Harness as a Distillation Surface"]
 ---
 
 # Building more with GPT-5.1-Codex-Max

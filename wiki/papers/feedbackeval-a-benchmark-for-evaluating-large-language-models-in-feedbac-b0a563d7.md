@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks"
+description: "Paper fragment for FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "feedbackeval-a-benchmark-for-evaluating-large-language-models-in-feedbac-b0a563d7"
-canonical_urls:
-  - "https://arxiv.org/abs/2504.06939"
-local_source_paths:
-  - "sources/raw/arxiv/2504.06939.pdf"
+canonical_urls: ["https://arxiv.org/abs/2504.06939"]
+local_source_paths: ["sources/raw/arxiv/2504.06939.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-42B496C1EEEE"
-  - "CLAIM-D58C72E7CC84"
-  - "CLAIM-E7C59DAE0B99"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-42B496C1EEEE", "CLAIM-D58C72E7CC84", "CLAIM-E7C59DAE0B99"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks

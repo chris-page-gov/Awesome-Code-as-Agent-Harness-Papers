@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Aligning Agentic World Models via Knowledgeable Experience Learning"
+description: "Paper fragment for Aligning Agentic World Models via Knowledgeable Experience Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Aligning Agentic World Models via Knowledgeable Experience Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "aligning-agentic-world-models-via-knowledgeable-experience-learning-979e70cd"
-canonical_urls:
-  - "https://arxiv.org/abs/2601.13247"
-local_source_paths:
-  - "sources/raw/arxiv/2601.13247.pdf"
+canonical_urls: ["https://arxiv.org/abs/2601.13247"]
+local_source_paths: ["sources/raw/arxiv/2601.13247.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-290899AAABE4"
-  - "CLAIM-89AF513794BD"
-  - "CLAIM-C2AFF6914909"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Execution-Trace World Modeling"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-290899AAABE4", "CLAIM-89AF513794BD", "CLAIM-C2AFF6914909"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Execution-Trace World Modeling"]
 ---
 
 # Aligning Agentic World Models via Knowledgeable Experience Learning

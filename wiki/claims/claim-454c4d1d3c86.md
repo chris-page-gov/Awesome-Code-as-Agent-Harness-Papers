@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Exec"
+description: "Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution provides localized evidence about approval and human oversight for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution provides localized evidence about approval and human oversight for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-454C4D1D3C86"
 claim_type: "governance-control"
-paper_ids:
-  - "fault-tolerant-sandboxing-for-ai-coding-agents-a-transactional-approach-260e82ac"
+paper_ids: ["fault-tolerant-sandboxing-for-ai-coding-agents-a-transactional-approach-260e82ac"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2512.12806.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "procurement-and-conformance"
+source_refs: ["sources/raw/arxiv/2512.12806.pdf"]
+related_topics: ["evidence-observability-and-redress", "procurement-and-conformance"]
 evidence_locator: "sources/raw/arxiv/2512.12806.pdf; extracted sentence match for approval"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "Codex separate reviewer agent"
 confidence: 0.82
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-454C4D1D3C86

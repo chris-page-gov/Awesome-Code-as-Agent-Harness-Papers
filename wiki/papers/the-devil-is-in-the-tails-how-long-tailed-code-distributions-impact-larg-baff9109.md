@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models"
+description: "Paper fragment for The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-larg-baff9109"
-canonical_urls:
-  - "https://ieeexplore.ieee.org/document/10298393/"
-local_source_paths:
-  - "sources/raw/html/ieeexplore.ieee.org/the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-langua-d6adfd7e.html"
+canonical_urls: ["https://ieeexplore.ieee.org/document/10298393/"]
+local_source_paths: ["sources/raw/html/ieeexplore.ieee.org/the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-langua-d6adfd7e.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-148F570F1DA3"
-  - "CLAIM-C02362F064D8"
-  - "CLAIM-CB642DF3DF42"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Function-Oriented Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-148F570F1DA3", "CLAIM-C02362F064D8", "CLAIM-CB642DF3DF42"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Function-Oriented Tool Use"]
 ---
 
 # The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models

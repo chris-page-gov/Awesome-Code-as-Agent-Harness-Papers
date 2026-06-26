@@ -1,13 +1,19 @@
 ---
+type: "source"
 title: "Karpathy LLM-Wiki Pattern"
+description: "note reviewed locally on 2026-06-02."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["source", "llm-wiki", "method", "karpathy"]
+okf_version: "0.1"
+okfr_role: "source"
+okfr_summary: "note reviewed locally on 2026-06-02."
 note_type: "source"
 status: "active"
-tags: ["source", "llm-wiki", "method", "karpathy"]
+last_reviewed: "2026-06-02"
 source_id: "SOURCE-KARPATHY-LLM-WIKI-2026"
 source_type: "github-gist"
 source_path_or_url: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
 related: ["../architecture/llm-wiki-architecture.md", "../guidance/source-discipline.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Karpathy LLM-Wiki Pattern
@@ -51,4 +57,3 @@ source discipline.
 
 - Treat this as a practical operating pattern, not a bibliographic authority.
 - Paper-specific claims still require paper-specific sources.
-

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal"
+description: "Paper fragment for DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "dars-dynamic-action-re-sampling-to-enhance-coding-agent-performance-by-a-a3cc9f74"
-canonical_urls:
-  - "https://aclanthology.org/2025.acl-long.973/"
-local_source_paths:
-  - "sources/raw/acl/2025.acl-long.973.pdf"
+canonical_urls: ["https://aclanthology.org/2025.acl-long.973/"]
+local_source_paths: ["sources/raw/acl/2025.acl-long.973.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-01D0FDC95A24"
-  - "CLAIM-CC358A5A3E9B"
-  - "CLAIM-EE762E38BA15"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-01D0FDC95A24", "CLAIM-CC358A5A3E9B", "CLAIM-EE762E38BA15"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Search-Based Planning"]
 ---
 
 # DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal

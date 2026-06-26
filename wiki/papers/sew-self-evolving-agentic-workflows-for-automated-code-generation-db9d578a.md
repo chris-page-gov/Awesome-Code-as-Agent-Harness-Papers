@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "SEW: Self-evolving agentic workflows for automated code generation"
+description: "Paper fragment for SEW: Self-evolving agentic workflows for automated code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SEW: Self-evolving agentic workflows for automated code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "sew-self-evolving-agentic-workflows-for-automated-code-generation-db9d578a"
-canonical_urls:
-  - "https://arxiv.org/abs/2505.18646"
-local_source_paths:
-  - "sources/raw/arxiv/2505.18646.pdf"
+canonical_urls: ["https://arxiv.org/abs/2505.18646"]
+local_source_paths: ["sources/raw/arxiv/2505.18646.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4A9040BECAA0"
-  - "CLAIM-57BB560A8749"
-  - "CLAIM-EEA28B0BB4D6"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Interaction Modes"
-  - "Shared Harness Representation"
-  - "Workflow Topology"
-survey_subsections:
-  - "Critique and Repair"
-  - "Implicit / File-Only Representation"
-  - "Objective-Driven and Adaptive Topologies"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4A9040BECAA0", "CLAIM-57BB560A8749", "CLAIM-EEA28B0BB4D6"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Interaction Modes", "Shared Harness Representation", "Workflow Topology"]
+survey_subsections: ["Critique and Repair", "Implicit / File-Only Representation", "Objective-Driven and Adaptive Topologies"]
 ---
 
 # SEW: Self-evolving agentic workflows for automated code generation

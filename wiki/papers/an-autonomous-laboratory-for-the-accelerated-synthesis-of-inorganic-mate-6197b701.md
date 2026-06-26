@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "An autonomous laboratory for the accelerated synthesis of inorganic materials"
+description: "Paper fragment for An autonomous laboratory for the accelerated synthesis of inorganic materials, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for An autonomous laboratory for the accelerated synthesis of inorganic materials, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-mate-6197b701"
-canonical_urls:
-  - "https://www.nature.com/articles/s41586-023-06734-w"
-local_source_paths:
-  - "sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html"
+canonical_urls: ["https://www.nature.com/articles/s41586-023-06734-w"]
+local_source_paths: ["sources/raw/html/nature.com/an-autonomous-laboratory-for-the-accelerated-synthesis-of-inorganic-materials-6710c11a.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-367814FB5266"
-  - "CLAIM-5165096FB6EB"
-  - "CLAIM-CD93DA16DE44"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Self-Driving Labs as Executable Feedback Loops"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-367814FB5266", "CLAIM-5165096FB6EB", "CLAIM-CD93DA16DE44"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Self-Driving Labs as Executable Feedback Loops"]
 ---
 
 # An autonomous laboratory for the accelerated synthesis of inorganic materials

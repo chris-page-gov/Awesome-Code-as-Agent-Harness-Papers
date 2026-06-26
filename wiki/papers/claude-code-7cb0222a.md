@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Claude Code"
+description: "Paper fragment for Claude Code, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Claude Code, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "claude-code-7cb0222a"
-canonical_urls:
-  - "https://www.anthropic.com/product/claude-code"
-local_source_paths:
-  - "sources/raw/html/anthropic.com/claude-code-35a67dc8.html"
+canonical_urls: ["https://www.anthropic.com/product/claude-code"]
+local_source_paths: ["sources/raw/html/anthropic.com/claude-code-35a67dc8.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-8D12913DFCB1"
-  - "CLAIM-9AA1E835A154"
-  - "CLAIM-EE9F9CAF1F86"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-8D12913DFCB1", "CLAIM-9AA1E835A154", "CLAIM-EE9F9CAF1F86"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces"]
 ---
 
 # Claude Code

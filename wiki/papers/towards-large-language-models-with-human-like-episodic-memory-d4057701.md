@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Towards Large Language Models with Human-Like Episodic Memory"
+description: "Paper fragment for Towards Large Language Models with Human-Like Episodic Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Towards Large Language Models with Human-Like Episodic Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "towards-large-language-models-with-human-like-episodic-memory-d4057701"
-canonical_urls:
-  - "https://www.sciencedirect.com/science/article/abs/pii/S1364661325001792"
-  - "https://pubmed.ncbi.nlm.nih.gov/40713240"
-local_source_paths:
-  - "sources/raw/html/pubmed.ncbi.nlm.nih.gov/towards-large-language-models-with-human-like-episodic-memory-57d25740.html"
+canonical_urls: ["https://www.sciencedirect.com/science/article/abs/pii/S1364661325001792", "https://pubmed.ncbi.nlm.nih.gov/40713240"]
+local_source_paths: ["sources/raw/html/pubmed.ncbi.nlm.nih.gov/towards-large-language-models-with-human-like-episodic-memory-57d25740.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-8935FC0671BA"
-  - "CLAIM-B2DA06625FCD"
-  - "CLAIM-E569E0881F0F"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Experiential Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-8935FC0671BA", "CLAIM-B2DA06625FCD", "CLAIM-E569E0881F0F"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Experiential Memory"]
 ---
 
 # Towards Large Language Models with Human-Like Episodic Memory

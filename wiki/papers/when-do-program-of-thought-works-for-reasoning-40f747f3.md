@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "When Do Program-of-Thought Works for Reasoning?"
+description: "Paper fragment for When Do Program-of-Thought Works for Reasoning?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for When Do Program-of-Thought Works for Reasoning?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "when-do-program-of-thought-works-for-reasoning-40f747f3"
-canonical_urls:
-  - "https://ojs.aaai.org/index.php/AAAI/article/view/29721"
-local_source_paths:
-  - "sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html"
+canonical_urls: ["https://ojs.aaai.org/index.php/AAAI/article/view/29721"]
+local_source_paths: ["sources/raw/html/ojs.aaai.org/when-do-program-of-thought-works-for-reasoning-e94a76de.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-9E4D9F043AB6"
-  - "CLAIM-AF16EB0E1102"
-  - "CLAIM-F01E755A0C99"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-9E4D9F043AB6", "CLAIM-AF16EB0E1102", "CLAIM-F01E755A0C99"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # When Do Program-of-Thought Works for Reasoning?

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "DeepAgents"
+description: "Paper fragment for DeepAgents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for DeepAgents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "deepagents-40a2320c"
-canonical_urls:
-  - "https://github.com/langchain-ai/deepagents"
-local_source_paths:
-  - "sources/raw/html/github.com/deepagents-88a615e8.html"
+canonical_urls: ["https://github.com/langchain-ai/deepagents"]
+local_source_paths: ["sources/raw/html/github.com/deepagents-88a615e8.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-15A28EFA1C30"
-  - "CLAIM-2D4C2725948A"
-  - "CLAIM-6526BB1C6CA1"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-15A28EFA1C30", "CLAIM-2D4C2725948A", "CLAIM-6526BB1C6CA1"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces"]
 ---
 
 # DeepAgents

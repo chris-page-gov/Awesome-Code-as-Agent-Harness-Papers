@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Teaching Your Models to Understand Code via Focal Preference Alignment"
+description: "Paper fragment for Teaching Your Models to Understand Code via Focal Preference Alignment, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Teaching Your Models to Understand Code via Focal Preference Alignment, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "teaching-your-models-to-understand-code-via-focal-preference-alignment-6e13c3ba"
-canonical_urls:
-  - "https://arxiv.org/abs/2503.02783"
-local_source_paths:
-  - "sources/raw/arxiv/2503.02783.pdf"
+canonical_urls: ["https://arxiv.org/abs/2503.02783"]
+local_source_paths: ["sources/raw/arxiv/2503.02783.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-293E7D79CD5F"
-  - "CLAIM-5880BB79DF50"
-  - "CLAIM-59B56CEEAD3E"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-293E7D79CD5F", "CLAIM-5880BB79DF50", "CLAIM-59B56CEEAD3E"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Teaching Your Models to Understand Code via Focal Preference Alignment

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph"
+description: "Paper fragment for ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "toolnet-connecting-large-language-models-with-massive-tools-via-tool-gra-3ea5c7f3"
-canonical_urls:
-  - "https://arxiv.org/abs/2403.00839"
-local_source_paths:
-  - "sources/raw/arxiv/2403.00839.pdf"
+canonical_urls: ["https://arxiv.org/abs/2403.00839"]
+local_source_paths: ["sources/raw/arxiv/2403.00839.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-313CDBF79892"
-  - "CLAIM-A6AFF9BBB44D"
-  - "CLAIM-B62BB8B907B0"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Workflow-Orchestration Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-313CDBF79892", "CLAIM-A6AFF9BBB44D", "CLAIM-B62BB8B907B0"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Workflow-Orchestration Tool Use"]
 ---
 
 # ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph

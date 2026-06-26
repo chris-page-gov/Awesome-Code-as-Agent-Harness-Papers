@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "A-Mem: Agentic Memory for LLM Agents"
+description: "Paper fragment for A-Mem: Agentic Memory for LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A-Mem: Agentic Memory for LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a-mem-agentic-memory-for-llm-agents-95975c4d"
-canonical_urls:
-  - "https://arxiv.org/abs/2502.03962"
-local_source_paths:
-  - "sources/raw/arxiv/2502.03962.pdf"
+canonical_urls: ["https://arxiv.org/abs/2502.03962"]
+local_source_paths: ["sources/raw/arxiv/2502.03962.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5C18144D18C8"
-  - "CLAIM-B8FA2C5A426A"
-  - "CLAIM-C7EC2A1D01F3"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "Preference State as an Editable Artifact"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5C18144D18C8", "CLAIM-B8FA2C5A426A", "CLAIM-C7EC2A1D01F3"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["Preference State as an Editable Artifact"]
 ---
 
 # A-Mem: Agentic Memory for LLM Agents

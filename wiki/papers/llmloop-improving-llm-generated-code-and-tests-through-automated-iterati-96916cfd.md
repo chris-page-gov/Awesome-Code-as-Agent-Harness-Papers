@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops"
+description: "Paper fragment for LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "llmloop-improving-llm-generated-code-and-tests-through-automated-iterati-96916cfd"
-canonical_urls:
-  - "https://doi.org/10.1109/ICSME64153.2025.00109"
-local_source_paths:
-  - "sources/raw/html/doi.org/llmloop-improving-llm-generated-code-and-tests-through-automated-iterative-feedb-0282d1d0.html"
+canonical_urls: ["https://doi.org/10.1109/ICSME64153.2025.00109"]
+local_source_paths: ["sources/raw/html/doi.org/llmloop-improving-llm-generated-code-and-tests-through-automated-iterative-feedb-0282d1d0.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-80BA6225FB50"
-  - "CLAIM-87310330B846"
-  - "CLAIM-9FC75AF9FE83"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-80BA6225FB50", "CLAIM-87310330B846", "CLAIM-9FC75AF9FE83"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops

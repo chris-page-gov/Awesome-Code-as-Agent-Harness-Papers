@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration"
+description: "Paper fragment for MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "matpilot-an-llm-enabled-ai-materials-scientist-under-the-framework-of-hu-140d5eb3"
-canonical_urls:
-  - "https://arxiv.org/abs/2411.08063"
-local_source_paths:
-  - "sources/raw/arxiv/2411.08063.pdf"
+canonical_urls: ["https://arxiv.org/abs/2411.08063"]
+local_source_paths: ["sources/raw/arxiv/2411.08063.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5BDDDA71FD77"
-  - "CLAIM-A51ECEBECBA5"
-  - "CLAIM-FECE521FF241"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Self-Driving Labs as Executable Feedback Loops"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5BDDDA71FD77", "CLAIM-A51ECEBECBA5", "CLAIM-FECE521FF241"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Self-Driving Labs as Executable Feedback Loops"]
 ---
 
 # MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration

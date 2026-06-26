@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Planning in Natural Language Improves LLM Search for Code Generation"
+description: "Paper fragment for Planning in Natural Language Improves LLM Search for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Planning in Natural Language Improves LLM Search for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "planning-in-natural-language-improves-llm-search-for-code-generation-1db11e25"
-canonical_urls:
-  - "https://arxiv.org/abs/2409.03733"
-local_source_paths:
-  - "sources/raw/arxiv/2409.03733.pdf"
+canonical_urls: ["https://arxiv.org/abs/2409.03733"]
+local_source_paths: ["sources/raw/arxiv/2409.03733.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0473D699ABD0"
-  - "CLAIM-4F9D1C9D2190"
-  - "CLAIM-9DF6C5D3CA76"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0473D699ABD0", "CLAIM-4F9D1C9D2190", "CLAIM-9DF6C5D3CA76"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Search-Based Planning"]
 ---
 
 # Planning in Natural Language Improves LLM Search for Code Generation

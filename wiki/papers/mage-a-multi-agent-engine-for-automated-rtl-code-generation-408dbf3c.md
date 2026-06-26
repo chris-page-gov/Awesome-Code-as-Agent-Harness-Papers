@@ -1,21 +1,22 @@
 ---
+type: "paper"
 title: "MAGE: A multi-agent engine for automated RTL code generation"
+description: "Paper fragment for MAGE: A multi-agent engine for automated RTL code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MAGE: A multi-agent engine for automated RTL code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mage-a-multi-agent-engine-for-automated-rtl-code-generation-408dbf3c"
-canonical_urls:
-  - "https://arxiv.org/abs/2412.07822"
-local_source_paths:
-  - "sources/raw/arxiv/2412.07822.pdf"
+canonical_urls: ["https://arxiv.org/abs/2412.07822"]
+local_source_paths: ["sources/raw/arxiv/2412.07822.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3BFA713989D2"
-  - "CLAIM-7223088AB188"
-  - "CLAIM-82FA6F544FE6"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
+claim_card_ids: ["CLAIM-3BFA713989D2", "CLAIM-7223088AB188", "CLAIM-82FA6F544FE6"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
 survey_sections:
   - "Execution Feedback Integration"
   - "Functional Role Specialization"
@@ -31,7 +32,6 @@ survey_subsections:
   - "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)"
   - "Program Synthesis Agents"
   - "Score-Based Convergence"
-last_reviewed: "2026-06-02"
 ---
 
 # MAGE: A multi-agent engine for automated RTL code generation

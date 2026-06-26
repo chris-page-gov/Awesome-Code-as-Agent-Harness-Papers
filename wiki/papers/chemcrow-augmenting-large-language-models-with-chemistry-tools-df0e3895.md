@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ChemCrow: Augmenting large-language models with chemistry tools"
+description: "Paper fragment for ChemCrow: Augmenting large-language models with chemistry tools, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ChemCrow: Augmenting large-language models with chemistry tools, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "chemcrow-augmenting-large-language-models-with-chemistry-tools-df0e3895"
-canonical_urls:
-  - "https://www.nature.com/articles/s42256-024-00832-8"
-local_source_paths:
-  - "sources/raw/html/nature.com/chemcrow-augmenting-large-language-models-with-chemistry-tools-2380157f.html"
+canonical_urls: ["https://www.nature.com/articles/s42256-024-00832-8"]
+local_source_paths: ["sources/raw/html/nature.com/chemcrow-augmenting-large-language-models-with-chemistry-tools-2380157f.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-73E7FC4B93DA"
-  - "CLAIM-FA805B452A80"
-  - "CLAIM-FF2B820ECFEE"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Scientific Discovery as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-73E7FC4B93DA", "CLAIM-FA805B452A80", "CLAIM-FF2B820ECFEE"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Scientific Discovery as a Partially Observable Program World"]
 ---
 
 # ChemCrow: Augmenting large-language models with chemistry tools

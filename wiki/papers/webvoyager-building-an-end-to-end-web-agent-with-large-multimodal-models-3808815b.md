@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models"
+description: "Paper fragment for WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "webvoyager-building-an-end-to-end-web-agent-with-large-multimodal-models-3808815b"
-canonical_urls:
-  - "https://aclanthology.org/2024.acl-long.371/"
-local_source_paths:
-  - "sources/raw/acl/2024.acl-long.371.pdf"
+canonical_urls: ["https://aclanthology.org/2024.acl-long.371/"]
+local_source_paths: ["sources/raw/acl/2024.acl-long.371.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-36C57327D111"
-  - "CLAIM-4D84D3371D09"
-  - "CLAIM-DA18347AC748"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-36C57327D111", "CLAIM-4D84D3371D09", "CLAIM-DA18347AC748"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models

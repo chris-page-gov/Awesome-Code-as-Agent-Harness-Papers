@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance"
+description: "Paper fragment for RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "rgd-multi-llm-based-agent-debugger-via-refinement-and-generation-guidanc-1085bd43"
-canonical_urls:
-  - "https://doi.org/10.1109/ICA63002.2024.00037"
-local_source_paths:
-  - "sources/raw/html/doi.org/rgd-multi-llm-based-agent-debugger-via-refinement-and-generation-guidance-037ffd76.html"
+canonical_urls: ["https://doi.org/10.1109/ICA63002.2024.00037"]
+local_source_paths: ["sources/raw/html/doi.org/rgd-multi-llm-based-agent-debugger-via-refinement-and-generation-guidance-037ffd76.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-10B42EDC3630"
-  - "CLAIM-95D87F070233"
-  - "CLAIM-DC6274D731D4"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-10B42EDC3630", "CLAIM-95D87F070233", "CLAIM-DC6274D731D4"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance

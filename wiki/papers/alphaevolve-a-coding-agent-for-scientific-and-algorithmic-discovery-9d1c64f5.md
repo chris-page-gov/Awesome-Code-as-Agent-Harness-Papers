@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AlphaEvolve: A coding agent for scientific and algorithmic discovery"
+description: "Paper fragment for AlphaEvolve: A coding agent for scientific and algorithmic discovery, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AlphaEvolve: A coding agent for scientific and algorithmic discovery, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "alphaevolve-a-coding-agent-for-scientific-and-algorithmic-discovery-9d1c64f5"
-canonical_urls:
-  - "https://arxiv.org/abs/2506.13131"
-local_source_paths:
-  - "sources/raw/arxiv/2506.13131.pdf"
+canonical_urls: ["https://arxiv.org/abs/2506.13131"]
+local_source_paths: ["sources/raw/arxiv/2506.13131.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5B3E350E3901"
-  - "CLAIM-62DE7197E445"
-  - "CLAIM-6B86BF330822"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Simulators as Executable Dynamics"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5B3E350E3901", "CLAIM-62DE7197E445", "CLAIM-6B86BF330822"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Simulators as Executable Dynamics"]
 ---
 
 # AlphaEvolve: A coding agent for scientific and algorithmic discovery

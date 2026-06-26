@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SFS: Smarter Code Space Search Improves LLM Inference Scaling"
+description: "Paper fragment for SFS: Smarter Code Space Search Improves LLM Inference Scaling, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SFS: Smarter Code Space Search Improves LLM Inference Scaling, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "sfs-smarter-code-space-search-improves-llm-inference-scaling-6098e9dd"
-canonical_urls:
-  - "https://openreview.net/forum?id=MCHuGOkExF"
-local_source_paths:
-  - "sources/raw/html/openreview.net/sfs-smarter-code-space-search-improves-llm-inference-scaling-253bea75.html"
+canonical_urls: ["https://openreview.net/forum?id=MCHuGOkExF"]
+local_source_paths: ["sources/raw/html/openreview.net/sfs-smarter-code-space-search-improves-llm-inference-scaling-253bea75.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-02F0C3962A20"
-  - "CLAIM-8FD86AAF018D"
-  - "CLAIM-FECB706DC148"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-02F0C3962A20", "CLAIM-8FD86AAF018D", "CLAIM-FECB706DC148"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Search-Based Planning"]
 ---
 
 # SFS: Smarter Code Space Search Improves LLM Inference Scaling

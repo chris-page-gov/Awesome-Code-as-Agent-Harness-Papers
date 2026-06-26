@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation"
+description: "Paper fragment for RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "rethinkmcts-refining-erroneous-thoughts-in-monte-carlo-tree-search-for-c-590517d9"
-canonical_urls:
-  - "https://aclanthology.org/2025.emnlp-main.410/"
-local_source_paths:
-  - "sources/raw/acl/2025.emnlp-main.410.pdf"
+canonical_urls: ["https://aclanthology.org/2025.emnlp-main.410/"]
+local_source_paths: ["sources/raw/acl/2025.emnlp-main.410.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2684EAF5016A"
-  - "CLAIM-AD529824B64D"
-  - "CLAIM-BA7A01C32083"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2684EAF5016A", "CLAIM-AD529824B64D", "CLAIM-BA7A01C32083"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Search-Based Planning"]
 ---
 
 # RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation

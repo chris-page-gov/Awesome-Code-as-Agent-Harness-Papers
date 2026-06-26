@@ -38,6 +38,8 @@ All notable changes to this fork are recorded here.
 - Added the OKF Reader / SeeLinks OKFR rollout plan covering OKF compliance,
   generated OKFR data packages, static publication, SeeLinks reader reuse, and
   JIT training/specification assets.
+- Added OKF validation, graph-building, and deterministic frontmatter
+  normalization tools for the `OKF v0.1 + OKFR extensions` profile.
 
 ### Changed
 
@@ -54,6 +56,9 @@ All notable changes to this fork are recorded here.
 - Updated repository operating guidance to treat `OKF v0.1 + OKFR extensions`,
   generated reader artifacts, and static publication output as part of the
   documentation lockstep workflow.
+- Normalized wiki Markdown frontmatter across the corpus so pages expose
+  `type`, `title`, `description`, `timestamp`, and OKFR reader metadata.
+- Extended normal wiki validation to include OKF profile checks.
 
 ### Removed
 

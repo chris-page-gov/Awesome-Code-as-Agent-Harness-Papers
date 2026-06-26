@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Reinforcement World Model Learning for LLM-based Agents"
+description: "Paper fragment for Reinforcement World Model Learning for LLM-based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Reinforcement World Model Learning for LLM-based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "reinforcement-world-model-learning-for-llm-based-agents-b569b4d7"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.05842"
-local_source_paths:
-  - "sources/raw/arxiv/2602.05842.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.05842"]
+local_source_paths: ["sources/raw/arxiv/2602.05842.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1CCAFB27F80A"
-  - "CLAIM-AF0B5E2E7245"
-  - "CLAIM-CA379FFB30A7"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Execution-Trace World Modeling"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1CCAFB27F80A", "CLAIM-AF0B5E2E7245", "CLAIM-CA379FFB30A7"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Execution-Trace World Modeling"]
 ---
 
 # Reinforcement World Model Learning for LLM-based Agents

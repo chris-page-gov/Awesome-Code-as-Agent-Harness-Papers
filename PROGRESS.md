@@ -27,9 +27,10 @@ Last updated: 2026-06-26
   bibliography export, and a reusable wiki evaluation suite.
 - [x] Evaluated Claim Card/evidence-packet synergy with Assertion SeeLinks and
   generated a SeeLinks `seelinks-assertions` demo pack for human review.
-- [ ] Implement OKF Reader / SeeLinks OKFR publication and reader support from
+- [x] Added the OKF Reader / SeeLinks OKFR rollout plan from
   [plans/2026-06-26-okfr-reader-and-okf-compliance.md](plans/2026-06-26-okfr-reader-and-okf-compliance.md).
-- [ ] Normalize wiki Markdown to `OKF v0.1 + OKFR extensions`.
+- [x] Added OKF validation, graph, and frontmatter-normalization tooling.
+- [x] Normalize wiki Markdown to `OKF v0.1 + OKFR extensions`.
 - [ ] Export a generated OKFR SeeLinks pack under `exports/okfr/`.
 - [ ] Build a generated `_site/` static publication and GitHub Pages workflow.
 - [ ] Add JIT training/specification pages and screenshots for OKFR review.
@@ -53,8 +54,8 @@ Last updated: 2026-06-26
 
 ## Active Checkpoints
 
-- Plan and lockstep docs: in progress.
-- OKF profile, validation, graph, and normalization tools: pending.
+- Plan and lockstep docs: complete.
+- OKF profile, validation, graph, and normalization tools: complete.
 - OKFR pack export and generated data: pending.
 - Static publication and Pages workflow: pending.
 - JIT training/specification screenshots: pending.

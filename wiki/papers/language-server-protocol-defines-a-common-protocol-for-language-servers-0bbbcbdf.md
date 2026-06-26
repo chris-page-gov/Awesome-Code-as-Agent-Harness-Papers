@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Language Server Protocol: Defines a Common Protocol for Language Servers"
+description: "Paper fragment for Language Server Protocol: Defines a Common Protocol for Language Servers, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Language Server Protocol: Defines a Common Protocol for Language Servers, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "language-server-protocol-defines-a-common-protocol-for-language-servers-0bbbcbdf"
-canonical_urls:
-  - "https://github.com/Microsoft/language-server-protocol"
-local_source_paths:
-  - "sources/raw/html/github.com/language-server-protocol-defines-a-common-protocol-for-language-servers-194fc4d6.html"
+canonical_urls: ["https://github.com/Microsoft/language-server-protocol"]
+local_source_paths: ["sources/raw/html/github.com/language-server-protocol-defines-a-common-protocol-for-language-servers-194fc4d6.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2908E68A8A10"
-  - "CLAIM-5536A13827D7"
-  - "CLAIM-69F926E2A459"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2908E68A8A10", "CLAIM-5536A13827D7", "CLAIM-69F926E2A459"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Language Server Protocol: Defines a Common Protocol for Language Servers

@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partia"
+description: "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL provides localized evidence about gateway and routing for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL provides localized evidence about gateway and routing for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-A7A0AF98DA9A"
 claim_type: "governance-control"
-paper_ids:
-  - "gui-libra-training-native-gui-agents-to-reason-and-act-with-action-aware-03f1c459"
+paper_ids: ["gui-libra-training-native-gui-agents-to-reason-and-act-with-action-aware-03f1c459"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2602.22190.pdf"
-related_topics:
-  - "mcp-governance"
-  - "procurement-and-conformance"
+source_refs: ["sources/raw/arxiv/2602.22190.pdf"]
+related_topics: ["mcp-governance", "procurement-and-conformance"]
 evidence_locator: "sources/raw/arxiv/2602.22190.pdf; extracted sentence match for gateway"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-A7A0AF98DA9A

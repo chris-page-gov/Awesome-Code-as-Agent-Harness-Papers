@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Self-planning Code Generation with Large Language Models"
+description: "Paper fragment for Self-planning Code Generation with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Self-planning Code Generation with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "self-planning-code-generation-with-large-language-models-a101bcd0"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3672456"
-  - "https://arxiv.org/pdf/2303.06689"
-local_source_paths:
-  - "sources/raw/arxiv/2303.06689.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3672456", "https://arxiv.org/pdf/2303.06689"]
+local_source_paths: ["sources/raw/arxiv/2303.06689.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2129C93992DC"
-  - "CLAIM-36DA9A301B74"
-  - "CLAIM-DA325616C13C"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Linear Decomposition Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2129C93992DC", "CLAIM-36DA9A301B74", "CLAIM-DA325616C13C"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Linear Decomposition Planning"]
 ---
 
 # Self-planning Code Generation with Large Language Models

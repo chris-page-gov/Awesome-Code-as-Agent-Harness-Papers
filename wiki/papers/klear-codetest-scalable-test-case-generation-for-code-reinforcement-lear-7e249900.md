@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning"
+description: "Paper fragment for Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "klear-codetest-scalable-test-case-generation-for-code-reinforcement-lear-7e249900"
-canonical_urls:
-  - "https://arxiv.org/abs/2508.05710"
-local_source_paths:
-  - "sources/raw/arxiv/2508.05710.pdf"
+canonical_urls: ["https://arxiv.org/abs/2508.05710"]
+local_source_paths: ["sources/raw/arxiv/2508.05710.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1883A57B0E93"
-  - "CLAIM-32725D3691B9"
-  - "CLAIM-88184EA5A816"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1883A57B0E93", "CLAIM-32725D3691B9", "CLAIM-88184EA5A816"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Klear-CodeTest: Scalable Test Case Generation for Code Reinforcement Learning

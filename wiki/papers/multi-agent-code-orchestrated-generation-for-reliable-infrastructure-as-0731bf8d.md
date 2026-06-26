@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code"
+description: "Paper fragment for Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "multi-agent-code-orchestrated-generation-for-reliable-infrastructure-as-0731bf8d"
-canonical_urls:
-  - "https://arxiv.org/abs/2510.03902"
-local_source_paths:
-  - "sources/raw/arxiv/2510.03902.pdf"
+canonical_urls: ["https://arxiv.org/abs/2510.03902"]
+local_source_paths: ["sources/raw/arxiv/2510.03902.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-42C2BFA6102B"
-  - "CLAIM-7F44D6F62E82"
-  - "CLAIM-EF580666CC19"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Orchestration-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-42C2BFA6102B", "CLAIM-7F44D6F62E82", "CLAIM-EF580666CC19"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Orchestration-Based Planning"]
 ---
 
 # Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code

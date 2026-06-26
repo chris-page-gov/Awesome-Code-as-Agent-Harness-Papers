@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "Model Context Protocol"
+description: "Paper fragment for Model Context Protocol, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Model Context Protocol, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "model-context-protocol-5929925a"
-canonical_urls:
-  - "https://docs.anthropic.com/en/docs/agents-and-tools/mcp"
-local_source_paths:
-  - "sources/raw/html/docs.anthropic.com/model-context-protocol-f0665f2b.html"
+canonical_urls: ["https://docs.anthropic.com/en/docs/agents-and-tools/mcp"]
+local_source_paths: ["sources/raw/html/docs.anthropic.com/model-context-protocol-f0665f2b.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
 claim_card_ids:
@@ -21,13 +26,9 @@ claim_card_ids:
   - "CLAIM-DB867EA36653"
   - "CLAIM-DCF8C6B51172"
   - "CLAIM-F19E54B04CBE"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-last_reviewed: "2026-06-02"
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces"]
 ---
 
 # Model Context Protocol

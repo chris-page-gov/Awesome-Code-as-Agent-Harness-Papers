@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning"
+description: "Paper fragment for Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "gemini-robotics-1-5-pushing-the-frontier-of-generalist-robots-with-advan-3de8b222"
-canonical_urls:
-  - "https://arxiv.org/abs/2510.03342"
-local_source_paths:
-  - "sources/raw/arxiv/2510.03342.pdf"
+canonical_urls: ["https://arxiv.org/abs/2510.03342"]
+local_source_paths: ["sources/raw/arxiv/2510.03342.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3A5812567968"
-  - "CLAIM-88C8A6DA5DB1"
-  - "CLAIM-A1E389B39A75"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Autonomous Embodied Agents"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3A5812567968", "CLAIM-88C8A6DA5DB1", "CLAIM-A1E389B39A75"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Autonomous Embodied Agents"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions"]
 ---
 
 # Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning

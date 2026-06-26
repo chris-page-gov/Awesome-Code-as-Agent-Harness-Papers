@@ -1,11 +1,17 @@
 ---
+type: "guidance"
 title: "LLM-Wiki Ingest Workflow"
+description: "1. Parse README rows into title, canonical URL, venue, layer, section, and subsection metadata. 2. Create or update wiki/data/paper-register.json. 3. Create or update one wiki/papers/ fragment per canonical paper or external reference. 4..."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["ingest", "source-notes", "paper-fragments", "llm-wiki"]
+okf_version: "0.1"
+okfr_role: "guidance"
+okfr_summary: "1. Parse README rows into title, canonical URL, venue, layer, section, and subsection metadata. 2. Create or update wiki/data/paper-register.json. 3. Create or update one wiki/papers/ fragment per canonical paper or external reference. 4..."
 note_type: "guidance"
 status: "active"
-tags: ["ingest", "source-notes", "paper-fragments", "llm-wiki"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-KARPATHY-LLM-WIKI-2026"]
 related: ["source-discipline.md", "../templates/source-note.md", "../templates/paper-fragment.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # LLM-Wiki Ingest Workflow

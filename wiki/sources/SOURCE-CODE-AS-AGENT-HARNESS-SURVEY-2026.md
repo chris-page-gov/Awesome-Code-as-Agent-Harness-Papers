@@ -1,13 +1,19 @@
 ---
+type: "source"
 title: "Code as Agent Harness Survey"
+description: "not committed by default)"
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["source", "survey", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "source"
+okfr_summary: "not committed by default)"
 note_type: "source"
 status: "localized"
-tags: ["source", "survey", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 source_id: "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026"
 source_type: "arxiv-paper"
 source_path_or_url: "sources/raw/arxiv/2605.18747.pdf"
 related: ["../topics/code-as-agent-harness.md", "../maps/taxonomy-map.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Code as Agent Harness Survey

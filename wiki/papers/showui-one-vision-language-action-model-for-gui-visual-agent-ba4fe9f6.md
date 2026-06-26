@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ShowUI: One Vision-Language-Action Model for GUI Visual Agent"
+description: "Paper fragment for ShowUI: One Vision-Language-Action Model for GUI Visual Agent, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ShowUI: One Vision-Language-Action Model for GUI Visual Agent, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "showui-one-vision-language-action-model-for-gui-visual-agent-ba4fe9f6"
-canonical_urls:
-  - "https://arxiv.org/abs/2411.17465"
-local_source_paths:
-  - "sources/raw/arxiv/2411.17465.pdf"
+canonical_urls: ["https://arxiv.org/abs/2411.17465"]
+local_source_paths: ["sources/raw/arxiv/2411.17465.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-26A63AD91908"
-  - "CLAIM-8BF514327D2B"
-  - "CLAIM-FA16E73DD1FD"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-26A63AD91908", "CLAIM-8BF514327D2B", "CLAIM-FA16E73DD1FD"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # ShowUI: One Vision-Language-Action Model for GUI Visual Agent

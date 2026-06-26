@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis"
+description: "Paper fragment for RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "robocodex-multimodal-code-generation-for-robotic-behavior-synthesis-7e8876fb"
-canonical_urls:
-  - "https://arxiv.org/abs/2402.16117"
-local_source_paths:
-  - "sources/raw/arxiv/2402.16117.pdf"
+canonical_urls: ["https://arxiv.org/abs/2402.16117"]
+local_source_paths: ["sources/raw/arxiv/2402.16117.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1F3DB1CAE285"
-  - "CLAIM-30874ADDF4B2"
-  - "CLAIM-4721A98B0C5A"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-  - "Programmatic Policy Generation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1F3DB1CAE285", "CLAIM-30874ADDF4B2", "CLAIM-4721A98B0C5A"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions", "Programmatic Policy Generation"]
 ---
 
 # RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis

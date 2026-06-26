@@ -1,11 +1,17 @@
 ---
+type: "architecture"
 title: "LLM-Wiki Architecture"
+description: "flowchart TD README[\"README.md awesome-list inventory\"] --> Register[\"wiki/data/paper-register.json\"] Register --> Papers[\"wiki/papers/ paper fragments\"] Sources[\"sources/raw/ localized source files\"] --> Papers SourceNotes[\"wik..."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["architecture", "llm-wiki", "source-localization"]
+okf_version: "0.1"
+okfr_role: "page"
+okfr_summary: "flowchart TD README[\"README.md awesome-list inventory\"] --> Register[\"wiki/data/paper-register.json\"] Register --> Papers[\"wiki/papers/ paper fragments\"] Sources[\"sources/raw/ localized source files\"] --> Papers SourceNotes[\"wiki/sources..."
 note_type: "architecture"
 status: "active"
-tags: ["architecture", "llm-wiki", "source-localization"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-KARPATHY-LLM-WIKI-2026", "SOURCE-README-ORIGINAL-2026-06-02"]
 related: ["../index.md", "../guidance/source-discipline.md", "../guidance/ingest-workflow.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # LLM-Wiki Architecture

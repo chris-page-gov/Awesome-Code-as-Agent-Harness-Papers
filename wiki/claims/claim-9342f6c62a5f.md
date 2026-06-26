@@ -1,18 +1,21 @@
 ---
-title: "Large Language Models are Zero-Shot Rankers for Recommender Systems provides localized evidence "
+type: "claim-card"
+title: "Large Language Models are Zero-Shot Rankers for Recommender Systems provides localized evidence"
+description: "Large Language Models are Zero-Shot Rankers for Recommender Systems provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Large Language Models are Zero-Shot Rankers for Recommender Systems provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-9342F6C62A5F"
 claim_type: "evaluation-result"
-paper_ids:
-  - "large-language-models-are-zero-shot-rankers-for-recommender-systems-6cc898f1"
+paper_ids: ["large-language-models-are-zero-shot-rankers-for-recommender-systems-6cc898f1"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2305.02382.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2305.02382.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2305.02382.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-9342F6C62A5F

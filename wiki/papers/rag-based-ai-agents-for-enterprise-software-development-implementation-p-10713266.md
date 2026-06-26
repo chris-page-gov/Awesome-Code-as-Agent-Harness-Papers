@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "RAG-Based AI Agents for Enterprise Software Development: Implementation Patterns and Production Deployment"
+description: "Paper fragment for RAG-Based AI Agents for Enterprise Software Development: Implementation Patterns and Production Deployment, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RAG-Based AI Agents for Enterprise Software Development: Implementation Patterns and Production Deployment, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "rag-based-ai-agents-for-enterprise-software-development-implementation-p-10713266"
-canonical_urls:
-  - "https://www.researchgate.net/publication/399509219_RAG-Based_AI_Agents_for_Enterprise_Software_Development_Implementation_Patterns_and_Production_Deployment"
-local_source_paths:
-  - "sources/raw/html/researchgate.net/rag-based-ai-agents-for-enterprise-software-development-implementation-patterns-802f9d12.html"
+canonical_urls: ["https://www.researchgate.net/publication/399509219_RAG-Based_AI_Agents_for_Enterprise_Software_Development_Implementation_Patterns_and_Production_Deployment"]
+local_source_paths: ["sources/raw/html/researchgate.net/rag-based-ai-agents-for-enterprise-software-development-implementation-patterns-802f9d12.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-08DCDB588638"
-  - "CLAIM-79236E58B527"
-  - "CLAIM-C9AC2FB2AC2D"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Function-Oriented Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-08DCDB588638", "CLAIM-79236E58B527", "CLAIM-C9AC2FB2AC2D"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Function-Oriented Tool Use"]
 ---
 
 # RAG-Based AI Agents for Enterprise Software Development: Implementation Patterns and Production Deployment

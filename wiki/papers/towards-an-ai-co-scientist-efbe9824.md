@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Towards an AI co-scientist"
+description: "Paper fragment for Towards an AI co-scientist, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Towards an AI co-scientist, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "towards-an-ai-co-scientist-efbe9824"
-canonical_urls:
-  - "https://arxiv.org/abs/2502.18864"
-local_source_paths:
-  - "sources/raw/arxiv/2502.18864.pdf"
+canonical_urls: ["https://arxiv.org/abs/2502.18864"]
+local_source_paths: ["sources/raw/arxiv/2502.18864.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-400C84AB0D0A"
-  - "CLAIM-9E269849672D"
-  - "CLAIM-DC9A3BCA8EF8"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Memory as Persistent Program State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-400C84AB0D0A", "CLAIM-9E269849672D", "CLAIM-DC9A3BCA8EF8"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Memory as Persistent Program State"]
 ---
 
 # Towards an AI co-scientist

@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation"
+description: "Paper fragment for RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "repocoder-repository-level-code-completion-through-iterative-retrieval-a-ec3dd909"
-canonical_urls:
-  - "https://aclanthology.org/2023.emnlp-main.151/"
-local_source_paths:
-  - "sources/raw/acl/2023.emnlp-main.151.pdf"
+canonical_urls: ["https://aclanthology.org/2023.emnlp-main.151/"]
+local_source_paths: ["sources/raw/acl/2023.emnlp-main.151.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4B49D2371BC0"
-  - "CLAIM-7ED4B51ACC64"
-  - "CLAIM-A741DAF2B416"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Semantic Memory"
-  - "The Repository as a Persistent Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4B49D2371BC0", "CLAIM-7ED4B51ACC64", "CLAIM-A741DAF2B416"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Memory and Context Engineering"]
+survey_subsections: ["Semantic Memory", "The Repository as a Persistent Program World"]
 ---
 
 # RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation

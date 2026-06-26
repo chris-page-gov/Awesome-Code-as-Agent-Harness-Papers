@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Requirements Development and Formalization for Reliable Code Generation: A Multi-Agent Vision"
+description: "Paper fragment for Requirements Development and Formalization for Reliable Code Generation: A Multi-Agent Vision, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Requirements Development and Formalization for Reliable Code Generation: A Multi-Agent Vision, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "requirements-development-and-formalization-for-reliable-code-generation-21117dfd"
-canonical_urls:
-  - "https://arxiv.org/abs/2508.18675"
-local_source_paths:
-  - "sources/raw/arxiv/2508.18675.pdf"
+canonical_urls: ["https://arxiv.org/abs/2508.18675"]
+local_source_paths: ["sources/raw/arxiv/2508.18675.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7E50194877FA"
-  - "CLAIM-D562BC1233F0"
-  - "CLAIM-EFD80258B343"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Orchestration-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-7E50194877FA", "CLAIM-D562BC1233F0", "CLAIM-EFD80258B343"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Orchestration-Based Planning"]
 ---
 
 # Requirements Development and Formalization for Reliable Code Generation: A Multi-Agent Vision

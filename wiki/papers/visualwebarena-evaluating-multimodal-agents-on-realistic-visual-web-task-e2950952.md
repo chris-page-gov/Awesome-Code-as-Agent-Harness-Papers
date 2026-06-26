@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+description: "Paper fragment for VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "visualwebarena-evaluating-multimodal-agents-on-realistic-visual-web-task-e2950952"
-canonical_urls:
-  - "https://aclanthology.org/2024.acl-long.50/"
-local_source_paths:
-  - "sources/raw/acl/2024.acl-long.50.pdf"
+canonical_urls: ["https://aclanthology.org/2024.acl-long.50/"]
+local_source_paths: ["sources/raw/acl/2024.acl-long.50.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-29BACE361BBD"
-  - "CLAIM-EFCCC037F76D"
-  - "CLAIM-FCFC76D07E45"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "UI Simulators and Sandboxes as Executable Dynamics"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-29BACE361BBD", "CLAIM-EFCCC037F76D", "CLAIM-FCFC76D07E45"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["UI Simulators and Sandboxes as Executable Dynamics"]
 ---
 
 # VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks

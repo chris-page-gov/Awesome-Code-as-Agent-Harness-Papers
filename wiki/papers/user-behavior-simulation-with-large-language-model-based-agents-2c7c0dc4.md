@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "User Behavior Simulation with Large Language Model-Based Agents"
+description: "Paper fragment for User Behavior Simulation with Large Language Model-Based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for User Behavior Simulation with Large Language Model-Based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "user-behavior-simulation-with-large-language-model-based-agents-2c7c0dc4"
-canonical_urls:
-  - "https://arxiv.org/abs/2306.02552"
-local_source_paths:
-  - "sources/raw/arxiv/2306.02552.pdf"
+canonical_urls: ["https://arxiv.org/abs/2306.02552"]
+local_source_paths: ["sources/raw/arxiv/2306.02552.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2F465E6BA6DB"
-  - "CLAIM-CF92CA76ACF4"
-  - "CLAIM-E3B4207B788A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "Feedback as Policy Adaptation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2F465E6BA6DB", "CLAIM-CF92CA76ACF4", "CLAIM-E3B4207B788A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["Feedback as Policy Adaptation"]
 ---
 
 # User Behavior Simulation with Large Language Model-Based Agents

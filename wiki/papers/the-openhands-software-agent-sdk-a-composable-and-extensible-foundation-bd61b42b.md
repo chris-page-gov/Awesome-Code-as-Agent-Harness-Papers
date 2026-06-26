@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents"
+description: "Paper fragment for The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "the-openhands-software-agent-sdk-a-composable-and-extensible-foundation-bd61b42b"
-canonical_urls:
-  - "https://arxiv.org/abs/2511.03690"
-local_source_paths:
-  - "sources/raw/arxiv/2511.03690.pdf"
+canonical_urls: ["https://arxiv.org/abs/2511.03690"]
+local_source_paths: ["sources/raw/arxiv/2511.03690.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1B7DE09CB23E"
-  - "CLAIM-29BE46ADB9C9"
-  - "CLAIM-6CC1FA239626"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1B7DE09CB23E", "CLAIM-29BE46ADB9C9", "CLAIM-6CC1FA239626"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces"]
 ---
 
 # The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents

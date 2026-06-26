@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?"
+description: "Paper fragment for AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agentracer-who-is-inducing-failure-in-the-llm-agentic-systems-e747c976"
-canonical_urls:
-  - "https://arxiv.org/abs/2509.03312"
-local_source_paths:
-  - "sources/raw/arxiv/2509.03312.pdf"
+canonical_urls: ["https://arxiv.org/abs/2509.03312"]
+local_source_paths: ["sources/raw/arxiv/2509.03312.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-63ECECCDBA33"
-  - "CLAIM-C3796615ED41"
-  - "CLAIM-CC3984E25AE8"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-63ECECCDBA33", "CLAIM-C3796615ED41", "CLAIM-CC3984E25AE8"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?

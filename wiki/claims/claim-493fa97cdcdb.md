@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "AdaCoder: Adaptive Prompt Compression for Programmatic Visual Question Answering provides locali"
+description: "AdaCoder: Adaptive Prompt Compression for Programmatic Visual Question Answering provides localized evidence about approval and human oversight for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "AdaCoder: Adaptive Prompt Compression for Programmatic Visual Question Answering provides localized evidence about approval and human oversight for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-493FA97CDCDB"
 claim_type: "governance-control"
-paper_ids:
-  - "adacoder-adaptive-prompt-compression-for-programmatic-visual-question-an-f92d8a3f"
+paper_ids: ["adacoder-adaptive-prompt-compression-for-programmatic-visual-question-an-f92d8a3f"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2407.19410.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "procurement-and-conformance"
+source_refs: ["sources/raw/arxiv/2407.19410.pdf"]
+related_topics: ["evidence-observability-and-redress", "procurement-and-conformance"]
 evidence_locator: "sources/raw/arxiv/2407.19410.pdf; extracted sentence match for approval"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-493FA97CDCDB

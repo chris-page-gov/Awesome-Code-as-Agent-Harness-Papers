@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering"
+description: "Paper fragment for MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mle-bench-evaluating-machine-learning-agents-on-machine-learning-enginee-94e42fb8"
-canonical_urls:
-  - "https://arxiv.org/abs/2410.07095"
-local_source_paths:
-  - "sources/raw/arxiv/2410.07095.pdf"
+canonical_urls: ["https://arxiv.org/abs/2410.07095"]
+local_source_paths: ["sources/raw/arxiv/2410.07095.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-20C3BEA3D27A"
-  - "CLAIM-3C5C55342098"
-  - "CLAIM-5B4B8F1B55AE"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Toward Agentic and Instruction-Following Science"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-20C3BEA3D27A", "CLAIM-3C5C55342098", "CLAIM-5B4B8F1B55AE"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Toward Agentic and Instruction-Following Science"]
 ---
 
 # MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering

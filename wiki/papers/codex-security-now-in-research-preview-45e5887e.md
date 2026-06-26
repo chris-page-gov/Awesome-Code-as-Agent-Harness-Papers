@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Codex Security: Now in Research Preview"
+description: "Paper fragment for Codex Security: Now in Research Preview, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Codex Security: Now in Research Preview, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codex-security-now-in-research-preview-45e5887e"
-canonical_urls:
-  - "https://openai.com/index/codex-security-now-in-research-preview/"
-local_source_paths:
-  - "sources/raw/html/openai.com/codex-security-now-in-research-preview-f67d818b.html"
+canonical_urls: ["https://openai.com/index/codex-security-now-in-research-preview/"]
+local_source_paths: ["sources/raw/html/openai.com/codex-security-now-in-research-preview-f67d818b.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-15436253400B"
-  - "CLAIM-41CEDAFF827C"
-  - "CLAIM-7919D052151A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-15436253400B", "CLAIM-41CEDAFF827C", "CLAIM-7919D052151A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # Codex Security: Now in Research Preview

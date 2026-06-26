@@ -3,11 +3,11 @@ type: "index"
 title: "Code as Agent Harness LLM-Wiki"
 description: "Navigation entry point for the Code as Agent Harness source-backed LLM-Wiki."
 timestamp: "2026-06-26T00:00:00Z"
+tags: ["index", "code-as-agent-harness", "llm-wiki"]
 okf_version: "0.1"
 okfr_role: "home"
 okfr_summary: "Entry point for source notes, paper fragments, Claim Cards, topic syntheses, reports, OKF guidance, and generated reader exports."
 note_type: "index"
-tags: ["index", "code-as-agent-harness", "llm-wiki"]
 updated: "2026-06-26"
 ---
 

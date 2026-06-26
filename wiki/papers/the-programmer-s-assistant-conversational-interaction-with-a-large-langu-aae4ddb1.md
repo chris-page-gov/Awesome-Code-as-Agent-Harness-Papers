@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development"
+description: "Paper fragment for The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "the-programmer-s-assistant-conversational-interaction-with-a-large-langu-aae4ddb1"
-canonical_urls:
-  - "https://doi.org/10.1145/3581641.3584037"
-  - "https://arxiv.org/pdf/2302.07080"
-local_source_paths:
-  - "sources/raw/arxiv/2302.07080.pdf"
+canonical_urls: ["https://doi.org/10.1145/3581641.3584037", "https://arxiv.org/pdf/2302.07080"]
+local_source_paths: ["sources/raw/arxiv/2302.07080.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0597E551BA00"
-  - "CLAIM-146866C7F3EF"
-  - "CLAIM-B527FE0AE13D"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0597E551BA00", "CLAIM-146866C7F3EF", "CLAIM-B527FE0AE13D"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development

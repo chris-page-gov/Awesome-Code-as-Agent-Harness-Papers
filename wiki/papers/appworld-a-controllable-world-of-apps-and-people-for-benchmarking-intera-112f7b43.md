@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents"
+description: "Paper fragment for AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "appworld-a-controllable-world-of-apps-and-people-for-benchmarking-intera-112f7b43"
-canonical_urls:
-  - "https://aclanthology.org/2024.acl-long.874/"
-  - "https://arxiv.org/pdf/2407.18901"
-local_source_paths:
-  - "sources/raw/arxiv/2407.18901.pdf"
+canonical_urls: ["https://aclanthology.org/2024.acl-long.874/", "https://arxiv.org/pdf/2407.18901"]
+local_source_paths: ["sources/raw/arxiv/2407.18901.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4FC7D7E22147"
-  - "CLAIM-642CA5B403D6"
-  - "CLAIM-F12953982C6E"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Patch Generation to Software Lifecycle Participation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4FC7D7E22147", "CLAIM-642CA5B403D6", "CLAIM-F12953982C6E"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Patch Generation to Software Lifecycle Participation"]
 ---
 
 # AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents

@@ -1,32 +1,24 @@
 ---
+type: "paper"
 title: "QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks"
+description: "Paper fragment for QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "qualityflow-an-agentic-workflow-for-program-synthesis-controlled-by-llm-e28c069c"
-canonical_urls:
-  - "https://arxiv.org/abs/2501.17167"
-local_source_paths:
-  - "sources/raw/arxiv/2501.17167.pdf"
+canonical_urls: ["https://arxiv.org/abs/2501.17167"]
+local_source_paths: ["sources/raw/arxiv/2501.17167.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-6964CAD6D3B9"
-  - "CLAIM-AAA30390B259"
-  - "CLAIM-FDEB91C3B916"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Execution Feedback Integration"
-  - "Functional Role Specialization"
-  - "Harness-State Convergence"
-  - "Shared Harness Representation"
-survey_subsections:
-  - "Consensus Convergence"
-  - "Execution-Based Representation"
-  - "Test Pass/Fail Signals"
-  - "Verification Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-6964CAD6D3B9", "CLAIM-AAA30390B259", "CLAIM-FDEB91C3B916"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Execution Feedback Integration", "Functional Role Specialization", "Harness-State Convergence", "Shared Harness Representation"]
+survey_subsections: ["Consensus Convergence", "Execution-Based Representation", "Test Pass/Fail Signals", "Verification Agents"]
 ---
 
 # QualityFlow: An agentic workflow for program synthesis controlled by LLM quality checks

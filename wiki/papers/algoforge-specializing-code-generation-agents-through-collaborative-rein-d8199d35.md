@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AlgoForge: Specializing Code Generation Agents through Collaborative Reinforcement Learning"
+description: "Paper fragment for AlgoForge: Specializing Code Generation Agents through Collaborative Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AlgoForge: Specializing Code Generation Agents through Collaborative Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "algoforge-specializing-code-generation-agents-through-collaborative-rein-d8199d35"
-canonical_urls:
-  - "https://openreview.net/forum?id=KwqbtKeaRl"
-local_source_paths:
-  - "sources/raw/openreview/KwqbtKeaRl.pdf"
+canonical_urls: ["https://openreview.net/forum?id=KwqbtKeaRl"]
+local_source_paths: ["sources/raw/openreview/KwqbtKeaRl.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-16D91DAECCB2"
-  - "CLAIM-3E7A23343CBA"
-  - "CLAIM-A8DCD9BBDB49"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Orchestration-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-16D91DAECCB2", "CLAIM-3E7A23343CBA", "CLAIM-A8DCD9BBDB49"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Orchestration-Based Planning"]
 ---
 
 # AlgoForge: Specializing Code Generation Agents through Collaborative Reinforcement Learning

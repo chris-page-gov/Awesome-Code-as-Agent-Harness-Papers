@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Knowledge Graph Based Repository-Level Code Generation"
+description: "Paper fragment for Knowledge Graph Based Repository-Level Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Knowledge Graph Based Repository-Level Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "knowledge-graph-based-repository-level-code-generation-95ecf625"
-canonical_urls:
-  - "http://dx.doi.org/10.1109/LLM4Code66737.2025.00026"
-local_source_paths:
-  - "sources/raw/html/dx.doi.org/knowledge-graph-based-repository-level-code-generation-aaeab87d.html"
+canonical_urls: ["http://dx.doi.org/10.1109/LLM4Code66737.2025.00026"]
+local_source_paths: ["sources/raw/html/dx.doi.org/knowledge-graph-based-repository-level-code-generation-aaeab87d.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2DBA2E1BF471"
-  - "CLAIM-66184071E3CC"
-  - "CLAIM-DA129CBA4EE8"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2DBA2E1BF471", "CLAIM-66184071E3CC", "CLAIM-DA129CBA4EE8"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Knowledge Graph Based Repository-Level Code Generation

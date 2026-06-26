@@ -1,22 +1,22 @@
 ---
+type: "paper"
 title: "ChatDev: Communicative Agents for Software Development"
+description: "Paper fragment for ChatDev: Communicative Agents for Software Development, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ChatDev: Communicative Agents for Software Development, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "chatdev-communicative-agents-for-software-development-204be492"
-canonical_urls:
-  - "https://doi.org/10.18653/v1/2024.acl-long.810"
-local_source_paths:
-  - "sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html"
+canonical_urls: ["https://doi.org/10.18653/v1/2024.acl-long.810"]
+local_source_paths: ["sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-147B9A8DF094"
-  - "CLAIM-AC57196227FA"
-  - "CLAIM-B101A35BC806"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
+claim_card_ids: ["CLAIM-147B9A8DF094", "CLAIM-AC57196227FA", "CLAIM-B101A35BC806"]
+survey_layers: ["Applications and Emerging Fields", "Scaling the Harness: Multi-Agent Code-Centric Systems"]
 survey_sections:
   - "Code Assistants"
   - "Execution Feedback Integration"
@@ -35,7 +35,6 @@ survey_subsections:
   - "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)"
   - "Program Synthesis Agents"
   - "Reasoning Debate"
-last_reviewed: "2026-06-02"
 ---
 
 # ChatDev: Communicative Agents for Software Development

@@ -1,15 +1,17 @@
 ---
+type: "report"
 title: "LLM-Wiki Primary Source Evaluation"
+description: "This evaluation records how effective the current LLM-Wiki implementation was as the primary research surface for reviewing the Agentic AI Governance UK MCP draft. The goal is pragmatic: understand where the wiki accelerated the work, wh..."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["report", "llm-wiki", "evaluation", "method"]
+okf_version: "0.1"
+okfr_role: "report"
+okfr_summary: "This evaluation records how effective the current LLM-Wiki implementation was as the primary research surface for reviewing the Agentic AI Governance UK MCP draft. The goal is pragmatic: understand where the wiki accelerated the work, wh..."
 note_type: "report"
 status: "draft"
-tags: ["report", "llm-wiki", "evaluation", "method"]
-source_ids:
-  - "SOURCE-KARPATHY-LLM-WIKI-2026"
-  - "SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026"
-related:
-  - "../architecture/llm-wiki-architecture.md"
-  - "../reports/agentic-ai-governance-uk-mcp-review.md"
 last_reviewed: "2026-06-02"
+source_ids: ["SOURCE-KARPATHY-LLM-WIKI-2026", "SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026"]
+related: ["../architecture/llm-wiki-architecture.md", "../reports/agentic-ai-governance-uk-mcp-review.md"]
 ---
 
 # LLM-Wiki Primary Source Evaluation

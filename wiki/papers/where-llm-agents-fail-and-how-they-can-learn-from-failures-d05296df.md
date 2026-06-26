@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Where LLM Agents Fail and How They Can Learn from Failures"
+description: "Paper fragment for Where LLM Agents Fail and How They Can Learn from Failures, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Where LLM Agents Fail and How They Can Learn from Failures, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "where-llm-agents-fail-and-how-they-can-learn-from-failures-d05296df"
-canonical_urls:
-  - "https://arxiv.org/abs/2509.25370"
-local_source_paths:
-  - "sources/raw/arxiv/2509.25370.pdf"
+canonical_urls: ["https://arxiv.org/abs/2509.25370"]
+local_source_paths: ["sources/raw/arxiv/2509.25370.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4743B9B42819"
-  - "CLAIM-9F340FFF5DCB"
-  - "CLAIM-A21190E1D7A3"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4743B9B42819", "CLAIM-9F340FFF5DCB", "CLAIM-A21190E1D7A3"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # Where LLM Agents Fail and How They Can Learn from Failures

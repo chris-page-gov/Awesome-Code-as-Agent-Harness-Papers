@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models"
+description: "Paper fragment for Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "lifelong-robot-library-learning-bootstrapping-composable-and-generalizab-a115e6fb"
-canonical_urls:
-  - "https://ieeexplore.ieee.org/document/10611448/"
-  - "https://arxiv.org/abs/2312.11600"
-local_source_paths:
-  - "sources/raw/html/ieeexplore.ieee.org/lifelong-robot-library-learning-bootstrapping-composable-and-generalizable-skill-6a633d7a.html"
+canonical_urls: ["https://ieeexplore.ieee.org/document/10611448/", "https://arxiv.org/abs/2312.11600"]
+local_source_paths: ["sources/raw/html/ieeexplore.ieee.org/lifelong-robot-library-learning-bootstrapping-composable-and-generalizable-skill-6a633d7a.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-49AE76B8E2B3"
-  - "CLAIM-8D91CF4466F6"
-  - "CLAIM-FD7022A3289E"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Grounded Skill Selection"
-  - "Reusable Skills as Embodied Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-49AE76B8E2B3", "CLAIM-8D91CF4466F6", "CLAIM-FD7022A3289E"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Grounded Skill Selection", "Reusable Skills as Embodied Memory"]
 ---
 
 # Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models

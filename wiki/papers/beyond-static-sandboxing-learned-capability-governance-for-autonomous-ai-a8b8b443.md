@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents"
+description: "Paper fragment for Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "beyond-static-sandboxing-learned-capability-governance-for-autonomous-ai-a8b8b443"
-canonical_urls:
-  - "https://arxiv.org/abs/2604.11839"
-local_source_paths:
-  - "sources/raw/arxiv/2604.11839.pdf"
+canonical_urls: ["https://arxiv.org/abs/2604.11839"]
+local_source_paths: ["sources/raw/arxiv/2604.11839.pdf"]
 source_status: "integrated"
 evidence_quality: "cross-agent-reviewed"
 claim_card_ids:
@@ -21,13 +26,9 @@ claim_card_ids:
   - "CLAIM-BF05FC24D3FC"
   - "CLAIM-D4B72BDB0EBE"
   - "CLAIM-D73DCC89EF1E"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents

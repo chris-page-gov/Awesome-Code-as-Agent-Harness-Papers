@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Compressing Code Context for LLM-based Issue Resolution"
+description: "Paper fragment for Compressing Code Context for LLM-based Issue Resolution, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Compressing Code Context for LLM-based Issue Resolution, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "compressing-code-context-for-llm-based-issue-resolution-f6e7f2b6"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.28119"
-local_source_paths:
-  - "sources/raw/arxiv/2603.28119.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.28119"]
+local_source_paths: ["sources/raw/arxiv/2603.28119.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-585A057534EF"
-  - "CLAIM-C81D5E7CD2E1"
-  - "CLAIM-E71BD1D1640F"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Multi-Agent Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-585A057534EF", "CLAIM-C81D5E7CD2E1", "CLAIM-E71BD1D1640F"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Multi-Agent Memory"]
 ---
 
 # Compressing Code Context for LLM-based Issue Resolution

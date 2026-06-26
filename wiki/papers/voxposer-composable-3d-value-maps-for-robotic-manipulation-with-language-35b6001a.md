@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models"
+description: "Paper fragment for VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "voxposer-composable-3d-value-maps-for-robotic-manipulation-with-language-35b6001a"
-canonical_urls:
-  - "https://arxiv.org/abs/2307.05973"
-local_source_paths:
-  - "sources/raw/arxiv/2307.05973.pdf"
+canonical_urls: ["https://arxiv.org/abs/2307.05973"]
+local_source_paths: ["sources/raw/arxiv/2307.05973.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-182F746B314E"
-  - "CLAIM-61BE27E92764"
-  - "CLAIM-E12695624FE3"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Autonomous Embodied Agents"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-182F746B314E", "CLAIM-61BE27E92764", "CLAIM-E12695624FE3"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Autonomous Embodied Agents"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions"]
 ---
 
 # VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models

@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "CodePlan: Repository-Level Coding Using LLMs and Planning provides localized evidence about code"
+description: "CodePlan: Repository-Level Coding Using LLMs and Planning provides localized evidence about code execution for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "CodePlan: Repository-Level Coding Using LLMs and Planning provides localized evidence about code execution for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-F8D4459ADA25"
 claim_type: "contribution"
-paper_ids:
-  - "codeplan-repository-level-coding-using-llms-and-planning-5eaa08c2"
+paper_ids: ["codeplan-repository-level-coding-using-llms-and-planning-5eaa08c2"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2309.12499.pdf"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/arxiv/2309.12499.pdf"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/arxiv/2309.12499.pdf; extracted sentence match for code-execution"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-F8D4459ADA25

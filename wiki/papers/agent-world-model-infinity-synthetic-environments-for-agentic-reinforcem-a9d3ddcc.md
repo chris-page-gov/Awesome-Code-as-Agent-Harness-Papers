@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning"
+description: "Paper fragment for Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agent-world-model-infinity-synthetic-environments-for-agentic-reinforcem-a9d3ddcc"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.10090"
-local_source_paths:
-  - "sources/raw/arxiv/2602.10090.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.10090"]
+local_source_paths: ["sources/raw/arxiv/2602.10090.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-54A5C0607760"
-  - "CLAIM-F0A6C25D3C9C"
-  - "CLAIM-F6D1F4ACE9C8"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Execution-Trace World Modeling"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-54A5C0607760", "CLAIM-F0A6C25D3C9C", "CLAIM-F6D1F4ACE9C8"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Execution-Trace World Modeling"]
 ---
 
 # Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning

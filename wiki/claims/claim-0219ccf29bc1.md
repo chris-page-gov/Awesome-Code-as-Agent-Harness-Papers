@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation provides local"
+description: "Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-0219CCF29BC1"
 claim_type: "evaluation-result"
-paper_ids:
-  - "hallucination-to-consensus-multi-agent-llms-for-end-to-end-junit-test-ge-4f02da22"
+paper_ids: ["hallucination-to-consensus-multi-agent-llms-for-end-to-end-junit-test-ge-4f02da22"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2506.02943.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2506.02943.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2506.02943.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-0219CCF29BC1

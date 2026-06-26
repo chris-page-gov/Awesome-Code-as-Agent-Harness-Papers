@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents provides localized evid"
+description: "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents provides localized evidence about code execution for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents provides localized evidence about code execution for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-0675DB7931FB"
 claim_type: "contribution"
-paper_ids:
-  - "environment-in-the-loop-rethinking-code-migration-with-llm-based-agents-8cf718b7"
+paper_ids: ["environment-in-the-loop-rethinking-code-migration-with-llm-based-agents-8cf718b7"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2602.09944.pdf"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/arxiv/2602.09944.pdf"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/arxiv/2602.09944.pdf; extracted sentence match for code-execution"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-0675DB7931FB

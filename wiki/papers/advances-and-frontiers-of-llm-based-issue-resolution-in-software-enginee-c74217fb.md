@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey"
+description: "Paper fragment for Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "advances-and-frontiers-of-llm-based-issue-resolution-in-software-enginee-c74217fb"
-canonical_urls:
-  - "https://arxiv.org/abs/2601.11655"
-local_source_paths:
-  - "sources/raw/arxiv/2601.11655.pdf"
+canonical_urls: ["https://arxiv.org/abs/2601.11655"]
+local_source_paths: ["sources/raw/arxiv/2601.11655.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-179E9F28811C"
-  - "CLAIM-93F474B79D5C"
-  - "CLAIM-A0FC480ECDDA"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Patch Generation to Software Lifecycle Participation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-179E9F28811C", "CLAIM-93F474B79D5C", "CLAIM-A0FC480ECDDA"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Patch Generation to Software Lifecycle Participation"]
 ---
 
 # Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey

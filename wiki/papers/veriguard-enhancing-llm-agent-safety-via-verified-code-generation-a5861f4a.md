@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation"
+description: "Paper fragment for VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "veriguard-enhancing-llm-agent-safety-via-verified-code-generation-a5861f4a"
-canonical_urls:
-  - "https://arxiv.org/abs/2510.05156"
-local_source_paths:
-  - "sources/raw/arxiv/2510.05156.pdf"
+canonical_urls: ["https://arxiv.org/abs/2510.05156"]
+local_source_paths: ["sources/raw/arxiv/2510.05156.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-656BA8C16F30"
-  - "CLAIM-A3DD67016AB7"
-  - "CLAIM-E78560639A85"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-  - "Verification-Driven Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-656BA8C16F30", "CLAIM-A3DD67016AB7", "CLAIM-E78560639A85"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Autonomous Embodied Agents", "Tool Usage for Code Agents"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions", "Verification-Driven Tool Use"]
 ---
 
 # VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation

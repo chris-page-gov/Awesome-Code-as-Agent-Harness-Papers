@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "About GitHub Copilot Cloud Agent"
+description: "Paper fragment for About GitHub Copilot Cloud Agent, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for About GitHub Copilot Cloud Agent, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "about-github-copilot-cloud-agent-a4d6dd96"
-canonical_urls:
-  - "https://docs.github.com/copilot/concepts/agents/coding-agent/about-coding-agent"
-local_source_paths:
-  - "sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html"
+canonical_urls: ["https://docs.github.com/copilot/concepts/agents/coding-agent/about-coding-agent"]
+local_source_paths: ["sources/raw/html/docs.github.com/about-github-copilot-cloud-agent-8a2ecc12.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3489BD35A1AA"
-  - "CLAIM-541E91310694"
-  - "CLAIM-A8B856DA232C"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3489BD35A1AA", "CLAIM-541E91310694", "CLAIM-A8B856DA232C"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces"]
 ---
 
 # About GitHub Copilot Cloud Agent

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SSR: Socratic Self-Refine for Large Language Model Reasoning"
+description: "Paper fragment for SSR: Socratic Self-Refine for Large Language Model Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SSR: Socratic Self-Refine for Large Language Model Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "ssr-socratic-self-refine-for-large-language-model-reasoning-833e8f4e"
-canonical_urls:
-  - "https://arxiv.org/abs/2511.10621"
-local_source_paths:
-  - "sources/raw/arxiv/2511.10621.pdf"
+canonical_urls: ["https://arxiv.org/abs/2511.10621"]
+local_source_paths: ["sources/raw/arxiv/2511.10621.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-050A70B1F7D0"
-  - "CLAIM-56F06F2052DF"
-  - "CLAIM-AF5852360C4C"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Hybrid Symbolic–Neural Execution"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-050A70B1F7D0", "CLAIM-56F06F2052DF", "CLAIM-AF5852360C4C"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Hybrid Symbolic–Neural Execution"]
 ---
 
 # SSR: Socratic Self-Refine for Large Language Model Reasoning

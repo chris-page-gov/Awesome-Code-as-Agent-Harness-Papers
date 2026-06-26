@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+description: "Paper fragment for Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "terminal-bench-benchmarking-agents-on-hard-realistic-tasks-in-command-li-f510afcd"
-canonical_urls:
-  - "https://arxiv.org/abs/2601.11868"
-local_source_paths:
-  - "sources/raw/arxiv/2601.11868.pdf"
+canonical_urls: ["https://arxiv.org/abs/2601.11868"]
+local_source_paths: ["sources/raw/arxiv/2601.11868.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-660F7F70CA18"
-  - "CLAIM-8289C6CE2638"
-  - "CLAIM-B6BEA0C134C0"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Patch Generation to Software Lifecycle Participation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-660F7F70CA18", "CLAIM-8289C6CE2638", "CLAIM-B6BEA0C134C0"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Patch Generation to Software Lifecycle Participation"]
 ---
 
 # Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces

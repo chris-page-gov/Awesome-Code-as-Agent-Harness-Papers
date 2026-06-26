@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "DiscoveryBench: Towards Data-Driven Discovery with Large Language Models"
+description: "Paper fragment for DiscoveryBench: Towards Data-Driven Discovery with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for DiscoveryBench: Towards Data-Driven Discovery with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "discoverybench-towards-data-driven-discovery-with-large-language-models-f1a32ee6"
-canonical_urls:
-  - "https://arxiv.org/abs/2407.01725"
-local_source_paths:
-  - "sources/raw/arxiv/2407.01725.pdf"
+canonical_urls: ["https://arxiv.org/abs/2407.01725"]
+local_source_paths: ["sources/raw/arxiv/2407.01725.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0D1A5354CC38"
-  - "CLAIM-4C522F8F2DF1"
-  - "CLAIM-5822C467013A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Toward Agentic and Instruction-Following Science"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0D1A5354CC38", "CLAIM-4C522F8F2DF1", "CLAIM-5822C467013A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Toward Agentic and Instruction-Following Science"]
 ---
 
 # DiscoveryBench: Towards Data-Driven Discovery with Large Language Models

@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "ContextBench: A Benchmark for Context Retrieval in Coding Agents provides localized evidence abo"
+description: "ContextBench: A Benchmark for Context Retrieval in Coding Agents provides localized evidence about memory and state for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "ContextBench: A Benchmark for Context Retrieval in Coding Agents provides localized evidence about memory and state for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-CB50EE23D64D"
 claim_type: "contribution"
-paper_ids:
-  - "contextbench-a-benchmark-for-context-retrieval-in-coding-agents-0f2f361a"
+paper_ids: ["contextbench-a-benchmark-for-context-retrieval-in-coding-agents-0f2f361a"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2602.05892.pdf"
-related_topics:
-  - "harness-mechanisms"
-  - "evidence-observability-and-redress"
+source_refs: ["sources/raw/arxiv/2602.05892.pdf"]
+related_topics: ["harness-mechanisms", "evidence-observability-and-redress"]
 evidence_locator: "sources/raw/arxiv/2602.05892.pdf; extracted sentence match for memory"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-CB50EE23D64D

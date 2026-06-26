@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Test-Time Adaptation for LLM Agents via Environment Interaction"
+description: "Paper fragment for Test-Time Adaptation for LLM Agents via Environment Interaction, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Test-Time Adaptation for LLM Agents via Environment Interaction, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "test-time-adaptation-for-llm-agents-via-environment-interaction-6d7e2156"
-canonical_urls:
-  - "https://openreview.net/forum?id=OH4PE0TDo0"
-local_source_paths:
-  - "sources/raw/openreview/OH4PE0TDo0.pdf"
+canonical_urls: ["https://openreview.net/forum?id=OH4PE0TDo0"]
+local_source_paths: ["sources/raw/openreview/OH4PE0TDo0.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-9D6FFDBD7A98"
-  - "CLAIM-9E661CA488B2"
-  - "CLAIM-EEFC94CFCD16"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Environment-Interaction Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-9D6FFDBD7A98", "CLAIM-9E661CA488B2", "CLAIM-EEFC94CFCD16"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Environment-Interaction Tool Use"]
 ---
 
 # Test-Time Adaptation for LLM Agents via Environment Interaction

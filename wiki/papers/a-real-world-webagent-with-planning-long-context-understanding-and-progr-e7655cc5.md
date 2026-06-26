@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis"
+description: "Paper fragment for A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a-real-world-webagent-with-planning-long-context-understanding-and-progr-e7655cc5"
-canonical_urls:
-  - "https://arxiv.org/abs/2307.12856"
-local_source_paths:
-  - "sources/raw/arxiv/2307.12856.pdf"
+canonical_urls: ["https://arxiv.org/abs/2307.12856"]
+local_source_paths: ["sources/raw/arxiv/2307.12856.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-22F17A595C01"
-  - "CLAIM-BDD4470E4C1F"
-  - "CLAIM-C74AAFEEFBA8"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Linear Decomposition Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-22F17A595C01", "CLAIM-BDD4470E4C1F", "CLAIM-C74AAFEEFBA8"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Linear Decomposition Planning"]
 ---
 
 # A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis

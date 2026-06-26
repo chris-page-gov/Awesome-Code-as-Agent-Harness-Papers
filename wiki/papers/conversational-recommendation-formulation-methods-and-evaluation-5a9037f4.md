@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Conversational Recommendation: Formulation, Methods, and Evaluation"
+description: "Paper fragment for Conversational Recommendation: Formulation, Methods, and Evaluation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Conversational Recommendation: Formulation, Methods, and Evaluation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "conversational-recommendation-formulation-methods-and-evaluation-5a9037f4"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3397271.3401322"
-  - "https://pure.uva.nl/ws/files/53903442/lei_2020_conversational.pdf"
-local_source_paths:
-  - "sources/raw/pdf/conversational-recommendation-formulation-methods-and-evaluation-5d2d7f8a.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3397271.3401322", "https://pure.uva.nl/ws/files/53903442/lei_2020_conversational.pdf"]
+local_source_paths: ["sources/raw/pdf/conversational-recommendation-formulation-methods-and-evaluation-5d2d7f8a.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-11B6102DC2CF"
-  - "CLAIM-EACEF7651C6A"
-  - "CLAIM-EDC279AD8010"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "Controllable and Instruction-Following Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-11B6102DC2CF", "CLAIM-EACEF7651C6A", "CLAIM-EDC279AD8010"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["Controllable and Instruction-Following Personalization"]
 ---
 
 # Conversational Recommendation: Formulation, Methods, and Evaluation

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "TALM: Dynamic Tree-Structured Multi-Agent Framework with Long-Term Memory for Scalable Code Generation"
+description: "Paper fragment for TALM: Dynamic Tree-Structured Multi-Agent Framework with Long-Term Memory for Scalable Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for TALM: Dynamic Tree-Structured Multi-Agent Framework with Long-Term Memory for Scalable Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "talm-dynamic-tree-structured-multi-agent-framework-with-long-term-memory-803e8032"
-canonical_urls:
-  - "https://arxiv.org/abs/2510.23010"
-local_source_paths:
-  - "sources/raw/arxiv/2510.23010.pdf"
+canonical_urls: ["https://arxiv.org/abs/2510.23010"]
+local_source_paths: ["sources/raw/arxiv/2510.23010.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-250BFD0425D6"
-  - "CLAIM-72D27674DE93"
-  - "CLAIM-A921649DC453"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Long-Term Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-250BFD0425D6", "CLAIM-72D27674DE93", "CLAIM-A921649DC453"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Long-Term Memory"]
 ---
 
 # TALM: Dynamic Tree-Structured Multi-Agent Framework with Long-Term Memory for Scalable Code Generation

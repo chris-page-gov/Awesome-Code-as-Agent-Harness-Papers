@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback"
+description: "Paper fragment for StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "stepcoder-improve-code-generation-with-reinforcement-learning-from-compi-19519e0d"
-canonical_urls:
-  - "https://aclanthology.org/2024.acl-long.251/"
-local_source_paths:
-  - "sources/raw/acl/2024.acl-long.251.pdf"
+canonical_urls: ["https://aclanthology.org/2024.acl-long.251/"]
+local_source_paths: ["sources/raw/acl/2024.acl-long.251.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2C8145EBE52D"
-  - "CLAIM-6C740D59D4A8"
-  - "CLAIM-E051BD1743FB"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2C8145EBE52D", "CLAIM-6C740D59D4A8", "CLAIM-E051BD1743FB"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback

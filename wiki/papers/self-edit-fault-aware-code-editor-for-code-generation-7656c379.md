@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Self-Edit: Fault-Aware Code Editor for Code Generation"
+description: "Paper fragment for Self-Edit: Fault-Aware Code Editor for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Self-Edit: Fault-Aware Code Editor for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "self-edit-fault-aware-code-editor-for-code-generation-7656c379"
-canonical_urls:
-  - "https://aclanthology.org/2023.acl-long.45/"
-local_source_paths:
-  - "sources/raw/acl/2023.acl-long.45.pdf"
+canonical_urls: ["https://aclanthology.org/2023.acl-long.45/"]
+local_source_paths: ["sources/raw/acl/2023.acl-long.45.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3BCFC952E4AC"
-  - "CLAIM-7311586D56DD"
-  - "CLAIM-DEE5D2C56AA8"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3BCFC952E4AC", "CLAIM-7311586D56DD", "CLAIM-DEE5D2C56AA8"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # Self-Edit: Fault-Aware Code Editor for Code Generation

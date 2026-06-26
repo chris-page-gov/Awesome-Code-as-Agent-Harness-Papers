@@ -3,10 +3,10 @@ type: "guidance"
 title: "OKFR JIT Training"
 description: "Just-in-time reader training for using the OKFR graph, timeline, side panel, tiles, and card stacks."
 timestamp: "2026-06-26T00:00:00Z"
+tags: ["okfr", "training", "reader", "jit"]
 okf_version: "0.1"
 okfr_role: "training"
 okfr_summary: "Introduces how a reader moves from overview to focused evidence in an OKFR wiki pack."
-tags: ["okfr", "training", "reader", "jit"]
 ---
 
 # OKFR JIT Training

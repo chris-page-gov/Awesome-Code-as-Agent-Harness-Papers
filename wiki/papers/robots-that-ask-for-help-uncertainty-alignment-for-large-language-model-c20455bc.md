@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners"
+description: "Paper fragment for Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "robots-that-ask-for-help-uncertainty-alignment-for-large-language-model-c20455bc"
-canonical_urls:
-  - "https://arxiv.org/abs/2307.01928"
-local_source_paths:
-  - "sources/raw/arxiv/2307.01928.pdf"
+canonical_urls: ["https://arxiv.org/abs/2307.01928"]
+local_source_paths: ["sources/raw/arxiv/2307.01928.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-9E8B61434D54"
-  - "CLAIM-C223D722E848"
-  - "CLAIM-CF146D73D91C"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-  - "Grounded Skill Selection"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-9E8B61434D54", "CLAIM-C223D722E848", "CLAIM-CF146D73D91C"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions", "Grounded Skill Selection"]
 ---
 
 # Robots That Ask for Help: Uncertainty Alignment for Large Language Model Planners

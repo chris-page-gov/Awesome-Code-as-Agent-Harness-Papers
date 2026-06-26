@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Human-AI Experience in Integrated Development Environments: A Systematic Literature Review"
+description: "Paper fragment for Human-AI Experience in Integrated Development Environments: A Systematic Literature Review, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Human-AI Experience in Integrated Development Environments: A Systematic Literature Review, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "human-ai-experience-in-integrated-development-environments-a-systematic-5a126d05"
-canonical_urls:
-  - "https://link.springer.com/article/10.1007/s10664-025-10793-0"
-local_source_paths:
-  - "sources/raw/html/link.springer.com/human-ai-experience-in-integrated-development-environments-a-systematic-literatu-5c41e6b6.html"
+canonical_urls: ["https://link.springer.com/article/10.1007/s10664-025-10793-0"]
+local_source_paths: ["sources/raw/html/link.springer.com/human-ai-experience-in-integrated-development-environments-a-systematic-literatu-5c41e6b6.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2A12927C7CEE"
-  - "CLAIM-85C134DCD034"
-  - "CLAIM-A9634521529E"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2A12927C7CEE", "CLAIM-85C134DCD034", "CLAIM-A9634521529E"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Human-AI Experience in Integrated Development Environments: A Systematic Literature Review

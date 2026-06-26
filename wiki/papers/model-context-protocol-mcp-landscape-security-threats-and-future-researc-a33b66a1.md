@@ -1,14 +1,18 @@
 ---
+type: "paper"
 title: "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions"
+description: "Paper fragment for Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "model-context-protocol-mcp-landscape-security-threats-and-future-researc-a33b66a1"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3796519"
-  - "https://arxiv.org/abs/2503.23278"
-local_source_paths:
-  - "sources/raw/arxiv/2503.23278.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3796519", "https://arxiv.org/abs/2503.23278"]
+local_source_paths: ["sources/raw/arxiv/2503.23278.pdf"]
 source_status: "integrated"
 evidence_quality: "cross-agent-reviewed"
 claim_card_ids:
@@ -22,16 +26,9 @@ claim_card_ids:
   - "CLAIM-7D3269A875DC"
   - "CLAIM-9DEEB029E7A2"
   - "CLAIM-AB8980C00921"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces", "Development Environments for Agentic Coding"]
 ---
 
 # Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions

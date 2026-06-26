@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "On Generative Agents in Recommendation"
+description: "Paper fragment for On Generative Agents in Recommendation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for On Generative Agents in Recommendation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "on-generative-agents-in-recommendation-38830c5b"
-canonical_urls:
-  - "https://arxiv.org/abs/2310.10108"
-local_source_paths:
-  - "sources/raw/arxiv/2310.10108.pdf"
+canonical_urls: ["https://arxiv.org/abs/2310.10108"]
+local_source_paths: ["sources/raw/arxiv/2310.10108.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-12C6F283245E"
-  - "CLAIM-985C3DD6E607"
-  - "CLAIM-B237A1C33DC4"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "From Static Recommendation to Interactive Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-12C6F283245E", "CLAIM-985C3DD6E607", "CLAIM-B237A1C33DC4"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["From Static Recommendation to Interactive Personalization"]
 ---
 
 # On Generative Agents in Recommendation

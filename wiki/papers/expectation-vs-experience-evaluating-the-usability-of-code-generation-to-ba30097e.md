@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Expectation vs.\\ Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models"
+description: "Paper fragment for Expectation vs.\\ Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Expectation vs.\\ Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "expectation-vs-experience-evaluating-the-usability-of-code-generation-to-ba30097e"
-canonical_urls:
-  - "https://doi.org/10.1145/3491101.3519665"
-  - "https://glassmanlab.seas.harvard.edu/papers/copilot_lbw_chi22.pdf"
-local_source_paths:
-  - "sources/raw/pdf/expectation-vs-experience-evaluating-the-usability-of-code-generation-tools-powe-a112b7af.pdf"
+canonical_urls: ["https://doi.org/10.1145/3491101.3519665", "https://glassmanlab.seas.harvard.edu/papers/copilot_lbw_chi22.pdf"]
+local_source_paths: ["sources/raw/pdf/expectation-vs-experience-evaluating-the-usability-of-code-generation-tools-powe-a112b7af.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-235358D33283"
-  - "CLAIM-529156C631A7"
-  - "CLAIM-DFFA953019BD"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Inline Completion to Autonomous SWE Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-235358D33283", "CLAIM-529156C631A7", "CLAIM-DFFA953019BD"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Inline Completion to Autonomous SWE Agents"]
 ---
 
 # Expectation vs.\ Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery"
+description: "Paper fragment for ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "scienceagentbench-toward-rigorous-assessment-of-language-agents-for-data-80d4c78e"
-canonical_urls:
-  - "https://arxiv.org/abs/2410.05080"
-local_source_paths:
-  - "sources/raw/arxiv/2410.05080.pdf"
+canonical_urls: ["https://arxiv.org/abs/2410.05080"]
+local_source_paths: ["sources/raw/arxiv/2410.05080.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2B11CFA5329C"
-  - "CLAIM-7E99973AE620"
-  - "CLAIM-A7557C3DA1BE"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Toward Agentic and Instruction-Following Science"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2B11CFA5329C", "CLAIM-7E99973AE620", "CLAIM-A7557C3DA1BE"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Toward Agentic and Instruction-Following Science"]
 ---
 
 # ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery

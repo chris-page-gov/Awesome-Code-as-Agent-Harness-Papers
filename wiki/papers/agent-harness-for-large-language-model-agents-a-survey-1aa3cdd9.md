@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Agent Harness for Large Language Model Agents: A Survey"
+description: "Paper fragment for Agent Harness for Large Language Model Agents: A Survey, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Agent Harness for Large Language Model Agents: A Survey, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agent-harness-for-large-language-model-agents-a-survey-1aa3cdd9"
-canonical_urls:
-  - "https://www.preprints.org/manuscript/202604.0428/v1"
-  - "https://raw.githubusercontent.com/Gloriaameng/Awesome-Agent-Harness/main/Agent_Harness_for_LLM_Agents__A_Survey__v4.pdf"
-local_source_paths:
-  - "sources/raw/pdf/agent-harness-for-large-language-model-agents-a-survey-fc79695e.pdf"
+canonical_urls: ["https://www.preprints.org/manuscript/202604.0428/v1", "https://raw.githubusercontent.com/Gloriaameng/Awesome-Agent-Harness/main/Agent_Harness_for_LLM_Agents__A_Survey__v4.pdf"]
+local_source_paths: ["sources/raw/pdf/agent-harness-for-large-language-model-agents-a-survey-fc79695e.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3944026A5E75"
-  - "CLAIM-4A979C5AE12D"
-  - "CLAIM-82EC399A0AF1"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Workflow-Orchestration Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3944026A5E75", "CLAIM-4A979C5AE12D", "CLAIM-82EC399A0AF1"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Workflow-Orchestration Tool Use"]
 ---
 
 # Agent Harness for Large Language Model Agents: A Survey

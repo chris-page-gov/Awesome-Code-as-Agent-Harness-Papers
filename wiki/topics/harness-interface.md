@@ -1,11 +1,17 @@
 ---
+type: "topic"
 title: "Harness Interface"
+description: "The README defines the Harness Interface layer as code serving as the basic interface between a model and its task environment. This layer covers code for reasoning, acting, and environment modeling."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["topic", "harness-interface", "reasoning", "acting", "environment-modeling"]
+okf_version: "0.1"
+okfr_role: "topic"
+okfr_summary: "The README defines the Harness Interface layer as code serving as the basic interface between a model and its task environment. This layer covers code for reasoning, acting, and environment modeling."
 note_type: "topic"
 status: "active"
-tags: ["topic", "harness-interface", "reasoning", "acting", "environment-modeling"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-README-ORIGINAL-2026-06-02"]
 related: ["code-as-agent-harness.md", "../maps/taxonomy-map.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Harness Interface

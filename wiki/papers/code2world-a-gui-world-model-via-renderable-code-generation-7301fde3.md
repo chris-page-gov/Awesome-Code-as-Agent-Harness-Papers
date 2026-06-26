@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Code2World: A GUI World Model via Renderable Code Generation"
+description: "Paper fragment for Code2World: A GUI World Model via Renderable Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Code2World: A GUI World Model via Renderable Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "code2world-a-gui-world-model-via-renderable-code-generation-7301fde3"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.09856"
-local_source_paths:
-  - "sources/raw/arxiv/2602.09856.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.09856"]
+local_source_paths: ["sources/raw/arxiv/2602.09856.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3E1F732735BC"
-  - "CLAIM-801AC7FE9C40"
-  - "CLAIM-8908255AC78F"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Structured World Representations"
-  - "UI Simulators and Sandboxes as Executable Dynamics"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3E1F732735BC", "CLAIM-801AC7FE9C40", "CLAIM-8908255AC78F"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Code for Environment Modeling", "GUI / OS Agents"]
+survey_subsections: ["Structured World Representations", "UI Simulators and Sandboxes as Executable Dynamics"]
 ---
 
 # Code2World: A GUI World Model via Renderable Code Generation

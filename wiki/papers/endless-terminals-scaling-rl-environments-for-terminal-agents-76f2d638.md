@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Endless Terminals: Scaling RL Environments for Terminal Agents"
+description: "Paper fragment for Endless Terminals: Scaling RL Environments for Terminal Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Endless Terminals: Scaling RL Environments for Terminal Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "endless-terminals-scaling-rl-environments-for-terminal-agents-76f2d638"
-canonical_urls:
-  - "https://arxiv.org/abs/2601.16443"
-local_source_paths:
-  - "sources/raw/arxiv/2601.16443.pdf"
+canonical_urls: ["https://arxiv.org/abs/2601.16443"]
+local_source_paths: ["sources/raw/arxiv/2601.16443.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3566DFD65BC7"
-  - "CLAIM-CB1F13496CB5"
-  - "CLAIM-E87487BEEB59"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3566DFD65BC7", "CLAIM-CB1F13496CB5", "CLAIM-E87487BEEB59"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # Endless Terminals: Scaling RL Environments for Terminal Agents

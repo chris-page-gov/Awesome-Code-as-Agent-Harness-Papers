@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MIRIX: Multi-Agent Memory System for LLM-Based Agents"
+description: "Paper fragment for MIRIX: Multi-Agent Memory System for LLM-Based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MIRIX: Multi-Agent Memory System for LLM-Based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mirix-multi-agent-memory-system-for-llm-based-agents-da5964e8"
-canonical_urls:
-  - "https://arxiv.org/abs/2507.07957"
-local_source_paths:
-  - "sources/raw/arxiv/2507.07957.pdf"
+canonical_urls: ["https://arxiv.org/abs/2507.07957"]
+local_source_paths: ["sources/raw/arxiv/2507.07957.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2D42619D393B"
-  - "CLAIM-8317E0DAE8EB"
-  - "CLAIM-9765CD777ABD"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Multi-Agent Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2D42619D393B", "CLAIM-8317E0DAE8EB", "CLAIM-9765CD777ABD"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Multi-Agent Memory"]
 ---
 
 # MIRIX: Multi-Agent Memory System for LLM-Based Agents

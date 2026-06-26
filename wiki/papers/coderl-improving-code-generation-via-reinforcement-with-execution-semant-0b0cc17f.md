@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment"
+description: "Paper fragment for CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "coderl-improving-code-generation-via-reinforcement-with-execution-semant-0b0cc17f"
-canonical_urls:
-  - "https://arxiv.org/abs/2510.18471"
-local_source_paths:
-  - "sources/raw/arxiv/2510.18471.pdf"
+canonical_urls: ["https://arxiv.org/abs/2510.18471"]
+local_source_paths: ["sources/raw/arxiv/2510.18471.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0424C230D95C"
-  - "CLAIM-D04F7B0C5016"
-  - "CLAIM-E373CBC5A3ED"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0424C230D95C", "CLAIM-D04F7B0C5016", "CLAIM-E373CBC5A3ED"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment

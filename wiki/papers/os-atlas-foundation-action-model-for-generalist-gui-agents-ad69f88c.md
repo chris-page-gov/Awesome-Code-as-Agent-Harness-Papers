@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "OS-ATLAS: Foundation Action Model for Generalist GUI Agents"
+description: "Paper fragment for OS-ATLAS: Foundation Action Model for Generalist GUI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for OS-ATLAS: Foundation Action Model for Generalist GUI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "os-atlas-foundation-action-model-for-generalist-gui-agents-ad69f88c"
-canonical_urls:
-  - "https://openreview.net/forum?id=n9PDaFNi8t"
-local_source_paths:
-  - "sources/raw/openreview/n9PDaFNi8t.pdf"
+canonical_urls: ["https://openreview.net/forum?id=n9PDaFNi8t"]
+local_source_paths: ["sources/raw/openreview/n9PDaFNi8t.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5BDEBD7B91AE"
-  - "CLAIM-83308BA0141C"
-  - "CLAIM-D5BEDF25461A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5BDEBD7B91AE", "CLAIM-83308BA0141C", "CLAIM-D5BEDF25461A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # OS-ATLAS: Foundation Action Model for Generalist GUI Agents

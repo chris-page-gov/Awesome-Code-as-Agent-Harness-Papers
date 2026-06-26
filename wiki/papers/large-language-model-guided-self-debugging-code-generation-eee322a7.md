@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Large Language Model Guided Self-Debugging Code Generation"
+description: "Paper fragment for Large Language Model Guided Self-Debugging Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Large Language Model Guided Self-Debugging Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "large-language-model-guided-self-debugging-code-generation-eee322a7"
-canonical_urls:
-  - "https://arxiv.org/abs/2502.02928"
-local_source_paths:
-  - "sources/raw/arxiv/2502.02928.pdf"
+canonical_urls: ["https://arxiv.org/abs/2502.02928"]
+local_source_paths: ["sources/raw/arxiv/2502.02928.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-78CCDB17F14D"
-  - "CLAIM-CDD2A1449EE1"
-  - "CLAIM-FEBECCD67B3F"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-78CCDB17F14D", "CLAIM-CDD2A1449EE1", "CLAIM-FEBECCD67B3F"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Large Language Model Guided Self-Debugging Code Generation

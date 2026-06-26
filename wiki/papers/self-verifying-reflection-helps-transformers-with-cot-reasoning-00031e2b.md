@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Self-Verifying Reflection Helps Transformers with CoT Reasoning"
+description: "Paper fragment for Self-Verifying Reflection Helps Transformers with CoT Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Self-Verifying Reflection Helps Transformers with CoT Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "self-verifying-reflection-helps-transformers-with-cot-reasoning-00031e2b"
-canonical_urls:
-  - "https://neurips.cc/virtual/2025/poster/119948"
-local_source_paths:
-  - "sources/raw/html/neurips.cc/self-verifying-reflection-helps-transformers-with-cot-reasoning-734593de.html"
+canonical_urls: ["https://neurips.cc/virtual/2025/poster/119948"]
+local_source_paths: ["sources/raw/html/neurips.cc/self-verifying-reflection-helps-transformers-with-cot-reasoning-734593de.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-01991E0633A7"
-  - "CLAIM-58E426D9B96E"
-  - "CLAIM-644839E92148"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Hybrid Symbolic–Neural Execution"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-01991E0633A7", "CLAIM-58E426D9B96E", "CLAIM-644839E92148"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Hybrid Symbolic–Neural Execution"]
 ---
 
 # Self-Verifying Reflection Helps Transformers with CoT Reasoning

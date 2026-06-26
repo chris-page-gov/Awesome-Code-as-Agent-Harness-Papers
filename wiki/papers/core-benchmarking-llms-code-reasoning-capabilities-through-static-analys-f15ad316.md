@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks"
+description: "Paper fragment for CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "core-benchmarking-llms-code-reasoning-capabilities-through-static-analys-f15ad316"
-canonical_urls:
-  - "https://neurips.cc/virtual/2025/poster/121601"
-local_source_paths:
-  - "sources/raw/html/neurips.cc/core-benchmarking-llms-code-reasoning-capabilities-through-static-analysis-tasks-2044e091.html"
+canonical_urls: ["https://neurips.cc/virtual/2025/poster/121601"]
+local_source_paths: ["sources/raw/html/neurips.cc/core-benchmarking-llms-code-reasoning-capabilities-through-static-analysis-tasks-2044e091.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-368C5959FD21"
-  - "CLAIM-8D4B0BA435AD"
-  - "CLAIM-E5E5E43F99C5"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-368C5959FD21", "CLAIM-8D4B0BA435AD", "CLAIM-E5E5E43F99C5"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks

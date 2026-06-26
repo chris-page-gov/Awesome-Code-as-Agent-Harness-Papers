@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety"
+description: "Paper fragment for Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "openagentsafety-a-comprehensive-framework-for-evaluating-real-world-ai-a-d60c0cfd"
-canonical_urls:
-  - "https://openreview.net/forum?id=xggSxCFQbA"
-local_source_paths:
-  - "sources/raw/openreview/xggSxCFQbA.pdf"
+canonical_urls: ["https://openreview.net/forum?id=xggSxCFQbA"]
+local_source_paths: ["sources/raw/openreview/xggSxCFQbA.pdf"]
 source_status: "integrated"
 evidence_quality: "cross-agent-reviewed"
 claim_card_ids:
@@ -21,13 +26,9 @@ claim_card_ids:
   - "CLAIM-87FB6F1DAD82"
   - "CLAIM-C6C559AF310A"
   - "CLAIM-FD353FE49B5C"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety

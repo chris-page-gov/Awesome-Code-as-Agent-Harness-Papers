@@ -1,8 +1,14 @@
 ---
+type: "evidence-packet"
 title: "Evidence Packet: topic=evidence-observability-and-redress"
+description: "Evidence Packet: topic=evidence-observability-and-redress OKF evidence-packet page."
+timestamp: "2026-06-26T00:00:00Z"
+tags: ["evidence-packet", "claim-card", "llm-wiki"]
+okf_version: "0.1"
+okfr_role: "page"
+okfr_summary: "Evidence Packet: topic=evidence-observability-and-redress OKF evidence-packet page."
 note_type: "evidence-packet"
 status: "agent-reviewed"
-tags: ["evidence-packet", "claim-card", "llm-wiki"]
 generated: "2026-06-02"
 ---
 

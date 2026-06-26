@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation"
+description: "Paper fragment for MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mlagentbench-evaluating-language-agents-on-machine-learning-experimentat-26cca14a"
-canonical_urls:
-  - "https://arxiv.org/abs/2310.03302"
-local_source_paths:
-  - "sources/raw/arxiv/2310.03302.pdf"
+canonical_urls: ["https://arxiv.org/abs/2310.03302"]
+local_source_paths: ["sources/raw/arxiv/2310.03302.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3D7D08588373"
-  - "CLAIM-87E71574DDC9"
-  - "CLAIM-E6CADEBEF74B"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Toward Agentic and Instruction-Following Science"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3D7D08588373", "CLAIM-87E71574DDC9", "CLAIM-E6CADEBEF74B"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Toward Agentic and Instruction-Following Science"]
 ---
 
 # MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation

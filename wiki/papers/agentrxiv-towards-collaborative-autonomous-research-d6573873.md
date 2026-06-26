@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AgentRxiv: Towards Collaborative Autonomous Research"
+description: "Paper fragment for AgentRxiv: Towards Collaborative Autonomous Research, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AgentRxiv: Towards Collaborative Autonomous Research, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agentrxiv-towards-collaborative-autonomous-research-d6573873"
-canonical_urls:
-  - "https://arxiv.org/abs/2503.18102"
-local_source_paths:
-  - "sources/raw/arxiv/2503.18102.pdf"
+canonical_urls: ["https://arxiv.org/abs/2503.18102"]
+local_source_paths: ["sources/raw/arxiv/2503.18102.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7F6BD1EF60E1"
-  - "CLAIM-A2B1863CFEC0"
-  - "CLAIM-F34342232511"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Unifying Ideation, Experimentation, Analysis, and Communication"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-7F6BD1EF60E1", "CLAIM-A2B1863CFEC0", "CLAIM-F34342232511"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Unifying Ideation, Experimentation, Analysis, and Communication"]
 ---
 
 # AgentRxiv: Towards Collaborative Autonomous Research

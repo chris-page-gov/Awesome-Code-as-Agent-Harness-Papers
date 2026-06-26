@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents"
+description: "Paper fragment for Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-7f843ef1"
-canonical_urls:
-  - "https://arxiv.org/abs/2410.14209"
-local_source_paths:
-  - "sources/raw/arxiv/2410.14209.pdf"
+canonical_urls: ["https://arxiv.org/abs/2410.14209"]
+local_source_paths: ["sources/raw/arxiv/2410.14209.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-868AD6A3A5D8"
-  - "CLAIM-AD5DBAAD3BD2"
-  - "CLAIM-C2FCD90189CE"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Verification-Driven Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-868AD6A3A5D8", "CLAIM-AD5DBAAD3BD2", "CLAIM-C2FCD90189CE"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Verification-Driven Tool Use"]
 ---
 
 # Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents

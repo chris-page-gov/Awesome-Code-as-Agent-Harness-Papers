@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Teaching Large Language Models to Self-Debug"
+description: "Paper fragment for Teaching Large Language Models to Self-Debug, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Teaching Large Language Models to Self-Debug, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "teaching-large-language-models-to-self-debug-6597977d"
-canonical_urls:
-  - "https://arxiv.org/abs/2304.05128"
-local_source_paths:
-  - "sources/raw/arxiv/2304.05128.pdf"
+canonical_urls: ["https://arxiv.org/abs/2304.05128"]
+local_source_paths: ["sources/raw/arxiv/2304.05128.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2758CE406B6F"
-  - "CLAIM-772B5C0A54A2"
-  - "CLAIM-BF083B0F1FD6"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2758CE406B6F", "CLAIM-772B5C0A54A2", "CLAIM-BF083B0F1FD6"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Teaching Large Language Models to Self-Debug

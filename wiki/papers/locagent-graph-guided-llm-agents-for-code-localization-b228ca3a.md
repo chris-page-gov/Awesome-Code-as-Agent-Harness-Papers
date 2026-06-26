@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "LocAgent: Graph-Guided LLM Agents for Code Localization"
+description: "Paper fragment for LocAgent: Graph-Guided LLM Agents for Code Localization, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for LocAgent: Graph-Guided LLM Agents for Code Localization, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "locagent-graph-guided-llm-agents-for-code-localization-b228ca3a"
-canonical_urls:
-  - "https://aclanthology.org/2025.acl-long.426/"
-local_source_paths:
-  - "sources/raw/acl/2025.acl-long.426.pdf"
+canonical_urls: ["https://aclanthology.org/2025.acl-long.426/"]
+local_source_paths: ["sources/raw/acl/2025.acl-long.426.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-620B864D2D93"
-  - "CLAIM-B0990E123D29"
-  - "CLAIM-FC945B33DBF1"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Structure-Grounded Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-620B864D2D93", "CLAIM-B0990E123D29", "CLAIM-FC945B33DBF1"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Structure-Grounded Planning"]
 ---
 
 # LocAgent: Graph-Guided LLM Agents for Code Localization

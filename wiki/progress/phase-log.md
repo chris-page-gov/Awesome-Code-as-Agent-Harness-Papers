@@ -1,10 +1,16 @@
 ---
+type: "progress"
 title: "Phase Log"
+description: "from 458 README rows."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["progress", "log"]
+okf_version: "0.1"
+okfr_role: "page"
+okfr_summary: "from 458 README rows."
 note_type: "progress"
 status: "active"
-tags: ["progress", "log"]
-related: ["plan.md", "completion-dashboard.md", "../log.md"]
 last_reviewed: "2026-06-02"
+related: ["plan.md", "completion-dashboard.md", "../log.md"]
 ---
 
 # Phase Log

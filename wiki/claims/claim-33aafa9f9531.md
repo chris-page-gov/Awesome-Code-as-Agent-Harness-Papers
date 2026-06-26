@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "iAgent: LLM Agent as a Shield Between User and Recommender Systems provides localized evidence a"
+description: "iAgent: LLM Agent as a Shield Between User and Recommender Systems provides localized evidence about memory and state for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "iAgent: LLM Agent as a Shield Between User and Recommender Systems provides localized evidence about memory and state for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-33AAFA9F9531"
 claim_type: "contribution"
-paper_ids:
-  - "iagent-llm-agent-as-a-shield-between-user-and-recommender-systems-8d04b6af"
+paper_ids: ["iagent-llm-agent-as-a-shield-between-user-and-recommender-systems-8d04b6af"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2403.13851.pdf"
-related_topics:
-  - "harness-mechanisms"
-  - "evidence-observability-and-redress"
+source_refs: ["sources/raw/arxiv/2403.13851.pdf"]
+related_topics: ["harness-mechanisms", "evidence-observability-and-redress"]
 evidence_locator: "sources/raw/arxiv/2403.13851.pdf; extracted sentence match for memory"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-33AAFA9F9531

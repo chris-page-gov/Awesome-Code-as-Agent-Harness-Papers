@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "PaperQA: Retrieval-Augmented Generative Agent for Scientific Research"
+description: "Paper fragment for PaperQA: Retrieval-Augmented Generative Agent for Scientific Research, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for PaperQA: Retrieval-Augmented Generative Agent for Scientific Research, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "paperqa-retrieval-augmented-generative-agent-for-scientific-research-5a8dae6f"
-canonical_urls:
-  - "https://arxiv.org/abs/2312.07559"
-local_source_paths:
-  - "sources/raw/arxiv/2312.07559.pdf"
+canonical_urls: ["https://arxiv.org/abs/2312.07559"]
+local_source_paths: ["sources/raw/arxiv/2312.07559.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0FD54B9B1E46"
-  - "CLAIM-1A97BD32B19F"
-  - "CLAIM-4D34E5347CE4"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Memory as Persistent Program State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0FD54B9B1E46", "CLAIM-1A97BD32B19F", "CLAIM-4D34E5347CE4"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Memory as Persistent Program State"]
 ---
 
 # PaperQA: Retrieval-Augmented Generative Agent for Scientific Research

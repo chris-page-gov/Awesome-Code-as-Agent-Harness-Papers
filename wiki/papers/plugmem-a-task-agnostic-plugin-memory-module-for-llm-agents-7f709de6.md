@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents"
+description: "Paper fragment for PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "plugmem-a-task-agnostic-plugin-memory-module-for-llm-agents-7f709de6"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.03296"
-local_source_paths:
-  - "sources/raw/arxiv/2603.03296.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.03296"]
+local_source_paths: ["sources/raw/arxiv/2603.03296.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3131CF397AB4"
-  - "CLAIM-D0D4CB12BBAD"
-  - "CLAIM-FB1DFECC6737"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Memory as Persistent Program State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3131CF397AB4", "CLAIM-D0D4CB12BBAD", "CLAIM-FB1DFECC6737"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Memory as Persistent Program State"]
 ---
 
 # PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents

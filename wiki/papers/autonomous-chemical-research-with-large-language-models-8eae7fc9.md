@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Autonomous chemical research with large language models"
+description: "Paper fragment for Autonomous chemical research with large language models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Autonomous chemical research with large language models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "autonomous-chemical-research-with-large-language-models-8eae7fc9"
-canonical_urls:
-  - "https://www.nature.com/articles/s41586-023-06792-0"
-local_source_paths:
-  - "sources/raw/html/nature.com/autonomous-chemical-research-with-large-language-models-0c447ea7.html"
+canonical_urls: ["https://www.nature.com/articles/s41586-023-06792-0"]
+local_source_paths: ["sources/raw/html/nature.com/autonomous-chemical-research-with-large-language-models-0c447ea7.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-018328A566D5"
-  - "CLAIM-26203CD38DA7"
-  - "CLAIM-321C44E2FF21"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Scientific Discovery as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-018328A566D5", "CLAIM-26203CD38DA7", "CLAIM-321C44E2FF21"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Scientific Discovery as a Partially Observable Program World"]
 ---
 
 # Autonomous chemical research with large language models

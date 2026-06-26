@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ControlLLM: Augment Language Models with Tools by Searching on Graphs"
+description: "Paper fragment for ControlLLM: Augment Language Models with Tools by Searching on Graphs, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ControlLLM: Augment Language Models with Tools by Searching on Graphs, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "controlllm-augment-language-models-with-tools-by-searching-on-graphs-8e530226"
-canonical_urls:
-  - "https://link.springer.com/chapter/10.1007/978-3-031-73254-6_6"
-local_source_paths:
-  - "sources/raw/html/link.springer.com/controlllm-augment-language-models-with-tools-by-searching-on-graphs-83f73da0.html"
+canonical_urls: ["https://link.springer.com/chapter/10.1007/978-3-031-73254-6_6"]
+local_source_paths: ["sources/raw/html/link.springer.com/controlllm-augment-language-models-with-tools-by-searching-on-graphs-83f73da0.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-855518567645"
-  - "CLAIM-9DCF9B6F283E"
-  - "CLAIM-B7B91F164632"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Workflow-Orchestration Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-855518567645", "CLAIM-9DCF9B6F283E", "CLAIM-B7B91F164632"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Workflow-Orchestration Tool Use"]
 ---
 
 # ControlLLM: Augment Language Models with Tools by Searching on Graphs

@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory"
+description: "Paper fragment for CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codemem-architecting-reproducible-agents-via-dynamic-mcp-and-procedural-51c5353a"
-canonical_urls:
-  - "https://arxiv.org/abs/2512.15813"
-local_source_paths:
-  - "sources/raw/arxiv/2512.15813.pdf"
+canonical_urls: ["https://arxiv.org/abs/2512.15813"]
+local_source_paths: ["sources/raw/arxiv/2512.15813.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-416E0E04986E"
-  - "CLAIM-89A90BE94240"
-  - "CLAIM-ADFB37D4A2D5"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Memory and Context Management at Repository Scale"
-  - "Working Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-416E0E04986E", "CLAIM-89A90BE94240", "CLAIM-ADFB37D4A2D5"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Memory and Context Engineering"]
+survey_subsections: ["Memory and Context Management at Repository Scale", "Working Memory"]
 ---
 
 # CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory

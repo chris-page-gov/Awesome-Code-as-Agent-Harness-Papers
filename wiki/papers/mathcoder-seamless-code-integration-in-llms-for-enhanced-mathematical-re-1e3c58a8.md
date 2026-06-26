@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning"
+description: "Paper fragment for MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mathcoder-seamless-code-integration-in-llms-for-enhanced-mathematical-re-1e3c58a8"
-canonical_urls:
-  - "https://arxiv.org/abs/2310.03731"
-local_source_paths:
-  - "sources/raw/arxiv/2310.03731.pdf"
+canonical_urls: ["https://arxiv.org/abs/2310.03731"]
+local_source_paths: ["sources/raw/arxiv/2310.03731.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7E4D6E1B607E"
-  - "CLAIM-ACB98F54CEFE"
-  - "CLAIM-DF10323C6CA7"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-7E4D6E1B607E", "CLAIM-ACB98F54CEFE", "CLAIM-DF10323C6CA7"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning

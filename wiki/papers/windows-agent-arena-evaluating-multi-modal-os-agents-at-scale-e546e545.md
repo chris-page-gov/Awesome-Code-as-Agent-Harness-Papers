@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale"
+description: "Paper fragment for Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "windows-agent-arena-evaluating-multi-modal-os-agents-at-scale-e546e545"
-canonical_urls:
-  - "https://proceedings.mlr.press/v267/bonatti25a.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.mlr.press/windows-agent-arena-evaluating-multi-modal-os-agents-at-scale-e0f66ef6.html"
+canonical_urls: ["https://proceedings.mlr.press/v267/bonatti25a.html"]
+local_source_paths: ["sources/raw/html/proceedings.mlr.press/windows-agent-arena-evaluating-multi-modal-os-agents-at-scale-e0f66ef6.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2BDEBEB93C80"
-  - "CLAIM-96A1302873CD"
-  - "CLAIM-A2A1E3AEABEE"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2BDEBEB93C80", "CLAIM-96A1302873CD", "CLAIM-A2A1E3AEABEE"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale

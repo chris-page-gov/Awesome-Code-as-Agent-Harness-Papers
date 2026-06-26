@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "AutoCodeRover: Autonomous Program Improvement"
+description: "Paper fragment for AutoCodeRover: Autonomous Program Improvement, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AutoCodeRover: Autonomous Program Improvement, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "autocoderover-autonomous-program-improvement-ae9813ae"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3650212.3680384"
-  - "https://arxiv.org/abs/2404.05427"
-local_source_paths:
-  - "sources/raw/arxiv/2404.05427.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3650212.3680384", "https://arxiv.org/abs/2404.05427"]
+local_source_paths: ["sources/raw/arxiv/2404.05427.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5C1DC7F4A33A"
-  - "CLAIM-7883C3DE73B7"
-  - "CLAIM-E9DA13D2FEA1"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Semantic Memory"
-  - "The Repository as a Persistent Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5C1DC7F4A33A", "CLAIM-7883C3DE73B7", "CLAIM-E9DA13D2FEA1"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Memory and Context Engineering"]
+survey_subsections: ["Semantic Memory", "The Repository as a Persistent Program World"]
 ---
 
 # AutoCodeRover: Autonomous Program Improvement

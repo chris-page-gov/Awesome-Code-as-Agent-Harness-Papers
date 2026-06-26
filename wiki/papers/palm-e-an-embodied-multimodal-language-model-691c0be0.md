@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "PaLM-E: An Embodied Multimodal Language Model"
+description: "Paper fragment for PaLM-E: An Embodied Multimodal Language Model, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for PaLM-E: An Embodied Multimodal Language Model, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "palm-e-an-embodied-multimodal-language-model-691c0be0"
-canonical_urls:
-  - "https://arxiv.org/abs/2303.03378"
-local_source_paths:
-  - "sources/raw/arxiv/2303.03378.pdf"
+canonical_urls: ["https://arxiv.org/abs/2303.03378"]
+local_source_paths: ["sources/raw/arxiv/2303.03378.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-32C3FC15E414"
-  - "CLAIM-E2D724877C49"
-  - "CLAIM-F9534D5087E4"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Autonomous Embodied Agents"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-32C3FC15E414", "CLAIM-E2D724877C49", "CLAIM-F9534D5087E4"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Autonomous Embodied Agents"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions"]
 ---
 
 # PaLM-E: An Embodied Multimodal Language Model

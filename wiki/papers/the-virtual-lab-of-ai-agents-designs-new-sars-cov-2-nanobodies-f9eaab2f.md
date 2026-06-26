@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "The virtual lab of AI agents designs new SARS-CoV-2 nanobodies"
+description: "Paper fragment for The virtual lab of AI agents designs new SARS-CoV-2 nanobodies, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for The virtual lab of AI agents designs new SARS-CoV-2 nanobodies, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies-f9eaab2f"
-canonical_urls:
-  - "https://www.nature.com/articles/s41586-025-09442-9"
-local_source_paths:
-  - "sources/raw/html/nature.com/the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies-2571def1.html"
+canonical_urls: ["https://www.nature.com/articles/s41586-025-09442-9"]
+local_source_paths: ["sources/raw/html/nature.com/the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies-2571def1.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-07824302F979"
-  - "CLAIM-7029CB6D8CA3"
-  - "CLAIM-859C9800C16E"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Scientific Discovery as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-07824302F979", "CLAIM-7029CB6D8CA3", "CLAIM-859C9800C16E"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Scientific Discovery as a Partially Observable Program World"]
 ---
 
 # The virtual lab of AI agents designs new SARS-CoV-2 nanobodies

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Composer: Building a fast frontier model with reinforcement learning"
+description: "Paper fragment for Composer: Building a fast frontier model with reinforcement learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Composer: Building a fast frontier model with reinforcement learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "composer-building-a-fast-frontier-model-with-reinforcement-learning-9d8c0590"
-canonical_urls:
-  - "https://cursor.com/blog/composer"
-local_source_paths:
-  - "sources/raw/html/cursor.com/composer-building-a-fast-frontier-model-with-reinforcement-learning-7cdde98f.html"
+canonical_urls: ["https://cursor.com/blog/composer"]
+local_source_paths: ["sources/raw/html/cursor.com/composer-building-a-fast-frontier-model-with-reinforcement-learning-7cdde98f.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-290EDD5AC98B"
-  - "CLAIM-5763873FAFB3"
-  - "CLAIM-8EA9862D9BE8"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "The Harness as a Distillation Surface"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-290EDD5AC98B", "CLAIM-5763873FAFB3", "CLAIM-8EA9862D9BE8"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["The Harness as a Distillation Surface"]
 ---
 
 # Composer: Building a fast frontier model with reinforcement learning

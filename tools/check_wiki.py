@@ -8,6 +8,8 @@ import re
 import sys
 from pathlib import Path
 
+from okf_lib import okf_errors
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FILES = [
@@ -354,6 +356,7 @@ def main() -> int:
     check_stale_phrases(errors)
     if (ROOT / "wiki").is_dir():
         check_wiki_links(errors)
+    errors.extend(okf_errors())
     if errors:
         print("Wiki validation failed:")
         for error in errors:

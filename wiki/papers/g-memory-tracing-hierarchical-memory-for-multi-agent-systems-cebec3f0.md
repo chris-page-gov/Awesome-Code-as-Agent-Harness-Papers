@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems"
+description: "Paper fragment for G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "g-memory-tracing-hierarchical-memory-for-multi-agent-systems-cebec3f0"
-canonical_urls:
-  - "https://openreview.net/forum?id=mmIAp3cVS0"
-local_source_paths:
-  - "sources/raw/openreview/mmIAp3cVS0.pdf"
+canonical_urls: ["https://openreview.net/forum?id=mmIAp3cVS0"]
+local_source_paths: ["sources/raw/openreview/mmIAp3cVS0.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5BAC1AC6B5D1"
-  - "CLAIM-8B86DEEB9B55"
-  - "CLAIM-9CE8BFE3B5DE"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Multi-Agent Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5BAC1AC6B5D1", "CLAIM-8B86DEEB9B55", "CLAIM-9CE8BFE3B5DE"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Multi-Agent Memory"]
 ---
 
 # G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems

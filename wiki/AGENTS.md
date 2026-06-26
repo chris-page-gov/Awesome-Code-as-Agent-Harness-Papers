@@ -1,3 +1,13 @@
+---
+type: "page"
+title: "Wiki Operating Rules"
+description: "This folder is the LLM-Wiki knowledge layer for the Code as Agent Harness fork."
+timestamp: "2026-06-26T00:00:00Z"
+okf_version: "0.1"
+okfr_role: "page"
+okfr_summary: "This folder is the LLM-Wiki knowledge layer for the Code as Agent Harness fork."
+---
+
 # Wiki Operating Rules
 
 This folder is the LLM-Wiki knowledge layer for the Code as Agent Harness fork.
@@ -38,4 +48,3 @@ This folder is the LLM-Wiki knowledge layer for the Code as Agent Harness fork.
 5. Update relevant topics, maps, and README xrefs.
 6. Update `wiki/log.md`, `PROGRESS.md`, and `CHANGELOG.md`.
 7. Run `python3 tools/check_wiki.py`.
-

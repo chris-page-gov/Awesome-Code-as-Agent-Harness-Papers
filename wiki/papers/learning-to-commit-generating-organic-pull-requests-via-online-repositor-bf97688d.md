@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Learning to Commit: Generating Organic Pull Requests via Online Repository Memory"
+description: "Paper fragment for Learning to Commit: Generating Organic Pull Requests via Online Repository Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Learning to Commit: Generating Organic Pull Requests via Online Repository Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "learning-to-commit-generating-organic-pull-requests-via-online-repositor-bf97688d"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.26664"
-local_source_paths:
-  - "sources/raw/arxiv/2603.26664.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.26664"]
+local_source_paths: ["sources/raw/arxiv/2603.26664.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4EDB33C9AFEA"
-  - "CLAIM-6572A73F9D4F"
-  - "CLAIM-FC4A22B9B7D0"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Developer Intent and Project Conventions as Latent State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4EDB33C9AFEA", "CLAIM-6572A73F9D4F", "CLAIM-FC4A22B9B7D0"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Developer Intent and Project Conventions as Latent State"]
 ---
 
 # Learning to Commit: Generating Organic Pull Requests via Online Repository Memory

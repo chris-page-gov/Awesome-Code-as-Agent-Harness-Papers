@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "On the Impacts of Contexts on Repository-Level Code Generation"
+description: "Paper fragment for On the Impacts of Contexts on Repository-Level Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for On the Impacts of Contexts on Repository-Level Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "on-the-impacts-of-contexts-on-repository-level-code-generation-09ffc66e"
-canonical_urls:
-  - "https://aclanthology.org/2025.findings-naacl.82/"
-local_source_paths:
-  - "sources/raw/acl/2025.findings-naacl.82.pdf"
+canonical_urls: ["https://aclanthology.org/2025.findings-naacl.82/"]
+local_source_paths: ["sources/raw/acl/2025.findings-naacl.82.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1AA5EC496E07"
-  - "CLAIM-7E6511CC7EBB"
-  - "CLAIM-BC278D9D4CE8"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1AA5EC496E07", "CLAIM-7E6511CC7EBB", "CLAIM-BC278D9D4CE8"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # On the Impacts of Contexts on Repository-Level Code Generation

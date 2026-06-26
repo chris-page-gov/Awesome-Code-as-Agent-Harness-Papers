@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Uncovering ChatGPT's Capabilities in Recommender Systems"
+description: "Paper fragment for Uncovering ChatGPT's Capabilities in Recommender Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Uncovering ChatGPT's Capabilities in Recommender Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "uncovering-chatgpt-s-capabilities-in-recommender-systems-2d2591c3"
-canonical_urls:
-  - "https://arxiv.org/abs/2305.06566"
-local_source_paths:
-  - "sources/raw/arxiv/2305.06566.pdf"
+canonical_urls: ["https://arxiv.org/abs/2305.06566"]
+local_source_paths: ["sources/raw/arxiv/2305.06566.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-6945AEF56DB3"
-  - "CLAIM-AD306DFFA3C5"
-  - "CLAIM-B6B5E3E3A05C"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "From Static Recommendation to Interactive Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-6945AEF56DB3", "CLAIM-AD306DFFA3C5", "CLAIM-B6B5E3E3A05C"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["From Static Recommendation to Interactive Personalization"]
 ---
 
 # Uncovering ChatGPT's Capabilities in Recommender Systems

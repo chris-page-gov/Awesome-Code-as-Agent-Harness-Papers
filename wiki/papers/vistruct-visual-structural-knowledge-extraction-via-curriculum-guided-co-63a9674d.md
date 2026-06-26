@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ViStruct: Visual Structural Knowledge Extraction via Curriculum Guided Code-Vision Representation"
+description: "Paper fragment for ViStruct: Visual Structural Knowledge Extraction via Curriculum Guided Code-Vision Representation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ViStruct: Visual Structural Knowledge Extraction via Curriculum Guided Code-Vision Representation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "vistruct-visual-structural-knowledge-extraction-via-curriculum-guided-co-63a9674d"
-canonical_urls:
-  - "https://aclanthology.org/2023.emnlp-main.824/"
-local_source_paths:
-  - "sources/raw/acl/2023.emnlp-main.824.pdf"
+canonical_urls: ["https://aclanthology.org/2023.emnlp-main.824/"]
+local_source_paths: ["sources/raw/acl/2023.emnlp-main.824.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4730F17B5335"
-  - "CLAIM-A131020D6343"
-  - "CLAIM-F5469484259D"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Structured World Representations"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4730F17B5335", "CLAIM-A131020D6343", "CLAIM-F5469484259D"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Structured World Representations"]
 ---
 
 # ViStruct: Visual Structural Knowledge Extraction via Curriculum Guided Code-Vision Representation

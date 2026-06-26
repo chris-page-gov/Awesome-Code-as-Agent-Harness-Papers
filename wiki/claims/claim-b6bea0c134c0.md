@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces provides"
+description: "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces provides localized evidence about approval and human oversight for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces provides localized evidence about approval and human oversight for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-B6BEA0C134C0"
 claim_type: "governance-control"
-paper_ids:
-  - "terminal-bench-benchmarking-agents-on-hard-realistic-tasks-in-command-li-f510afcd"
+paper_ids: ["terminal-bench-benchmarking-agents-on-hard-realistic-tasks-in-command-li-f510afcd"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2601.11868.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "procurement-and-conformance"
+source_refs: ["sources/raw/arxiv/2601.11868.pdf"]
+related_topics: ["evidence-observability-and-redress", "procurement-and-conformance"]
 evidence_locator: "sources/raw/arxiv/2601.11868.pdf; extracted sentence match for approval"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-B6BEA0C134C0

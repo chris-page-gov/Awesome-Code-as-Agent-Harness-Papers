@@ -1,3 +1,13 @@
+---
+type: "report"
+title: "Reports"
+description: "Reports apply the wiki corpus to concrete review tasks. They should state which sources were used, where the wiki was sufficient, and where external or original source review was required."
+timestamp: "2026-06-26T00:00:00Z"
+okf_version: "0.1"
+okfr_role: "index"
+okfr_summary: "Reports apply the wiki corpus to concrete review tasks. They should state which sources were used, where the wiki was sufficient, and where external or original source review was required."
+---
+
 # Reports
 
 Reports apply the wiki corpus to concrete review tasks. They should state which

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models"
+description: "Paper fragment for ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "researchagent-iterative-research-idea-generation-over-scientific-literat-2fb7c155"
-canonical_urls:
-  - "https://aclanthology.org/2025.naacl-long.342/"
-local_source_paths:
-  - "sources/raw/acl/2025.naacl-long.342.pdf"
+canonical_urls: ["https://aclanthology.org/2025.naacl-long.342/"]
+local_source_paths: ["sources/raw/acl/2025.naacl-long.342.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0EC7309B9001"
-  - "CLAIM-1316E396E040"
-  - "CLAIM-8193DA58AE74"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Unifying Ideation, Experimentation, Analysis, and Communication"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0EC7309B9001", "CLAIM-1316E396E040", "CLAIM-8193DA58AE74"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Unifying Ideation, Experimentation, Analysis, and Communication"]
 ---
 
 # ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models

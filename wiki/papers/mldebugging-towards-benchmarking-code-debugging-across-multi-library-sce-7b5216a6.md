@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios"
+description: "Paper fragment for MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mldebugging-towards-benchmarking-code-debugging-across-multi-library-sce-7b5216a6"
-canonical_urls:
-  - "https://aclanthology.org/2025.findings-acl.305/"
-local_source_paths:
-  - "sources/raw/acl/2025.findings-acl.305.pdf"
+canonical_urls: ["https://aclanthology.org/2025.findings-acl.305/"]
+local_source_paths: ["sources/raw/acl/2025.findings-acl.305.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0F719D390936"
-  - "CLAIM-2E1368BA4930"
-  - "CLAIM-FEAF89E4EF99"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0F719D390936", "CLAIM-2E1368BA4930", "CLAIM-FEAF89E4EF99"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios

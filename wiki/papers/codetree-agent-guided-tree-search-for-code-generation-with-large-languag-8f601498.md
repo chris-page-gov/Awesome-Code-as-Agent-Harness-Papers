@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models"
+description: "Paper fragment for CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codetree-agent-guided-tree-search-for-code-generation-with-large-languag-8f601498"
-canonical_urls:
-  - "https://aclanthology.org/2025.naacl-long.189/"
-local_source_paths:
-  - "sources/raw/acl/2025.naacl-long.189.pdf"
+canonical_urls: ["https://aclanthology.org/2025.naacl-long.189/"]
+local_source_paths: ["sources/raw/acl/2025.naacl-long.189.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-A70BD89EFAB8"
-  - "CLAIM-B2D84491FDC5"
-  - "CLAIM-F43676AF4416"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-A70BD89EFAB8", "CLAIM-B2D84491FDC5", "CLAIM-F43676AF4416"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Search-Based Planning"]
 ---
 
 # CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models

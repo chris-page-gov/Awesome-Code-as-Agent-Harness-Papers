@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses"
+description: "Paper fragment for Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agentic-harness-engineering-observability-driven-automatic-evolution-of-32a741f4"
-canonical_urls:
-  - "https://arxiv.org/abs/2604.25850"
-local_source_paths:
-  - "sources/raw/arxiv/2604.25850.pdf"
+canonical_urls: ["https://arxiv.org/abs/2604.25850"]
+local_source_paths: ["sources/raw/arxiv/2604.25850.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
 claim_card_ids:
@@ -21,13 +26,9 @@ claim_card_ids:
   - "CLAIM-A09F9FE82A41"
   - "CLAIM-D5240C66A62D"
   - "CLAIM-F1341565CA18"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-last_reviewed: "2026-06-02"
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces"]
 ---
 
 # Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses

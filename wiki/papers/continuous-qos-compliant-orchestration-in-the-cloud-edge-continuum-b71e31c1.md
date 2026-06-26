@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Continuous QoS-compliant Orchestration in the Cloud-Edge Continuum"
+description: "Paper fragment for Continuous QoS-compliant Orchestration in the Cloud-Edge Continuum, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Continuous QoS-compliant Orchestration in the Cloud-Edge Continuum, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "continuous-qos-compliant-orchestration-in-the-cloud-edge-continuum-b71e31c1"
-canonical_urls:
-  - "https://arxiv.org/abs/2310.02985"
-local_source_paths:
-  - "sources/raw/arxiv/2310.02985.pdf"
+canonical_urls: ["https://arxiv.org/abs/2310.02985"]
+local_source_paths: ["sources/raw/arxiv/2310.02985.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-150EF7FAB35F"
-  - "CLAIM-AA05B36C0A53"
-  - "CLAIM-FFE1FA04F1B8"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-150EF7FAB35F", "CLAIM-AA05B36C0A53", "CLAIM-FFE1FA04F1B8"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Continuous QoS-compliant Orchestration in the Cloud-Edge Continuum

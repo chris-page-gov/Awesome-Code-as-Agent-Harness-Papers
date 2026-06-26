@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Agent Laboratory: Using LLM Agents as Research Assistants provides localized evidence about appr"
+description: "Agent Laboratory: Using LLM Agents as Research Assistants provides localized evidence about approval and human oversight for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Agent Laboratory: Using LLM Agents as Research Assistants provides localized evidence about approval and human oversight for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-ABEFFD77AB3C"
 claim_type: "governance-control"
-paper_ids:
-  - "agent-laboratory-using-llm-agents-as-research-assistants-193c060a"
+paper_ids: ["agent-laboratory-using-llm-agents-as-research-assistants-193c060a"]
 source_ids: []
-source_refs:
-  - "sources/raw/acl/2025.findings-emnlp.320.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "procurement-and-conformance"
+source_refs: ["sources/raw/acl/2025.findings-emnlp.320.pdf"]
+related_topics: ["evidence-observability-and-redress", "procurement-and-conformance"]
 evidence_locator: "sources/raw/acl/2025.findings-emnlp.320.pdf; extracted sentence match for approval"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-ABEFFD77AB3C

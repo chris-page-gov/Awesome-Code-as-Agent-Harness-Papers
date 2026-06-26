@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Col"
+description: "Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration provides localized evidence about memory and state for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration provides localized evidence about memory and state for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-65D003FB42CF"
 claim_type: "contribution"
-paper_ids:
-  - "mobile-agent-v2-mobile-device-operation-assistant-with-effective-navigat-a7095268"
+paper_ids: ["mobile-agent-v2-mobile-device-operation-assistant-with-effective-navigat-a7095268"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2406.01014.pdf"
-related_topics:
-  - "harness-mechanisms"
-  - "evidence-observability-and-redress"
+source_refs: ["sources/raw/arxiv/2406.01014.pdf"]
+related_topics: ["harness-mechanisms", "evidence-observability-and-redress"]
 evidence_locator: "sources/raw/arxiv/2406.01014.pdf; extracted sentence match for memory"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-65D003FB42CF

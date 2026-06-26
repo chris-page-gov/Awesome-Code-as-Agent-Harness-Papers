@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ExpeL: LLM Agents Are Experiential Learners"
+description: "Paper fragment for ExpeL: LLM Agents Are Experiential Learners, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ExpeL: LLM Agents Are Experiential Learners, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "expel-llm-agents-are-experiential-learners-ddcdf54b"
-canonical_urls:
-  - "https://ojs.aaai.org/index.php/AAAI/article/view/29936"
-local_source_paths:
-  - "sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html"
+canonical_urls: ["https://ojs.aaai.org/index.php/AAAI/article/view/29936"]
+local_source_paths: ["sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-32F1E0F37703"
-  - "CLAIM-AC60296B7174"
-  - "CLAIM-BEDC81020246"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Experiential Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-32F1E0F37703", "CLAIM-AC60296B7174", "CLAIM-BEDC81020246"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Experiential Memory"]
 ---
 
 # ExpeL: LLM Agents Are Experiential Learners

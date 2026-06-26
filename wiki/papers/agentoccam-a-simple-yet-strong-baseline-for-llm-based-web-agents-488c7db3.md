@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents"
+description: "Paper fragment for AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agentoccam-a-simple-yet-strong-baseline-for-llm-based-web-agents-488c7db3"
-canonical_urls:
-  - "https://openreview.net/forum?id=oWdzUpOlkX"
-local_source_paths:
-  - "sources/raw/openreview/oWdzUpOlkX.pdf"
+canonical_urls: ["https://openreview.net/forum?id=oWdzUpOlkX"]
+local_source_paths: ["sources/raw/openreview/oWdzUpOlkX.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-9F2BEC4345AD"
-  - "CLAIM-A67DA00099DA"
-  - "CLAIM-E9E2960FA015"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-9F2BEC4345AD", "CLAIM-A67DA00099DA", "CLAIM-E9E2960FA015"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents

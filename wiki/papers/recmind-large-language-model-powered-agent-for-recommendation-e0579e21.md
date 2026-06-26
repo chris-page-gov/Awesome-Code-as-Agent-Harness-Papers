@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "RecMind: Large Language Model Powered Agent for Recommendation"
+description: "Paper fragment for RecMind: Large Language Model Powered Agent for Recommendation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RecMind: Large Language Model Powered Agent for Recommendation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "recmind-large-language-model-powered-agent-for-recommendation-e0579e21"
-canonical_urls:
-  - "https://arxiv.org/abs/2308.14296"
-local_source_paths:
-  - "sources/raw/arxiv/2308.14296.pdf"
+canonical_urls: ["https://arxiv.org/abs/2308.14296"]
+local_source_paths: ["sources/raw/arxiv/2308.14296.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-9A436925B07E"
-  - "CLAIM-9E3D7EF432AA"
-  - "CLAIM-EDAD56FCBEAB"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "From Static Recommendation to Interactive Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-9A436925B07E", "CLAIM-9E3D7EF432AA", "CLAIM-EDAD56FCBEAB"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["From Static Recommendation to Interactive Personalization"]
 ---
 
 # RecMind: Large Language Model Powered Agent for Recommendation

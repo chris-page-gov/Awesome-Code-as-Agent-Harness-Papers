@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodeGlance: Understanding Code Reasoning Challenges in LLMs through Multi-Dimensional Feature Analysis"
+description: "Paper fragment for CodeGlance: Understanding Code Reasoning Challenges in LLMs through Multi-Dimensional Feature Analysis, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeGlance: Understanding Code Reasoning Challenges in LLMs through Multi-Dimensional Feature Analysis, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codeglance-understanding-code-reasoning-challenges-in-llms-through-multi-7f129bb5"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.13962"
-local_source_paths:
-  - "sources/raw/arxiv/2602.13962.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.13962"]
+local_source_paths: ["sources/raw/arxiv/2602.13962.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-35028FCEE2C4"
-  - "CLAIM-3648BCD9579E"
-  - "CLAIM-DB530A758B04"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-35028FCEE2C4", "CLAIM-3648BCD9579E", "CLAIM-DB530A758B04"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # CodeGlance: Understanding Code Reasoning Challenges in LLMs through Multi-Dimensional Feature Analysis

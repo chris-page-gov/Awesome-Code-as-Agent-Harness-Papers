@@ -1,8 +1,15 @@
 ---
-title: ""
+type: "claim-card"
+title: "Claim ID"
+description: "Claim Card for Claim ID, including evidence locator, source references, review status, and topic links."
+timestamp: "2026-06-26T00:00:00Z"
+tags: ["claim-card", "llm-wiki"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Claim Card for Claim ID, including evidence locator, source references, review status, and topic links."
 note_type: "claim-card"
 status: "agent-drafted"
-tags: ["claim-card", "llm-wiki"]
+last_reviewed: "YYYY-MM-DD"
 claim_id: ""
 claim_type: ""
 paper_ids: []
@@ -16,7 +23,6 @@ reviewer: ""
 confidence: 0.0
 related_topics: []
 volatility_flag: false
-last_reviewed: "YYYY-MM-DD"
 ---
 
 # Claim ID

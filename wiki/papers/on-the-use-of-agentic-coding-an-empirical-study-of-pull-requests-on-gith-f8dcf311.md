@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub"
+description: "Paper fragment for On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "on-the-use-of-agentic-coding-an-empirical-study-of-pull-requests-on-gith-f8dcf311"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3798166"
-  - "https://arxiv.org/pdf/2509.14745"
-local_source_paths:
-  - "sources/raw/arxiv/2509.14745.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3798166", "https://arxiv.org/pdf/2509.14745"]
+local_source_paths: ["sources/raw/arxiv/2509.14745.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-22C4A639126F"
-  - "CLAIM-BF1A46B6F721"
-  - "CLAIM-EC2F84DBD507"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Workflow-Orchestration Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-22C4A639126F", "CLAIM-BF1A46B6F721", "CLAIM-EC2F84DBD507"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Workflow-Orchestration Tool Use"]
 ---
 
 # On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub

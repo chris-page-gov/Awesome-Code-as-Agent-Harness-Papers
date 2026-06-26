@@ -1,34 +1,24 @@
 ---
+type: "paper"
 title: "L2MAC: Large language model automatic computer for extensive code generation"
+description: "Paper fragment for L2MAC: Large language model automatic computer for extensive code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for L2MAC: Large language model automatic computer for extensive code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "l2mac-large-language-model-automatic-computer-for-extensive-code-generat-4f91c91d"
-canonical_urls:
-  - "https://arxiv.org/abs/2310.02003"
-local_source_paths:
-  - "sources/raw/arxiv/2310.02003.pdf"
+canonical_urls: ["https://arxiv.org/abs/2310.02003"]
+local_source_paths: ["sources/raw/arxiv/2310.02003.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-98D5323716D4"
-  - "CLAIM-AAFD22DB0289"
-  - "CLAIM-C94273684644"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Execution Feedback Integration"
-  - "Harness-State Convergence"
-  - "Shared Harness Representation"
-  - "Shared-Harness Synchronization"
-  - "Workflow Topology"
-survey_subsections:
-  - "Blackboard / Shared-State Representation"
-  - "Compiler and Syntax Feedback"
-  - "Correctness Convergence (Test-Gated)"
-  - "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)"
-  - "Shared Blackboard"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-98D5323716D4", "CLAIM-AAFD22DB0289", "CLAIM-C94273684644"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Execution Feedback Integration", "Harness-State Convergence", "Shared Harness Representation", "Shared-Harness Synchronization", "Workflow Topology"]
+survey_subsections: ["Blackboard / Shared-State Representation", "Compiler and Syntax Feedback", "Correctness Convergence (Test-Gated)", "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)", "Shared Blackboard"]
 ---
 
 # L2MAC: Large language model automatic computer for extensive code generation

@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning"
+description: "R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-0A0E374C1CC5"
 claim_type: "evaluation-result"
-paper_ids:
-  - "r1-code-interpreter-llms-reason-with-code-via-supervised-and-multi-stage-7b9d409d"
+paper_ids: ["r1-code-interpreter-llms-reason-with-code-via-supervised-and-multi-stage-7b9d409d"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2505.21668.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2505.21668.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2505.21668.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-0A0E374C1CC5

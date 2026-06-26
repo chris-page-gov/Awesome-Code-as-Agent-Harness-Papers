@@ -1,11 +1,23 @@
 ---
+type: "topic"
 title: "Applications"
+description: "The README applies the harness frame to code assistants, GUI/OS agents, autonomous embodied agents, scientific discovery agents, and an agent personalization section currently present in this fork."
+timestamp: "2026-06-02T00:00:00Z"
+tags:
+  - "topic"
+  - "applications"
+  - "code-assistants"
+  - "gui-os"
+  - "science"
+  - "embodied-agents"
+okf_version: "0.1"
+okfr_role: "topic"
+okfr_summary: "The README applies the harness frame to code assistants, GUI/OS agents, autonomous embodied agents, scientific discovery agents, and an agent personalization section currently present in this fork."
 note_type: "topic"
 status: "active"
-tags: ["topic", "applications", "code-assistants", "gui-os", "science", "embodied-agents"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-README-ORIGINAL-2026-06-02"]
 related: ["code-as-agent-harness.md", "../maps/reading-routes.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Applications
@@ -32,4 +44,3 @@ personalization section currently present in this fork.
 - The README TODO says an agent-personalization section was removed, but the
   current README still contains it. This needs an editorial decision or TODO
   refresh.
-

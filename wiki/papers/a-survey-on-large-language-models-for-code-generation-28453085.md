@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "A Survey on Large Language Models for Code Generation"
+description: "Paper fragment for A Survey on Large Language Models for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A Survey on Large Language Models for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a-survey-on-large-language-models-for-code-generation-28453085"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3747588"
-  - "https://arxiv.org/pdf/2406.00515"
-local_source_paths:
-  - "sources/raw/arxiv/2406.00515.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3747588", "https://arxiv.org/pdf/2406.00515"]
+local_source_paths: ["sources/raw/arxiv/2406.00515.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3A249C781CD4"
-  - "CLAIM-4B7114E526EC"
-  - "CLAIM-CC9198FCAD39"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Semantic Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3A249C781CD4", "CLAIM-4B7114E526EC", "CLAIM-CC9198FCAD39"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Semantic Memory"]
 ---
 
 # A Survey on Large Language Models for Code Generation

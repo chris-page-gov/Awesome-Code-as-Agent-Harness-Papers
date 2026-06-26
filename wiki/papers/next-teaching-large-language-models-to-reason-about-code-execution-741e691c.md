@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "NExT: Teaching Large Language Models to Reason about Code Execution"
+description: "Paper fragment for NExT: Teaching Large Language Models to Reason about Code Execution, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for NExT: Teaching Large Language Models to Reason about Code Execution, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "next-teaching-large-language-models-to-reason-about-code-execution-741e691c"
-canonical_urls:
-  - "https://arxiv.org/abs/2404.14662"
-local_source_paths:
-  - "sources/raw/arxiv/2404.14662.pdf"
+canonical_urls: ["https://arxiv.org/abs/2404.14662"]
+local_source_paths: ["sources/raw/arxiv/2404.14662.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-00396569083D"
-  - "CLAIM-EF969BC343B3"
-  - "CLAIM-FCF307CB844A"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-00396569083D", "CLAIM-EF969BC343B3", "CLAIM-FCF307CB844A"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # NExT: Teaching Large Language Models to Reason about Code Execution

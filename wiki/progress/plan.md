@@ -1,10 +1,16 @@
 ---
+type: "progress"
 title: "Wiki Plan"
+description: "Make the wiki useful immediately for understanding the Code as Agent Harness survey, then progressively localize every referenced source and update xrefs to per-paper wiki fragments."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["progress", "plan"]
+okf_version: "0.1"
+okfr_role: "page"
+okfr_summary: "Make the wiki useful immediately for understanding the Code as Agent Harness survey, then progressively localize every referenced source and update xrefs to per-paper wiki fragments."
 note_type: "progress"
 status: "active"
-tags: ["progress", "plan"]
-related: ["completion-dashboard.md", "phase-log.md", "../../plans/2026-06-02-llm-wiki-conversion.md", "../../plans/2026-06-02-claim-cards-and-evaluation-suite.md", "../../plans/2026-06-02-seelinks-claim-review-package.md"]
 last_reviewed: "2026-06-02"
+related: ["completion-dashboard.md", "phase-log.md", "../../plans/2026-06-02-llm-wiki-conversion.md", "../../plans/2026-06-02-claim-cards-and-evaluation-suite.md", "../../plans/2026-06-02-seelinks-claim-review-package.md"]
 ---
 
 # Wiki Plan

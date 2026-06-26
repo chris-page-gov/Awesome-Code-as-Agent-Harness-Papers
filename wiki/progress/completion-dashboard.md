@@ -1,10 +1,16 @@
 ---
+type: "progress"
 title: "Completion Dashboard"
+description: "Completion Dashboard OKF progress page."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["progress", "dashboard"]
+okf_version: "0.1"
+okfr_role: "page"
+okfr_summary: "Completion Dashboard OKF progress page."
 note_type: "progress"
 status: "active"
-tags: ["progress", "dashboard"]
-related: ["plan.md", "phase-log.md"]
 last_reviewed: "2026-06-02"
+related: ["plan.md", "phase-log.md"]
 ---
 
 # Completion Dashboard

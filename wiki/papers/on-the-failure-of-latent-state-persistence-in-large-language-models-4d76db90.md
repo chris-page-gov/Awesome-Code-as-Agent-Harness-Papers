@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "On the Failure of Latent State Persistence in Large Language Models"
+description: "Paper fragment for On the Failure of Latent State Persistence in Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for On the Failure of Latent State Persistence in Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "on-the-failure-of-latent-state-persistence-in-large-language-models-4d76db90"
-canonical_urls:
-  - "https://arxiv.org/abs/2505.10571"
-local_source_paths:
-  - "sources/raw/arxiv/2505.10571.pdf"
+canonical_urls: ["https://arxiv.org/abs/2505.10571"]
+local_source_paths: ["sources/raw/arxiv/2505.10571.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2EFAF93BC94D"
-  - "CLAIM-93E26200C702"
-  - "CLAIM-970EAD930AD6"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Working Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2EFAF93BC94D", "CLAIM-93E26200C702", "CLAIM-970EAD930AD6"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Working Memory"]
 ---
 
 # On the Failure of Latent State Persistence in Large Language Models

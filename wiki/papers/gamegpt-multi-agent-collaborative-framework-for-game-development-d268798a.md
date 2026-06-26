@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "GameGPT: Multi-agent Collaborative Framework for Game Development"
+description: "Paper fragment for GameGPT: Multi-agent Collaborative Framework for Game Development, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for GameGPT: Multi-agent Collaborative Framework for Game Development, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "gamegpt-multi-agent-collaborative-framework-for-game-development-d268798a"
-canonical_urls:
-  - "https://arxiv.org/abs/2310.08067"
-local_source_paths:
-  - "sources/raw/arxiv/2310.08067.pdf"
+canonical_urls: ["https://arxiv.org/abs/2310.08067"]
+local_source_paths: ["sources/raw/arxiv/2310.08067.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-304904503DD6"
-  - "CLAIM-33A432009258"
-  - "CLAIM-B3266B41C8D0"
-survey_layers:
-  - "Harness Mechanisms"
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Memory and Context Engineering"
-  - "Shared Harness Representation"
-survey_subsections:
-  - "Blackboard / Shared-State Representation"
-  - "Multi-Agent Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-304904503DD6", "CLAIM-33A432009258", "CLAIM-B3266B41C8D0"]
+survey_layers: ["Harness Mechanisms", "Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Memory and Context Engineering", "Shared Harness Representation"]
+survey_subsections: ["Blackboard / Shared-State Representation", "Multi-Agent Memory"]
 ---
 
 # GameGPT: Multi-agent Collaborative Framework for Game Development

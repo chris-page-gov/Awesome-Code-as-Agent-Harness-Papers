@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "From challenges to metrics: An LLM-driven DevOps recommendation system grounded in evidence-based mappings"
+description: "Paper fragment for From challenges to metrics: An LLM-driven DevOps recommendation system grounded in evidence-based mappings, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for From challenges to metrics: An LLM-driven DevOps recommendation system grounded in evidence-based mappings, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "from-challenges-to-metrics-an-llm-driven-devops-recommendation-system-gr-ca321407"
-canonical_urls:
-  - "https://www.sciencedirect.com/science/article/pii/S2590005625001742"
-  - "https://doaj.org/article/fb65bc9026254741a5ca36e4bfb8959b"
-local_source_paths:
-  - "sources/raw/html/doaj.org/from-challenges-to-metrics-an-llm-driven-devops-recommendation-system-grounded-i-fd187008.html"
+canonical_urls: ["https://www.sciencedirect.com/science/article/pii/S2590005625001742", "https://doaj.org/article/fb65bc9026254741a5ca36e4bfb8959b"]
+local_source_paths: ["sources/raw/html/doaj.org/from-challenges-to-metrics-an-llm-driven-devops-recommendation-system-grounded-i-fd187008.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5AE78D82B73E"
-  - "CLAIM-6CA88181B7B6"
-  - "CLAIM-FAF56A6C1160"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5AE78D82B73E", "CLAIM-6CA88181B7B6", "CLAIM-FAF56A6C1160"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # From challenges to metrics: An LLM-driven DevOps recommendation system grounded in evidence-based mappings

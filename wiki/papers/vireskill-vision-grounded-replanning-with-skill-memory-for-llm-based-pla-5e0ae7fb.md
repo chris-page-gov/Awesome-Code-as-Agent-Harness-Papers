@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "ViReSkill: Vision-Grounded Replanning with Skill Memory for LLM-Based Planning in Lifelong Robot Learning"
+description: "Paper fragment for ViReSkill: Vision-Grounded Replanning with Skill Memory for LLM-Based Planning in Lifelong Robot Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ViReSkill: Vision-Grounded Replanning with Skill Memory for LLM-Based Planning in Lifelong Robot Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "vireskill-vision-grounded-replanning-with-skill-memory-for-llm-based-pla-5e0ae7fb"
-canonical_urls:
-  - "https://arxiv.org/abs/2509.24219"
-local_source_paths:
-  - "sources/raw/arxiv/2509.24219.pdf"
+canonical_urls: ["https://arxiv.org/abs/2509.24219"]
+local_source_paths: ["sources/raw/arxiv/2509.24219.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-BF933E1E1A92"
-  - "CLAIM-C51AFD5DFF20"
-  - "CLAIM-FAEAE71F2E9D"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Lifelong Code-Based Agents"
-  - "Reusable Skills as Embodied Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-BF933E1E1A92", "CLAIM-C51AFD5DFF20", "CLAIM-FAEAE71F2E9D"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Lifelong Code-Based Agents", "Reusable Skills as Embodied Memory"]
 ---
 
 # ViReSkill: Vision-Grounded Replanning with Skill Memory for LLM-Based Planning in Lifelong Robot Learning

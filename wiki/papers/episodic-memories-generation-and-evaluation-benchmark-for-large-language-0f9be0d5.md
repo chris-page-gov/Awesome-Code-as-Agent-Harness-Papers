@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Episodic Memories Generation and Evaluation Benchmark for Large Language Models"
+description: "Paper fragment for Episodic Memories Generation and Evaluation Benchmark for Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Episodic Memories Generation and Evaluation Benchmark for Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "episodic-memories-generation-and-evaluation-benchmark-for-large-language-0f9be0d5"
-canonical_urls:
-  - "https://openreview.net/forum?id=6ycX677p2l"
-local_source_paths:
-  - "sources/raw/openreview/6ycX677p2l.pdf"
+canonical_urls: ["https://openreview.net/forum?id=6ycX677p2l"]
+local_source_paths: ["sources/raw/openreview/6ycX677p2l.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4E792F98FB4A"
-  - "CLAIM-6EC377CCC198"
-  - "CLAIM-F35FE44684C5"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Experiential Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4E792F98FB4A", "CLAIM-6EC377CCC198", "CLAIM-F35FE44684C5"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Experiential Memory"]
 ---
 
 # Episodic Memories Generation and Evaluation Benchmark for Large Language Models

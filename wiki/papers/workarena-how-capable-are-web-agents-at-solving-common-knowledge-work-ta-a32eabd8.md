@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+description: "Paper fragment for WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-ta-a32eabd8"
-canonical_urls:
-  - "https://proceedings.mlr.press/v235/drouin24a.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.mlr.press/workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-tasks-0e548353.html"
+canonical_urls: ["https://proceedings.mlr.press/v235/drouin24a.html"]
+local_source_paths: ["sources/raw/html/proceedings.mlr.press/workarena-how-capable-are-web-agents-at-solving-common-knowledge-work-tasks-0e548353.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-111F66DC6A26"
-  - "CLAIM-25776988D2E3"
-  - "CLAIM-3A50A9BF54DD"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-111F66DC6A26", "CLAIM-25776988D2E3", "CLAIM-3A50A9BF54DD"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?

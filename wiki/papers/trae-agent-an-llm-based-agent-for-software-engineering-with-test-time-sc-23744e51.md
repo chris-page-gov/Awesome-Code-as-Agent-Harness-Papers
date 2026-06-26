@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling"
+description: "Paper fragment for Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "trae-agent-an-llm-based-agent-for-software-engineering-with-test-time-sc-23744e51"
-canonical_urls:
-  - "https://arxiv.org/abs/2507.23370"
-local_source_paths:
-  - "sources/raw/arxiv/2507.23370.pdf"
+canonical_urls: ["https://arxiv.org/abs/2507.23370"]
+local_source_paths: ["sources/raw/arxiv/2507.23370.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-13BA5909B4EA"
-  - "CLAIM-B94A1C7380C7"
-  - "CLAIM-E68FFCCBA4EA"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Harness-State Convergence"
-survey_subsections:
-  - "Score-Based Convergence"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-13BA5909B4EA", "CLAIM-B94A1C7380C7", "CLAIM-E68FFCCBA4EA"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Harness-State Convergence"]
+survey_subsections: ["Score-Based Convergence"]
 ---
 
 # Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling

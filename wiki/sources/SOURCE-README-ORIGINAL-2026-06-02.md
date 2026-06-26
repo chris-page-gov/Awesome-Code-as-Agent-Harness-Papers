@@ -1,13 +1,19 @@
 ---
+type: "source"
 title: "Current README Paper Inventory"
+description: "The README is the current source of the paper list, survey taxonomy, venues, and canonical external URLs. It is the bootstrap source for generating paper fragments and source-fetch metadata."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["source", "readme", "paper-inventory", "awesome-list"]
+okf_version: "0.1"
+okfr_role: "source"
+okfr_summary: "The README is the current source of the paper list, survey taxonomy, venues, and canonical external URLs. It is the bootstrap source for generating paper fragments and source-fetch metadata."
 note_type: "source"
 status: "active"
-tags: ["source", "readme", "paper-inventory", "awesome-list"]
+last_reviewed: "2026-06-02"
 source_id: "SOURCE-README-ORIGINAL-2026-06-02"
 source_type: "repository-markdown"
 source_path_or_url: "../../README.md"
 related: ["../maps/taxonomy-map.md", "../topics/code-as-agent-harness.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Current README Paper Inventory
@@ -49,4 +55,3 @@ fragments and source-fetch metadata.
 - Generate `wiki/data/paper-register.json` from README rows.
 - Create per-paper fragments under `wiki/papers/`.
 - Localize source files and update fragments with source-backed notes.
-

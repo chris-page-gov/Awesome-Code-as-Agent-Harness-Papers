@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Revisit Self-Debugging with Self-Generated Tests for Code Generation"
+description: "Paper fragment for Revisit Self-Debugging with Self-Generated Tests for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Revisit Self-Debugging with Self-Generated Tests for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "revisit-self-debugging-with-self-generated-tests-for-code-generation-148d474f"
-canonical_urls:
-  - "https://aclanthology.org/2025.acl-long.881/"
-local_source_paths:
-  - "sources/raw/acl/2025.acl-long.881.pdf"
+canonical_urls: ["https://aclanthology.org/2025.acl-long.881/"]
+local_source_paths: ["sources/raw/acl/2025.acl-long.881.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-01FAEECBE21B"
-  - "CLAIM-DC7A64107D09"
-  - "CLAIM-F9441305CB9E"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-01FAEECBE21B", "CLAIM-DC7A64107D09", "CLAIM-F9441305CB9E"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Revisit Self-Debugging with Self-Generated Tests for Code Generation

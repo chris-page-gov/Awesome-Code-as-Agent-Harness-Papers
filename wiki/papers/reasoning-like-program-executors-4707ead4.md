@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Reasoning Like Program Executors"
+description: "Paper fragment for Reasoning Like Program Executors, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Reasoning Like Program Executors, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "reasoning-like-program-executors-4707ead4"
-canonical_urls:
-  - "https://aclanthology.org/2022.emnlp-main.48/"
-local_source_paths:
-  - "sources/raw/acl/2022.emnlp-main.48.pdf"
+canonical_urls: ["https://aclanthology.org/2022.emnlp-main.48/"]
+local_source_paths: ["sources/raw/acl/2022.emnlp-main.48.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3EE0C9C52453"
-  - "CLAIM-A43D49A3187C"
-  - "CLAIM-F786DB6BBE1C"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3EE0C9C52453", "CLAIM-A43D49A3187C", "CLAIM-F786DB6BBE1C"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # Reasoning Like Program Executors

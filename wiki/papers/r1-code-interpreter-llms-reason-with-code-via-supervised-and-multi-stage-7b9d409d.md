@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning"
+description: "Paper fragment for R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "r1-code-interpreter-llms-reason-with-code-via-supervised-and-multi-stage-7b9d409d"
-canonical_urls:
-  - "https://arxiv.org/abs/2505.21668"
-local_source_paths:
-  - "sources/raw/arxiv/2505.21668.pdf"
+canonical_urls: ["https://arxiv.org/abs/2505.21668"]
+local_source_paths: ["sources/raw/arxiv/2505.21668.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0A0E374C1CC5"
-  - "CLAIM-4E7CFECA295E"
-  - "CLAIM-66DBD3985E10"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0A0E374C1CC5", "CLAIM-4E7CFECA295E", "CLAIM-66DBD3985E10"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning

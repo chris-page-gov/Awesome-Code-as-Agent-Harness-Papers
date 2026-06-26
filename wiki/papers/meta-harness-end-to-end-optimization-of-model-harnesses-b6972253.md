@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Meta-Harness: End-to-End Optimization of Model Harnesses"
+description: "Paper fragment for Meta-Harness: End-to-End Optimization of Model Harnesses, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Meta-Harness: End-to-End Optimization of Model Harnesses, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "meta-harness-end-to-end-optimization-of-model-harnesses-b6972253"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.28052"
-local_source_paths:
-  - "sources/raw/arxiv/2603.28052.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.28052"]
+local_source_paths: ["sources/raw/arxiv/2603.28052.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0F770D9243B5"
-  - "CLAIM-678E98264F68"
-  - "CLAIM-D234625DA356"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0F770D9243B5", "CLAIM-678E98264F68", "CLAIM-D234625DA356"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Planning for Code Agents"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces", "Search-Based Planning"]
 ---
 
 # Meta-Harness: End-to-End Optimization of Model Harnesses

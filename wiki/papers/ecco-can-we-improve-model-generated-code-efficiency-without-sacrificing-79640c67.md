@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?"
+description: "Paper fragment for ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "ecco-can-we-improve-model-generated-code-efficiency-without-sacrificing-79640c67"
-canonical_urls:
-  - "https://aclanthology.org/2024.emnlp-main.859/"
-local_source_paths:
-  - "sources/raw/acl/2024.emnlp-main.859.pdf"
+canonical_urls: ["https://aclanthology.org/2024.emnlp-main.859/"]
+local_source_paths: ["sources/raw/acl/2024.emnlp-main.859.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-09BAD3787AF3"
-  - "CLAIM-A1C509D32CE7"
-  - "CLAIM-E7F4EB535F5E"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-09BAD3787AF3", "CLAIM-A1C509D32CE7", "CLAIM-E7F4EB535F5E"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?

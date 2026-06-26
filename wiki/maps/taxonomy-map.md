@@ -1,11 +1,17 @@
 ---
+type: "map"
 title: "Taxonomy Map"
+description: "linked from fragments and topic pages."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["map", "taxonomy", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "map"
+okfr_summary: "linked from fragments and topic pages."
 note_type: "map"
 status: "active"
-tags: ["map", "taxonomy", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-README-ORIGINAL-2026-06-02"]
 related: ["../topics/code-as-agent-harness.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Taxonomy Map

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents"
+description: "Paper fragment for Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "navigating-the-digital-world-as-humans-do-universal-visual-grounding-for-2b299bb2"
-canonical_urls:
-  - "https://openreview.net/forum?id=kxnoqaisCT"
-local_source_paths:
-  - "sources/raw/openreview/kxnoqaisCT.pdf"
+canonical_urls: ["https://openreview.net/forum?id=kxnoqaisCT"]
+local_source_paths: ["sources/raw/openreview/kxnoqaisCT.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2BF5B12D8094"
-  - "CLAIM-3FB31CF634E2"
-  - "CLAIM-B176B1AB7404"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2BF5B12D8094", "CLAIM-3FB31CF634E2", "CLAIM-B176B1AB7404"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents

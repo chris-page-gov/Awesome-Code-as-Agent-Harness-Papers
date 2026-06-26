@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "RLTF: Reinforcement Learning from Unit Test Feedback"
+description: "Paper fragment for RLTF: Reinforcement Learning from Unit Test Feedback, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RLTF: Reinforcement Learning from Unit Test Feedback, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "rltf-reinforcement-learning-from-unit-test-feedback-8415ece3"
-canonical_urls:
-  - "https://arxiv.org/abs/2307.04349"
-local_source_paths:
-  - "sources/raw/arxiv/2307.04349.pdf"
+canonical_urls: ["https://arxiv.org/abs/2307.04349"]
+local_source_paths: ["sources/raw/arxiv/2307.04349.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3ED648B3CCD0"
-  - "CLAIM-5A71C1E7D81C"
-  - "CLAIM-B78A4F34082A"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3ED648B3CCD0", "CLAIM-5A71C1E7D81C", "CLAIM-B78A4F34082A"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # RLTF: Reinforcement Learning from Unit Test Feedback

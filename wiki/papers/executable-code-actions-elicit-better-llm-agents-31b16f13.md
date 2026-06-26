@@ -1,32 +1,24 @@
 ---
+type: "paper"
 title: "Executable Code Actions Elicit Better LLM Agents"
+description: "Paper fragment for Executable Code Actions Elicit Better LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Executable Code Actions Elicit Better LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "executable-code-actions-elicit-better-llm-agents-31b16f13"
-canonical_urls:
-  - "https://openreview.net/forum?id=8oJyuXfrPv"
-  - "https://arxiv.org/abs/2402.01030"
-local_source_paths:
-  - "sources/raw/openreview/8oJyuXfrPv.pdf"
+canonical_urls: ["https://openreview.net/forum?id=8oJyuXfrPv", "https://arxiv.org/abs/2402.01030"]
+local_source_paths: ["sources/raw/openreview/8oJyuXfrPv.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-95FAA61BC74F"
-  - "CLAIM-96A094309B35"
-  - "CLAIM-DFAE7647B7C3"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "GUI / OS Agents"
-  - "Scientific Discovery Agents"
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Unifying Ideation, Experimentation, Analysis, and Communication"
-  - "Unifying Perception, Action, and Evaluation Through Code"
-  - "Workflow-Orchestration Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-95FAA61BC74F", "CLAIM-96A094309B35", "CLAIM-DFAE7647B7C3"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["GUI / OS Agents", "Scientific Discovery Agents", "Tool Usage for Code Agents"]
+survey_subsections: ["Unifying Ideation, Experimentation, Analysis, and Communication", "Unifying Perception, Action, and Evaluation Through Code", "Workflow-Orchestration Tool Use"]
 ---
 
 # Executable Code Actions Elicit Better LLM Agents

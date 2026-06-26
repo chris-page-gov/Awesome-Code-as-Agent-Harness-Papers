@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance provid"
+description: "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-FDBF0DBFC04C"
 claim_type: "evaluation-result"
-paper_ids:
-  - "bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-languag-6e0dd321"
+paper_ids: ["bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-languag-6e0dd321"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2310.10021.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2310.10021.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2310.10021.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-FDBF0DBFC04C

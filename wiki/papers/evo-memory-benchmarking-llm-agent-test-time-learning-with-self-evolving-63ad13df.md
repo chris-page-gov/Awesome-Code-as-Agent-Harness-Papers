@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory"
+description: "Paper fragment for Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "evo-memory-benchmarking-llm-agent-test-time-learning-with-self-evolving-63ad13df"
-canonical_urls:
-  - "https://arxiv.org/abs/2511.20857"
-local_source_paths:
-  - "sources/raw/arxiv/2511.20857.pdf"
+canonical_urls: ["https://arxiv.org/abs/2511.20857"]
+local_source_paths: ["sources/raw/arxiv/2511.20857.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-A3CB0E02BCC1"
-  - "CLAIM-A79ABE41F233"
-  - "CLAIM-B5231C169A00"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Agent Personalization"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Experiential Memory"
-  - "Preference State as an Editable Artifact"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-A3CB0E02BCC1", "CLAIM-A79ABE41F233", "CLAIM-B5231C169A00"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Agent Personalization", "Memory and Context Engineering"]
+survey_subsections: ["Experiential Memory", "Preference State as an Editable Artifact"]
 ---
 
 # Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory

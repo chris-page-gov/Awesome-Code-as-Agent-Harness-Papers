@@ -1,18 +1,21 @@
 ---
-title: "DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal "
+type: "claim-card"
+title: "DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal"
+description: "DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal provides localized evidence about code execution for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal provides localized evidence about code execution for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-01D0FDC95A24"
 claim_type: "contribution"
-paper_ids:
-  - "dars-dynamic-action-re-sampling-to-enhance-coding-agent-performance-by-a-a3cc9f74"
+paper_ids: ["dars-dynamic-action-re-sampling-to-enhance-coding-agent-performance-by-a-a3cc9f74"]
 source_ids: []
-source_refs:
-  - "sources/raw/acl/2025.acl-long.973.pdf"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/acl/2025.acl-long.973.pdf"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/acl/2025.acl-long.973.pdf; extracted sentence match for code-execution"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-01D0FDC95A24

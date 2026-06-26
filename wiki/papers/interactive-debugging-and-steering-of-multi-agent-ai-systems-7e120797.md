@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Interactive Debugging and Steering of Multi-Agent AI Systems"
+description: "Paper fragment for Interactive Debugging and Steering of Multi-Agent AI Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Interactive Debugging and Steering of Multi-Agent AI Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "interactive-debugging-and-steering-of-multi-agent-ai-systems-7e120797"
-canonical_urls:
-  - "https://doi.org/10.1145/3706598.3713581"
-  - "https://arxiv.org/pdf/2503.02068"
-local_source_paths:
-  - "sources/raw/arxiv/2503.02068.pdf"
+canonical_urls: ["https://doi.org/10.1145/3706598.3713581", "https://arxiv.org/pdf/2503.02068"]
+local_source_paths: ["sources/raw/arxiv/2503.02068.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5B1B5A5F04BA"
-  - "CLAIM-DFB80C77F9F7"
-  - "CLAIM-F9DE743AF4DF"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5B1B5A5F04BA", "CLAIM-DFB80C77F9F7", "CLAIM-F9DE743AF4DF"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Interactive Debugging and Steering of Multi-Agent AI Systems

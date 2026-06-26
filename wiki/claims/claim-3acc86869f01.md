@@ -1,19 +1,21 @@
 ---
+type: "claim-card"
 title: "Improving Composer through real-time reinforcement learning provides localized evidence about MC"
+description: "Improving Composer through real-time reinforcement learning provides localized evidence about MCP protocol for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Improving Composer through real-time reinforcement learning provides localized evidence about MCP protocol for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-3ACC86869F01"
 claim_type: "protocol-capability"
-paper_ids:
-  - "improving-composer-through-real-time-reinforcement-learning-6da0c2bb"
+paper_ids: ["improving-composer-through-real-time-reinforcement-learning-6da0c2bb"]
 source_ids: []
-source_refs:
-  - "sources/raw/html/cursor.com/improving-composer-through-real-time-reinforcement-learning-4a7226b7.html"
-related_topics:
-  - "mcp-governance"
-  - "harness-interface"
-  - "procurement-and-conformance"
+source_refs: ["sources/raw/html/cursor.com/improving-composer-through-real-time-reinforcement-learning-4a7226b7.html"]
+related_topics: ["mcp-governance", "harness-interface", "procurement-and-conformance"]
 evidence_locator: "sources/raw/html/cursor.com/improving-composer-through-real-time-reinforcement-learning-4a7226b7.html; extracted sentence match for mcp-protocol"
 extraction_method: "html-text"
 review_status: "agent-reviewed"
@@ -21,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-3ACC86869F01

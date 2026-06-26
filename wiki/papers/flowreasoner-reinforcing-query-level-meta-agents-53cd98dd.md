@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "FlowReasoner: Reinforcing Query-Level Meta-Agents"
+description: "Paper fragment for FlowReasoner: Reinforcing Query-Level Meta-Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for FlowReasoner: Reinforcing Query-Level Meta-Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "flowreasoner-reinforcing-query-level-meta-agents-53cd98dd"
-canonical_urls:
-  - "https://arxiv.org/abs/2504.15257"
-local_source_paths:
-  - "sources/raw/arxiv/2504.15257.pdf"
+canonical_urls: ["https://arxiv.org/abs/2504.15257"]
+local_source_paths: ["sources/raw/arxiv/2504.15257.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3EBB05E1D67F"
-  - "CLAIM-BD71FE6E77F7"
-  - "CLAIM-FA256ACC2496"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Workflow Topology"
-survey_subsections:
-  - "Objective-Driven and Adaptive Topologies"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3EBB05E1D67F", "CLAIM-BD71FE6E77F7", "CLAIM-FA256ACC2496"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Workflow Topology"]
+survey_subsections: ["Objective-Driven and Adaptive Topologies"]
 ---
 
 # FlowReasoner: Reinforcing Query-Level Meta-Agents

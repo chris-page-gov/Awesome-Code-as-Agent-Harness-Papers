@@ -1,11 +1,17 @@
 ---
+type: "map"
 title: "Reading Routes"
+description: "1. Code as Agent Harness. 2. Harness Mechanisms. 3. Planning, memory/context, tool-use, and feedback paper fragments once generated."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["map", "reading-routes", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "map"
+okfr_summary: "1. Code as Agent Harness. 2. Harness Mechanisms. 3. Planning, memory/context, tool-use, and feedback paper fragments once generated."
 note_type: "map"
 status: "active"
-tags: ["map", "reading-routes", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-README-ORIGINAL-2026-06-02"]
 related: ["../topics/code-as-agent-harness.md", "taxonomy-map.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Reading Routes
@@ -35,4 +41,3 @@ last_reviewed: "2026-06-02"
 1. [Applications](../topics/applications.md).
 2. Choose code assistants, GUI/OS agents, embodied agents, scientific discovery,
    or personalization.
-

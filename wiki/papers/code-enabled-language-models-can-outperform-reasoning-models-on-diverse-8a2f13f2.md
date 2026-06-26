@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Code-Enabled Language Models Can Outperform Reasoning Models on Diverse Tasks"
+description: "Paper fragment for Code-Enabled Language Models Can Outperform Reasoning Models on Diverse Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Code-Enabled Language Models Can Outperform Reasoning Models on Diverse Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "code-enabled-language-models-can-outperform-reasoning-models-on-diverse-8a2f13f2"
-canonical_urls:
-  - "https://arxiv.org/abs/2510.20909"
-local_source_paths:
-  - "sources/raw/arxiv/2510.20909.pdf"
+canonical_urls: ["https://arxiv.org/abs/2510.20909"]
+local_source_paths: ["sources/raw/arxiv/2510.20909.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2AB3826C517E"
-  - "CLAIM-7457CDD40FD4"
-  - "CLAIM-82B42D7CBB56"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2AB3826C517E", "CLAIM-7457CDD40FD4", "CLAIM-82B42D7CBB56"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # Code-Enabled Language Models Can Outperform Reasoning Models on Diverse Tasks

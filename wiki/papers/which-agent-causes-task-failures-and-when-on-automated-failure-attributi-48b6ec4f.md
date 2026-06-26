@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems"
+description: "Paper fragment for Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "which-agent-causes-task-failures-and-when-on-automated-failure-attributi-48b6ec4f"
-canonical_urls:
-  - "https://arxiv.org/abs/2505.00212"
-local_source_paths:
-  - "sources/raw/arxiv/2505.00212.pdf"
+canonical_urls: ["https://arxiv.org/abs/2505.00212"]
+local_source_paths: ["sources/raw/arxiv/2505.00212.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-255D2CE6EE1E"
-  - "CLAIM-AA9BF988ED3C"
-  - "CLAIM-DA739FDFA807"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-255D2CE6EE1E", "CLAIM-AA9BF988ED3C", "CLAIM-DA739FDFA807"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems

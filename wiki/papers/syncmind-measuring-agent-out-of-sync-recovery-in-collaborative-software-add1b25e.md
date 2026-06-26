@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering"
+description: "Paper fragment for SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "syncmind-measuring-agent-out-of-sync-recovery-in-collaborative-software-add1b25e"
-canonical_urls:
-  - "https://openreview.net/forum?id=6TDSDdgP7Z"
-local_source_paths:
-  - "sources/raw/openreview/6TDSDdgP7Z.pdf"
+canonical_urls: ["https://openreview.net/forum?id=6TDSDdgP7Z"]
+local_source_paths: ["sources/raw/openreview/6TDSDdgP7Z.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-DFA1A007BA20"
-  - "CLAIM-E87A83C0537D"
-  - "CLAIM-F0F8035CFF47"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Shared Harness Representation"
-survey_subsections:
-  - "Implicit / File-Only Representation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-DFA1A007BA20", "CLAIM-E87A83C0537D", "CLAIM-F0F8035CFF47"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Shared Harness Representation"]
+survey_subsections: ["Implicit / File-Only Representation"]
 ---
 
 # SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering

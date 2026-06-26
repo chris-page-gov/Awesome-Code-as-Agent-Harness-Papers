@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction"
+description: "Paper fragment for DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "deepfm-a-factorization-machine-based-neural-network-for-ctr-prediction-f84a369d"
-canonical_urls:
-  - "https://arxiv.org/abs/1703.04247"
-local_source_paths:
-  - "sources/raw/arxiv/1703.04247.pdf"
+canonical_urls: ["https://arxiv.org/abs/1703.04247"]
+local_source_paths: ["sources/raw/arxiv/1703.04247.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4EA185C05823"
-  - "CLAIM-87D2A292E58D"
-  - "CLAIM-F47BB19E8BF3"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "From Static Recommendation to Interactive Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4EA185C05823", "CLAIM-87D2A292E58D", "CLAIM-F47BB19E8BF3"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["From Static Recommendation to Interactive Personalization"]
 ---
 
 # DeepFM: A Factorization-Machine Based Neural Network for CTR Prediction

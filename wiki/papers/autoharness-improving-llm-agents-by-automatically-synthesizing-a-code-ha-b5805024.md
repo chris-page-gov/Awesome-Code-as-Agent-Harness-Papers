@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness"
+description: "Paper fragment for AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-ha-b5805024"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.03329"
-local_source_paths:
-  - "sources/raw/arxiv/2603.03329.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.03329"]
+local_source_paths: ["sources/raw/arxiv/2603.03329.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-45E86B27FEF3"
-  - "CLAIM-8AF30A5225B1"
-  - "CLAIM-EAE2752E1291"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-45E86B27FEF3", "CLAIM-8AF30A5225B1", "CLAIM-EAE2752E1291"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces"]
 ---
 
 # AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness

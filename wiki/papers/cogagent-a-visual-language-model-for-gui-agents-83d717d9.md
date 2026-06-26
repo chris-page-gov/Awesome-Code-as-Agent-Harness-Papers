@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CogAgent: A Visual Language Model for GUI Agents"
+description: "Paper fragment for CogAgent: A Visual Language Model for GUI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CogAgent: A Visual Language Model for GUI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "cogagent-a-visual-language-model-for-gui-agents-83d717d9"
-canonical_urls:
-  - "https://arxiv.org/abs/2312.08914"
-local_source_paths:
-  - "sources/raw/arxiv/2312.08914.pdf"
+canonical_urls: ["https://arxiv.org/abs/2312.08914"]
+local_source_paths: ["sources/raw/arxiv/2312.08914.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-24757BA919E1"
-  - "CLAIM-6BA53DC412D4"
-  - "CLAIM-A3700C113388"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-24757BA919E1", "CLAIM-6BA53DC412D4", "CLAIM-A3700C113388"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # CogAgent: A Visual Language Model for GUI Agents

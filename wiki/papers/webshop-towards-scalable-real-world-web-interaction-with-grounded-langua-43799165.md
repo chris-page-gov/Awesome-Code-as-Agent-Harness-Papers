@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+description: "Paper fragment for WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "webshop-towards-scalable-real-world-web-interaction-with-grounded-langua-43799165"
-canonical_urls:
-  - "https://proceedings.neurips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html"
+canonical_urls: ["https://proceedings.neurips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html"]
+local_source_paths: ["sources/raw/html/proceedings.neurips.cc/webshop-towards-scalable-real-world-web-interaction-with-grounded-language-agent-7825a69a.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2EB5A64B092E"
-  - "CLAIM-4DF28AD3C98F"
-  - "CLAIM-566566B58C3A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "UI Simulators and Sandboxes as Executable Dynamics"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2EB5A64B092E", "CLAIM-4DF28AD3C98F", "CLAIM-566566B58C3A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["UI Simulators and Sandboxes as Executable Dynamics"]
 ---
 
 # WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents

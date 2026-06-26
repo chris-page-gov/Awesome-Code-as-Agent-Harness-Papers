@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?"
+description: "Paper fragment for Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "live-swe-agent-can-software-engineering-agents-self-evolve-on-the-fly-22ad6116"
-canonical_urls:
-  - "https://arxiv.org/abs/2511.13646"
-local_source_paths:
-  - "sources/raw/arxiv/2511.13646.pdf"
+canonical_urls: ["https://arxiv.org/abs/2511.13646"]
+local_source_paths: ["sources/raw/arxiv/2511.13646.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-63FD7F93F0CA"
-  - "CLAIM-E8CEAB4721A8"
-  - "CLAIM-FC619B5FE6DD"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Execution Feedback as Grounded Verification"
-  - "Working Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-63FD7F93F0CA", "CLAIM-E8CEAB4721A8", "CLAIM-FC619B5FE6DD"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Memory and Context Engineering"]
+survey_subsections: ["Execution Feedback as Grounded Verification", "Working Memory"]
 ---
 
 # Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?

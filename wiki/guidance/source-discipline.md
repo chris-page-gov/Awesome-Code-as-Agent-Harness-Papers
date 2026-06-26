@@ -1,11 +1,17 @@
 ---
+type: "guidance"
 title: "Source Discipline"
+description: "are intentionally placed under sources/raw/redistributable/."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["source-discipline", "provenance", "llm-wiki"]
+okf_version: "0.1"
+okfr_role: "guidance"
+okfr_summary: "are intentionally placed under sources/raw/redistributable/."
 note_type: "guidance"
 status: "active"
-tags: ["source-discipline", "provenance", "llm-wiki"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-KARPATHY-LLM-WIKI-2026"]
 related: ["ingest-workflow.md", "../templates/source-note.md", "../templates/paper-fragment.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Source Discipline

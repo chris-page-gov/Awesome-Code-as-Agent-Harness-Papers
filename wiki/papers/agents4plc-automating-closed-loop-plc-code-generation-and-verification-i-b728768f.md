@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems"
+description: "Paper fragment for Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agents4plc-automating-closed-loop-plc-code-generation-and-verification-i-b728768f"
-canonical_urls:
-  - "https://arxiv.org/abs/2410.14209"
-local_source_paths:
-  - "sources/raw/arxiv/2410.14209.pdf"
+canonical_urls: ["https://arxiv.org/abs/2410.14209"]
+local_source_paths: ["sources/raw/arxiv/2410.14209.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-244CF34441B4"
-  - "CLAIM-265E043A88EF"
-  - "CLAIM-BCC2524C2BAC"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Autonomous Embodied Agents"
-survey_subsections:
-  - "Coordinated and Auditable Real-World Deployment"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-244CF34441B4", "CLAIM-265E043A88EF", "CLAIM-BCC2524C2BAC"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Autonomous Embodied Agents"]
+survey_subsections: ["Coordinated and Auditable Real-World Deployment"]
 ---
 
 # Agents4PLC: Automating Closed-Loop PLC Code Generation and Verification in Industrial Control Systems

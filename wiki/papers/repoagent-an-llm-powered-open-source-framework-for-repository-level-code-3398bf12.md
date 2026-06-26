@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation"
+description: "Paper fragment for RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "repoagent-an-llm-powered-open-source-framework-for-repository-level-code-3398bf12"
-canonical_urls:
-  - "https://aclanthology.org/2024.emnlp-demo.46/"
-local_source_paths:
-  - "sources/raw/acl/2024.emnlp-demo.46.pdf"
+canonical_urls: ["https://aclanthology.org/2024.emnlp-demo.46/"]
+local_source_paths: ["sources/raw/acl/2024.emnlp-demo.46.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-52E515FB6DEA"
-  - "CLAIM-B7B8CA0F0E27"
-  - "CLAIM-FA1DDB81FC13"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-  - "Memory and Context Management at Repository Scale"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-52E515FB6DEA", "CLAIM-B7B8CA0F0E27", "CLAIM-FA1DDB81FC13"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding", "Memory and Context Management at Repository Scale"]
 ---
 
 # RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation

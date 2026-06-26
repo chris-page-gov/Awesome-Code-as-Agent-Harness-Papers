@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation"
+description: "Paper fragment for Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "reasoning-through-execution-unifying-process-and-outcome-rewards-for-cod-475408b7"
-canonical_urls:
-  - "https://arxiv.org/abs/2412.15118"
-local_source_paths:
-  - "sources/raw/arxiv/2412.15118.pdf"
+canonical_urls: ["https://arxiv.org/abs/2412.15118"]
+local_source_paths: ["sources/raw/arxiv/2412.15118.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1A4F72A2BA71"
-  - "CLAIM-7E7B185DC313"
-  - "CLAIM-AB5A0999B550"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1A4F72A2BA71", "CLAIM-7E7B185DC313", "CLAIM-AB5A0999B550"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation

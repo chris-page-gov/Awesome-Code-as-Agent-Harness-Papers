@@ -1,18 +1,21 @@
 ---
-title: "Aligning Agentic World Models via Knowledgeable Experience Learning provides localized evidence "
+type: "claim-card"
+title: "Aligning Agentic World Models via Knowledgeable Experience Learning provides localized evidence"
+description: "Aligning Agentic World Models via Knowledgeable Experience Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Aligning Agentic World Models via Knowledgeable Experience Learning provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-290899AAABE4"
 claim_type: "evaluation-result"
-paper_ids:
-  - "aligning-agentic-world-models-via-knowledgeable-experience-learning-979e70cd"
+paper_ids: ["aligning-agentic-world-models-via-knowledgeable-experience-learning-979e70cd"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2601.13247.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2601.13247.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2601.13247.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-290899AAABE4

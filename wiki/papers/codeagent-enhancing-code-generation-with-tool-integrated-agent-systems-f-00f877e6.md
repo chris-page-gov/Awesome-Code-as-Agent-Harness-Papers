@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges"
+description: "Paper fragment for CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codeagent-enhancing-code-generation-with-tool-integrated-agent-systems-f-00f877e6"
-canonical_urls:
-  - "https://aclanthology.org/2024.acl-long.737/"
-  - "https://aclanthology.org/2024.acl-long.757/"
-local_source_paths:
-  - "sources/raw/acl/2024.acl-long.737.pdf"
+canonical_urls: ["https://aclanthology.org/2024.acl-long.737/", "https://aclanthology.org/2024.acl-long.757/"]
+local_source_paths: ["sources/raw/acl/2024.acl-long.737.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-91B5782851A9"
-  - "CLAIM-984F6D4D265A"
-  - "CLAIM-F21EF8421454"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Multi-Agent Code Assistance and Shared Repositories"
-  - "Semantic Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-91B5782851A9", "CLAIM-984F6D4D265A", "CLAIM-F21EF8421454"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Memory and Context Engineering"]
+survey_subsections: ["Multi-Agent Code Assistance and Shared Repositories", "Semantic Memory"]
 ---
 
 # CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges

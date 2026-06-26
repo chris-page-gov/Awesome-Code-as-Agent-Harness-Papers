@@ -1,22 +1,22 @@
 ---
+type: "paper"
 title: "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation"
+description: "Paper fragment for AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "agentcoder-multi-agent-based-code-generation-with-iterative-testing-and-b39082ad"
-canonical_urls:
-  - "https://arxiv.org/abs/2312.13010"
-local_source_paths:
-  - "sources/raw/arxiv/2312.13010.pdf"
+canonical_urls: ["https://arxiv.org/abs/2312.13010"]
+local_source_paths: ["sources/raw/arxiv/2312.13010.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-56BCD8DBAB83"
-  - "CLAIM-59BEDE77D873"
-  - "CLAIM-E780EDA39209"
-survey_layers:
-  - "Harness Mechanisms"
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
+claim_card_ids: ["CLAIM-56BCD8DBAB83", "CLAIM-59BEDE77D873", "CLAIM-E780EDA39209"]
+survey_layers: ["Harness Mechanisms", "Scaling the Harness: Multi-Agent Code-Centric Systems"]
 survey_sections:
   - "Execution Feedback Integration"
   - "Functional Role Specialization"
@@ -38,7 +38,6 @@ survey_subsections:
   - "Program Synthesis Agents"
   - "Test Pass/Fail Signals"
   - "Verification-Driven Tool Use"
-last_reviewed: "2026-06-02"
 ---
 
 # AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation

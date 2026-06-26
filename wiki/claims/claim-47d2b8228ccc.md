@@ -1,18 +1,21 @@
 ---
-title: "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers provides "
+type: "claim-card"
+title: "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers provides"
+description: "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-47D2B8228CCC"
 claim_type: "evaluation-result"
-paper_ids:
-  - "a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b"
+paper_ids: ["a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2508.21148.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2508.21148.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2508.21148.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-47D2B8228CCC

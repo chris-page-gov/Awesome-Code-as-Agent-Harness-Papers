@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search provi"
+description: "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search provides localized evidence about planning and workflow for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search provides localized evidence about planning and workflow for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-82BF4C5DAF7B"
 claim_type: "contribution"
-paper_ids:
-  - "the-ai-scientist-v2-workshop-level-automated-scientific-discovery-via-ag-534bcc04"
+paper_ids: ["the-ai-scientist-v2-workshop-level-automated-scientific-discovery-via-ag-534bcc04"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2504.08066.pdf"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/arxiv/2504.08066.pdf"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/arxiv/2504.08066.pdf; extracted sentence match for planning"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-82BF4C5DAF7B

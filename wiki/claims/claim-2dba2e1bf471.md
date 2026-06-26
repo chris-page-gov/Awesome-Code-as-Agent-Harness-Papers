@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Knowledge Graph Based Repository-Level Code Generation provides localized evidence about registr"
+description: "Knowledge Graph Based Repository-Level Code Generation provides localized evidence about registry and curation for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Knowledge Graph Based Repository-Level Code Generation provides localized evidence about registry and curation for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-2DBA2E1BF471"
 claim_type: "procurement-conformance"
-paper_ids:
-  - "knowledge-graph-based-repository-level-code-generation-95ecf625"
+paper_ids: ["knowledge-graph-based-repository-level-code-generation-95ecf625"]
 source_ids: []
-source_refs:
-  - "sources/raw/html/dx.doi.org/knowledge-graph-based-repository-level-code-generation-aaeab87d.html"
-related_topics:
-  - "mcp-governance"
-  - "procurement-and-conformance"
+source_refs: ["sources/raw/html/dx.doi.org/knowledge-graph-based-repository-level-code-generation-aaeab87d.html"]
+related_topics: ["mcp-governance", "procurement-and-conformance"]
 evidence_locator: "sources/raw/html/dx.doi.org/knowledge-graph-based-repository-level-code-generation-aaeab87d.html; extracted sentence match for registry"
 extraction_method: "html-text"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-2DBA2E1BF471

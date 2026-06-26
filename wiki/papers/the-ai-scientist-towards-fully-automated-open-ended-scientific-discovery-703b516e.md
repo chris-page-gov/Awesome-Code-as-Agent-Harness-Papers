@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery"
+description: "Paper fragment for The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "the-ai-scientist-towards-fully-automated-open-ended-scientific-discovery-703b516e"
-canonical_urls:
-  - "https://arxiv.org/abs/2408.06292"
-local_source_paths:
-  - "sources/raw/arxiv/2408.06292.pdf"
+canonical_urls: ["https://arxiv.org/abs/2408.06292"]
+local_source_paths: ["sources/raw/arxiv/2408.06292.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-71868F6C722A"
-  - "CLAIM-7D40D15706C9"
-  - "CLAIM-83456B56A0F5"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Unifying Ideation, Experimentation, Analysis, and Communication"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-71868F6C722A", "CLAIM-7D40D15706C9", "CLAIM-83456B56A0F5"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Unifying Ideation, Experimentation, Analysis, and Communication"]
 ---
 
 # The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery

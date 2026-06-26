@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CleanAgent: Automating data standardization with LLM-based agents"
+description: "Paper fragment for CleanAgent: Automating data standardization with LLM-based agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CleanAgent: Automating data standardization with LLM-based agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "cleanagent-automating-data-standardization-with-llm-based-agents-d311ae7b"
-canonical_urls:
-  - "https://arxiv.org/abs/2403.08291"
-local_source_paths:
-  - "sources/raw/arxiv/2403.08291.pdf"
+canonical_urls: ["https://arxiv.org/abs/2403.08291"]
+local_source_paths: ["sources/raw/arxiv/2403.08291.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4EF9AC1DF9CE"
-  - "CLAIM-7E0B6110CF68"
-  - "CLAIM-E12BD2F3A8DE"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Functional Role Specialization"
-survey_subsections:
-  - "Program Understanding Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4EF9AC1DF9CE", "CLAIM-7E0B6110CF68", "CLAIM-E12BD2F3A8DE"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Functional Role Specialization"]
+survey_subsections: ["Program Understanding Agents"]
 ---
 
 # CleanAgent: Automating data standardization with LLM-based agents

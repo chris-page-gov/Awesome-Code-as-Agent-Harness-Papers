@@ -1,13 +1,19 @@
 ---
-title: ""
+type: "source"
+title: "Source Title"
+description: "Source note for Source Title, including evidence boundaries, use constraints, and follow-up gaps."
+timestamp: "2026-06-26T00:00:00Z"
+tags: ["source"]
+okf_version: "0.1"
+okfr_role: "source"
+okfr_summary: "Source note for Source Title, including evidence boundaries, use constraints, and follow-up gaps."
 note_type: "source"
 status: "draft"
-tags: ["source"]
+last_reviewed: "YYYY-MM-DD"
 source_id: ""
 source_type: ""
 source_path_or_url: ""
 related: []
-last_reviewed: "YYYY-MM-DD"
 ---
 
 # Source Title
@@ -36,4 +42,3 @@ last_reviewed: "YYYY-MM-DD"
 ## Gaps And Follow-Up
 
 -
-

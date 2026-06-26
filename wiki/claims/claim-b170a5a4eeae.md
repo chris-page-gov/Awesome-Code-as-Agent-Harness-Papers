@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Addendum to GPT-5 system card: GPT-5-Codex provides localized evidence about sandboxing and isol"
+description: "Addendum to GPT-5 system card: GPT-5-Codex provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Addendum to GPT-5 system card: GPT-5-Codex provides localized evidence about sandboxing and isolation for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-B170A5A4EEAE"
 claim_type: "safety-control"
-paper_ids:
-  - "addendum-to-gpt-5-system-card-gpt-5-codex-7e882bd7"
+paper_ids: ["addendum-to-gpt-5-system-card-gpt-5-codex-7e882bd7"]
 source_ids: []
-source_refs:
-  - "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf"
-related_topics:
-  - "agent-safety-and-sandboxing"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf"]
+related_topics: ["agent-safety-and-sandboxing", "harness-mechanisms"]
 evidence_locator: "sources/raw/pdf/addendum-to-gpt-5-system-card-gpt-5-codex-fd8baae6.pdf; extracted sentence match for sandboxing"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-B170A5A4EEAE

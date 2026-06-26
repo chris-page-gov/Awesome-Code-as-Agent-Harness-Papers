@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation"
+description: "Paper fragment for Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "code-as-symbolic-planner-foundation-model-based-robot-planning-via-symbo-0ef8c8e2"
-canonical_urls:
-  - "https://arxiv.org/abs/2503.01700"
-local_source_paths:
-  - "sources/raw/arxiv/2503.01700.pdf"
+canonical_urls: ["https://arxiv.org/abs/2503.01700"]
+local_source_paths: ["sources/raw/arxiv/2503.01700.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0E46513FEEE8"
-  - "CLAIM-821B49EE4B9D"
-  - "CLAIM-8B0BD64B4D9E"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Hybrid Symbolic–Neural Execution"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0E46513FEEE8", "CLAIM-821B49EE4B9D", "CLAIM-8B0BD64B4D9E"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Hybrid Symbolic–Neural Execution"]
 ---
 
 # Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation

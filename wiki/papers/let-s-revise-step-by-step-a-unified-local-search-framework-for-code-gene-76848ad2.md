@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs"
+description: "Paper fragment for Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "let-s-revise-step-by-step-a-unified-local-search-framework-for-code-gene-76848ad2"
-canonical_urls:
-  - "https://openreview.net/forum?id=sYk6ZMmrOz"
-local_source_paths:
-  - "sources/raw/openreview/sYk6ZMmrOz.pdf"
+canonical_urls: ["https://openreview.net/forum?id=sYk6ZMmrOz"]
+local_source_paths: ["sources/raw/openreview/sYk6ZMmrOz.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3CCF6B9C817B"
-  - "CLAIM-733D92851D9C"
-  - "CLAIM-CC0C5DAFCC6F"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3CCF6B9C817B", "CLAIM-733D92851D9C", "CLAIM-CC0C5DAFCC6F"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Search-Based Planning"]
 ---
 
 # Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs

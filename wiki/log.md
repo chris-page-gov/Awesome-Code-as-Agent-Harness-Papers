@@ -1,10 +1,16 @@
 ---
+type: "log"
 title: "Wiki Log"
+description: "Harness survey as initial sources."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["log", "llm-wiki"]
+okf_version: "0.1"
+okfr_role: "log"
+okfr_summary: "Harness survey as initial sources."
 note_type: "log"
 status: "active"
-tags: ["log", "llm-wiki"]
-related: ["index.md", "progress/phase-log.md"]
 last_reviewed: "2026-06-02"
+related: ["index.md", "progress/phase-log.md"]
 ---
 
 # Wiki Log

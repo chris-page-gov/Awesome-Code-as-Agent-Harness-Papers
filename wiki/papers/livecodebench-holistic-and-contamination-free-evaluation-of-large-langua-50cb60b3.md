@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code"
+description: "Paper fragment for LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "livecodebench-holistic-and-contamination-free-evaluation-of-large-langua-50cb60b3"
-canonical_urls:
-  - "https://openreview.net/forum?id=chfJJYC3iL"
-local_source_paths:
-  - "sources/raw/openreview/chfJJYC3iL.pdf"
+canonical_urls: ["https://openreview.net/forum?id=chfJJYC3iL"]
+local_source_paths: ["sources/raw/openreview/chfJJYC3iL.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-16BA5346B6DB"
-  - "CLAIM-9B3C62CAD454"
-  - "CLAIM-DEF7AEA72CD6"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-16BA5346B6DB", "CLAIM-9B3C62CAD454", "CLAIM-DEF7AEA72CD6"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code

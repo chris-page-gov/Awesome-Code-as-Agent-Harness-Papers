@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Show Your Work: Scratchpads for Intermediate Computation with Language Models"
+description: "Paper fragment for Show Your Work: Scratchpads for Intermediate Computation with Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Show Your Work: Scratchpads for Intermediate Computation with Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "show-your-work-scratchpads-for-intermediate-computation-with-language-mo-b47afb69"
-canonical_urls:
-  - "https://arxiv.org/abs/2112.00114"
-local_source_paths:
-  - "sources/raw/arxiv/2112.00114.pdf"
+canonical_urls: ["https://arxiv.org/abs/2112.00114"]
+local_source_paths: ["sources/raw/arxiv/2112.00114.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-57D339FA8765"
-  - "CLAIM-896182039CAF"
-  - "CLAIM-FD7B0417BFFD"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-57D339FA8765", "CLAIM-896182039CAF", "CLAIM-FD7B0417BFFD"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # Show Your Work: Scratchpads for Intermediate Computation with Language Models

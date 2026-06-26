@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models"
+description: "Paper fragment for Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tas-e57c984e"
-canonical_urls:
-  - "https://www.ijcai.org/proceedings/2025/980"
-local_source_paths:
-  - "sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html"
+canonical_urls: ["https://www.ijcai.org/proceedings/2025/980"]
+local_source_paths: ["sources/raw/html/ijcai.org/code-bt-a-code-driven-approach-to-behavior-tree-generation-for-robot-tasks-plann-c99f0d74.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1C9BDC30E42D"
-  - "CLAIM-9A4F5565112D"
-  - "CLAIM-A0664E70809A"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-  - "Programmatic Policy Generation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1C9BDC30E42D", "CLAIM-9A4F5565112D", "CLAIM-A0664E70809A"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions", "Programmatic Policy Generation"]
 ---
 
 # Code-BT: A Code-Driven Approach to Behavior Tree Generation for Robot Tasks Planning with Large Language Models

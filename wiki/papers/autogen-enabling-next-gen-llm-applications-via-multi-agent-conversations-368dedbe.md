@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations"
+description: "Paper fragment for AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "autogen-enabling-next-gen-llm-applications-via-multi-agent-conversations-368dedbe"
-canonical_urls:
-  - "https://openreview.net/forum?id=BAakY1hNKS"
-local_source_paths:
-  - "sources/raw/openreview/BAakY1hNKS.pdf"
+canonical_urls: ["https://openreview.net/forum?id=BAakY1hNKS"]
+local_source_paths: ["sources/raw/openreview/BAakY1hNKS.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-083DF2F298AD"
-  - "CLAIM-2E42D8F77227"
-  - "CLAIM-3645018ED398"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-083DF2F298AD", "CLAIM-2E42D8F77227", "CLAIM-3645018ED398"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations

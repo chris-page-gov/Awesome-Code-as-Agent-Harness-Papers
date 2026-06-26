@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Static Analysis as a Feedback Loop: Enhancing LLM-Generated Code Beyond Correctness"
+description: "Paper fragment for Static Analysis as a Feedback Loop: Enhancing LLM-Generated Code Beyond Correctness, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Static Analysis as a Feedback Loop: Enhancing LLM-Generated Code Beyond Correctness, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "static-analysis-as-a-feedback-loop-enhancing-llm-generated-code-beyond-c-dac7eeb9"
-canonical_urls:
-  - "https://arxiv.org/abs/2508.14419"
-local_source_paths:
-  - "sources/raw/arxiv/2508.14419.pdf"
+canonical_urls: ["https://arxiv.org/abs/2508.14419"]
+local_source_paths: ["sources/raw/arxiv/2508.14419.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0AE9517FF83E"
-  - "CLAIM-2906A403D565"
-  - "CLAIM-87D2408062F0"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0AE9517FF83E", "CLAIM-2906A403D565", "CLAIM-87D2408062F0"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Static Analysis as a Feedback Loop: Enhancing LLM-Generated Code Beyond Correctness

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "iAgent: LLM Agent as a Shield Between User and Recommender Systems"
+description: "Paper fragment for iAgent: LLM Agent as a Shield Between User and Recommender Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for iAgent: LLM Agent as a Shield Between User and Recommender Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "iagent-llm-agent-as-a-shield-between-user-and-recommender-systems-8d04b6af"
-canonical_urls:
-  - "https://arxiv.org/abs/2403.13851"
-local_source_paths:
-  - "sources/raw/arxiv/2403.13851.pdf"
+canonical_urls: ["https://arxiv.org/abs/2403.13851"]
+local_source_paths: ["sources/raw/arxiv/2403.13851.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-33AAFA9F9531"
-  - "CLAIM-696196439AB5"
-  - "CLAIM-70CDD5343D65"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "From Static Recommendation to Interactive Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-33AAFA9F9531", "CLAIM-696196439AB5", "CLAIM-70CDD5343D65"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["From Static Recommendation to Interactive Personalization"]
 ---
 
 # iAgent: LLM Agent as a Shield Between User and Recommender Systems

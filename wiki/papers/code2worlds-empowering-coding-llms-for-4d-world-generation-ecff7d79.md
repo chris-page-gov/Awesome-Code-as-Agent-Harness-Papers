@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Code2Worlds: Empowering Coding LLMs for 4D World Generation"
+description: "Paper fragment for Code2Worlds: Empowering Coding LLMs for 4D World Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Code2Worlds: Empowering Coding LLMs for 4D World Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "code2worlds-empowering-coding-llms-for-4d-world-generation-ecff7d79"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.11757"
-local_source_paths:
-  - "sources/raw/arxiv/2602.11757.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.11757"]
+local_source_paths: ["sources/raw/arxiv/2602.11757.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-03218686B623"
-  - "CLAIM-641553848CC9"
-  - "CLAIM-8B85988E8742"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Structured World Representations"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-03218686B623", "CLAIM-641553848CC9", "CLAIM-8B85988E8742"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Structured World Representations"]
 ---
 
 # Code2Worlds: Empowering Coding LLMs for 4D World Generation

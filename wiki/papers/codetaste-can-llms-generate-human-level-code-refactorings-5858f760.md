@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodeTaste: Can LLMs Generate Human-Level Code Refactorings?"
+description: "Paper fragment for CodeTaste: Can LLMs Generate Human-Level Code Refactorings?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeTaste: Can LLMs Generate Human-Level Code Refactorings?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codetaste-can-llms-generate-human-level-code-refactorings-5858f760"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.04177"
-local_source_paths:
-  - "sources/raw/arxiv/2603.04177.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.04177"]
+local_source_paths: ["sources/raw/arxiv/2603.04177.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-064453EF640C"
-  - "CLAIM-6DB89470327D"
-  - "CLAIM-B484D23C940E"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Developer Intent and Project Conventions as Latent State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-064453EF640C", "CLAIM-6DB89470327D", "CLAIM-B484D23C940E"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Developer Intent and Project Conventions as Latent State"]
 ---
 
 # CodeTaste: Can LLMs Generate Human-Level Code Refactorings?

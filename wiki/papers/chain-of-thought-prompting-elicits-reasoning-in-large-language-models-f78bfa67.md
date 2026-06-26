@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+description: "Paper fragment for Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "chain-of-thought-prompting-elicits-reasoning-in-large-language-models-f78bfa67"
-canonical_urls:
-  - "https://openreview.net/forum?id=_VjQlMeSB_J"
-local_source_paths:
-  - "sources/raw/openreview/_VjQlMeSB_J.pdf"
+canonical_urls: ["https://openreview.net/forum?id=_VjQlMeSB_J"]
+local_source_paths: ["sources/raw/openreview/_VjQlMeSB_J.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4893A1F92CB7"
-  - "CLAIM-B8DF3C690A9D"
-  - "CLAIM-BB7138C7C7E4"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4893A1F92CB7", "CLAIM-B8DF3C690A9D", "CLAIM-BB7138C7C7E4"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # Chain-of-Thought Prompting Elicits Reasoning in Large Language Models

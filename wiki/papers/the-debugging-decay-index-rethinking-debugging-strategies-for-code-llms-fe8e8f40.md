@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs"
+description: "Paper fragment for The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "the-debugging-decay-index-rethinking-debugging-strategies-for-code-llms-fe8e8f40"
-canonical_urls:
-  - "https://arxiv.org/abs/2506.18403"
-local_source_paths:
-  - "sources/raw/arxiv/2506.18403.pdf"
+canonical_urls: ["https://arxiv.org/abs/2506.18403"]
+local_source_paths: ["sources/raw/arxiv/2506.18403.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-13A573DCB6DE"
-  - "CLAIM-9BA87E646CE2"
-  - "CLAIM-C419AA08BBC8"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-13A573DCB6DE", "CLAIM-9BA87E646CE2", "CLAIM-C419AA08BBC8"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs

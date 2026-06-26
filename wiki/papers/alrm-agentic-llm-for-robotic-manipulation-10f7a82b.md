@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "ALRM: Agentic LLM for Robotic Manipulation"
+description: "Paper fragment for ALRM: Agentic LLM for Robotic Manipulation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ALRM: Agentic LLM for Robotic Manipulation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "alrm-agentic-llm-for-robotic-manipulation-10f7a82b"
-canonical_urls:
-  - "https://arxiv.org/abs/2601.19510"
-local_source_paths:
-  - "sources/raw/arxiv/2601.19510.pdf"
+canonical_urls: ["https://arxiv.org/abs/2601.19510"]
+local_source_paths: ["sources/raw/arxiv/2601.19510.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1F734F4CCCF9"
-  - "CLAIM-E64114920956"
-  - "CLAIM-EB3B39F05FC1"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Coordinated and Auditable Real-World Deployment"
-  - "Programmatic Policy Generation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1F734F4CCCF9", "CLAIM-E64114920956", "CLAIM-EB3B39F05FC1"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Coordinated and Auditable Real-World Deployment", "Programmatic Policy Generation"]
 ---
 
 # ALRM: Agentic LLM for Robotic Manipulation

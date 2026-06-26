@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator"
+description: "Paper fragment for Chain of Code: Reasoning with a Language Model-Augmented Code Emulator, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Chain of Code: Reasoning with a Language Model-Augmented Code Emulator, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "chain-of-code-reasoning-with-a-language-model-augmented-code-emulator-7eae58c2"
-canonical_urls:
-  - "https://arxiv.org/abs/2312.04474"
-local_source_paths:
-  - "sources/raw/arxiv/2312.04474.pdf"
+canonical_urls: ["https://arxiv.org/abs/2312.04474"]
+local_source_paths: ["sources/raw/arxiv/2312.04474.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-90ADFCF8D9E1"
-  - "CLAIM-9480CCDEEBD6"
-  - "CLAIM-A2EEDE1D54DD"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-90ADFCF8D9E1", "CLAIM-9480CCDEEBD6", "CLAIM-A2EEDE1D54DD"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # Chain of Code: Reasoning with a Language Model-Augmented Code Emulator

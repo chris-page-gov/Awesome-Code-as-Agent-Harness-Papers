@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "From Programs to Poses: Factored Real-World Scene Generation via Learned Program Libraries"
+description: "Paper fragment for From Programs to Poses: Factored Real-World Scene Generation via Learned Program Libraries, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for From Programs to Poses: Factored Real-World Scene Generation via Learned Program Libraries, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "from-programs-to-poses-factored-real-world-scene-generation-via-learned-348b0a74"
-canonical_urls:
-  - "https://openreview.net/forum?id=Ew8bJkSt3g"
-local_source_paths:
-  - "sources/raw/html/openreview.net/from-programs-to-poses-factored-real-world-scene-generation-via-learned-program-b37f0ed9.html"
+canonical_urls: ["https://openreview.net/forum?id=Ew8bJkSt3g"]
+local_source_paths: ["sources/raw/html/openreview.net/from-programs-to-poses-factored-real-world-scene-generation-via-learned-program-b37f0ed9.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-B2F61CF9F3D6"
-  - "CLAIM-E3BC91946920"
-  - "CLAIM-F556DF219277"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Structured World Representations"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-B2F61CF9F3D6", "CLAIM-E3BC91946920", "CLAIM-F556DF219277"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Structured World Representations"]
 ---
 
 # From Programs to Poses: Factored Real-World Scene Generation via Learned Program Libraries

@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation provides localized evidence a"
+description: "VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation provides localized evidence about code execution for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-A3DD67016AB7"
 claim_type: "contribution"
-paper_ids:
-  - "veriguard-enhancing-llm-agent-safety-via-verified-code-generation-a5861f4a"
+paper_ids: ["veriguard-enhancing-llm-agent-safety-via-verified-code-generation-a5861f4a"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2510.05156.pdf"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/arxiv/2510.05156.pdf"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/arxiv/2510.05156.pdf; extracted sentence match for code-execution"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-A3DD67016AB7

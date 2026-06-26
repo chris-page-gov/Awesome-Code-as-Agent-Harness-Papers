@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation"
+description: "Paper fragment for LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "llm-based-test-driven-interactive-code-generation-user-study-and-empiric-81264c4e"
-canonical_urls:
-  - "https://dl.acm.org/doi/abs/10.1109/TSE.2024.3428972"
-  - "https://arxiv.org/pdf/2404.10100"
-local_source_paths:
-  - "sources/raw/arxiv/2404.10100.pdf"
+canonical_urls: ["https://dl.acm.org/doi/abs/10.1109/TSE.2024.3428972", "https://arxiv.org/pdf/2404.10100"]
+local_source_paths: ["sources/raw/arxiv/2404.10100.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2E0BA4690817"
-  - "CLAIM-330FFE4837C5"
-  - "CLAIM-99166C2DE821"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2E0BA4690817", "CLAIM-330FFE4837C5", "CLAIM-99166C2DE821"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation

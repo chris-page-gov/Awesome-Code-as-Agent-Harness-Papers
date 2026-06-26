@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "CodeQA: Advanced Programming Question-Answering Using LLM Agent and RAG provides localized evide"
+description: "CodeQA: Advanced Programming Question-Answering Using LLM Agent and RAG provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "CodeQA: Advanced Programming Question-Answering Using LLM Agent and RAG provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-82F7F6E500E7"
 claim_type: "evaluation-result"
-paper_ids:
-  - "codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-1d7fa345"
+paper_ids: ["codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-1d7fa345"]
 source_ids: []
-source_refs:
-  - "sources/raw/html/ieeexplore.ieee.org/codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-484182a0.html"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/html/ieeexplore.ieee.org/codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-484182a0.html"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/html/ieeexplore.ieee.org/codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-484182a0.html; extracted sentence match for evaluation"
 extraction_method: "html-text"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-82F7F6E500E7

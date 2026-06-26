@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Reflexion: Language Agents with Verbal Reinforcement Learning"
+description: "Paper fragment for Reflexion: Language Agents with Verbal Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Reflexion: Language Agents with Verbal Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "reflexion-language-agents-with-verbal-reinforcement-learning-a336a163"
-canonical_urls:
-  - "https://openreview.net/forum?id=vAElhFcKW6"
-local_source_paths:
-  - "sources/raw/openreview/vAElhFcKW6.pdf"
+canonical_urls: ["https://openreview.net/forum?id=vAElhFcKW6"]
+local_source_paths: ["sources/raw/openreview/vAElhFcKW6.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-49FA7D1713FE"
-  - "CLAIM-895678C7EAE0"
-  - "CLAIM-98A721BC0A0F"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-49FA7D1713FE", "CLAIM-895678C7EAE0", "CLAIM-98A721BC0A0F"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # Reflexion: Language Agents with Verbal Reinforcement Learning

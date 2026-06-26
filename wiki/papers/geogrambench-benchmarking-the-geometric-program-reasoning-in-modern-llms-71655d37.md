@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Geogrambench: Benchmarking the geometric program reasoning in modern llms"
+description: "Paper fragment for Geogrambench: Benchmarking the geometric program reasoning in modern llms, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Geogrambench: Benchmarking the geometric program reasoning in modern llms, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "geogrambench-benchmarking-the-geometric-program-reasoning-in-modern-llms-71655d37"
-canonical_urls:
-  - "https://arxiv.org/abs/2505.17653"
-local_source_paths:
-  - "sources/raw/arxiv/2505.17653.pdf"
+canonical_urls: ["https://arxiv.org/abs/2505.17653"]
+local_source_paths: ["sources/raw/arxiv/2505.17653.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-A4A8EC884B63"
-  - "CLAIM-CD33E9D040B7"
-  - "CLAIM-E62D134B8F2D"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-A4A8EC884B63", "CLAIM-CD33E9D040B7", "CLAIM-E62D134B8F2D"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # Geogrambench: Benchmarking the geometric program reasoning in modern llms

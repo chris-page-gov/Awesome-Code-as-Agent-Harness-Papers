@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "What I cannot execute, I do not understand: Training and Evaluating LLMs on Program Execution Traces"
+description: "Paper fragment for What I cannot execute, I do not understand: Training and Evaluating LLMs on Program Execution Traces, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for What I cannot execute, I do not understand: Training and Evaluating LLMs on Program Execution Traces, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "what-i-cannot-execute-i-do-not-understand-training-and-evaluating-llms-o-f2d43ec2"
-canonical_urls:
-  - "https://arxiv.org/abs/2503.05703"
-local_source_paths:
-  - "sources/raw/arxiv/2503.05703.pdf"
+canonical_urls: ["https://arxiv.org/abs/2503.05703"]
+local_source_paths: ["sources/raw/arxiv/2503.05703.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-BBE128FF0D4B"
-  - "CLAIM-DEA039D7F1F6"
-  - "CLAIM-E9372CF823B9"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-BBE128FF0D4B", "CLAIM-DEA039D7F1F6", "CLAIM-E9372CF823B9"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # What I cannot execute, I do not understand: Training and Evaluating LLMs on Program Execution Traces

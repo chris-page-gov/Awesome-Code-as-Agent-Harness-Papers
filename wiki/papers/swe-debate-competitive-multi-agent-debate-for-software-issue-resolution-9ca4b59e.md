@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution"
+description: "Paper fragment for SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution-9ca4b59e"
-canonical_urls:
-  - "https://arxiv.org/abs/2507.23348"
-local_source_paths:
-  - "sources/raw/arxiv/2507.23348.pdf"
+canonical_urls: ["https://arxiv.org/abs/2507.23348"]
+local_source_paths: ["sources/raw/arxiv/2507.23348.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-D8B8460F94B2"
-  - "CLAIM-E2BF245D1F9D"
-  - "CLAIM-E9A0F6C66C23"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Multi-Agent Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-D8B8460F94B2", "CLAIM-E2BF245D1F9D", "CLAIM-E9A0F6C66C23"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Multi-Agent Memory"]
 ---
 
 # SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution

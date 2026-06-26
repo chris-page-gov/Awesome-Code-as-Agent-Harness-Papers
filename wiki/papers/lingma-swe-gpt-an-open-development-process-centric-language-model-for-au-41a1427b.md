@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement"
+description: "Paper fragment for Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "lingma-swe-gpt-an-open-development-process-centric-language-model-for-au-41a1427b"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3728981"
-  - "https://arxiv.org/pdf/2411.00622"
-local_source_paths:
-  - "sources/raw/arxiv/2411.00622.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3728981", "https://arxiv.org/pdf/2411.00622"]
+local_source_paths: ["sources/raw/arxiv/2411.00622.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-BD523AFB6F0F"
-  - "CLAIM-DDBFF360D052"
-  - "CLAIM-F7E79893C868"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Functional Role Specialization"
-  - "Shared Harness Representation"
-survey_subsections:
-  - "Program Understanding Agents"
-  - "Repository-Based Representation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-BD523AFB6F0F", "CLAIM-DDBFF360D052", "CLAIM-F7E79893C868"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Functional Role Specialization", "Shared Harness Representation"]
+survey_subsections: ["Program Understanding Agents", "Repository-Based Representation"]
 ---
 
 # Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement

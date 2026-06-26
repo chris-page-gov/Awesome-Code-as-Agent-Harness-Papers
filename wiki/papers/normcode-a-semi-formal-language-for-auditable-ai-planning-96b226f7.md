@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "NormCode: A Semi-Formal Language for Auditable AI Planning"
+description: "Paper fragment for NormCode: A Semi-Formal Language for Auditable AI Planning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for NormCode: A Semi-Formal Language for Auditable AI Planning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "normcode-a-semi-formal-language-for-auditable-ai-planning-96b226f7"
-canonical_urls:
-  - "https://arxiv.org/abs/2512.10563"
-local_source_paths:
-  - "sources/raw/arxiv/2512.10563.pdf"
+canonical_urls: ["https://arxiv.org/abs/2512.10563"]
+local_source_paths: ["sources/raw/arxiv/2512.10563.pdf"]
 source_status: "integrated"
 evidence_quality: "cross-agent-reviewed"
 claim_card_ids:
@@ -21,16 +26,9 @@ claim_card_ids:
   - "CLAIM-C0A37CE3E2EC"
   - "CLAIM-C7697F8C77E8"
   - "CLAIM-CB8DFECA3750"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-  - "Programmatic Policy Generation"
-last_reviewed: "2026-06-02"
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions", "Programmatic Policy Generation"]
 ---
 
 # NormCode: A Semi-Formal Language for Auditable AI Planning

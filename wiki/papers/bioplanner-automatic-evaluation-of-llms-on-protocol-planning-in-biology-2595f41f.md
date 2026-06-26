@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology"
+description: "Paper fragment for BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "bioplanner-automatic-evaluation-of-llms-on-protocol-planning-in-biology-2595f41f"
-canonical_urls:
-  - "https://aclanthology.org/2023.emnlp-main.162/"
-local_source_paths:
-  - "sources/raw/acl/2023.emnlp-main.162.pdf"
+canonical_urls: ["https://aclanthology.org/2023.emnlp-main.162/"]
+local_source_paths: ["sources/raw/acl/2023.emnlp-main.162.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0679224EA750"
-  - "CLAIM-6B93E2BDDFBF"
-  - "CLAIM-B4E986409C7A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Unifying Ideation, Experimentation, Analysis, and Communication"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0679224EA750", "CLAIM-6B93E2BDDFBF", "CLAIM-B4E986409C7A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Unifying Ideation, Experimentation, Analysis, and Communication"]
 ---
 
 # BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology

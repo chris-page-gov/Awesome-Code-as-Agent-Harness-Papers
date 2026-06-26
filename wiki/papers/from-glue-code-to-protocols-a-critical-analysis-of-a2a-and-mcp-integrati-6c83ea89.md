@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems"
+description: "Paper fragment for From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "from-glue-code-to-protocols-a-critical-analysis-of-a2a-and-mcp-integrati-6c83ea89"
-canonical_urls:
-  - "https://arxiv.org/abs/2505.03864"
-local_source_paths:
-  - "sources/raw/arxiv/2505.03864.pdf"
+canonical_urls: ["https://arxiv.org/abs/2505.03864"]
+local_source_paths: ["sources/raw/arxiv/2505.03864.pdf"]
 source_status: "integrated"
 evidence_quality: "cross-agent-reviewed"
 claim_card_ids:
@@ -21,13 +26,9 @@ claim_card_ids:
   - "CLAIM-8B50CBE6A6A1"
   - "CLAIM-A9531E458461"
   - "CLAIM-BA0757D414CF"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems

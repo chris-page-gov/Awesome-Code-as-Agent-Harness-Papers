@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks"
+description: "Paper fragment for TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "theagentcompany-benchmarking-llm-agents-on-consequential-real-world-task-7a7d553e"
-canonical_urls:
-  - "https://openreview.net/forum?id=LZnKNApvhG"
-local_source_paths:
-  - "sources/raw/openreview/LZnKNApvhG.pdf"
+canonical_urls: ["https://openreview.net/forum?id=LZnKNApvhG"]
+local_source_paths: ["sources/raw/openreview/LZnKNApvhG.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-543FC006D78F"
-  - "CLAIM-87CC37DD094D"
-  - "CLAIM-CB229F82F6C0"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-543FC006D78F", "CLAIM-87CC37DD094D", "CLAIM-CB229F82F6C0"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks

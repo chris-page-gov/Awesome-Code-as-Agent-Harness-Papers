@@ -1,19 +1,21 @@
 ---
-title: "Code as Agent Harness Survey provides localized evidence about multi-agent coordination for the "
+type: "claim-card"
+title: "Code as Agent Harness Survey provides localized evidence about multi-agent coordination for the"
+description: "Code as Agent Harness Survey provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Code as Agent Harness Survey provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-4F4EF7104DFB"
 claim_type: "protocol-capability"
 paper_ids: []
-source_ids:
-  - "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026"
-source_refs:
-  - "sources/raw/arxiv/2605.18747.pdf"
-  - "wiki/sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md"
-related_topics:
-  - "scaling-the-harness"
-  - "mcp-governance"
+source_ids: ["SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026"]
+source_refs: ["sources/raw/arxiv/2605.18747.pdf", "wiki/sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md"]
+related_topics: ["scaling-the-harness", "mcp-governance"]
 evidence_locator: "sources/raw/arxiv/2605.18747.pdf; source-note or local-source match for multi-agent"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -21,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.78
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-4F4EF7104DFB

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Memory OS of AI Agent"
+description: "Paper fragment for Memory OS of AI Agent, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Memory OS of AI Agent, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "memory-os-of-ai-agent-24598978"
-canonical_urls:
-  - "https://aclanthology.org/2025.emnlp-main.1318/"
-local_source_paths:
-  - "sources/raw/acl/2025.emnlp-main.1318.pdf"
+canonical_urls: ["https://aclanthology.org/2025.emnlp-main.1318/"]
+local_source_paths: ["sources/raw/acl/2025.emnlp-main.1318.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0468369FBEC1"
-  - "CLAIM-C0285C473E92"
-  - "CLAIM-C1B0979AF8C0"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Long-Term Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0468369FBEC1", "CLAIM-C0285C473E92", "CLAIM-C1B0979AF8C0"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Long-Term Memory"]
 ---
 
 # Memory OS of AI Agent

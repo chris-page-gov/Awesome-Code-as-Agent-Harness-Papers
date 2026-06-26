@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Introducing Aardvark: OpenAI's Agentic Security Researcher"
+description: "Paper fragment for Introducing Aardvark: OpenAI's Agentic Security Researcher, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Introducing Aardvark: OpenAI's Agentic Security Researcher, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "introducing-aardvark-openai-s-agentic-security-researcher-4f6b5d20"
-canonical_urls:
-  - "https://openai.com/index/introducing-aardvark/"
-local_source_paths:
-  - "sources/raw/html/openai.com/introducing-aardvark-openai-s-agentic-security-researcher-7491db27.html"
+canonical_urls: ["https://openai.com/index/introducing-aardvark/"]
+local_source_paths: ["sources/raw/html/openai.com/introducing-aardvark-openai-s-agentic-security-researcher-7491db27.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4989AFE484A2"
-  - "CLAIM-4F05439E2754"
-  - "CLAIM-9FE3DC2799A9"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4989AFE484A2", "CLAIM-4F05439E2754", "CLAIM-9FE3DC2799A9"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # Introducing Aardvark: OpenAI's Agentic Security Researcher

@@ -1,11 +1,17 @@
 ---
+type: "topic"
 title: "Code as Agent Harness"
+description: "Code as agent harness treats code as the executable, inspectable, and stateful structure through which agents reason, act, model environments, receive feedback, and coordinate."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["topic", "code-as-agent-harness", "survey"]
+okf_version: "0.1"
+okfr_role: "topic"
+okfr_summary: "Code as agent harness treats code as the executable, inspectable, and stateful structure through which agents reason, act, model environments, receive feedback, and coordinate."
 note_type: "topic"
 status: "active"
-tags: ["topic", "code-as-agent-harness", "survey"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-README-ORIGINAL-2026-06-02", "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026"]
 related: ["harness-interface.md", "harness-mechanisms.md", "scaling-the-harness.md", "applications.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Code as Agent Harness

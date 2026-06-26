@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SatLM: Satisfiability-Aided Language Models Using Declarative Prompting"
+description: "Paper fragment for SatLM: Satisfiability-Aided Language Models Using Declarative Prompting, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SatLM: Satisfiability-Aided Language Models Using Declarative Prompting, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "satlm-satisfiability-aided-language-models-using-declarative-prompting-7cfd10ef"
-canonical_urls:
-  - "https://openreview.net/forum?id=8tt9KxyV2s"
-local_source_paths:
-  - "sources/raw/html/openreview.net/satlm-satisfiability-aided-language-models-using-declarative-prompting-1d2280ee.html"
+canonical_urls: ["https://openreview.net/forum?id=8tt9KxyV2s"]
+local_source_paths: ["sources/raw/html/openreview.net/satlm-satisfiability-aided-language-models-using-declarative-prompting-1d2280ee.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-07CE4847DBF8"
-  - "CLAIM-B0E93846FA98"
-  - "CLAIM-BBCC5AD88ECB"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-07CE4847DBF8", "CLAIM-B0E93846FA98", "CLAIM-BBCC5AD88ECB"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # SatLM: Satisfiability-Aided Language Models Using Declarative Prompting

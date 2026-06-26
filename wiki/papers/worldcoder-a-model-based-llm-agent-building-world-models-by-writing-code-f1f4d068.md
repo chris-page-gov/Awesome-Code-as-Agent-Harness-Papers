@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment"
+description: "Paper fragment for WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-f1f4d068"
-canonical_urls:
-  - "https://proceedings.neurips.cc/paper_files/paper/2024/file/820c61a0cd419163ccbd2c33b268816e-Paper-Conference.pdf"
-local_source_paths:
-  - "sources/raw/pdf/worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-and-int-e1cb6952.pdf"
+canonical_urls: ["https://proceedings.neurips.cc/paper_files/paper/2024/file/820c61a0cd419163ccbd2c33b268816e-Paper-Conference.pdf"]
+local_source_paths: ["sources/raw/pdf/worldcoder-a-model-based-llm-agent-building-world-models-by-writing-code-and-int-e1cb6952.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2E214B0ED083"
-  - "CLAIM-642B9F01741A"
-  - "CLAIM-F6834A3922A1"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Execution-Trace World Modeling"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2E214B0ED083", "CLAIM-642B9F01741A", "CLAIM-F6834A3922A1"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Execution-Trace World Modeling"]
 ---
 
 # WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment

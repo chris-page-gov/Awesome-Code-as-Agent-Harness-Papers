@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations"
+description: "Paper fragment for Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "recommender-ai-agent-integrating-large-language-models-for-interactive-r-73cf0644"
-canonical_urls:
-  - "https://arxiv.org/abs/2308.16505"
-local_source_paths:
-  - "sources/raw/arxiv/2308.16505.pdf"
+canonical_urls: ["https://arxiv.org/abs/2308.16505"]
+local_source_paths: ["sources/raw/arxiv/2308.16505.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-12D3499CE040"
-  - "CLAIM-912364AD5161"
-  - "CLAIM-B41C99DADA9D"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "From Static Recommendation to Interactive Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-12D3499CE040", "CLAIM-912364AD5161", "CLAIM-B41C99DADA9D"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["From Static Recommendation to Interactive Personalization"]
 ---
 
 # Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations

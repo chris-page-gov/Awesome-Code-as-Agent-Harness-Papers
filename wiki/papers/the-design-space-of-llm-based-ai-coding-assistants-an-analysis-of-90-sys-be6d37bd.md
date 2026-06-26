@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "The Design Space of LLM-Based AI Coding Assistants: An Analysis of 90 Systems in Academia and Industry"
+description: "Paper fragment for The Design Space of LLM-Based AI Coding Assistants: An Analysis of 90 Systems in Academia and Industry, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for The Design Space of LLM-Based AI Coding Assistants: An Analysis of 90 Systems in Academia and Industry, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-sys-be6d37bd"
-canonical_urls:
-  - "https://ieeexplore.ieee.org/document/11303497/"
-local_source_paths:
-  - "sources/raw/html/ieeexplore.ieee.org/the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-systems-in-ab572db7.html"
+canonical_urls: ["https://ieeexplore.ieee.org/document/11303497/"]
+local_source_paths: ["sources/raw/html/ieeexplore.ieee.org/the-design-space-of-llm-based-ai-coding-assistants-an-analysis-of-90-systems-in-ab572db7.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2733B084B967"
-  - "CLAIM-5C00EA892320"
-  - "CLAIM-695C1C522815"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2733B084B967", "CLAIM-5C00EA892320", "CLAIM-695C1C522815"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # The Design Space of LLM-Based AI Coding Assistants: An Analysis of 90 Systems in Academia and Industry

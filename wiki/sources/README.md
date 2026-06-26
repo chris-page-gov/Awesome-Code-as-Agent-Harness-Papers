@@ -1,3 +1,13 @@
+---
+type: "source"
+title: "Source Notes"
+description: "Source notes record evidence status and use boundaries. They are not substitutes for raw sources; they are navigable summaries that point to canonical URLs and localized files when available."
+timestamp: "2026-06-26T00:00:00Z"
+okf_version: "0.1"
+okfr_role: "index"
+okfr_summary: "Source notes record evidence status and use boundaries. They are not substitutes for raw sources; they are navigable summaries that point to canonical URLs and localized files when available."
+---
+
 # Source Notes
 
 Source notes record evidence status and use boundaries. They are not substitutes

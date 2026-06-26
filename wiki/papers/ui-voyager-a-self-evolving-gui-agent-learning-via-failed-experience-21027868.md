@@ -1,31 +1,24 @@
 ---
+type: "paper"
 title: "UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience"
+description: "Paper fragment for UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "ui-voyager-a-self-evolving-gui-agent-learning-via-failed-experience-21027868"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.24533"
-local_source_paths:
-  - "sources/raw/arxiv/2603.24533.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.24533"]
+local_source_paths: ["sources/raw/arxiv/2603.24533.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-906D951852BE"
-  - "CLAIM-BDE9C02C879B"
-  - "CLAIM-E88AACBEC6D3"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Lifelong Code-Based Agents"
-  - "Memory as Persistent Program State"
-  - "Reusable Skills as Embodied Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-906D951852BE", "CLAIM-BDE9C02C879B", "CLAIM-E88AACBEC6D3"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting", "GUI / OS Agents"]
+survey_subsections: ["Lifelong Code-Based Agents", "Memory as Persistent Program State", "Reusable Skills as Embodied Memory"]
 ---
 
 # UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience

@@ -1,33 +1,24 @@
 ---
+type: "paper"
 title: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization"
+description: "Paper fragment for Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "self-organized-agents-a-llm-multi-agent-framework-toward-ultra-large-sca-db30a15e"
-canonical_urls:
-  - "https://arxiv.org/abs/2404.02183"
-local_source_paths:
-  - "sources/raw/arxiv/2404.02183.pdf"
+canonical_urls: ["https://arxiv.org/abs/2404.02183"]
+local_source_paths: ["sources/raw/arxiv/2404.02183.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-13935551EFDE"
-  - "CLAIM-2232938D6003"
-  - "CLAIM-9D34CC333B3D"
-survey_layers:
-  - "Harness Mechanisms"
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Functional Role Specialization"
-  - "Memory and Context Engineering"
-  - "Shared-Harness Synchronization"
-  - "Workflow Topology"
-survey_subsections:
-  - "Agent Pool Scaling"
-  - "Multi-Agent Memory"
-  - "Planning Agents"
-  - "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-13935551EFDE", "CLAIM-2232938D6003", "CLAIM-9D34CC333B3D"]
+survey_layers: ["Harness Mechanisms", "Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Functional Role Specialization", "Memory and Context Engineering", "Shared-Harness Synchronization", "Workflow Topology"]
+survey_subsections: ["Agent Pool Scaling", "Multi-Agent Memory", "Planning Agents", "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)"]
 ---
 
 # Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization

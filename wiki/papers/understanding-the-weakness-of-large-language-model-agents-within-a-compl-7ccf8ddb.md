@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Understanding the Weakness of Large Language Model Agents within a Complex Android Environment"
+description: "Paper fragment for Understanding the Weakness of Large Language Model Agents within a Complex Android Environment, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Understanding the Weakness of Large Language Model Agents within a Complex Android Environment, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "understanding-the-weakness-of-large-language-model-agents-within-a-compl-7ccf8ddb"
-canonical_urls:
-  - "https://doi.org/10.1145/3637528.3671650"
-  - "https://arxiv.org/pdf/2402.06596"
-local_source_paths:
-  - "sources/raw/arxiv/2402.06596.pdf"
+canonical_urls: ["https://doi.org/10.1145/3637528.3671650", "https://arxiv.org/pdf/2402.06596"]
+local_source_paths: ["sources/raw/arxiv/2402.06596.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3FB13E959270"
-  - "CLAIM-C051E1921F87"
-  - "CLAIM-C267440A2093"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "UI Simulators and Sandboxes as Executable Dynamics"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3FB13E959270", "CLAIM-C051E1921F87", "CLAIM-C267440A2093"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["UI Simulators and Sandboxes as Executable Dynamics"]
 ---
 
 # Understanding the Weakness of Large Language Model Agents within a Complex Android Environment

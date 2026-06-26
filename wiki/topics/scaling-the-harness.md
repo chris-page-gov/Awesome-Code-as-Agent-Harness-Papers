@@ -1,11 +1,17 @@
 ---
+type: "topic"
 title: "Scaling the Harness"
+description: "The README frames Scaling the Harness as multi-agent code-centric systems: multiple roles, interaction modes, workflow topology, feedback integration, shared state, shared representation, and convergence."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["topic", "scaling", "multi-agent", "coordination"]
+okf_version: "0.1"
+okfr_role: "topic"
+okfr_summary: "The README frames Scaling the Harness as multi-agent code-centric systems: multiple roles, interaction modes, workflow topology, feedback integration, shared state, shared representation, and convergence."
 note_type: "topic"
 status: "active"
-tags: ["topic", "scaling", "multi-agent", "coordination"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-README-ORIGINAL-2026-06-02"]
 related: ["code-as-agent-harness.md", "../maps/taxonomy-map.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Scaling the Harness

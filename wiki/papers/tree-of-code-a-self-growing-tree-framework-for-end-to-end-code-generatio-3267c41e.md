@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Tree-of-Code: A Self-Growing Tree Framework for End-to-End Code Generation and Execution in Complex Tasks"
+description: "Paper fragment for Tree-of-Code: A Self-Growing Tree Framework for End-to-End Code Generation and Execution in Complex Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Tree-of-Code: A Self-Growing Tree Framework for End-to-End Code Generation and Execution in Complex Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "tree-of-code-a-self-growing-tree-framework-for-end-to-end-code-generatio-3267c41e"
-canonical_urls:
-  - "https://arxiv.org/abs/2412.15305"
-local_source_paths:
-  - "sources/raw/arxiv/2412.15305.pdf"
+canonical_urls: ["https://arxiv.org/abs/2412.15305"]
+local_source_paths: ["sources/raw/arxiv/2412.15305.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5DE772F00C87"
-  - "CLAIM-8FF62AD6590D"
-  - "CLAIM-F94786DEC06A"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5DE772F00C87", "CLAIM-8FF62AD6590D", "CLAIM-F94786DEC06A"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Search-Based Planning"]
 ---
 
 # Tree-of-Code: A Self-Growing Tree Framework for End-to-End Code Generation and Execution in Complex Tasks

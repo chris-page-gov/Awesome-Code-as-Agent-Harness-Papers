@@ -1,13 +1,19 @@
 ---
+type: "source"
 title: "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP"
+description: "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx"
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["source", "redistributable", "docx", "governance", "mcp"]
+okf_version: "0.1"
+okfr_role: "source"
+okfr_summary: "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx"
 note_type: "source"
 status: "localized"
-tags: ["source", "redistributable", "docx", "governance", "mcp"]
+last_reviewed: "2026-06-02"
 source_id: "SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026"
 source_type: "redistributable-docx"
 source_path_or_url: "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx"
 related: ["../reports/agentic-ai-governance-uk-mcp-review.md", "../reports/llm-wiki-primary-source-evaluation.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # UNOFFICIAL-DRAFT Agentic AI Governance UK MCP

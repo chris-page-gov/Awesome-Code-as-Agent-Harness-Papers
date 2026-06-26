@@ -1,3 +1,13 @@
+---
+type: "paper"
+title: "Paper Fragments"
+description: "This directory stores one reusable wiki fragment per paper or external reference. Fragments are generated from README rows first, then enriched as raw sources are localized and reviewed."
+timestamp: "2026-06-26T00:00:00Z"
+okf_version: "0.1"
+okfr_role: "index"
+okfr_summary: "This directory stores one reusable wiki fragment per paper or external reference. Fragments are generated from README rows first, then enriched as raw sources are localized and reviewed."
+---
+
 # Paper Fragments
 
 This directory stores one reusable wiki fragment per paper or external

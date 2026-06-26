@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Learning to Commit: Generating Organic Pull Requests via Online Repository Memory provides local"
+description: "Learning to Commit: Generating Organic Pull Requests via Online Repository Memory provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Learning to Commit: Generating Organic Pull Requests via Online Repository Memory provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-6572A73F9D4F"
 claim_type: "evaluation-result"
-paper_ids:
-  - "learning-to-commit-generating-organic-pull-requests-via-online-repositor-bf97688d"
+paper_ids: ["learning-to-commit-generating-organic-pull-requests-via-online-repositor-bf97688d"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2603.26664.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2603.26664.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2603.26664.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-6572A73F9D4F

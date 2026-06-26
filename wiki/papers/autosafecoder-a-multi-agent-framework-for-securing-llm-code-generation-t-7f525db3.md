@@ -1,22 +1,22 @@
 ---
+type: "paper"
 title: "AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing"
+description: "Paper fragment for AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "autosafecoder-a-multi-agent-framework-for-securing-llm-code-generation-t-7f525db3"
-canonical_urls:
-  - "https://arxiv.org/abs/2409.10737"
-local_source_paths:
-  - "sources/raw/arxiv/2409.10737.pdf"
+canonical_urls: ["https://arxiv.org/abs/2409.10737"]
+local_source_paths: ["sources/raw/arxiv/2409.10737.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-044870247913"
-  - "CLAIM-14A13E44B554"
-  - "CLAIM-8010A88716E5"
-survey_layers:
-  - "Harness Mechanisms"
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
+claim_card_ids: ["CLAIM-044870247913", "CLAIM-14A13E44B554", "CLAIM-8010A88716E5"]
+survey_layers: ["Harness Mechanisms", "Scaling the Harness: Multi-Agent Code-Centric Systems"]
 survey_sections:
   - "Execution Feedback Integration"
   - "Functional Role Specialization"
@@ -32,7 +32,6 @@ survey_subsections:
   - "Security Convergence"
   - "Static Analysis Warnings"
   - "Verification Agents"
-last_reviewed: "2026-06-02"
 ---
 
 # AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing

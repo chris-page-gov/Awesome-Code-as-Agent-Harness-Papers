@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation"
+description: "Paper fragment for DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "domagent-leveraging-knowledge-graphs-and-case-based-reasoning-for-domain-354f2e9a"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.21430"
-local_source_paths:
-  - "sources/raw/arxiv/2603.21430.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.21430"]
+local_source_paths: ["sources/raw/arxiv/2603.21430.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-24DC84EDB242"
-  - "CLAIM-906A1744461F"
-  - "CLAIM-F72F0FB375CF"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Structure-Grounded Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-24DC84EDB242", "CLAIM-906A1744461F", "CLAIM-F72F0FB375CF"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Structure-Grounded Planning"]
 ---
 
 # DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation

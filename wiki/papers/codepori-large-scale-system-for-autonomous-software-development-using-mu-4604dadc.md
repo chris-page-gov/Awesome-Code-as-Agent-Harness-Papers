@@ -1,28 +1,24 @@
 ---
+type: "paper"
 title: "CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology"
+description: "Paper fragment for CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codepori-large-scale-system-for-autonomous-software-development-using-mu-4604dadc"
-canonical_urls:
-  - "https://arxiv.org/abs/2402.01411"
-local_source_paths:
-  - "sources/raw/arxiv/2402.01411.pdf"
+canonical_urls: ["https://arxiv.org/abs/2402.01411"]
+local_source_paths: ["sources/raw/arxiv/2402.01411.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-205A02FB59F1"
-  - "CLAIM-34523DF5576B"
-  - "CLAIM-ECF49DC3E446"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Interaction Modes"
-  - "Shared Harness Representation"
-survey_subsections:
-  - "Collaborative Synthesis"
-  - "Implicit / File-Only Representation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-205A02FB59F1", "CLAIM-34523DF5576B", "CLAIM-ECF49DC3E446"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Interaction Modes", "Shared Harness Representation"]
+survey_subsections: ["Collaborative Synthesis", "Implicit / File-Only Representation"]
 ---
 
 # CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology

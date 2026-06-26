@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Introducing Operator"
+description: "Paper fragment for Introducing Operator, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Introducing Operator, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "introducing-operator-55380981"
-canonical_urls:
-  - "https://openai.com/index/introducing-operator/"
-local_source_paths:
-  - "sources/raw/html/openai.com/introducing-operator-eb97a609.html"
+canonical_urls: ["https://openai.com/index/introducing-operator/"]
+local_source_paths: ["sources/raw/html/openai.com/introducing-operator-eb97a609.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-9278BC8E0B43"
-  - "CLAIM-97480F5EAC30"
-  - "CLAIM-9C816EE92251"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "From Simulation to Production: Executable Feedback Loops"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-9278BC8E0B43", "CLAIM-97480F5EAC30", "CLAIM-9C816EE92251"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["From Simulation to Production: Executable Feedback Loops"]
 ---
 
 # Introducing Operator

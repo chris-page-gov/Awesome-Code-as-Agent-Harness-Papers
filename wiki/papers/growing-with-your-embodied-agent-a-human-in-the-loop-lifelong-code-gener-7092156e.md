@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Growing with Your Embodied Agent: A Human-in-the-Loop Lifelong Code Generation Framework for Long-Horizon Manipulation Skills"
+description: "Paper fragment for Growing with Your Embodied Agent: A Human-in-the-Loop Lifelong Code Generation Framework for Long-Horizon Manipulation Skills, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Growing with Your Embodied Agent: A Human-in-the-Loop Lifelong Code Generation Framework for Long-Horizon Manipulation Skills, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "growing-with-your-embodied-agent-a-human-in-the-loop-lifelong-code-gener-7092156e"
-canonical_urls:
-  - "https://arxiv.org/abs/2509.18597"
-local_source_paths:
-  - "sources/raw/arxiv/2509.18597.pdf"
+canonical_urls: ["https://arxiv.org/abs/2509.18597"]
+local_source_paths: ["sources/raw/arxiv/2509.18597.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0A51D3358831"
-  - "CLAIM-3217A2C1787F"
-  - "CLAIM-DDD5341031AD"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Lifelong Code-Based Agents"
-  - "Reusable Skills as Embodied Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0A51D3358831", "CLAIM-3217A2C1787F", "CLAIM-DDD5341031AD"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Lifelong Code-Based Agents", "Reusable Skills as Embodied Memory"]
 ---
 
 # Growing with Your Embodied Agent: A Human-in-the-Loop Lifelong Code Generation Framework for Long-Horizon Manipulation Skills

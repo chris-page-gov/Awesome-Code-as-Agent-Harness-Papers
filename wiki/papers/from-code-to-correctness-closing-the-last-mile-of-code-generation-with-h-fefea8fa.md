@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging"
+description: "Paper fragment for From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "from-code-to-correctness-closing-the-last-mile-of-code-generation-with-h-fefea8fa"
-canonical_urls:
-  - "https://arxiv.org/abs/2410.01215"
-local_source_paths:
-  - "sources/raw/arxiv/2410.01215.pdf"
+canonical_urls: ["https://arxiv.org/abs/2410.01215"]
+local_source_paths: ["sources/raw/arxiv/2410.01215.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-06235388EE1E"
-  - "CLAIM-99834439CE1A"
-  - "CLAIM-DBDC87849CD3"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-06235388EE1E", "CLAIM-99834439CE1A", "CLAIM-DBDC87849CD3"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging

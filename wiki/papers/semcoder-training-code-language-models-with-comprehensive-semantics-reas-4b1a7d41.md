@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning"
+description: "Paper fragment for SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "semcoder-training-code-language-models-with-comprehensive-semantics-reas-4b1a7d41"
-canonical_urls:
-  - "https://arxiv.org/abs/2406.01006"
-local_source_paths:
-  - "sources/raw/arxiv/2406.01006.pdf"
+canonical_urls: ["https://arxiv.org/abs/2406.01006"]
+local_source_paths: ["sources/raw/arxiv/2406.01006.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-6330A7C04B9B"
-  - "CLAIM-69F4545BE24C"
-  - "CLAIM-E440A92DC3A1"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Execution-Trace World Modeling"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-6330A7C04B9B", "CLAIM-69F4545BE24C", "CLAIM-E440A92DC3A1"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Execution-Trace World Modeling"]
 ---
 
 # SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning

@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Introducing Aardvark: OpenAI's Agentic Security Researcher provides localized evidence about pla"
+description: "Introducing Aardvark: OpenAI's Agentic Security Researcher provides localized evidence about planning and workflow for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Introducing Aardvark: OpenAI's Agentic Security Researcher provides localized evidence about planning and workflow for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-4989AFE484A2"
 claim_type: "contribution"
-paper_ids:
-  - "introducing-aardvark-openai-s-agentic-security-researcher-4f6b5d20"
+paper_ids: ["introducing-aardvark-openai-s-agentic-security-researcher-4f6b5d20"]
 source_ids: []
-source_refs:
-  - "sources/raw/html/openai.com/introducing-aardvark-openai-s-agentic-security-researcher-7491db27.html"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/html/openai.com/introducing-aardvark-openai-s-agentic-security-researcher-7491db27.html"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/html/openai.com/introducing-aardvark-openai-s-agentic-security-researcher-7491db27.html; extracted sentence match for planning"
 extraction_method: "html-text"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-4989AFE484A2

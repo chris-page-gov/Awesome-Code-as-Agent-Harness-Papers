@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "Voyager: An Open-Ended Embodied Agent with Large Language Models"
+description: "Paper fragment for Voyager: An Open-Ended Embodied Agent with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Voyager: An Open-Ended Embodied Agent with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "voyager-an-open-ended-embodied-agent-with-large-language-models-b3b8e559"
-canonical_urls:
-  - "https://openreview.net/forum?id=ehfRiF0R3a"
-  - "https://arxiv.org/abs/2305.16291"
-local_source_paths:
-  - "sources/raw/openreview/ehfRiF0R3a.pdf"
+canonical_urls: ["https://openreview.net/forum?id=ehfRiF0R3a", "https://arxiv.org/abs/2305.16291"]
+local_source_paths: ["sources/raw/openreview/ehfRiF0R3a.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7B8C756138DD"
-  - "CLAIM-C5D48BBC1697"
-  - "CLAIM-D85DB267230C"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Lifelong Code-Based Agents"
-  - "Reusable Skills as Embodied Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-7B8C756138DD", "CLAIM-C5D48BBC1697", "CLAIM-D85DB267230C"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Lifelong Code-Based Agents", "Reusable Skills as Embodied Memory"]
 ---
 
 # Voyager: An Open-Ended Embodied Agent with Large Language Models

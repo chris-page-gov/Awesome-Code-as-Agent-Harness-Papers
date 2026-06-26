@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "ChatDev: Communicative Agents for Software Development provides localized evidence about multi-a"
+description: "ChatDev: Communicative Agents for Software Development provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "ChatDev: Communicative Agents for Software Development provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-AC57196227FA"
 claim_type: "protocol-capability"
-paper_ids:
-  - "chatdev-communicative-agents-for-software-development-204be492"
+paper_ids: ["chatdev-communicative-agents-for-software-development-204be492"]
 source_ids: []
-source_refs:
-  - "sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html"
-related_topics:
-  - "scaling-the-harness"
-  - "mcp-governance"
+source_refs: ["sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html"]
+related_topics: ["scaling-the-harness", "mcp-governance"]
 evidence_locator: "sources/raw/html/doi.org/chatdev-communicative-agents-for-software-development-dd2138c7.html; extracted sentence match for multi-agent"
 extraction_method: "html-text"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-AC57196227FA

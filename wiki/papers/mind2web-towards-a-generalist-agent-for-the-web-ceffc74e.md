@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Mind2Web: Towards a Generalist Agent for the Web"
+description: "Paper fragment for Mind2Web: Towards a Generalist Agent for the Web, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Mind2Web: Towards a Generalist Agent for the Web, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mind2web-towards-a-generalist-agent-for-the-web-ceffc74e"
-canonical_urls:
-  - "https://openreview.net/forum?id=kiYqbO3wqw"
-local_source_paths:
-  - "sources/raw/openreview/kiYqbO3wqw.pdf"
+canonical_urls: ["https://openreview.net/forum?id=kiYqbO3wqw"]
+local_source_paths: ["sources/raw/openreview/kiYqbO3wqw.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7C3A75C42D61"
-  - "CLAIM-99352A1F525B"
-  - "CLAIM-D78C5CBC6008"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-7C3A75C42D61", "CLAIM-99352A1F525B", "CLAIM-D78C5CBC6008"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # Mind2Web: Towards a Generalist Agent for the Web

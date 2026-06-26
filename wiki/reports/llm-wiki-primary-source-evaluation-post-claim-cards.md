@@ -1,8 +1,14 @@
 ---
+type: "report"
 title: "LLM-Wiki Primary Source Evaluation After Claim Cards"
+description: "The prior evaluation found that the wiki was strong for discovery and provenance, but weak for claim granularity: paper fragments were mostly automated cues and reports cited whole fragments rather than atomic claims."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["report", "llm-wiki", "evaluation", "claim-card"]
+okf_version: "0.1"
+okfr_role: "report"
+okfr_summary: "The prior evaluation found that the wiki was strong for discovery and provenance, but weak for claim granularity: paper fragments were mostly automated cues and reports cited whole fragments rather than atomic claims."
 note_type: "report"
 status: "agent-reviewed"
-tags: ["report", "llm-wiki", "evaluation", "claim-card"]
 last_reviewed: "2026-06-02"
 ---
 

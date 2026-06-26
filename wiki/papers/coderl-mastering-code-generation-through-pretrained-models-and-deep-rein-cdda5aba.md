@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning"
+description: "Paper fragment for CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "coderl-mastering-code-generation-through-pretrained-models-and-deep-rein-cdda5aba"
-canonical_urls:
-  - "https://openreview.net/forum?id=WaGvb7OzySA"
-local_source_paths:
-  - "sources/raw/openreview/WaGvb7OzySA.pdf"
+canonical_urls: ["https://openreview.net/forum?id=WaGvb7OzySA"]
+local_source_paths: ["sources/raw/openreview/WaGvb7OzySA.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-71B78B2B1C3E"
-  - "CLAIM-771711F7B992"
-  - "CLAIM-997D164F6E0B"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-71B78B2B1C3E", "CLAIM-771711F7B992", "CLAIM-997D164F6E0B"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning

@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "NormCode: A Semi-Formal Language for Auditable AI Planning provides localized evidence about mem"
+description: "NormCode: A Semi-Formal Language for Auditable AI Planning provides localized evidence about memory and state for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "NormCode: A Semi-Formal Language for Auditable AI Planning provides localized evidence about memory and state for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-C7697F8C77E8"
 claim_type: "contribution"
-paper_ids:
-  - "normcode-a-semi-formal-language-for-auditable-ai-planning-96b226f7"
+paper_ids: ["normcode-a-semi-formal-language-for-auditable-ai-planning-96b226f7"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2512.10563.pdf"
-related_topics:
-  - "harness-mechanisms"
-  - "evidence-observability-and-redress"
+source_refs: ["sources/raw/arxiv/2512.10563.pdf"]
+related_topics: ["harness-mechanisms", "evidence-observability-and-redress"]
 evidence_locator: "sources/raw/arxiv/2512.10563.pdf; extracted sentence match for memory"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.82
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-C7697F8C77E8

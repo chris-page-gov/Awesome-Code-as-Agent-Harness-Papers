@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "PAL: Program-aided Language Models"
+description: "Paper fragment for PAL: Program-aided Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for PAL: Program-aided Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "pal-program-aided-language-models-a557cd88"
-canonical_urls:
-  - "https://proceedings.mlr.press/v202/gao23f.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.mlr.press/pal-program-aided-language-models-f5ec9d83.html"
+canonical_urls: ["https://proceedings.mlr.press/v202/gao23f.html"]
+local_source_paths: ["sources/raw/html/proceedings.mlr.press/pal-program-aided-language-models-f5ec9d83.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-500FFDFCB2AB"
-  - "CLAIM-8C589517034C"
-  - "CLAIM-9652EB16A5EB"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Program-Delegated Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-500FFDFCB2AB", "CLAIM-8C589517034C", "CLAIM-9652EB16A5EB"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Program-Delegated Reasoning"]
 ---
 
 # PAL: Program-aided Language Models

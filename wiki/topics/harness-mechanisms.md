@@ -1,11 +1,23 @@
 ---
+type: "topic"
 title: "Harness Mechanisms"
+description: "The README describes Harness Mechanisms as the part of the agent loop that decides what to execute next, preserves useful state, exposes tools, and converts failures into corrective actions."
+timestamp: "2026-06-02T00:00:00Z"
+tags:
+  - "topic"
+  - "harness-mechanisms"
+  - "planning"
+  - "memory"
+  - "tools"
+  - "feedback"
+okf_version: "0.1"
+okfr_role: "topic"
+okfr_summary: "The README describes Harness Mechanisms as the part of the agent loop that decides what to execute next, preserves useful state, exposes tools, and converts failures into corrective actions."
 note_type: "topic"
 status: "active"
-tags: ["topic", "harness-mechanisms", "planning", "memory", "tools", "feedback"]
+last_reviewed: "2026-06-02"
 source_ids: ["SOURCE-README-ORIGINAL-2026-06-02"]
 related: ["code-as-agent-harness.md", "../maps/taxonomy-map.md"]
-last_reviewed: "2026-06-02"
 ---
 
 # Harness Mechanisms

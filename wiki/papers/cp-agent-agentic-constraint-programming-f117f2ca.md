@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "CP-Agent: Agentic Constraint Programming"
+description: "Paper fragment for CP-Agent: Agentic Constraint Programming, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CP-Agent: Agentic Constraint Programming, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "cp-agent-agentic-constraint-programming-f117f2ca"
-canonical_urls:
-  - "https://arxiv.org/abs/2508.07468"
-local_source_paths:
-  - "sources/raw/arxiv/2508.07468.pdf"
+canonical_urls: ["https://arxiv.org/abs/2508.07468"]
+local_source_paths: ["sources/raw/arxiv/2508.07468.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-10CAC2A311A1"
-  - "CLAIM-7FFF3DF9BCD6"
-  - "CLAIM-FA9C917B127D"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-  - "Programmatic Policy Generation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-10CAC2A311A1", "CLAIM-7FFF3DF9BCD6", "CLAIM-FA9C917B127D"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions", "Programmatic Policy Generation"]
 ---
 
 # CP-Agent: Agentic Constraint Programming

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory"
+description: "Paper fragment for Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mem0-building-production-ready-ai-agents-with-scalable-long-term-memory-4bb9a734"
-canonical_urls:
-  - "https://arxiv.org/abs/2504.19413"
-local_source_paths:
-  - "sources/raw/arxiv/2504.19413.pdf"
+canonical_urls: ["https://arxiv.org/abs/2504.19413"]
+local_source_paths: ["sources/raw/arxiv/2504.19413.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-11DE6661DE3B"
-  - "CLAIM-4AAC2F62D88F"
-  - "CLAIM-CA12667F0418"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "Preference State as an Editable Artifact"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-11DE6661DE3B", "CLAIM-4AAC2F62D88F", "CLAIM-CA12667F0418"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["Preference State as an Editable Artifact"]
 ---
 
 # Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory

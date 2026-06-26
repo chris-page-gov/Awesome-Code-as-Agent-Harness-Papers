@@ -1,8 +1,14 @@
 ---
+type: "report"
 title: "SeeLinks Assertion Package Synergy Evaluation"
+description: "The fit is strong. This repo now has the evidence substrate that a SeeLinks human-review interface needs: Claim Cards, source locators, paper/source registers, evidence packets, gap cards, explicit review tiers, topic syntheses, and eval..."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["report", "seelinks", "claim-card", "assertion-review", "llm-wiki"]
+okf_version: "0.1"
+okfr_role: "report"
+okfr_summary: "The fit is strong. This repo now has the evidence substrate that a SeeLinks human-review interface needs: Claim Cards, source locators, paper/source registers, evidence packets, gap cards, explicit review tiers, topic syntheses, and eval..."
 note_type: "report"
 status: "agent-reviewed"
-tags: ["report", "seelinks", "claim-card", "assertion-review", "llm-wiki"]
 last_reviewed: "2026-06-02"
 ---
 

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+description: "Paper fragment for OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "osworld-benchmarking-multimodal-agents-for-open-ended-tasks-in-real-comp-2a4a6e0a"
-canonical_urls:
-  - "https://openreview.net/forum?id=tN61DTr4Ed"
-local_source_paths:
-  - "sources/raw/openreview/tN61DTr4Ed.pdf"
+canonical_urls: ["https://openreview.net/forum?id=tN61DTr4Ed"]
+local_source_paths: ["sources/raw/openreview/tN61DTr4Ed.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-6CA387062AE1"
-  - "CLAIM-E0F3124E0596"
-  - "CLAIM-F89CED933958"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-6CA387062AE1", "CLAIM-E0F3124E0596", "CLAIM-F89CED933958"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Project Mariner"
+description: "Paper fragment for Project Mariner, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Project Mariner, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "project-mariner-c0065213"
-canonical_urls:
-  - "https://deepmind.google/models/project-mariner/"
-local_source_paths:
-  - "sources/raw/html/deepmind.google/project-mariner-1b8acc95.html"
+canonical_urls: ["https://deepmind.google/models/project-mariner/"]
+local_source_paths: ["sources/raw/html/deepmind.google/project-mariner-1b8acc95.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7F43772ACEDB"
-  - "CLAIM-8BF1801EBED1"
-  - "CLAIM-DDC9F5671DCB"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "From Simulation to Production: Executable Feedback Loops"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-7F43772ACEDB", "CLAIM-8BF1801EBED1", "CLAIM-DDC9F5671DCB"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["From Simulation to Production: Executable Feedback Loops"]
 ---
 
 # Project Mariner

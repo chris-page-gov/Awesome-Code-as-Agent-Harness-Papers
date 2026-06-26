@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents"
+description: "Paper fragment for Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mem-gallery-benchmarking-multimodal-long-term-conversational-memory-for-fa3a819e"
-canonical_urls:
-  - "https://arxiv.org/abs/2601.03515"
-local_source_paths:
-  - "sources/raw/arxiv/2601.03515.pdf"
+canonical_urls: ["https://arxiv.org/abs/2601.03515"]
+local_source_paths: ["sources/raw/arxiv/2601.03515.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-04C1867BF0AB"
-  - "CLAIM-06E30B121C8A"
-  - "CLAIM-529E5AB37391"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Long-Term Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-04C1867BF0AB", "CLAIM-06E30B121C8A", "CLAIM-529E5AB37391"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Long-Term Memory"]
 ---
 
 # Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents

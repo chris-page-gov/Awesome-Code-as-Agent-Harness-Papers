@@ -1,13 +1,18 @@
 ---
+type: "paper"
 title: "Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution"
+description: "Paper fragment for Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "fault-tolerant-sandboxing-for-ai-coding-agents-a-transactional-approach-260e82ac"
-canonical_urls:
-  - "https://arxiv.org/abs/2512.12806"
-local_source_paths:
-  - "sources/raw/arxiv/2512.12806.pdf"
+canonical_urls: ["https://arxiv.org/abs/2512.12806"]
+local_source_paths: ["sources/raw/arxiv/2512.12806.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
 claim_card_ids:
@@ -21,13 +26,9 @@ claim_card_ids:
   - "CLAIM-B24F0AFC8F48"
   - "CLAIM-B2A30E06F924"
   - "CLAIM-FBF3B55A72A6"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution

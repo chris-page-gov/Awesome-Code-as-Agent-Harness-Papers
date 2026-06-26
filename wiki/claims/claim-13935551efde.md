@@ -1,18 +1,21 @@
 ---
-title: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and "
+type: "claim-card"
+title: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and"
+description: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-13935551EFDE"
 claim_type: "evaluation-result"
-paper_ids:
-  - "self-organized-agents-a-llm-multi-agent-framework-toward-ultra-large-sca-db30a15e"
+paper_ids: ["self-organized-agents-a-llm-multi-agent-framework-toward-ultra-large-sca-db30a15e"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2404.02183.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2404.02183.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2404.02183.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-13935551EFDE

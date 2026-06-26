@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MapCoder: Multi-Agent Code Generation for Competitive Problem Solving"
+description: "Paper fragment for MapCoder: Multi-Agent Code Generation for Competitive Problem Solving, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MapCoder: Multi-Agent Code Generation for Competitive Problem Solving, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "mapcoder-multi-agent-code-generation-for-competitive-problem-solving-93d3b041"
-canonical_urls:
-  - "https://aclanthology.org/2024.acl-long.269/"
-local_source_paths:
-  - "sources/raw/acl/2024.acl-long.269.pdf"
+canonical_urls: ["https://aclanthology.org/2024.acl-long.269/"]
+local_source_paths: ["sources/raw/acl/2024.acl-long.269.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-575CB01059D0"
-  - "CLAIM-73AFCDCEE62C"
-  - "CLAIM-E95DDAC0C999"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Orchestration-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-575CB01059D0", "CLAIM-73AFCDCEE62C", "CLAIM-E95DDAC0C999"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Orchestration-Based Planning"]
 ---
 
 # MapCoder: Multi-Agent Code Generation for Competitive Problem Solving

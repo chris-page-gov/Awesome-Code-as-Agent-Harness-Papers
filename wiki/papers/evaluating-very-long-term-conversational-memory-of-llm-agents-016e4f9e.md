@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Evaluating Very Long-Term Conversational Memory of LLM Agents"
+description: "Paper fragment for Evaluating Very Long-Term Conversational Memory of LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Evaluating Very Long-Term Conversational Memory of LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "evaluating-very-long-term-conversational-memory-of-llm-agents-016e4f9e"
-canonical_urls:
-  - "https://aclanthology.org/2024.acl-long.747/"
-local_source_paths:
-  - "sources/raw/acl/2024.acl-long.747.pdf"
+canonical_urls: ["https://aclanthology.org/2024.acl-long.747/"]
+local_source_paths: ["sources/raw/acl/2024.acl-long.747.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-01DC76F7A599"
-  - "CLAIM-5CD7B71727DB"
-  - "CLAIM-A25F106C4D54"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Long-Term Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-01DC76F7A599", "CLAIM-5CD7B71727DB", "CLAIM-A25F106C4D54"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Long-Term Memory"]
 ---
 
 # Evaluating Very Long-Term Conversational Memory of LLM Agents

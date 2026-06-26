@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis provides lo"
+description: "Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-D8B65EAEBA6C"
 claim_type: "evaluation-result"
-paper_ids:
-  - "helping-llms-improve-code-generation-using-feedback-from-testing-and-sta-d854c7bb"
+paper_ids: ["helping-llms-improve-code-generation-using-feedback-from-testing-and-sta-d854c7bb"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2412.14841.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2412.14841.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2412.14841.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-D8B65EAEBA6C

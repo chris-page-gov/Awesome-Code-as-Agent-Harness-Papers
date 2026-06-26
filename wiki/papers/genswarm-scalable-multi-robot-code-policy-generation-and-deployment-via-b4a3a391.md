@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models"
+description: "Paper fragment for GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "genswarm-scalable-multi-robot-code-policy-generation-and-deployment-via-b4a3a391"
-canonical_urls:
-  - "https://www.nature.com/articles/s44182-025-00065-w"
-  - "https://arxiv.org/abs/2412.01862"
-local_source_paths:
-  - "sources/raw/html/nature.com/genswarm-scalable-multi-robot-code-policy-generation-and-deployment-via-language-64c9ab88.html"
+canonical_urls: ["https://www.nature.com/articles/s44182-025-00065-w", "https://arxiv.org/abs/2412.01862"]
+local_source_paths: ["sources/raw/html/nature.com/genswarm-scalable-multi-robot-code-policy-generation-and-deployment-via-language-64c9ab88.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-39DC2D7896D0"
-  - "CLAIM-AA5F761B2306"
-  - "CLAIM-DB0AD04B0104"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Coordinated and Auditable Real-World Deployment"
-  - "Programmatic Policy Generation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-39DC2D7896D0", "CLAIM-AA5F761B2306", "CLAIM-DB0AD04B0104"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Coordinated and Auditable Real-World Deployment", "Programmatic Policy Generation"]
 ---
 
 # GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models

@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "A Survey on the Memory Mechanism of Large Language Model-Based Agents"
+description: "Paper fragment for A Survey on the Memory Mechanism of Large Language Model-Based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A Survey on the Memory Mechanism of Large Language Model-Based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a-survey-on-the-memory-mechanism-of-large-language-model-based-agents-85c8a24d"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3748302"
-  - "https://arxiv.org/pdf/2404.13501"
-local_source_paths:
-  - "sources/raw/arxiv/2404.13501.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3748302", "https://arxiv.org/pdf/2404.13501"]
+local_source_paths: ["sources/raw/arxiv/2404.13501.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-81BFAE3BDD39"
-  - "CLAIM-A023B6F4AEFC"
-  - "CLAIM-D526E17C080D"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Semantic Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-81BFAE3BDD39", "CLAIM-A023B6F4AEFC", "CLAIM-D526E17C080D"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Semantic Memory"]
 ---
 
 # A Survey on the Memory Mechanism of Large Language Model-Based Agents

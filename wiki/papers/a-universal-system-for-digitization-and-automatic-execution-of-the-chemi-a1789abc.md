@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "A universal system for digitization and automatic execution of the chemical synthesis literature"
+description: "Paper fragment for A universal system for digitization and automatic execution of the chemical synthesis literature, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A universal system for digitization and automatic execution of the chemical synthesis literature, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a-universal-system-for-digitization-and-automatic-execution-of-the-chemi-a1789abc"
-canonical_urls:
-  - "https://www.science.org/doi/10.1126/science.abc2986"
-local_source_paths:
-  - "sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html"
+canonical_urls: ["https://www.science.org/doi/10.1126/science.abc2986"]
+local_source_paths: ["sources/raw/html/science.org/a-universal-system-for-digitization-and-automatic-execution-of-the-chemical-synt-ba1a5cd3.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-83B7851120B9"
-  - "CLAIM-BE39F136BEED"
-  - "CLAIM-FF078D705067"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Unifying Ideation, Experimentation, Analysis, and Communication"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-83B7851120B9", "CLAIM-BE39F136BEED", "CLAIM-FF078D705067"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Unifying Ideation, Experimentation, Analysis, and Communication"]
 ---
 
 # A universal system for digitization and automatic execution of the chemical synthesis literature

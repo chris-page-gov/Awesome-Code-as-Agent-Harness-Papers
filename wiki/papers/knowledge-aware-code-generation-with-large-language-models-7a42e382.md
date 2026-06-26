@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Knowledge-Aware Code Generation with Large Language Models"
+description: "Paper fragment for Knowledge-Aware Code Generation with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Knowledge-Aware Code Generation with Large Language Models, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "knowledge-aware-code-generation-with-large-language-models-7a42e382"
-canonical_urls:
-  - "https://arxiv.org/abs/2401.15940"
-local_source_paths:
-  - "sources/raw/arxiv/2401.15940.pdf"
+canonical_urls: ["https://arxiv.org/abs/2401.15940"]
+local_source_paths: ["sources/raw/arxiv/2401.15940.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0CCC5D7199F9"
-  - "CLAIM-AE04CA9FA432"
-  - "CLAIM-BE93FA6841F9"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Linear Decomposition Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0CCC5D7199F9", "CLAIM-AE04CA9FA432", "CLAIM-BE93FA6841F9"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Linear Decomposition Planning"]
 ---
 
 # Knowledge-Aware Code Generation with Large Language Models

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution"
+description: "Paper fragment for CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "cruxeval-a-benchmark-for-code-reasoning-understanding-and-execution-f67bd9bf"
-canonical_urls:
-  - "https://arxiv.org/abs/2401.03065"
-local_source_paths:
-  - "sources/raw/arxiv/2401.03065.pdf"
+canonical_urls: ["https://arxiv.org/abs/2401.03065"]
+local_source_paths: ["sources/raw/arxiv/2401.03065.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-02B57D92888D"
-  - "CLAIM-0DAE6146753A"
-  - "CLAIM-A0A63EB5D944"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-02B57D92888D", "CLAIM-0DAE6146753A", "CLAIM-A0A63EB5D944"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Cradle: Empowering Foundation Agents towards General Computer Control"
+description: "Paper fragment for Cradle: Empowering Foundation Agents towards General Computer Control, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Cradle: Empowering Foundation Agents towards General Computer Control, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "cradle-empowering-foundation-agents-towards-general-computer-control-4da17469"
-canonical_urls:
-  - "https://proceedings.mlr.press/v267/tan25h.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.mlr.press/cradle-empowering-foundation-agents-towards-general-computer-control-ef56cc84.html"
+canonical_urls: ["https://proceedings.mlr.press/v267/tan25h.html"]
+local_source_paths: ["sources/raw/html/proceedings.mlr.press/cradle-empowering-foundation-agents-towards-general-computer-control-ef56cc84.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4B670AC9B4E6"
-  - "CLAIM-BF7C7F96D420"
-  - "CLAIM-F4E9EB68D4A1"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4B670AC9B4E6", "CLAIM-BF7C7F96D420", "CLAIM-F4E9EB68D4A1"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # Cradle: Empowering Foundation Agents towards General Computer Control

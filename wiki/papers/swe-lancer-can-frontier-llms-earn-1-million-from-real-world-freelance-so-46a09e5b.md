@@ -1,26 +1,24 @@
 ---
-title: "SWE-lancer: Can frontier LLMs earn \\$1 million from real-world freelance software engineering?"
+type: "paper"
+title: "SWE-lancer: Can frontier LLMs earn $1 million from real-world freelance software engineering?"
+description: "Paper fragment for SWE-lancer: Can frontier LLMs earn $1 million from real-world freelance software engineering?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SWE-lancer: Can frontier LLMs earn $1 million from real-world freelance software engineering?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "swe-lancer-can-frontier-llms-earn-1-million-from-real-world-freelance-so-46a09e5b"
-canonical_urls:
-  - "https://arxiv.org/abs/2502.12115"
-local_source_paths:
-  - "sources/raw/arxiv/2502.12115.pdf"
+canonical_urls: ["https://arxiv.org/abs/2502.12115"]
+local_source_paths: ["sources/raw/arxiv/2502.12115.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-76ADF5322EBC"
-  - "CLAIM-D67AE1DD5CCF"
-  - "CLAIM-DD53D4F5458A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Patch Generation to Software Lifecycle Participation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-76ADF5322EBC", "CLAIM-D67AE1DD5CCF", "CLAIM-DD53D4F5458A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Patch Generation to Software Lifecycle Participation"]
 ---
 
 # SWE-lancer: Can frontier LLMs earn \$1 million from real-world freelance software engineering?

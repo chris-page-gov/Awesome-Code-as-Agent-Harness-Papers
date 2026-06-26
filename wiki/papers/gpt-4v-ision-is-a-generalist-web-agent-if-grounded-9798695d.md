@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "GPT-4V(ision) is a Generalist Web Agent, if Grounded"
+description: "Paper fragment for GPT-4V(ision) is a Generalist Web Agent, if Grounded, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for GPT-4V(ision) is a Generalist Web Agent, if Grounded, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "gpt-4v-ision-is-a-generalist-web-agent-if-grounded-9798695d"
-canonical_urls:
-  - "https://proceedings.mlr.press/v235/zheng24e.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html"
+canonical_urls: ["https://proceedings.mlr.press/v235/zheng24e.html"]
+local_source_paths: ["sources/raw/html/proceedings.mlr.press/gpt-4v-ision-is-a-generalist-web-agent-if-grounded-a4509e70.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-41207298493D"
-  - "CLAIM-B16EDFC5232A"
-  - "CLAIM-C000F44C2FB1"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-41207298493D", "CLAIM-B16EDFC5232A", "CLAIM-C000F44C2FB1"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # GPT-4V(ision) is a Generalist Web Agent, if Grounded

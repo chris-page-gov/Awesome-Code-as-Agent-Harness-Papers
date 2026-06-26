@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Computing"
+description: "Paper fragment for MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Computing, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Computing, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "marco-multi-agent-code-optimization-with-real-time-knowledge-integration-250f4a42"
-canonical_urls:
-  - "https://arxiv.org/abs/2505.03906"
-local_source_paths:
-  - "sources/raw/arxiv/2505.03906.pdf"
+canonical_urls: ["https://arxiv.org/abs/2505.03906"]
+local_source_paths: ["sources/raw/arxiv/2505.03906.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5936A67C96DB"
-  - "CLAIM-73FD447458FD"
-  - "CLAIM-BDDFE0A044B4"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Execution Feedback Integration"
-  - "Harness-State Convergence"
-  - "Shared Harness Representation"
-survey_subsections:
-  - "Execution-Based Representation"
-  - "Performance Convergence"
-  - "Performance Profiling Results"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5936A67C96DB", "CLAIM-73FD447458FD", "CLAIM-BDDFE0A044B4"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Execution Feedback Integration", "Harness-State Convergence", "Shared Harness Representation"]
+survey_subsections: ["Execution-Based Representation", "Performance Convergence", "Performance Profiling Results"]
 ---
 
 # MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Computing

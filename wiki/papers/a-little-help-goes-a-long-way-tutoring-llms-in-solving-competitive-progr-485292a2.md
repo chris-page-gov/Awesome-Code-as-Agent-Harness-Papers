@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "A Little Help Goes a Long Way: Tutoring LLMs in Solving Competitive Programming through Hints"
+description: "Paper fragment for A Little Help Goes a Long Way: Tutoring LLMs in Solving Competitive Programming through Hints, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A Little Help Goes a Long Way: Tutoring LLMs in Solving Competitive Programming through Hints, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-progr-485292a2"
-canonical_urls:
-  - "https://ieeexplore.ieee.org/document/11181219/"
-local_source_paths:
-  - "sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html"
+canonical_urls: ["https://ieeexplore.ieee.org/document/11181219/"]
+local_source_paths: ["sources/raw/html/ieeexplore.ieee.org/a-little-help-goes-a-long-way-tutoring-llms-in-solving-competitive-programming-t-e83b5f45.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-532D48FF9C8E"
-  - "CLAIM-71FDA2FE3DA1"
-  - "CLAIM-E56AF82B7504"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Linear Decomposition Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-532D48FF9C8E", "CLAIM-71FDA2FE3DA1", "CLAIM-E56AF82B7504"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Linear Decomposition Planning"]
 ---
 
 # A Little Help Goes a Long Way: Tutoring LLMs in Solving Competitive Programming through Hints

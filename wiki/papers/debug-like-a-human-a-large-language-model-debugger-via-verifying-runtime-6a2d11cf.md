@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step"
+description: "Paper fragment for Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "debug-like-a-human-a-large-language-model-debugger-via-verifying-runtime-6a2d11cf"
-canonical_urls:
-  - "https://aclanthology.org/2024.findings-acl.49/"
-local_source_paths:
-  - "sources/raw/acl/2024.findings-acl.49.pdf"
+canonical_urls: ["https://aclanthology.org/2024.findings-acl.49/"]
+local_source_paths: ["sources/raw/acl/2024.findings-acl.49.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-443E6E86CEC6"
-  - "CLAIM-59F975835935"
-  - "CLAIM-BB855F6410B8"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-443E6E86CEC6", "CLAIM-59F975835935", "CLAIM-BB855F6410B8"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step

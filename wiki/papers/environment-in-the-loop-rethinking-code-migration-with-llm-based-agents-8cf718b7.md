@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents"
+description: "Paper fragment for Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "environment-in-the-loop-rethinking-code-migration-with-llm-based-agents-8cf718b7"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.09944"
-local_source_paths:
-  - "sources/raw/arxiv/2602.09944.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.09944"]
+local_source_paths: ["sources/raw/arxiv/2602.09944.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0675DB7931FB"
-  - "CLAIM-0963549AA8C0"
-  - "CLAIM-94183615F30E"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Environment-Interaction Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0675DB7931FB", "CLAIM-0963549AA8C0", "CLAIM-94183615F30E"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Environment-Interaction Tool Use"]
 ---
 
 # Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents

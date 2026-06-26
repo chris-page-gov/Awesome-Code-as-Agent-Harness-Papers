@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering"
+description: "Paper fragment for Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "code-generation-with-alphacodium-from-prompt-engineering-to-flow-enginee-15b7c04f"
-canonical_urls:
-  - "https://arxiv.org/abs/2401.08500"
-local_source_paths:
-  - "sources/raw/arxiv/2401.08500.pdf"
+canonical_urls: ["https://arxiv.org/abs/2401.08500"]
+local_source_paths: ["sources/raw/arxiv/2401.08500.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2AA78A4BD2A1"
-  - "CLAIM-49662A556B27"
-  - "CLAIM-A8E6CA4731F6"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Execution Feedback as Grounded Verification"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2AA78A4BD2A1", "CLAIM-49662A556B27", "CLAIM-A8E6CA4731F6"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Execution Feedback as Grounded Verification"]
 ---
 
 # Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering

@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Lifelong Language-Conditioned Robotic Manipulation Learning"
+description: "Paper fragment for Lifelong Language-Conditioned Robotic Manipulation Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Lifelong Language-Conditioned Robotic Manipulation Learning, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "lifelong-language-conditioned-robotic-manipulation-learning-a0e49c32"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.05160"
-local_source_paths:
-  - "sources/raw/arxiv/2603.05160.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.05160"]
+local_source_paths: ["sources/raw/arxiv/2603.05160.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-19083DED8BDD"
-  - "CLAIM-399218992866"
-  - "CLAIM-9D711ED7A7BD"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Lifelong Code-Based Agents"
-  - "Reusable Skills as Embodied Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-19083DED8BDD", "CLAIM-399218992866", "CLAIM-9D711ED7A7BD"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Lifelong Code-Based Agents", "Reusable Skills as Embodied Memory"]
 ---
 
 # Lifelong Language-Conditioned Robotic Manipulation Learning

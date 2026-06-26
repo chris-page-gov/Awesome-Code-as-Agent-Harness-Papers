@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL"
+description: "Paper fragment for GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "gui-libra-training-native-gui-agents-to-reason-and-act-with-action-aware-03f1c459"
-canonical_urls:
-  - "https://arxiv.org/abs/2602.22190"
-local_source_paths:
-  - "sources/raw/arxiv/2602.22190.pdf"
+canonical_urls: ["https://arxiv.org/abs/2602.22190"]
+local_source_paths: ["sources/raw/arxiv/2602.22190.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3869564FB1CC"
-  - "CLAIM-7527BDF29848"
-  - "CLAIM-A7A0AF98DA9A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3869564FB1CC", "CLAIM-7527BDF29848", "CLAIM-A7A0AF98DA9A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL

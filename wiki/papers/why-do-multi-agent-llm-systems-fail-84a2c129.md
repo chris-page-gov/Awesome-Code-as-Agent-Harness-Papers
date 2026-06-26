@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Why Do Multi-Agent LLM Systems Fail?"
+description: "Paper fragment for Why Do Multi-Agent LLM Systems Fail?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Why Do Multi-Agent LLM Systems Fail?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "why-do-multi-agent-llm-systems-fail-84a2c129"
-canonical_urls:
-  - "https://arxiv.org/abs/2503.13657"
-local_source_paths:
-  - "sources/raw/arxiv/2503.13657.pdf"
+canonical_urls: ["https://arxiv.org/abs/2503.13657"]
+local_source_paths: ["sources/raw/arxiv/2503.13657.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-23834D7C4EFE"
-  - "CLAIM-2748004DC3B2"
-  - "CLAIM-49C95A1D9989"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Open Challenges for Code-Assistant Harnesses"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-23834D7C4EFE", "CLAIM-2748004DC3B2", "CLAIM-49C95A1D9989"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Open Challenges for Code-Assistant Harnesses"]
 ---
 
 # Why Do Multi-Agent LLM Systems Fail?

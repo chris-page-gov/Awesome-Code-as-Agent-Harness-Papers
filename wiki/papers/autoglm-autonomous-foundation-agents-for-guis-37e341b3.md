@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AutoGLM: Autonomous Foundation Agents for GUIs"
+description: "Paper fragment for AutoGLM: Autonomous Foundation Agents for GUIs, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AutoGLM: Autonomous Foundation Agents for GUIs, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "autoglm-autonomous-foundation-agents-for-guis-37e341b3"
-canonical_urls:
-  - "https://arxiv.org/abs/2411.00820"
-local_source_paths:
-  - "sources/raw/arxiv/2411.00820.pdf"
+canonical_urls: ["https://arxiv.org/abs/2411.00820"]
+local_source_paths: ["sources/raw/arxiv/2411.00820.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7467367F0FD4"
-  - "CLAIM-D687A5080A8E"
-  - "CLAIM-EC35C8CBE208"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Memory as Persistent Program State"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-7467367F0FD4", "CLAIM-D687A5080A8E", "CLAIM-EC35C8CBE208"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Memory as Persistent Program State"]
 ---
 
 # AutoGLM: Autonomous Foundation Agents for GUIs

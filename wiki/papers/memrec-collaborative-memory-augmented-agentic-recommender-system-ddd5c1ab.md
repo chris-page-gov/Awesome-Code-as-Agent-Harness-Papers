@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "MemRec: Collaborative Memory-Augmented Agentic Recommender System"
+description: "Paper fragment for MemRec: Collaborative Memory-Augmented Agentic Recommender System, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MemRec: Collaborative Memory-Augmented Agentic Recommender System, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "memrec-collaborative-memory-augmented-agentic-recommender-system-ddd5c1ab"
-canonical_urls:
-  - "https://arxiv.org/abs/2601.08816"
-local_source_paths:
-  - "sources/raw/arxiv/2601.08816.pdf"
+canonical_urls: ["https://arxiv.org/abs/2601.08816"]
+local_source_paths: ["sources/raw/arxiv/2601.08816.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-03DBFC0CFABA"
-  - "CLAIM-5E5BB3FF1A4D"
-  - "CLAIM-F7CA6C721C67"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "Preference State as an Editable Artifact"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-03DBFC0CFABA", "CLAIM-5E5BB3FF1A4D", "CLAIM-F7CA6C721C67"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["Preference State as an Editable Artifact"]
 ---
 
 # MemRec: Collaborative Memory-Augmented Agentic Recommender System

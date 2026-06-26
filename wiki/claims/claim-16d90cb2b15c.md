@@ -1,19 +1,21 @@
 ---
-title: "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP provides localized evidence about procurement and "
+type: "claim-card"
+title: "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP provides localized evidence about procurement and"
+description: "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP provides localized evidence about procurement and conformance for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP provides localized evidence about procurement and conformance for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-16D90CB2B15C"
 claim_type: "procurement-conformance"
 paper_ids: []
-source_ids:
-  - "SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026"
-source_refs:
-  - "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx"
-  - "wiki/sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md"
-related_topics:
-  - "procurement-and-conformance"
-  - "mcp-governance"
+source_ids: ["SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026"]
+source_refs: ["sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx", "wiki/sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md"]
+related_topics: ["procurement-and-conformance", "mcp-governance"]
 evidence_locator: "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx; source-note or local-source match for procurement"
 extraction_method: "docx-xml"
 review_status: "agent-reviewed"
@@ -21,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.78
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-16D90CB2B15C

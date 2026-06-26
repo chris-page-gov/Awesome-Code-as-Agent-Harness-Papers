@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator provides localized eviden"
+description: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator provides localized evidence about planning and workflow for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator provides localized evidence about planning and workflow for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-90ADFCF8D9E1"
 claim_type: "contribution"
-paper_ids:
-  - "chain-of-code-reasoning-with-a-language-model-augmented-code-emulator-7eae58c2"
+paper_ids: ["chain-of-code-reasoning-with-a-language-model-augmented-code-emulator-7eae58c2"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2312.04474.pdf"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/arxiv/2312.04474.pdf"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/arxiv/2312.04474.pdf; extracted sentence match for planning"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-90ADFCF8D9E1

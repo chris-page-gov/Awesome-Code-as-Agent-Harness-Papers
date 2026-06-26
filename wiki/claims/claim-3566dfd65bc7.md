@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "Endless Terminals: Scaling RL Environments for Terminal Agents provides localized evidence about"
+description: "Endless Terminals: Scaling RL Environments for Terminal Agents provides localized evidence about security safeguards for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Endless Terminals: Scaling RL Environments for Terminal Agents provides localized evidence about security safeguards for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-3566DFD65BC7"
 claim_type: "safety-control"
-paper_ids:
-  - "endless-terminals-scaling-rl-environments-for-terminal-agents-76f2d638"
+paper_ids: ["endless-terminals-scaling-rl-environments-for-terminal-agents-76f2d638"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2601.16443.pdf"
-related_topics:
-  - "mcp-governance"
-  - "agent-safety-and-sandboxing"
+source_refs: ["sources/raw/arxiv/2601.16443.pdf"]
+related_topics: ["mcp-governance", "agent-safety-and-sandboxing"]
 evidence_locator: "sources/raw/arxiv/2601.16443.pdf; extracted sentence match for safeguards"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-3566DFD65BC7

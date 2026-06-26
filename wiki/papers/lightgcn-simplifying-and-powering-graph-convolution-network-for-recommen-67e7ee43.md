@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation"
+description: "Paper fragment for LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "lightgcn-simplifying-and-powering-graph-convolution-network-for-recommen-67e7ee43"
-canonical_urls:
-  - "https://arxiv.org/abs/2002.02126"
-local_source_paths:
-  - "sources/raw/arxiv/2002.02126.pdf"
+canonical_urls: ["https://arxiv.org/abs/2002.02126"]
+local_source_paths: ["sources/raw/arxiv/2002.02126.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-11B11AF9C954"
-  - "CLAIM-5DF411CFBC60"
-  - "CLAIM-CB81E6F93051"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Agent Personalization"
-survey_subsections:
-  - "From Static Recommendation to Interactive Personalization"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-11B11AF9C954", "CLAIM-5DF411CFBC60", "CLAIM-CB81E6F93051"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Agent Personalization"]
+survey_subsections: ["From Static Recommendation to Interactive Personalization"]
 ---
 
 # LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation

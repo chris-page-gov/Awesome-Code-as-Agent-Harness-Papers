@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance"
+description: "Paper fragment for Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-languag-6e0dd321"
-canonical_urls:
-  - "https://arxiv.org/abs/2310.10021"
-local_source_paths:
-  - "sources/raw/arxiv/2310.10021.pdf"
+canonical_urls: ["https://arxiv.org/abs/2310.10021"]
+local_source_paths: ["sources/raw/arxiv/2310.10021.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1D84C4DBB418"
-  - "CLAIM-80FE4F7A777A"
-  - "CLAIM-FDBF0DBFC04C"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Agent Harness for Grounded and Verifiable Embodied Actions"
-  - "Grounded Skill Selection"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1D84C4DBB418", "CLAIM-80FE4F7A777A", "CLAIM-FDBF0DBFC04C"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Agent Harness for Grounded and Verifiable Embodied Actions", "Grounded Skill Selection"]
 ---
 
 # Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance

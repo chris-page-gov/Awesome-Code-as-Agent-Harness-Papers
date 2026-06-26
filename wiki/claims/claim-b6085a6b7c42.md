@@ -1,18 +1,21 @@
 ---
-title: "Scaling Long-Horizon LLM Agent via Context-Folding provides localized evidence about evaluation "
+type: "claim-card"
+title: "Scaling Long-Horizon LLM Agent via Context-Folding provides localized evidence about evaluation"
+description: "Scaling Long-Horizon LLM Agent via Context-Folding provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Scaling Long-Horizon LLM Agent via Context-Folding provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-B6085A6B7C42"
 claim_type: "evaluation-result"
-paper_ids:
-  - "scaling-long-horizon-llm-agent-via-context-folding-309169cb"
+paper_ids: ["scaling-long-horizon-llm-agent-via-context-folding-309169cb"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2510.11967.pdf"
-related_topics:
-  - "evidence-observability-and-redress"
-  - "scaling-the-harness"
+source_refs: ["sources/raw/arxiv/2510.11967.pdf"]
+related_topics: ["evidence-observability-and-redress", "scaling-the-harness"]
 evidence_locator: "sources/raw/arxiv/2510.11967.pdf; extracted sentence match for evaluation"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-B6085A6B7C42

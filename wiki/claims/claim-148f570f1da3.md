@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models provi"
+description: "The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models provides localized evidence about code execution for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "The Devil Is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models provides localized evidence about code execution for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-148F570F1DA3"
 claim_type: "contribution"
-paper_ids:
-  - "the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-larg-baff9109"
+paper_ids: ["the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-larg-baff9109"]
 source_ids: []
-source_refs:
-  - "sources/raw/html/ieeexplore.ieee.org/the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-langua-d6adfd7e.html"
-related_topics:
-  - "harness-interface"
-  - "harness-mechanisms"
+source_refs: ["sources/raw/html/ieeexplore.ieee.org/the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-langua-d6adfd7e.html"]
+related_topics: ["harness-interface", "harness-mechanisms"]
 evidence_locator: "sources/raw/html/ieeexplore.ieee.org/the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-langua-d6adfd7e.html; extracted sentence match for code-execution"
 extraction_method: "html-text"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-148F570F1DA3

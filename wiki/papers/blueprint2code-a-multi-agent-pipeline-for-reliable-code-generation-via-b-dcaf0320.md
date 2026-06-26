@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair"
+description: "Paper fragment for Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "blueprint2code-a-multi-agent-pipeline-for-reliable-code-generation-via-b-dcaf0320"
-canonical_urls:
-  - "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1660912/full"
-local_source_paths:
-  - "sources/raw/html/frontiersin.org/blueprint2code-a-multi-agent-pipeline-for-reliable-code-generation-via-blueprint-ee082543.html"
+canonical_urls: ["https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1660912/full"]
+local_source_paths: ["sources/raw/html/frontiersin.org/blueprint2code-a-multi-agent-pipeline-for-reliable-code-generation-via-blueprint-ee082543.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-08BD08E42046"
-  - "CLAIM-1420A27F528D"
-  - "CLAIM-306FF8CD106F"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Orchestration-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-08BD08E42046", "CLAIM-1420A27F528D", "CLAIM-306FF8CD106F"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Orchestration-Based Planning"]
 ---
 
 # Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair

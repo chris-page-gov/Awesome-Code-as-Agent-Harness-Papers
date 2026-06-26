@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "RACAS: Controlling Diverse Robots With a Single Agentic System"
+description: "Paper fragment for RACAS: Controlling Diverse Robots With a Single Agentic System, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RACAS: Controlling Diverse Robots With a Single Agentic System, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "racas-controlling-diverse-robots-with-a-single-agentic-system-cdaaa413"
-canonical_urls:
-  - "https://arxiv.org/abs/2603.05621"
-local_source_paths:
-  - "sources/raw/arxiv/2603.05621.pdf"
+canonical_urls: ["https://arxiv.org/abs/2603.05621"]
+local_source_paths: ["sources/raw/arxiv/2603.05621.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-100EAE55D3FF"
-  - "CLAIM-141067A49C97"
-  - "CLAIM-541C93753BDE"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Interface"
-survey_sections:
-  - "Autonomous Embodied Agents"
-  - "Code for Acting"
-survey_subsections:
-  - "Coordinated and Auditable Real-World Deployment"
-  - "Programmatic Policy Generation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-100EAE55D3FF", "CLAIM-141067A49C97", "CLAIM-541C93753BDE"]
+survey_layers: ["Applications and Emerging Fields", "Harness Interface"]
+survey_sections: ["Autonomous Embodied Agents", "Code for Acting"]
+survey_subsections: ["Coordinated and Auditable Real-World Deployment", "Programmatic Policy Generation"]
 ---
 
 # RACAS: Controlling Diverse Robots With a Single Agentic System

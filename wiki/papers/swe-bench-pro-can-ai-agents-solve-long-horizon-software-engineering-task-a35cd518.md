@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SWE-bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?"
+description: "Paper fragment for SWE-bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SWE-bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-task-a35cd518"
-canonical_urls:
-  - "https://arxiv.org/abs/2509.16941"
-local_source_paths:
-  - "sources/raw/arxiv/2509.16941.pdf"
+canonical_urls: ["https://arxiv.org/abs/2509.16941"]
+local_source_paths: ["sources/raw/arxiv/2509.16941.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-44118E6C6256"
-  - "CLAIM-53D79E08E6C5"
-  - "CLAIM-63C207564B8D"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Patch Generation to Software Lifecycle Participation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-44118E6C6256", "CLAIM-53D79E08E6C5", "CLAIM-63C207564B8D"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Patch Generation to Software Lifecycle Participation"]
 ---
 
 # SWE-bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?

@@ -1,30 +1,24 @@
 ---
+type: "paper"
 title: "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair"
+description: "Paper fragment for RepairAgent: An Autonomous, LLM-Based Agent for Program Repair, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RepairAgent: An Autonomous, LLM-Based Agent for Program Repair, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "repairagent-an-autonomous-llm-based-agent-for-program-repair-209c4f7c"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1109/ICSE55347.2025.00157"
-  - "https://arxiv.org/abs/2403.17134"
-local_source_paths:
-  - "sources/raw/arxiv/2403.17134.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1109/ICSE55347.2025.00157", "https://arxiv.org/abs/2403.17134"]
+local_source_paths: ["sources/raw/arxiv/2403.17134.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1196A8FE3DB9"
-  - "CLAIM-694FB756A140"
-  - "CLAIM-7B1ECCB7052B"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Memory and Context Engineering"
-survey_subsections:
-  - "Execution Feedback as Grounded Verification"
-  - "Working Memory"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1196A8FE3DB9", "CLAIM-694FB756A140", "CLAIM-7B1ECCB7052B"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Memory and Context Engineering"]
+survey_subsections: ["Execution Feedback as Grounded Verification", "Working Memory"]
 ---
 
 # RepairAgent: An Autonomous, LLM-Based Agent for Program Repair

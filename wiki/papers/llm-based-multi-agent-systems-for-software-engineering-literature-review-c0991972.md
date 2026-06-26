@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead"
+description: "Paper fragment for LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "llm-based-multi-agent-systems-for-software-engineering-literature-review-c0991972"
-canonical_urls:
-  - "https://doi.org/10.1145/3712003"
-  - "https://arxiv.org/pdf/2404.04834"
-local_source_paths:
-  - "sources/raw/arxiv/2404.04834.pdf"
+canonical_urls: ["https://doi.org/10.1145/3712003", "https://arxiv.org/pdf/2404.04834"]
+local_source_paths: ["sources/raw/arxiv/2404.04834.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-25C49A06B40A"
-  - "CLAIM-98D8BE2F6779"
-  - "CLAIM-9F93081A9B8E"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-25C49A06B40A", "CLAIM-98D8BE2F6779", "CLAIM-9F93081A9B8E"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead

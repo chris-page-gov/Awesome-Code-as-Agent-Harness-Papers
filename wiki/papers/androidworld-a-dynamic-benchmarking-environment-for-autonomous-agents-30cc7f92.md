@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents"
+description: "Paper fragment for AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "androidworld-a-dynamic-benchmarking-environment-for-autonomous-agents-30cc7f92"
-canonical_urls:
-  - "https://proceedings.iclr.cc/paper_files/paper/2025/hash/01a83bc2f2732a58e6aa731e659e7101-Abstract-Conference.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.iclr.cc/androidworld-a-dynamic-benchmarking-environment-for-autonomous-agents-0ba883e0.html"
+canonical_urls: ["https://proceedings.iclr.cc/paper_files/paper/2025/hash/01a83bc2f2732a58e6aa731e659e7101-Abstract-Conference.html"]
+local_source_paths: ["sources/raw/html/proceedings.iclr.cc/androidworld-a-dynamic-benchmarking-environment-for-autonomous-agents-0ba883e0.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-26ACB506C73A"
-  - "CLAIM-6C5AD8020F32"
-  - "CLAIM-B1AAE1481885"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-26ACB506C73A", "CLAIM-6C5AD8020F32", "CLAIM-B1AAE1481885"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents

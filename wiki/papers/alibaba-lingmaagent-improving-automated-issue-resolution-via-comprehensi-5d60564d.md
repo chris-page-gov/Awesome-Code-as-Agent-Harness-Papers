@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration"
+description: "Paper fragment for Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "alibaba-lingmaagent-improving-automated-issue-resolution-via-comprehensi-5d60564d"
-canonical_urls:
-  - "https://dl.acm.org/doi/10.1145/3696630.3728549"
-  - "https://arxiv.org/pdf/2406.01422"
-local_source_paths:
-  - "sources/raw/arxiv/2406.01422.pdf"
+canonical_urls: ["https://dl.acm.org/doi/10.1145/3696630.3728549", "https://arxiv.org/pdf/2406.01422"]
+local_source_paths: ["sources/raw/arxiv/2406.01422.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-63BB4AA41D73"
-  - "CLAIM-7CCF75AC1BA1"
-  - "CLAIM-EEB2A1D195C0"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Patch Generation to Software Lifecycle Participation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-63BB4AA41D73", "CLAIM-7CCF75AC1BA1", "CLAIM-EEB2A1D195C0"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Patch Generation to Software Lifecycle Participation"]
 ---
 
 # Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration

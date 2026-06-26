@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Execution guided line-by-line code generation"
+description: "Paper fragment for Execution guided line-by-line code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Execution guided line-by-line code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "execution-guided-line-by-line-code-generation-81a6e31d"
-canonical_urls:
-  - "https://openreview.net/forum?id=ySFDPoiANu"
-local_source_paths:
-  - "sources/raw/openreview/ySFDPoiANu.pdf"
+canonical_urls: ["https://openreview.net/forum?id=ySFDPoiANu"]
+local_source_paths: ["sources/raw/openreview/ySFDPoiANu.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-347345453291"
-  - "CLAIM-404E21B59495"
-  - "CLAIM-E91D9272ABAF"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-347345453291", "CLAIM-404E21B59495", "CLAIM-E91D9272ABAF"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # Execution guided line-by-line code generation

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback"
+description: "Paper fragment for Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "iterative-refinement-of-project-level-code-context-for-precise-code-gene-88f11f11"
-canonical_urls:
-  - "https://aclanthology.org/2024.findings-acl.138/"
-local_source_paths:
-  - "sources/raw/acl/2024.findings-acl.138.pdf"
+canonical_urls: ["https://aclanthology.org/2024.findings-acl.138/"]
+local_source_paths: ["sources/raw/acl/2024.findings-acl.138.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1F03BB38A53E"
-  - "CLAIM-91B7854C84F0"
-  - "CLAIM-EABAD0265E88"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1F03BB38A53E", "CLAIM-91B7854C84F0", "CLAIM-EABAD0265E88"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback

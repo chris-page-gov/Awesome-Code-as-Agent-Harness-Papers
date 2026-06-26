@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "AutoWebGLM: A Large Language Model-based Web Navigating Agent"
+description: "Paper fragment for AutoWebGLM: A Large Language Model-based Web Navigating Agent, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AutoWebGLM: A Large Language Model-based Web Navigating Agent, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "autowebglm-a-large-language-model-based-web-navigating-agent-a0c48b83"
-canonical_urls:
-  - "https://arxiv.org/abs/2404.03648"
-local_source_paths:
-  - "sources/raw/arxiv/2404.03648.pdf"
+canonical_urls: ["https://arxiv.org/abs/2404.03648"]
+local_source_paths: ["sources/raw/arxiv/2404.03648.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-244E686E2950"
-  - "CLAIM-A3105C98D4C2"
-  - "CLAIM-BC2D03145C6C"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "From Simulation to Production: Executable Feedback Loops"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-244E686E2950", "CLAIM-A3105C98D4C2", "CLAIM-BC2D03145C6C"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["From Simulation to Production: Executable Feedback Loops"]
 ---
 
 # AutoWebGLM: A Large Language Model-based Web Navigating Agent

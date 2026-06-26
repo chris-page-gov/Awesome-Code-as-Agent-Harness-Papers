@@ -1,29 +1,24 @@
 ---
+type: "paper"
 title: "AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions"
+description: "Paper fragment for AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonom-2fd5abcb"
-canonical_urls:
-  - "http://dx.doi.org/10.1109/FLLM67465.2025.11391007"
-local_source_paths:
-  - "sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html"
+canonical_urls: ["http://dx.doi.org/10.1109/FLLM67465.2025.11391007"]
+local_source_paths: ["sources/raw/html/dx.doi.org/ai-augmented-ci-cd-pipelines-from-code-commit-to-production-with-autonomous-deci-e5b76eab.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-13FFDBE2AF51"
-  - "CLAIM-2D0172341A0C"
-  - "CLAIM-4050D1E7D7CB"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Harness Mechanisms"
-survey_sections:
-  - "Code Assistants"
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-  - "From Patch Generation to Software Lifecycle Participation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-13FFDBE2AF51", "CLAIM-2D0172341A0C", "CLAIM-4050D1E7D7CB"]
+survey_layers: ["Applications and Emerging Fields", "Harness Mechanisms"]
+survey_sections: ["Code Assistants", "Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding", "From Patch Generation to Software Lifecycle Participation"]
 ---
 
 # AI Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions

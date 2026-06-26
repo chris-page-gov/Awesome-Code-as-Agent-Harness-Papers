@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search"
+description: "Paper fragment for Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "generating-code-world-models-with-large-language-models-guided-by-monte-cd46fb8a"
-canonical_urls:
-  - "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.neurips.cc/generating-code-world-models-with-large-language-models-guided-by-monte-carlo-tr-ed1bed97.html"
+canonical_urls: ["https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html"]
+local_source_paths: ["sources/raw/html/proceedings.neurips.cc/generating-code-world-models-with-large-language-models-guided-by-monte-carlo-tr-ed1bed97.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0C3451974016"
-  - "CLAIM-2D4DD793FB6F"
-  - "CLAIM-D89EF922C6C0"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Search-Based Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0C3451974016", "CLAIM-2D4DD793FB6F", "CLAIM-D89EF922C6C0"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Search-Based Planning"]
 ---
 
 # Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search

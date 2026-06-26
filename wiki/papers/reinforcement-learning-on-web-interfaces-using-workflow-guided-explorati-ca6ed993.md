@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration"
+description: "Paper fragment for Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "reinforcement-learning-on-web-interfaces-using-workflow-guided-explorati-ca6ed993"
-canonical_urls:
-  - "https://arxiv.org/abs/1802.08802"
-local_source_paths:
-  - "sources/raw/arxiv/1802.08802.pdf"
+canonical_urls: ["https://arxiv.org/abs/1802.08802"]
+local_source_paths: ["sources/raw/arxiv/1802.08802.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-50C96E7BA4DE"
-  - "CLAIM-6063B206D5F0"
-  - "CLAIM-C3720161792A"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "UI Simulators and Sandboxes as Executable Dynamics"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-50C96E7BA4DE", "CLAIM-6063B206D5F0", "CLAIM-C3720161792A"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["UI Simulators and Sandboxes as Executable Dynamics"]
 ---
 
 # Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration

@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+description: "Paper fragment for WebArena: A Realistic Web Environment for Building Autonomous Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for WebArena: A Realistic Web Environment for Building Autonomous Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "webarena-a-realistic-web-environment-for-building-autonomous-agents-4b11676f"
-canonical_urls:
-  - "https://openreview.net/forum?id=oKn9c6ytLx"
-local_source_paths:
-  - "sources/raw/openreview/oKn9c6ytLx.pdf"
+canonical_urls: ["https://openreview.net/forum?id=oKn9c6ytLx"]
+local_source_paths: ["sources/raw/openreview/oKn9c6ytLx.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5206AE261B67"
-  - "CLAIM-B9EFDCC07B92"
-  - "CLAIM-EB7883B0FE10"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "GUI/OS as a Partially Observable Program World"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5206AE261B67", "CLAIM-B9EFDCC07B92", "CLAIM-EB7883B0FE10"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["GUI/OS as a Partially Observable Program World"]
 ---
 
 # WebArena: A Realistic Web Environment for Building Autonomous Agents

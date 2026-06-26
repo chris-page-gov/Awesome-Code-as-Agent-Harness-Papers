@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Evaluating Large Language Models Trained on Code"
+description: "Paper fragment for Evaluating Large Language Models Trained on Code, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Evaluating Large Language Models Trained on Code, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "evaluating-large-language-models-trained-on-code-eaa16e87"
-canonical_urls:
-  - "https://arxiv.org/abs/2107.03374"
-local_source_paths:
-  - "sources/raw/arxiv/2107.03374.pdf"
+canonical_urls: ["https://arxiv.org/abs/2107.03374"]
+local_source_paths: ["sources/raw/arxiv/2107.03374.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2E0BAA2B090D"
-  - "CLAIM-39BEBFCCC793"
-  - "CLAIM-BA80B5189066"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Inline Completion to Autonomous SWE Agents"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2E0BAA2B090D", "CLAIM-39BEBFCCC793", "CLAIM-BA80B5189066"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Inline Completion to Autonomous SWE Agents"]
 ---
 
 # Evaluating Large Language Models Trained on Code

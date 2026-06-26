@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis"
+description: "Paper fragment for Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "helping-llms-improve-code-generation-using-feedback-from-testing-and-sta-d854c7bb"
-canonical_urls:
-  - "https://arxiv.org/abs/2412.14841"
-local_source_paths:
-  - "sources/raw/arxiv/2412.14841.pdf"
+canonical_urls: ["https://arxiv.org/abs/2412.14841"]
+local_source_paths: ["sources/raw/arxiv/2412.14841.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-28340378B437"
-  - "CLAIM-D8B65EAEBA6C"
-  - "CLAIM-E3B86FCA2787"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Feedback Mechanisms for Iterative Debugging"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-28340378B437", "CLAIM-D8B65EAEBA6C", "CLAIM-E3B86FCA2787"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Feedback Mechanisms for Iterative Debugging"]
 ---
 
 # Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis

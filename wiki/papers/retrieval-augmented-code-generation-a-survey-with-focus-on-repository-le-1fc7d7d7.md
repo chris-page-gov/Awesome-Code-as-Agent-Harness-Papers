@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches"
+description: "Paper fragment for Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "retrieval-augmented-code-generation-a-survey-with-focus-on-repository-le-1fc7d7d7"
-canonical_urls:
-  - "https://arxiv.org/abs/2510.04905"
-local_source_paths:
-  - "sources/raw/arxiv/2510.04905.pdf"
+canonical_urls: ["https://arxiv.org/abs/2510.04905"]
+local_source_paths: ["sources/raw/arxiv/2510.04905.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-3992F8EAC082"
-  - "CLAIM-4F60D1E4807D"
-  - "CLAIM-9160DC9AD538"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-3992F8EAC082", "CLAIM-4F60D1E4807D", "CLAIM-9160DC9AD538"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches

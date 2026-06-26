@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition"
+description: "Paper fragment for Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "scaling-up-and-distilling-down-language-guided-robot-skill-acquisition-22b4d98a"
-canonical_urls:
-  - "https://proceedings.mlr.press/v229/ha23a.html"
-local_source_paths:
-  - "sources/raw/html/proceedings.mlr.press/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition-031cdb59.html"
+canonical_urls: ["https://proceedings.mlr.press/v229/ha23a.html"]
+local_source_paths: ["sources/raw/html/proceedings.mlr.press/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition-031cdb59.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-1B8288859121"
-  - "CLAIM-86A61E29A3FC"
-  - "CLAIM-CCB4D47740C3"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Acting"
-survey_subsections:
-  - "Grounded Skill Selection"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-1B8288859121", "CLAIM-86A61E29A3FC", "CLAIM-CCB4D47740C3"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Acting"]
+survey_subsections: ["Grounded Skill Selection"]
 ---
 
 # Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition

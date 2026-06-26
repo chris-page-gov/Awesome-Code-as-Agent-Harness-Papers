@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "ALMAS: an Autonomous LLM-based Multi-Agent Software Engineering Framework"
+description: "Paper fragment for ALMAS: an Autonomous LLM-based Multi-Agent Software Engineering Framework, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for ALMAS: an Autonomous LLM-based Multi-Agent Software Engineering Framework, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "almas-an-autonomous-llm-based-multi-agent-software-engineering-framework-dbf12723"
-canonical_urls:
-  - "https://arxiv.org/abs/2510.03463"
-local_source_paths:
-  - "sources/raw/arxiv/2510.03463.pdf"
+canonical_urls: ["https://arxiv.org/abs/2510.03463"]
+local_source_paths: ["sources/raw/arxiv/2510.03463.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-046F6A62356B"
-  - "CLAIM-70F22E031B91"
-  - "CLAIM-8DE9572E9DF4"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-046F6A62356B", "CLAIM-70F22E031B91", "CLAIM-8DE9572E9DF4"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # ALMAS: an Autonomous LLM-based Multi-Agent Software Engineering Framework

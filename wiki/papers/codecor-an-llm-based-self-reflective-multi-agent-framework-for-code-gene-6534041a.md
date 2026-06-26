@@ -1,31 +1,24 @@
 ---
+type: "paper"
 title: "CodeCoR: An LLM-based self-reflective multi-agent framework for code generation"
+description: "Paper fragment for CodeCoR: An LLM-based self-reflective multi-agent framework for code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeCoR: An LLM-based self-reflective multi-agent framework for code generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codecor-an-llm-based-self-reflective-multi-agent-framework-for-code-gene-6534041a"
-canonical_urls:
-  - "https://arxiv.org/abs/2501.07811"
-local_source_paths:
-  - "sources/raw/arxiv/2501.07811.pdf"
+canonical_urls: ["https://arxiv.org/abs/2501.07811"]
+local_source_paths: ["sources/raw/arxiv/2501.07811.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-38F178273D8C"
-  - "CLAIM-F4528C7D12FB"
-  - "CLAIM-F5BBEAF32536"
-survey_layers:
-  - "Harness Mechanisms"
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Harness-State Convergence"
-  - "Planning for Code Agents"
-  - "Shared Harness Representation"
-survey_subsections:
-  - "Implicit / File-Only Representation"
-  - "Orchestration-Based Planning"
-  - "Score-Based Convergence"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-38F178273D8C", "CLAIM-F4528C7D12FB", "CLAIM-F5BBEAF32536"]
+survey_layers: ["Harness Mechanisms", "Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Harness-State Convergence", "Planning for Code Agents", "Shared Harness Representation"]
+survey_subsections: ["Implicit / File-Only Representation", "Orchestration-Based Planning", "Score-Based Convergence"]
 ---
 
 # CodeCoR: An LLM-based self-reflective multi-agent framework for code generation

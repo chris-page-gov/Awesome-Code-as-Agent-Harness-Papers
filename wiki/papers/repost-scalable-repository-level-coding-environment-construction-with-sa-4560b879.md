@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing"
+description: "Paper fragment for RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "repost-scalable-repository-level-coding-environment-construction-with-sa-4560b879"
-canonical_urls:
-  - "https://arxiv.org/abs/2503.07358"
-local_source_paths:
-  - "sources/raw/arxiv/2503.07358.pdf"
+canonical_urls: ["https://arxiv.org/abs/2503.07358"]
+local_source_paths: ["sources/raw/arxiv/2503.07358.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-03C18DA4E889"
-  - "CLAIM-43F49E1B2DA1"
-  - "CLAIM-7807B55A6E58"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Feedback-Guided Iterative Debugging"
-survey_subsections:
-  - "Development Environments for Agentic Coding"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-03C18DA4E889", "CLAIM-43F49E1B2DA1", "CLAIM-7807B55A6E58"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Feedback-Guided Iterative Debugging"]
+survey_subsections: ["Development Environments for Agentic Coding"]
 ---
 
 # RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing

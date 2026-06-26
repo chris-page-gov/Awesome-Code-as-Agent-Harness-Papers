@@ -1,18 +1,21 @@
 ---
+type: "claim-card"
 title: "ExpeL: LLM Agents Are Experiential Learners provides localized evidence about memory and state f"
+description: "ExpeL: LLM Agents Are Experiential Learners provides localized evidence about memory and state for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "ExpeL: LLM Agents Are Experiential Learners provides localized evidence about memory and state for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-BEDC81020246"
 claim_type: "contribution"
-paper_ids:
-  - "expel-llm-agents-are-experiential-learners-ddcdf54b"
+paper_ids: ["expel-llm-agents-are-experiential-learners-ddcdf54b"]
 source_ids: []
-source_refs:
-  - "sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html"
-related_topics:
-  - "harness-mechanisms"
-  - "evidence-observability-and-redress"
+source_refs: ["sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html"]
+related_topics: ["harness-mechanisms", "evidence-observability-and-redress"]
 evidence_locator: "sources/raw/html/ojs.aaai.org/expel-llm-agents-are-experiential-learners-ea7ab607.html; extracted sentence match for memory"
 extraction_method: "html-text"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: false
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-BEDC81020246

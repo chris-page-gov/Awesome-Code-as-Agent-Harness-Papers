@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Introducing Codex"
+description: "Paper fragment for Introducing Codex, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Introducing Codex, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "introducing-codex-3452b7f5"
-canonical_urls:
-  - "https://openai.com/index/introducing-codex/"
-local_source_paths:
-  - "sources/raw/html/openai.com/introducing-codex-305143ec.html"
+canonical_urls: ["https://openai.com/index/introducing-codex/"]
+local_source_paths: ["sources/raw/html/openai.com/introducing-codex-305143ec.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-6DE29CCAE387"
-  - "CLAIM-A2803F838E39"
-  - "CLAIM-B7D1E14C7340"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "Agent Harnesses as Executable Development Interfaces"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-6DE29CCAE387", "CLAIM-A2803F838E39", "CLAIM-B7D1E14C7340"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Agent Harnesses as Executable Development Interfaces"]
 ---
 
 # Introducing Codex

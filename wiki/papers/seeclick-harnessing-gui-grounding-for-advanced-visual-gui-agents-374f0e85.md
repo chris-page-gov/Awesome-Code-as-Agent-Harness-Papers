@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents"
+description: "Paper fragment for SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "seeclick-harnessing-gui-grounding-for-advanced-visual-gui-agents-374f0e85"
-canonical_urls:
-  - "https://arxiv.org/abs/2401.10935"
-local_source_paths:
-  - "sources/raw/arxiv/2401.10935.pdf"
+canonical_urls: ["https://arxiv.org/abs/2401.10935"]
+local_source_paths: ["sources/raw/arxiv/2401.10935.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-4F18D7872363"
-  - "CLAIM-7C5CD05DBE53"
-  - "CLAIM-9DF150545B43"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "GUI / OS Agents"
-survey_subsections:
-  - "Unifying Perception, Action, and Evaluation Through Code"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-4F18D7872363", "CLAIM-7C5CD05DBE53", "CLAIM-9DF150545B43"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["GUI / OS Agents"]
+survey_subsections: ["Unifying Perception, Action, and Evaluation Through Code"]
 ---
 
 # SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents

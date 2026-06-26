@@ -1,27 +1,24 @@
 ---
+type: "paper"
 title: "CYCLE: Learning to Self-Refine the Code Generation"
+description: "Paper fragment for CYCLE: Learning to Self-Refine the Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CYCLE: Learning to Self-Refine the Code Generation, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "cycle-learning-to-self-refine-the-code-generation-42b9d63d"
-canonical_urls:
-  - "https://dl.acm.org/doi/full/10.1145/3649825"
-  - "https://arxiv.org/pdf/2403.18746"
-local_source_paths:
-  - "sources/raw/arxiv/2403.18746.pdf"
+canonical_urls: ["https://dl.acm.org/doi/full/10.1145/3649825", "https://arxiv.org/pdf/2403.18746"]
+local_source_paths: ["sources/raw/arxiv/2403.18746.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-43FA50F508F0"
-  - "CLAIM-B9C23BF1718B"
-  - "CLAIM-E4D6B3347D19"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Iterative Code-Grounded Reasoning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-43FA50F508F0", "CLAIM-B9C23BF1718B", "CLAIM-E4D6B3347D19"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Iterative Code-Grounded Reasoning"]
 ---
 
 # CYCLE: Learning to Self-Refine the Code Generation

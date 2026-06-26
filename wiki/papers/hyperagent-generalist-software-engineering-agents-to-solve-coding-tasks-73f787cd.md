@@ -1,33 +1,24 @@
 ---
+type: "paper"
 title: "HyperAgent: Generalist software engineering agents to solve coding tasks at scale"
+description: "Paper fragment for HyperAgent: Generalist software engineering agents to solve coding tasks at scale, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for HyperAgent: Generalist software engineering agents to solve coding tasks at scale, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "hyperagent-generalist-software-engineering-agents-to-solve-coding-tasks-73f787cd"
-canonical_urls:
-  - "https://arxiv.org/abs/2409.16299"
-local_source_paths:
-  - "sources/raw/arxiv/2409.16299.pdf"
+canonical_urls: ["https://arxiv.org/abs/2409.16299"]
+local_source_paths: ["sources/raw/arxiv/2409.16299.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-8B17F234A1F7"
-  - "CLAIM-CC31442DB489"
-  - "CLAIM-F0A37F16C0EF"
-survey_layers:
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
-survey_sections:
-  - "Functional Role Specialization"
-  - "Shared Harness Representation"
-  - "Shared-Harness Synchronization"
-  - "Workflow Topology"
-survey_subsections:
-  - "Execution Agents"
-  - "Parallel Branches with Merge"
-  - "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)"
-  - "Program Understanding Agents"
-  - "Repository-Based Representation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-8B17F234A1F7", "CLAIM-CC31442DB489", "CLAIM-F0A37F16C0EF"]
+survey_layers: ["Scaling the Harness: Multi-Agent Code-Centric Systems"]
+survey_sections: ["Functional Role Specialization", "Shared Harness Representation", "Shared-Harness Synchronization", "Workflow Topology"]
+survey_subsections: ["Execution Agents", "Parallel Branches with Merge", "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)", "Program Understanding Agents", "Repository-Based Representation"]
 ---
 
 # HyperAgent: Generalist software engineering agents to solve coding tasks at scale

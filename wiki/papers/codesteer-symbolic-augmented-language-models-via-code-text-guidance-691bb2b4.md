@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance"
+description: "Paper fragment for CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codesteer-symbolic-augmented-language-models-via-code-text-guidance-691bb2b4"
-canonical_urls:
-  - "https://arxiv.org/abs/2502.04350"
-local_source_paths:
-  - "sources/raw/arxiv/2502.04350.pdf"
+canonical_urls: ["https://arxiv.org/abs/2502.04350"]
+local_source_paths: ["sources/raw/arxiv/2502.04350.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-8ED740FDE017"
-  - "CLAIM-C86CC6F0A939"
-  - "CLAIM-FE1AA4774205"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Reasoning"
-survey_subsections:
-  - "Hybrid Symbolic–Neural Execution"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-8ED740FDE017", "CLAIM-C86CC6F0A939", "CLAIM-FE1AA4774205"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Reasoning"]
+survey_subsections: ["Hybrid Symbolic–Neural Execution"]
 ---
 
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance

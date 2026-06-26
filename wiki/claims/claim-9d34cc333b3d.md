@@ -1,18 +1,21 @@
 ---
-title: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and "
+type: "claim-card"
+title: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and"
+description: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "claim-card"
+okfr_summary: "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization provides localized evidence about multi-agent coordination for the Code as Agent Harness wiki."
 note_type: "claim-card"
 status: "agent-reviewed"
-tags: ["claim-card", "llm-wiki", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 claim_id: "CLAIM-9D34CC333B3D"
 claim_type: "protocol-capability"
-paper_ids:
-  - "self-organized-agents-a-llm-multi-agent-framework-toward-ultra-large-sca-db30a15e"
+paper_ids: ["self-organized-agents-a-llm-multi-agent-framework-toward-ultra-large-sca-db30a15e"]
 source_ids: []
-source_refs:
-  - "sources/raw/arxiv/2404.02183.pdf"
-related_topics:
-  - "scaling-the-harness"
-  - "mcp-governance"
+source_refs: ["sources/raw/arxiv/2404.02183.pdf"]
+related_topics: ["scaling-the-harness", "mcp-governance"]
 evidence_locator: "sources/raw/arxiv/2404.02183.pdf; extracted sentence match for multi-agent"
 extraction_method: "pdftotext"
 review_status: "agent-reviewed"
@@ -20,7 +23,6 @@ creator: "tools/generate_claim_cards.py"
 reviewer: "tools/review_claim_cards.py schema-traceability pass"
 confidence: 0.72
 volatility_flag: true
-last_reviewed: "2026-06-02"
 ---
 
 # CLAIM-9D34CC333B3D

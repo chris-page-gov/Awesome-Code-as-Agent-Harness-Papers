@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks"
+description: "Paper fragment for Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "code-graph-model-cgm-a-graph-integrated-large-language-model-for-reposit-fc8ba6e3"
-canonical_urls:
-  - "https://arxiv.org/abs/2505.16901"
-local_source_paths:
-  - "sources/raw/arxiv/2505.16901.pdf"
+canonical_urls: ["https://arxiv.org/abs/2505.16901"]
+local_source_paths: ["sources/raw/arxiv/2505.16901.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2FCFA3598034"
-  - "CLAIM-3C58E5271471"
-  - "CLAIM-AF7F22778158"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Planning for Code Agents"
-survey_subsections:
-  - "Structure-Grounded Planning"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2FCFA3598034", "CLAIM-3C58E5271471", "CLAIM-AF7F22778158"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Planning for Code Agents"]
+survey_subsections: ["Structure-Grounded Planning"]
 ---
 
 # Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks

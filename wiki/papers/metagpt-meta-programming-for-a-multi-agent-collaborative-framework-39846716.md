@@ -1,22 +1,22 @@
 ---
+type: "paper"
 title: "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework"
+description: "Paper fragment for MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "metagpt-meta-programming-for-a-multi-agent-collaborative-framework-39846716"
-canonical_urls:
-  - "https://openreview.net/forum?id=VtmBAGCN7o"
-local_source_paths:
-  - "sources/raw/openreview/VtmBAGCN7o.pdf"
+canonical_urls: ["https://openreview.net/forum?id=VtmBAGCN7o"]
+local_source_paths: ["sources/raw/openreview/VtmBAGCN7o.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-7BF28A49D39A"
-  - "CLAIM-8CC2F8224631"
-  - "CLAIM-DFC697572E34"
-survey_layers:
-  - "Applications and Emerging Fields"
-  - "Scaling the Harness: Multi-Agent Code-Centric Systems"
+claim_card_ids: ["CLAIM-7BF28A49D39A", "CLAIM-8CC2F8224631", "CLAIM-DFC697572E34"]
+survey_layers: ["Applications and Emerging Fields", "Scaling the Harness: Multi-Agent Code-Centric Systems"]
 survey_sections:
   - "Code Assistants"
   - "Functional Role Specialization"
@@ -31,7 +31,6 @@ survey_subsections:
   - "Pre-Defined Heuristic Topologies (Waterfall / Iterative / Hierarchical / Star)"
   - "Program Synthesis Agents"
   - "Structured Context Scheduling"
-last_reviewed: "2026-06-02"
 ---
 
 # MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework

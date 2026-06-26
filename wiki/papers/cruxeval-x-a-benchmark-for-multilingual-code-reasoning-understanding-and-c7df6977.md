@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution"
+description: "Paper fragment for CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "cruxeval-x-a-benchmark-for-multilingual-code-reasoning-understanding-and-c7df6977"
-canonical_urls:
-  - "https://aclanthology.org/2025.acl-long.1158/"
-local_source_paths:
-  - "sources/raw/acl/2025.acl-long.1158.pdf"
+canonical_urls: ["https://aclanthology.org/2025.acl-long.1158/"]
+local_source_paths: ["sources/raw/acl/2025.acl-long.1158.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-5CCCF46221B2"
-  - "CLAIM-EA1A3BEDBC7A"
-  - "CLAIM-FBF5C70EE9F0"
-survey_layers:
-  - "Harness Interface"
-survey_sections:
-  - "Code for Environment Modeling"
-survey_subsections:
-  - "Code-Grounded Evaluation Environments"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-5CCCF46221B2", "CLAIM-EA1A3BEDBC7A", "CLAIM-FBF5C70EE9F0"]
+survey_layers: ["Harness Interface"]
+survey_sections: ["Code for Environment Modeling"]
+survey_subsections: ["Code-Grounded Evaluation Environments"]
 ---
 
 # CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution

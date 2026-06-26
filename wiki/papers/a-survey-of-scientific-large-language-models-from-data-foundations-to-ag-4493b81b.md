@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers"
+description: "Paper fragment for A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "a-survey-of-scientific-large-language-models-from-data-foundations-to-ag-4493b81b"
-canonical_urls:
-  - "https://arxiv.org/abs/2508.21148"
-local_source_paths:
-  - "sources/raw/arxiv/2508.21148.pdf"
+canonical_urls: ["https://arxiv.org/abs/2508.21148"]
+local_source_paths: ["sources/raw/arxiv/2508.21148.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-0F69637A9BE7"
-  - "CLAIM-47D2B8228CCC"
-  - "CLAIM-82D9C46963FF"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Scientific Discovery Agents"
-survey_subsections:
-  - "Toward Agentic and Instruction-Following Science"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-0F69637A9BE7", "CLAIM-47D2B8228CCC", "CLAIM-82D9C46963FF"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Scientific Discovery Agents"]
+survey_subsections: ["Toward Agentic and Instruction-Following Science"]
 ---
 
 # A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers

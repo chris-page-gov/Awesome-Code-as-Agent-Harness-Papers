@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodeAgent: Autonomous Communicative Agents for Code Review"
+description: "Paper fragment for CodeAgent: Autonomous Communicative Agents for Code Review, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeAgent: Autonomous Communicative Agents for Code Review, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codeagent-autonomous-communicative-agents-for-code-review-29cac8ec"
-canonical_urls:
-  - "https://aclanthology.org/2024.emnlp-main.632/"
-local_source_paths:
-  - "sources/raw/acl/2024.emnlp-main.632.pdf"
+canonical_urls: ["https://aclanthology.org/2024.emnlp-main.632/"]
+local_source_paths: ["sources/raw/acl/2024.emnlp-main.632.pdf"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-48F3B2AC2395"
-  - "CLAIM-7B3E15EE2F85"
-  - "CLAIM-FA014F0020DA"
-survey_layers:
-  - "Applications and Emerging Fields"
-survey_sections:
-  - "Code Assistants"
-survey_subsections:
-  - "From Patch Generation to Software Lifecycle Participation"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-48F3B2AC2395", "CLAIM-7B3E15EE2F85", "CLAIM-FA014F0020DA"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["From Patch Generation to Software Lifecycle Participation"]
 ---
 
 # CodeAgent: Autonomous Communicative Agents for Code Review

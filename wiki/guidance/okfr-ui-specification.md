@@ -3,10 +3,10 @@ type: "guidance"
 title: "OKFR UI Specification"
 description: "Specification for the reusable OKFR graph, detail panel, tile, and stack-of-cards interaction model."
 timestamp: "2026-06-26T00:00:00Z"
+tags: ["okfr", "ui", "specification", "seelinks"]
 okf_version: "0.1"
 okfr_role: "specification"
 okfr_summary: "Captures the reader behavior to implement in SeeLinks and generated static OKFR views."
-tags: ["okfr", "ui", "specification", "seelinks"]
 ---
 
 # OKFR UI Specification

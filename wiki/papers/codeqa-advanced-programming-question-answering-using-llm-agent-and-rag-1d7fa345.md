@@ -1,26 +1,24 @@
 ---
+type: "paper"
 title: "CodeQA: Advanced Programming Question-Answering Using LLM Agent and RAG"
+description: "Paper fragment for CodeQA: Advanced Programming Question-Answering Using LLM Agent and RAG, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeQA: Advanced Programming Question-Answering Using LLM Agent and RAG, including inventory metadata, local source status, evidence quality, and Claim Card links."
 note_type: "paper"
 status: "source-integrated"
-tags: ["paper", "code-as-agent-harness"]
+last_reviewed: "2026-06-02"
 paper_id: "codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-1d7fa345"
-canonical_urls:
-  - "https://ieeexplore.ieee.org/document/10753267"
-local_source_paths:
-  - "sources/raw/html/ieeexplore.ieee.org/codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-484182a0.html"
+canonical_urls: ["https://ieeexplore.ieee.org/document/10753267"]
+local_source_paths: ["sources/raw/html/ieeexplore.ieee.org/codeqa-advanced-programming-question-answering-using-llm-agent-and-rag-484182a0.html"]
 source_status: "integrated"
 evidence_quality: "agent-reviewed"
-claim_card_ids:
-  - "CLAIM-2BE692A85ADC"
-  - "CLAIM-82F7F6E500E7"
-  - "CLAIM-E7CF9E0DEA93"
-survey_layers:
-  - "Harness Mechanisms"
-survey_sections:
-  - "Tool Usage for Code Agents"
-survey_subsections:
-  - "Function-Oriented Tool Use"
-last_reviewed: "2026-06-02"
+claim_card_ids: ["CLAIM-2BE692A85ADC", "CLAIM-82F7F6E500E7", "CLAIM-E7CF9E0DEA93"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Tool Usage for Code Agents"]
+survey_subsections: ["Function-Oriented Tool Use"]
 ---
 
 # CodeQA: Advanced Programming Question-Answering Using LLM Agent and RAG
