@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "6c840b6dccb07c3907d8180cb1d50c4fe106d04d6a220a749f314dfb6237ac9a",
-      "bytes": 4053
+      "sha256": "494990431f46e0f0c891a36c01ca8448eb341ac01cb346cc45de8e97fe5cef75",
+      "bytes": 4342
     },
     {
       "path": "CONTEXT.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "PROGRESS.md",
-      "sha256": "80fd0f90b8948660818d21e8823b1a94b43057d26996e761a812cd91701dd12d",
-      "bytes": 3597
+      "sha256": "ad3b598bb4c1118fd3f5e7fd9e51114a7e1b1ac1c59c86cbd1488b358fff5ce3",
+      "bytes": 3847
     },
     {
       "path": "README.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "data/code-agent-harness-okfr/pack.json",
-      "sha256": "cc2a6f5a219ce9aec7ba4806e2e0c186136769cf57d81614aa50ac9b80d465f0",
-      "bytes": 9836069
+      "sha256": "4b2ca4e22ccfcb9b666d6707f5a1285b6e050d4e5f02a23472c3b9a69210b991",
+      "bytes": 9825921
     },
     {
       "path": "index.html",

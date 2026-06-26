@@ -60,6 +60,34 @@ PROPERTY_DEFS = [
     {"id": "wiki_path", "name": "Wiki path", "kind": "text", "section": "OKF", "order": 19},
 ]
 
+SEELINKS_ASSERTION_TYPES = {
+    "claim",
+    "fact",
+    "assumption",
+    "interpretation",
+    "inference",
+    "judgement",
+    "recommendation",
+    "decision",
+    "risk",
+    "metric",
+}
+
+
+def seelinks_assertion_type(claim_type: Any) -> str:
+    value = str(claim_type or "claim").strip().lower().replace("_", "-")
+    if value in SEELINKS_ASSERTION_TYPES:
+        return value
+    if value == "gap":
+        return "risk"
+    if value in {"evaluation-result", "evidence-practice"}:
+        return "metric"
+    if value in {"threat-taxonomy", "governance-control"}:
+        return "risk"
+    if value in {"protocol-capability", "contribution"}:
+        return "claim"
+    return "claim"
+
 
 def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -386,7 +414,7 @@ def build_pack() -> dict[str, Any]:
             "node_id": path,
             "source_ids": [stable_id("source", str(ref)) for ref in as_list(claim.get("source_refs"))],
             "status": "needs_review",
-            "assertion_type": claim.get("claim_type"),
+            "assertion_type": seelinks_assertion_type(claim.get("claim_type")),
             "fact_status": "unsupported" if claim.get("claim_type") == "gap" else "partially_supported",
             "review_state": "proposed",
             "confidence": claim.get("confidence"),
@@ -407,7 +435,7 @@ def build_pack() -> dict[str, Any]:
         "meta": {
             "id": "code-agent-harness-okfr",
             "title": "Code Agent Harness OKFR",
-            "source": "Awesome-Code-as-Agent-Harness-Papers LLM-Wiki",
+            "source": "local",
             "version": "0.1.0",
             "kind": "okfr-pack",
             "packKind": "okfr",
@@ -434,7 +462,8 @@ def build_pack() -> dict[str, Any]:
             },
             "okf_type_distribution": dict(sorted(type_counts.items())),
             "okf_section_distribution": dict(sorted(section_counts.items())),
-            "fields": PROPERTY_DEFS,
+            "fields": [field["id"] for field in PROPERTY_DEFS],
+            "field_defs": PROPERTY_DEFS,
         },
         "properties": PROPERTY_DEFS,
         "items": items,

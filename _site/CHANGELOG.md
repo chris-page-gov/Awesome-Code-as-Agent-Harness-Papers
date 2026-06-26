@@ -70,6 +70,10 @@ All notable changes to this fork are recorded here.
 - Extended the reader/export surface from the curated Claim Card review pack to
   a full-wiki OKFR graph package with path-derived IDs and Claim Card
   traceability.
+- Tightened the generated OKFR pack to the current SeeLinks runtime schema by
+  using the `local` pack source enum, exposing `meta.fields` as field IDs, and
+  preserving extended Claim Card taxonomy in metadata while mapping loader-facing
+  assertion types to the SeeLinks assertion enum.
 - Refined the generated OKFR static viewer so graph labels prioritise
   high-ink-ratio overview signals instead of labelling every paper/claim node.
 

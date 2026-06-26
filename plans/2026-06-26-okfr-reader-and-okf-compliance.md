@@ -90,6 +90,11 @@ register metadata, Claim Card data, and source notes should be preserved.
 - Preserve Claim Card traceability through item properties and graph edges.
 - Store inferred relationship labels in `edge.metadata.relationship_label` with
   `edge.metadata.inferred = true`.
+- Emit a strict SeeLinks runtime shape: `meta.source` uses the existing
+  `local|mcp|file` enum, `meta.fields` lists property IDs, rich property
+  definitions stay in `meta.field_defs` / `properties`, and OKFR-specific Claim
+  Card taxonomy is preserved in metadata while `graph.claims[].assertion_type`
+  maps to the SeeLinks assertion enum.
 
 ### 5. Static Publication
 

@@ -59,7 +59,10 @@ Last updated: 2026-06-26
 - OKF profile, validation, graph, and normalization tools: complete.
 - OKFR pack export and generated data: complete. Current generated pack:
   1,545 items, 1,545 graph nodes, 10,672 graph edges, 357 source metadata
-  records, and 1,148 Claim Card records.
+  records, and 1,148 Claim Card records. Browser validation against SeeLinks
+  required a strict runtime-schema pass: `meta.source` is now `local`,
+  `meta.fields` lists field IDs, and extended Claim Card types remain in
+  metadata while loader-facing assertion types use the SeeLinks enum.
 - Static publication and Pages workflow: complete.
 - JIT training/specification screenshots: complete for the reference and
   generated static viewer. SeeLinks OKFR screenshots remain pending until the
