@@ -1,0 +1,71 @@
+---
+type: "paper"
+title: "Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL"
+description: "Paper fragment for Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL, including inventory metadata, local source status, evidence quality, and Claim Card links."
+note_type: "paper"
+status: "source-integrated"
+last_reviewed: "2026-06-02"
+paper_id: "leveraging-prior-experience-an-expandable-auxiliary-knowledge-base-for-t-f8878327"
+canonical_urls: ["https://arxiv.org/abs/2411.13244"]
+local_source_paths: ["sources/raw/arxiv/2411.13244.pdf"]
+source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids: ["CLAIM-0AD0910F2207", "CLAIM-465C48FBD0C7", "CLAIM-61C0CE8F5531"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Experiential Memory"]
+---
+
+# Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL
+
+## Inventory Metadata
+
+- Paper ID: `leveraging-prior-experience-an-expandable-auxiliary-knowledge-base-for-t-f8878327`
+- Venue labels: arXiv 2024
+- Source status: `integrated`
+- Canonical URL:
+  - [https://arxiv.org/abs/2411.13244](https://arxiv.org/abs/2411.13244)
+
+## Survey Placement
+
+| Layer | Section | Subsection | Venue |
+| --- | --- | --- | --- |
+| Harness Mechanisms | Memory and Context Engineering | Experiential Memory | arXiv 2024 |
+
+## Localized Sources
+
+- `sources/raw/arxiv/2411.13244.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2411.13244.pdf`, 596206 bytes, SHA-256 `1944df0a46b68d558119d71e000f9386b26e4e14258bf3e2adb25cd8308ea364`
+
+## Source-Backed Notes
+
+- Inventory fact: this reference appears in the README paper table with the placement above.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 11106 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `memory` (5), `feedback` (3), `code` (2), `environment` (2), `tools` (1).
+- Source cue: automated topic tags: `code`, `memory`, `tools`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-0AD0910F2207](../claims/claim-0ad0910f2207.md) - Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-465C48FBD0C7](../claims/claim-465c48fbd0c7.md) - Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-61C0CE8F5531](../claims/claim-61c0ce8f5531.md) - Leveraging Prior Experience: An Expandable Auxiliary Knowledge Base for Text-to-SQL provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+
+## Cross-References
+
+- [Paper index](README.md)
+- [Taxonomy map](../maps/taxonomy-map.md)
+
+## Gaps
+
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
+- Add concise source-backed contribution notes.

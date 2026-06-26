@@ -1,0 +1,71 @@
+---
+type: "paper"
+title: "Evaluating Very Long-Term Conversational Memory of LLM Agents"
+description: "Paper fragment for Evaluating Very Long-Term Conversational Memory of LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for Evaluating Very Long-Term Conversational Memory of LLM Agents, including inventory metadata, local source status, evidence quality, and Claim Card links."
+note_type: "paper"
+status: "source-integrated"
+last_reviewed: "2026-06-02"
+paper_id: "evaluating-very-long-term-conversational-memory-of-llm-agents-016e4f9e"
+canonical_urls: ["https://aclanthology.org/2024.acl-long.747/"]
+local_source_paths: ["sources/raw/acl/2024.acl-long.747.pdf"]
+source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids: ["CLAIM-01DC76F7A599", "CLAIM-5CD7B71727DB", "CLAIM-A25F106C4D54"]
+survey_layers: ["Harness Mechanisms"]
+survey_sections: ["Memory and Context Engineering"]
+survey_subsections: ["Long-Term Memory"]
+---
+
+# Evaluating Very Long-Term Conversational Memory of LLM Agents
+
+## Inventory Metadata
+
+- Paper ID: `evaluating-very-long-term-conversational-memory-of-llm-agents-016e4f9e`
+- Venue labels: ACL 2024
+- Source status: `integrated`
+- Canonical URL:
+  - [https://aclanthology.org/2024.acl-long.747/](https://aclanthology.org/2024.acl-long.747/)
+
+## Survey Placement
+
+| Layer | Section | Subsection | Venue |
+| --- | --- | --- | --- |
+| Harness Mechanisms | Memory and Context Engineering | Long-Term Memory | ACL 2024 |
+
+## Localized Sources
+
+- `sources/raw/acl/2024.acl-long.747.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/acl/2024.acl-long.747.pdf`, 1498274 bytes, SHA-256 `b258c5436f778e05686646a745f270f0b33e31eb7c8268d8c3c651b217667b3a`
+
+## Source-Backed Notes
+
+- Inventory fact: this reference appears in the README paper table with the placement above.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 11347 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `memory` (17), `agent` (15), `environment` (7), `code` (1).
+- Source cue: automated topic tags: `agent`, `code`, `memory`, `environment`.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-01DC76F7A599](../claims/claim-01dc76f7a599.md) - Evaluating Very Long-Term Conversational Memory of LLM Agents provides localized evidence about memory and state for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-5CD7B71727DB](../claims/claim-5cd7b71727db.md) - Evaluating Very Long-Term Conversational Memory of LLM Agents provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-A25F106C4D54](../claims/claim-a25f106c4d54.md) - The localized source for Evaluating Very Long-Term Conversational Memory of LLM Agents is too thin for decision-grade synthesis on gateway and routing without returning to the original or an alternate source. (`agent-reviewed`)
+
+## Cross-References
+
+- [Paper index](README.md)
+- [Taxonomy map](../maps/taxonomy-map.md)
+
+## Gaps
+
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
+- Add concise source-backed contribution notes.

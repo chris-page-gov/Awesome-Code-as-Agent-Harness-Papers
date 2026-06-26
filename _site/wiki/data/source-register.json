@@ -1,0 +1,39 @@
+[
+  {
+    "source_id": "SOURCE-KARPATHY-LLM-WIKI-2026",
+    "title": "Karpathy LLM-Wiki Pattern",
+    "source_type": "github-gist",
+    "canonical_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+    "local_path": null,
+    "note_path": "wiki/sources/SOURCE-KARPATHY-LLM-WIKI-2026.md",
+    "status": "active"
+  },
+  {
+    "source_id": "SOURCE-README-ORIGINAL-2026-06-02",
+    "title": "Current README Paper Inventory",
+    "source_type": "repository-markdown",
+    "canonical_url": "README.md",
+    "local_path": "README.md",
+    "note_path": "wiki/sources/SOURCE-README-ORIGINAL-2026-06-02.md",
+    "status": "active"
+  },
+  {
+    "source_id": "SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026",
+    "title": "Code as Agent Harness Survey",
+    "source_type": "arxiv-paper",
+    "canonical_url": "https://arxiv.org/abs/2605.18747",
+    "local_path": "sources/raw/arxiv/2605.18747.pdf",
+    "note_path": "wiki/sources/SOURCE-CODE-AS-AGENT-HARNESS-SURVEY-2026.md",
+    "status": "localized"
+  },
+  {
+    "source_id": "SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026",
+    "title": "UNOFFICIAL-DRAFT Agentic AI Governance UK MCP",
+    "source_type": "redistributable-docx",
+    "canonical_url": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+    "local_path": "sources/raw/redistributable/unofficial-draft-agentic-ai-governance-uk-mcp.docx",
+    "note_path": "wiki/sources/SOURCE-UNOFFICIAL-DRAFT-AGENTIC-AI-GOVERNANCE-UK-MCP-2026.md",
+    "status": "localized",
+    "redistributable": true
+  }
+]

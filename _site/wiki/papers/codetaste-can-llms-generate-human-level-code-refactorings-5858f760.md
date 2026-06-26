@@ -1,0 +1,71 @@
+---
+type: "paper"
+title: "CodeTaste: Can LLMs Generate Human-Level Code Refactorings?"
+description: "Paper fragment for CodeTaste: Can LLMs Generate Human-Level Code Refactorings?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+timestamp: "2026-06-02T00:00:00Z"
+tags: ["paper", "code-as-agent-harness"]
+okf_version: "0.1"
+okfr_role: "paper"
+okfr_summary: "Paper fragment for CodeTaste: Can LLMs Generate Human-Level Code Refactorings?, including inventory metadata, local source status, evidence quality, and Claim Card links."
+note_type: "paper"
+status: "source-integrated"
+last_reviewed: "2026-06-02"
+paper_id: "codetaste-can-llms-generate-human-level-code-refactorings-5858f760"
+canonical_urls: ["https://arxiv.org/abs/2603.04177"]
+local_source_paths: ["sources/raw/arxiv/2603.04177.pdf"]
+source_status: "integrated"
+evidence_quality: "agent-reviewed"
+claim_card_ids: ["CLAIM-064453EF640C", "CLAIM-6DB89470327D", "CLAIM-B484D23C940E"]
+survey_layers: ["Applications and Emerging Fields"]
+survey_sections: ["Code Assistants"]
+survey_subsections: ["Developer Intent and Project Conventions as Latent State"]
+---
+
+# CodeTaste: Can LLMs Generate Human-Level Code Refactorings?
+
+## Inventory Metadata
+
+- Paper ID: `codetaste-can-llms-generate-human-level-code-refactorings-5858f760`
+- Venue labels: arXiv 2026
+- Source status: `integrated`
+- Canonical URL:
+  - [https://arxiv.org/abs/2603.04177](https://arxiv.org/abs/2603.04177)
+
+## Survey Placement
+
+| Layer | Section | Subsection | Venue |
+| --- | --- | --- | --- |
+| Applications and Emerging Fields | Code Assistants | Developer Intent and Project Conventions as Latent State | arXiv 2026 |
+
+## Localized Sources
+
+- `sources/raw/arxiv/2603.04177.pdf` (local evidence cache; not committed by default)
+
+### Local File Metadata
+
+- path `sources/raw/arxiv/2603.04177.pdf`, 1131902 bytes, SHA-256 `fd2f990c3b2ccf7f35288960998786877415eb30b40239ccc370fe3239cce8a0`
+
+## Source-Backed Notes
+
+- Inventory fact: this reference appears in the README paper table with the placement above.
+- Source fact: a localized source file is available in this repository.
+- Source fact: automated local text extraction recorded 13511 characters using `pdftotext`.
+- Source cue: localized text contains harness-relevant terms: `agent` (28), `code` (23), `environment` (23), `feedback` (10), `execution` (7), `memory` (2), `planning` (1).
+- Source cue: automated topic tags: `agent`, `code`, `execution`, `planning`, `memory`, `feedback`, `environment`.
+- Integration note: these notes are automated extraction cues; Claim Cards below are agent-created evidence records unless separately reviewed.
+
+## Claim Cards
+
+- [CLAIM-064453EF640C](../claims/claim-064453ef640c.md) - CodeTaste: Can LLMs Generate Human-Level Code Refactorings? provides localized evidence about code execution for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-6DB89470327D](../claims/claim-6db89470327d.md) - CodeTaste: Can LLMs Generate Human-Level Code Refactorings? provides localized evidence about planning and workflow for the Code as Agent Harness wiki. (`agent-reviewed`)
+- [CLAIM-B484D23C940E](../claims/claim-b484d23c940e.md) - CodeTaste: Can LLMs Generate Human-Level Code Refactorings? provides localized evidence about evaluation and benchmark evidence for the Code as Agent Harness wiki. (`agent-reviewed`)
+
+## Cross-References
+
+- [Paper index](README.md)
+- [Taxonomy map](../maps/taxonomy-map.md)
+
+## Gaps
+
+- Promote high-value agent-reviewed cards to cross-agent-reviewed or decision-grade where warranted.
+- Add concise source-backed contribution notes.
