@@ -112,3 +112,11 @@ python3 tools/build_okf_graph.py --check
 python3 tools/build_okfr_seelinks_pack.py --check
 python3 tools/build_okfr_site.py --check
 ```
+
+<!-- okf-standards:start -->
+## OKF standards references
+
+Read [the central standards and bundle catalogue reference](https://github.com/chris-page-gov/okf-explorer/blob/main/docs/okf-standards.md)
+before changing specification links or an OKF version declaration. Resolve the
+implemented version through the shared register and preserve historical pins.
+<!-- okf-standards:end -->
