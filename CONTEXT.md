@@ -114,3 +114,6 @@ This repo follows the recent local LLM-Wiki pattern found in:
 - Treat `api-mcp-wiki/viewer.html` as the reference interaction pattern for
   OKFR: Markdown remains the source of truth, the viewer is generated, and
   generated-reader drift belongs in validation.
+- Use the central OKF standards register for current and historical
+  specification versions and the public bundle catalogue; keep each local
+  profile declaration explicit.
