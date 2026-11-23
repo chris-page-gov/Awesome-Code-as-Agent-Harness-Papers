@@ -1,6 +1,6 @@
 # Progress
 
-Last updated: 2026-06-26
+Last updated: 2026-11-23
 
 ## Current Status
 
@@ -35,6 +35,8 @@ Last updated: 2026-06-26
 - [x] Export a generated OKFR SeeLinks pack under `exports/okfr/`.
 - [x] Build a generated `_site/` static publication and GitHub Pages workflow.
 - [x] Add JIT training/specification pages and screenshots for OKFR review.
+- [x] Link the central OKF standards register and public bundle catalogue in
+  repository guidance and the README.
 - [ ] Implement reusable OKFR reader support in SeeLinks on
   `codex/okfr-reader`.
 
